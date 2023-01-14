@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _con_n_1 [label=ARG2]
+	udef_q -> _man_n_1 [label=BV]
+	udef_q -> _snow_n_1 [label=BV]
+	udef_q -> _con_n_1 [label=BV]
+	compound -> _man_n_1 [label=ARG1]
+	"_hate_v_1-fn.Experiencer_obj" -> _snow_n_1 [label="ARG2-fn.Attribute"]
+	"_hate_v_1-fn.Experiencer_obj" -> _man_n_1 [label="ARG1-fn.Experiencer"]
+}

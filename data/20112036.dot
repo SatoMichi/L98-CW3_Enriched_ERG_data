@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Reagan)" [label=ARG1]
+	proper_q -> "named(Reagan)" [label=BV]
+	compound -> _president_n_of [label=ARG2]
+	_that_q_dem -> _lesson_n_1 [label=BV]
+	udef_q -> _president_n_of [label=BV]
+	"_learn_v_1-fn.Undergo_change" -> "named(Reagan)" [label="ARG1-fn.Entity"]
+	"_learn_v_1-fn.Undergo_change" -> _lesson_n_1 [label="ARG2-fn.Final_category"]
+}

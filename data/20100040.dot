@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_carry_v_1-fn.Competition" -> "named(Hahn)" [label="ARG1-fn.Participant_1"]
+	"_can_v_modal-fn.Reliance" -> "_carry_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Hahn)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Hahn)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_off_p -> "_carry_v_1-fn.Competition" [label=ARG1]
+	"_carry_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+}

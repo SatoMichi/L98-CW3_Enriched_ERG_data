@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_great_a_for -> "named(Red)" [label=ARG1]
+	_the_q -> "named(Valley)" [label=BV]
+	_of_p -> "named(Valley)" [label=ARG2]
+	udef_q -> _price_n_of [label=BV]
+	compound -> "named(Rhone)" [label=ARG2]
+	proper_q -> "named(Rhone)" [label=BV]
+	_in_p -> _price_n_of [label=ARG2]
+	_the_q -> "named(Red)" [label=BV]
+	compound -> "named(Valley)" [label=ARG1]
+	_of_p -> "named(Red)" [label=ARG1]
+	"_soar_v_1-fn.Change_position_on_a_scale" -> "named(Red)" [label="ARG1-fn.NotExist"]
+	_in_p -> "_soar_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_as+well_a_1" -> "_soar_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Einhorn)" [label=ARG1]
+	compound -> "named(Einhorn)" [label=ARG1]
+	compound -> "named(Goldman)" [label=ARG2]
+	_that_q_dem -> _scenario_n_1 [label=BV]
+	"_subscribe_v_to-fn.Cause_to_end" -> "named(Einhorn)" [label="ARG1-fn.Process"]
+	poss -> "named(Sachs)" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Goldman)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(Sachs)" [label=BV]
+	compound -> "named(Sachs)" [label=ARG1]
+	def_explicit_q -> "named(Einhorn)" [label=BV]
+	"_subscribe_v_to-fn.Cause_to_end" -> _scenario_n_1 [label="ARG2-fn.Means"]
+}

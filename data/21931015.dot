@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _rate_n_of [label=ARG1]
+	_federal_a_1 -> _fund_n_1 [label=ARG1]
+	_should_v_modal -> _tend_v_1 [label=ARG1]
+	_tend_v_1 -> "_reduce_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG1]
+	"_say_v_to-fn.IN" -> _analyst_n_1 [label="ARG1-fn.Agent"]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> _rate_n_of [label="ARG2-fn.Patient"]
+	_additional_a_1 -> _liquidity_n_1 [label=ARG1]
+	compound -> _fund_n_1 [label=ARG2]
+	_the_q -> _rate_n_of [label=BV]
+	udef_q -> _analyst_n_1 [label=BV]
+	udef_q -> _fund_n_1 [label=BV]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> _liquidity_n_1 [label="ARG1-fn.Cause"]
+	_the_q -> _liquidity_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _should_v_modal [label="ARG2-fn.Topic"]
+}

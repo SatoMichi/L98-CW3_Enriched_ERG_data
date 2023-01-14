@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_total_a_1 -> _sale_n_of [label=ARG1]
+	_account_v_for -> pron [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"_say_v_to-fn.IN" -> _account_v_for [label="ARG2-fn.Topic"]
+	_account_v_for -> _percent_n_of [label=ARG2]
+	"card(25)" -> _percent_n_of [label=ARG1]
+	_of_p -> _sale_n_of [label=ARG2]
+	_of_p -> _percent_n_of [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

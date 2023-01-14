@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_enforcement_n_of -> _rule_n_of [label=ARG1]
+	udef_q -> _rule_n_of [label=BV]
+	compound -> _entry_n_1 [label=ARG2]
+	udef_q -> _entry_n_1 [label=BV]
+	_sporadic_a_1 -> _enforcement_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> _sporadic_a_1 [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> _resident_n_of [label="ARG1-fn.Agent"]
+	focus_d -> _sporadic_a_1 [label=ARG2]
+	compound -> _rule_n_of [label=ARG1]
+	_restricted_a_1 -> _entry_n_1 [label=ARG1]
+	udef_q -> _enforcement_n_of [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	udef_q -> _resident_n_of [label=BV]
+}

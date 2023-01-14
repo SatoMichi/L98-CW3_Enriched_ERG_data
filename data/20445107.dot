@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Manufacturing" -> pron [label="ARG1-fn.NotExist"]
+	"little-few_a" -> _effort_n_1 [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	_long_a_1 -> "_make_v_1-fn.Manufacturing" [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	_here_a_1 -> place_n [label=ARG1]
+	"_make_v_1-fn.Manufacturing" -> _effort_n_1 [label="ARG2-fn.Product"]
+	loc_nonsp -> "_make_v_1-fn.Manufacturing" [label=ARG1]
+	udef_q -> _effort_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

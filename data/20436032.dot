@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	"_exist_v_1-fn.Existence" -> pron [label="ARG1-fn.NotExist"]
+	focus_d -> "_want_v_1-fn.Desiring" [label=ARG2]
+	"_say_v_to-fn.IN" -> "_want_v_1-fn.Desiring" [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_pretend_v_1 -> neg [label=ARG2]
+	"_want_v_1-fn.Desiring" -> _pretend_v_1 [label="ARG2-fn.Theme"]
+	neg -> "_exist_v_1-fn.Existence" [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_pretend_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

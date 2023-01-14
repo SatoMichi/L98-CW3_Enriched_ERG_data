@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _take_v_1 [label=ARG2]
+	_broad_a_1 -> "_sell-off_n_1" [label=ARG1]
+	"_prompt_v_1-fn.Bail_decision" -> _worry_n_1 [label="ARG1-fn.Accused"]
+	_a_q -> "_sell-off_n_1" [label=BV]
+	subord -> "_prompt_v_1-fn.Bail_decision" [label=ARG1]
+	_the_q -> _worry_n_1 [label=BV]
+	_together_p -> _take_v_1 [label=ARG1]
+	parg_d -> _take_v_1 [label=ARG1]
+	_of_p -> "_sell-off_n_1" [label=ARG1]
+	"_prompt_v_1-fn.Bail_decision" -> "_sell-off_n_1" [label="ARG2-fn.Judge"]
+	udef_q -> _stock_n_1 [label=BV]
+	_of_p -> _stock_n_1 [label=ARG2]
+}

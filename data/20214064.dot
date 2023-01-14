@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_home_n_of-n" [label=BV]
+	udef_q -> _hit_n_1 [label=BV]
+	udef_q -> _run_n_of [label=BV]
+	compound -> "_home_n_of-n" [label=ARG2]
+	_just_x_deg -> udef_q [label=ARG1]
+	compound -> _hit_n_1 [label=ARG1]
+	neg -> "_think_v_about-fn.IN" [label=ARG1]
+	_anymore_a_1 -> "_think_v_about-fn.IN" [label=ARG1]
+	compound -> _run_n_of [label=ARG1]
+	udef_q -> _base_n_1 [label=BV]
+	"_think_v_about-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	compound -> _base_n_1 [label=ARG2]
+	"_think_v_about-fn.IN" -> _run_n_of [label="ARG3-fn.NotExist"]
+	unknown -> _hit_n_1 [label=ARG]
+	pronoun_q -> pron [label=BV]
+}

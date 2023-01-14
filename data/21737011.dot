@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _sell_n_1 [label=BV]
+	neg -> _would_v_modal [label=ARG1]
+	parg_d -> "_add_v_to-fn.Statement" [label=ARG1]
+	_until_p -> "_add_v_to-fn.Statement" [label=ARG1]
+	compound -> _option_n_1 [label=ARG1]
+	"_add_v_to-fn.Statement" -> _or_c [label="ARG2-fn.Patient"]
+	udef_q -> _option_n_1 [label=BV]
+	udef_q -> _or_c [label=BV]
+	_until_p -> "yofc(1977)" [label=ARG2]
+	proper_q -> "yofc(1977)" [label=BV]
+	parg_d -> _or_c [label=ARG2]
+	udef_q -> _put_n_1 [label=BV]
+	compound -> _sell_n_1 [label=ARG2]
+	_would_v_modal -> "_add_v_to-fn.Statement" [label=ARG1]
+}

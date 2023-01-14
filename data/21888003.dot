@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _loss_n_of [label=BV]
+	"_forecast_v_1-fn.Activity_start" -> "named(Wang)" [label="ARG1-fn.Place"]
+	"_forecast_v_1-fn.Activity_start" -> _loss_n_of [label="ARG2-fn.Purpose"]
+	_previously_p -> "_forecast_v_1-fn.Activity_start" [label=ARG1]
+	proper_q -> "named(Wang)" [label=BV]
+}

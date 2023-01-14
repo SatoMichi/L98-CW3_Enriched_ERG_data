@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_climb_v_1-fn.Undergo_change" -> _stock_n_1 [label="ARG1-fn.Entity"]
+	focus_d -> "_climb_v_1-fn.Undergo_change" [label=ARG1]
+	_of_p -> _trader_n_1 [label=ARG2]
+	_some_q -> _trader_n_1 [label=BV]
+	_of_p -> _amazement_n_at [label=ARG1]
+	compound -> _takeover_n_of [label=ARG2]
+	focus_d -> _to_p [label=ARG2]
+	_to_p -> _amazement_n_at [label=ARG2]
+	_to_p -> "_climb_v_1-fn.Undergo_change" [label=ARG1]
+	compound -> _stock_n_1 [label=ARG1]
+	_the_q -> _amazement_n_at [label=BV]
+	udef_q -> _takeover_n_of [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	_again_a_1 -> "_climb_v_1-fn.Undergo_change" [label=ARG1]
+}

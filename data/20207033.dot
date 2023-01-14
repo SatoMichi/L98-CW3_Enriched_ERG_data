@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _music_n_1 [label=ARG2]
+	udef_q -> _music_n_1 [label=BV]
+	compound -> _chamber_n_1 [label=ARG2]
+	_of_p -> _future_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	udef_q -> _chamber_n_1 [label=BV]
+	compound -> _music_n_1 [label=ARG1]
+	_the_q -> _future_n_1 [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _future_n_1 [label="ARG2-fn.Means"]
+}

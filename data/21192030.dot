@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_so -> _and_c [label=ARG2]
+	_the_q -> _effort_n_1 [label=BV]
+	udef_q -> _traffic_n_1 [label=BV]
+	_still_a_1 -> _slow_a_1 [label=ARG1]
+	comp_so -> _far_a_1 [label=ARG1]
+	"_fail_v_1-fn.Attempt" -> _effort_n_1 [label="ARG1-fn.Agent"]
+	_slow_a_1 -> _traffic_n_1 [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_impressive_a_1 -> _security_n_1 [label=ARG1]
+	_inner_a_1 -> _city_n_1 [label=ARG1]
+	compound -> _city_n_1 [label=ARG2]
+	"_unobtrusive/jj_u_unknown" -> _security_n_1 [label=ARG1]
+	_at_p -> _center_n_of [label=ARG2]
+	udef_q -> _city_n_1 [label=BV]
+	compound -> _center_n_of [label=ARG1]
+	_at_p -> _security_n_1 [label=ARG1]
+	compound -> "named(Haagen)" [label=ARG2]
+	_typical_a_of -> _center_n_of [label=ARG1]
+	proper_q -> "named(Haagen)" [label=BV]
+	_a_q -> _center_n_of [label=BV]
+	udef_q -> _security_n_1 [label=BV]
+}

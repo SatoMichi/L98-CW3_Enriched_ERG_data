@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "yofc(1985)" [label=BV]
+	"_issue_v_1-fn.NF" -> _complaint_n_1 [label="ARG2-fn.Theme"]
+	_a_q -> _complaint_n_1 [label=BV]
+	_in_p -> "_issue_v_1-fn.NF" [label=ARG1]
+	_first_a_1 -> "_issue_v_1-fn.NF" [label=ARG1]
+	_in_p -> _case_n_of [label=ARG2]
+	_the_q -> "named(FTC)" [label=BV]
+	_in_p_temp -> _case_n_of [label=ARG1]
+	_in_p_temp -> "yofc(1985)" [label=ARG2]
+	_the_q -> _case_n_of [label=BV]
+	_administrative_a_1 -> _complaint_n_1 [label=ARG1]
+	"_issue_v_1-fn.NF" -> "named(FTC)" [label="ARG1-fn.Agent"]
+}

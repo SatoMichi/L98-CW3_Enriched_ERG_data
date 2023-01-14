@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_these_q_dem -> _figure_n_1 [label=BV]
+	"_show_v_1-fn.IN" -> _figure_n_1 [label="ARG1-fn.NotExist"]
+	_visible_a_to -> _part_n_1 [label=ARG1]
+	"_show_v_1-fn.IN" -> _part_n_1 [label="ARG2-fn.NotExist"]
+	superl -> _visible_a_to [label=ARG1]
+	_yet_x_deg -> _these_q_dem [label=ARG1]
+	_only_a_1 -> "_show_v_1-fn.IN" [label=ARG1]
+	_the_q -> _problem_n_of [label=BV]
+	_the_q -> _part_n_1 [label=BV]
+}

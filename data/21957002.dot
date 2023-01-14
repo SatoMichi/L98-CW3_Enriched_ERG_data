@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _mood_n_1 [label=BV]
+	"_say_v_to-fn.Taking" -> _analyst_n_1 [label="ARG1-fn.Agent"]
+	_from_p -> _market_n_1 [label=ARG2]
+	"_remove_v_1-fn.Achieving_first" -> _from_p [label="ARG3-fn.Time"]
+	_from_p -> _mood_n_1 [label=ARG1]
+	neg -> "_remove_v_1-fn.Achieving_first" [label=ARG1]
+	"_say_v_to-fn.Taking" -> neg [label="ARG2-fn.Theme"]
+	udef_q -> _analyst_n_1 [label=BV]
+	"_remove_v_1-fn.Achieving_first" -> _mood_n_1 [label="ARG2-fn.New_idea"]
+	_the_q -> _market_n_1 [label=BV]
+	"_remove_v_1-fn.Achieving_first" -> _rebound_n_1 [label="ARG1-fn.Cognizer"]
+	_the_q -> _rebound_n_1 [label=BV]
+	_cautious_a_of -> _mood_n_1 [label=ARG1]
+}

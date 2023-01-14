@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> nominalization [label=ARG2]
+	subord -> _drive_v_1 [label=ARG1]
+	_like_p -> pron [label=ARG1]
+	nominalization -> subord [label=ARG1]
+	_down_p -> _drive_v_1 [label=ARG1]
+	_a_q -> _wreck_n_1 [label=BV]
+	_the_q -> _highway_n_1 [label=BV]
+	subord -> "_watch_v_1-fn.Perception_active" [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	_down_p -> _highway_n_1 [label=ARG2]
+	"_watch_v_1-fn.Perception_active" -> _wreck_n_1 [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

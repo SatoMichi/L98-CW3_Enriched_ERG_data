@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_comment_v_on-fn.Statement" -> "named(Campeau)" [label="ARG1-fn.Agent"]
+	_for_p -> _spokesman_n_1 [label=ARG1]
+	_for_p -> _company_n_of [label=ARG2]
+	proper_q -> "named(Campeau)" [label=BV]
+	_a_q -> _spokesman_n_1 [label=BV]
+	"_see_v_1-fn.Perception_experience" -> _suit_n_of [label="ARG2-fn.Stimulus"]
+	"_say_v_to-fn.IN" -> _and_c [label="ARG2-fn.Topic"]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	"_see_v_1-fn.Perception_experience" -> "named(Campeau)" [label="ARG1-fn.Experiencer"]
+	neg -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	"_say_v_to-fn.IN" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_decline_v_1 -> "named(Campeau)" [label=ARG1]
+	_the_q -> _suit_n_of [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _debt_n_1 [label=BV]
+	"_assume_v_1-fn.Attempt" -> "named(IMA)" [label="ARG1-fn.Agent"]
+	"_assume_v_1-fn.Attempt" -> _dollar_n_1 [label="ARG2-fn.Goal"]
+	times -> "card(1000000000)" [label=ARG3]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(1.4)" [label=ARG2]
+	_also_a_1 -> "_assume_v_1-fn.Attempt" [label=ARG1]
+	proper_q -> "named(IMA)" [label=BV]
+	_in_p -> _debt_n_1 [label=ARG2]
+	_in_p -> _dollar_n_1 [label=ARG1]
+}

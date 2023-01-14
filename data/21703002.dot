@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(18.6)" [label=ARG2]
+	"_estimate_v_at-fn.Activity_start" -> _revenue_n_1 [label="ARG2-fn.Purpose"]
+	udef_q -> _dollar_n_1 [label=BV]
+	parg_d -> "_estimate_v_at-fn.Activity_start" [label=ARG1]
+	"_estimate_v_at-fn.Activity_start" -> _dollar_n_1 [label="ARG3-fn.Time"]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	parg_d -> _revenue_n_1 [label=ARG2]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_play_v_1-fn.Competition" -> "_catch-up_n_1" [label="ARG2-fn.Theme"]
+	_in_p -> _area_n_of [label=ARG2]
+	_some_q -> _other_n_1 [label=BV]
+	_off_p -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_play_v_1-fn.Competition" -> pron [label="ARG1-fn.Agent"]
+	_in_p -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> "_catch-up_n_1" [label=BV]
+	_in_p -> "_play_v_1-fn.Competition" [label=ARG1]
+	_some_q -> _area_n_of [label=BV]
+	_in_p -> _other_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

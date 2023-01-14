@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "_take_v_of-i" [label="ARG2-fn.Topic"]
+	"_take_v_of-i" -> _place_n_i [label=ARG2]
+	idiom_q_i -> _place_n_i [label=BV]
+	"_take_v_of-i" -> _discussion_n_1 [label=ARG1]
+	"card(2)" -> _company_n_of [label=ARG1]
+	_between_p -> _company_n_of [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	_no_q -> _discussion_n_1 [label=BV]
+	_between_p -> "_take_v_of-i" [label=ARG1]
+	_current_a_1 -> "_take_v_of-i" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

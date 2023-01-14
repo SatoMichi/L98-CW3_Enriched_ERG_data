@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _partnership_n_1 [label=BV]
+	_like_p -> _stock_n_1 [label=ARG2]
+	_a_q -> _exchange_n_1 [label=BV]
+	_of_p -> _share_n_of [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	"_trade_v_1-fn.Piracy" -> _share_n_of [label="ARG1-fn.Perpetrator"]
+	"_would_v_modal-fn.Cause_to_end" -> "_trade_v_1-fn.Piracy" [label="ARG1-fn.Process"]
+	_on_p -> _exchange_n_1 [label=ARG2]
+	_on_p -> "_trade_v_1-fn.Piracy" [label=ARG1]
+	_like_p -> "_trade_v_1-fn.Piracy" [label=ARG1]
+	_a_q -> _stock_n_1 [label=BV]
+	_new_a_1 -> _partnership_n_1 [label=ARG1]
+	_of_p -> _partnership_n_1 [label=ARG2]
+}

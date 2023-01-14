@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_medical_a_1 -> _product_n_1 [label=ARG1]
+	_to_p -> _access_n_1 [label=ARG1]
+	"_give_v_1-fn.Giving" -> "named(Mitsui)" [label="ARG3-fn.Recipient"]
+	_also_a_1 -> "_give_v_1-fn.Giving" [label=ARG1]
+	_to_p -> _product_n_1 [label=ARG2]
+	proper_q -> "named(Mitsui)" [label=BV]
+	"_high+tech_a_1" -> _product_n_1 [label=ARG1]
+	"_give_v_1-fn.Giving" -> _deal_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _deal_n_1 [label=BV]
+	_a_q -> _product_n_1 [label=BV]
+	udef_q -> _access_n_1 [label=BV]
+	"_give_v_1-fn.Giving" -> _access_n_1 [label="ARG2-fn.Theme"]
+}

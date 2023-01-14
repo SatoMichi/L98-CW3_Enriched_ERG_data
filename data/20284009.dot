@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_could_v_modal -> "_involve_v_1-fn.NF" [label=ARG1]
+	"_for+instance_a_1" -> _could_v_modal [label=ARG1]
+	_the_q -> _document_n_1 [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	compound -> _bank_n_of [label=ARG2]
+	"_involve_v_1-fn.NF" -> _document_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _or_c [label=BV]
+	udef_q -> _dealings_n_1 [label=BV]
+	compound -> _account_n_of [label=ARG1]
+	"_involve_v_1-fn.NF" -> _or_c [label="ARG2-fn.NotExist"]
+	udef_q -> _account_n_of [label=BV]
+	compound -> _business_n_1 [label=ARG2]
+	udef_q -> _bank_n_of [label=BV]
+	_foreign_a_1 -> _or_c [label=ARG1]
+	compound -> _dealings_n_1 [label=ARG1]
+}

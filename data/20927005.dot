@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_hurt_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	focus_d -> _as_p [label=ARG2]
+	proper_q -> "named(Trust)" [label=BV]
+	def_explicit_q -> _earnings_n_1 [label=BV]
+	poss -> _earnings_n_1 [label=ARG1]
+	_as_p -> "_hurt_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	"_hurt_v_1-fn.Cause_to_make_noise" -> _earnings_n_1 [label="ARG2-fn.Sound_maker"]
+	compound -> "named(Trust)" [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	parg_d -> "_hurt_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	udef_q -> "named_n(US)" [label=BV]
+	parg_d -> _earnings_n_1 [label=ARG2]
+	_as_p -> _result_n_of [label=ARG2]
+	_a_q -> _result_n_of [label=BV]
+	poss -> "named(Trust)" [label=ARG2]
+}

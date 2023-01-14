@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	parg_d -> _dilute_v_1 [label=ARG1]
+	_full_a_of -> _dilute_v_1 [label=ARG1]
+	_current_a_1 -> "_have_v_1-fn.Competition" [label=ARG1]
+	subord -> _dilute_v_1 [label=ARG2]
+	"_have_v_1-fn.Competition" -> "named(UAL)" [label="ARG1-fn.Participant_1"]
+	udef_q -> _share_n_of [label=BV]
+	subord -> "_have_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(UAL)" [label=BV]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	"_have_v_1-fn.Competition" -> _share_n_of [label="ARG2-fn.Participant_2"]
+	times -> "card(22.6)" [label=ARG2]
+}

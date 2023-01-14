@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_would_v_modal -> "_help_v_to-fn.Assistance" [label=ARG1]
+	_resist_v_1 -> _price_n_of [label=ARG2]
+	"_help_v_to-fn.Assistance" -> _price_n_of [label="ARG1-fn.Agent"]
+	_high_a_1 -> _price_n_of [label=ARG1]
+	comp -> _high_a_1 [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	udef_q -> "_advertisers/nns_u_unknown" [label=BV]
+	_resist_v_1 -> "_advertisers/nns_u_unknown" [label=ARG1]
+	"_close_v_cause-fn.NF" -> _price_n_of [label="ARG1-fn.Agent"]
+	"_close_v_cause-fn.NF" -> _gap_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _gap_n_1 [label=BV]
+	"_help_v_to-fn.Assistance" -> "_close_v_cause-fn.NF" [label="ARG2-fn.Theme"]
+}

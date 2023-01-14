@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_enough_q -> _discipline_n_1 [label=BV]
+	_the_q -> generic_entity [label=BV]
+	_be_v_nv -> neg [label=ARG2]
+	"_have_v_1-fn.IN" -> _discipline_n_1 [label="ARG2-fn.Theme"]
+	_be_v_nv -> generic_entity [label=ARG1]
+	"ord(2)" -> generic_entity [label=ARG1]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	neg -> "_have_v_1-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

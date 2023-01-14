@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_same_a_as -> "_thing_n_of-about" [label=ARG1]
+	_the_q -> "_thing_n_of-about" [label=BV]
+	_american_a_1 -> _owner_n_of [label=ARG1]
+	_successful_a_1 -> _owner_n_of [label=ARG1]
+	udef_q -> _business_n_1 [label=BV]
+	"_do_v_1-fn.Piracy" -> _owner_n_of [label="ARG1-fn.Perpetrator"]
+	"_do_v_1-fn.Piracy" -> "_thing_n_of-about" [label="ARG2-fn.Vehicle"]
+	comp_equal -> _same_a_as [label=ARG1]
+	udef_q -> _owner_n_of [label=BV]
+	compound -> _business_n_1 [label=ARG2]
+	compound -> _owner_n_of [label=ARG1]
+}

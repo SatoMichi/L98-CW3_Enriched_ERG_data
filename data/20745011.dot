@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_specify_v_1-fn.Competition" -> "_be_v_id-fn.Residence" [label="ARG2-fn.Participant_2"]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> "_specify_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_specify_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Residence" -> thing [label="ARG2-fn.Location"]
+	which_q -> thing [label=BV]
+}

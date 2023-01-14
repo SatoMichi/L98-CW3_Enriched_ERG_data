@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Law)" [label=BV]
+	compound -> "_grads/nns_u_unknown" [label=ARG1]
+	"much-many_a" -> "_grads/nns_u_unknown" [label=ARG1]
+	"_find_v_1-fn.IN" -> _never_a_1 [label="ARG2-fn.NotExist"]
+	udef_q -> "_grads/nns_u_unknown" [label=BV]
+	udef_q -> _class_n_of [label=BV]
+	_never_a_1 -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _school_n_1 [label=BV]
+	"_find_v_1-fn.IN" -> "_grads/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	compound -> _school_n_1 [label=ARG1]
+	compound -> "named(Law)" [label=ARG2]
+	"_end_v_1-fn.Cause_to_end" -> _class_n_of [label="ARG1-fn.NotExist"]
+}

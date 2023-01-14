@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_definite_a_1 -> "_boost_v_to-fn.NF" [label=ARG1]
+	poss -> "named(Next)" [label=ARG2]
+	def_explicit_q -> _sale_n_of [label=BV]
+	poss -> _sale_n_of [label=ARG1]
+	"_boost_v_to-fn.NF" -> _sale_n_of [label="ARG2-fn.Theme"]
+	"_boost_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(Next)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

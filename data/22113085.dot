@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _predict_v_1 [label=ARG1]
+	_still_a_disc -> _tricky_a_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_tricky_a_1 -> nominalization [label=ARG1]
+}

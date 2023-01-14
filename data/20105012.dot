@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_important_a_for -> _objective_n_1 [label=ARG1]
+	"_prevent_v_from-fn.Preventing" -> _objective_n_1 [label="ARG1-fn.Agent"]
+	_look_v_to -> _future_n_1 [label=ARG2]
+	udef_q -> _homelessness_n_1 [label=BV]
+	_a_q -> _objective_n_1 [label=BV]
+	_if_x_then -> _look_v_to [label=ARG2]
+	_if_x_then -> "_prevent_v_from-fn.Preventing" [label=ARG1]
+	"_prevent_v_from-fn.Preventing" -> _homelessness_n_1 [label="ARG2-fn.Theme"]
+	_look_v_to -> pron [label=ARG1]
+	_the_q -> _future_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

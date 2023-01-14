@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_critic_n_of -> _future_n_1 [label=ARG1]
+	udef_q -> _index_n_1 [label=BV]
+	_essential_a_1 -> "_fall_v_1-fn.Halt" [label=ARG1]
+	compound -> _future_n_1 [label=ARG1]
+	udef_q -> _future_n_1 [label=BV]
+	compound -> _stock_n_1 [label=ARG2]
+	_into_p -> _camp_n_1 [label=ARG2]
+	"card(2)" -> _camp_n_1 [label=ARG1]
+	_the_q -> _critic_n_of [label=BV]
+	_into_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _camp_n_1 [label=BV]
+	"_fall_v_1-fn.Halt" -> _critic_n_of [label="ARG1-fn.Purpose"]
+	compound -> _index_n_1 [label=ARG1]
+	udef_q -> _stock_n_1 [label=BV]
+}

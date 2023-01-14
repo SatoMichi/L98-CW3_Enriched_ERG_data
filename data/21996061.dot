@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_turn_v_around -> pron [label=ARG1]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	_can_v_modal -> _and_c [label=ARG1]
+	"_think_v_1-fn.IN" -> _can_v_modal [label="ARG2-fn.NotExist"]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_turn_v_around -> "_thing_n_of-about" [label=ARG2]
+	_out_p_dir -> _go_v_1 [label=ARG1]
+	_go_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

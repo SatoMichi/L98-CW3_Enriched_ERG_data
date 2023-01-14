@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_result_v_1-fn.NF" -> "_stockpiling/nn_u_unknown" [label="ARG1-fn.NotExist"]
+	_the_q -> _market_n_1 [label=BV]
+	_depress_v_1 -> _market_n_1 [label=ARG2]
+	_depress_v_1 -> "_stockpiling/nn_u_unknown" [label=ARG1]
+	_the_q -> "_stockpiling/nn_u_unknown" [label=BV]
+}

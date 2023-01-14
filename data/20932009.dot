@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_indicate_v_1-fn.Evidence" -> _number_n_of [label="ARG2-fn.Topic"]
+	udef_q -> _test_n_of [label=BV]
+	"_indicate_v_1-fn.Evidence" -> _test_n_of [label="ARG1-fn.Cause"]
+	parg_d -> _blood_n_1 [label=ARG2]
+	_if_x_then -> neg [label=ARG1]
+	parg_d -> "_take_v_1-fn.Removing" [label=ARG1]
+	_a_q -> _number_n_of [label=BV]
+	"_take_v_1-fn.Removing" -> _blood_n_1 [label="ARG2-fn.Theme"]
+	_low_a_on -> _number_n_of [label=ARG1]
+	_red_a_1 -> _cell_n_1 [label=ARG1]
+	neg -> "_take_v_1-fn.Removing" [label=ARG1]
+	udef_q -> _blood_n_1 [label=BV]
+	udef_q -> _cell_n_1 [label=BV]
+	_if_x_then -> "_indicate_v_1-fn.Evidence" [label=ARG2]
+	_number_n_of -> _cell_n_1 [label=ARG1]
+}

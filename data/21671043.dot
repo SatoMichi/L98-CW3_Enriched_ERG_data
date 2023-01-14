@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	"_make_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	udef_q -> _decision_n_1 [label=BV]
+	"_make_v_1-fn.Rite" -> _handful_n_of [label="ARG2-fn.Member"]
+	"_relate_v_to-fn.Cause_to_end" -> _decision_n_1 [label="ARG2-fn.Means"]
+	_a_q -> _handful_n_of [label=BV]
+	compound -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _decision_n_1 [label=ARG2]
+	compound -> _abortion_n_of [label=ARG2]
+	udef_q -> _abortion_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_handful_n_of -> _decision_n_1 [label=ARG1]
+	_only_a_1 -> "_make_v_1-fn.Rite" [label=ARG1]
+}

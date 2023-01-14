@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _patient_n_1 [label=BV]
+	compound -> "named(AIDS)" [label=ARG2]
+	"_express_v_to-fn.Cause_to_end" -> _satisfaction_n_of [label="ARG2-fn.Means"]
+	proper_q -> "named(AIDS)" [label=BV]
+	udef_q -> _mother_n_of [label=BV]
+	_mother_n_of -> _patient_n_1 [label=ARG1]
+	compound -> _patient_n_1 [label=ARG1]
+	udef_q -> _satisfaction_n_of [label=BV]
+	_somber_a_1 -> _satisfaction_n_of [label=ARG1]
+	_young_a_1 -> _patient_n_1 [label=ARG1]
+	"_express_v_to-fn.Cause_to_end" -> _mother_n_of [label="ARG1-fn.Process"]
+}

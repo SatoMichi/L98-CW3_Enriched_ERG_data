@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named(Finland)" [label=BV]
+	unknown -> "named(Okobank)" [label=ARG]
+	parenthetical -> "named(Finland)" [label=ARG2]
+	parenthetical -> "named(Okobank)" [label=ARG1]
+	proper_q -> "named(Okobank)" [label=BV]
+}

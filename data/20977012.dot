@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_supersede_v_1-fn.Relative_time" -> _filing_n_1 [label="ARG1-fn.Focal_occasion"]
+	compound -> _law_n_1 [label=ARG1]
+	udef_q -> _bankruptcy_n_1 [label=BV]
+	compound -> _filing_n_1 [label=ARG1]
+	udef_q -> _law_n_1 [label=BV]
+	compound -> _bankruptcy_n_1 [label=ARG2]
+	compound -> "named(Merksamer)" [label=ARG2]
+	"_appear_v_to-fn.Receiving" -> "_supersede_v_1-fn.Relative_time" [label="ARG2-fn.Donor"]
+	_the_q -> _filing_n_1 [label=BV]
+	_that_q_dem -> _agreement_n_1 [label=BV]
+	"_supersede_v_1-fn.Relative_time" -> _agreement_n_1 [label="ARG2-fn.Landmark_occasion"]
+	proper_q -> "named(Merksamer)" [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_move_v_1-fn.Relative_time" -> "named(Lloyds)" [label="ARG1-fn.Focal_occasion"]
+	_on_p -> _front_n_1 [label=ARG2]
+	proper_q -> "named(Lloyds)" [label=BV]
+	_forward_p_dir -> "_move_v_1-fn.Relative_time" [label=ARG1]
+	_some_q -> _front_n_1 [label=BV]
+	_on_p -> "_move_v_1-fn.Relative_time" [label=ARG1]
+}

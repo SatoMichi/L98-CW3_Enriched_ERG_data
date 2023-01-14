@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _perk_n_1 [label=ARG2]
+	udef_q -> _perk_n_1 [label=BV]
+	"_reduce_v_1-fn.Achieving_first" -> _perk_n_1 [label="ARG2-fn.New_idea"]
+	parg_d -> "_reduce_v_1-fn.Achieving_first" [label=ARG1]
+	_even_a_1 -> _perk_n_1 [label=ARG1]
+}

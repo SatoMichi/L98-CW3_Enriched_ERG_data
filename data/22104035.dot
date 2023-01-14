@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_leave_v_1-fn.Competition" -> _in_p [label="ARG3-fn.Participants"]
+	_in_p -> "_quandary/nn_u_unknown" [label=ARG2]
+	"_leave_v_1-fn.Competition" -> _board_n_of [label="ARG2-fn.Participant_2"]
+	_in_p -> _board_n_of [label=ARG1]
+	compound -> _board_n_of [label=ARG1]
+	"_leave_v_1-fn.Competition" -> _decline_n_1 [label="ARG1-fn.Participant_1"]
+	_the_q -> _board_n_of [label=BV]
+	_a_q -> "_quandary/nn_u_unknown" [label=BV]
+	poss -> _stock_n_1 [label=ARG2]
+	poss -> _decline_n_1 [label=ARG1]
+	proper_q -> "named(UAL)" [label=BV]
+	def_explicit_q -> _decline_n_1 [label=BV]
+	_the_q -> _stock_n_1 [label=BV]
+	_also_a_1 -> "_leave_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(UAL)" [label=ARG2]
+}

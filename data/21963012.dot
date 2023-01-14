@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _bill_n_of [label=BV]
+	parg_d -> _enact_v_1 [label=ARG1]
+	_before_x_h -> _can_v_modal [label=ARG2]
+	"_restore_v_to-fn.NF" -> _cut_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _cut_n_1 [label=BV]
+	_must_v_modal -> _enact_v_1 [label=ARG1]
+	parg_d -> "_restore_v_to-fn.NF" [label=ARG1]
+	parg_d -> _bill_n_of [label=ARG2]
+	parg_d -> _cut_n_1 [label=ARG2]
+	_before_x_h -> _must_v_modal [label=ARG1]
+	_can_v_modal -> "_restore_v_to-fn.NF" [label=ARG1]
+	_enact_v_1 -> _bill_n_of [label=ARG2]
+}

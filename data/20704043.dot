@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Triple_A)" [label=BV]
+	compound -> "named(Inc)" [label=ARG1]
+	proper_q -> "named(Phelps)" [label=BV]
+	proper_q -> "named(Inc)" [label=BV]
+	parg_d -> "_rate_v_1-fn.Relative_time" [label=ARG1]
+	"_rate_v_1-fn.Relative_time" -> _security_n_1 [label="ARG3-fn.Interval"]
+	udef_q -> _and_c [label=BV]
+	"_rate_v_1-fn.Relative_time" -> _and_c [label="ARG1-fn.Focal_occasion"]
+	_the_q -> _security_n_1 [label=BV]
+	compound -> _and_c [label=ARG2]
+	"_rate_v_1-fn.Relative_time" -> "named(Triple_A)" [label="ARG2-fn.Landmark_occasion"]
+	parg_d -> _security_n_1 [label=ARG2]
+	proper_q -> "named(Duff)" [label=BV]
+	proper_q -> "named(Moodys)" [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Kidder)" [label=ARG2]
+	loc_nonsp -> place_n [label=ARG2]
+	udef_q -> "_and+company_n_1" [label=BV]
+	_back_p -> place_n [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	proper_q -> "named(Peabody)" [label=BV]
+	compound -> "named(Peabody)" [label=ARG1]
+	compound -> "_and+company_n_1" [label=ARG2]
+	proper_q -> "named(Kidder)" [label=BV]
+	"_try_v_1-fn.Attempt" -> _struggle_v_1 [label="ARG2-fn.Theme"]
+	loc_nonsp -> _struggle_v_1 [label=ARG1]
+	_struggle_v_1 -> "named(Peabody)" [label=ARG1]
+	"_try_v_1-fn.Attempt" -> "named(Peabody)" [label="ARG1-fn.Agent"]
+}

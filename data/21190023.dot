@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _other_n_1 [label=ARG2]
+	_vertical_a_1 -> _integrate_v_into [label=ARG1]
+	_each_q -> _company_n_of [label=BV]
+	_the_q -> _other_n_1 [label=BV]
+	parg_d -> _integrate_v_into [label=ARG1]
+	_powerful_a_1 -> _other_n_1 [label=ARG1]
+	_become_v_id -> _other_n_1 [label=ARG1]
+	"_worry_v_about-fn.Emotion_active" -> _company_n_of [label="ARG1-fn.Stimulus"]
+	"_worry_v_about-fn.Emotion_active" -> _become_v_id [label="ARG2-fn.Experiencer"]
+	comp_too -> _vertical_a_1 [label=ARG1]
+	comp_too -> _powerful_a_1 [label=ARG1]
+	_integrate_v_into -> _other_n_1 [label=ARG2]
+	_become_v_id -> _and_c [label=ARG2]
+}

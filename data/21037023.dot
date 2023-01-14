@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_increase_v_cause-fn.Cause_harm" [label=ARG1]
+	neg -> "_aim_v_at-fn.Attack" [label=ARG1]
+	"much-many_a" -> _investment_n_1 [label=ARG1]
+	parg_d -> "_aim_v_at-fn.Attack" [label=ARG1]
+	"_aim_v_at-fn.Attack" -> nominalization [label="ARG3-fn.Assailant"]
+	"_aim_v_at-fn.Attack" -> _investment_n_1 [label="ARG2-fn.Weapon"]
+	parg_d -> _investment_n_1 [label=ARG2]
+	udef_q -> _investment_n_1 [label=BV]
+	_moreover_a_1 -> neg [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_increase_v_cause-fn.Cause_harm" -> _capacity_n_1 [label="ARG2-fn.Victim"]
+	udef_q -> _capacity_n_1 [label=BV]
+}

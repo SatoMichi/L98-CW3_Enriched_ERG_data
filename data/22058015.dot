@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> generic_entity [label=ARG2]
+	"_prepare_v_for-fn.Activity_prepare" -> pron [label="ARG1-fn.Agent"]
+	_of_p -> _time_n_of [label=ARG1]
+	udef_q -> _time_n_of [label=BV]
+	_of_p -> _peace_n_1 [label=ARG2]
+	udef_q -> _peace_n_1 [label=BV]
+	"_prepare_v_for-fn.Activity_prepare" -> _war_n_1 [label="ARG2-fn.NotExist"]
+	_for_p -> _peace_n_1 [label=ARG1]
+	"_talk_v_of-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_talk_v_of-fn.IN" -> _time_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> _war_n_1 [label=BV]
+	_all_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+}

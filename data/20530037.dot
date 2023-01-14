@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_model_v_1-fn.Activity_stop" -> _store_n_1 [label="ARG2-fn.Place"]
+	proper_q -> "named(Brooks)" [label=BV]
+	compound -> "named(Brothers)" [label=ARG1]
+	poss -> _store_n_1 [label=ARG1]
+	compound -> "named(Brooks)" [label=ARG2]
+	proper_q -> "named(Brothers)" [label=BV]
+	"_re-_a_again" -> "_model_v_1-fn.Activity_stop" [label=ARG1]
+	_also_a_1 -> "_model_v_1-fn.Activity_stop" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_model_v_1-fn.Activity_stop" -> "named(Brothers)" [label="ARG1-fn.Purpose"]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _store_n_1 [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	_for_p -> _awhile_n_1 [label=ARG2]
+	_for_p -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _stock_n_1 [label="ARG1-fn.Process"]
+	def_explicit_q -> _awhile_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _money_n_1 [label="ARG2-fn.Means"]
+	"_think_v_1-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+	udef_q -> _money_n_1 [label=BV]
+	"_think_v_1-fn.Attempt_suasion" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.Addressee"]
+	_dead_a_1 -> _money_n_1 [label=ARG1]
+	_the_q -> _stock_n_1 [label=BV]
+}

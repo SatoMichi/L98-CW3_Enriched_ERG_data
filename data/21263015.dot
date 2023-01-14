@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Fireman)" [label=BV]
+	_the_q -> _title_n_of [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_assume_v_1-fn.Adopt_selection" -> _title_n_of [label="ARG2-fn.Theme"]
+	"_add_v_to-fn.NF" -> "_assume_v_1-fn.Adopt_selection" [label="ARG2-fn.Topic"]
+	udef_q -> _president_n_of [label=BV]
+	"_add_v_to-fn.NF" -> "named(Reebok)" [label="ARG1-fn.Agent"]
+	"_assume_v_1-fn.Adopt_selection" -> "named(Fireman)" [label="ARG1-fn.Agent"]
+	_title_n_of -> _president_n_of [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Reebok)" [label=BV]
+	compound -> "named(Fireman)" [label=ARG1]
+}

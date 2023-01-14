@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_without_p -> "_lend_v_to-fn.Cause_to_end" [label=ARG1]
+	_often_a_1 -> _without_p [label=ARG1]
+	_these_q_dem -> "_financiers/nns_u_unknown" [label=BV]
+	"much-many_a" -> part_of [label=ARG1]
+	"_lend_v_to-fn.Cause_to_end" -> part_of [label="ARG1-fn.Process"]
+	udef_q -> _collateral_n_1 [label=BV]
+	udef_q -> part_of [label=BV]
+	part_of -> "_financiers/nns_u_unknown" [label=ARG1]
+	nominalization -> "_demand_v_of-fn.Cause_to_end" [label=ARG1]
+	_without_p -> nominalization [label=ARG2]
+	"_demand_v_of-fn.Cause_to_end" -> _collateral_n_1 [label="ARG2-fn.Means"]
+	udef_q -> nominalization [label=BV]
+	_free_a_of -> "_lend_v_to-fn.Cause_to_end" [label=ARG1]
+}

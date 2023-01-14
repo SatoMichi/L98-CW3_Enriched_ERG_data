@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	loc_nonsp -> _time_n_of [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _share_n_of [label="ARG1-fn.Process"]
+	"much-many_a" -> _share_n_of [label=ARG1]
+	focus_d -> loc_nonsp [label=ARG2]
+	udef_q -> _share_n_of [label=BV]
+	loc_nonsp -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	measure -> _percent_n_of [label=ARG2]
+	"card(30)" -> _percent_n_of [label=ARG1]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	_this_q_dem -> _time_n_of [label=BV]
+	comp -> "much-many_a" [label=ARG1]
+	measure -> comp [label=ARG1]
+}

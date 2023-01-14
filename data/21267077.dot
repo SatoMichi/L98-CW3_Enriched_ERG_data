@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _strategy_n_of [label=BV]
+	"_employ_v_1-fn.Using" -> _and_c [label="ARG2-fn.Theme"]
+	_any_q -> _lawyer_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_the_q -> _fact_n_1 [label=BV]
+	"_select_v_1-fn.Choosing" -> _and_c [label="ARG2-fn.Theme"]
+	"_select_v_1-fn.Choosing" -> _lawyer_n_1 [label="ARG1-fn.Agent"]
+}

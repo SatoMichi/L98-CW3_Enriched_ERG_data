@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.Commerce_buy" -> _manager_n_of [label="ARG1-fn.Buyer"]
+	_until_p -> "_complete_v_2-fn.Activity_ongoing" [label=ARG1]
+	_the_q -> _manager_n_of [label=BV]
+	of_p -> "dofm(30)" [label=ARG1]
+	def_explicit_q -> "dofm(30)" [label=BV]
+	neg -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	def_implicit_q -> "mofy(Nov)" [label=BV]
+	"_expect_v_1-fn.Commerce_buy" -> "_complete_v_2-fn.Activity_ongoing" [label="ARG2-fn.Goods"]
+	"_complete_v_2-fn.Activity_ongoing" -> _manager_n_of [label="ARG1-fn.Duration"]
+	of_p -> "mofy(Nov)" [label=ARG2]
+	"_complete_v_2-fn.Activity_ongoing" -> _evaluation_n_of [label="ARG2-fn.Activity"]
+	_until_p -> "dofm(30)" [label=ARG2]
+	_the_q -> _evaluation_n_of [label=BV]
+}

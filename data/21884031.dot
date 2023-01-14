@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	number_q -> "card(1)" [label=BV]
+	number_q -> "card(65)" [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> "card(1)" [label="ARG2-fn.Means"]
+	"_add_v_to-fn.Cause_to_end" -> "named(Chevron)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Chevron)" [label=BV]
+	_to_p -> "card(65)" [label=ARG2]
+}

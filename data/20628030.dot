@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(675,400,000)" -> _dollar_n_1 [label=ARG1]
+	unknown -> _dollar_n_1 [label=ARG]
+	udef_q -> _dollar_n_1 [label=BV]
+}

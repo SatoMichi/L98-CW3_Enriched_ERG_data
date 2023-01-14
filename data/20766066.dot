@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_underneath_p -> pron [label=ARG2]
+	_underneath_p -> "_shake_v_1-fn.Moving_in_place" [label=ARG1]
+	"_shake_v_1-fn.Moving_in_place" -> _ground_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _ground_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

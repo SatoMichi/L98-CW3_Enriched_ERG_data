@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	"_seem_v_to-fn.Desiring" -> thing [label="ARG1-fn.Experiencer"]
+	"_seem_v_to-fn.Desiring" -> _hard_a_for [label="ARG2-fn.Event"]
+	_here_a_1 -> place_n [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	_no_q -> thing [label=BV]
+	loc_nonsp -> "_seem_v_to-fn.Desiring" [label=ARG1]
+	_hard_a_for -> thing [label=ARG1]
+}

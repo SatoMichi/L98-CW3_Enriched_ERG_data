@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Anderson)" [label=BV]
+	proper_q -> "named(Clarcor)" [label=BV]
+	compound -> "named(Rockford)" [label=ARG2]
+	proper_q -> "named(Rockford)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	_in_p -> _and_c [label=ARG1]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _and_c [label="ARG2-fn.Item"]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Illinois)" [label=BV]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	parg_d -> _and_c [label=ARG2]
+	compound -> "named(Illinois)" [label=ARG1]
+	_in_p -> "named(Illinois)" [label=ARG2]
+}

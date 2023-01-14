@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bring_v_in-fn.Bringing" -> "named(Dolan)" [label="ARG2-fn.Theme"]
+	proper_q -> "named(J)" [label=BV]
+	compound -> "named(Dolan)" [label=ARG1]
+	proper_q -> "named(Robert)" [label=BV]
+	compound -> "named(Buzzell)" [label=ARG1]
+	"_bring_v_in-fn.Bringing" -> "named(Polaroid)" [label="ARG1-fn.Instrument"]
+	proper_q -> "named(Dolan)" [label=BV]
+	proper_q -> "named(Polaroid)" [label=BV]
+	"_hire_v_1-fn.Hiring" -> "named(Buzzell)" [label="ARG2-fn.Theme"]
+	proper_q -> "named(Buzzell)" [label=BV]
+	"_hire_v_1-fn.Hiring" -> "named(Kodak)" [label="ARG1-fn.Agent"]
+	compound -> "named(J)" [label=ARG1]
+	proper_q -> "named(Kodak)" [label=BV]
+	compound -> "named(Robert)" [label=ARG2]
+}

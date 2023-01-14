@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sell_v_1-fn.Commerce_sell" -> _solution_n_of [label="ARG1-fn.Agent"]
+	eventuality -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	_the_q -> "_shipyard/nn_u_unknown" [label=BV]
+	"_sell_v_1-fn.Commerce_sell" -> "_shipyard/nn_u_unknown" [label="ARG2-fn.Theme"]
+	_a_q -> _outsider_n_1 [label=BV]
+	"card(1)" -> _solution_n_of [label=ARG1]
+	udef_q -> _solution_n_of [label=BV]
+	_would_v_modal -> eventuality [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> _outsider_n_1 [label="ARG3-fn.Recipient"]
+}

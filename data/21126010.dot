@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_schedule_v_1-fn.Social_event" -> _hotel_n_1 [label="ARG2-fn.Social_event"]
+	parg_d -> "_schedule_v_1-fn.Social_event" [label=ARG1]
+	parg_d -> _hotel_n_1 [label=ARG2]
+	_in_p_temp -> "_open_v_1-fn.Halt" [label=ARG1]
+	_in_p_temp -> "yofc(1992)" [label=ARG2]
+	"_schedule_v_1-fn.Social_event" -> "_open_v_1-fn.Halt" [label="ARG3-fn.Place"]
+	proper_q -> "yofc(1992)" [label=BV]
+	"_open_v_1-fn.Halt" -> _hotel_n_1 [label="ARG1-fn.Purpose"]
+	_the_q -> _hotel_n_1 [label=BV]
+}

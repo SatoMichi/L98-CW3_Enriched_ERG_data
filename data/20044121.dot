@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_crank_v_up-fn.Undergo_change" -> _authority_n_1 [label="ARG1-fn.Entity"]
+	_legal_a_1 -> _authority_n_1 [label=ARG1]
+	_worthy_a_of -> _investigation_n_1 [label=ARG1]
+	_worthy_a_of -> _case_n_of [label=ARG2]
+	compound -> _case_n_of [label=ARG1]
+	udef_q -> _authority_n_1 [label=BV]
+	udef_q -> _murder_n_of [label=BV]
+	compound -> _murder_n_of [label=ARG2]
+	_a_q -> _case_n_of [label=BV]
+	"_crank_v_up-fn.Undergo_change" -> _investigation_n_1 [label="ARG2-fn.Final_category"]
+	_a_q -> _investigation_n_1 [label=BV]
+}

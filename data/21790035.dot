@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_take_v_1 -> _management_n_1 [label=ARG1]
+	udef_q -> "_dishonesty/nn_u_unknown" [label=BV]
+	_can_v_modal -> _take_v_1 [label=ARG1]
+	_take_v_1 -> _step_n_1 [label=ARG2]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> "_dishonesty/nn_u_unknown" [label="ARG2-fn.Patient"]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> _management_n_1 [label="ARG1-fn.Cause"]
+	"_in+order+to_x" -> _can_v_modal [label=ARG1]
+	"_in+order+to_x" -> "_reduce_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG2]
+	udef_q -> _management_n_1 [label=BV]
+	udef_q -> _step_n_1 [label=BV]
+	_several_a_1 -> _step_n_1 [label=ARG1]
+	_new_a_1 -> _management_n_1 [label=ARG1]
+}

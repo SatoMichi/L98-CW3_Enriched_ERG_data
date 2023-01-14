@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _improvement_n_1 [label=ARG1]
+	_other_a_1 -> _area_n_of [label=ARG1]
+	_a_q -> _process_n_of [label=BV]
+	_very_x_deg -> _small_a_1 [label=ARG1]
+	_these_q_dem -> _area_n_of [label=BV]
+	_small_a_1 -> _process_n_of [label=ARG1]
+	_slow_a_1 -> _process_n_of [label=ARG1]
+	"_see_v_1-fn.Expectation" -> _improvement_n_1 [label="ARG2-fn.Phenomenon"]
+	_in_p -> _area_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Name_conferral" -> pron [label="ARG1-fn.Entity"]
+	"_be_v_id-fn.Name_conferral" -> _process_n_of [label="ARG2-fn.Name"]
+	"_see_v_1-fn.Expectation" -> pron [label="ARG1-fn.Cognizer"]
+	_some_q -> _improvement_n_1 [label=BV]
+}

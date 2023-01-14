@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_need_v_1-fn.Required_event" -> "_sort_v_out-fn.Differentiation" [label="ARG2-fn.Theme"]
+	"_sort_v_out-fn.Differentiation" -> pron [label="ARG2-fn.Theme"]
+	"_need_v_1-fn.Required_event" -> pron [label="ARG1-fn.Pivot"]
+	pronoun_q -> pron [label=BV]
+}

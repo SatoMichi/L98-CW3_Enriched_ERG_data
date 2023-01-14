@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_predict_v_1-fn.Predicting" -> _can_v_modal [label="ARG2-fn.Topic"]
+	udef_q -> "named(Democrats)" [label=BV]
+	"_predict_v_1-fn.Predicting" -> _nor_c [label="ARG1-fn.Cause"]
+	_the_q -> _force_n_1 [label=BV]
+	compound -> _capital_n_1 [label=ARG2]
+	_produce_v_1 -> _force_n_1 [label=ARG1]
+	udef_q -> "named(Republicans)" [label=BV]
+	_produce_v_1 -> _vote_n_1 [label=ARG2]
+	udef_q -> _gain_n_1 [label=BV]
+	udef_q -> _nor_c [label=BV]
+	compound -> _force_n_1 [label=ARG1]
+	_can_v_modal -> _produce_v_1 [label=ARG1]
+	_enough_q -> _vote_n_1 [label=BV]
+	udef_q -> _capital_n_1 [label=BV]
+	compound -> _gain_n_1 [label=ARG1]
+}

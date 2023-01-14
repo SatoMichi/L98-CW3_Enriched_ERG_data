@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p -> _end_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _month_n_1 [label=BV]
+	"_indicate_v_1-fn.Attack" -> "_rule_v_1-fn.Attempt_suasion" [label="ARG2-fn.Weapon"]
+	"_rule_v_1-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+	"_indicate_v_1-fn.Attack" -> _court_n_of [label="ARG1-fn.Victim"]
+	_on_p -> _case_n_of [label=ARG2]
+	_the_q -> _court_n_of [label=BV]
+	_end_n_of -> _month_n_1 [label=ARG1]
+	_on_p -> "_rule_v_1-fn.Attempt_suasion" [label=ARG1]
+	_the_q -> _case_n_of [label=BV]
+	_by_p -> "_rule_v_1-fn.Attempt_suasion" [label=ARG1]
+	_the_q -> _end_n_of [label=BV]
+}

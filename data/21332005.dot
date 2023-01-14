@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	"card(45)" -> _year_n_1 [label=ARG1]
+	_old_a_1 -> "named(Decker)" [label=ARG1]
+	measure -> _year_n_1 [label=ARG2]
+	compound -> "named(Decker)" [label=ARG1]
+	proper_q -> "named(Decker)" [label=BV]
+	_about_x_deg -> measure [label=ARG1]
+	measure -> _old_a_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_now_a_1 -> _on_p [label=ARG1]
+	_on_p -> pron [label=ARG1]
+	_the_q -> _fence_n_1 [label=BV]
+	_on_p -> _fence_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

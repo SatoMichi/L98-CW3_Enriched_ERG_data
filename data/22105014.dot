@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Berlitz)" [label=BV]
+	_since_p -> "yofc(1966)" [label=ARG2]
+	proper_q -> "yofc(1966)" [label=BV]
+	"_own_v_1-fn.Rite" -> "named(Berlitz)" [label="ARG2-fn.Member"]
+	"_own_v_1-fn.Rite" -> "named(Macmillan)" [label="ARG1-fn.Leader"]
+	_since_p -> "_own_v_1-fn.Rite" [label=ARG1]
+	proper_q -> "named(Macmillan)" [label=BV]
+}

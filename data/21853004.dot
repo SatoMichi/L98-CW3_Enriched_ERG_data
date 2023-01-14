@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_after_p -> "_come_v_1-fn.Halt" [label=ARG1]
+	"_come_v_1-fn.Halt" -> _announcement_n_of [label="ARG1-fn.Purpose"]
+	poss -> _market_n_1 [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	_the_q -> _announcement_n_of [label=BV]
+	poss -> _close_n_of [label=ARG1]
+	_after_p -> _close_n_of [label=ARG2]
+	def_explicit_q -> _close_n_of [label=BV]
+}

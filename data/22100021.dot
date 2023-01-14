@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _business_n_1 [label=BV]
+	_in_p -> _business_n_1 [label=ARG2]
+	compound -> _click_n_1 [label=ARG1]
+	udef_q -> _click_n_1 [label=BV]
+	compound -> _business_n_1 [label=ARG1]
+	_in_p -> _people_n_of [label=ARG1]
+	udef_q -> _phone_n_1 [label=BV]
+	"_call_v_1-fn.IN" -> _technology_n_1 [label="ARG3-fn.Result"]
+	compound -> _phone_n_1 [label=ARG2]
+	"_call_v_1-fn.IN" -> _click_n_1 [label="ARG2-fn.Theme"]
+	proper_q -> "yofc(900)" [label=BV]
+	"_call_v_1-fn.IN" -> _people_n_of [label="ARG1-fn.Agent"]
+	compound -> "yofc(900)" [label=ARG2]
+	_this_q_dem -> _technology_n_1 [label=BV]
+	udef_q -> _people_n_of [label=BV]
+}

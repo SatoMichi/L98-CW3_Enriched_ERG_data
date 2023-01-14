@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_use_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_virtual_a_1 -> _useless_a_1 [label=ARG1]
+	_in_p -> _case_n_of [label=ARG2]
+	"_find_v_mental-fn.IN" -> _virtual_a_1 [label="ARG2-fn.Theme"]
+	"_use_v_1-fn.IN" -> _consultant_n_1 [label="ARG2-fn.NotExist"]
+	_in_p -> "_use_v_1-fn.IN" [label=ARG1]
+	"_find_v_mental-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> _but_c [label="ARG2-fn.Topic"]
+	_the_q -> _case_n_of [label=BV]
+	udef_q -> _consultant_n_1 [label=BV]
+	_useless_a_1 -> pron [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

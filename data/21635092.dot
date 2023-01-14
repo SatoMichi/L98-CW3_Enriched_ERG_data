@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	of_p -> "mofy(Aug)" [label=ARG2]
+	"_as+of_p" -> unknown [label=ARG1]
+	of_p -> "dofm(30)" [label=ARG1]
+	def_implicit_q -> "mofy(Aug)" [label=BV]
+	"_as+of_p" -> "dofm(30)" [label=ARG2]
+	def_explicit_q -> "dofm(30)" [label=BV]
+}

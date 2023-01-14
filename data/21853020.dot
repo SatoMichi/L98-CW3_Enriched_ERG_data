@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	_necessary_a_1 -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	_necessary_a_1 -> _fatal_a_1 [label=ARG1]
+	_no_q -> part_of [label=BV]
+	part_of -> _problem_n_of [label=ARG1]
+	_all_a_1 -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	_fatal_a_1 -> part_of [label=ARG1]
+	_the_q -> _problem_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	neg -> _necessary_a_1 [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	"_relate_v_to-fn.Cause_to_end" -> pron [label="ARG2-fn.Means"]
+	_even_a_1 -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+}

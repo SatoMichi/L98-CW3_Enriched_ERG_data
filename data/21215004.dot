@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _chapter_n_1 [label=BV]
+	"_turn_v_down-fn.Taking" -> _judge_n_of [label="ARG1-fn.Agent"]
+	compound -> _petition_n_1 [label=ARG1]
+	_the_q -> _petition_n_1 [label=BV]
+	_a_q -> _judge_n_of [label=BV]
+	compound -> "card(11)" [label=ARG1]
+	compound -> _chapter_n_1 [label=ARG2]
+	"_turn_v_down-fn.Taking" -> _petition_n_1 [label="ARG2-fn.Theme"]
+	number_q -> "card(11)" [label=BV]
+	_federal_a_1 -> _judge_n_of [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p_means -> "named_n(USA)" [label=ARG2]
+	nominalization -> _publish_v_1 [label=ARG1]
+	proper_q -> "named(Reed)" [label=BV]
+	compound -> "named_n(USA)" [label=ARG1]
+	_by_p_means -> "_copyright_v_1-fn.Residence" [label=ARG1]
+	proper_q -> "yofc(1989)" [label=BV]
+	compound -> "named(Reed)" [label=ARG2]
+	udef_q -> "named_n(USA)" [label=BV]
+	compound -> nominalization [label=ARG1]
+	"_copyright_v_1-fn.Residence" -> "yofc(1989)" [label="ARG2-fn.Location"]
+	udef_q -> nominalization [label=BV]
+}

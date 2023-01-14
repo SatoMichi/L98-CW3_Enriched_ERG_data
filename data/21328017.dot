@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _cash_n_1 [label=BV]
+	compound -> _cash_n_1 [label=ARG2]
+	compound -> _crunch_n_1 [label=ARG1]
+	"_even+so_a_1" -> _would_v_modal [label=ARG1]
+	"_face_v_1-fn.Confronting_problem" -> _crunch_n_1 [label="ARG2-fn.NotExist"]
+	_would_v_modal -> _seem_v_to [label=ARG1]
+	_a_q -> _crunch_n_1 [label=BV]
+	_seem_v_to -> "_face_v_1-fn.Confronting_problem" [label=ARG2]
+	_the_q -> _trust_n_1 [label=BV]
+}

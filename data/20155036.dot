@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _heat_v_1 [label=ARG1]
+	_crude_a_1 -> _oil_n_1 [label=ARG1]
+	_in_p -> _oil_n_1 [label=ARG2]
+	"_help_v_to-fn.Assistance" -> _strength_n_1 [label="ARG1-fn.Agent"]
+	compound -> nominalization [label=ARG2]
+	"_help_v_to-fn.Assistance" -> "_push_v_up-fn.Cause_change_of_position_on_a_scale" [label="ARG2-fn.Theme"]
+	"_push_v_up-fn.Cause_change_of_position_on_a_scale" -> _strength_n_1 [label="ARG1-fn.Agent"]
+	compound -> _oil_n_1 [label=ARG1]
+	"_push_v_up-fn.Cause_change_of_position_on_a_scale" -> _oil_n_1 [label="ARG2-fn.Patient"]
+	_in_p -> _strength_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _strength_n_1 [label=BV]
+	udef_q -> _oil_n_1 [label=BV]
+}

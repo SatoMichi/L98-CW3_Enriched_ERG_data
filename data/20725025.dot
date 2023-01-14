@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.IN" -> _bad_a_1 [label="ARG2-fn.Patient"]
+	comp -> _bad_a_1 [label=ARG1]
+	neg -> _appear_v_to [label=ARG1]
+	_appear_v_to -> "_get_v_state-fn.IN" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> unknown [label=ARG1]
+	compound -> _rodeo_n_1 [label=ARG2]
+	compound -> _applause_n_1 [label=ARG1]
+	_colon_p_namely -> "_cheer_v_1-fn.Halt" [label=ARG2]
+	unknown -> _applause_n_1 [label=ARG]
+	udef_q -> "_broncs/nns_u_unknown" [label=BV]
+	udef_q -> _applause_n_1 [label=BV]
+	udef_q -> _rodeo_n_1 [label=BV]
+	"_cheer_v_1-fn.Halt" -> "_broncs/nns_u_unknown" [label="ARG1-fn.Purpose"]
+}

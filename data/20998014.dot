@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Tokyo)" [label=BV]
+	proper_q -> "named(Beverly)" [label=BV]
+	_suburbian_a_1 -> "named(Tokyo)" [label=ARG1]
+	proper_q -> "named(Hills)" [label=BV]
+	_to_p -> "named(Tokyo)" [label=ARG2]
+	_to_p -> "_come_v_1-fn.Impact" [label=ARG1]
+	compound -> "named(Hills)" [label=ARG1]
+	"_come_v_1-fn.Impact" -> "named(Hills)" [label="ARG1-fn.Place"]
+	compound -> "named(Beverly)" [label=ARG2]
+}

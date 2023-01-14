@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "card(110)" [label=ARG2]
+	number_q -> "card(110)" [label=BV]
+	proper_q -> "named(McCaw)" [label=BV]
+	_to_p -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> "named(Lin)" [label="ARG1-fn.Process"]
+	number_q -> "card(41)" [label=BV]
+	plus -> "card(110)" [label=ARG2]
+	"_lose_v_1-fn.Competition" -> "named(McCaw)" [label="ARG1-fn.Participant_1"]
+	plus -> "fraction(5/8)" [label=ARG3]
+	_to_p -> "_lose_v_1-fn.Competition" [label=ARG1]
+	_to_p -> "card(41)" [label=ARG2]
+	proper_q -> "named(Lin)" [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Lufkin)" [label=BV]
+	proper_q -> "named(Donaldson)" [label=BV]
+	_decline_v_1 -> "named(Lufkin)" [label=ARG1]
+	"_comment_v_on-fn.Statement" -> "named(Lufkin)" [label="ARG1-fn.Agent"]
+	compound -> "named(Lufkin)" [label=ARG1]
+	nominalization -> _restructure_v_1 [label=ARG1]
+	compound -> "named(Donaldson)" [label=ARG2]
+	"_comment_v_on-fn.Statement" -> nominalization [label="ARG2-fn.Topic"]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	_the_q -> nominalization [label=BV]
+}

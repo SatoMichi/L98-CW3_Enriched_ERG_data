@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Paper)" [label=ARG1]
+	proper_q -> "named(International)" [label=BV]
+	"_decline_v_1-fn.Competition" -> _and_c [label="ARG1-fn.Participant_1"]
+	udef_q -> _and_c [label=BV]
+	"_comment_v_on-fn.Activity_ongoing" -> _and_c [label="ARG1-fn.Duration"]
+	proper_q -> "named(Paper)" [label=BV]
+	"_decline_v_1-fn.Competition" -> "_comment_v_on-fn.Activity_ongoing" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Weyerhaeuser)" [label=BV]
+	compound -> "named(International)" [label=ARG2]
+}

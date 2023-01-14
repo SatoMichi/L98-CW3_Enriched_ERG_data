@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_keep_v_prd-fn.Experiencer_obj" -> pron [label="ARG2-fn.Stimulus"]
+	"card(1)" -> _dollar_n_1 [label=ARG1]
+	"_keep_v_prd-fn.Experiencer_obj" -> _at_p [label="ARG3-fn.Degree"]
+	_at_p -> pron [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	_off_p -> _round_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_keep_v_prd-fn.Experiencer_obj" -> nominalization [label="ARG1-fn.Experiencer"]
+	udef_q -> nominalization [label=BV]
+	_at_p -> _dollar_n_1 [label=ARG2]
+	nominalization -> _round_v_1 [label=ARG1]
+}

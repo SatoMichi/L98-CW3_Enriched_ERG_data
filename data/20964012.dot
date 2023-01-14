@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Delaney)" [label=ARG2]
+	proper_q -> "named(Delaney)" [label=BV]
+	compound -> "named(Paradox)" [label=ARG1]
+	"_so-called_a_1" -> "named(Paradox)" [label=ARG1]
+	_the_q -> "named(Paradox)" [label=BV]
+	_in_p_state -> "_attempt_v_1-fn.Attempt" [label=ARG1]
+	_the_q -> _principle_n_of [label=BV]
+	focus_d -> "_attempt_v_1-fn.Attempt" [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	"_eliminate_v_from-fn.Removing" -> "named(Paradox)" [label="ARG2-fn.Theme"]
+	"_attempt_v_1-fn.Attempt" -> "_eliminate_v_from-fn.Removing" [label="ARG2-fn.Theme"]
+	udef_q -> _addition_n_1 [label=BV]
+	_in_p_state -> _addition_n_1 [label=ARG2]
+	"_attempt_v_1-fn.Attempt" -> _principle_n_of [label="ARG1-fn.Agent"]
+	"_eliminate_v_from-fn.Removing" -> _principle_n_of [label="ARG1-fn.Agent"]
+}

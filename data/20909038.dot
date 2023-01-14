@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_id [label=ARG2]
+	_this_q_dem -> _experience_n_with [label=BV]
+	_be_v_id -> _experience_n_with [label=ARG1]
+	_for_p -> _growth_n_of [label=ARG2]
+	_internal_a_1 -> _growth_n_of [label=ARG1]
+	_a_q -> _opportunity_n_1 [label=BV]
+	udef_q -> _growth_n_of [label=BV]
+	_for_p -> _opportunity_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	_be_v_id -> _opportunity_n_1 [label=ARG2]
+	_whole_a_1 -> _experience_n_with [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

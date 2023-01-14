@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_open_v_1-fn.Social_event" -> _spot_n_of [label="ARG1-fn.Duration"]
+	_new_a_1 -> _spot_n_of [label=ARG1]
+	udef_q -> _spot_n_of [label=BV]
+	"_a+few_a_1" -> _spot_n_of [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_capital_a_1 -> _expenditure_n_of [label=ARG1]
+	parg_d -> _proceeds_n_1 [label=ARG2]
+	parg_d -> "_use_v_1-fn.Cause_to_end" [label=ARG1]
+	"_work_v_1-fn.Assemble" -> _capital_n_1 [label="ARG1-fn.Individuals"]
+	udef_q -> _capital_n_1 [label=BV]
+	udef_q -> _proceeds_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_use_v_1-fn.Cause_to_end" -> _proceeds_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _expenditure_n_of [label=BV]
+	_for_p -> "_use_v_1-fn.Cause_to_end" [label=ARG1]
+	_for_p -> _and_c [label=ARG2]
+}

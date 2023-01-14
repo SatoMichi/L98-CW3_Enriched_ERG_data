@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _premier_n_1 [label=ARG1]
+	proper_q -> "named(Moscow)" [label=BV]
+	def_implicit_q -> _month_n_1 [label=BV]
+	"_visit_v_1-fn.IN" -> "named(Moscow)" [label="ARG2-fn.Co-Agent"]
+	loc_nonsp -> "_visit_v_1-fn.IN" [label=ARG1]
+	def_explicit_q -> _premier_n_1 [label=BV]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	_next_a_1 -> _month_n_1 [label=ARG1]
+	eventuality -> "_visit_v_1-fn.IN" [label=ARG1]
+	poss -> "named(Poland)" [label=ARG2]
+	proper_q -> "named(Poland)" [label=BV]
+	"_visit_v_1-fn.IN" -> _premier_n_1 [label="ARG1-fn.Agent"]
+}

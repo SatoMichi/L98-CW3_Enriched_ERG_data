@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Tokyo)" [label=BV]
+	compound -> "named(Tokyo)" [label=ARG2]
+	compound -> _market_n_1 [label=ARG1]
+	_no_q -> thing [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	_fundamental_a_1 -> "_change_v_1-fn.Relative_time" [label=ARG1]
+	_in_p -> "_change_v_1-fn.Relative_time" [label=ARG1]
+	_in_p -> _market_n_1 [label=ARG2]
+	"_change_v_1-fn.Relative_time" -> thing [label="ARG1-fn.Focal_occasion"]
+}

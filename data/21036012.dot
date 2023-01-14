@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_do_v_1-fn.Competition" -> _people_n_of [label="ARG1-fn.Participant_1"]
+	"_in+order+to_x" -> "_do_v_1-fn.Competition" [label=ARG2]
+	udef_q -> _people_n_of [label=BV]
+	"_do_v_1-fn.Competition" -> thing [label="ARG2-fn.Participant_2"]
+	"_in+order+to_x" -> _nervous_a_about [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	def_implicit_q -> time_n [label=BV]
+	_now_a_1 -> time_n [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	_nervous_a_about -> _people_n_of [label=ARG1]
+	"_sort+of_x_deg" -> _nervous_a_about [label=ARG1]
+	_in_p -> thing [label=ARG1]
+	_any_q -> thing [label=BV]
+	loc_nonsp -> "_do_v_1-fn.Competition" [label=ARG1]
+	_in_p -> _market_n_1 [label=ARG2]
+}

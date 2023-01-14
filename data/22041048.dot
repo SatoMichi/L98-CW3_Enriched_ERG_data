@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "_coherence/nn_u_unknown" [label=ARG1]
+	_for_p -> "_unite_v_1-fn.Amalgamation" [label=ARG1]
+	_even_x_deg -> _if_x_then [label=ARG1]
+	_temporary_a_1 -> "_coherence/nn_u_unknown" [label=ARG1]
+	_if_x_then -> "_unite_v_1-fn.Amalgamation" [label=ARG2]
+	_likely_a_1 -> _temporary_a_1 [label=ARG1]
+	_the_q -> "_election_n_of-for" [label=BV]
+	_if_x_then -> _likely_a_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> "_coherence/nn_u_unknown" [label=BV]
+	_for_p -> "_election_n_of-for" [label=ARG2]
+	"_unite_v_1-fn.Amalgamation" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

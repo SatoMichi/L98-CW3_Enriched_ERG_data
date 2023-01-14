@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	compound -> _shuttle_n_1 [label=ARG1]
+	_to_p -> _lab_n_1 [label=ARG2]
+	_to_p -> _shuttle_n_1 [label=ARG1]
+	udef_q -> _night_n_of [label=BV]
+	compound -> _biology_n_1 [label=ARG2]
+	"_want_v_1-fn.Desiring" -> _shuttle_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _lab_n_1 [label=BV]
+	compound -> _lab_n_1 [label=ARG1]
+	udef_q -> _shuttle_n_1 [label=BV]
+	_late_a_for -> _night_n_of [label=ARG1]
+	compound -> _night_n_of [label=ARG2]
+	udef_q -> _biology_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

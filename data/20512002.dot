@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(A)" [label=ARG1]
+	proper_q -> "named(A)" [label=BV]
+	proper_q -> "named(Alvin)" [label=BV]
+	_the_q -> _position_n_of [label=BV]
+	compound -> "named(Alvin)" [label=ARG2]
+	"_succeed_v_1-fn.Competition" -> "named(McCall)" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(McCall)" [label=BV]
+	_in_p -> "_succeed_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(McCall)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_in_p -> _position_n_of [label=ARG2]
+	"_succeed_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

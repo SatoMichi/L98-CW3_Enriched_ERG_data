@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(China)" [label=BV]
+	"_in+order+to_x" -> _unjust_a_for [label=ARG1]
+	"_prove_v_to-fn.Receiving" -> pron [label="ARG1-fn.Recipient"]
+	"_be_v_id-fn.Residence" -> "named(China)" [label="ARG1-fn.Resident"]
+	_for_p -> pron [label=ARG2]
+	_for_p -> "_prove_v_to-fn.Receiving" [label=ARG1]
+	"_be_v_id-fn.Residence" -> _victim_n_of [label="ARG2-fn.Location"]
+	"_in+order+to_x" -> "_prove_v_to-fn.Receiving" [label=ARG2]
+	_real_a_1 -> _victim_n_of [label=ARG1]
+	"_prove_v_to-fn.Receiving" -> "named(China)" [label="ARG2-fn.Donor"]
+	_unjust_a_for -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _victim_n_of [label=BV]
+	"_re-_a_again" -> "_prove_v_to-fn.Receiving" [label=ARG1]
+}

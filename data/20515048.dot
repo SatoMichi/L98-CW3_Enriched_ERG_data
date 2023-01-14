@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _in_p_state [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> place_n [label="ARG2-fn.Cotheme"]
+	_on_p -> _and_c [label=ARG2]
+	_in_p_state -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	focus_d -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> "_psyllium/nn_u_unknown" [label="ARG1-fn.Theme"]
+	udef_q -> _radio_n_1 [label=BV]
+	_the_q -> _newspaper_n_of [label=BV]
+	udef_q -> _tv_n_1 [label=BV]
+	_the_q -> _and_c [label=BV]
+	every_q -> place_n [label=BV]
+	_in_p_state -> _newspaper_n_of [label=ARG2]
+	udef_q -> "_psyllium/nn_u_unknown" [label=BV]
+}

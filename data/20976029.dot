@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _film_n_1 [label=ARG2]
+	compound -> "_moviestar/nn_u_unknown" [label=ARG2]
+	udef_q -> _portrait_n_1 [label=BV]
+	_outstanding_a_1 -> generic_entity [label=ARG1]
+	"card(1)" -> generic_entity [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Experiencer"]
+	udef_q -> _film_n_1 [label=BV]
+	"_a+great+many_q" -> _portrait_n_1 [label=ARG1]
+	compound -> _portrait_n_1 [label=ARG1]
+	"_see_v_1-fn.Perception_experience" -> _portrait_n_1 [label="ARG2-fn.Stimulus"]
+	udef_q -> "_moviestar/nn_u_unknown" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

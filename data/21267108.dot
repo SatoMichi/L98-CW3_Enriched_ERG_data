@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_reason_n_for -> "_believe_v_1-fn.Competition" [label=ARG1]
+	_no_q -> _reason_n_for [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> "_be_v_there-fn.Cause_to_end" [label="ARG2-fn.Means"]
+	focus_d -> "_be_v_there-fn.Cause_to_end" [label=ARG2]
+	"_be_v_there-fn.Cause_to_end" -> _reason_n_for [label="ARG1-fn.Process"]
+	"_say_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	"_inappropriately/rb_u_unknown" -> "_rule_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _jury_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_believe_v_1-fn.Competition" -> "_rule_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	"_rule_v_1-fn.Competition" -> _jury_n_1 [label="ARG1-fn.Participant_1"]
+}

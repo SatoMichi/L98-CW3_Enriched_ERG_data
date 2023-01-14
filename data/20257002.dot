@@ -1,0 +1,4 @@
+digraph {
+	node [shape=circle style=filled]
+	_also_a_1 -> _unnecessary_a_for [label=ARG1]
+}

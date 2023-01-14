@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _plan_n_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> "named(Utilities)" [label=ARG1]
+	_annual_a_1 -> _increase_n_1 [label=ARG1]
+	udef_q -> _increase_n_1 [label=BV]
+	compound -> _increase_n_1 [label=ARG1]
+	compound -> _percent_n_of [label=ARG2]
+	proper_q -> "named(Utilities)" [label=BV]
+	"card(5.5)" -> _percent_n_of [label=ARG1]
+	"_propose_v_to-fn.State_continue" -> _plan_n_1 [label="ARG1-fn.Entity"]
+	poss -> "named(Utilities)" [label=ARG2]
+	"_propose_v_to-fn.State_continue" -> _increase_n_1 [label="ARG2-fn.State"]
+	proper_q -> "named(Northeast)" [label=BV]
+	def_explicit_q -> _plan_n_1 [label=BV]
+	compound -> "named(Northeast)" [label=ARG2]
+}

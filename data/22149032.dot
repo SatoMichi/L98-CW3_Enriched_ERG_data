@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_this_q_dem -> _employer_n_1 [label=BV]
+	"_find_v_1-fn.IN" -> _and_c [label="ARG3-fn.NotExist"]
+	_embody_v_1 -> generic_entity [label=ARG2]
+	"_find_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_embody_v_1 -> _employer_n_1 [label=ARG1]
+	"_find_v_1-fn.IN" -> generic_entity [label="ARG2-fn.Theme"]
+	_admirable_a_1 -> generic_entity [label=ARG1]
+	_noble_a_1 -> generic_entity [label=ARG1]
+	_all_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+}

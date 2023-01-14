@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _sound_n_of [label=ARG2]
+	udef_q -> _sound_n_of [label=BV]
+	udef_q -> _stage_n_of [label=BV]
+	"_echo_v_1-fn.Cause_to_end" -> _stage_n_of [label="ARG1-fn.Process"]
+	compound -> _stage_n_of [label=ARG1]
+}

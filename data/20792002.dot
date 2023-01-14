@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cover_v_1-fn.Piracy" -> _worker_n_1 [label="ARG2-fn.Vehicle"]
+	_the_q -> _agreement_n_1 [label=BV]
+	compound -> _union_n_of [label=ARG2]
+	"_would_v_modal-fn.Cause_to_end" -> "_cover_v_1-fn.Piracy" [label="ARG1-fn.Process"]
+	udef_q -> _worker_n_1 [label=BV]
+	udef_q -> _approval_n_of [label=BV]
+	udef_q -> _member_n_of [label=BV]
+	_subject_a_to -> _approval_n_of [label=ARG2]
+	compound -> _member_n_of [label=ARG1]
+	udef_q -> _union_n_of [label=BV]
+	"card(6,000)" -> _worker_n_1 [label=ARG1]
+	_about_x_deg -> "card(6,000)" [label=ARG1]
+	_subject_a_to -> _agreement_n_1 [label=ARG1]
+	_approval_n_of -> _member_n_of [label=ARG1]
+	"_cover_v_1-fn.Piracy" -> _agreement_n_1 [label="ARG1-fn.Perpetrator"]
+}

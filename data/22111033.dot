@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _rake_n_1 [label=BV]
+	poss -> _progress_n_1 [label=ARG1]
+	poss -> _rake_n_1 [label=ARG2]
+	"_mean_v_1-fn.NF" -> nominalization [label="ARG2-fn.Theme"]
+	"_mean_v_1-fn.NF" -> _progress_n_1 [label="ARG1-fn.Agent"]
+	def_explicit_q -> _progress_n_1 [label=BV]
+	nominalization -> _branch_v_out [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _time_n_of [label=BV]
+	_down_p -> _point_n_of [label=ARG2]
+	_at_p_temp -> _time_n_of [label=ARG2]
+	_down_p -> pron [label=ARG1]
+	_actual_a_1 -> _down_p [label=ARG1]
+	_at_p_temp -> _down_p [label=ARG1]
+	"_a+few_a_1" -> _point_n_of [label=ARG1]
+	_only_x_deg -> "_a+few_a_1" [label=ARG1]
+	udef_q -> _point_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

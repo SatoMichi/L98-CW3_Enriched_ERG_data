@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_either_q -> _or_c [label=BV]
+	compound -> "named(Lakeland)" [label=ARG2]
+	compound -> _holder_n_of [label=ARG1]
+	udef_q -> _holder_n_of [label=BV]
+	udef_q -> _cash_n_1 [label=BV]
+	"_have_v_1-fn.State_continue" -> _holder_n_of [label="ARG1-fn.Entity"]
+	"_have_v_1-fn.State_continue" -> _option_n_1 [label="ARG2-fn.State"]
+	proper_q -> "named(Lakeland)" [label=BV]
+	"_request_v_1-fn.Process_resume" -> _or_c [label="ARG2-fn.Process"]
+	eventuality -> "_request_v_1-fn.Process_resume" [label=ARG1]
+	"_request_v_1-fn.Process_resume" -> _option_n_1 [label="ARG1-fn.Duration"]
+	udef_q -> _stock_n_1 [label=BV]
+	_the_q -> _option_n_1 [label=BV]
+}

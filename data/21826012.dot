@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	appos -> "named(Atlantans)" [label=ARG2]
+	"_think_v_1-fn.IN" -> generic_entity [label="ARG1-fn.NotExist"]
+	_be_v_id -> _heir_n_1 [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	_unworthy_a_of -> _heir_n_1 [label=ARG1]
+	"_think_v_1-fn.IN" -> _be_v_id [label="ARG2-fn.NotExist"]
+	proper_q -> "named(Atlantans)" [label=BV]
+	_be_v_id -> "named(Pittsburgh)" [label=ARG1]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_a_q -> _heir_n_1 [label=BV]
+	proper_q -> "named(Pittsburgh)" [label=BV]
+	appos -> generic_entity [label=ARG1]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(GM)" [label=BV]
+	"_bid_v_1-fn.Competition" -> "named(GM)" [label="ARG1-fn.Participant_1"]
+	"_might_v_modal-fn.Cause_to_end" -> "_bid_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_counter-_a_anti" -> "_bid_v_1-fn.Competition" [label=ARG1]
+}

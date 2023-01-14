@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_several_a_1 -> _deadline_n_of [label=ARG1]
+	"_delay_v_1-fn.IN" -> _deadline_n_of [label="ARG2-fn.Theme"]
+	def_explicit_q -> _victim_n_of [label=BV]
+	udef_q -> _deadline_n_of [label=BV]
+	"_delay_v_1-fn.IN" -> "named_n(IRS)" [label="ARG1-fn.Agent"]
+	_the_q -> "named_n(IRS)" [label=BV]
+	_for_p -> _victim_n_of [label=ARG2]
+	poss -> _victim_n_of [label=ARG1]
+	poss -> "named(Hugo)" [label=ARG2]
+	_for_p -> "_delay_v_1-fn.IN" [label=ARG1]
+	proper_q -> "named(Hugo)" [label=BV]
+}

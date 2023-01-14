@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_already_a_1 -> "_bolt_v_1-fn.Competition" [label=ARG1]
+	"_bolt_v_1-fn.Competition" -> "_adjusters/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	udef_q -> _insurance_n_1 [label=BV]
+	_indeed_a_1 -> "_bolt_v_1-fn.Competition" [label=ARG1]
+	"_out+of_p" -> _courtroom_n_1 [label=ARG2]
+	"_out+of_p" -> "_bolt_v_1-fn.Competition" [label=ARG1]
+	compound -> "_adjusters/nns_u_unknown" [label=ARG1]
+	compound -> _insurance_n_1 [label=ARG2]
+	_the_q -> _courtroom_n_1 [label=BV]
+	_the_q -> "_adjusters/nns_u_unknown" [label=BV]
+}

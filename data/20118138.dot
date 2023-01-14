@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_need_v_1-fn.Competition" [label=ARG1]
+	"much-many_a" -> part_of [label=ARG1]
+	"_un-_a_rvrs" -> "_need_v_1-fn.Competition" [label=ARG1]
+	part_of -> _reform_n_1 [label=ARG1]
+	"_need_v_1-fn.Competition" -> part_of [label="ARG2-fn.Participant_2"]
+	udef_q -> part_of [label=BV]
+	parg_d -> part_of [label=ARG2]
+	_these_q_dem -> _reform_n_1 [label=BV]
+	_harmful_a_to -> part_of [label=ARG1]
+}

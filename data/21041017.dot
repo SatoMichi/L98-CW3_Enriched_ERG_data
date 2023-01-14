@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_watch_v_1-fn.Perception_active" -> _die_v_1 [label="ARG2-fn.Stimulus"]
+	poss -> pron [label=ARG2]
+	_be_v_id -> _experience_n_with [label=ARG2]
+	_a_q -> _experience_n_with [label=BV]
+	nominalization -> "_watch_v_1-fn.Perception_active" [label=ARG1]
+	"_inhuman/jj_u_unknown" -> _experience_n_with [label=ARG1]
+	_be_v_id -> nominalization [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	def_explicit_q -> _child_n_1 [label=BV]
+	poss -> _child_n_1 [label=ARG1]
+	_die_v_1 -> _child_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

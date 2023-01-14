@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_need_v_1-fn.Needing" [label=ARG1]
+	parg_d -> _lid_n_1 [label=ARG2]
+	"_need_v_1-fn.Needing" -> _lid_n_1 [label="ARG2-fn.Theme"]
+	_even_a_1 -> "_need_v_1-fn.Needing" [label=ARG1]
+	neg -> "_need_v_1-fn.Needing" [label=ARG1]
+	udef_q -> _lid_n_1 [label=BV]
+}

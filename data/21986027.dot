@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _egg_n_1 [label=ARG1]
+	"_heave_v_out-fn.NF" -> _egg_n_1 [label="ARG2-fn.NotExist"]
+	"_heave_v_out-fn.NF" -> _cuckoo_n_1 [label="ARG1-fn.NotExist"]
+	def_explicit_q -> _egg_n_1 [label=BV]
+	udef_q -> _bird_n_1 [label=BV]
+	_other_a_1 -> _bird_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_the_q -> _nest_n_of [label=BV]
+	_the_q -> _cuckoo_n_1 [label=BV]
+	"_prefer_v_to-fn.Preference" -> _nest_n_of [label="ARG2-fn.NotExist"]
+	"_prefer_v_to-fn.Preference" -> _cuckoo_n_1 [label="ARG1-fn.NotExist"]
+	_nest_n_of -> _bird_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

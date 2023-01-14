@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	parg_d -> _revenue_n_1 [label=ARG2]
+	_for_p -> "yofc(1989)" [label=ARG2]
+	_fiscal_a_1 -> "yofc(1989)" [label=ARG1]
+	"_expect_v_1-fn.Commerce_buy" -> "_exceed_v_1-fn.Rite" [label="ARG2-fn.Goods"]
+	udef_q -> _dollar_n_1 [label=BV]
+	_for_p -> _revenue_n_1 [label=ARG1]
+	"_exceed_v_1-fn.Rite" -> _dollar_n_1 [label="ARG2-fn.Member"]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	proper_q -> "yofc(1989)" [label=BV]
+	parg_d -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	"_exceed_v_1-fn.Rite" -> _revenue_n_1 [label="ARG1-fn.Leader"]
+	times -> "card(124)" [label=ARG2]
+}

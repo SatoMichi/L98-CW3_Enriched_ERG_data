@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_new_a_1 -> _approach_n_to [label=ARG1]
+	proper_q -> "named(Digital)" [label=BV]
+	"_promise_v_1-fn.Commitment" -> _approach_n_to [label="ARG2-fn.NotExist"]
+	"_promise_v_1-fn.Commitment" -> "named(Digital)" [label="ARG1-fn.Agent"]
+	_a_q -> _approach_n_to [label=BV]
+}

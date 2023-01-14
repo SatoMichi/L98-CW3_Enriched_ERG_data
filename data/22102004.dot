@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _injury_n_1 [label=ARG2]
+	udef_q -> _injury_n_1 [label=BV]
+	parg_d -> "_report_v_to-fn.Statement" [label=ARG1]
+	"_report_v_to-fn.Statement" -> _injury_n_1 [label="ARG2-fn.NotExist"]
+	_numerous_a_1 -> _injury_n_1 [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _refusal_n_of [label=BV]
+	_federal_a_1 -> _judge_n_of [label=ARG1]
+	_a_q -> _raise_n_1 [label=BV]
+	with_p -> "_give_v_1-fn.Giving" [label=ARG1]
+	_colon_v_id -> _reason_n_for [label=ARG1]
+	_the_q -> _reason_n_for [label=BV]
+	_of_p -> _refusal_n_of [label=ARG1]
+	proper_q -> "named(Congress)" [label=BV]
+	_colon_v_id -> _refusal_n_of [label=ARG2]
+	with_p -> _refusal_n_of [label=ARG2]
+	"_give_v_1-fn.Giving" -> _judge_n_of [label="ARG3-fn.Recipient"]
+	udef_q -> _judge_n_of [label=BV]
+	"_give_v_1-fn.Giving" -> _raise_n_1 [label="ARG2-fn.Theme"]
+	_of_p -> "named(Congress)" [label=ARG2]
+}

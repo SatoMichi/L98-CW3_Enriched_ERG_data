@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_giveth/vbz_u_unknown" -> "named(Department)" [label=ARG1]
+	proper_q -> "named(Labor)" [label=BV]
+	"_giveth/vbz_u_unknown" -> thing [label=ARG2]
+	compound -> "named(Labor)" [label=ARG2]
+	"_taketh/vb_u_unknown" -> thing [label=ARG2]
+	compound -> "named(Department)" [label=ARG1]
+	_the_q -> "named_n(IRS)" [label=BV]
+	free_relative_q -> thing [label=BV]
+	"_taketh/vb_u_unknown" -> "named_n(IRS)" [label=ARG1]
+	"_may_v_modal-fn.Communication_manner" -> "_taketh/vb_u_unknown" [label="ARG1-fn.Speaker"]
+	_the_q -> "named(Department)" [label=BV]
+}

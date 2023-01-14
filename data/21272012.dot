@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _worried_a_about [label=ARG1]
+	poss -> _point_n_of [label=ARG1]
+	poss -> "named(D.T.)" [label=ARG2]
+	_apparent_a_1 -> neg [label=ARG1]
+	_worried_a_about -> _champion_n_of [label=ARG1]
+	"_at+all_a_1" -> _worried_a_about [label=ARG1]
+	def_explicit_q -> _point_n_of [label=BV]
+	_strong_a_1 -> _point_n_of [label=ARG1]
+	proper_q -> "named(D.T.)" [label=BV]
+	_the_q -> _champion_n_of [label=BV]
+	_worried_a_about -> _point_n_of [label=ARG2]
+}

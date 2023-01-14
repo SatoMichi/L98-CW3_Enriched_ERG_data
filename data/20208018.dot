@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_replace_v_with-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_able_a_1 -> "_replace_v_with-fn.IN" [label=ARG2]
+	"_replace_v_with-fn.IN" -> "_cabal/nn_u_unknown" [label="ARG2-fn.Theme"]
+	compound -> "_cabal/nn_u_unknown" [label=ARG1]
+	_able_a_1 -> pron [label=ARG1]
+	_the_q -> "_cabal/nn_u_unknown" [label=BV]
+	compound -> "_m’bow/nn_u_unknown" [label=ARG2]
+	udef_q -> "_m’bow/nn_u_unknown" [label=BV]
+	neg -> _able_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

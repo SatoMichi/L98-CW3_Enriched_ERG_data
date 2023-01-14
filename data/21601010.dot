@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_occasional_a_1 -> "_include_v_1-fn.NF" [label=ARG1]
+	"_include_v_1-fn.NF" -> _transaction_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _stock_n_1 [label=BV]
+	_the_q -> _figure_n_1 [label=BV]
+	_incomplete_a_1 -> _transaction_n_1 [label=ARG1]
+	_in_p -> _transaction_n_1 [label=ARG1]
+	udef_q -> _transaction_n_1 [label=BV]
+	"_include_v_1-fn.NF" -> _figure_n_1 [label="ARG1-fn.NotExist"]
+	_in_p -> _stock_n_1 [label=ARG2]
+	_restricted_a_1 -> _stock_n_1 [label=ARG1]
+}

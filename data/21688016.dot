@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Fault)" [label=BV]
+	proper_q -> "named(San)" [label=BV]
+	proper_q -> "named(Andreas)" [label=BV]
+	_aware_a_of -> pron [label=ARG1]
+	_the_q -> _propensity_n_for [label=BV]
+	compound -> "named(San)" [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	compound -> "named(Fault)" [label=ARG1]
+	compound -> "named(Andreas)" [label=ARG1]
+	_propensity_n_for -> _earthquake_n_1 [label=ARG1]
+	"_add_v_to-fn.NF" -> _aware_a_of [label="ARG2-fn.Topic"]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_aware_a_of -> _and_c [label=ARG2]
+	udef_q -> _earthquake_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

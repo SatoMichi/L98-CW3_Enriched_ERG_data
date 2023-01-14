@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_dialects/nns_u_unknown" [label=BV]
+	"much-many_a" -> generic_entity [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	_than_p_ind -> generic_entity [label=ARG1]
+	_the_q -> _country_n_of [label=BV]
+	_than_p_ind -> "_dialects/nns_u_unknown" [label=ARG2]
+	_in_p -> "_dialects/nns_u_unknown" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> generic_entity [label=BV]
+	"card(70)" -> "_dialects/nns_u_unknown" [label=ARG1]
+	udef_q -> _language_n_1 [label=BV]
+	_major_a_1 -> _language_n_1 [label=ARG1]
+	"_be_v_there-fn.Needing" -> _and_c [label="ARG1-fn.Cognizer"]
+	"card(7)" -> _language_n_1 [label=ARG1]
+	_in_p -> _country_n_of [label=ARG2]
+}

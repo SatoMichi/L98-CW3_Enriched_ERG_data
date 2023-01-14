@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _contract_n_1 [label=BV]
+	"_begin_v_1-fn.Process_start" -> "_trade_v_1-fn.Exchange" [label="ARG1-fn.NotExist"]
+	_forecast_v_1 -> _would_v_modal [label=ARG2]
+	"_trade_v_1-fn.Exchange" -> _contract_n_1 [label="ARG1-fn.NotExist"]
+	_forecast_v_1 -> _exchange_n_1 [label=ARG1]
+	_by_p_temp -> "mofy(Dec)" [label=ARG2]
+	proper_q -> "mofy(Dec)" [label=BV]
+	_the_q -> _exchange_n_1 [label=BV]
+	_by_p_temp -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	_would_v_modal -> "_begin_v_1-fn.Process_start" [label=ARG1]
+}

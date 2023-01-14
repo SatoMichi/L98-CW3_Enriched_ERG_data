@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _unlikely_a_for [label="ARG2-fn.Topic"]
+	"card(33)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_another_q -> _crash_n_1 [label=BV]
+	_while_x -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> _crash_n_1 [label="ARG2-fn.Theme"]
+	"_consider_v_1-fn.Categorization" -> _percent_n_of [label="ARG1-fn.Agent"]
+	_about_x_deg -> udef_q [label=ARG1]
+	_while_x -> "_say_v_to-fn.IN" [label=ARG2]
+	"card(63)" -> _percent_n_of [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> _likely_a_1 [label="ARG3-fn.NotExist"]
+	pronoun_q -> _one_n_1 [label=BV]
+	_likely_a_1 -> _crash_n_1 [label=ARG1]
+	_unlikely_a_for -> _one_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _percent_n_of [label="ARG1-fn.Agent"]
+}

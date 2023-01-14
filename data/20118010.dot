@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_main_a_1 -> "_proponents/nns_u_unknown" [label=ARG1]
+	_the_q -> "_proponents/nns_u_unknown" [label=BV]
+	compound -> nominalization [label=ARG1]
+	"_be_v_id-fn.Assemble" -> generic_entity [label="ARG1-fn.Individuals"]
+	udef_q -> _program_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+	_these_q_dem -> generic_entity [label=BV]
+	compound -> _program_n_of [label=ARG2]
+	nominalization -> _trade_v_1 [label=ARG1]
+	_of_p -> "_proponents/nns_u_unknown" [label=ARG1]
+	_of_p -> nominalization [label=ARG2]
+	"_be_v_id-fn.Assemble" -> "_proponents/nns_u_unknown" [label="ARG2-fn.Group"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_become_v_id -> _cost_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _become_v_id [label="ARG2-fn.Topic"]
+	_of_p -> _competition_n_1 [label=ARG2]
+	udef_q -> _competition_n_1 [label=BV]
+	_extremely_x_deg -> _high_a_1 [label=ARG1]
+	focus_d -> _become_v_id [label=ARG2]
+	_become_v_id -> _high_a_1 [label=ARG2]
+	_high_a_1 -> _cost_n_1 [label=ARG1]
+	_the_q -> _cost_n_1 [label=BV]
+	_of_p -> _cost_n_1 [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

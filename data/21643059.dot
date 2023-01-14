@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_before_x_h -> _out_p [label=ARG2]
+	_before_x_h -> _on_p [label=ARG1]
+	_on_p -> _tv_n_1 [label=ARG2]
+	_on_p -> _tape_n_1 [label=ARG1]
+	udef_q -> _tv_n_1 [label=BV]
+	_the_q -> _night_n_of [label=BV]
+	_the_q -> _tape_n_1 [label=BV]
+	_out_p -> _night_n_of [label=ARG1]
+}

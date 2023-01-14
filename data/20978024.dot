@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_enough_q -> generic_entity [label=BV]
+	_those_q_dem -> _decline_n_1 [label=BV]
+	"_signal_v_1-fn.NF" -> _decline_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _stock_n_1 [label=BV]
+	_to_p -> _stock_n_1 [label=ARG2]
+	_be_v_id -> _decline_n_1 [label=ARG1]
+	_partial_a_1 -> _return_n_of [label=ARG1]
+	_to_p -> _return_n_of [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG2]
+	_a_q -> _return_n_of [label=BV]
+	"_in+order+to_x" -> "_signal_v_1-fn.NF" [label=ARG2]
+	"_signal_v_1-fn.NF" -> _return_n_of [label="ARG2-fn.Topic"]
+	"_in+order+to_x" -> _be_v_id [label=ARG1]
+}

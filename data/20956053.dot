@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_endanger_v_1-fn.Piracy" [label=ARG1]
+	compound -> "_cockiness/nn_u_unknown" [label=ARG1]
+	_terrible_a_1 -> "_endanger_v_1-fn.Piracy" [label=ARG1]
+	"_even+so_a_1" -> neg [label=ARG1]
+	parg_d -> "_cockiness/nn_u_unknown" [label=ARG2]
+	compound -> "named(American)" [label=ARG2]
+	proper_q -> "named(American)" [label=BV]
+	neg -> "_endanger_v_1-fn.Piracy" [label=ARG1]
+	_traditional_a_1 -> "_cockiness/nn_u_unknown" [label=ARG1]
+	udef_q -> "_cockiness/nn_u_unknown" [label=BV]
+	"_endanger_v_1-fn.Piracy" -> "_cockiness/nn_u_unknown" [label="ARG2-fn.Vehicle"]
+}

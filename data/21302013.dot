@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_resign_v_1-fn.Competition" [label=ARG1]
+	_at_p -> "_resign_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _name_n_of [label=BV]
+	_at_p -> _pace_n_1 [label=ARG2]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	comp -> _fast_a_1 [label=ARG1]
+	_this_q_dem -> _year_n_1 [label=BV]
+	_a_q -> _pace_n_1 [label=BV]
+	_even_x_deg -> comp [label=ARG1]
+	"_resign_v_1-fn.Competition" -> _name_n_of [label="ARG1-fn.Participant_1"]
+	_fast_a_1 -> _pace_n_1 [label=ARG1]
+}

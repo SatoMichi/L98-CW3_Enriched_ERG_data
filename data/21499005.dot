@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_those_q_dem -> _duck_n_1 [label=BV]
+	udef_q -> _duck_n_1 [label=BV]
+	_all_q -> part_of [label=BV]
+	_over_p -> "_flap_v_1-fn.Body_movement" [label=ARG1]
+	_non_a_1 -> _duck_n_1 [label=ARG1]
+	_over_p -> "named(Washington)" [label=ARG2]
+	compound -> _duck_n_1 [label=ARG2]
+	"_how+about_x" -> part_of [label=ARG2]
+	proper_q -> "named(Washington)" [label=BV]
+	"_how+about_x" -> generic_verb [label=ARG1]
+	"_flap_v_1-fn.Body_movement" -> _duck_n_1 [label="ARG1-fn.NotExist"]
+	part_of -> _duck_n_1 [label=ARG1]
+}

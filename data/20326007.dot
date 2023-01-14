@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _show_n_of [label=ARG1]
+	compound -> _and_c [label=ARG2]
+	_prime_a_1 -> _time_n_of [label=ARG1]
+	_initial_a_1 -> _spot_n_of [label=ARG1]
+	"_appear_v_1-fn.Coming_to_be" -> _spot_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _news_n_of [label=BV]
+	udef_q -> _time_n_of [label=BV]
+	compound -> _news_n_of [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	_the_q -> _spot_n_of [label=BV]
+	udef_q -> _show_n_of [label=BV]
+	udef_q -> _morning_n_of [label=BV]
+	_during_p -> "_appear_v_1-fn.Coming_to_be" [label=ARG1]
+	_during_p -> _show_n_of [label=ARG2]
+}

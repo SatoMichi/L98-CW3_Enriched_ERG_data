@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _system_n_of [label=ARG1]
+	udef_q -> _school_n_1 [label=BV]
+	udef_q -> _reform_n_1 [label=BV]
+	_in_p -> _system_n_of [label=ARG1]
+	_the_q -> _midst_n_of [label=BV]
+	_in_p -> _midst_n_of [label=ARG2]
+	"_take_v_over-fn.Amounting_to" -> pron [label="ARG1-fn.Value"]
+	_radical_a_1 -> _reform_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_take_v_over-fn.Amounting_to" -> _system_n_of [label="ARG2-fn.Attribute"]
+	_midst_n_of -> _reform_n_1 [label=ARG1]
+	_a_q -> _system_n_of [label=BV]
+	compound -> _school_n_1 [label=ARG2]
+}

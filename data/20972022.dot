@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "named(Lucy)" [label=ARG2]
+	parg_d -> "_educate_v_1-fn.Competition" [label=ARG1]
+	"_educate_v_1-fn.Competition" -> "named(Lucy)" [label="ARG2-fn.Participant_2"]
+	"_of+course_a_1" -> _though_c [label=ARG1]
+	_smart_a_1 -> "named(Lucy)" [label=ARG1]
+	"_un-_a_rvrs" -> "_educate_v_1-fn.Competition" [label=ARG1]
+	_pretty_a_1 -> "named(Lucy)" [label=ARG1]
+	proper_q -> "named(Lucy)" [label=BV]
+}

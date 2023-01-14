@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_reject_v_as-fn.Amounting_to" -> _company_n_of [label="ARG1-fn.Value"]
+	_the_q -> _company_n_of [label=BV]
+	"_reject_v_as-fn.Amounting_to" -> _proposal_n_1 [label="ARG2-fn.Attribute"]
+	_past_a_1 -> _proposal_n_1 [label=ARG1]
+	_those_q_dem -> _proposal_n_1 [label=BV]
+}

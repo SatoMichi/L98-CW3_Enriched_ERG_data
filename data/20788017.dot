@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _wide_a_1 [label=ARG1]
+	udef_q -> "named_n(US)" [label=BV]
+	compound -> _exchange_n_1 [label=ARG1]
+	udef_q -> _world_n_of [label=BV]
+	_as_x_prd -> subord [label=ARG1]
+	_as_x_prd -> _never_a_1 [label=ARG2]
+	compound -> _future_n_1 [label=ARG2]
+	subord -> "_compete_v_1-fn.Competition" [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	"_compete_v_1-fn.Competition" -> _exchange_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _future_n_1 [label=BV]
+	subord -> _wide_a_1 [label=ARG2]
+	compound -> _world_n_of [label=ARG2]
+	_the_q -> _exchange_n_1 [label=BV]
+	_never_a_1 -> _before_p [label=ARG1]
+}

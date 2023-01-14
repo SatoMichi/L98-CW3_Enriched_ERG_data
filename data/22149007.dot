@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cut_v_1-fn.Change_position_on_a_scale" -> _mask_n_1 [label="ARG1-fn.Attribute"]
+	_to_p -> _quick_n_1 [label=ARG2]
+	_to_p -> "_cut_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> _mask_n_1 [label=BV]
+	_the_q -> _quick_n_1 [label=BV]
+}

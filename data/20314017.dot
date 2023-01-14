@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_less -> _competitive_a_1 [label=ARG1]
+	"_make_v_cause-fn.Causation" -> _competitive_a_1 [label="ARG2-fn.Theme"]
+	"_worry_v_about-fn.Emotion_active" -> _and_c [label="ARG1-fn.Stimulus"]
+	udef_q -> "named_n(US)" [label=BV]
+	_competitive_a_1 -> _company_n_of [label=ARG1]
+	"_worry_v_about-fn.Emotion_active" -> "_make_v_cause-fn.Causation" [label="ARG2-fn.Experiencer"]
+	udef_q -> _management_n_1 [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	compound -> "named_n(US)" [label=ARG2]
+	udef_q -> _labor_n_1 [label=BV]
+	_the_q -> _gap_n_1 [label=BV]
+	"_make_v_cause-fn.Causation" -> _gap_n_1 [label="ARG1-fn.Agent"]
+	compound -> _company_n_of [label=ARG1]
+}

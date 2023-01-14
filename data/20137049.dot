@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(18)" [label="ARG2-fn.Item"]
+	times -> "card(1000000)" [label=ARG3]
+	_on_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_modest_a_1 -> _share_n_of [label=ARG1]
+	number_q -> "card(666)" [label=BV]
+	times -> "card(1.1)" [label=ARG2]
+	_a_q -> _share_n_of [label=BV]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Wellcome)" [label="ARG1-fn.Attribute"]
+	_to_p -> "card(666)" [label=ARG2]
+	proper_q -> "named(Wellcome)" [label=BV]
+	number_q -> "card(18)" [label=BV]
+	_on_p -> _share_n_of [label=ARG2]
+}

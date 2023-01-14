@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Barry)" [label=BV]
+	"_feel_v_seem-about-fn.Feeling" -> "named(Barry)" [label="ARG1-fn.Experiencer"]
+	"_feel_v_seem-about-fn.Feeling" -> _committed_a_1 [label="ARG2-fn.Stimulus"]
+	_committed_a_1 -> "named(Barry)" [label=ARG1]
+	_very_x_deg -> _committed_a_1 [label=ARG1]
+}

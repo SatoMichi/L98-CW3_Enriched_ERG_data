@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Kyocera)" [label=BV]
+	_to_p -> "card(5,440)" [label=ARG2]
+	"card(80)" -> _yen_n_2 [label=ARG1]
+	_to_p -> "_advance_v_1-fn.Competition" [label=ARG1]
+	"_advance_v_1-fn.Competition" -> "named(Kyocera)" [label="ARG1-fn.Participant_1"]
+	"_advance_v_1-fn.Competition" -> _yen_n_2 [label="ARG2-fn.Participant_2"]
+	number_q -> "card(5,440)" [label=BV]
+	udef_q -> _yen_n_2 [label=BV]
+}

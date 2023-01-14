@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _finding_n_1 [label=ARG]
+	_the_q -> _study_n_of [label=BV]
+	_colon_p_namely -> unknown [label=ARG1]
+	"_set_v_1-fn.IN" -> _priority_n_1 [label="ARG2-fn.Theme"]
+	_another_q -> _finding_n_1 [label=BV]
+	_significant_a_for -> "_different_a_than-from" [label=ARG1]
+	_from_p -> _study_n_of [label=ARG2]
+	udef_q -> _priority_n_1 [label=BV]
+	comp -> "_different_a_than-from" [label=ARG1]
+	udef_q -> _prosecutor_n_1 [label=BV]
+	"_set_v_1-fn.IN" -> _prosecutor_n_1 [label="ARG1-fn.Agent"]
+	_from_p -> _finding_n_1 [label=ARG1]
+	_colon_p_namely -> "_set_v_1-fn.IN" [label=ARG2]
+	"_different_a_than-from" -> _priority_n_1 [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_do_v_1 -> thing [label=ARG2]
+	"_win_v_1-fn.NF" -> "named(Bush)" [label="ARG1-fn.Agent"]
+	udef_q -> _president_n_of [label=BV]
+	compound -> _president_n_of [label=ARG2]
+	_if_x_then -> _do_v_1 [label=ARG2]
+	_if_x_then -> "_win_v_1-fn.NF" [label=ARG1]
+	_no_q -> thing [label=BV]
+	_do_v_1 -> "named(Congress)" [label=ARG1]
+	proper_q -> "named(Congress)" [label=BV]
+	proper_q -> "named(Bush)" [label=BV]
+	compound -> "named(Bush)" [label=ARG1]
+}

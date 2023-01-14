@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_help_v_1-fn.Assistance" -> _video_n_of [label="ARG1-fn.Agent"]
+	_generate_v_1 -> _video_n_of [label=ARG2]
+	compound -> _generate_v_1 [label=ARG1]
+	parg_d -> _generate_v_1 [label=ARG1]
+	udef_q -> _video_n_of [label=BV]
+	udef_q -> _computer_n_1 [label=BV]
+	compound -> _computer_n_1 [label=ARG2]
+	parg_d -> _video_n_of [label=ARG2]
+}

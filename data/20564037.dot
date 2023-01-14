@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _future_n_1 [label=BV]
+	"_once+again_a_1" -> "_look_v_1-fn.Appearance" [label=ARG1]
+	poss -> _company_n_of [label=ARG2]
+	poss -> _future_n_1 [label=ARG1]
+	"_look_v_1-fn.Appearance" -> _future_n_1 [label="ARG1-fn.Stimulus"]
+	_the_q -> _company_n_of [label=BV]
+	"_less+than_x" -> _rosy_a_1 [label=ARG1]
+	focus_d -> "_once+again_a_1" [label=ARG2]
+	_rosy_a_1 -> _future_n_1 [label=ARG1]
+	"_look_v_1-fn.Appearance" -> _rosy_a_1 [label="ARG2-fn.NotExist"]
+	focus_d -> "_look_v_1-fn.Appearance" [label=ARG1]
+}

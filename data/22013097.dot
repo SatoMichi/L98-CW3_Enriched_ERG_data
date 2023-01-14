@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Noriega)" [label=ARG1]
+	_on_p -> "_close_v_in-fn.Motion_directional" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_quick_a_1 -> "_close_v_in-fn.Motion_directional" [label=ARG1]
+	_on_p -> "named(Noriega)" [label=ARG2]
+	appos -> "named(Noriega)" [label=ARG1]
+	"_close_v_in-fn.Motion_directional" -> _investigator_n_1 [label="ARG1-fn.Area"]
+	appos -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Noriega)" [label=BV]
+	_the_q -> _investigator_n_1 [label=BV]
+}

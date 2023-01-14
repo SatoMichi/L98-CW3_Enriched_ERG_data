@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Valley)" [label=BV]
+	parg_d -> "_examine_v_1-fn.State_continue" [label=ARG1]
+	parg_d -> "named(Federal)" [label=ARG2]
+	compound -> "named(Valley)" [label=ARG2]
+	"_examine_v_1-fn.State_continue" -> "named(Federal)" [label="ARG2-fn.State"]
+	udef_q -> _regulator_n_1 [label=BV]
+	compound -> "named(Federal)" [label=ARG1]
+	proper_q -> "named(Federal)" [label=BV]
+	_current_a_1 -> "_examine_v_1-fn.State_continue" [label=ARG1]
+	"_examine_v_1-fn.State_continue" -> _regulator_n_1 [label="ARG1-fn.Entity"]
+}

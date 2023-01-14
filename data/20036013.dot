@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _slack_n_1 [label=BV]
+	"_in+order+to_x" -> _pick_v_up [label=ARG2]
+	_pick_v_up -> _sector_n_1 [label=ARG1]
+	_forward_p_dir -> _step_v_1 [label=ARG1]
+	_which_q -> _sector_n_1 [label=BV]
+	_pick_v_up -> _slack_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_ask_v_1-fn.Questioning" -> pron [label="ARG1-fn.Agent"]
+	focus_d -> _step_v_1 [label=ARG2]
+	"_in+order+to_x" -> _step_v_1 [label=ARG1]
+	_step_v_1 -> _sector_n_1 [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> "_in+order+to_x" [label="ARG2-fn.Topic"]
+	focus_d -> "_ask_v_1-fn.Questioning" [label=ARG1]
+}

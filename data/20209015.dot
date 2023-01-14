@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _plant_n_1 [label=ARG2]
+	_these_q_dem -> _plant_n_1 [label=BV]
+	_in_p -> _anther_n_1 [label=ARG1]
+	_difficult_a_for -> "_clip_v_off-fn.Halt" [label=ARG1]
+	"_clip_v_off-fn.Halt" -> _anther_n_1 [label="ARG2-fn.Place"]
+	_the_q -> _anther_n_1 [label=BV]
+}

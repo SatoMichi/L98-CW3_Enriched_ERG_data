@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_notice_v_1-fn.Becoming_aware" -> _tree_n_of [label="ARG2-fn.Stimulus"]
+	"_say_v_to-fn.IN" -> "_guess_v_1-fn.Coming_to_believe" [label="ARG2-fn.Topic"]
+	"_notice_v_1-fn.Becoming_aware" -> pron [label="ARG1-fn.Experiencer"]
+	neg -> _really_a_1 [label=ARG1]
+	_the_q -> _tree_n_of [label=BV]
+	_really_a_1 -> "_notice_v_1-fn.Becoming_aware" [label=ARG1]
+	"_guess_v_1-fn.Coming_to_believe" -> neg [label="ARG2-fn.Theme"]
+	"_guess_v_1-fn.Coming_to_believe" -> pron [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

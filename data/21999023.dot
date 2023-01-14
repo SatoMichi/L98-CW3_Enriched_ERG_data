@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_improve_v_cause-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_try_v_1-fn.Attempt" -> "_improve_v_cause-fn.Cause_to_end" [label="ARG2-fn.Goal"]
+	poss -> _share_n_of [label=ARG1]
+	_residential_a_1 -> _market_n_1 [label=ARG1]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_share_n_of -> _market_n_1 [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	"_improve_v_cause-fn.Cause_to_end" -> _share_n_of [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _share_n_of [label=BV]
+}

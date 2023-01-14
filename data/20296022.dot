@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _sum_n_of [label=BV]
+	_a_q -> _game_n_1 [label=BV]
+	compound -> _game_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _game_n_1 [label="ARG2-fn.Means"]
+	compound -> _sum_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	udef_q -> _zero_n_1 [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	compound -> _zero_n_1 [label=ARG2]
+}

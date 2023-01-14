@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _plea_n_1 [label=ARG1]
+	part_of -> _plea_n_1 [label=ARG1]
+	"_cut_v_1-fn.Change_position_on_a_scale" -> "named(Milken)" [label="ARG2-fn.Item"]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Drexel)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_loose_a_with -> "named(Milken)" [label=ARG1]
+	compound -> "named(Milken)" [label=ARG1]
+	proper_q -> "named(Milken)" [label=BV]
+	"_cut_v_1-fn.Change_position_on_a_scale" -> _loose_a_with [label="ARG3-fn.Difference"]
+	eventuality -> "_cut_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	poss -> "named(Drexel)" [label=ARG2]
+	def_explicit_q -> _plea_n_1 [label=BV]
+	"_cut_v_1-fn.Change_position_on_a_scale" -> part_of [label="ARG1-fn.Attribute"]
+	_part_q -> part_of [label=BV]
+}

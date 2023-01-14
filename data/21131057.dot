@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_avoid_v_1-fn.Avoiding" [label=ARG1]
+	_write_v_off -> pron [label=ARG1]
+	_in_p_state -> "_avoid_v_1-fn.Avoiding" [label=ARG1]
+	"_avoid_v_1-fn.Avoiding" -> pron [label="ARG1-fn.Agent"]
+	_write_v_off -> _loan_n_1 [label=ARG2]
+	_any_q -> _case_n_of [label=BV]
+	_the_q -> _loan_n_1 [label=BV]
+	_in_p_state -> _case_n_of [label=ARG2]
+	"_avoid_v_1-fn.Avoiding" -> _have_v_qmodal [label="ARG2-fn.Theme"]
+	_have_v_qmodal -> _write_v_off [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

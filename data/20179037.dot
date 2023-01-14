@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_approve_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	udef_q -> _regulator_n_1 [label=BV]
+	poss -> _reorganization_n_1 [label=ARG1]
+	poss -> "named(Columbia)" [label=ARG2]
+	"_would_v_modal-fn.Cause_to_end" -> "_have_v_qmodal-fn.Cause_to_end" [label="ARG1-fn.Process"]
+	"_of+course_a_1" -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	def_explicit_q -> _reorganization_n_1 [label=BV]
+	"_approve_v_1-fn.Competition" -> _reorganization_n_1 [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Columbia)" [label=BV]
+	"_approve_v_1-fn.Competition" -> _regulator_n_1 [label="ARG1-fn.Participant_1"]
+}

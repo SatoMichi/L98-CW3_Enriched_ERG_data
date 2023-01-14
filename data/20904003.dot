@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _sale_n_of [label=BV]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(683)" [label=ARG2]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(502)" [label=ARG2]
+	loc_nonsp -> "_increase_v_1-fn.Achieving_first" [label=ARG1]
+	_from_p -> "_increase_v_1-fn.Achieving_first" [label=ARG1]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	_to_p -> "_increase_v_1-fn.Achieving_first" [label=ARG1]
+	"card(36)" -> _percent_n_of [label=ARG1]
+	"_increase_v_1-fn.Achieving_first" -> _sale_n_of [label="ARG1-fn.Cognizer"]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+}

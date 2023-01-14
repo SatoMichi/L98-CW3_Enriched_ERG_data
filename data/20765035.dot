@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> "named(Dinkins)" [label="ARG1-fn.Resident"]
+	"_no+doubt_a_1" -> "_be_v_id-fn.Residence" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_calm_v_1-fn.Expectation" -> _influence_n_1 [label="ARG1-fn.Cognizer"]
+	"_be_v_id-fn.Residence" -> _influence_n_1 [label="ARG2-fn.Location"]
+	proper_q -> "named(Dinkins)" [label=BV]
+	_a_q -> _influence_n_1 [label=BV]
+	compound -> "named(Dinkins)" [label=ARG1]
+}

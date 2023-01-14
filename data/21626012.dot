@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(British)" [label=BV]
+	compound -> "named(British)" [label=ARG2]
+	"_comment_v_on-fn.Judgment_direct_address" -> "named(UAL)" [label="ARG1-fn.Communicator"]
+	proper_q -> "named(Air)" [label=BV]
+	"_comment_v_on-fn.Judgment_direct_address" -> _statement_n_of [label="ARG2-fn.Addressee"]
+	def_explicit_q -> _statement_n_of [label=BV]
+	compound -> "named(Air)" [label=ARG1]
+	poss -> "named(Air)" [label=ARG2]
+	poss -> _statement_n_of [label=ARG1]
+	proper_q -> "named(UAL)" [label=BV]
+	"_decline_v_1-fn.Experiencer_obj" -> "named(UAL)" [label="ARG1-fn.Experiencer"]
+	"_decline_v_1-fn.Experiencer_obj" -> "_comment_v_on-fn.Judgment_direct_address" [label="ARG2-fn.Stimulus"]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"_be_v_id-fn.Name_conferral" -> _capital_n_1 [label="ARG1-fn.Entity"]
+	times -> "card(115)" [label=ARG2]
+	_tangible_a_1 -> _capital_n_1 [label=ARG1]
+	udef_q -> _capital_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _dollar_n_1 [label="ARG2-fn.Name"]
+}

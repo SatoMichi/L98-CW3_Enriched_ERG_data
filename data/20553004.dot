@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_admit_v_to-fn.IN" -> "_suggest_v_to-fn.Statement" [label="ARG2-fn.NotExist"]
+	focus_d -> "_omens/nns_u_unknown" [label=ARG2]
+	_the_q -> "_omens/nns_u_unknown" [label=BV]
+	focus_d -> "_admit_v_to-fn.IN" [label=ARG1]
+	_early_a_1 -> "_omens/nns_u_unknown" [label=ARG1]
+	comp_so -> _wholesome_a_1 [label=ARG1]
+	"_suggest_v_to-fn.Statement" -> _outcome_n_1 [label="ARG2-fn.Topic"]
+	_a_q -> _outcome_n_1 [label=BV]
+	_wholesome_a_1 -> _outcome_n_1 [label=ARG1]
+	_scarce_a_1 -> "_suggest_v_to-fn.Statement" [label=ARG1]
+	"_admit_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_suggest_v_to-fn.Statement" -> "_omens/nns_u_unknown" [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

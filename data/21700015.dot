@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Rouge)" [label=BV]
+	proper_q -> "named(Sen)" [label=BV]
+	_would_v_modal -> "_leave_v_1-fn.Departing" [label=ARG1]
+	proper_q -> "named(Hun)" [label=BV]
+	compound -> "named(Hun)" [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_leave_v_1-fn.Departing" -> generic_entity [label="ARG1-fn.Theme"]
+	proper_q -> "named(Khmer)" [label=BV]
+	compound -> "named(Rouge)" [label=ARG1]
+	compound -> "named(Khmer)" [label=ARG2]
+	compound -> "named(Sen)" [label=ARG1]
+	"_leave_v_1-fn.Departing" -> _and_c [label="ARG2-fn.Initial_Location"]
+}

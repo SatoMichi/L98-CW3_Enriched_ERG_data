@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_pack_v_1-fn.Halt" -> _pork_n_1 [label="ARG2-fn.Place"]
+	"_pack_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	udef_q -> _pork_n_1 [label=BV]
+}

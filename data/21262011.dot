@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_blue_a_1 -> _collar_n_1 [label=ARG1]
+	_take_v_1 -> _worker_n_1 [label=ARG1]
+	_a_q -> _business_n_1 [label=BV]
+	_decide_v_1 -> _worker_n_1 [label=ARG1]
+	compound -> _collar_n_1 [label=ARG2]
+	compound -> _worker_n_1 [label=ARG1]
+	udef_q -> _advice_n_1 [label=BV]
+	"_start_v_cause-fn.Activity_start" -> _worker_n_1 [label="ARG1-fn.Agent"]
+	_decide_v_1 -> "_start_v_cause-fn.Activity_start" [label=ARG2]
+	"_listen_v_to-fn.Perception_active" -> _worker_n_1 [label="ARG1-fn.Experiencer"]
+	_the_q -> _worker_n_1 [label=BV]
+	"_start_v_cause-fn.Activity_start" -> _business_n_1 [label="ARG2-fn.Theme"]
+	_take_v_1 -> _advice_n_1 [label=ARG2]
+	udef_q -> _collar_n_1 [label=BV]
+}

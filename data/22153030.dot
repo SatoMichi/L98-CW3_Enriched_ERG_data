@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _headache_n_1 [label=BV]
+	_without_p -> _headache_n_1 [label=ARG2]
+	_without_p -> _process_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	neg -> _without_p [label=ARG1]
+	poss -> _headache_n_1 [label=ARG1]
+	_moreover_a_1 -> neg [label=ARG1]
+	_the_q -> _process_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

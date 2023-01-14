@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _similar_a_to [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_similar_a_to -> _people_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> _similar_a_to [label="ARG2-fn.Topic"]
+	proper_q -> "named(Ovcharenko)" [label=BV]
+	compound -> "named(Ovcharenko)" [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Ovcharenko)" [label="ARG1-fn.Agent"]
+	_soviet_a_1 -> _people_n_of [label=ARG1]
+	_irish_a_1 -> _people_n_of [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	focus_d -> _similar_a_to [label=ARG2]
+	udef_q -> _people_n_of [label=BV]
+}

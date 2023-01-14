@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _calculation_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_at+least_x_deg" -> "_according+to_p" [label=ARG1]
+	"_according+to_p" -> _calculation_n_of [label=ARG2]
+	def_explicit_q -> _calculation_n_of [label=BV]
+	"_according+to_p" -> unknown [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

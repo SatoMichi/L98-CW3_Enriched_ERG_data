@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_vast_a_1 -> _large_a_1 [label=ARG1]
+	compound -> _and_c [label=ARG2]
+	compound -> _market_n_1 [label=ARG1]
+	udef_q -> _exchange_n_1 [label=BV]
+	compound -> _security_n_1 [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	compound -> _government_n_of [label=ARG2]
+	udef_q -> _government_n_of [label=BV]
+	comp -> _large_a_1 [label=ARG1]
+	_foreign_a_1 -> _exchange_n_1 [label=ARG1]
+	udef_q -> _security_n_1 [label=BV]
+	_large_a_1 -> _market_n_1 [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_also_a_1 -> "_eye_v_1-fn.NF" [label=ARG1]
+	compound -> _portfolio_n_1 [label=ARG1]
+	"_eye_v_1-fn.NF" -> _portfolio_n_1 [label="ARG2-fn.Stimulus"]
+	udef_q -> _developer_n_of [label=BV]
+	_the_q -> _portfolio_n_1 [label=BV]
+	udef_q -> "_real+estate_n_1" [label=BV]
+	"_eye_v_1-fn.NF" -> _developer_n_of [label="ARG1-fn.Experiencer"]
+	compound -> "_real+estate_n_1" [label=ARG2]
+	_major_a_1 -> _corporation_n_1 [label=ARG1]
+	_of_p -> _corporation_n_1 [label=ARG2]
+	_of_p -> _portfolio_n_1 [label=ARG1]
+	udef_q -> _corporation_n_1 [label=BV]
+}

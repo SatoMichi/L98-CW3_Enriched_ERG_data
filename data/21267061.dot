@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_change_v_cause -> _outcome_n_1 [label=ARG2]
+	_of_p -> _trial_n_1 [label=ARG2]
+	"_matter_v_1-fn.NF" -> thing [label="ARG1-fn.NotExist"]
+	which_q -> thing [label=BV]
+	nominalization -> _really_a_1 [label=ARG1]
+	_be_v_id -> nominalization [label=ARG2]
+	_really_a_1 -> "_matter_v_1-fn.NF" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_of_p -> _outcome_n_1 [label=ARG1]
+	_the_q -> _outcome_n_1 [label=BV]
+	_the_q -> _trial_n_1 [label=BV]
+	nominalization -> _change_v_cause [label=ARG1]
+}

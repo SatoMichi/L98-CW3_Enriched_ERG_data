@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _effect_n_1 [label=ARG1]
+	compound -> _rental_n_of [label=ARG2]
+	_a_q -> _drop_n_of [label=BV]
+	udef_q -> _rental_n_of [label=BV]
+	_sharp_a_1 -> _drop_n_of [label=ARG1]
+	_in_p -> _income_n_1 [label=ARG2]
+	_the_q -> _effect_n_1 [label=BV]
+	_among_p -> _drop_n_of [label=ARG1]
+	_of_p -> _hurricane_n_1 [label=ARG2]
+	_among_p -> _effect_n_1 [label=ARG2]
+	_the_q -> _hurricane_n_1 [label=BV]
+	compound -> _income_n_1 [label=ARG1]
+	_economic_a_1 -> _effect_n_1 [label=ARG1]
+	udef_q -> _income_n_1 [label=BV]
+	_in_p -> _drop_n_of [label=ARG1]
+}

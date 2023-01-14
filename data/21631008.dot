@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_panjandrums/nns_u_unknown" [label=BV]
+	part_of -> "_panjandrums/nns_u_unknown" [label=ARG1]
+	"_according+to_p" -> "_happen_v_1-fn.Event" [label=ARG1]
+	"_happen_v_1-fn.Event" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_happen_v_1-fn.Event" [label=ARG1]
+	"_according+to_p" -> part_of [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	_never_a_1 -> "_happen_v_1-fn.Event" [label=ARG1]
+	_of_p -> _market_n_1 [label=ARG2]
+	focus_d -> "_according+to_p" [label=ARG2]
+	_some_q -> part_of [label=BV]
+	_of_p -> "_panjandrums/nns_u_unknown" [label=ARG1]
+	_grand_a_1 -> "_panjandrums/nns_u_unknown" [label=ARG1]
+}

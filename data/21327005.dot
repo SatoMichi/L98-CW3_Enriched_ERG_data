@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "named(Baker)" [label=ARG2]
+	udef_q -> _ms_n_1 [label=BV]
+	_over_p_dir -> _ride_n_1 [label=ARG1]
+	compound -> "named(Baker)" [label=ARG1]
+	focus_d -> _over_p_dir [label=ARG1]
+	"_far+from_x_deg" -> _over_p_dir [label=ARG1]
+	compound -> _ms_n_1 [label=ARG2]
+	focus_d -> _for_p [label=ARG2]
+	_for_p -> _over_p_dir [label=ARG1]
+	_the_q -> _ride_n_1 [label=BV]
+	proper_q -> "named(Baker)" [label=BV]
+}

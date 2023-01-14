@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_judge_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_judge_v_1-fn.NF" -> neg [label="ARG2-fn.NotExist"]
+	neg -> ellipsis [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

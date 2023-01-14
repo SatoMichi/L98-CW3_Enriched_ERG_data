@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> part_of [label=ARG]
+	part_of -> _series_n_of [label=ARG1]
+	_a_q -> _series_n_of [label=BV]
+	_part_q -> part_of [label=BV]
+}

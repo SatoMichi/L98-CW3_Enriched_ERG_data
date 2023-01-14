@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_be_v_there-fn.Needing" -> thing [label="ARG1-fn.Cognizer"]
+	"_add_v_to-fn.Cause_to_end" -> "_be_v_there-fn.Needing" [label="ARG2-fn.Means"]
+	_very_x_deg -> _hot_a_1 [label=ARG1]
+	_hot_a_1 -> thing [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_no_q -> thing [label=BV]
+}

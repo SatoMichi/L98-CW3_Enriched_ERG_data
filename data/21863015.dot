@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_release_v_1-fn.Releasing" [label=ARG1]
+	compound -> "mofy(Sep)" [label=ARG2]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	"_release_v_1-fn.Releasing" -> _figure_n_1 [label="ARG2-fn.Theme"]
+	parg_d -> "_release_v_1-fn.Releasing" [label=ARG1]
+	proper_q -> "mofy(Sep)" [label=BV]
+	_due_a_1 -> "_release_v_1-fn.Releasing" [label=ARG1]
+	_this_q_dem -> _week_n_1 [label=BV]
+	_the_q -> _figure_n_1 [label=BV]
+	parg_d -> _figure_n_1 [label=ARG2]
+	compound -> _figure_n_1 [label=ARG1]
+}

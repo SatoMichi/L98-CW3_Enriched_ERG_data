@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _people_n_of [label=BV]
+	_the_q -> "_downturn/nn_u_unknown" [label=BV]
+	_sudden_a_1 -> _improvement_n_1 [label=ARG1]
+	"little-few_a" -> _people_n_of [label=ARG1]
+	focus_d -> "_predict_v_1-fn.Competition" [label=ARG1]
+	focus_d -> _whatever_p [label=ARG2]
+	"_predict_v_1-fn.Competition" -> _improvement_n_1 [label="ARG2-fn.Participant_2"]
+	_the_q -> _cause_n_of [label=BV]
+	_for_p -> "_downturn/nn_u_unknown" [label=ARG2]
+	_whatever_p -> "_predict_v_1-fn.Competition" [label=ARG1]
+	_whatever_p -> _cause_n_of [label=ARG2]
+	_any_q -> _improvement_n_1 [label=BV]
+	"_predict_v_1-fn.Competition" -> _people_n_of [label="ARG1-fn.Participant_1"]
+	_for_p -> _cause_n_of [label=ARG1]
+}

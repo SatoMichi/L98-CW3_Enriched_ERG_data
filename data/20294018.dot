@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _pilot_n_of [label=ARG2]
+	"_figure_v_into-fn.Change_posture" -> _claim_n_of [label="ARG2-fn.Protagonist"]
+	_either_q -> _plan_n_1 [label=BV]
+	"_know_v_1-fn.State_continue" -> "_figure_v_into-fn.Change_posture" [label="ARG2-fn.State"]
+	"_figure_v_into-fn.Change_posture" -> _plan_n_1 [label="ARG3-fn.Depictive"]
+	udef_q -> _pilot_n_of [label=BV]
+	_the_q -> _claim_n_of [label=BV]
+	parg_d -> "_know_v_1-fn.State_continue" [label=ARG1]
+	neg -> "_know_v_1-fn.State_continue" [label=ARG1]
+	compound -> _claim_n_of [label=ARG1]
+	parg_d -> "_figure_v_into-fn.Change_posture" [label=ARG1]
+	parg_d -> _claim_n_of [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_residential_a_1 -> _development_n_of [label=ARG1]
+	_active_a_1 -> _company_n_of [label=ARG1]
+	udef_q -> _office_n_of [label=BV]
+	compound -> "named(York)" [label=ARG1]
+	_in_p -> _development_n_of [label=ARG1]
+	compound -> "named(New)" [label=ARG2]
+	compound -> _development_n_of [label=ARG1]
+	_in_p -> _active_a_1 [label=ARG1]
+	proper_q -> "named(York)" [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	compound -> _office_n_of [label=ARG2]
+	udef_q -> _development_n_of [label=BV]
+	_in_p -> "named(York)" [label=ARG2]
+}

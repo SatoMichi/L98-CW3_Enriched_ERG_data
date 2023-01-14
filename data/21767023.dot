@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(West)" [label=ARG2]
+	_as_x_subord -> _so_a_1 [label=ARG1]
+	_the_q -> _currency_n_1 [label=BV]
+	_as_x_subord -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	_german_a_1 -> _currency_n_1 [label=ARG1]
+	udef_q -> "named(West)" [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	compound -> _price_n_of [label=ARG1]
+	proper_q -> "named(Merkur)" [label=BV]
+	ellipsis_ref -> _price_n_of [label=ARG1]
+	compound -> "named(Merkur)" [label=ARG2]
+	_so_a_1 -> ellipsis_ref [label=ARG1]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _currency_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _german_a_1 [label=ARG1]
+}

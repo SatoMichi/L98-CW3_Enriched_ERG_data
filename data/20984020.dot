@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _landscape_n_1 [label=BV]
+	_in_p_temp -> "mofy(Jul)" [label=ARG2]
+	compound -> _architect_n_of [label=ARG1]
+	compound -> _landscape_n_1 [label=ARG2]
+	_from_p -> _garden_n_1 [label=ARG2]
+	_the_q -> _garden_n_1 [label=BV]
+	proper_q -> "mofy(Jul)" [label=BV]
+	_from_p -> "_expel_v_1-fn.Removing" [label=ARG1]
+	parg_d -> "_expel_v_1-fn.Removing" [label=ARG1]
+	_in_p_temp -> "_expel_v_1-fn.Removing" [label=ARG1]
+	parg_d -> _architect_n_of [label=ARG2]
+	_the_q -> _architect_n_of [label=BV]
+	"_expel_v_1-fn.Removing" -> _architect_n_of [label="ARG2-fn.NotExist"]
+}

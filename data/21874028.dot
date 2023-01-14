@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _bond_n_1 [label=BV]
+	"_dub_v_1-fn.Name_conferral" -> _trader_n_1 [label="ARG1-fn.Agent"]
+	parg_d -> _security_n_1 [label=ARG2]
+	udef_q -> "_bailout/nn_u_unknown" [label=BV]
+	poss -> _security_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	parg_d -> "_dub_v_1-fn.Name_conferral" [label=ARG1]
+	"_dub_v_1-fn.Name_conferral" -> _bond_n_1 [label="ARG2-fn.Theme"]
+	"_dub_v_1-fn.Name_conferral" -> _security_n_1 [label="ARG3-fn.Result"]
+	def_explicit_q -> _security_n_1 [label=BV]
+	udef_q -> _trader_n_1 [label=BV]
+	compound -> "_bailout/nn_u_unknown" [label=ARG2]
+	compound -> _bond_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

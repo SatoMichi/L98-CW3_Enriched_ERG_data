@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_common_a_for -> _form_n_of [label=ARG1]
+	compound -> nominalization [label=ARG1]
+	udef_q -> _index_n_1 [label=BV]
+	_a_q -> _form_n_of [label=BV]
+	udef_q -> "_arbitrage/nn_u_unknown" [label=BV]
+	udef_q -> _program_n_of [label=BV]
+	compound -> _index_n_1 [label=ARG2]
+	_form_n_of -> nominalization [label=ARG1]
+	compound -> "_arbitrage/nn_u_unknown" [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> "_arbitrage/nn_u_unknown" [label="ARG1-fn.Theme"]
+	compound -> _program_n_of [label=ARG2]
+	"_be_v_id-fn.Cotheme" -> _form_n_of [label="ARG2-fn.Cotheme"]
+	nominalization -> _trade_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

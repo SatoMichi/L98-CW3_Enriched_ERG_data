@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pay_v_for-fn.Commerce_buy" -> _operation_n_of [label="ARG1-fn.Buyer"]
+	"_pay_v_for-fn.Commerce_buy" -> _player_n_of [label="ARG3-fn.Means"]
+	_at_p -> "named(SMU)" [label=ARG2]
+	_casual_a_1 -> _operation_n_of [label=ARG1]
+	proper_q -> "named(SMU)" [label=BV]
+	udef_q -> _player_n_of [label=BV]
+	_no_q -> _operation_n_of [label=BV]
+	_at_p -> _player_n_of [label=ARG1]
+}

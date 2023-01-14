@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Railroad)" [label=BV]
+	"_colon_v_id-fn.Activity_stop" -> _business_n_1 [label="ARG1-fn.Purpose"]
+	"_colon_v_id-fn.Activity_stop" -> implicit_conj [label="ARG2-fn.Place"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	udef_q -> "_real+estate_n_1" [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	_natural_a_for -> _resource_n_1 [label=ARG1]
+	udef_q -> _resource_n_1 [label=BV]
+}

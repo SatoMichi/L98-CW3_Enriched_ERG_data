@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(CPI)" [label=BV]
+	"_argue_v_with-fn.Cotheme" -> pron [label="ARG1-fn.Theme"]
+	udef_q -> _and_c [label=BV]
+	_since_p -> "_decelerated/vbn_u_unknown" [label=ARG1]
+	"card(2)" -> generic_entity [label=ARG1]
+	udef_q -> "season(spring)" [label=BV]
+	"_in+fact_a_1" -> "_decelerated/vbn_u_unknown" [label=ARG1]
+	_since_p -> "season(spring)" [label=ARG2]
+	udef_q -> implicit_conj [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_argue_v_with-fn.Cotheme" -> "_decelerated/vbn_u_unknown" [label="ARG2-fn.Cotheme"]
+	proper_q -> "named(PPI)" [label=BV]
+	_both_q -> generic_entity [label=BV]
+	"_decelerated/vbn_u_unknown" -> implicit_conj [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p_means -> _dollar_n_1 [label=ARG2]
+	times -> "card(229)" [label=ARG2]
+	_the_q -> _baseline_n_1 [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	_this_q_dem -> generic_entity [label=BV]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> _baseline_n_1 [label="ARG2-fn.Patient"]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> generic_entity [label="ARG1-fn.Cause"]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	_by_p_means -> "_reduce_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+}

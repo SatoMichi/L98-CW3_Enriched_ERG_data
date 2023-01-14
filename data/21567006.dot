@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_have_v_1-fn.IN" [label=ARG1]
+	_very_x_deg -> _sharp_a_1 [label=ARG1]
+	_the_q -> _needle_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _needle_n_1 [label="ARG1-fn.Pivot"]
+	_in_p_state -> _case_n_of [label=ARG2]
+	"_have_v_1-fn.IN" -> _point_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _point_n_of [label=BV]
+	focus_d -> _in_p_state [label=ARG2]
+	_this_q_dem -> _case_n_of [label=BV]
+	_sharp_a_1 -> _point_n_of [label=ARG1]
+	_in_p_state -> "_have_v_1-fn.IN" [label=ARG1]
+}

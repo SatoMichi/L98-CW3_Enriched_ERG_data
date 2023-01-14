@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _business_n_1 [label=BV]
+	udef_q -> _profit_n_1 [label=BV]
+	_across_p -> _business_n_1 [label=ARG2]
+	_across_p -> "_improve_v_1-fn.Cause_to_end" [label=ARG1]
+	poss -> _business_n_1 [label=ARG1]
+	poss -> "named(Hess)" [label=ARG2]
+	proper_q -> "named(Hess)" [label=BV]
+	"_improve_v_1-fn.Cause_to_end" -> _profit_n_1 [label="ARG1-fn.Process"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Delchamps)" [label=BV]
+	compound -> "named(Delchamps)" [label=ARG1]
+	def_explicit_q -> _position_n_of [label=BV]
+	"_retain_v_1-fn.Competition" -> _position_n_of [label="ARG2-fn.Participant_2"]
+	poss -> pron [label=ARG2]
+	udef_q -> _president_n_of [label=BV]
+	_as_p_nbar -> _position_n_of [label=ARG1]
+	compound -> "named(Randy)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Randy)" [label=BV]
+	_as_p_nbar -> _president_n_of [label=ARG2]
+	poss -> _position_n_of [label=ARG1]
+	"_retain_v_1-fn.Competition" -> "named(Delchamps)" [label="ARG1-fn.Participant_1"]
+}

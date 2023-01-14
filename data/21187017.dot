@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "card(35526.55)" [label=ARG2]
+	proper_q -> "named(Nikkei)" [label=BV]
+	loc_nonsp -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	loc_nonsp -> _point_n_of [label=ARG2]
+	"card(58.97)" -> _point_n_of [label=ARG1]
+	compound -> "named(Nikkei)" [label=ARG2]
+	number_q -> "card(35526.55)" [label=BV]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _index_n_1 [label="ARG1-fn.NotExist"]
+	_to_p -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> _index_n_1 [label=ARG1]
+	udef_q -> _point_n_of [label=BV]
+	_the_q -> _index_n_1 [label=BV]
+}

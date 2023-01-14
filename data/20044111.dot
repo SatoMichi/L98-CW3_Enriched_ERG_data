@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _missus_n_1 [label=BV]
+	"_recall_v_1-fn.Competition" -> "_dumbfounded/jj_u_unknown" [label="ARG2-fn.Participant_2"]
+	"_recall_v_1-fn.Competition" -> "named(Ward)" [label="ARG1-fn.Participant_1"]
+	focus_d -> "_recall_v_1-fn.Competition" [label=ARG1]
+	"_dumbfounded/jj_u_unknown" -> pron [label=ARG1]
+	proper_q -> "named(Ward)" [label=BV]
+	focus_d -> "_dumbfounded/jj_u_unknown" [label=ARG2]
+	compound -> _missus_n_1 [label=ARG2]
+	compound -> "named(Ward)" [label=ARG1]
+}

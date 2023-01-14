@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _news_n_of [label=ARG2]
+	udef_q -> _news_n_of [label=BV]
+	_for_p -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	_the_q -> _money_n_1 [label=BV]
+	_a_q -> _program_n_of [label=BV]
+	_for_p -> _program_n_of [label=ARG2]
+	_either_a_also -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _money_n_1 [label="ARG1-fn.Entity"]
+	_particularly_x_deg -> _for_p [label=ARG1]
+	neg -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	udef_q -> _peanut_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _peanut_n_1 [label="ARG2-fn.Name"]
+	compound -> _program_n_of [label=ARG1]
+}

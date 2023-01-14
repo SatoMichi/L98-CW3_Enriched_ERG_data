@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hear_v_1-fn.IN" -> _crack_v_1 [label="ARG3-fn.NotExist"]
+	def_explicit_q -> _head_n_of [label=BV]
+	_the_q -> _building_n_1 [label=BV]
+	_above_p -> _building_n_1 [label=ARG1]
+	poss -> _head_n_of [label=ARG1]
+	_above_p -> _head_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	_of_p -> _part_n_1 [label=ARG1]
+	_of_p -> _building_n_1 [label=ARG2]
+	"_hear_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	"_hear_v_1-fn.IN" -> _part_n_1 [label="ARG2-fn.Stimulus"]
+	_crack_v_1 -> _part_n_1 [label=ARG1]
+	udef_q -> _part_n_1 [label=BV]
+}

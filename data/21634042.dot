@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_develop_v_cause-fn.Cause_to_end" -> _material_n_1 [label="ARG2-fn.Means"]
+	_no_q -> _accident_n_1 [label=BV]
+	_such_q -> _material_n_1 [label=BV]
+	_able_a_1 -> "_develop_v_cause-fn.Cause_to_end" [label=ARG2]
+	"_develop_v_cause-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_able_a_1 -> pron [label=ARG1]
+	_accident_n_1 -> _able_a_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _accident_n_1 [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_successful_a_1 -> _material_n_1 [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Vinson)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_as_x_subord -> neg [label=ARG1]
+	neg -> _control_v_1 [label=ARG1]
+	_control_v_1 -> pron [label=ARG1]
+	_control_v_1 -> _fact_n_1 [label=ARG2]
+	"_explain_v_to-fn.Statement" -> pron [label="ARG2-fn.Topic"]
+	proper_q -> "named(Vinson)" [label=BV]
+	"_explain_v_to-fn.Statement" -> "named(Vinson)" [label="ARG1-fn.Agent"]
+	_the_q -> _fact_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_as_x_subord -> "_explain_v_to-fn.Statement" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

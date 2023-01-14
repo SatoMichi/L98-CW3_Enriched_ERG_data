@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_any_q -> "_wrongdoing/nn_u_unknown" [label=BV]
+	"_deny_v_to-fn.Statement" -> "named(Bolar)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Bolar)" [label=BV]
+	"_deny_v_to-fn.Statement" -> "_wrongdoing/nn_u_unknown" [label="ARG2-fn.Predicate"]
+}

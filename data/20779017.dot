@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_assume_v_1-fn.Adopt_selection" -> _responsibility_n_1 [label="ARG2-fn.Theme"]
+	comp -> _similar_a_to [label=ARG1]
+	_in_p -> _market_n_1 [label=ARG2]
+	_similar_a_to -> _responsibility_n_1 [label=ARG1]
+	_the_q -> "named_n(Fed)" [label=BV]
+	_in_p -> _responsibility_n_1 [label=ARG1]
+	_for_p -> _market_n_1 [label=ARG1]
+	_for_p -> _security_n_1 [label=ARG2]
+	compound -> _security_n_1 [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	_a_q -> _responsibility_n_1 [label=BV]
+	"_assume_v_1-fn.Adopt_selection" -> "named_n(Fed)" [label="ARG1-fn.Agent"]
+	compound -> _government_n_of [label=ARG2]
+	udef_q -> _government_n_of [label=BV]
+	udef_q -> _security_n_1 [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_distressed_a_1 -> pron [label=ARG1]
+	_then_p_temp -> time_n [label=ARG1]
+	_pretty_x -> _distressed_a_1 [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	"_run_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	_now_a_1 -> time_n [label=ARG1]
+	_clear_a_of -> _distressed_a_1 [label=ARG1]
+	loc_nonsp -> "_run_v_1-fn.Halt" [label=ARG1]
+	_out_p -> "_run_v_1-fn.Halt" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	_frantic_a_1 -> "_run_v_1-fn.Halt" [label=ARG1]
+}

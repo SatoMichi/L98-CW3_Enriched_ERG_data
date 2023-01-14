@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_appear_v_1-fn.Coming_to_be" -> _editorial_n_1 [label="ARG1-fn.NotExist"]
+	loc_nonsp -> "_appear_v_1-fn.Coming_to_be" [label=ARG1]
+	_today_a_1 -> time_n [label=ARG1]
+	parg_d -> _editorial_n_1 [label=ARG2]
+	parg_d -> _relate_v_to [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	def_implicit_q -> time_n [label=BV]
+	_relate_v_to -> _editorial_n_1 [label=ARG2]
+	_a_q -> _editorial_n_1 [label=BV]
+}

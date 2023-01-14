@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_recall_v_1-fn.Bail_decision" -> "_scream_v_1-fn.Halt" [label="ARG2-fn.Judge"]
+	"_scream_v_1-fn.Halt" -> "named(Briggs)" [label="ARG1-fn.Purpose"]
+	compound -> _mister_n_1 [label=ARG2]
+	focus_d -> "_scream_v_1-fn.Halt" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(Windsor)" [label=BV]
+	compound -> "named(Windsor)" [label=ARG1]
+	proper_q -> "named(Briggs)" [label=BV]
+	"_recall_v_1-fn.Bail_decision" -> "named(Windsor)" [label="ARG1-fn.Accused"]
+	focus_d -> "_recall_v_1-fn.Bail_decision" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_slip_v_2-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Systems)" [label=BV]
+	udef_q -> _volume_n_of [label=BV]
+	_on_p -> "_slip_v_2-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(SCI)" [label=BV]
+	_volume_n_of -> _share_n_of [label=ARG1]
+	"card(858,000)" -> _share_n_of [label=ARG1]
+	"_slip_v_2-fn.Change_position_on_a_scale" -> "named(Systems)" [label="ARG1-fn.Attribute"]
+	compound -> "named(Systems)" [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	number_q -> "card(10)" [label=BV]
+	_on_p -> _volume_n_of [label=ARG2]
+	loc_nonsp -> "_slip_v_2-fn.Change_position_on_a_scale" [label=ARG1]
+	_to_p -> "card(10)" [label=ARG2]
+	compound -> "named(SCI)" [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_continue_v_2-fn.State_continue" [label=ARG1]
+	_in_p_temp -> "yofc(1989)" [label=ARG2]
+	_in_p_temp -> "_see_v_1-fn.Expectation" [label=ARG1]
+	focus_d -> "_see_v_1-fn.Expectation" [label=ARG2]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	"_say_v_to-fn.Taking" -> "_see_v_1-fn.Expectation" [label="ARG2-fn.Theme"]
+	parg_d -> _improvement_n_1 [label=ARG2]
+	udef_q -> _improvement_n_1 [label=BV]
+	"_see_v_1-fn.Expectation" -> _improvement_n_1 [label="ARG2-fn.Phenomenon"]
+	"_say_v_to-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "yofc(1989)" [label=BV]
+	"_continue_v_2-fn.State_continue" -> _improvement_n_1 [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	"_see_v_1-fn.Expectation" -> pron [label="ARG1-fn.Cognizer"]
+}

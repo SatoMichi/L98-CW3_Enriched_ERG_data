@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _right_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _right_n_1 [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	neg -> "_have_v_1-fn.IN" [label=ARG1]
+	_practice_v_1 -> _right_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

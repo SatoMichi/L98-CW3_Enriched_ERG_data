@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _house_n_of [label=BV]
+	compound -> _official_n_1 [label=ARG1]
+	"much-many_a" -> _official_n_1 [label=ARG1]
+	compound -> _house_n_of [label=ARG1]
+	udef_q -> _official_n_1 [label=BV]
+	compound -> "_brokerage/nn_u_unknown" [label=ARG2]
+	_optimistic_a_1 -> _official_n_1 [label=ARG1]
+	_also_a_1 -> _optimistic_a_1 [label=ARG1]
+	udef_q -> "_brokerage/nn_u_unknown" [label=BV]
+}

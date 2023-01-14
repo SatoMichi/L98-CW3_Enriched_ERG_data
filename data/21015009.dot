@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_spread_v_1-fn.Competition" -> "_losers/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+	_end_n_of -> _session_n_1 [label=ARG1]
+	_by_p -> "_spread_v_1-fn.Competition" [label=ARG1]
+	_in_p -> "_spread_v_1-fn.Competition" [label=ARG1]
+	_in_p -> _range_n_of [label=ARG2]
+	_broad_a_1 -> _range_n_of [label=ARG1]
+	_a_q -> _range_n_of [label=BV]
+	udef_q -> "_losers/nns_u_unknown" [label=BV]
+	_by_p -> _end_n_of [label=ARG2]
+	parg_d -> "_spread_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _session_n_1 [label=BV]
+	_the_q -> _end_n_of [label=BV]
+	parg_d -> "_losers/nns_u_unknown" [label=ARG2]
+}

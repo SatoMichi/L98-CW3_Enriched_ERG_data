@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "_racehorse/nn_u_unknown" [label=ARG2]
+	"_be_v_id-fn.Assemble" -> _problem_n_of [label="ARG1-fn.Individuals"]
+	_big_a_1 -> _problem_n_of [label=ARG1]
+	"_thoroughbred/jj_u_unknown" -> "_racehorse/nn_u_unknown" [label=ARG1]
+	compound -> _market_n_1 [label=ARG1]
+	udef_q -> _problem_n_of [label=BV]
+	"_be_v_id-fn.Assemble" -> _market_n_1 [label="ARG2-fn.Group"]
+	_the_q -> _market_n_1 [label=BV]
+	udef_q -> "_racehorse/nn_u_unknown" [label=BV]
+	"card(1)" -> _problem_n_of [label=ARG1]
+}

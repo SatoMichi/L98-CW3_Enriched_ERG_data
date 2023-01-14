@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_keep_v_prd-fn.Cause_to_continue" -> _confidential_a_1 [label="ARG3-fn.NotExist"]
+	"_keep_v_prd-fn.Cause_to_continue" -> "named(Mesa)" [label="ARG1-fn.Agent"]
+	_the_q -> _proposal_n_1 [label=BV]
+	"_keep_v_prd-fn.Cause_to_continue" -> _proposal_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	_confidential_a_1 -> _proposal_n_1 [label=ARG1]
+	"_ask_v_1-fn.Request" -> pron [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Mesa)" [label=BV]
+	"_ask_v_1-fn.Request" -> "named(Mesa)" [label="ARG2-fn.NotExist"]
+	"_ask_v_1-fn.Request" -> "_keep_v_prd-fn.Cause_to_continue" [label="ARG3-fn.NotExist"]
+	_also_a_1 -> "_ask_v_1-fn.Request" [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _californian_n_1 [label=BV]
+	_by_p_dir -> pron [label=ARG1]
+	_get_v_state -> _by_p_dir [label=ARG2]
+	_can_v_modal -> _get_v_state [label=ARG1]
+	_get_v_state -> pron [label=ARG1]
+	_without_p -> _get_v_state [label=ARG1]
+	"_believe_v_1-fn.Awareness" -> _can_v_modal [label="ARG2-fn.NotExist"]
+	_without_p -> pron [label=ARG2]
+	"much-many_a" -> _californian_n_1 [label=ARG1]
+	"_believe_v_1-fn.Awareness" -> _californian_n_1 [label="ARG1-fn.NotExist"]
+	_so_a_thus -> "_believe_v_1-fn.Awareness" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

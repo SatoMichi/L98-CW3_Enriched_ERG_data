@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_break_v_into -> _aspect_n_1 [label=ARG2]
+	_the_q -> _business_n_1 [label=BV]
+	_the_q -> _bank_n_of [label=BV]
+	_break_v_into -> _bank_n_of [label=ARG1]
+	"_want_v_1-fn.Desiring" -> _break_v_into [label="ARG2-fn.Theme"]
+	_of_p -> _aspect_n_1 [label=ARG1]
+	compound -> _business_n_1 [label=ARG1]
+	_of_p -> _business_n_1 [label=ARG2]
+	_all_q -> _aspect_n_1 [label=BV]
+	"_want_v_1-fn.Desiring" -> _bank_n_of [label="ARG1-fn.Pivot"]
+	udef_q -> _security_n_1 [label=BV]
+	compound -> _security_n_1 [label=ARG2]
+	_bad_a_1 -> "_want_v_1-fn.Desiring" [label=ARG1]
+}

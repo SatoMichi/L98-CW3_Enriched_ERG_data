@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _commodity_n_1 [label=BV]
+	unknown -> _commodity_n_1 [label=ARG]
+	_colon_p_namely -> _commodity_n_1 [label=ARG1]
+}

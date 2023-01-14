@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _toothpaste_n_1 [label=BV]
+	proper_q -> "named(Gamble)" [label=BV]
+	udef_q -> _detergent_n_1 [label=BV]
+	"_receive_v_1-fn.Receiving" -> _and_c [label="ARG1-fn.Agent"]
+	proper_q -> "named(Colgate)" [label=BV]
+	_big_a_1 -> _order_n_of [label=ARG1]
+	udef_q -> _order_n_of [label=BV]
+	_for_p -> implicit_conj [label=ARG2]
+	proper_q -> "named(Procter)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _soap_n_1 [label=BV]
+	"_receive_v_1-fn.Receiving" -> _order_n_of [label="ARG2-fn.Theme"]
+	_for_p -> _order_n_of [label=ARG1]
+}

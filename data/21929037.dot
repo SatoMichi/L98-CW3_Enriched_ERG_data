@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_give_v_1-fn.State_continue" -> "named(France)" [label="ARG2-fn.State"]
+	parg_d -> "_give_v_1-fn.State_continue" [label=ARG1]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_neighbor_v_1-fn.Change_position_on_a_scale" -> "named(France)" [label="ARG1-fn.Attribute"]
+	parg_d -> _wisdom_n_1 [label=ARG2]
+	_a_q -> "named(France)" [label=BV]
+	udef_q -> _wisdom_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	"_give_v_1-fn.State_continue" -> _wisdom_n_1 [label="ARG3-fn.Time"]
+	_particular_a_1 -> "_give_v_1-fn.State_continue" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _wisdom_n_1 [label="ARG2-fn.Means"]
+	_political_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_nervous_a_about -> "named(France)" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	_current_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

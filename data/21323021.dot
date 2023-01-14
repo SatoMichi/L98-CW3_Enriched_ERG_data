@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _radio_n_1 [label=BV]
+	_again_a_1 -> "_query_v_1-fn.Required_event" [label=ARG1]
+	"_query_v_1-fn.Required_event" -> _radio_n_1 [label="ARG1-fn.Required_situation"]
+}

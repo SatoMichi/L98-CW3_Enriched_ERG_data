@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_start_v_cause-fn.Process_start" -> generic_entity [label="ARG1-fn.Agent"]
+	compound -> nominalization [label=ARG2]
+	nominalization -> _bid_v_1 [label=ARG1]
+	_rag_v_2 -> _war_n_1 [label=ARG1]
+	compound -> _war_n_1 [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_still_a_1 -> _rag_v_2 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_start_v_cause-fn.Process_start" -> _war_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _war_n_1 [label=BV]
+}

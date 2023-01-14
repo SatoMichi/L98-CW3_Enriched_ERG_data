@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_nowadays_a_1 -> "_get_v_to-fn.Cause_to_end" [label=ARG1]
+	udef_q -> "_decadence/nn_u_unknown" [label=BV]
+	_pristine_a_1 -> thing [label=ARG1]
+	"_take_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	"_take_v_1-fn.Competition" -> _regulator_n_1 [label="ARG1-fn.Participant_1"]
+	_for_p -> "_take_v_1-fn.Competition" [label=ARG1]
+	_for_p -> "_decadence/nn_u_unknown" [label=ARG2]
+	"_get_v_to-fn.Cause_to_end" -> _pristine_a_1 [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	every_q -> thing [label=BV]
+	_the_q -> _regulator_n_1 [label=BV]
+	focus_d -> "_get_v_to-fn.Cause_to_end" [label=ARG1]
+	_otherwise_a_1 -> "_take_v_1-fn.Competition" [label=ARG1]
+}

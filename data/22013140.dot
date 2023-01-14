@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "_setbacks/nns_u_unknown" [label=ARG1]
+	_political_a_1 -> "_setbacks/nns_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> "_setbacks/nns_u_unknown" [label=BV]
+	"_mount_v_1-fn.Competition" -> "_setbacks/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	poss -> pron [label=ARG2]
+}

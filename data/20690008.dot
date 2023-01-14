@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_sign_n_of -> "_hypoglycemia/nn_u_unknown" [label=ARG1]
+	_warn_v_1 -> _sign_n_of [label=ARG1]
+	_usual_a_1 -> _sign_n_of [label=ARG1]
+	"_include_v_1-fn.NF" -> _sign_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> "_hypoglycemia/nn_u_unknown" [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _cramp_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _sign_n_of [label=BV]
+	nominalization -> _sweat_v_1 [label=ARG1]
+	"_include_v_1-fn.NF" -> implicit_conj [label="ARG2-fn.Theme"]
+	udef_q -> _anxiety_n_1 [label=BV]
+}

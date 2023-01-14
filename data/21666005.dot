@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_profitable_a_for -> "named(Group)" [label=ARG1]
+	"_give_v_1-fn.Competition" -> _figure_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _figure_n_1 [label=BV]
+	compound -> "named(Wheeler)" [label=ARG2]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	proper_q -> "named(Group)" [label=BV]
+	proper_q -> "named(Wheeler)" [label=BV]
+	"_give_v_1-fn.Competition" -> "named(Group)" [label="ARG1-fn.Participant_1"]
+	"_say_v_to-fn.Surpassing" -> _but_c [label="ARG2-fn.Profiled_item"]
+	pronoun_q -> pron [label=BV]
+	compound -> "named(Group)" [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> "_give_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _change_n_of [label=BV]
+	"_cyclical/jj_u_unknown" -> _change_n_of [label=ARG1]
+	_right_x_deg -> _now_a_1 [label=ARG1]
+	_hard_a_for -> "_know_v_1-fn.IN" [label=ARG1]
+	_now_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> "_know_v_1-fn.IN" [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	_fundamental_a_1 -> _change_n_of [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	"_know_v_1-fn.IN" -> _or_c [label="ARG2-fn.Theme"]
+}

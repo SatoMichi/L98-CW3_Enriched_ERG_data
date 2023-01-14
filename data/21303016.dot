@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_american_a_1 -> _investor_n_1 [label=ARG1]
+	"_have_v_1-fn.Competition" -> _investor_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _equities_n_1 [label=BV]
+	_large_a_1 -> _appetite_n_1 [label=ARG1]
+	_never_a_1 -> "_have_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	_japanese_a_1 -> _equities_n_1 [label=ARG1]
+	_institutional_a_1 -> _investor_n_1 [label=ARG1]
+	_for_p -> _equities_n_1 [label=ARG2]
+	_for_p -> _appetite_n_1 [label=ARG1]
+	"_have_v_1-fn.Competition" -> _appetite_n_1 [label="ARG2-fn.Participant_2"]
+	_a_q -> _appetite_n_1 [label=BV]
+}

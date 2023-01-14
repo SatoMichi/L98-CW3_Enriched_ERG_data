@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _problem_n_of [label=ARG1]
+	"_top_v_1-fn.Change_position_on_a_scale" -> _list_n_of [label="ARG2-fn.Item"]
+	"_top_v_1-fn.Change_position_on_a_scale" -> _problem_n_of [label="ARG1-fn.Attribute"]
+	_the_q -> _list_n_of [label=BV]
+	udef_q -> _problem_n_of [label=BV]
+	compound -> _labor_n_1 [label=ARG2]
+	udef_q -> _labor_n_1 [label=BV]
+}

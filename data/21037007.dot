@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q -> _percent_n_of [label=BV]
+	eventuality -> "_export_v_1-fn.Process_stop" [label=ARG1]
+	"card(70)" -> _percent_n_of [label=ARG1]
+	_percent_n_of -> pron [label=ARG1]
+	parg_d -> "_export_v_1-fn.Process_stop" [label=ARG1]
+	_the_q -> "named_n(US)" [label=BV]
+	"_export_v_1-fn.Process_stop" -> _percent_n_of [label="ARG2-fn.Place"]
+	parg_d -> _percent_n_of [label=ARG2]
+	_to_p -> "_export_v_1-fn.Process_stop" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_to_p -> "named_n(US)" [label=ARG2]
+}

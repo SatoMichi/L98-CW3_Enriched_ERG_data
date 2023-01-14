@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "dofw(Mon)" [label=ARG2]
+	_a_q -> "_sell-off_n_1" [label=BV]
+	udef_q -> _gasoline_n_1 [label=BV]
+	compound -> _future_n_1 [label=ARG1]
+	"_begin_v_1-fn.Process_start" -> "_sell-off_n_1" [label="ARG2-fn.Theme"]
+	"_continue_v_2-fn.Process_continue" -> "_sell-off_n_1" [label="ARG2-fn.NotExist"]
+	_that_q_dem -> generic_entity [label=BV]
+	proper_q -> "dofw(Mon)" [label=BV]
+	"_continue_v_2-fn.Process_continue" -> _future_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _future_n_1 [label=BV]
+	loc_nonsp -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	compound -> _gasoline_n_1 [label=ARG2]
+	"_begin_v_1-fn.Process_start" -> generic_entity [label="ARG1-fn.NotExist"]
+}

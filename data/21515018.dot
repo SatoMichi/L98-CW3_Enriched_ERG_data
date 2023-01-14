@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _spinoff_n_1 [label=BV]
+	_should_v_modal -> "_solve_v_1-fn.NF" [label=ARG1]
+	"_solve_v_1-fn.NF" -> _problem_n_of [label="ARG2-fn.Theme"]
+	_for_p -> "_solve_v_1-fn.NF" [label=ARG1]
+	_the_q -> _parent_n_of [label=BV]
+	_for_p -> _parent_n_of [label=ARG2]
+	"_solve_v_1-fn.NF" -> _spinoff_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _problem_n_of [label=BV]
+}

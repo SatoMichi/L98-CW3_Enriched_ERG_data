@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_raise_v_cause-fn.Cause_harm" -> "named(McGlade)" [label="ARG1-fn.Agent"]
+	"_raise_v_cause-fn.Cause_harm" -> _question_n_about [label="ARG2-fn.Victim"]
+	_question_n_about -> _deal_n_1 [label=ARG1]
+	_the_q -> _deal_n_1 [label=BV]
+	compound -> _ms_n_1 [label=ARG2]
+	proper_q -> "named(PaineWebber)" [label=BV]
+	_of_p -> "named(McGlade)" [label=ARG1]
+	_a_q -> _question_n_about [label=BV]
+	_fundamental_a_1 -> _question_n_about [label=ARG1]
+	_of_p -> "named(PaineWebber)" [label=ARG2]
+	udef_q -> _ms_n_1 [label=BV]
+	proper_q -> "named(McGlade)" [label=BV]
+	comp -> _fundamental_a_1 [label=ARG1]
+	compound -> "named(McGlade)" [label=ARG1]
+}

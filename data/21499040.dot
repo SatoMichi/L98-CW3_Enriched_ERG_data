@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> ellipsis_ref [label=ARG1]
+	_by_p_temp -> "yofc(1986)" [label=ARG2]
+	_down_p -> ellipsis_ref [label=ARG1]
+	_the_q -> _number_n_of [label=BV]
+	_federal_a_1 -> _regulator_n_1 [label=ARG1]
+	_number_n_of -> _regulator_n_1 [label=ARG1]
+	_to_p -> _down_p [label=ARG1]
+	ellipsis_ref -> _number_n_of [label=ARG1]
+	focus_d -> _by_p_temp [label=ARG2]
+	_by_p_temp -> ellipsis_ref [label=ARG1]
+	number_q -> "card(103,000)" [label=BV]
+	_to_p -> "card(103,000)" [label=ARG2]
+	udef_q -> _regulator_n_1 [label=BV]
+	_about_x_deg -> number_q [label=ARG1]
+	proper_q -> "yofc(1986)" [label=BV]
+}

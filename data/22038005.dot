@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_cause-fn.Causation" -> "_feel_v_seem-about-fn.Feeling" [label="ARG2-fn.Theme"]
+	"_feel_v_seem-about-fn.Feeling" -> _slow_a_1 [label="ARG2-fn.Stimulus"]
+	_still_a_1 -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	_slow_a_1 -> pron [label=ARG1]
+	compound -> _supermarket_n_1 [label=ARG2]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Experiencer"]
+	neg -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	udef_q -> _supermarket_n_1 [label=BV]
+	"_make_v_cause-fn.Causation" -> _tabloid_n_1 [label="ARG1-fn.Agent"]
+	"_feel_v_seem-about-fn.Feeling" -> pron [label="ARG1-fn.Experiencer"]
+	_because_x -> "_make_v_cause-fn.Causation" [label=ARG1]
+	compound -> _tabloid_n_1 [label=ARG1]
+	_because_x -> neg [label=ARG2]
+	_those_q_dem -> _tabloid_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

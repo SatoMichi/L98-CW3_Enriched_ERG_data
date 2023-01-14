@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _income_n_1 [label=ARG1]
+	_most_q -> part_of [label=BV]
+	udef_q -> _farm_n_1 [label=BV]
+	_those_q_dem -> _state_n_of [label=BV]
+	"_set_v_1-fn.Relative_time" -> part_of [label="ARG1-fn.Focal_occasion"]
+	udef_q -> _record_n_of [label=BV]
+	compound -> _record_n_of [label=ARG1]
+	"_set_v_1-fn.Relative_time" -> _record_n_of [label="ARG2-fn.Landmark_occasion"]
+	compound -> _farm_n_1 [label=ARG2]
+	udef_q -> _income_n_1 [label=BV]
+	part_of -> _state_n_of [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _beta_n_1 [label=ARG2]
+	udef_q -> _figure_n_1 [label=BV]
+	_wide_a_1 -> _available_a_1 [label=ARG1]
+	compound -> _figure_n_1 [label=ARG1]
+	"_interpret_v_1-fn.Process_resume" -> _figure_n_1 [label="ARG2-fn.Process"]
+	udef_q -> _beta_n_1 [label=BV]
+	_available_a_1 -> _figure_n_1 [label=ARG1]
+	_easy_a_for -> "_interpret_v_1-fn.Process_resume" [label=ARG1]
+}

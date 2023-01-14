@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_farther_a_1 -> _apart_a_1 [label=ARG1]
+	_on_p -> _keyboard_n_1 [label=ARG2]
+	subord -> "_sit_v_1-fn.Being_located" [label=ARG1]
+	subord -> _apart_a_1 [label=ARG2]
+	_the_q -> _keyboard_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _hand_n_1 [label=BV]
+	"_sit_v_1-fn.Being_located" -> _hand_n_1 [label="ARG1-fn.NotExist"]
+	poss -> _hand_n_1 [label=ARG1]
+	_on_p -> "_sit_v_1-fn.Being_located" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

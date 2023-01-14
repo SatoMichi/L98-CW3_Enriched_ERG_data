@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _rain_n_1 [label=BV]
+	_the_q -> _time_n_of [label=BV]
+	parg_d -> _crop_n_1 [label=ARG2]
+	_at_p_temp -> _time_n_of [label=ARG2]
+	_the_q -> _crop_n_1 [label=BV]
+	"_get_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	parg_d -> "_ruin_v_1-fn.Bungling" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_ruin_v_1-fn.Bungling" -> _crop_n_1 [label="ARG2-fn.Patient"]
+	_wrong_a_with -> _time_n_of [label=ARG1]
+	_at_p_temp -> "_get_v_1-fn.IN" [label=ARG1]
+	"_get_v_1-fn.IN" -> _rain_n_1 [label="ARG2-fn.Theme"]
+}

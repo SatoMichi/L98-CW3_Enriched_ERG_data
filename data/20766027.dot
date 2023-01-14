@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _job_n_of [label=BV]
+	_if_x_then -> neg [label=ARG2]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	poss -> _job_n_of [label=ARG1]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_do_v_1-fn.Piracy" -> _job_n_of [label="ARG2-fn.Vehicle"]
+	"_can_v_modal-fn.Reliance" -> "_do_v_1-fn.Piracy" [label="ARG1-fn.Protagonist"]
+	ellipsis_ref -> pron [label=ARG1]
+	neg -> ellipsis_ref [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

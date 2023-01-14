@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _flesh_n_1 [label=BV]
+	_for_p -> _or_c [label=ARG2]
+	udef_q -> _flight_n_1 [label=BV]
+	_to_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_to_p -> _alert_n_1 [label=ARG2]
+	_total_a_1 -> _alert_n_1 [label=ARG1]
+	udef_q -> _alert_n_1 [label=BV]
+	"_go_v_1-fn.Change_position_on_a_scale" -> _flesh_n_1 [label="ARG1-fn.Attribute"]
+	udef_q -> _fight_n_1 [label=BV]
+	udef_q -> _or_c [label=BV]
+	_for_p -> _alert_n_1 [label=ARG1]
+}

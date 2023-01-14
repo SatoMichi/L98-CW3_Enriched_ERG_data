@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "named(Celimene)" [label=ARG2]
+	_of_p -> _friend_n_1 [label=ARG1]
+	_of_p -> "named(Philinte)" [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _and_c [label="ARG2-fn.Means"]
+	proper_q -> "named(Philinte)" [label=BV]
+	_jealous_a_of -> _friend_n_1 [label=ARG1]
+	_the_q -> _friend_n_1 [label=BV]
+	proper_q -> "named(Celimene)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_of_p -> _lover_n_1 [label=ARG1]
+	_the_q -> _lover_n_1 [label=BV]
+	_jealous_a_of -> _lover_n_1 [label=ARG1]
+}

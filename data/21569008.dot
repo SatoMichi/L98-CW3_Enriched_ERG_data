@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "year_range(1980s)" [label=ARG2]
+	_of_p -> _annals_n_1 [label=ARG1]
+	_of_p -> _tuition_n_1 [label=ARG2]
+	udef_q -> _parent_n_of [label=BV]
+	udef_q -> _tuition_n_1 [label=BV]
+	_no_q -> thing [label=BV]
+	_in_p -> _annals_n_1 [label=ARG2]
+	"_ready_v_1-fn.Impact" -> thing [label="ARG1-fn.Place"]
+	"_ready_v_1-fn.Impact" -> _parent_n_of [label="ARG2-fn.Result"]
+	_the_q -> "year_range(1980s)" [label=BV]
+	_in_p -> thing [label=ARG1]
+	_the_q -> _annals_n_1 [label=BV]
+	_for_p -> "_ready_v_1-fn.Impact" [label=ARG1]
+}

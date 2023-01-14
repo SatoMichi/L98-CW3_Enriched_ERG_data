@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _foodstuff_n_1 [label=BV]
+	compound -> _foodstuff_n_1 [label=ARG2]
+	_probable_a_1 -> "_resume_v_1-fn.Process_resume" [label=ARG1]
+	loc_nonsp -> "_resume_v_1-fn.Process_resume" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	focus_d -> "_resume_v_1-fn.Process_resume" [label=ARG2]
+	"_resume_v_1-fn.Process_resume" -> "_shipment_n_of-to" [label="ARG1-fn.NotExist"]
+	compound -> "_shipment_n_of-to" [label=ARG1]
+	loc_nonsp -> "dofw(Thu)" [label=ARG2]
+	proper_q -> "dofw(Thu)" [label=BV]
+	"_say_v_to-fn.IN" -> _probable_a_1 [label="ARG2-fn.Topic"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_some_q -> "_shipment_n_of-to" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

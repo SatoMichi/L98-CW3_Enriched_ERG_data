@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _reaction_n_1 [label=BV]
+	_can_v_modal -> _fatal_a_1 [label=ARG1]
+	_the_q -> _vaccine_n_1 [label=BV]
+	"_cause_v_1-fn.Causation" -> _vaccine_n_1 [label="ARG1-fn.Cause"]
+	_allergic_a_to -> _reaction_n_1 [label=ARG1]
+	_fatal_a_1 -> _reaction_n_1 [label=ARG1]
+	"_cause_v_1-fn.Causation" -> _reaction_n_1 [label="ARG2-fn.Theme"]
+}

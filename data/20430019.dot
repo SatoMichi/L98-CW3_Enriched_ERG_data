@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _minute_n_1 [label=ARG1]
+	_late_a_for -> time_n [label=ARG1]
+	def_explicit_q -> time_n [label=BV]
+	comp -> _late_a_for [label=ARG1]
+	"card(10)" -> _minute_n_1 [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	focus_d -> "_do_v_1-fn.State_continue" [label=ARG1]
+	focus_d -> loc_nonsp [label=ARG2]
+	udef_q -> _minute_n_1 [label=BV]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	loc_nonsp -> "_do_v_1-fn.State_continue" [label=ARG1]
+	parg_d -> "_do_v_1-fn.State_continue" [label=ARG1]
+	parg_d -> pron [label=ARG2]
+}

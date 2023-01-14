@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_explanatory_a_1 -> _result_n_of [label=ARG1]
+	_some_q -> _result_n_of [label=BV]
+	compound -> _explanatory_a_1 [label=ARG1]
+	udef_q -> _self_n_1 [label=BV]
+	compound -> _self_n_1 [label=ARG2]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _union_n_of [label=BV]
+	"_help_v_to-fn.Assistance" -> "_keep_v_out-fn.Cause_to_continue" [label="ARG2-fn.Theme"]
+	"_keep_v_out-fn.Cause_to_continue" -> _union_n_of [label="ARG2-fn.Theme"]
+	"_keep_v_out-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	"_help_v_to-fn.Assistance" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

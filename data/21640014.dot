@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _communication_n_of [label=BV]
+	_partial_a_1 -> _remedy_n_1 [label=ARG1]
+	"_encrypt_v_1-fn.Activity_start" -> _remedy_n_1 [label="ARG1-fn.Place"]
+	_corporate_a_1 -> _communication_n_of [label=ARG1]
+	_only_a_1 -> "_encrypt_v_1-fn.Activity_start" [label=ARG1]
+	_a_q -> _remedy_n_1 [label=BV]
+	"_encrypt_v_1-fn.Activity_start" -> _communication_n_of [label="ARG2-fn.Purpose"]
+	_still_a_disc -> _only_a_1 [label=ARG1]
+}

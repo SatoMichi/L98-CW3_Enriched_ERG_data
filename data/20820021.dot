@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _accusation_n_1 [label=BV]
+	compound -> "named(Packwood)" [label=ARG2]
+	"card(2)" -> _side_n_1 [label=ARG1]
+	proper_q -> "named(Packwood)" [label=BV]
+	"_trade_v_1-fn.Exchange" -> _accusation_n_1 [label="ARG2-fn.Theme"]
+	_about_p -> _accusation_n_1 [label=ARG1]
+	compound -> _plan_n_1 [label=ARG1]
+	_also_a_1 -> "_trade_v_1-fn.Exchange" [label=ARG1]
+	_of_p -> _plan_n_1 [label=ARG2]
+	_the_q -> _side_n_1 [label=BV]
+	"_trade_v_1-fn.Exchange" -> _side_n_1 [label="ARG1-fn.Agent"]
+	_of_p -> _cost_n_1 [label=ARG1]
+	_the_q -> _plan_n_1 [label=BV]
+	_the_q -> _cost_n_1 [label=BV]
+	_about_p -> _cost_n_1 [label=ARG2]
+}

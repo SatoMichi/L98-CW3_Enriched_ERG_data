@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stop_v_1-fn.Preventing" -> _government_n_of [label="ARG1-fn.Agent"]
+	_the_q -> "named(Afrikaners)" [label=BV]
+	_of_p -> "named(Afrikaners)" [label=ARG2]
+	"_stop_v_1-fn.Preventing" -> _idea_n_of [label="ARG2-fn.Theme"]
+	_this_q_dem -> _idea_n_of [label=BV]
+	_no_q -> _government_n_of [label=BV]
+	_likewise_a_1 -> "_stop_v_1-fn.Preventing" [label=ARG1]
+	_of_p -> _idea_n_of [label=ARG1]
+}

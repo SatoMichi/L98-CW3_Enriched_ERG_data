@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _bill_n_of [label=BV]
+	_would_v_modal -> _authorize_v_1 [label=ARG1]
+	"_order_v_1-fn.NF" -> _court_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _license_n_1 [label=BV]
+	_as_p -> _condition_n_1 [label=ARG2]
+	_of_p -> "_probation/nn_u_unknown" [label=ARG2]
+	udef_q -> "_probation/nn_u_unknown" [label=BV]
+	"_order_v_1-fn.NF" -> _license_n_1 [label="ARG2-fn.Recipient"]
+	_authorize_v_1 -> _bill_n_of [label=ARG1]
+	_as_p -> "_order_v_1-fn.NF" [label=ARG1]
+	_of_p -> _condition_n_1 [label=ARG1]
+	_a_q -> _condition_n_1 [label=BV]
+	_authorize_v_1 -> "_order_v_1-fn.NF" [label=ARG3]
+	_authorize_v_1 -> _court_n_of [label=ARG2]
+	udef_q -> _court_n_of [label=BV]
+}

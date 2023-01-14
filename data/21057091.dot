@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> "card(3)" [label=BV]
+	_distant_a_1 -> "card(3)" [label=ARG1]
+	_in_p -> "_remain_v_1-fn.State_continue" [label=ARG1]
+	compound -> _number_n_of [label=ARG2]
+	udef_q -> _number_n_of [label=BV]
+	compound -> "card(3)" [label=ARG1]
+	_in_p -> _regard_n_1 [label=ARG2]
+	proper_q -> "named(CBS)" [label=BV]
+	"_remain_v_1-fn.State_continue" -> "card(3)" [label="ARG2-fn.Theme"]
+	"_remain_v_1-fn.State_continue" -> "named(CBS)" [label="ARG1-fn.NotExist"]
+	_that_q_dem -> _regard_n_1 [label=BV]
+	_may_v_modal -> "_remain_v_1-fn.State_continue" [label=ARG1]
+}

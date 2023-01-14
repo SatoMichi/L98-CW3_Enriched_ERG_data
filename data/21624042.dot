@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_short_a_of -> _term_n_of [label=ARG1]
+	compound -> _rate_n_of [label=ARG1]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	udef_q -> _rate_n_of [label=BV]
+	loc_nonsp -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> _term_n_of [label=ARG2]
+	udef_q -> _term_n_of [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	def_implicit_q -> time_n [label=BV]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _rate_n_of [label="ARG1-fn.NotExist"]
+}

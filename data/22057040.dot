@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	udef_q -> _risk_n_of [label=BV]
+	"_get_v_1-fn.Change_position_on_a_scale" -> generic_entity [label="ARG2-fn.Item"]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	_all_q -> generic_entity [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _risk_n_of [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_colon_v_id-fn.Perception_body" -> _business_n_1 [label="ARG1-fn.Experiencer"]
+	udef_q -> _business_n_1 [label=BV]
+	udef_q -> _preparation_n_1 [label=BV]
+	compound -> _tax_n_1 [label=ARG2]
+	"_colon_v_id-fn.Perception_body" -> _preparation_n_1 [label="ARG2-fn.Body_part"]
+	compound -> _preparation_n_1 [label=ARG1]
+	udef_q -> _tax_n_1 [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_around_p -> _nucleus_n_1 [label=ARG2]
+	_a_q -> _nucleus_n_1 [label=BV]
+	_in_p -> "_move_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _crowd_n_of [label=BV]
+	parg_d -> "_magnetized/vbn_u_unknown" [label=ARG1]
+	_electronic_a_1 -> _nucleus_n_1 [label=ARG1]
+	_around_p -> "_magnetized/vbn_u_unknown" [label=ARG1]
+	unknown -> _clump_n_of [label=ARG]
+	"_magnetized/vbn_u_unknown" -> _clump_n_of [label=ARG2]
+	parg_d -> _clump_n_of [label=ARG2]
+	_in_p -> _clump_n_of [label=ARG2]
+	udef_q -> _clump_n_of [label=BV]
+	"_move_v_1-fn.Competition" -> _crowd_n_of [label="ARG1-fn.Participant_1"]
+}

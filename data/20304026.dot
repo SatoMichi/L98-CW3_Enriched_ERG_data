@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_not_x_deg -> _a_q [label=ARG1]
+	_a_q -> _lot_n_1 [label=BV]
+	"_in+order+to_x" -> _do_v_1 [label=ARG2]
+	parg_d -> _do_v_1 [label=ARG1]
+	"_in+order+to_x" -> "_need_v_1-fn.Required_event" [label=ARG1]
+	_do_v_1 -> _lot_n_1 [label=ARG2]
+	parg_d -> _lot_n_1 [label=ARG2]
+	parg_d -> "_need_v_1-fn.Required_event" [label=ARG1]
+	"_need_v_1-fn.Required_event" -> _lot_n_1 [label="ARG2-fn.Theme"]
+}

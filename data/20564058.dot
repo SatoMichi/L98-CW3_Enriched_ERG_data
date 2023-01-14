@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	"_stand_v_1-fn.Posture" -> pron [label="ARG1-fn.NotExist"]
+	"_want_v_1-fn.Desiring" -> "_stand_v_1-fn.Posture" [label="ARG2-fn.Theme"]
+	_alone_p -> "_stand_v_1-fn.Posture" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

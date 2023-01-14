@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	_in_p_temp -> "yofc(1989)" [label=ARG2]
+	"_sell_v_1-fn.Commerce_sell" -> pron [label="ARG1-fn.Agent"]
+	"card(1,700)" -> _unit_n_2 [label=ARG1]
+	udef_q -> _unit_n_2 [label=BV]
+	"_sell_v_1-fn.Commerce_sell" -> _unit_n_2 [label="ARG2-fn.Theme"]
+	proper_q -> "yofc(1989)" [label=BV]
+	"_plan_v_1-fn.Purpose" -> "_sell_v_1-fn.Commerce_sell" [label="ARG2-fn.NotExist"]
+	"_plan_v_1-fn.Purpose" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+}

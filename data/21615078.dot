@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_because+of_p" -> "_support_v_1-fn.Taking_sides" [label=ARG1]
+	udef_q -> _abortion_n_of [label=BV]
+	"_support_v_1-fn.Taking_sides" -> pron [label="ARG2-fn.Stimulus"]
+	"_because+of_p" -> _abortion_n_of [label=ARG2]
+	_can_v_modal -> "_support_v_1-fn.Taking_sides" [label=ARG1]
+	neg -> _can_v_modal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

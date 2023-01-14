@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Airlines)" [label=BV]
+	compound -> "named(Airlines)" [label=ARG1]
+	compound -> "named(Continental)" [label=ARG2]
+	unknown -> "named(Airlines)" [label=ARG]
+	proper_q -> "named(Continental)" [label=BV]
+}

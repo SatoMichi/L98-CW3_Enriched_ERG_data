@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_very_x_deg -> _well_a_2 [label=ARG1]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	_some_q -> thing [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	subord -> "_do_v_1-fn.Piracy" [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> subord [label="ARG1-fn.Protagonist"]
+	subord -> _well_a_2 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> thing [label="ARG2-fn.Location"]
+	"_do_v_1-fn.Piracy" -> thing [label="ARG2-fn.Vehicle"]
+}

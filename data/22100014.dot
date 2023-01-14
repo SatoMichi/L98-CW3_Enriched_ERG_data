@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _toll_n_1 [label=ARG2]
+	udef_q -> _year_n_1 [label=BV]
+	_recent_a_1 -> _year_n_1 [label=ARG1]
+	compound -> _number_n_of [label=ARG1]
+	compound -> "yofc(900)" [label=ARG2]
+	_the_q -> _use_n_of [label=BV]
+	udef_q -> _number_n_of [label=BV]
+	udef_q -> _toll_n_1 [label=BV]
+	proper_q -> "yofc(900)" [label=BV]
+	_in_p_temp -> "_expand_v_1-fn.Competition" [label=ARG1]
+	"_expand_v_1-fn.Competition" -> _use_n_of [label="ARG1-fn.Participant_1"]
+	_use_n_of -> _number_n_of [label=ARG1]
+	_rapid_a_1 -> "_expand_v_1-fn.Competition" [label=ARG1]
+	_in_p_temp -> _year_n_1 [label=ARG2]
+}

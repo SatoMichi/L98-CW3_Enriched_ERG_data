@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decline_v_1-fn.Experiencer_obj" -> "_make_v_1-fn.Rite" [label="ARG2-fn.Stimulus"]
+	udef_q -> _earnings_n_1 [label=BV]
+	"_make_v_1-fn.Rite" -> _estimate_n_of [label="ARG2-fn.Member"]
+	"_make_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	_a_q -> _estimate_n_of [label=BV]
+	_specific_a_to -> _estimate_n_of [label=ARG1]
+	compound -> _earnings_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	compound -> _estimate_n_of [label=ARG1]
+	"_decline_v_1-fn.Experiencer_obj" -> pron [label="ARG1-fn.Experiencer"]
+}

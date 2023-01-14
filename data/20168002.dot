@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_represent_v_1-fn.Cause_to_end" -> _sale_n_of [label="ARG1-fn.Process"]
+	udef_q -> _percent_n_of [label=BV]
+	poss -> _share_n_of [label=ARG1]
+	_of_p -> _percent_n_of [label=ARG1]
+	poss -> "named(Meridian)" [label=ARG2]
+	_the_q -> _sale_n_of [label=BV]
+	"_represent_v_1-fn.Cause_to_end" -> _percent_n_of [label="ARG2-fn.Means"]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	_of_p -> _share_n_of [label=ARG2]
+	proper_q -> "named(Meridian)" [label=BV]
+	"card(10.2)" -> _percent_n_of [label=ARG1]
+	def_explicit_q -> _share_n_of [label=BV]
+}

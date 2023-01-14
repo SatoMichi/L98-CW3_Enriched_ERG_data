@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> generic_entity [label=BV]
+	udef_q -> _import_n_of [label=BV]
+	_of_p -> _import_n_of [label=ARG2]
+	_of_p -> _incursion_n_1 [label=ARG1]
+	_the_q -> _incursion_n_1 [label=BV]
+	unknown -> generic_entity [label=ARG]
+}

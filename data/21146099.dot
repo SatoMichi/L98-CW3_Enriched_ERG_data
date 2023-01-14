@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_let_v_up-fn.Experiencer_focus" -> pron [label="ARG1-fn.Experiencer"]
+	_never_a_1 -> "_let_v_up-fn.Experiencer_focus" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_on_p -> _pressure_n_1 [label=ARG2]
+	_the_q -> _pressure_n_1 [label=BV]
+}

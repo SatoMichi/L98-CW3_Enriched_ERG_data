@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(19)" [label=BV]
+	_to_p -> "card(19)" [label=ARG2]
+	_to_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_up_p_dir -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_go_v_1-fn.Change_position_on_a_scale" -> "named(Allergan)" [label="ARG1-fn.Attribute"]
+	plus -> "fraction(3/8)" [label=ARG3]
+	plus -> "card(19)" [label=ARG2]
+	proper_q -> "named(Allergan)" [label=BV]
+}

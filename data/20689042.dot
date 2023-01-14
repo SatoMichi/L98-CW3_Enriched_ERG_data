@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_current_a_1 -> _rate_n_of [label=ARG1]
+	"_exceed_v_1-fn.NF" -> generic_entity [label="ARG2-fn.Co-Theme"]
+	_on_p -> generic_entity [label=ARG1]
+	"_exceed_v_1-fn.NF" -> _rate_n_of [label="ARG1-fn.Theme"]
+	_on_p -> "named(CDs)" [label=ARG2]
+	proper_q -> "named(CDs)" [label=BV]
+	_some_q -> _rate_n_of [label=BV]
+	_those_q_dem -> generic_entity [label=BV]
+}

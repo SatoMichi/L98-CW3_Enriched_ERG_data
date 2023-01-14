@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_other_a_1 -> _data_n_1 [label=ARG1]
+	udef_q -> _swing_n_1 [label=BV]
+	comp -> _similar_a_to [label=ARG1]
+	udef_q -> _data_n_1 [label=BV]
+	_explain_v_1 -> _swing_n_1 [label=ARG2]
+	udef_q -> _temperature_n_of [label=BV]
+	neg -> _explain_v_1 [label=ARG1]
+	"_show_v_1-fn.IN" -> _swing_n_1 [label="ARG2-fn.NotExist"]
+	_similar_a_to -> _swing_n_1 [label=ARG1]
+	parg_d -> _explain_v_1 [label=ARG1]
+	compound -> _data_n_1 [label=ARG1]
+	parg_d -> _swing_n_1 [label=ARG2]
+	"_show_v_1-fn.IN" -> _data_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _temperature_n_of [label=ARG2]
+}

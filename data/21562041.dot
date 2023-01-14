@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Not-)" [label=BV]
+	udef_q -> _order_n_of [label=BV]
+	proper_q -> "named(Held)" [label=BV]
+	compound -> "named(Held)" [label=ARG1]
+	compound -> _order_n_of [label=ARG1]
+	_another_q -> _order_n_of [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	nominalization -> _time_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _order_n_of [label="ARG2-fn.Name"]
+	unknown -> _order_n_of [label=ARG]
+	"_be_v_id-fn.Name_conferral" -> generic_entity [label="ARG1-fn.Entity"]
+	compound -> nominalization [label=ARG2]
+	_colon_p_namely -> _order_n_of [label=ARG1]
+	compound -> "named(Not-)" [label=ARG2]
+}

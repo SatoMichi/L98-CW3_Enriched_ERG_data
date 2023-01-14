@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _path_n_1 [label=ARG1]
+	udef_q -> _reasoning_n_1 [label=BV]
+	_of_p -> _reasoning_n_1 [label=ARG2]
+	"_lead_v_to-fn.Amounting_to" -> _path_n_1 [label="ARG1-fn.Value"]
+	"_lead_v_to-fn.Amounting_to" -> _stock_n_1 [label="ARG3-fn.Time_span"]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	_that_q_dem -> generic_entity [label=BV]
+	compound -> _stock_n_1 [label=ARG1]
+	compound -> _growth_n_of [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _path_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _growth_n_of [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	_the_q -> _path_n_1 [label=BV]
+}

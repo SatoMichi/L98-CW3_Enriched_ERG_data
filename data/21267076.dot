@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> nominalization [label="ARG2-fn.Means"]
+	which_q -> thing [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _regulation_n_1 [label=ARG1]
+	"_year-ago_a_1" -> _result_n_of [label=ARG1]
+	"_state_v_to-fn.Cause_to_end" -> _result_n_of [label="ARG2-fn.Means"]
+	"_in+order+to_x" -> "_comply_v_with-fn.Purpose" [label=ARG2]
+	_the_q -> _result_n_of [label=BV]
+	udef_q -> _regulation_n_1 [label=BV]
+	"_re-_a_again" -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	compound -> _government_n_of [label=ARG2]
+	parg_d -> _result_n_of [label=ARG2]
+	udef_q -> _government_n_of [label=BV]
+	"_comply_v_with-fn.Purpose" -> _result_n_of [label="ARG1-fn.Agent"]
+	"_in+order+to_x" -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	parg_d -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	"_comply_v_with-fn.Purpose" -> _regulation_n_1 [label="ARG2-fn.Goal"]
+}

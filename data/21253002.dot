@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> "_replete/jj_u_unknown" [label=ARG1]
+	udef_q -> "_distortions/nns_u_unknown" [label=BV]
+	_with_p -> "_distortions/nns_u_unknown" [label=ARG2]
+	_unfortunate_a_1 -> "_replete/jj_u_unknown" [label=ARG1]
+	_the_q -> _article_n_of [label=BV]
+	_outrageous_a_1 -> "_distortions/nns_u_unknown" [label=ARG1]
+	"_replete/jj_u_unknown" -> _article_n_of [label=ARG1]
+}

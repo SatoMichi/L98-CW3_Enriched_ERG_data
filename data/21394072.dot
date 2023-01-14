@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_retract_v_1-fn.Relative_time" -> pron [label="ARG2-fn.Landmark_occasion"]
+	_when_x_subord -> "_retract_v_1-fn.Relative_time" [label=ARG1]
+	_when_x_subord -> "_refuse_v_1-fn.State_continue" [label=ARG2]
+	"_retract_v_1-fn.Relative_time" -> _company_n_of [label="ARG1-fn.Focal_occasion"]
+	_the_q -> _company_n_of [label=BV]
+	"_refuse_v_1-fn.State_continue" -> _pilot_n_of [label="ARG1-fn.Entity"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _pilot_n_of [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _official_n_1 [label=BV]
+	_the_q -> _situation_n_1 [label=BV]
+	compound -> "named(Bally)" [label=ARG2]
+	"_discuss_v_1-fn.Attempt_suasion" -> _situation_n_1 [label="ARG2-fn.Addressee"]
+	compound -> _official_n_1 [label=ARG1]
+	proper_q -> "named(Bally)" [label=BV]
+	"_discuss_v_1-fn.Attempt_suasion" -> _official_n_1 [label="ARG1-fn.Content"]
+	"_decline_v_1-fn.Experiencer_obj" -> _official_n_1 [label="ARG1-fn.Experiencer"]
+	"_decline_v_1-fn.Experiencer_obj" -> "_discuss_v_1-fn.Attempt_suasion" [label="ARG2-fn.Stimulus"]
+}

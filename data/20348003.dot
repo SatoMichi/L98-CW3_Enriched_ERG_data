@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_to_p -> "_soar_v_1-fn.Undergo_change" [label=ARG1]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(39.5)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	_from_p -> "_soar_v_1-fn.Undergo_change" [label=ARG1]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(101.7)" [label=ARG2]
+	"_soar_v_1-fn.Undergo_change" -> _revenue_n_1 [label="ARG1-fn.Entity"]
+}

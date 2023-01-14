@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_guarantee_v_1-fn.State_continue" -> "named(India)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(India)" [label=BV]
+	parg_d -> "_guarantee_v_1-fn.State_continue" [label=ARG1]
+}

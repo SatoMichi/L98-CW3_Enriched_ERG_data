@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> nominalization [label=ARG2]
+	"_blame_v_for-fn.IN" -> _messenger_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.IN" -> _like_p [label="ARG2-fn.Topic"]
+	"_blame_v_for-fn.IN" -> _future_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _future_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _messenger_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	nominalization -> "_blame_v_for-fn.IN" [label=ARG1]
+}

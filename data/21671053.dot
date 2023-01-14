@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	appos -> _majority_n_of [label=ARG2]
+	"_ambivalent/jj_u_unknown" -> _middle_n_of [label=ARG1]
+	_a_q -> _majority_n_of [label=BV]
+	_majority_n_of -> _sort_n_of [label=ARG1]
+	_the_q -> _middle_n_of [label=BV]
+	"_re-_a_again" -> "_assert_v_to-fn.Competition" [label=ARG1]
+	udef_q -> _moral_n_1 [label=BV]
+	appos -> _middle_n_of [label=ARG1]
+	_now_a_1 -> "_assert_v_to-fn.Competition" [label=ARG1]
+	"_assert_v_to-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	"_assert_v_to-fn.Competition" -> _middle_n_of [label="ARG1-fn.Participant_1"]
+	compound -> _majority_n_of [label=ARG1]
+	udef_q -> _sort_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> _moral_n_1 [label=ARG2]
+}

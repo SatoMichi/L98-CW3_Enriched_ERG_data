@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	measure -> abstr_deg [label=ARG2]
+	_worth_a_1 -> _benefit_n_of [label=ARG1]
+	_those_q_dem -> _benefit_n_of [label=BV]
+	compound -> _question_n_about [label=ARG1]
+	ellipsis_ref -> _question_n_about [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> generic_entity [label=BV]
+	_worth_a_1 -> generic_entity [label=ARG2]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	measure -> "much-many_a" [label=ARG1]
+	compound -> _dollar_n_1 [label=ARG2]
+	which_q -> abstr_deg [label=BV]
+	"much-many_a" -> generic_entity [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	_the_q -> _question_n_about [label=BV]
+}

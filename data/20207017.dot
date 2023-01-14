@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Bach)" [label=BV]
+	def_explicit_q -> "named(Air)" [label=BV]
+	poss -> "named(Air)" [label=ARG1]
+	poss -> "named(Bach)" [label=ARG2]
+	"_follow_v_1-fn.Relative_time" -> "named(Air)" [label="ARG1-fn.NotExist"]
+}

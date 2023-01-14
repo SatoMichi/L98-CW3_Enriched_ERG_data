@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Abbie)" [label=BV]
+	"_leave_v_1-fn.Causation" -> _frame_n_1 [label="ARG2-fn.Initial_Location"]
+	loc_nonsp -> place_n [label=ARG2]
+	_back_p -> place_n [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	loc_nonsp -> "_lie_v_mental-fn.Change_posture" [label=ARG1]
+	"_leave_v_1-fn.Causation" -> _empty_a_1 [label="ARG3-fn.NotExist"]
+	_the_q -> _frame_n_1 [label=BV]
+	"_lie_v_mental-fn.Change_posture" -> "named(Abbie)" [label="ARG1-fn.NotExist"]
+	"_leave_v_1-fn.Causation" -> "named(Abbie)" [label="ARG1-fn.Theme"]
+	_empty_a_1 -> _frame_n_1 [label=ARG1]
+}

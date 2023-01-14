@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_at+least_x_deg" -> "card(15)" [label=ARG1]
+	udef_q -> _state_n_of [label=BV]
+	parg_d -> "_defeat_v_1-fn.Competition" [label=ARG1]
+	_similar_a_to -> _proposal_n_1 [label=ARG1]
+	_other_a_1 -> _state_n_of [label=ARG1]
+	udef_q -> _proposal_n_1 [label=BV]
+	_in_p -> _state_n_of [label=ARG2]
+	"card(15)" -> _state_n_of [label=ARG1]
+	parg_d -> _proposal_n_1 [label=ARG2]
+	"_defeat_v_1-fn.Competition" -> _proposal_n_1 [label="ARG2-fn.Participant_2"]
+	comp -> _similar_a_to [label=ARG1]
+	_in_p -> "_defeat_v_1-fn.Competition" [label=ARG1]
+}

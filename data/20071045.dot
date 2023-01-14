@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _expand_v_1 [label=ARG1]
+	_the_q -> _number_n_of [label=BV]
+	_these_q_dem -> _wine_n_1 [label=BV]
+	comp_so -> _rapid_a_1 [label=ARG1]
+	"_explain_v_to-fn.Explaining_the_facts" -> generic_entity [label="ARG1-fn.Agent"]
+	_rapid_a_1 -> _expand_v_1 [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_number_n_of -> _wine_n_1 [label=ARG1]
+	"_explain_v_to-fn.Explaining_the_facts" -> _expand_v_1 [label="ARG2-fn.Topic"]
+	_expand_v_1 -> _number_n_of [label=ARG1]
+	_for_p -> reason [label=ARG2]
+	which_q -> reason [label=BV]
+}

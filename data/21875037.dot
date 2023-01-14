@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_similar_a_to -> _philosophy_n_1 [label=ARG1]
+	_both_q -> _man_n_1 [label=BV]
+	"card(2)" -> _man_n_1 [label=ARG1]
+	_a_q -> _philosophy_n_1 [label=BV]
+	_hard_a_for -> _line_n_of [label=ARG1]
+	udef_q -> _line_n_of [label=BV]
+	_moreover_a_1 -> "_hew_v_to-fn.Cause_to_end" [label=ARG1]
+	"_hew_v_to-fn.Cause_to_end" -> _man_n_1 [label="ARG1-fn.Process"]
+	comp -> _similar_a_to [label=ARG1]
+	"_hew_v_to-fn.Cause_to_end" -> _philosophy_n_1 [label="ARG2-fn.Means"]
+	compound -> _philosophy_n_1 [label=ARG1]
+	compound -> _line_n_of [label=ARG2]
+}

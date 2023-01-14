@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Clarke)" [label=ARG1]
+	loc_nonsp -> "card(IV)" [label=ARG2]
+	udef_q -> _second_n_1 [label=BV]
+	compound -> _second_n_1 [label=ARG1]
+	proper_q -> "named(Clarke)" [label=BV]
+	number_q -> "card(IV)" [label=BV]
+	proper_q -> "named(Eugene)" [label=BV]
+	compound -> "named(Eugene)" [label=ARG2]
+	unknown -> "named(Clarke)" [label=ARG]
+}

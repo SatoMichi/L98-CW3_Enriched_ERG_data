@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_until_p -> "_begin_v_1-fn.Competition" [label=ARG1]
+	"_begin_v_1-fn.Competition" -> "_process_v_1-fn.Piracy" [label="ARG1-fn.Participant_1"]
+	"_would_v_modal-fn.Cause_to_end" -> _able_a_1 [label="ARG1-fn.Process"]
+	proper_q -> "mofy(Jun)" [label=BV]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _request_n_for [label=BV]
+	"_process_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_process_v_1-fn.Piracy" -> _request_n_for [label="ARG2-fn.Vehicle"]
+	_able_a_1 -> pron [label=ARG1]
+	_until_p -> "mofy(Jun)" [label=ARG2]
+	_able_a_1 -> "_begin_v_1-fn.Competition" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Surpassing" -> "named(FBI)" [label="ARG1-fn.Standard_item"]
+	_the_q -> "named(FBI)" [label=BV]
+	"_say_v_to-fn.Surpassing" -> neg [label="ARG2-fn.Profiled_item"]
+}

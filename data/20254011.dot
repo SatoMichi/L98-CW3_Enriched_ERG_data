@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _department_n_1 [label="ARG1-fn.Agent"]
+	"_establish_v_1-fn.Intentionally_create" -> _trend_n_1 [label="ARG2-fn.NotExist"]
+	"card(4)" -> _month_n_1 [label=ARG1]
+	_also_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	_take_v_2 -> "_establish_v_1-fn.Intentionally_create" [label=ARG1]
+	"_say_v_to-fn.IN" -> _take_v_2 [label="ARG2-fn.Topic"]
+	udef_q -> _month_n_1 [label=BV]
+	_a_q -> _trend_n_1 [label=BV]
+	_the_q -> _department_n_1 [label=BV]
+	_take_v_2 -> _month_n_1 [label=ARG3]
+}

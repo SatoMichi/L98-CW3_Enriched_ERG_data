@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _task_n_of [label="ARG1-fn.Process"]
+	_perennial_a_1 -> _problem_n_of [label=ARG1]
+	poss -> "named(Washington)" [label=ARG2]
+	_that_q_dem -> _task_n_of [label=BV]
+	"card(1)" -> part_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> part_of [label="ARG2-fn.Means"]
+	udef_q -> part_of [label=BV]
+	part_of -> _problem_n_of [label=ARG1]
+	proper_q -> "named(Washington)" [label=BV]
+	poss -> _problem_n_of [label=ARG1]
+	def_explicit_q -> _problem_n_of [label=BV]
+}

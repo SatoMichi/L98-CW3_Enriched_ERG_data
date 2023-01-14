@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _fluctuation_n_in [label=BV]
+	_the_q -> _number_n_of [label=BV]
+	_for_p -> "_adjust_v_to-fn.NF" [label=ARG1]
+	parg_d -> "_adjust_v_to-fn.NF" [label=ARG1]
+	_seasonal_a_1 -> _fluctuation_n_in [label=ARG1]
+	parg_d -> part_of [label=ARG2]
+	_all_q -> part_of [label=BV]
+	_for_p -> _fluctuation_n_in [label=ARG2]
+	"_adjust_v_to-fn.NF" -> part_of [label="ARG2-fn.Patient"]
+	part_of -> _number_n_of [label=ARG1]
+}

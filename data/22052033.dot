@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_since_p -> "yofc(1979)" [label=ARG2]
+	_active_a_1 -> _personnel_n_1 [label=ARG1]
+	proper_q -> "named(Afghanistan)" [label=BV]
+	_also_a_1 -> _active_a_1 [label=ARG1]
+	_military_a_1 -> _personnel_n_1 [label=ARG1]
+	_in_p -> _active_a_1 [label=ARG1]
+	_since_p -> _active_a_1 [label=ARG1]
+	_cuban_a_1 -> _personnel_n_1 [label=ARG1]
+	_in_p -> "named(Afghanistan)" [label=ARG2]
+	proper_q -> "yofc(1979)" [label=BV]
+	udef_q -> _personnel_n_1 [label=BV]
+}

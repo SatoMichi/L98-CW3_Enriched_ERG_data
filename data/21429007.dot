@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _attack_n_1 [label="ARG2-fn.Means"]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_the_q -> "named(Rafale)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _statement_n_of [label="ARG1-fn.Process"]
+	_official_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_on_p -> _attack_n_1 [label=ARG1]
+	_on_p -> "named(Rafale)" [label=ARG2]
+	_a_q -> _attack_n_1 [label=BV]
+	_the_q -> _statement_n_of [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

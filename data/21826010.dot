@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_always_a_1 -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	compound -> "named(Miss)" [label=ARG2]
+	proper_q -> "named(America)" [label=BV]
+	proper_q -> "named(Miss)" [label=BV]
+	"_be_v_id-fn.Name_conferral" -> "named(America)" [label="ARG2-fn.Name"]
+	compound -> "named(America)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_once_x_subord -> "_be_v_id-fn.Name_conferral" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> pron [label="ARG1-fn.Entity"]
+}

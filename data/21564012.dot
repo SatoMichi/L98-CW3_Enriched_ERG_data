@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _function_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _risk_n_of [label="ARG1-fn.Process"]
+	_a_q -> _function_n_1 [label=BV]
+	_of_p -> _time_n_of [label=ARG2]
+	udef_q -> _risk_n_of [label=BV]
+	udef_q -> _time_n_of [label=BV]
+	_also_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _function_n_1 [label="ARG2-fn.Means"]
+}

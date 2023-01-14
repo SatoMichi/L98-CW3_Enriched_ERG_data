@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cause_v_1-fn.Competition" -> part_of [label="ARG1-fn.Participant_1"]
+	"_cause_v_1-fn.Competition" -> "_convulsions/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+	_professional_a_1 -> _football_n_1 [label=ARG1]
+	_in_p -> "_cause_v_1-fn.Competition" [label=ARG1]
+	_all_q -> part_of [label=BV]
+	udef_q -> _football_n_1 [label=BV]
+	part_of -> generic_entity [label=ARG1]
+	_in_p -> _football_n_1 [label=ARG2]
+	udef_q -> "_convulsions/nns_u_unknown" [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

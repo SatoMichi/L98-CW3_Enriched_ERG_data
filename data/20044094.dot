@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_know_v_1-fn.Awareness" -> person [label="ARG1-fn.NotExist"]
+	_alive_a_1 -> pron [label=ARG1]
+	_whole_a_1 -> _day_n_of [label=ARG1]
+	"_know_v_1-fn.Awareness" -> _alive_a_1 [label="ARG2-fn.NotExist"]
+	_by_p_dir -> "_go_v_1-fn.Motion" [label=ARG1]
+	_a_q -> _day_n_of [label=BV]
+	_even_a_1 -> "_know_v_1-fn.Awareness" [label=ARG1]
+	_no_q -> person [label=BV]
+	"_go_v_1-fn.Motion" -> _day_n_of [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

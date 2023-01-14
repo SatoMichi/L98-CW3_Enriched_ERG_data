@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _roommate_n_1 [label="ARG1-fn.Process"]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	def_explicit_q -> _husband_n_1 [label=BV]
+	def_explicit_q -> _roommate_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _husband_n_1 [label="ARG2-fn.Means"]
+	poss -> _roommate_n_1 [label=ARG1]
+	focus_d -> _unlike_p [label=ARG2]
+	_unlike_p -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> _husband_n_1 [label=ARG1]
+	_unlike_p -> _patient_n_1 [label=ARG2]
+	poss -> pron [label=ARG2]
+	_most_q -> _patient_n_1 [label=BV]
+}

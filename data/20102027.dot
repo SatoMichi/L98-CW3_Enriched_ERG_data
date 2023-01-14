@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_touch_v_1-fn.Manipulation" -> "named(World)" [label="ARG2-fn.Experiencer"]
+	proper_q -> "named(Perestroika)" [label=BV]
+	_of_p -> _spirit_n_1 [label=ARG1]
+	proper_q -> "named(Design)" [label=BV]
+	compound -> "named(World)" [label=ARG1]
+	udef_q -> _spirit_n_1 [label=BV]
+	proper_q -> "named(World)" [label=BV]
+	_of_p -> "named(Perestroika)" [label=ARG2]
+	compound -> "named(Design)" [label=ARG2]
+	"_touch_v_1-fn.Manipulation" -> _spirit_n_1 [label="ARG1-fn.Agent"]
+}

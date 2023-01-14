@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_resist_v_1-fn.Competition" -> "named(Dassault)" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Dassault)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_pressure_n_1 -> _change_v_1 [label=ARG1]
+	comp_so -> _far_a_1 [label=ARG1]
+	compound -> "named(Dassault)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	udef_q -> _pressure_n_1 [label=BV]
+	_far_a_1 -> "_resist_v_1-fn.Competition" [label=ARG1]
+	focus_d -> "_resist_v_1-fn.Competition" [label=ARG1]
+	"_resist_v_1-fn.Competition" -> _pressure_n_1 [label="ARG2-fn.Participant_2"]
+}

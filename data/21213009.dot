@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_down_p -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	"card(3.69)" -> _point_n_of [label=ARG1]
+	_down_p -> _point_n_of [label=ARG2]
+	_at_p -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _average_n_of [label=BV]
+	_at_p -> "card(2659.22)" [label=ARG2]
+	_industrial_a_1 -> _average_n_of [label=ARG1]
+	number_q -> "card(2659.22)" [label=BV]
+	"_end_v_1-fn.Cause_to_end" -> _average_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _point_n_of [label=BV]
+}

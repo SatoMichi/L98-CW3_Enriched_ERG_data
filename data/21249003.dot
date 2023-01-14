@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "_linger_v_1-fn.NF" [label="ARG2-fn.Topic"]
+	focus_d -> "_linger_v_1-fn.NF" [label=ARG2]
+	_a_q -> _official_n_1 [label=BV]
+	_the_q -> _perception_n_1 [label=BV]
+	_at_p -> _official_n_1 [label=ARG1]
+	_major_a_1 -> _company_n_of [label=ARG1]
+	"_linger_v_1-fn.NF" -> _perception_n_1 [label="ARG1-fn.NotExist"]
+	_industrial_a_1 -> _company_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _company_n_of [label=BV]
+	_at_p -> _company_n_of [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

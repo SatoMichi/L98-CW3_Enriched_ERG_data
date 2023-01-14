@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	"_shock_v_1-fn.Attempt_suasion" -> _figure_n_1 [label="ARG1-fn.Content"]
+	_the_q -> _figure_n_1 [label=BV]
+}

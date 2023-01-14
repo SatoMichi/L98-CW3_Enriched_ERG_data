@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _market_n_1 [label=BV]
+	compound -> _liquidity_n_1 [label=ARG1]
+	_structural_a_1 -> _lack_n_1 [label=ARG1]
+	_only_a_1 -> _source_n_of [label=ARG1]
+	_because_x -> "_be_v_id-fn.Name_conferral" [label=ARG2]
+	_source_n_of -> _liquidity_n_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _investor_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _investor_n_1 [label=BV]
+	_the_q -> _source_n_of [label=BV]
+	_that_q_dem -> _lack_n_1 [label=BV]
+	compound -> _market_n_1 [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _source_n_of [label="ARG2-fn.Name"]
+	_because_x -> _crucial_a_for [label=ARG1]
+	udef_q -> _liquidity_n_1 [label=BV]
+	_crucial_a_for -> _lack_n_1 [label=ARG1]
+}

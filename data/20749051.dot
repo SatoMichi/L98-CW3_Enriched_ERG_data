@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _football_n_1 [label=ARG2]
+	compound -> _student_n_of [label=ARG1]
+	_dashpnct_p -> _player_n_of [label=ARG2]
+	udef_q -> _football_n_1 [label=BV]
+	compound -> _graduate_n_1 [label=ARG2]
+	compound -> _player_n_of [label=ARG1]
+	_dashpnct_p -> unknown [label=ARG1]
+	udef_q -> _player_n_of [label=BV]
+	udef_q -> _student_n_of [label=BV]
+	udef_q -> _graduate_n_1 [label=BV]
+}

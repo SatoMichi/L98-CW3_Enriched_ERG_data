@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _complication_n_1 [label="ARG2-fn.Name"]
+	_constant_a_1 -> _complication_n_1 [label=ARG1]
+	_a_q -> _complication_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _man_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _man_n_1 [label=BV]
+}

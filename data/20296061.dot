@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Rouge)" [label=BV]
+	_a_q -> _process_n_of [label=BV]
+	_as_p -> "named(Rouge)" [label=ARG1]
+	part_of -> _process_n_of [label=ARG1]
+	"_get_v_state-fn.IN" -> _as_p [label="ARG3-fn.NotExist"]
+	_for_p -> _process_n_of [label=ARG1]
+	udef_q -> "_election_n_of-for" [label=BV]
+	_as_p -> part_of [label=ARG2]
+	proper_q -> "named(Khmer)" [label=BV]
+	compound -> "named(Rouge)" [label=ARG1]
+	_part_q -> part_of [label=BV]
+	compound -> "named(Khmer)" [label=ARG2]
+	_for_p -> "_election_n_of-for" [label=ARG2]
+	"_get_v_state-fn.IN" -> "named(Rouge)" [label="ARG2-fn.Theme"]
+}

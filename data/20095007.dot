@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_perpetuate_v_1-fn.State_continue" -> _point_n_of [label="ARG1-fn.Entity"]
+	_editorial_a_1 -> _point_n_of [label=ARG1]
+	"_stereotype_v_1-fn.Perception_body" -> _perspective_n_1 [label="ARG2-fn.Body_part"]
+	parg_d -> "_stereotype_v_1-fn.Perception_body" [label=ARG1]
+	_point_n_of -> _view_n_of [label=ARG1]
+	parg_d -> _perspective_n_1 [label=ARG2]
+	idiom_q_i -> _view_n_of [label=BV]
+	"_perpetuate_v_1-fn.State_continue" -> _perspective_n_1 [label="ARG2-fn.State"]
+	_insidious_a_1 -> _perspective_n_1 [label=ARG1]
+	_a_q -> _perspective_n_1 [label=BV]
+	"_such+a_q" -> _point_n_of [label=BV]
+}

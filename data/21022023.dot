@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"_owe_v_1-fn.Rite" -> "named(Drexel)" [label="ARG3-fn.Organization"]
+	_the_q -> _partnership_n_1 [label=BV]
+	proper_q -> "named(Drexel)" [label=BV]
+	"_owe_v_1-fn.Rite" -> _dollar_n_1 [label="ARG2-fn.Member"]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_owe_v_1-fn.Rite" -> _partnership_n_1 [label="ARG1-fn.Leader"]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	parg_d -> "_owe_v_1-fn.Rite" [label=ARG1]
+	parg_d -> "named(Drexel)" [label=ARG2]
+	times -> "card(20)" [label=ARG2]
+}

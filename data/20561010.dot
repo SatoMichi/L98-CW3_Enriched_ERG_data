@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _joke_n_1 [label=ARG1]
+	"_lose_v_1-fn.NF" -> "named(Giants)" [label="ARG1-fn.Agent"]
+	udef_q -> _fault_n_1 [label=BV]
+	_the_q -> _joke_n_1 [label=BV]
+	loc_nonsp -> place_n [label=ARG2]
+	_the_q -> "named(Giants)" [label=BV]
+	compound -> _fault_n_1 [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	_here_a_1 -> place_n [label=ARG1]
+	proper_q -> "named(DE)" [label=BV]
+	_be_v_nv -> "_lose_v_1-fn.NF" [label=ARG2]
+	_be_v_nv -> _joke_n_1 [label=ARG1]
+	compound -> "named(DE)" [label=ARG2]
+	_by_p_means -> "_lose_v_1-fn.NF" [label=ARG1]
+	_by_p_means -> _fault_n_1 [label=ARG2]
+}

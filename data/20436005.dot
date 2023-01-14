@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Revco)" [label=BV]
+	compound -> _plan_n_1 [label=ARG1]
+	"_propose_v_to-fn.Statement" -> _plan_n_1 [label="ARG2-fn.Topic"]
+	compound -> _reorganization_n_1 [label=ARG2]
+	"_prevent_v_from-fn.Thwarting" -> "_propose_v_to-fn.Statement" [label="ARG3-fn.Theme"]
+	"_propose_v_to-fn.Statement" -> person [label="ARG1-fn.Agent"]
+	_any_q -> person [label=BV]
+	"_prevent_v_from-fn.Thwarting" -> _right_n_1 [label="ARG1-fn.Agent"]
+	_those_q_dem -> _right_n_1 [label=BV]
+	"_other+than_p" -> person [label=ARG1]
+	_a_q -> _plan_n_1 [label=BV]
+	"_other+than_p" -> "named(Revco)" [label=ARG2]
+	udef_q -> _reorganization_n_1 [label=BV]
+	"_prevent_v_from-fn.Thwarting" -> person [label="ARG2-fn.Theme"]
+}

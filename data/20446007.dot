@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(RU-486)" [label=BV]
+	_of_p -> _essence_n_1 [label=ARG2]
+	nominalization -> _time_v_1 [label=ARG1]
+	_of_p -> nominalization [label=ARG1]
+	_with_p -> _essence_n_1 [label=ARG1]
+	_the_q -> _essence_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	_with_p -> "named(RU-486)" [label=ARG2]
+}

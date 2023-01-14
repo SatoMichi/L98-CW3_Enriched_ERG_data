@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_enough_q -> generic_entity [label=BV]
+	_on_p -> generic_entity [label=ARG1]
+	def_explicit_q -> _plate_n_of [label=BV]
+	_on_p -> _plate_n_of [label=ARG2]
+	poss -> _plate_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	_besides_a_1 -> "_have_v_1-fn.IN" [label=ARG1]
+	"_have_v_1-fn.IN" -> generic_entity [label="ARG2-fn.Theme"]
+}

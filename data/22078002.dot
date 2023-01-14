@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_however_a_1 -> neg [label=ARG1]
+	_benefit_v_from -> _vaccine_n_1 [label=ARG2]
+	"_mean_v_to-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	_the_q -> _vaccine_n_1 [label=BV]
+	_can_v_modal -> _benefit_v_from [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	_benefit_v_from -> pron [label=ARG1]
+	"_mean_v_to-fn.NF" -> _can_v_modal [label="ARG2-fn.Theme"]
+	neg -> "_mean_v_to-fn.NF" [label=ARG1]
+}

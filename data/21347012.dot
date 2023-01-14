@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _state_n_of [label=BV]
+	_vigorous_a_1 -> "_defend_v_against-fn.Avoiding" [label=ARG1]
+	"_defend_v_against-fn.Avoiding" -> _state_n_of [label="ARG1-fn.Agent"]
+	"_defend_v_against-fn.Avoiding" -> _counterclaim_n_1 [label="ARG2-fn.Place"]
+	_any_q -> _counterclaim_n_1 [label=BV]
+}

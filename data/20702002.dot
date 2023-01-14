@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_decline_v_1 -> "_estimate_v_at-fn.Estimating" [label=ARG2]
+	_of_p -> _value_n_1 [label=ARG1]
+	"_estimate_v_at-fn.Estimating" -> _value_n_1 [label="ARG2-fn.Theme"]
+	_decline_v_1 -> _company_n_of [label=ARG1]
+	_of_p -> _holding_n_1 [label=ARG2]
+	_norwegian_a_1 -> _holding_n_1 [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_the_q -> _value_n_1 [label=BV]
+	"_estimate_v_at-fn.Estimating" -> _company_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _holding_n_1 [label=BV]
+}

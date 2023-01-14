@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_target_n_of -> _wrath_n_1 [label=ARG1]
+	unknown -> _target_n_of [label=ARG]
+	poss -> _wrath_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_the_q -> _target_n_of [label=BV]
+	def_explicit_q -> _wrath_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

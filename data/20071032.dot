@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> "named(Cabernet)" [label=ARG1]
+	compound -> "named(Vineyard)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	compound -> "named(Cabernet)" [label=ARG1]
+	_from_p -> "named(Creek)" [label=ARG2]
+	proper_q -> "named(Lake)" [label=BV]
+	"_take_v_1-fn.Attempt" -> "named(Cabernet)" [label="ARG2-fn.Goal"]
+	proper_q -> "named(Diamond)" [label=BV]
+	"_take_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(Creek)" [label=BV]
+	compound -> "named(Diamond)" [label=ARG2]
+	proper_q -> "named(Cabernet)" [label=BV]
+	compound -> "named(Lake)" [label=ARG2]
+	proper_q -> "named(Vineyard)" [label=BV]
+	compound -> "named(Creek)" [label=ARG1]
+}

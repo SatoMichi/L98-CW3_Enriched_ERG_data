@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_question_v_1-fn.Attempt" -> _extent_n_of [label="ARG2-fn.Goal"]
+	_the_q -> _stirring_n_1 [label=BV]
+	_new_a_1 -> _stirring_n_1 [label=ARG1]
+	poss -> _extent_n_of [label=ARG1]
+	"_question_v_1-fn.Attempt" -> generic_entity [label="ARG1-fn.Agent"]
+	def_explicit_q -> _extent_n_of [label=BV]
+	_some_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+	_faint_a_1 -> _stirring_n_1 [label=ARG1]
+	_also_a_1 -> _and_c [label=ARG1]
+	poss -> pron [label=ARG2]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _available_a_1 [label=ARG1]
+	_to_p -> _household_n_1 [label=ARG2]
+	times -> "card(1000000)" [label=ARG3]
+	compound -> _cable_n_1 [label=ARG2]
+	times -> "card(13)" [label=ARG2]
+	_available_a_1 -> "named(CNBC)" [label=ARG1]
+	proper_q -> "named(CNBC)" [label=BV]
+	compound -> _household_n_1 [label=ARG1]
+	udef_q -> _household_n_1 [label=BV]
+	"card(1000000)" -> _household_n_1 [label=ARG1]
+	udef_q -> _cable_n_1 [label=BV]
+}

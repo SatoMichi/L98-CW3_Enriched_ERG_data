@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_failure_n_1 -> "_obtain_v_1-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _failure_n_1 [label=BV]
+	"_constitute_v_1-fn.Competition" -> _breach_n_of [label="ARG2-fn.Participant_2"]
+	_a_q -> _breach_n_of [label=BV]
+	"_constitute_v_1-fn.Competition" -> _failure_n_1 [label="ARG1-fn.Participant_1"]
+	_by_p -> pron [label=ARG2]
+	nominalization -> _finance_v_1 [label=ARG1]
+	neg -> "_constitute_v_1-fn.Competition" [label=ARG1]
+	_by_p -> "_constitute_v_1-fn.Competition" [label=ARG1]
+	"_obtain_v_1-fn.Cause_to_end" -> nominalization [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> nominalization [label=BV]
+}

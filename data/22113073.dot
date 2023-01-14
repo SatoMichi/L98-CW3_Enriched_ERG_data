@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_still_a_disc -> _embarrassing_a_1 [label=ARG1]
+	_embarrassing_a_1 -> _incident_n_1 [label=ARG1]
+	_the_q -> _incident_n_1 [label=BV]
+}

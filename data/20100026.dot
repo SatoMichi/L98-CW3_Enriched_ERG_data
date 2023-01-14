@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _turnaround_n_1 [label=ARG1]
+	_of_p -> "named(Pacific)" [label=ARG2]
+	_a_q -> _turnaround_n_1 [label=BV]
+	proper_q -> "named(Georgia)" [label=BV]
+	proper_q -> "named(Pacific)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Hahn)" [label=BV]
+	"_engineer_v_1-fn.Assemble" -> _turnaround_n_1 [label="ARG2-fn.Group"]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Hahn)" [label=ARG1]
+	_also_a_1 -> "_engineer_v_1-fn.Assemble" [label=ARG1]
+	compound -> "named(Georgia)" [label=ARG2]
+	compound -> "named(Pacific)" [label=ARG1]
+	_surprising_a_1 -> _turnaround_n_1 [label=ARG1]
+	"_engineer_v_1-fn.Assemble" -> "named(Hahn)" [label="ARG1-fn.Individuals"]
+}

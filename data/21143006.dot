@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "yofc(1987)" [label=ARG2]
+	compound -> "named(Washington)" [label=ARG2]
+	loc_nonsp -> "named(Post)" [label=ARG1]
+	_the_q -> "named(Post)" [label=BV]
+	compound -> "named(Post)" [label=ARG1]
+	loc_nonsp -> "dofm(9)" [label=ARG1]
+	of_p -> "mofy(Sep)" [label=ARG2]
+	of_p -> "dofm(9)" [label=ARG1]
+	def_implicit_q -> "mofy(Sep)" [label=BV]
+	def_explicit_q -> "dofm(9)" [label=BV]
+	proper_q -> "named(Washington)" [label=BV]
+	proper_q -> "yofc(1987)" [label=BV]
+	unknown -> "named(Post)" [label=ARG]
+}

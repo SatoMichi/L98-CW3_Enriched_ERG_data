@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stay_v_1-fn.Halt" -> _self_n_1 [label="ARG2-fn.Place"]
+	_sweet_a_to -> _self_n_1 [label=ARG1]
+	"_stay_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	def_explicit_q -> _self_n_1 [label=BV]
+	_reasonable_a_for -> _self_n_1 [label=ARG1]
+	poss -> _self_n_1 [label=ARG1]
+	_own_a_1 -> _self_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

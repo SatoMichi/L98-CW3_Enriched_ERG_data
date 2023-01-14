@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_work_v_for-fn.Commerce_collect" -> pron [label="ARG1-fn.Buyer"]
+	parg_d -> _store_n_1 [label=ARG2]
+	_the_q -> _store_n_1 [label=BV]
+	"_sell_v_1-fn.Competition" -> _store_n_1 [label="ARG2-fn.Participant_2"]
+	"_work_v_for-fn.Commerce_collect" -> _store_n_1 [label="ARG2-fn.Goods"]
+	"_may_v_modal-fn.Communication_manner" -> "_sell_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+	pronoun_q -> pron [label=BV]
+	parg_d -> "_sell_v_1-fn.Competition" [label=ARG1]
+}

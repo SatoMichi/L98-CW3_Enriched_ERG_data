@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	compound -> "named(Krenz)" [label=ARG1]
+	proper_q -> "named(Krenz)" [label=BV]
+	_the_q -> _figure_n_1 [label=BV]
+	_clear_a_of -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _figure_n_1 [label="ARG1-fn.Process"]
+	proper_q -> "named(Egon)" [label=BV]
+	_in_p -> _process_n_of [label=ARG2]
+	compound -> "named(Egon)" [label=ARG2]
+	_this_q_dem -> _process_n_of [label=BV]
+	_in_p -> _figure_n_1 [label=ARG1]
+	_central_a_1 -> _figure_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> "named(Krenz)" [label="ARG2-fn.Means"]
+}

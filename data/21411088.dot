@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pay_v_for-fn.Receiving" -> _contract_n_1 [label="ARG1-fn.Recipient"]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	_the_q -> "named_n(NFL)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(1.4)" [label=ARG2]
+	_the_q -> _contract_n_1 [label=BV]
+	"_pay_v_for-fn.Receiving" -> _dollar_n_1 [label="ARG2-fn.Donor"]
+	_current_a_1 -> _contract_n_1 [label=ARG1]
+	"_pay_v_for-fn.Receiving" -> "named_n(NFL)" [label="ARG3-fn.Theme"]
+}

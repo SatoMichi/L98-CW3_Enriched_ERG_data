@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_face_v_1-fn.Attempt_suasion" -> _investor_n_1 [label="ARG1-fn.Content"]
+	_the_q -> _investor_n_1 [label=BV]
+	_colon_p_namely -> "_face_v_1-fn.Attempt_suasion" [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	focus_d -> "_face_v_1-fn.Attempt_suasion" [label=ARG1]
+	"_face_v_1-fn.Attempt_suasion" -> _outcome_n_1 [label="ARG2-fn.Addressee"]
+	_possible_a_for -> _outcome_n_1 [label=ARG1]
+	_in_p_state -> "_face_v_1-fn.Attempt_suasion" [label=ARG1]
+	_in_p_state -> _case_n_of [label=ARG2]
+	"card(3)" -> _outcome_n_1 [label=ARG1]
+	_either_q -> _case_n_of [label=BV]
+	udef_q -> _outcome_n_1 [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_active_a_1 -> _position_n_of [label=ARG1]
+	compound -> _active_a_1 [label=ARG1]
+	_the_q -> _exchange_n_1 [label=BV]
+	"_take_v_1-fn.Competition" -> _exchange_n_1 [label="ARG1-fn.Participant_1"]
+	compound -> _pro_n_1 [label=ARG2]
+	"_take_v_1-fn.Competition" -> _position_n_of [label="ARG2-fn.Participant_2"]
+	udef_q -> _pro_n_1 [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> "_take_v_1-fn.Competition" [label="ARG1-fn.Value"]
+	_a_q -> _position_n_of [label=BV]
+}

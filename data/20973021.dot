@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_disclose_v_to-fn.Amounting_to" -> _executive_n_1 [label="ARG1-fn.Value"]
+	"_expect_v_1-fn.Attempt" -> _gain_n_1 [label="ARG2-fn.Goal"]
+	_the_q -> _gain_n_1 [label=BV]
+	_of_p -> _gain_n_1 [label=ARG2]
+	"_disclose_v_to-fn.Amounting_to" -> _size_n_1 [label="ARG2-fn.Attribute"]
+	parg_d -> _gain_n_1 [label=ARG2]
+	_the_q -> _executive_n_1 [label=BV]
+	_of_p -> _size_n_1 [label=ARG1]
+	_the_q -> _size_n_1 [label=BV]
+	neg -> "_disclose_v_to-fn.Amounting_to" [label=ARG1]
+	parg_d -> "_expect_v_1-fn.Attempt" [label=ARG1]
+}

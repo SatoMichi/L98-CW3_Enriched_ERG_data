@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_represent_v_1-fn.Achieving_first" -> _and_c [label="ARG2-fn.New_idea"]
+	udef_q -> _worker_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_represent_v_1-fn.Achieving_first" -> _union_n_of [label="ARG1-fn.Cognizer"]
+	_the_q -> _union_n_of [label=BV]
+	_about_x_deg -> "card(28,000)" [label=ARG1]
+	_technical_a_1 -> _worker_n_1 [label=ARG1]
+	"card(28,000)" -> _and_c [label=ARG1]
+	udef_q -> _engineer_n_1 [label=BV]
+}

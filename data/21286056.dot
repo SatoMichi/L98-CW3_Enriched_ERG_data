@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _bad_a_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _idea_n_of [label="ARG2-fn.Name"]
+	_a_q -> _idea_n_of [label=BV]
+	udef_q -> _involvement_n_in [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _involvement_n_in [label="ARG1-fn.Entity"]
+	compound -> _involvement_n_in [label=ARG1]
+	_bad_a_1 -> _idea_n_of [label=ARG1]
+	_even_x_deg -> comp [label=ARG1]
+	compound -> _community_n_of [label=ARG2]
+	udef_q -> _community_n_of [label=BV]
+}

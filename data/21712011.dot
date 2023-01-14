@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _tier_n_1 [label=BV]
+	_with_p -> "_agree_v_on-fn.IN" [label=ARG1]
+	compound -> _price_n_of [label=ARG2]
+	"_agree_v_on-fn.IN" -> _broker_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _theory_n_of [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	compound -> _tier_n_1 [label=ARG2]
+	udef_q -> _broker_n_1 [label=BV]
+	"card(2)" -> _tier_n_1 [label=ARG1]
+	_with_p -> _theory_n_of [label=ARG2]
+	compound -> _theory_n_of [label=ARG1]
+}

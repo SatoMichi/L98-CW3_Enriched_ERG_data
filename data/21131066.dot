@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _professor_n_of [label="ARG2-fn.Name"]
+	compound -> _assistant_n_1 [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	_professor_n_of -> _economics_n_1 [label=ARG1]
+	_a_q -> _professor_n_of [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _professor_n_of [label=ARG1]
+	compound -> "named(Gale)" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> "named(Gale)" [label="ARG1-fn.Entity"]
+	udef_q -> _assistant_n_1 [label=BV]
+	proper_q -> "named(UCLA)" [label=BV]
+	udef_q -> _economics_n_1 [label=BV]
+	proper_q -> "named(Gale)" [label=BV]
+	_at_p -> _professor_n_of [label=ARG1]
+	_at_p -> "named(UCLA)" [label=ARG2]
+}

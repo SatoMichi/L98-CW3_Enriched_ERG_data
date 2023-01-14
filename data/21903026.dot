@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_focus_v_cause-on-fn.Activity_ongoing" [label=ARG1]
+	proper_q -> "named(Success)" [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	"_un-_a_rvrs" -> "_focus_v_cause-on-fn.Activity_ongoing" [label=ARG1]
+	_lackluster_a_1 -> _magazine_n_1 [label=ARG1]
+	_for_p -> _year_n_1 [label=ARG2]
+	_for_p -> _and_c [label=ARG1]
+	appos -> _magazine_n_1 [label=ARG1]
+	"_focus_v_cause-on-fn.Activity_ongoing" -> _magazine_n_1 [label="ARG2-fn.Activity"]
+	_the_q -> _magazine_n_1 [label=BV]
+	appos -> "named(Success)" [label=ARG2]
+	parg_d -> _magazine_n_1 [label=ARG2]
+}

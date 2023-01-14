@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _unlikely_a_for [label="ARG2-fn.Topic"]
+	focus_d -> _unlikely_a_for [label=ARG2]
+	_a_q -> "_spokeswoman/nn_u_unknown" [label=BV]
+	"_extract_v_from-fn.Removing" -> _gas_n_1 [label="ARG2-fn.Theme"]
+	_unlikely_a_for -> "_cause_v_1-fn.Causation" [label=ARG1]
+	_the_q -> _gas_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_spokeswoman/nn_u_unknown" [label="ARG1-fn.Agent"]
+	udef_q -> "_subsidence/nn_u_unknown" [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_cause_v_1-fn.Causation" -> nominalization [label="ARG1-fn.Cause"]
+	"_cause_v_1-fn.Causation" -> "_subsidence/nn_u_unknown" [label="ARG2-fn.Theme"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	nominalization -> "_extract_v_from-fn.Removing" [label=ARG1]
+}

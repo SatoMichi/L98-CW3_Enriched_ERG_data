@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_jump_v_1-fn.Halt" -> _gun_n_1 [label="ARG2-fn.Place"]
+	_colon_p_namely -> "_jump_v_1-fn.Halt" [label=ARG1]
+	_the_q -> _gun_n_1 [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_automotive/jj_u_unknown" -> _result_n_of [label=ARG1]
+	udef_q -> _earnings_n_1 [label=BV]
+	neg -> "_automotive/jj_u_unknown" [label=ARG1]
+	parg_d -> "_offset_v_1-fn.Competition" [label=ARG1]
+	"_automotive/jj_u_unknown" -> _operation_n_of [label=ARG1]
+	"_offset_v_1-fn.Competition" -> _result_n_of [label="ARG2-fn.Participant_2"]
+	parg_d -> _result_n_of [label=ARG2]
+	_from_p -> _operation_n_of [label=ARG2]
+	_strong_a_1 -> _earnings_n_1 [label=ARG1]
+	"_offset_v_1-fn.Competition" -> _earnings_n_1 [label="ARG1-fn.Participant_1"]
+	_the_q -> _result_n_of [label=BV]
+	_from_p -> _earnings_n_1 [label=ARG1]
+	_bleak_a_1 -> _result_n_of [label=ARG1]
+	_some_q -> _operation_n_of [label=BV]
+}

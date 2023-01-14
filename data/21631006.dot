@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_ago_p -> _year_n_1 [label=ARG2]
+	udef_q -> _stock_n_1 [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	_ago_p -> "_crash_v_1-fn.Impact" [label=ARG1]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	compound -> _market_n_1 [label=ARG1]
+	"_bet_v_on-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_think_v_1-fn.IN" -> "_crash_v_1-fn.Impact" [label="ARG2-fn.NotExist"]
+	_the_q -> _market_n_1 [label=BV]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_bet_v_on-fn.NF" -> "_think_v_1-fn.IN" [label="ARG4-fn.NotExist"]
+	"_crash_v_1-fn.Impact" -> _market_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _stock_n_1 [label=ARG2]
+	"_for+example_a_1" -> "_bet_v_on-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_make_v_1 -> _commitment_n_to [label=ARG2]
+	neg -> _make_v_1 [label=ARG1]
+	"_purchase_v_1-fn.Commerce_buy" -> _number_n_of [label="ARG2-fn.Theme"]
+	_commitment_n_to -> "_purchase_v_1-fn.Commerce_buy" [label=ARG1]
+	_a_q -> _number_n_of [label=BV]
+	_make_v_1 -> pron [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_a_q -> _commitment_n_to [label=BV]
+	_number_n_of -> _share_n_of [label=ARG1]
+	_specific_a_to -> _number_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

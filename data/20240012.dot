@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_id [label=ARG2]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_be_v_id -> _solution_n_of [label=ARG1]
+	proper_q -> "named(Germany)" [label=BV]
+	_in_p -> "named(Germany)" [label=ARG2]
+	_the_q -> _solution_n_of [label=BV]
+	udef_q -> _growth_n_of [label=BV]
+	_domestic_a_1 -> _growth_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	_strong_a_1 -> _growth_n_of [label=ARG1]
+	_be_v_id -> _growth_n_of [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	comp -> _strong_a_1 [label=ARG1]
+	_in_p -> _growth_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

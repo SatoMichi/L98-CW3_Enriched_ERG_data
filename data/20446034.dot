@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	addressee -> unknown [label=ARG2]
+	compound -> "named(Fraser)" [label=ARG1]
+	_all_q -> _count_n_1 [label=BV]
+	udef_q -> _miss_n_1 [label=BV]
+	compound -> _miss_n_1 [label=ARG2]
+	proper_q -> "named(Fraser)" [label=BV]
+	unknown -> _wrong_a_with [label=ARG]
+	_on_p -> _wrong_a_with [label=ARG1]
+	addressee -> "named(Fraser)" [label=ARG1]
+	_on_p -> _count_n_1 [label=ARG2]
+}

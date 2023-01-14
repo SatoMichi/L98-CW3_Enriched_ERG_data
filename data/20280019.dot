@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_say_v_to-fn.IN" [label=ARG1]
+	"_trade_v_1-fn.Exchange" -> pron [label="ARG1-fn.Agent"]
+	comp -> "much-many_a" [label=ARG1]
+	"_drink_v_1-fn.Ingestion" -> pron [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> "_drink_v_1-fn.Ingestion" [label="ARG2-fn.Topic"]
+	udef_q -> generic_entity [label=BV]
+	_up_p -> "_trade_v_1-fn.Exchange" [label=ARG1]
+	"_say_v_to-fn.IN" -> "_trade_v_1-fn.Exchange" [label="ARG2-fn.Topic"]
+	"much-many_a" -> generic_entity [label=ARG1]
+	"_drink_v_1-fn.Ingestion" -> generic_entity [label="ARG2-fn.Patient"]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

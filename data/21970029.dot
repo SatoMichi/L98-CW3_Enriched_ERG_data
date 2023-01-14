@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _economy_n_1 [label=ARG1]
+	_the_q -> _economy_n_1 [label=BV]
+	_most_q -> _economist_n_1 [label=BV]
+	udef_q -> "named_n(US)" [label=BV]
+	"_curb_v_1-fn.NF" -> _demand_n_1 [label="ARG2-fn.Patient"]
+	_for_p -> _demand_n_1 [label=ARG1]
+	"_curb_v_1-fn.NF" -> _economy_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _demand_n_1 [label=BV]
+	compound -> "named_n(US)" [label=ARG2]
+	"_expect_v_1-fn.IN" -> _economist_n_1 [label="ARG1-fn.Experiencer"]
+	_slow_v_1 -> _economy_n_1 [label=ARG1]
+	"_expect_v_1-fn.IN" -> "_curb_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	udef_q -> _import_n_of [label=BV]
+	_for_p -> _import_n_of [label=ARG2]
+}

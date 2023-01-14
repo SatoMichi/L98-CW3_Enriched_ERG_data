@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_big_a_1 -> _change_n_of [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Monsky)" [label=ARG1]
+	udef_q -> _change_n_of [label=BV]
+	comp -> _big_a_1 [label=ARG1]
+	"_see_v_1-fn.Perception_experience" -> "named(Monsky)" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Monsky)" [label=BV]
+	_much_x_deg -> comp [label=ARG1]
+	_ahead_p -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	"_see_v_1-fn.Perception_experience" -> _change_n_of [label="ARG2-fn.NotExist"]
+	compound -> _mister_n_1 [label=ARG2]
+}

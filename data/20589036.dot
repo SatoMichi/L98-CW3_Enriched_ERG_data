@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _further_a_1 [label=ARG1]
+	_in_p -> "_consolidations/nns_u_unknown" [label=ARG1]
+	"_can_v_modal-fn.Existence" -> "_follow_v_1-fn.Competition" [label="ARG1-fn.Entity"]
+	"_follow_v_1-fn.Competition" -> "_consolidations/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	_in_p -> _industry_n_1 [label=ARG2]
+	_further_a_1 -> "_consolidations/nns_u_unknown" [label=ARG1]
+	_the_q -> _industry_n_1 [label=BV]
+	udef_q -> "_consolidations/nns_u_unknown" [label=BV]
+}

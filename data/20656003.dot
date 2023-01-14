@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_tomorrow_a_1 -> time_n [label=ARG1]
+	idiom_q_i -> _place_n_i [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	"_take_v_of-i-fn.Taking" -> _place_n_i [label="ARG2-fn.Theme"]
+	_the_q -> _transaction_n_1 [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	loc_nonsp -> "_take_v_of-i-fn.Taking" [label=ARG1]
+	"_take_v_of-i-fn.Taking" -> _transaction_n_1 [label="ARG1-fn.Agent"]
+}

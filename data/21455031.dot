@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _master_n_1 [label=ARG2]
+	proper_q -> "named(Yale)" [label=BV]
+	_in_p -> _architecture_n_1 [label=ARG2]
+	_a_q -> _master_n_1 [label=BV]
+	"_earn_v_1-fn.NF" -> _degree_n_of [label="ARG2-fn.Theme"]
+	def_explicit_q -> _degree_n_of [label=BV]
+	"_earn_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_from_p -> _architecture_n_1 [label=ARG1]
+	poss -> _degree_n_of [label=ARG1]
+	_in_p -> _degree_n_of [label=ARG1]
+	_from_p -> "named(Yale)" [label=ARG2]
+	udef_q -> _architecture_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

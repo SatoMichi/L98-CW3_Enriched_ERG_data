@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_note_v_to-fn.State_continue" [label=ARG1]
+	_a_q -> _turnaround_n_1 [label=BV]
+	_the_q -> _midst_n_of [label=BV]
+	"_note_v_to-fn.State_continue" -> _in_p [label="ARG2-fn.State"]
+	focus_d -> _in_p [label=ARG2]
+	_midst_n_of -> _turnaround_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_in_p -> _midst_n_of [label=ARG2]
+	_in_p -> pron [label=ARG1]
+	"_note_v_to-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+}

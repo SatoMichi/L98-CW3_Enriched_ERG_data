@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_as+of_p" -> _price_n_of [label=ARG1]
+	poss -> "dofw(Mon)" [label=ARG2]
+	"_as+of_p" -> _close_n_of [label=ARG2]
+	poss -> _close_n_of [label=ARG1]
+	proper_q -> "dofw(Mon)" [label=BV]
+	_all_q -> _price_n_of [label=BV]
+	def_explicit_q -> _close_n_of [label=BV]
+}

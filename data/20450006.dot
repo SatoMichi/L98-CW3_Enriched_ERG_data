@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_home-fn.Undergo_change" -> _owner_n_of [label="ARG1-fn.Entity"]
+	_happy_a_with -> "_repay_v_1-fn.Competition" [label=ARG1]
+	"_repay_v_1-fn.Competition" -> _owner_n_of [label="ARG1-fn.Participant_1"]
+	def_explicit_q -> "_kylix/nn_u_unknown" [label=BV]
+	"_take_v_home-fn.Undergo_change" -> "_kylix/nn_u_unknown" [label="ARG2-fn.Final_category"]
+	"_repay_v_1-fn.Competition" -> _claim_n_of [label="ARG2-fn.Participant_2"]
+	_the_q -> _owner_n_of [label=BV]
+	_original_a_1 -> _owner_n_of [label=ARG1]
+	_the_q -> _claim_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	poss -> "_kylix/nn_u_unknown" [label=ARG1]
+}

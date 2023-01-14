@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lead_v_1-fn.Competition" -> "_take_v_1-fn.Competition" [label="ARG3-fn.Participants"]
+	_the_q -> _specialist_n_1 [label=BV]
+	_special_a_1 -> _step_n_1 [label=ARG1]
+	nominalization -> _buy_v_1 [label=ARG1]
+	_the_q -> "_half-hour_n_1" [label=BV]
+	_the_q -> nominalization [label=BV]
+	_heavy_a_1 -> nominalization [label=ARG1]
+	"_lead_v_1-fn.Competition" -> nominalization [label="ARG1-fn.Participant_1"]
+	"_take_v_1-fn.Competition" -> _step_n_1 [label="ARG2-fn.Participant_2"]
+	_last_a_1 -> "_half-hour_n_1" [label=ARG1]
+	_in_p_temp -> "_half-hour_n_1" [label=ARG2]
+	_in_p_temp -> nominalization [label=ARG1]
+	"_take_v_1-fn.Competition" -> _specialist_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _step_n_1 [label=BV]
+	"_lead_v_1-fn.Competition" -> _specialist_n_1 [label="ARG2-fn.Participant_2"]
+}

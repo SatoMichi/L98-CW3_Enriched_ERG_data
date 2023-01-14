@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _establishment_n_of [label=ARG1]
+	_against_p -> "_fight_v_1-fn.Hostile_encounter" [label=ARG1]
+	udef_q -> _sense_n_of [label=BV]
+	compound -> _education_n_1 [label=ARG2]
+	_the_q -> _establishment_n_of [label=BV]
+	udef_q -> _education_n_1 [label=BV]
+	_against_p -> _sense_n_of [label=ARG2]
+	_of_p -> _inch_n_1 [label=ARG1]
+	"_fight_v_1-fn.Hostile_encounter" -> _establishment_n_of [label="ARG1-fn.Agent"]
+	_every_q -> _inch_n_1 [label=BV]
+	_of_p -> _way_n_of [label=ARG2]
+	"_fight_v_1-fn.Hostile_encounter" -> _inch_n_1 [label="ARG2-fn.Co-Agent"]
+	_common_a_for -> _sense_n_of [label=ARG1]
+	_the_q -> _way_n_of [label=BV]
+}

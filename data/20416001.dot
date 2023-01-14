@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _hospital_n_1 [label=BV]
+	compound -> "named(Kentucky)" [label=ARG2]
+	udef_q -> _regulation_n_1 [label=BV]
+	"_spark_v_1-fn.NF" -> _regulation_n_1 [label="ARG1-fn.Cause"]
+	proper_q -> "named(Feud)" [label=BV]
+	"_spark_v_1-fn.NF" -> "named(Feud)" [label="ARG2-fn.Theme"]
+	compound -> "named(Feud)" [label=ARG1]
+	proper_q -> "named(Kentucky)" [label=BV]
+	compound -> _regulation_n_1 [label=ARG1]
+	compound -> _hospital_n_1 [label=ARG2]
+}

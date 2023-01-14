@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_late_p -> time_n [label=ARG1]
+	_still_a_1 -> _on_p_dir [label=ARG1]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	_the_q -> "_ipo/nn_u_unknown" [label=BV]
+	"_as+of_p" -> _on_p_dir [label=ARG1]
+	focus_d -> "_as+of_p" [label=ARG2]
+	focus_d -> _on_p_dir [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	_on_p_dir -> "_ipo/nn_u_unknown" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	"_as+of_p" -> time_n [label=ARG2]
+}

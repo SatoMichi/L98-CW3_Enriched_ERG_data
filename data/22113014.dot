@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _situation_n_1 [label=BV]
+	poss -> "_comptroller/nn_u_unknown" [label=ARG2]
+	"_monitor_v_1-fn.Competition" -> _situation_n_1 [label="ARG2-fn.Participant_2"]
+	"_say_v_to-fn.Cause_to_end" -> "_monitor_v_1-fn.Competition" [label="ARG2-fn.Means"]
+	poss -> _office_n_of [label=ARG1]
+	_the_q -> "_comptroller/nn_u_unknown" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_monitor_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	def_explicit_q -> _office_n_of [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> _office_n_of [label="ARG1-fn.Process"]
+}

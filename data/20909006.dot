@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_open_v_cause-fn.Cause_to_fragment" -> _business_n_1 [label="ARG2-fn.Instrument"]
+	_a_q -> _business_n_1 [label=BV]
+	"_open_v_cause-fn.Cause_to_fragment" -> "named(Deaver)" [label="ARG1-fn.Agent"]
+	"_re-_a_again" -> "_open_v_cause-fn.Cause_to_fragment" [label=ARG1]
+	compound -> _relation_n_1 [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _relation_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _business_n_1 [label=ARG1]
+	compound -> "named(Deaver)" [label=ARG1]
+	_public_a_1 -> _relation_n_1 [label=ARG1]
+	proper_q -> "named(Deaver)" [label=BV]
+}

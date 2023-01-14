@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_of+course_a_1" -> _could_v_modal [label=ARG1]
+	_less_a_1 -> _care_v_1 [label=ARG1]
+	_care_v_1 -> _spirit_n_1 [label=ARG1]
+	neg -> "_believe_v_in-fn.Religious_belief" [label=ARG1]
+	ellipsis_ref -> _people_n_of [label=ARG1]
+	"_believe_v_in-fn.Religious_belief" -> pron [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+	"_believe_v_in-fn.Religious_belief" -> _people_n_of [label="ARG1-fn.NotExist"]
+	_hardly_a_1 -> _care_v_1 [label=ARG1]
+	_care_v_1 -> _or_c [label=ARG2]
+	_the_q -> _spirit_n_1 [label=BV]
+	_could_v_modal -> _hardly_a_1 [label=ARG1]
+	udef_q -> _people_n_of [label=BV]
+}

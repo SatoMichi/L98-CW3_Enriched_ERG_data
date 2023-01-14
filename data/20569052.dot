@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	def_explicit_q -> _problem_n_of [label=BV]
+	poss -> "named(Straszheim)" [label=ARG2]
+	compound -> "named(Shilling)" [label=ARG1]
+	"_understand_v_by-fn.Awareness" -> "named(Shilling)" [label="ARG1-fn.Agent"]
+	compound -> "named(Straszheim)" [label=ARG1]
+	"_understand_v_by-fn.Awareness" -> _problem_n_of [label="ARG2-fn.Theme"]
+	proper_q -> "named(Shilling)" [label=BV]
+	proper_q -> "named(Straszheim)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	poss -> _problem_n_of [label=ARG1]
+}

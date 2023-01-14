@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_alone_p -> "_dissent_v_1-fn.NF" [label=ARG1]
+	appos -> "named(Thatcher)" [label=ARG2]
+	appos -> "_prime+minister_n_of" [label=ARG1]
+	"_dissent_v_1-fn.NF" -> "_prime+minister_n_of" [label="ARG1-fn.Agent"]
+	poss -> "_prime+minister_n_of" [label=ARG1]
+	poss -> "named(Britain)" [label=ARG2]
+	def_explicit_q -> "_prime+minister_n_of" [label=BV]
+	proper_q -> "named(Thatcher)" [label=BV]
+	proper_q -> "named(Britain)" [label=BV]
+}

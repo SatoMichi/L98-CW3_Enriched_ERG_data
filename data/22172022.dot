@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_request_n_for -> _interview_n_1 [label=ARG1]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> "_comment_v_on-fn.Judgment_direct_address" [label="ARG2-fn.Item"]
+	"_respond_v_to-fn.State_continue" -> "named(Trump)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(AMR)" [label=BV]
+	proper_q -> "named(Trump)" [label=BV]
+	"_comment_v_on-fn.Judgment_direct_address" -> "named(AMR)" [label="ARG1-fn.Communicator"]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	neg -> "_respond_v_to-fn.State_continue" [label=ARG1]
+	compound -> "named(Trump)" [label=ARG1]
+	udef_q -> _interview_n_1 [label=BV]
+	"_respond_v_to-fn.State_continue" -> _request_n_for [label="ARG2-fn.State"]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> "named(AMR)" [label="ARG1-fn.Attribute"]
+	udef_q -> _request_n_for [label=BV]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_at-market_a_1" -> _pricing_n_1 [label=ARG1]
+	"_use_v_1-fn.Piracy" -> _pricing_n_1 [label="ARG2-fn.Vehicle"]
+	"_use_v_1-fn.Piracy" -> _issue_n_1 [label="ARG1-fn.Perpetrator"]
+	udef_q -> _pricing_n_1 [label=BV]
+	_the_q -> _issue_n_1 [label=BV]
+}

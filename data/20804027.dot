@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _resistance_n_to [label=BV]
+	_resistance_n_to -> _language_n_1 [label=ARG1]
+	_final_a_1 -> _crumble_v_1 [label=ARG1]
+	udef_q -> "_proponents/nns_u_unknown" [label=BV]
+	"_see_v_1-fn.IN" -> _resistance_n_to [label="ARG2-fn.NotExist"]
+	_the_q -> _language_n_1 [label=BV]
+	proper_q -> "named(Filipino)" [label=BV]
+	"_see_v_1-fn.IN" -> _crumble_v_1 [label="ARG3-fn.NotExist"]
+	_crumble_v_1 -> _resistance_n_to [label=ARG1]
+	"_see_v_1-fn.IN" -> "_proponents/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	_of_p -> "named(Filipino)" [label=ARG2]
+	_of_p -> "_proponents/nns_u_unknown" [label=ARG1]
+	"much-many_a" -> "_proponents/nns_u_unknown" [label=ARG1]
+}

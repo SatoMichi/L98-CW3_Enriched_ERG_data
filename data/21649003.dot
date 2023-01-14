@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_throw_v_1-fn.Attack" -> pron [label="ARG1-fn.Victim"]
+	"_throw_v_1-fn.Attack" -> thing [label="ARG2-fn.Weapon"]
+	_some_q -> thing [label=BV]
+}

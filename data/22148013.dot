@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_half_q -> part_of [label=BV]
+	part_of -> _rise_n_1 [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	proper_q -> "named(TRW)" [label=BV]
+	_the_q -> _rise_n_1 [label=BV]
+	compound -> _rise_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "_account_v_for-fn.State_continue" [label="ARG2-fn.Requirement"]
+	_a_q -> _acquisition_n_of [label=BV]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	focus_d -> "_account_v_for-fn.State_continue" [label=ARG2]
+	"_account_v_for-fn.State_continue" -> _acquisition_n_of [label="ARG1-fn.Entity"]
+	"_say_v_to-fn.Have_as_requirement" -> "named(TRW)" [label="ARG1-fn.Dependent"]
+	"_account_v_for-fn.State_continue" -> part_of [label="ARG2-fn.State"]
+	compound -> _sale_n_of [label=ARG2]
+}

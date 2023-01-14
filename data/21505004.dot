@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(266.66)" -> _point_n_of [label=ARG1]
+	loc_nonsp -> "dofw(Thu)" [label=ARG2]
+	"_advance_v_1-fn.Competition" -> _point_n_of [label="ARG2-fn.Participant_2"]
+	loc_nonsp -> "_advance_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _index_n_1 [label=BV]
+	udef_q -> _point_n_of [label=BV]
+	"_advance_v_1-fn.Competition" -> _index_n_1 [label="ARG1-fn.Participant_1"]
+	proper_q -> "dofw(Thu)" [label=BV]
+}

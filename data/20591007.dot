@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_help_v_1-fn.Competition" -> "named(America)" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(America)" [label=BV]
+	_corporate_a_1 -> "named(America)" [label=ARG1]
+	_some_q_indiv -> _or_c [label=BV]
+	udef_q -> "_schemers/nns_u_unknown" [label=BV]
+	udef_q -> "_scavengers/nns_u_unknown" [label=BV]
+	"_help_v_1-fn.Competition" -> _or_c [label="ARG2-fn.Participant_2"]
+	"_in+order+to_x" -> _or_c [label=ARG2]
+	"_in+order+to_x" -> unknown [label=ARG1]
+}

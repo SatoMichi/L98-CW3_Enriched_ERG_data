@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"ord(1)" -> _day_n_of [label=ARG1]
+	neg -> "_going+to_v_qmodal" [label=ARG1]
+	"_come_v_out-fn.NF" -> pron [label="ARG1-fn.NotExist"]
+	loc_nonsp -> _jump_v_1 [label=ARG1]
+	_on_p -> pron [label=ARG2]
+	_jump_v_1 -> pron [label=ARG1]
+	loc_nonsp -> "_come_v_out-fn.NF" [label=ARG1]
+	_the_q -> _day_n_of [label=BV]
+	_on_p -> _jump_v_1 [label=ARG1]
+	loc_nonsp -> _day_n_of [label=ARG2]
+	"_going+to_v_qmodal" -> _jump_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

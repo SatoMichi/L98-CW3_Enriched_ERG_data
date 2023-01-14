@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _would_v_modal [label=ARG1]
+	"_consider_v_1-fn.Cogitation" -> _magazine_n_1 [label="ARG2-fn.Theme"]
+	"_consider_v_1-fn.Cogitation" -> pron [label="ARG1-fn.Agent"]
+	"_reveal_v_to-fn.Reveal_secret" -> pron [label="ARG1-fn.Agent"]
+	"_reveal_v_to-fn.Reveal_secret" -> "_consider_v_1-fn.Cogitation" [label="ARG2-fn.Topic"]
+	_would_v_modal -> "_reveal_v_to-fn.Reveal_secret" [label=ARG1]
+	_which_q -> _magazine_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

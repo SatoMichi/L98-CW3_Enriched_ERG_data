@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _niche_n_1 [label="ARG2-fn.Means"]
+	compound -> _management_n_1 [label=ARG1]
+	udef_q -> _utility_n_1 [label=BV]
+	_a_q -> _niche_n_1 [label=BV]
+	compound -> _utility_n_1 [label=ARG2]
+	udef_q -> _management_n_1 [label=BV]
+	_major_a_1 -> _niche_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _management_n_1 [label="ARG1-fn.Process"]
+	_commercial_a_1 -> _niche_n_1 [label=ARG1]
+}

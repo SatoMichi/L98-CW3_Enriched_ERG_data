@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(12)" -> _member_n_of [label=ARG1]
+	_to_p -> "_increase_v_cause-fn.Cause_to_end" [label=ARG1]
+	_to_p -> _member_n_of [label=ARG2]
+	_of_p -> _board_n_of [label=ARG2]
+	poss -> pron [label=ARG2]
+	_the_q -> _board_n_of [label=BV]
+	udef_q -> _member_n_of [label=BV]
+	_of_p -> _size_n_1 [label=ARG1]
+	_the_q -> _size_n_1 [label=BV]
+	"_increase_v_cause-fn.Cause_to_end" -> _selection_n_of [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	"_increase_v_cause-fn.Cause_to_end" -> _size_n_1 [label="ARG2-fn.Means"]
+	def_explicit_q -> _selection_n_of [label=BV]
+	poss -> _selection_n_of [label=ARG1]
+}

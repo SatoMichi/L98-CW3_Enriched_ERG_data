@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_mostly_x_deg -> _from_p [label=ARG1]
+	"_fund_v_1-fn.Competition" -> _repurchase_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _share_n_of [label=BV]
+	_from_p -> "_fund_v_1-fn.Competition" [label=ARG1]
+	compound -> _repurchase_n_1 [label=ARG1]
+	parg_d -> _repurchase_n_1 [label=ARG2]
+	_the_q -> _repurchase_n_1 [label=BV]
+	udef_q -> _borrowings_n_1 [label=BV]
+	compound -> _share_n_of [label=ARG2]
+	parg_d -> "_fund_v_1-fn.Competition" [label=ARG1]
+	_from_p -> _borrowings_n_1 [label=ARG2]
+}

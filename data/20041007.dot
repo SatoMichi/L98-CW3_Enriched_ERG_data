@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_ago_p -> _year_n_1 [label=ARG2]
+	_the_q -> _ad_n_1 [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	focus_d -> _have_v_qmodal [label=ARG1]
+	focus_d -> _unlike_p [label=ARG2]
+	"_a+few_a_1" -> _year_n_1 [label=ARG1]
+	"_truthful/jj_u_unknown" -> _ad_n_1 [label=ARG1]
+	_ago_p -> _unlike_p [label=ARG1]
+	_unlike_p -> _have_v_qmodal [label=ARG1]
+	_even_a_1 -> _have_v_qmodal [label=ARG1]
+	_have_v_qmodal -> "_worry_v_about-fn.Emotion_active" [label=ARG1]
+	"_worry_v_about-fn.Emotion_active" -> "_truthful/jj_u_unknown" [label="ARG2-fn.Experiencer"]
+	neg -> _have_v_qmodal [label=ARG1]
+	"_worry_v_about-fn.Emotion_active" -> pron [label="ARG1-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _safety_n_1 [label=ARG1]
+	udef_q -> _bridge_n_1 [label=BV]
+	_to_p -> _safety_n_1 [label=ARG2]
+	proper_q -> "named(Backseat)" [label=BV]
+	udef_q -> _beauty_n_1 [label=BV]
+	"_take_v_1-fn.IN" -> "named(Backseat)" [label="ARG2-fn.Theme"]
+	"_take_v_1-fn.IN" -> _beauty_n_1 [label="ARG1-fn.Instrument"]
+	_on_p -> _bridge_n_1 [label=ARG2]
+	udef_q -> _safety_n_1 [label=BV]
+	_to_p -> "_take_v_1-fn.IN" [label=ARG1]
+}

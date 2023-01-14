@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _partner_n_1 [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> "named(Fiat)" [label="ARG2-fn.Means"]
+	_that_q_dem -> _partner_n_1 [label=BV]
+	proper_q -> "named(Fiat)" [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

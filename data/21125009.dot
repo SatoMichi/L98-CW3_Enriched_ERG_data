@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_plan_v_1-fn.Purpose" -> "_pursue_v_1-fn.Cotheme" [label="ARG2-fn.NotExist"]
+	compound -> _venture_n_1 [label=ARG1]
+	_foreign_a_1 -> _venture_n_1 [label=ARG1]
+	compound -> _development_n_of [label=ARG2]
+	"_pursue_v_1-fn.Cotheme" -> _venture_n_1 [label="ARG2-fn.Theme"]
+	"_pursue_v_1-fn.Cotheme" -> generic_entity [label="ARG1-fn.Agent"]
+	_in_p -> "_pursue_v_1-fn.Cotheme" [label=ARG1]
+	proper_q -> "named(Europe)" [label=BV]
+	udef_q -> _venture_n_1 [label=BV]
+	_mostly_x_deg -> _in_p [label=ARG1]
+	_some_q -> generic_entity [label=BV]
+	_in_p -> "named(Europe)" [label=ARG2]
+	udef_q -> _development_n_of [label=BV]
+	"_plan_v_1-fn.Purpose" -> generic_entity [label="ARG1-fn.Experiencer"]
+}

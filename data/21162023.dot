@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_pervasive_a_1 -> _form_n_of [label=ARG1]
+	_red_a_1 -> _tape_n_1 [label=ARG1]
+	_form_n_of -> _tape_n_1 [label=ARG1]
+	udef_q -> _form_n_of [label=BV]
+	_other_a_1 -> _form_n_of [label=ARG1]
+	udef_q -> _tape_n_1 [label=BV]
+	comp -> _pervasive_a_1 [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _pressure_n_1 [label=BV]
+	"_deny_v_to-fn.Statement" -> "_use_v_1-fn.IN" [label="ARG2-fn.Predicate"]
+	"_use_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	compound -> _pressure_n_1 [label=ARG2]
+	"_use_v_1-fn.IN" -> _tactic_n_1 [label="ARG2-fn.NotExist"]
+	"_deny_v_to-fn.Statement" -> "named(Viacom)" [label="ARG1-fn.Agent"]
+	udef_q -> _tactic_n_1 [label=BV]
+	proper_q -> "named(Viacom)" [label=BV]
+	compound -> _tactic_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

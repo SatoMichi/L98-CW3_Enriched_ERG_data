@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_reject_v_as-fn.Amounting_to" -> part_of [label="ARG2-fn.Attribute"]
+	parg_d -> "_reject_v_as-fn.Amounting_to" [label=ARG1]
+	_only_x_deg -> udef_q [label=ARG1]
+	"card(111)" -> _transplant_n_of [label=ARG1]
+	udef_q -> _transplant_n_of [label=BV]
+	"card(2)" -> part_of [label=ARG1]
+	parg_d -> part_of [label=ARG2]
+	udef_q -> part_of [label=BV]
+	part_of -> _transplant_n_of [label=ARG1]
+}

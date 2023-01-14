@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_get_v_1-fn.Competition" -> _transaction_n_1 [label="ARG2-fn.Participant_2"]
+	_for_p -> "_good_a_at-for-of" [label=ARG1]
+	"card(2)" -> _company_n_of [label=ARG1]
+	_a_q -> _transaction_n_1 [label=BV]
+	_both_q -> _company_n_of [label=BV]
+	"_good_a_at-for-of" -> _transaction_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_for_p -> _company_n_of [label=ARG2]
+}

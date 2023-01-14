@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _insurance_n_1 [label=BV]
+	"_different_a_than-from" -> "_think_v_1-fn.Attempt" [label=ARG1]
+	compound -> "_adjusters/nns_u_unknown" [label=ARG1]
+	compound -> _insurance_n_1 [label=ARG2]
+	"_think_v_1-fn.Attempt" -> "_adjusters/nns_u_unknown" [label="ARG1-fn.Agent"]
+	_the_q -> "_adjusters/nns_u_unknown" [label=BV]
+}

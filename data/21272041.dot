@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_each_q -> _side_n_1 [label=BV]
+	poss -> _position_n_of [label=ARG1]
+	focus_d -> _shaky_a_1 [label=ARG1]
+	_after_p -> _move_n_1 [label=ARG2]
+	focus_d -> _after_p [label=ARG2]
+	_the_q -> _computer_n_1 [label=BV]
+	poss -> _computer_n_1 [label=ARG2]
+	def_explicit_q -> _position_n_of [label=BV]
+	_only_x_deg -> "card(11)" [label=ARG1]
+	_for_p -> _side_n_1 [label=ARG2]
+	_shaky_a_1 -> _position_n_of [label=ARG1]
+	"card(11)" -> _move_n_1 [label=ARG1]
+	_for_p -> _move_n_1 [label=ARG1]
+	udef_q -> _move_n_1 [label=BV]
+	_after_p -> _shaky_a_1 [label=ARG1]
+}

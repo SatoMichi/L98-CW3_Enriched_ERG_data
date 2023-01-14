@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _marginal_a_1 [label=ARG1]
+	_the_q -> "_downside/nn_u_unknown" [label=BV]
+	_the_q -> _moment_n_1 [label=BV]
+	_very_x_deg -> _marginal_a_1 [label=ARG1]
+	focus_d -> _marginal_a_1 [label=ARG1]
+	focus_d -> _at_p [label=ARG2]
+	_very_x_deg -> _considerable_a_1 [label=ARG1]
+	_the_q -> _upside_n_1 [label=BV]
+	_considerable_a_1 -> "_downside/nn_u_unknown" [label=ARG1]
+	_at_p -> _moment_n_1 [label=ARG2]
+	_marginal_a_1 -> _upside_n_1 [label=ARG1]
+}

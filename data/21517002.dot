@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_describe_v_as -> pron [label=ARG1]
+	"_make_v_1-fn.Manufacturing" -> "named(Polymerix)" [label="ARG1-fn.Agent"]
+	udef_q -> _lumber_n_1 [label=BV]
+	_plastic_a_1 -> _wood_n_1 [label=ARG1]
+	_like_a_1 -> _lumber_n_1 [label=ARG2]
+	_describe_v_as -> _material_n_1 [label=ARG2]
+	proper_q -> "named(Polymerix)" [label=BV]
+	_describe_v_as -> _wood_n_1 [label=ARG3]
+	"_make_v_1-fn.Manufacturing" -> _material_n_1 [label="ARG2-fn.Product"]
+	udef_q -> _material_n_1 [label=BV]
+	_like_a_1 -> _material_n_1 [label=ARG1]
+	udef_q -> _wood_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

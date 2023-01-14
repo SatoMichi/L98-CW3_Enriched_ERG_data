@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_critical_a_of -> _force_n_1 [label=ARG1]
+	udef_q -> _abortion_n_of [label=BV]
+	"_remain_v_1-fn.State_continue" -> _critical_a_of [label="ARG2-fn.Theme"]
+	compound -> _right_n_1 [label=ARG1]
+	udef_q -> _right_n_1 [label=BV]
+	udef_q -> _force_n_1 [label=BV]
+	_bitter_a_1 -> _critical_a_of [label=ARG1]
+	compound -> _abortion_n_of [label=ARG2]
+	compound -> _force_n_1 [label=ARG1]
+	"_remain_v_1-fn.State_continue" -> _force_n_1 [label="ARG1-fn.NotExist"]
+}

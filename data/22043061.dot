@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _list_n_of [label=BV]
+	"_total_v_1-fn.Amounting_to" -> _dollar_n_1 [label="ARG2-fn.NotExist"]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(654.5)" [label=ARG2]
+	times -> "card(1000000)" [label=ARG3]
+	"_total_v_1-fn.Amounting_to" -> _list_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _dollar_n_1 [label=BV]
+}

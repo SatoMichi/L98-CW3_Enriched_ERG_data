@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(16.2)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"_increase_v_cause-fn.Cause_to_end" -> _purchase_n_of [label="ARG1-fn.Process"]
+	_the_q -> _purchase_n_of [label=BV]
+	_to_p -> _percent_n_of [label=ARG2]
+	_of_p -> _percent_n_of [label=ARG1]
+	def_explicit_q -> _stake_n_1 [label=BV]
+	"_increase_v_cause-fn.Cause_to_end" -> _stake_n_1 [label="ARG2-fn.Means"]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_of_p -> _share_n_of [label=ARG2]
+	poss -> _stake_n_1 [label=ARG1]
+	_to_p -> "_increase_v_cause-fn.Cause_to_end" [label=ARG1]
+	poss -> pron [label=ARG2]
+	_the_q -> _share_n_of [label=BV]
+}

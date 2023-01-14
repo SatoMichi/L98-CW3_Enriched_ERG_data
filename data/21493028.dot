@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Prudential)" [label=ARG2]
+	unknown -> "card(4)" [label=ARG]
+	proper_q -> "named(Prudential)" [label=BV]
+	def_explicit_q -> "card(4)" [label=BV]
+	_final_a_1 -> "card(4)" [label=ARG1]
+	poss -> "card(4)" [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stand_v_1-fn.Change_position_on_a_scale" -> "named(Conner)" [label="ARG1-fn.Attribute"]
+	neg -> "_stand_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_stand_v_1-fn.Change_position_on_a_scale" -> _still_a_1 [label="ARG2-fn.Item"]
+	proper_q -> "named(Conner)" [label=BV]
+	_still_a_1 -> "named(Conner)" [label=ARG1]
+}

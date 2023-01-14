@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_miss_v_1-fn.Change_position_on_a_scale" -> _watch_n_1 [label="ARG1-fn.Attribute"]
+	udef_q -> _gold_n_1 [label=BV]
+	_the_q -> _watch_n_1 [label=BV]
+	compound -> _watch_n_1 [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> _case_n_of [label="ARG1-fn.Process"]
+	compound -> _gold_n_1 [label=ARG2]
+	_the_q -> _case_n_of [label=BV]
+	_case_n_of -> _watch_n_1 [label=ARG1]
+}

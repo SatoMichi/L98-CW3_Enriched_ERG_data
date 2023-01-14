@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_excellent_a_1 -> "_credentials/nns_u_unknown" [label=ARG1]
+	poss -> "_credentials/nns_u_unknown" [label=ARG1]
+	_for_p -> _excellent_a_1 [label=ARG1]
+	_for_p -> _task_n_of [label=ARG2]
+	poss -> pron [label=ARG2]
+	_the_q -> _task_n_of [label=BV]
+	def_explicit_q -> "_credentials/nns_u_unknown" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

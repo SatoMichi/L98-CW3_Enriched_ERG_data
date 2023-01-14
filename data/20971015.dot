@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cause_v_1-fn.Causation" -> _heater_n_1 [label="ARG1-fn.Cause"]
+	udef_q -> _crust_n_1 [label=BV]
+	_burn_v_off -> _heater_n_1 [label=ARG1]
+	_like_p -> "_blowtorch/nn_u_unknown" [label=ARG2]
+	_work_v_1 -> _heater_n_1 [label=ARG1]
+	_the_q -> _mud_n_1 [label=BV]
+	_any_q -> "_wrappers/nns_u_unknown" [label=BV]
+	_a_q -> "_blowtorch/nn_u_unknown" [label=BV]
+	_like_p -> _work_v_1 [label=ARG1]
+	"_cause_v_1-fn.Causation" -> _mud_n_1 [label="ARG2-fn.Theme"]
+	_burn_v_off -> "_wrappers/nns_u_unknown" [label=ARG2]
+	_a_q -> _heater_n_1 [label=BV]
+	_giant_a_1 -> _heater_n_1 [label=ARG1]
+	"_cause_v_1-fn.Causation" -> _crust_n_1 [label="ARG3-fn.NotExist"]
+}

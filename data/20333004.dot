@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _share_n_of [label=ARG2]
+	poss -> "named(Datapoint)" [label=ARG2]
+	"_hold_v_1-fn.Manipulation" -> _percent_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _percent_n_of [label=BV]
+	proper_q -> "named(Intelogic)" [label=BV]
+	poss -> _share_n_of [label=ARG1]
+	"card(27.5)" -> _percent_n_of [label=ARG1]
+	def_explicit_q -> _share_n_of [label=BV]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	_common_a_for -> _share_n_of [label=ARG1]
+	"_hold_v_1-fn.Manipulation" -> "named(Intelogic)" [label="ARG1-fn.Agent"]
+	_of_p -> _percent_n_of [label=ARG1]
+	proper_q -> "named(Datapoint)" [label=BV]
+}

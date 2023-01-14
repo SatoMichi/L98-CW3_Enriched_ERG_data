@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _loss_n_of [label=BV]
+	times -> "card(1000000)" [label=ARG3]
+	_of_p -> _profit_n_1 [label=ARG1]
+	"_compare_v_with-fn.Communication_means" -> _profit_n_1 [label="ARG2-fn.Addressee"]
+	"_year-earlier_a_1" -> _profit_n_1 [label=ARG1]
+	_a_q -> _profit_n_1 [label=BV]
+	"_compare_v_with-fn.Communication_means" -> _loss_n_of [label="ARG1-fn.Communicator"]
+	"card(1000000)" -> "_a$_n_1" [label=ARG1]
+	times -> "card(273.5)" [label=ARG2]
+	_of_p -> "_a$_n_1" [label=ARG2]
+	udef_q -> "_a$_n_1" [label=BV]
+}

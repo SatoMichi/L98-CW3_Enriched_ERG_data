@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _transportation_n_1 [label=ARG2]
+	"_last_v_1-fn.NF" -> _and_c [label="ARG1-fn.NotExist"]
+	compound -> _official_n_1 [label=ARG1]
+	_extraordinary_a_to -> _and_c [label=ARG1]
+	"_worry_v_about-fn.Emotion_active" -> neg [label="ARG2-fn.Experiencer"]
+	_such_q -> _and_c [label=BV]
+	udef_q -> _official_n_1 [label=BV]
+	udef_q -> _transportation_n_1 [label=BV]
+	_may_v_modal -> "_last_v_1-fn.NF" [label=ARG1]
+	udef_q -> _measure_n_1 [label=BV]
+	"_worry_v_about-fn.Emotion_active" -> _official_n_1 [label="ARG1-fn.Stimulus"]
+	udef_q -> _cooperation_n_1 [label=BV]
+	neg -> _may_v_modal [label=ARG1]
+}

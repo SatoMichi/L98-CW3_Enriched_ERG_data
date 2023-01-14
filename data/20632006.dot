@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	nominalization -> _trade_v_1 [label=ARG1]
+	compound -> _volume_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _share_n_of [label="ARG2-fn.Means"]
+	_heavy_a_1 -> _share_n_of [label=ARG1]
+	_a_q -> _share_n_of [label=BV]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	udef_q -> _volume_n_of [label=BV]
+	compound -> nominalization [label=ARG2]
+	times -> "card(3.1)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _volume_n_of [label="ARG1-fn.Process"]
+	udef_q -> nominalization [label=BV]
+	_moderate_a_1 -> _heavy_a_1 [label=ARG1]
+}

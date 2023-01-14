@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_so -> _far_a_1 [label=ARG1]
+	_overseas_a_1 -> _complaint_n_1 [label=ARG1]
+	_about_p -> _issue_n_1 [label=ARG2]
+	_no_q -> _complaint_n_1 [label=BV]
+	_far_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	focus_d -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_about_p -> _complaint_n_1 [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> _complaint_n_1 [label="ARG1-fn.Process"]
+	_the_q -> _issue_n_1 [label=BV]
+	_public_a_1 -> _complaint_n_1 [label=ARG1]
+}

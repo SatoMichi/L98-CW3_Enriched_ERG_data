@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_just_a_1 -> _and_c [label=ARG1]
+	"_walk_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	_off_p -> _mound_n_of [label=ARG2]
+	_the_q -> _mound_n_of [label=BV]
+	neg -> _and_c [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_off_p -> "_walk_v_1-fn.Impact" [label=ARG1]
+	"_weep_v_1-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+}

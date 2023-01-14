@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Lloyd)" [label=BV]
+	poss -> "named(Lloyd)" [label=ARG2]
+	_even_a_1 -> _specialty_n_1 [label=ARG1]
+	appos -> _venture_n_1 [label=ARG2]
+	udef_q -> _venture_n_1 [label=BV]
+	focus_d -> _even_a_1 [label=ARG2]
+	poss -> _specialty_n_1 [label=ARG1]
+	_risky_a_for -> _venture_n_1 [label=ARG1]
+	parg_d -> _challenge_v_to [label=ARG1]
+	subord -> _challenge_v_to [label=ARG2]
+	def_explicit_q -> _specialty_n_1 [label=BV]
+	_unusually_x_deg -> _risky_a_for [label=ARG1]
+	subord -> _even_a_1 [label=ARG1]
+	appos -> _specialty_n_1 [label=ARG1]
+}

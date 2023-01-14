@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_all_q -> "named(Poles)" [label=BV]
+	_pleased_a_with -> "named(Poles)" [label=ARG1]
+	_not_x_deg -> _all_q [label=ARG1]
+}

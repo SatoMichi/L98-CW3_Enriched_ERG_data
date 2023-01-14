@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_find_v_1-fn.Competition" -> _extravagance_n_1 [label="ARG2-fn.Participant_2"]
+	"_find_v_1-fn.Competition" -> _attractive_a_1 [label="ARG3-fn.Participants"]
+	_attractive_a_1 -> _extravagance_n_1 [label=ARG1]
+	_this_q_dem -> _extravagance_n_1 [label=BV]
+	_surprising_a_1 -> "_find_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _parent_n_of [label=BV]
+	"_find_v_1-fn.Competition" -> _parent_n_of [label="ARG1-fn.Participant_1"]
+	neg -> _surprising_a_1 [label=ARG1]
+	_romantic_a_1 -> _extravagance_n_1 [label=ARG1]
+	comp_so -> _attractive_a_1 [label=ARG1]
+}

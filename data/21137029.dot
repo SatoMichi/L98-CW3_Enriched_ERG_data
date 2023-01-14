@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _white_n_1 [label="ARG1-fn.Process"]
+	focus_d -> _in_p_state [label=ARG2]
+	proper_q -> "named(Birmingham)" [label=BV]
+	measure -> _percent_n_of [label=ARG2]
+	_the_q -> _minority_n_1 [label=BV]
+	_in_p_state -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_black_a_1 -> "named(Birmingham)" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _minority_n_1 [label="ARG2-fn.Means"]
+	_in_p_state -> "named(Birmingham)" [label=ARG2]
+	udef_q -> _white_n_1 [label=BV]
+	measure -> _black_a_1 [label=ARG1]
+	"card(57)" -> _percent_n_of [label=ARG1]
+}

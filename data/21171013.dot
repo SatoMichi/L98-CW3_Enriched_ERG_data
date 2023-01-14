@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q -> _loss_n_of [label=BV]
+	_pretty_x -> _bad_a_at [label=ARG1]
+	compound -> "named(Jacobson)" [label=ARG1]
+	_in_p -> _stock_n_1 [label=ARG2]
+	_in_p -> _loss_n_of [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_the_q -> _stock_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> "_be_v_there-fn.Needing" [label="ARG2-fn.Means"]
+	"_be_v_there-fn.Needing" -> _loss_n_of [label="ARG1-fn.Cognizer"]
+	"_add_v_to-fn.Cause_to_end" -> "named(Jacobson)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Jacobson)" [label=BV]
+	_bad_a_at -> _loss_n_of [label=ARG1]
+}

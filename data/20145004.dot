@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(S.A)" [label=ARG1]
+	def_explicit_q -> "named(S.A)" [label=BV]
+	proper_q -> "named(France)" [label=BV]
+	poss -> "named(France)" [label=ARG2]
+	_unit_n_of -> "named(S.A)" [label=ARG1]
+	compound -> "named(Michelin)" [label=ARG2]
+	proper_q -> "named(Tyre)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(Tyre)" [label="ARG1-fn.Process"]
+	_a_q -> _unit_n_of [label=BV]
+	compound -> "named(S.A)" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _unit_n_of [label="ARG2-fn.Means"]
+	compound -> "named(Tyre)" [label=ARG1]
+	proper_q -> "named(Michelin)" [label=BV]
+}

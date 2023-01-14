@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _client_n_1 [label=BV]
+	"_execute_v_1-fn.Process_start" -> "named(Lehman)" [label="ARG1-fn.Event"]
+	compound -> "named(Shearson)" [label=ARG2]
+	proper_q -> "named(Lehman)" [label=BV]
+	proper_q -> "named(Shearson)" [label=BV]
+	udef_q -> _program_n_of [label=BV]
+	_for_p -> _client_n_1 [label=ARG2]
+	_for_p -> "_execute_v_1-fn.Process_start" [label=ARG1]
+	"_execute_v_1-fn.Process_start" -> _trade_n_of [label="ARG2-fn.Place"]
+	compound -> _program_n_of [label=ARG2]
+	udef_q -> _trade_n_of [label=BV]
+	compound -> "named(Lehman)" [label=ARG1]
+	compound -> _trade_n_of [label=ARG1]
+}

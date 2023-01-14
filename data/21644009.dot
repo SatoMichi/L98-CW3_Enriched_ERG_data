@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _firm_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _firm_n_1 [label="ARG1-fn.Pivot"]
+	_other_a_1 -> _firm_n_1 [label=ARG1]
+	compound -> "_brokerage/nn_u_unknown" [label=ARG2]
+	"much-many_a" -> _firm_n_1 [label=ARG1]
+	udef_q -> _view_n_of [label=BV]
+	"_bullish/jj_u_unknown" -> _view_n_of [label=ARG1]
+	compound -> _firm_n_1 [label=ARG1]
+	_similar_a_to -> "_bullish/jj_u_unknown" [label=ARG1]
+	"_have_v_1-fn.IN" -> _view_n_of [label="ARG2-fn.Theme"]
+	udef_q -> "_brokerage/nn_u_unknown" [label=BV]
+}

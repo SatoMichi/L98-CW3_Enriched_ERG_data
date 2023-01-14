@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_wish_v_1-fn.State_continue" -> ellipsis_ref [label="ARG2-fn.State"]
+	"card(24)" -> _hour_n_1 [label=ARG1]
+	_a_p_per -> _day_n_of [label=ARG2]
+	_a_p_per -> _hour_n_1 [label=ARG1]
+	"_wish_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	loc_nonsp -> ellipsis_ref [label=ARG1]
+	ellipsis_ref -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _day_n_of [label=BV]
+	_around_p -> ellipsis_ref [label=ARG1]
+	udef_q -> _hour_n_1 [label=BV]
+	loc_nonsp -> _hour_n_1 [label=ARG2]
+}

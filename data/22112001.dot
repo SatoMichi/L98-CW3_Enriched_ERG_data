@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _house_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _house_n_of [label="ARG2-fn.Name"]
+	"_be_v_id-fn.Name_conferral" -> "named(Pentagon)" [label="ARG1-fn.Entity"]
+	parg_d -> _house_n_of [label=ARG2]
+	parg_d -> "_haunt_v_1-fn.Attack" [label=ARG1]
+	"_haunt_v_1-fn.Attack" -> _house_n_of [label="ARG2-fn.Weapon"]
+	_the_q -> "named(Pentagon)" [label=BV]
+}

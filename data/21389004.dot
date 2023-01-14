@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _institution_n_1 [label=BV]
+	compound -> _lending_n_1 [label=ARG2]
+	_already_a_1 -> _shaky_a_1 [label=ARG1]
+	udef_q -> _lending_n_1 [label=BV]
+	_bad_a_at -> _loan_n_1 [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> "_batter_v_into-fn.Attack" [label="ARG1-fn.Process"]
+	"_batter_v_into-fn.Attack" -> _institution_n_1 [label="ARG2-fn.Weapon"]
+	compound -> _institution_n_1 [label=ARG1]
+	_another_q -> _wave_n_of [label=BV]
+	_shaky_a_1 -> _institution_n_1 [label=ARG1]
+	"much-many_a" -> _institution_n_1 [label=ARG1]
+	_wave_n_of -> _loan_n_1 [label=ARG1]
+	"_batter_v_into-fn.Attack" -> _wave_n_of [label="ARG1-fn.Victim"]
+	_further_a_1 -> "_batter_v_into-fn.Attack" [label=ARG1]
+	udef_q -> _loan_n_1 [label=BV]
+}

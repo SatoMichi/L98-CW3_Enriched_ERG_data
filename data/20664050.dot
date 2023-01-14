@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_look_v_1-fn.Impact" [label=ARG1]
+	loc_nonsp -> "_look_v_1-fn.Impact" [label=ARG1]
+	"_look_v_1-fn.Impact" -> _ahead_p [label="ARG2-fn.Result"]
+	udef_q -> _market_n_1 [label=BV]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	udef_q -> _commodity_n_1 [label=BV]
+	compound -> _market_n_1 [label=ARG1]
+	compound -> _commodity_n_1 [label=ARG2]
+	_to_p -> _market_n_1 [label=ARG2]
+	_colon_p_namely -> "_look_v_1-fn.Impact" [label=ARG1]
+	_this_q_dem -> _week_n_1 [label=BV]
+}

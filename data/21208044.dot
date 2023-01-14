@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Cause_to_end" -> _trader_n_1 [label="ARG1-fn.Process"]
+	"_whooosh/jj_u_unknown" -> pron [label=ARG1]
+	"card(1)" -> _trader_n_1 [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> "_whooosh/jj_u_unknown" [label="ARG2-fn.Means"]
+	udef_q -> _future_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	compound -> _trader_n_1 [label=ARG1]
+	focus_d -> "_whooosh/jj_u_unknown" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _trader_n_1 [label=BV]
+	compound -> _future_n_1 [label=ARG2]
+}

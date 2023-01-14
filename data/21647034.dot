@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _tax_n_1 [label=BV]
+	_of_p -> "yofc(1986)" [label=ARG2]
+	part_of -> "_talk_n_of-on" [label=ARG1]
+	_all_q -> part_of [label=BV]
+	_of_p -> _act_n_of [label=ARG1]
+	compound -> _tax_n_1 [label=ARG2]
+	_this_q_dem -> "_talk_n_of-on" [label=BV]
+	_to_p -> _act_n_of [label=ARG2]
+	proper_q -> "yofc(1986)" [label=BV]
+	compound -> _reform_n_1 [label=ARG1]
+	"_antithetical/jj_u_unknown" -> part_of [label=ARG1]
+	_to_p -> "_antithetical/jj_u_unknown" [label=ARG1]
+	udef_q -> _reform_n_1 [label=BV]
+	_the_q -> _act_n_of [label=BV]
+	compound -> _act_n_of [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	_back_p -> place_n [label=ARG1]
+	loc_nonsp -> "_head_v_dir-fn.Social_event" [label=ARG1]
+	"_head_v_dir-fn.Social_event" -> "_linage/nn_u_unknown" [label="ARG1-fn.Duration"]
+	_until_x_h -> "_do_v_1-fn.Competition" [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	_until_x_h -> "_start_v_1-fn.Competition" [label=ARG2]
+	udef_q -> "_linage/nn_u_unknown" [label=BV]
+	udef_q -> _handstand_n_1 [label=BV]
+	"_do_v_1-fn.Competition" -> _handstand_n_1 [label="ARG2-fn.Participant_2"]
+	_hard_a_for -> _until_x_h [label=ARG1]
+	"_start_v_1-fn.Competition" -> "_head_v_dir-fn.Social_event" [label="ARG1-fn.Participant_1"]
+	_up_p -> place_n [label=ARG1]
+	_real_a_1 -> "_linage/nn_u_unknown" [label=ARG1]
+}

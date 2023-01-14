@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_near_a_to -> _term_n_of [label=ARG1]
+	compound -> _growth_n_of [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	"_predict_v_1-fn.Predicting" -> _or_c [label="ARG2-fn.Topic"]
+	udef_q -> _or_c [label=BV]
+	_no_q -> _growth_n_of [label=BV]
+	compound -> _term_n_of [label=ARG2]
+	udef_q -> _term_n_of [label=BV]
+	udef_q -> _analyst_n_1 [label=BV]
+	"_predict_v_1-fn.Predicting" -> _analyst_n_1 [label="ARG1-fn.Cause"]
+	"little-few_a" -> generic_entity [label=ARG1]
+}

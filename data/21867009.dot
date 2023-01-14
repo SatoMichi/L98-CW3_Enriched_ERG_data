@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(National)" [label=BV]
+	compound -> "named(National)" [label=ARG1]
+	compound -> "named(Mortgage)" [label=ARG1]
+	compound -> "named(Association)" [label=ARG1]
+	compound -> "named(Federal)" [label=ARG2]
+	proper_q -> "named(Mortgage)" [label=BV]
+	proper_q -> "named(Association)" [label=BV]
+	proper_q -> "named(Federal)" [label=BV]
+	unknown -> "named(Association)" [label=ARG]
+}

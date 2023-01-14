@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_though_x -> "_remain_v_1-fn.State_continue" [label=ARG1]
+	compound -> _industry_n_1 [label=ARG1]
+	_a_q -> _business_n_1 [label=BV]
+	udef_q -> _magazine_n_1 [label=BV]
+	_the_q -> _industry_n_1 [label=BV]
+	"_thrive_v_1-fn.NF" -> _magazine_n_1 [label="ARG1-fn.NotExist"]
+	"_remain_v_1-fn.State_continue" -> _business_n_1 [label="ARG2-fn.Theme"]
+	compound -> nominalization [label=ARG1]
+	_some_q -> _magazine_n_1 [label=BV]
+	"_remain_v_1-fn.State_continue" -> _industry_n_1 [label="ARG1-fn.NotExist"]
+	_risky_a_for -> _business_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	nominalization -> _publish_v_1 [label=ARG1]
+	compound -> _magazine_n_1 [label=ARG2]
+	_though_x -> "_thrive_v_1-fn.NF" [label=ARG2]
+}

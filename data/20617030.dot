@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ask_v_for-fn.Request" -> _dismissal_n_1 [label="ARG3-fn.NotExist"]
+	proper_q -> "named(IMELDA)" [label=BV]
+	"_say_v_to-fn.IN" -> "named(Marcos)" [label="ARG1-fn.Agent"]
+	compound -> "named(IMELDA)" [label=ARG2]
+	parg_d -> "_kidnap_v_1-fn.Kidnapping" [label=ARG1]
+	"_kidnap_v_1-fn.Kidnapping" -> pron [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.IN" -> "_kidnap_v_1-fn.Kidnapping" [label="ARG2-fn.Topic"]
+	udef_q -> _dismissal_n_1 [label=BV]
+	parg_d -> pron [label=ARG2]
+	"_ask_v_for-fn.Request" -> "named(Marcos)" [label="ARG1-fn.NotExist"]
+	compound -> "named(Marcos)" [label=ARG1]
+	proper_q -> "named(Marcos)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

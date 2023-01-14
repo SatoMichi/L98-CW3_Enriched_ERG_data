@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _company_n_of [label=ARG2]
+	parg_d -> "_acquire_v_1-fn.Getting" [label=ARG1]
+	"_acquire_v_1-fn.Getting" -> _company_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _company_n_of [label=BV]
+}

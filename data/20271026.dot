@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Home)" [label=ARG1]
+	proper_q -> "named(Loan)" [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+	compound -> "named(Loan)" [label=ARG1]
+	compound -> "named(Mortgage)" [label=ARG1]
+	udef_q -> _corporation_n_1 [label=BV]
+	compound -> "named(Federal)" [label=ARG2]
+	proper_q -> "named(Mortgage)" [label=BV]
+	proper_q -> "named(Home)" [label=BV]
+	unknown -> "named(Mortgage)" [label=ARG]
+	proper_q -> "named(Federal)" [label=BV]
+}

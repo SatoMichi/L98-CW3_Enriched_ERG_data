@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _paper_n_1 [label=ARG]
+	udef_q -> _paper_n_1 [label=BV]
+	_colon_p_namely -> _paper_n_1 [label=ARG1]
+}

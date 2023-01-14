@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "_correction_n_of-to" [label=ARG1]
+	_the_q -> _system_n_of [label=BV]
+	udef_q -> _course_n_of [label=BV]
+	compound -> _course_n_of [label=ARG2]
+	_also_a_1 -> "_provide_v_1-fn.Supply" [label=ARG1]
+	udef_q -> "_correction_n_of-to" [label=BV]
+	udef_q -> _advisory_n_1 [label=BV]
+	"_provide_v_1-fn.Supply" -> _advisory_n_1 [label="ARG2-fn.Theme"]
+	"_provide_v_1-fn.Supply" -> _system_n_of [label="ARG1-fn.Agent"]
+	compound -> _advisory_n_1 [label=ARG1]
+}

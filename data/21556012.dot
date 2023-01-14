@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _pizza_n_1 [label=ARG2]
+	"_test+market_v_1" -> _pizza_n_1 [label="ARG2-fn.Item"]
+	udef_q -> _pizza_n_1 [label=BV]
+	_with_p -> "_go_v_state-fn.Residence" [label=ARG1]
+	_national_a_1 -> pron [label=ARG1]
+	"_go_v_state-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_decide_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_test+market_v_1" -> pron [label="ARG1-fn.Attribute"]
+	pronoun_q -> pron [label=BV]
+	"_go_v_state-fn.Residence" -> _national_a_1 [label="ARG2-fn.Location"]
+	"_decide_v_1-fn.Competition" -> "_go_v_state-fn.Residence" [label="ARG2-fn.Participant_2"]
+	_also_a_1 -> "_decide_v_1-fn.Competition" [label=ARG1]
+}

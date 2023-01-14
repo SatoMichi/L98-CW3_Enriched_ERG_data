@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _view_n_of [label=BV]
+	udef_q -> _evidence_n_of [label=BV]
+	"_support_v_1-fn.Taking_sides" -> _evidence_n_of [label="ARG1-fn.Experiencer"]
+	_be_v_there -> _evidence_n_of [label=ARG1]
+	"_support_v_1-fn.Taking_sides" -> _view_n_of [label="ARG2-fn.Stimulus"]
+	eventuality -> "_support_v_1-fn.Taking_sides" [label=ARG1]
+}

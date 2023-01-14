@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_even_a_1 -> "_study_v_1-fn.Attempt_suasion" [label=ARG1]
+	"_study_v_1-fn.Attempt_suasion" -> generic_entity [label="ARG1-fn.Content"]
+	_some_q -> generic_entity [label=BV]
+}

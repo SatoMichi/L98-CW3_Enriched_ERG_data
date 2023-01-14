@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _director_n_of [label=BV]
+	_with_p -> "_manage_v_1-fn.Experiencer_obj" [label=ARG1]
+	_title_n_of -> _director_n_of [label=ARG1]
+	_general_a_1 -> _director_n_of [label=ARG1]
+	_the_q -> _title_n_of [label=BV]
+	"_manage_v_1-fn.Experiencer_obj" -> pron [label="ARG2-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+	_with_p -> _title_n_of [label=ARG2]
+}

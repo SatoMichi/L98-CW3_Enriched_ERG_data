@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _risk_n_of [label="ARG1-fn.Process"]
+	neg -> "_know_v_of-fn.Needing" [label=ARG1]
+	"_know_v_of-fn.Needing" -> pron [label="ARG1-fn.Cognizer"]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	"_hold_v_1-fn.Change_position_on_a_scale" -> _stock_n_1 [label="ARG2-fn.Item"]
+	_the_q -> _risk_n_of [label=BV]
+	free_relative_q -> thing [label=BV]
+	"_know_v_of-fn.Needing" -> thing [label="ARG2-fn.Requirement"]
+	"_know_v_of-fn.Needing" -> nominalization [label="ARG3-fn.Dependent"]
+	pronoun_q -> pron [label=BV]
+	nominalization -> "_hold_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> _stock_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

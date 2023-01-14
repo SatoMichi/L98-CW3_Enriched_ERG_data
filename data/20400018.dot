@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_municipal_a_1 -> _bond_n_1 [label=ARG1]
+	subord -> _high_a_1 [label=ARG2]
+	_most_q -> _bond_n_1 [label=BV]
+	measure -> comp [label=ARG1]
+	_end_v_1 -> _bond_n_1 [label=ARG1]
+	comp -> _high_a_1 [label=ARG1]
+	"fraction(1/2)" -> _point_n_of [label=ARG1]
+	udef_q -> _trader_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> subord [label="ARG2-fn.NotExist"]
+	udef_q -> _point_n_of [label=BV]
+	measure -> _point_n_of [label=ARG2]
+	"_say_v_to-fn.IN" -> _trader_n_1 [label="ARG1-fn.NotExist"]
+	subord -> _end_v_1 [label=ARG1]
+}

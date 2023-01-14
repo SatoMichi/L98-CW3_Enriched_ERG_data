@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_close_v_1-fn.Halt" [label=ARG1]
+	"_close_v_1-fn.Halt" -> _average_n_of [label="ARG1-fn.Purpose"]
+	number_q -> "card(2638.73)" [label=BV]
+	_to_p -> "card(2638.73)" [label=ARG2]
+	number_q -> "card(18.65)" [label=BV]
+	_down_p -> "card(18.65)" [label=ARG2]
+	_down_p -> "_close_v_1-fn.Halt" [label=ARG1]
+	_the_q -> _average_n_of [label=BV]
+	_industrial_a_1 -> _average_n_of [label=ARG1]
+}

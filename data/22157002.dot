@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_would_v_modal-fn.Cause_to_end" -> "_succeed_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	proper_q -> "named(Martha)" [label=BV]
+	compound -> "named(Martha)" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> "named(Hesse)" [label=ARG1]
+	proper_q -> "named(Hesse)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_resign_v_1-fn.Competition" -> "named(Hesse)" [label="ARG1-fn.Participant_1"]
+	"_succeed_v_1-fn.Competition" -> "named(Hesse)" [label="ARG2-fn.Participant_2"]
+	compound -> "named(Allday)" [label=ARG1]
+	proper_q -> "named(Allday)" [label=BV]
+	"_succeed_v_1-fn.Competition" -> "named(Allday)" [label="ARG1-fn.Participant_1"]
+}

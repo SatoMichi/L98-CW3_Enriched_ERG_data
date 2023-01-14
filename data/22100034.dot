@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _jacket_n_1 [label=ARG2]
+	parg_d -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	_may_v_modal -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> _jacket_n_1 [label="ARG2-fn.Theme"]
+	_next_a_1 -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	udef_q -> _jacket_n_1 [label=BV]
+}

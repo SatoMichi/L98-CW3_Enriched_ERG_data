@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_thereby_a_1 -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_benefit_v_1-fn.State_continue" -> implicit_conj [label="ARG2-fn.State"]
+	comp -> _sharp_a_1 [label=ARG1]
+	_the_q -> _autonomy_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> generic_entity [label="ARG1-fn.Attribute"]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _autonomy_n_1 [label="ARG2-fn.Item"]
+	_sharp_a_1 -> _definition_n_of [label=ARG1]
+	_each_q -> generic_entity [label=BV]
+	"_benefit_v_1-fn.State_continue" -> _and_c [label="ARG1-fn.Entity"]
+	udef_q -> _shareholder_n_1 [label=BV]
+	udef_q -> _employee_n_of [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	_the_q -> _definition_n_of [label=BV]
+	udef_q -> _customer_n_of [label=BV]
+}

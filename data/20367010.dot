@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _spirit_n_1 [label=BV]
+	focus_d -> loc_nonsp [label=ARG2]
+	loc_nonsp -> "_need_v_1-fn.Needing" [label=ARG1]
+	_today_a_1 -> time_n [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_need_v_1-fn.Needing" -> _spirit_n_1 [label="ARG2-fn.Theme"]
+	"_entrepreneurial/jj_u_unknown" -> _spirit_n_1 [label=ARG1]
+	def_explicit_q -> time_n [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	poss -> _spirit_n_1 [label=ARG1]
+	focus_d -> "_need_v_1-fn.Needing" [label=ARG1]
+	"_need_v_1-fn.Needing" -> _company_n_of [label="ARG1-fn.Pivot"]
+	def_implicit_q -> time_n [label=BV]
+	pronoun_q -> pron [label=BV]
+}

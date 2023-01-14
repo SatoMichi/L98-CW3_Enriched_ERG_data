@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(100)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	comp -> _dollar_n_1 [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	_the_q -> _killer_n_1 [label=BV]
+	_with_p -> generic_entity [label=ARG2]
+	"little-few_a" -> generic_entity [label=ARG1]
+	_with_p -> "_flee_v_from-fn.Cause_to_continue" [label=ARG1]
+	"_flee_v_from-fn.Cause_to_continue" -> _killer_n_1 [label="ARG1-fn.Agent"]
+	comp -> "little-few_a" [label=ARG1]
+}

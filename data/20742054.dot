@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> "much-many_a" [label=ARG1]
+	"_give_v_1-fn.Giving" -> generic_entity [label="ARG1-fn.Agent"]
+	compound -> _future_n_1 [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _trader_n_1 [label=BV]
+	udef_q -> _power_n_1 [label=BV]
+	"much-many_a" -> _power_n_1 [label=ARG1]
+	udef_q -> _future_n_1 [label=BV]
+	compound -> _trader_n_1 [label=ARG1]
+	"_give_v_1-fn.Giving" -> _power_n_1 [label="ARG2-fn.Theme"]
+	"_a+lot_x" -> comp [label=ARG1]
+	"_give_v_1-fn.Giving" -> _trader_n_1 [label="ARG3-fn.Recipient"]
+}

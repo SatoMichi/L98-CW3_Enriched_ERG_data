@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(30)" -> _point_n_of [label=ARG1]
+	_the_q -> "named(DJIA)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_up_p -> _point_n_of [label=ARG2]
+	"_show_v_1-fn.IN" -> "named(DJIA)" [label="ARG2-fn.NotExist"]
+	_up_p -> "_show_v_1-fn.IN" [label=ARG1]
+	udef_q -> _point_n_of [label=BV]
+	"_show_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+}

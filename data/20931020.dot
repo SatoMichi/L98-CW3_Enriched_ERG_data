@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_may_v_modal -> "_have_v_1-fn.IN" [label=ARG1]
+	"_have_v_1-fn.IN" -> _choice_n_of [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	neg -> _may_v_modal [label=ARG1]
+	_a_q -> _choice_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

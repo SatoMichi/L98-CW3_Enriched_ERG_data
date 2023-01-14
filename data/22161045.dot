@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_need_v_1-fn.Needing" [label=ARG1]
+	"_need_v_1-fn.Needing" -> generic_entity [label="ARG2-fn.Theme"]
+	focus_d -> _be_v_id [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG1]
+	"_a+little_q" -> nominalization [label=BV]
+	nominalization -> _coax_v_1 [label=ARG1]
+	_occasional_a_1 -> _be_v_id [label=ARG1]
+	_be_v_id -> nominalization [label=ARG2]
+	parg_d -> generic_entity [label=ARG2]
+	_all_q -> generic_entity [label=BV]
+}

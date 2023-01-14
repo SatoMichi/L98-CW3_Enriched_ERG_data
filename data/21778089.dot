@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	every_q -> person [label=BV]
+	_low_a_on -> _level_n_1 [label=ARG1]
+	_this_q_dem -> _level_n_1 [label=BV]
+	_the_q -> _aftershock_n_1 [label=BV]
+	_be_v_there -> _level_n_1 [label=ARG1]
+	_surreal_a_1 -> _level_n_1 [label=ARG1]
+	_as_x_subord -> "_continue_v_1-fn.Process_continue" [label=ARG2]
+	"_look_v_seem-to-fn.Appearance" -> _calm_a_1 [label="ARG2-fn.NotExist"]
+	udef_q -> _confusion_n_1 [label=BV]
+	_as_x_subord -> _be_v_there [label=ARG1]
+	_calm_a_1 -> person [label=ARG1]
+	_of_p -> _level_n_1 [label=ARG1]
+	_of_p -> _confusion_n_1 [label=ARG2]
+	"_continue_v_1-fn.Process_continue" -> _aftershock_n_1 [label="ARG1-fn.NotExist"]
+	"_look_v_seem-to-fn.Appearance" -> person [label="ARG1-fn.Stimulus"]
+}

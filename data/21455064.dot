@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_also_a_1 -> _and_c [label=ARG1]
+	_to_p -> "named(Ages)" [label=ARG2]
+	_the_q -> _pollution_n_of [label=BV]
+	"_date_v_back-fn.NF" -> _building_n_1 [label="ARG1-fn.NotExist"]
+	"_kill_v_1-fn.Killing" -> _forest_n_of [label="ARG2-fn.Patient"]
+	udef_q -> _forest_n_of [label=BV]
+	"_destroy_v_1-fn.Destroying" -> _pollution_n_of [label="ARG1-fn.Agent"]
+	_the_q -> "named(Ages)" [label=BV]
+	compound -> "named(Middle)" [label=ARG2]
+	udef_q -> _building_n_1 [label=BV]
+	proper_q -> "named(Middle)" [label=BV]
+	"_destroy_v_1-fn.Destroying" -> _building_n_1 [label="ARG2-fn.Patient"]
+	compound -> "named(Ages)" [label=ARG1]
+	"_kill_v_1-fn.Killing" -> _pollution_n_of [label="ARG1-fn.Agent"]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_would_v_modal-fn.Cause_to_end" -> _as_x_subord [label="ARG1-fn.Process"]
+	_as_x_subord -> "_want_v_1-fn.Competition" [label=ARG2]
+	"_support_v_1-fn.Assemble" -> _machinist_n_1 [label="ARG1-fn.Individuals"]
+	"_support_v_1-fn.Assemble" -> _stake_n_1 [label="ARG2-fn.Group"]
+	compound -> _stake_n_1 [label=ARG1]
+	compound -> _majority_n_of [label=ARG2]
+	"_want_v_1-fn.Competition" -> _pilot_n_of [label="ARG1-fn.Participant_1"]
+	_however_a_1 -> _unclear_a_1 [label=ARG1]
+	_the_q -> _machinist_n_1 [label=BV]
+	udef_q -> _majority_n_of [label=BV]
+	_unclear_a_1 -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _pilot_n_of [label=BV]
+	_a_q -> _stake_n_1 [label=BV]
+	_as_x_subord -> "_support_v_1-fn.Assemble" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_shout_v_1-fn.Communication_manner" -> _fan_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _top_n_1 [label=BV]
+	def_explicit_q -> _lung_n_1 [label=BV]
+	"card(34,320)" -> _fan_n_1 [label=ARG1]
+	_the_q -> _stand_n_1 [label=BV]
+	poss -> _lung_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_at_p -> _top_n_1 [label=ARG2]
+	_some_q -> _fan_n_1 [label=BV]
+	_of_p -> _lung_n_1 [label=ARG2]
+	"_jam_v_1-fn.Filling" -> _stand_n_1 [label="ARG2-fn.NotExist"]
+	_of_p -> _top_n_1 [label=ARG1]
+	"_jam_v_1-fn.Filling" -> _fan_n_1 [label="ARG1-fn.NotExist"]
+	_at_p -> "_shout_v_1-fn.Communication_manner" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000)" -> generic_entity [label=ARG1]
+	_the_q -> _number_n_of [label=BV]
+	_authorize_v_1 -> _share_n_of [label=ARG2]
+	parg_d -> _authorize_v_1 [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	times -> "card(100)" [label=ARG2]
+	"_remain_v_1-fn.State_continue" -> _at_p [label="ARG2-fn.Theme"]
+	udef_q -> _share_n_of [label=BV]
+	parg_d -> _share_n_of [label=ARG2]
+	_at_p -> _number_n_of [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	_at_p -> generic_entity [label=ARG2]
+	_common_a_for -> _share_n_of [label=ARG1]
+	_number_n_of -> _share_n_of [label=ARG1]
+	"_remain_v_1-fn.State_continue" -> _number_n_of [label="ARG1-fn.NotExist"]
+}

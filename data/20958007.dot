@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(PWA)" [label=BV]
+	subord -> _attract_v_1 [label=ARG2]
+	"little-few_a" -> _difficulty_n_1 [label=ARG1]
+	"_predict_v_1-fn.Predicting" -> _would_v_modal [label="ARG2-fn.Topic"]
+	subord -> "_have_v_1-fn.IN" [label=ARG1]
+	_would_v_modal -> subord [label=ARG1]
+	"_have_v_1-fn.IN" -> "named(PWA)" [label="ARG1-fn.Pivot"]
+	_prospective_a_1 -> _buyer_n_of [label=ARG1]
+	_attract_v_1 -> _buyer_n_of [label=ARG2]
+	udef_q -> _buyer_n_of [label=BV]
+	"_have_v_1-fn.IN" -> _difficulty_n_1 [label="ARG2-fn.Theme"]
+	"_predict_v_1-fn.Predicting" -> pron [label="ARG1-fn.Cause"]
+	udef_q -> _difficulty_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	parg_d -> _bloc_n_1 [label=ARG2]
+	focus_d -> _intend_v_for [label=ARG2]
+	_intend_v_for -> _bloc_n_1 [label=ARG2]
+	neg -> _intend_v_for [label=ARG1]
+	_a_q -> _bloc_n_1 [label=BV]
+	_asian_a_1 -> _bloc_n_1 [label=ARG1]
+	parg_d -> _intend_v_for [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _savings_n_1 [label=BV]
+	"_minuscule/jj_u_unknown" -> _savings_n_1 [label=ARG1]
+}

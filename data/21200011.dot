@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_more+than_a_1" -> "_triple_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _output_n_of [label=BV]
+	"_triple_v_1-fn.Competition" -> _output_n_of [label="ARG1-fn.Participant_1"]
+	"_minicar/jj_u_unknown" -> _output_n_of [label=ARG1]
+}

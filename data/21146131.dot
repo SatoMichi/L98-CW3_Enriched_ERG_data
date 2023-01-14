@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_short_a_of -> "named(Poland)" [label=ARG1]
+	udef_q -> _enterprise_n_1 [label=BV]
+	udef_q -> _not_c [label=BV]
+	_on_p -> _not_c [label=ARG2]
+	_on_p -> _short_a_of [label=ARG1]
+	proper_q -> "named(Poland)" [label=BV]
+}

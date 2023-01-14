@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _effort_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_complete_v_2-fn.Activity_finish" -> _effort_n_1 [label="ARG2-fn.Theme"]
+	_in_p -> _effort_n_1 [label=ARG1]
+	compound -> "named(McGuigan)" [label=ARG1]
+	_in_p -> "named(Oklahoma)" [label=ARG2]
+	_cite_v_for -> _effort_n_1 [label=ARG2]
+	udef_q -> _effort_n_1 [label=BV]
+	_cite_v_for -> "named(McGuigan)" [label=ARG1]
+	"card(3)" -> _effort_n_1 [label=ARG1]
+	proper_q -> "named(Oklahoma)" [label=BV]
+	parg_d -> "_complete_v_2-fn.Activity_finish" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(McGuigan)" [label=BV]
+}

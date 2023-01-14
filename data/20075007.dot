@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+order+to_x" -> _imperative_a_to [label=ARG1]
+	udef_q -> _action_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_avoid_v_1-fn.Avoiding" -> _and_c [label="ARG2-fn.Theme"]
+	_possible_a_for -> _default_n_1 [label=ARG1]
+	_immediate_a_1 -> _action_n_1 [label=ARG1]
+	"_in+order+to_x" -> "_avoid_v_1-fn.Avoiding" [label=ARG2]
+	_these_q_dem -> _cost_n_1 [label=BV]
+	"_avoid_v_1-fn.Avoiding" -> _action_n_1 [label="ARG1-fn.Agent"]
+	_imperative_a_to -> _action_n_1 [label=ARG1]
+	_a_q -> _default_n_1 [label=BV]
+}

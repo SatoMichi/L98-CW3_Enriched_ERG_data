@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_enough_q -> generic_entity [label=BV]
+	with_p -> generic_entity [label=ARG2]
+	_of_p -> _crime_n_1 [label=ARG2]
+	with_p -> "_destroy_v_1-fn.Destroying" [label=ARG1]
+	_a_q -> _business_n_1 [label=BV]
+	"_destroy_v_1-fn.Destroying" -> _business_n_1 [label="ARG2-fn.Patient"]
+	_be_v_id -> _cost_n_1 [label=ARG1]
+	udef_q -> _crime_n_1 [label=BV]
+	_also_a_1 -> _may_v_modal [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG2]
+	_may_v_modal -> _be_v_id [label=ARG1]
+	_the_q -> _cost_n_1 [label=BV]
+	_of_p -> _cost_n_1 [label=ARG1]
+	_struggle_v_1 -> _business_n_1 [label=ARG1]
+}

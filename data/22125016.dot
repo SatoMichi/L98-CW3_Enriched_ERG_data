@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_help_v_1-fn.Assistance" -> pron [label="ARG2-fn.Theme"]
+	compound -> _partner_n_1 [label=ARG1]
+	_in_p -> _search_n_of [label=ARG2]
+	def_explicit_q -> _search_n_of [label=BV]
+	_would_v_modal -> _also_a_1 [label=ARG1]
+	_in_p -> "_help_v_1-fn.Assistance" [label=ARG1]
+	poss -> _search_n_of [label=ARG1]
+	_for_p -> _search_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	udef_q -> _partner_n_1 [label=BV]
+	compound -> _equity_n_1 [label=ARG2]
+	_for_p -> _partner_n_1 [label=ARG2]
+	udef_q -> _equity_n_1 [label=BV]
+	_also_a_1 -> "_help_v_1-fn.Assistance" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

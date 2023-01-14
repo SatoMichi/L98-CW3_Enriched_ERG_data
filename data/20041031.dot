@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _campaign_n_1 [label=BV]
+	compound -> _problem_n_of [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	"_blame_v_on-fn.IN" -> _campaign_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _error_n_1 [label=BV]
+	nominalization -> _report_v_to [label=ARG1]
+	compound -> _error_n_1 [label=ARG1]
+	"_blame_v_on-fn.IN" -> _error_n_1 [label="ARG3-fn.Attribute"]
+	"_blame_v_on-fn.IN" -> _problem_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _computer_n_1 [label=BV]
+	compound -> _computer_n_1 [label=ARG2]
+	_these_q_dem -> _problem_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+}

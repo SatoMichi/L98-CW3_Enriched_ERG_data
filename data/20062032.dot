@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> "named(INTERPUBLIC)" [label=ARG1]
+	proper_q -> "named(INTERPUBLIC)" [label=BV]
+	unknown -> "named(INTERPUBLIC)" [label=ARG]
+	proper_q -> "named(TV)" [label=BV]
+	_on_p -> "named(TV)" [label=ARG2]
+}

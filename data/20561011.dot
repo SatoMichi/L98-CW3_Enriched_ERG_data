@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_a+trifle_a_1" -> _unfair_a_to [label=ARG1]
+	_unfair_a_to -> generic_entity [label=ARG1]
+	_geological_a_1 -> _correct_a_1 [label=ARG1]
+	_otherwise_a_1 -> _unfair_a_to [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_correct_a_1 -> generic_entity [label=ARG1]
+}

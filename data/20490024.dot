@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_arrest_v_1-fn.Competition" [label=ARG1]
+	"_arrest_v_1-fn.Competition" -> _demonstrator_n_1 [label="ARG2-fn.Participant_2"]
+	_all_q -> _demonstrator_n_1 [label=BV]
+	"card(4)" -> _demonstrator_n_1 [label=ARG1]
+	parg_d -> _demonstrator_n_1 [label=ARG2]
+}

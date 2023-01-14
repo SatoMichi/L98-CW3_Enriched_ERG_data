@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> _woman_n_1 [label="ARG1-fn.Pivot"]
+	_certain_a_of -> "_brooch/nn_u_unknown" [label=ARG1]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	_sentimental_a_1 -> "_thing_n_of-about" [label=ARG1]
+	compound -> _photograph_n_1 [label=ARG2]
+	udef_q -> _photograph_n_1 [label=BV]
+	compound -> _album_n_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> implicit_conj [label="ARG2-fn.Theme"]
+	udef_q -> implicit_conj [label=BV]
+	_the_q -> _woman_n_1 [label=BV]
+	_a_q -> "_brooch/nn_u_unknown" [label=BV]
+	"_kind+of_x_deg" -> _sentimental_a_1 [label=ARG1]
+	udef_q -> _album_n_1 [label=BV]
+}

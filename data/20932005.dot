@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_treat_v_1 -> "_anemias/nns_u_unknown" [label=ARG2]
+	udef_q -> "_anemias/nns_u_unknown" [label=BV]
+	parg_d -> _drug_n_1 [label=ARG2]
+	_primary_a_1 -> _treat_v_1 [label=ARG1]
+	parg_d -> "_use_v_1-fn.IN" [label=ARG1]
+	"_use_v_1-fn.IN" -> _drug_n_1 [label="ARG2-fn.NotExist"]
+	"_use_v_1-fn.IN" -> _treat_v_1 [label="ARG3-fn.NotExist"]
+	_the_q -> _drug_n_1 [label=BV]
+}

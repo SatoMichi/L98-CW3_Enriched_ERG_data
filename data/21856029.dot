@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_stomach_v_1 -> _taste_n_of [label=ARG2]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_stomach_v_1 -> pron [label=ARG1]
+	_of_p -> "named(Heinz)" [label=ARG2]
+	_simple_a_1 -> _can_v_modal [label=ARG1]
+	_can_v_modal -> _stomach_v_1 [label=ARG1]
+	_of_p -> _taste_n_of [label=ARG1]
+	proper_q -> "named(Heinz)" [label=BV]
+	focus_d -> _can_v_modal [label=ARG2]
+	_the_q -> _taste_n_of [label=BV]
+	neg -> _can_v_modal [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

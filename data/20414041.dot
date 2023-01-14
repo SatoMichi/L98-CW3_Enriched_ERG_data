@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _firm_n_1 [label=BV]
+	"_like_v_1-fn.NF" -> _option_n_1 [label="ARG2-fn.NotExist"]
+	"_say_v_to-fn.IN" -> _firm_n_1 [label="ARG1-fn.NotExist"]
+	_run_v_1 -> pron [label=ARG2]
+	udef_q -> _employee_n_of [label=BV]
+	_the_q -> _option_n_1 [label=BV]
+	_tough_a_for -> _run_v_1 [label=ARG1]
+	comp_too -> _tough_a_for [label=ARG1]
+	"_say_v_to-fn.IN" -> _tough_a_for [label="ARG2-fn.NotExist"]
+	"_like_v_1-fn.NF" -> _employee_n_of [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

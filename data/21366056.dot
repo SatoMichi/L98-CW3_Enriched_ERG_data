@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_must_v_modal-fn.Cause_to_end" -> "_brace_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_so_a_thus -> "_must_v_modal-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _senator_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_brace_v_1-fn.Competition" -> _senator_n_1 [label="ARG1-fn.Participant_1"]
+	"_brace_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+}

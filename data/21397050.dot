@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_1-fn.take.01" -> _advice_n_1 [label="ARG2-fn.Theme"]
+	_now_a_1 -> _be_v_id [label=ARG1]
+	"_take_v_1-fn.take.01" -> _writer_n_of [label="ARG1-fn.Instrument"]
+	idiom_q_i -> _heart_n_1 [label=BV]
+	"_take_v_1-fn.take.01" -> _to_p [label="ARG3-fn.Initial_Location"]
+	_be_v_id -> generic_entity [label=ARG1]
+	_to_p -> _heart_n_1 [label=ARG2]
+	udef_q -> _advice_n_1 [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	_be_v_id -> _advice_n_1 [label=ARG2]
+	_the_q -> _writer_n_of [label=BV]
+	_should_v_modal -> "_take_v_1-fn.take.01" [label=ARG1]
+	_to_p -> _advice_n_1 [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_give_v_1-fn.Giving" -> _government_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _government_n_of [label=BV]
+	"_give_v_1-fn.Giving" -> _committee_n_of [label="ARG1-fn.Agent"]
+	def_explicit_q -> "dofm(15)" [label=BV]
+	_revise_v_1 -> _proposal_n_1 [label=ARG2]
+	_the_q -> _committee_n_of [label=BV]
+	of_p -> "mofy(Nov)" [label=ARG2]
+	_until_p -> "_give_v_1-fn.Giving" [label=ARG1]
+	_the_q -> _proposal_n_1 [label=BV]
+	def_implicit_q -> "mofy(Nov)" [label=BV]
+	"_in+order+to_x" -> _revise_v_1 [label=ARG2]
+	of_p -> "dofm(15)" [label=ARG1]
+	_revise_v_1 -> _committee_n_of [label=ARG1]
+	"_in+order+to_x" -> "_give_v_1-fn.Giving" [label=ARG1]
+	_until_p -> "dofm(15)" [label=ARG2]
+}

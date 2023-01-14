@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_keep_v_unspec-fn.Storing" -> _commission_n_of [label="ARG2-fn.Theme"]
+	"card(2)" -> _percent_n_of [label=ARG1]
+	_the_q -> _union_n_of [label=BV]
+	_on_p -> _project_n_1 [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> _project_n_1 [label=ARG1]
+	compound -> _construction_n_of [label=ARG2]
+	_on_p -> _commission_n_of [label=ARG1]
+	compound -> _percent_n_of [label=ARG2]
+	udef_q -> _construction_n_of [label=BV]
+	_a_q -> _commission_n_of [label=BV]
+	udef_q -> _project_n_1 [label=BV]
+	"_keep_v_unspec-fn.Storing" -> _union_n_of [label="ARG1-fn.Agent"]
+	compound -> _commission_n_of [label=ARG1]
+}

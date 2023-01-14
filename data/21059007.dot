@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _generation_n_of [label="ARG2-fn.Means"]
+	_a_q -> _generation_n_of [label=BV]
+	_whole_a_1 -> _generation_n_of [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_new_a_1 -> _generation_n_of [label=ARG1]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.Requirement"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+}

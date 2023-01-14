@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "yofc(1990)" [label=ARG2]
+	"_schedule_v_1-fn.Social_event" -> "_take_v_of-i-fn.Taking" [label="ARG3-fn.Place"]
+	"_schedule_v_1-fn.Social_event" -> _merger_n_1 [label="ARG2-fn.Social_event"]
+	proper_q -> "yofc(1990)" [label=BV]
+	parg_d -> "_schedule_v_1-fn.Social_event" [label=ARG1]
+	idiom_q_i -> _place_n_i [label=BV]
+	_in_p_temp -> _quarter_n_temp [label=ARG2]
+	parg_d -> _merger_n_1 [label=ARG2]
+	"_take_v_of-i-fn.Taking" -> _merger_n_1 [label="ARG1-fn.Agent"]
+	_in_p_temp -> "_take_v_of-i-fn.Taking" [label=ARG1]
+	"ord(1)" -> _quarter_n_temp [label=ARG1]
+	_the_q -> _merger_n_1 [label=BV]
+	compound -> _quarter_n_temp [label=ARG1]
+	"_take_v_of-i-fn.Taking" -> _place_n_i [label="ARG2-fn.Theme"]
+	_the_q -> _quarter_n_temp [label=BV]
+}

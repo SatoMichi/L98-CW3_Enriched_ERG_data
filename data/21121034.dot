@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _sea_n_of [label=BV]
+	_hold_v_back -> _sea_n_of [label=ARG2]
+	_like_p -> "_look_v_like-fn.Appearance" [label=ARG1]
+	compound -> _companion_n_1 [label=ARG2]
+	_like_p -> _junkyard_n_1 [label=ARG2]
+	"_help_v_to-fn.Assistance" -> _hold_v_back [label="ARG2-fn.Theme"]
+	_hold_v_back -> _jetty_n_1 [label=ARG1]
+	"_look_v_like-fn.Appearance" -> _jetty_n_1 [label="ARG1-fn.Stimulus"]
+	_a_q -> _junkyard_n_1 [label=BV]
+	"_help_v_to-fn.Assistance" -> _jetty_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _jetty_n_1 [label=BV]
+	compound -> _jetty_n_1 [label=ARG1]
+	_rust_v_1 -> _junkyard_n_1 [label=ARG1]
+	udef_q -> _companion_n_1 [label=BV]
+}

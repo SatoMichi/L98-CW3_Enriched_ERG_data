@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _magazine_n_1 [label=BV]
+	udef_q -> _ms_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_fight_v_back-fn.Hostile_encounter" [label="ARG2-fn.Topic"]
+	compound -> "named(McCraw)" [label=ARG1]
+	compound -> _ms_n_1 [label=ARG2]
+	proper_q -> "named(McCraw)" [label=BV]
+	"_fight_v_back-fn.Hostile_encounter" -> _magazine_n_1 [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> "named(McCraw)" [label="ARG1-fn.Agent"]
+}

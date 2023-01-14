@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_still_a_1 -> "_leave_v_1-fn.Competition" [label=ARG1]
+	_any_q -> _cash_n_1 [label=BV]
+	"_leave_v_1-fn.Competition" -> _dissatisfied_a_1 [label="ARG3-fn.Participants"]
+	"_leave_v_1-fn.Competition" -> _bank_n_of [label="ARG2-fn.Participant_2"]
+	_of_p -> _lack_n_1 [label=ARG1]
+	_the_q -> _lack_n_1 [label=BV]
+	_the_q -> _bank_n_of [label=BV]
+	"_leave_v_1-fn.Competition" -> _lack_n_1 [label="ARG1-fn.Participant_1"]
+	_dissatisfied_a_1 -> _bank_n_of [label=ARG1]
+	_new_a_1 -> _cash_n_1 [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> "_leave_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_probable_a_1 -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	_of_p -> _cash_n_1 [label=ARG2]
+}

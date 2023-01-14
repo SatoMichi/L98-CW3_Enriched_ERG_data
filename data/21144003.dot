@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_would_v_modal-fn.Cause_to_end" -> "_purchase_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	udef_q -> _market_n_1 [label=BV]
+	_at_p -> "_purchase_v_1-fn.Competition" [label=ARG1]
+	_at_p -> _price_n_of [label=ARG2]
+	compound -> _price_n_of [label=ARG1]
+	compound -> _market_n_1 [label=ARG2]
+	"_purchase_v_1-fn.Competition" -> _stock_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _price_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_purchase_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_the_q -> _stock_n_1 [label=BV]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+	"_say_v_to-fn.Surpassing" -> "_would_v_modal-fn.Cause_to_end" [label="ARG2-fn.Profiled_item"]
+}

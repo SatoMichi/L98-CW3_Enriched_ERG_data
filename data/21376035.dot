@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_take_v_1-fn.Commerce_buy" -> "named(Cleveland)" [label="ARG2-fn.Goods"]
+	"_take_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	proper_q -> "named(Cleveland)" [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _company_n_of [label=ARG1]
+	"ord(2)" -> superl [label=ARG1]
+	poss -> _company_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> "named(Ohbayashi)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Japan)" [label=BV]
+	udef_q -> _construction_n_of [label=BV]
+	def_explicit_q -> _company_n_of [label=BV]
+	proper_q -> "named(Ohbayashi)" [label=BV]
+	_large_a_1 -> _company_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _company_n_of [label="ARG2-fn.Means"]
+	superl -> _large_a_1 [label=ARG1]
+	poss -> "named(Japan)" [label=ARG2]
+	compound -> _construction_n_of [label=ARG2]
+}

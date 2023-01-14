@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "named(Quennell)" [label="ARG1-fn.NotExist"]
+	udef_q -> _mister_n_1 [label=BV]
+	_with_p -> _grid_n_1 [label=ARG2]
+	compound -> "named(Quennell)" [label=ARG1]
+	_regardless_a_of -> _go_v_1 [label=ARG1]
+	_with_p -> _go_v_1 [label=ARG1]
+	_the_q -> _grid_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_plan_v_1-fn.Purpose" [label="ARG2-fn.NotExist"]
+	proper_q -> "named(Quennell)" [label=BV]
+	"_plan_v_1-fn.Purpose" -> _go_v_1 [label="ARG2-fn.NotExist"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_plan_v_1-fn.Purpose" -> pron [label="ARG1-fn.Experiencer"]
+	_go_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

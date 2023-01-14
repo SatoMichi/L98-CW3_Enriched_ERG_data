@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> nominalization [label=BV]
+	_for_p -> person [label=ARG2]
+	which_q -> person [label=BV]
+	nominalization -> _save_v_1 [label=ARG1]
+	_for_p -> nominalization [label=ARG1]
+}

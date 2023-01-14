@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_equal -> "_farfetched/jj_u_unknown" [label=ARG1]
+	neg -> "_might_v_modal-fn.Abounding_with" [label=ARG1]
+	comp_equal -> "_seem_v_to-fn.Cause_to_end" [label=ARG2]
+	udef_q -> _sale_n_of [label=BV]
+	_the_q -> _pitch_n_1 [label=BV]
+	"_might_v_modal-fn.Abounding_with" -> "_farfetched/jj_u_unknown" [label="ARG1-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	compound -> _sale_n_of [label=ARG2]
+	compound -> _pitch_n_1 [label=ARG1]
+	"_seem_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_farfetched/jj_u_unknown" -> _pitch_n_1 [label=ARG1]
+}

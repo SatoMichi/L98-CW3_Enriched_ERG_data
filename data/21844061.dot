@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	udef_q -> _news_n_of [label=BV]
+	which_q -> person [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _news_n_of [label="ARG2-fn.Name"]
+	"_be_v_id-fn.Name_conferral" -> person [label="ARG1-fn.Entity"]
+}

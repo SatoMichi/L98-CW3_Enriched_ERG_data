@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Bobby)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	compound -> "named(Bobby)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> "named(Thomson)" [label="ARG2-fn.Means"]
+	compound -> "named(Thomson)" [label=ARG1]
+	proper_q -> "named(Thomson)" [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

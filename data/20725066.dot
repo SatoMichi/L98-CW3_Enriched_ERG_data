@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	every_q -> person [label=BV]
+	focus_d -> loc_nonsp [label=ARG2]
+	"_a+lot_x" -> comp [label=ARG1]
+	focus_d -> _optimistic_a_1 [label=ARG1]
+	_now_a_1 -> time_n [label=ARG1]
+	comp -> _optimistic_a_1 [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	loc_nonsp -> _optimistic_a_1 [label=ARG1]
+	_optimistic_a_1 -> person [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+}

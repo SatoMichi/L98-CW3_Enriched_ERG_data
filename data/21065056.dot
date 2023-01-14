@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Richard)" [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	"_midsized/jj_u_unknown" -> _business_n_1 [label=ARG1]
+	compound -> "named(Sherman)" [label=ARG1]
+	compound -> "named(L)" [label=ARG1]
+	proper_q -> "named(L)" [label=BV]
+	"_advise_v_1-fn.IN" -> _business_n_1 [label="ARG2-fn.Recipient"]
+	proper_q -> "named(Sherman)" [label=BV]
+	number_q -> "card(42)" [label=BV]
+	appos -> "card(42)" [label=ARG2]
+	"_advise_v_1-fn.IN" -> "named(Sherman)" [label="ARG1-fn.Agent"]
+	compound -> "named(Richard)" [label=ARG2]
+	appos -> "named(Sherman)" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p_temp -> "dofm(15)" [label=ARG2]
+	"_complete_v_2-fn.Activity_finish" -> _transaction_n_1 [label="ARG2-fn.Manner"]
+	of_p -> "mofy(Dec)" [label=ARG2]
+	of_p -> "dofm(15)" [label=ARG1]
+	def_explicit_q -> "dofm(15)" [label=BV]
+	"_expect_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_by_p_temp -> "_complete_v_2-fn.Activity_finish" [label=ARG1]
+	"_expect_v_1-fn.Attempt" -> "_complete_v_2-fn.Activity_finish" [label="ARG2-fn.Goal"]
+	parg_d -> _transaction_n_1 [label=ARG2]
+	"_say_v_to-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	parg_d -> "_complete_v_2-fn.Activity_finish" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _transaction_n_1 [label=BV]
+	"_say_v_to-fn.Taking" -> "_expect_v_1-fn.Attempt" [label="ARG2-fn.Theme"]
+	def_implicit_q -> "mofy(Dec)" [label=BV]
+}

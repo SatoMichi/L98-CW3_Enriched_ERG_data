@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _voice_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	"_match_v_cause-fn.Compatibility" -> _voice_n_1 [label="ARG2-fn.Patient"]
+	def_explicit_q -> _voice_n_1 [label=BV]
+	"_match_v_cause-fn.Compatibility" -> pron [label="ARG1-fn.NotExist"]
+}

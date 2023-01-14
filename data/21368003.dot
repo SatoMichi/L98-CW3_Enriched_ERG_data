@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	every_q -> person [label=BV]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	"_try_v_1-fn.Attempt" -> "_encourage_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	neg -> "_try_v_1-fn.Attempt" [label=ARG1]
+	"_encourage_v_1-fn.NF" -> person [label="ARG2-fn.NotExist"]
+	"_encourage_v_1-fn.NF" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

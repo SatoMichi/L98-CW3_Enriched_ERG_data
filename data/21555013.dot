@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Task)" [label=BV]
+	compound -> "named(Broker)" [label=ARG1]
+	_around_p -> _spread_v_1 [label=ARG1]
+	udef_q -> _program_n_of [label=BV]
+	_spread_v_1 -> _task_n_of [label=ARG2]
+	_other_a_1 -> _program_n_of [label=ARG1]
+	_around_p -> _network_n_of [label=ARG2]
+	"_differ_v_from-fn.Similarity" -> "named(Broker)" [label="ARG1-fn.NotExist"]
+	udef_q -> _task_n_of [label=BV]
+	"_differ_v_from-fn.Similarity" -> _program_n_of [label="ARG2-fn.Theme"]
+	_the_q -> "named(Broker)" [label=BV]
+	compound -> "named(Task)" [label=ARG2]
+	_spread_v_1 -> _program_n_of [label=ARG1]
+	_a_q -> _network_n_of [label=BV]
+	_compute_v_1 -> _task_n_of [label=ARG1]
+}

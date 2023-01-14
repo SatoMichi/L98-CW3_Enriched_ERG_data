@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_disclose_v_to-fn.Reveal_secret" -> _company_n_of [label="ARG1-fn.Agent"]
+	def_explicit_q -> _cost_n_1 [label=BV]
+	_neither_q -> _company_n_of [label=BV]
+	poss -> _cost_n_1 [label=ARG1]
+	_the_q -> _program_n_of [label=BV]
+	"_disclose_v_to-fn.Reveal_secret" -> _cost_n_1 [label="ARG2-fn.Topic"]
+	_would_v_modal -> "_disclose_v_to-fn.Reveal_secret" [label=ARG1]
+	poss -> _program_n_of [label=ARG2]
+}

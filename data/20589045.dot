@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _figure_n_1 [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	_for_p -> "_inch_v_1-fn.Cause_to_end" [label=ARG1]
+	_for_p -> _year_n_1 [label=ARG2]
+	"_inch_v_1-fn.Cause_to_end" -> _figure_n_1 [label="ARG1-fn.Process"]
+	_up_p_dir -> "_inch_v_1-fn.Cause_to_end" [label=ARG1]
+	_several_a_1 -> _year_n_1 [label=ARG1]
+}

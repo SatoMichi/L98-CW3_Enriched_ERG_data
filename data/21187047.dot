@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cite_v_for-fn.Name_conferral" -> _uneasiness_n_1 [label="ARG2-fn.Name"]
+	_about_p -> "named(Street)" [label=ARG2]
+	parg_d -> "_cite_v_for-fn.Name_conferral" [label=ARG1]
+	udef_q -> _market_n_1 [label=BV]
+	compound -> "named(Street)" [label=ARG1]
+	_several_a_1 -> _market_n_1 [label=ARG1]
+	parg_d -> _uneasiness_n_1 [label=ARG2]
+	proper_q -> "named(Street)" [label=BV]
+	_in_p -> "_cite_v_for-fn.Name_conferral" [label=ARG1]
+	_about_p -> _uneasiness_n_1 [label=ARG1]
+	compound -> "named(Wall)" [label=ARG2]
+	udef_q -> _uneasiness_n_1 [label=BV]
+	_in_p -> _market_n_1 [label=ARG2]
+	proper_q -> "named(Wall)" [label=BV]
+}

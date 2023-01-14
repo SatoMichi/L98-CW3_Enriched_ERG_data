@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _secretary_n_of [label="ARG1-fn.Agent"]
+	parg_d -> "_continue_v_2-fn.Activity_ongoing" [label=ARG1]
+	proper_q -> "named(HHS)" [label=BV]
+	"_continue_v_2-fn.Activity_ongoing" -> _ban_n_1 [label="ARG2-fn.NotExist"]
+	_the_q -> _ban_n_1 [label=BV]
+	compound -> "named(HHS)" [label=ARG2]
+	_indefinite_a_1 -> "_continue_v_2-fn.Activity_ongoing" [label=ARG1]
+	parg_d -> _ban_n_1 [label=ARG2]
+	compound -> _secretary_n_of [label=ARG1]
+	_the_q -> _secretary_n_of [label=BV]
+	compound -> _assistant_n_1 [label=ARG2]
+	udef_q -> _assistant_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _should_v_modal [label="ARG2-fn.Topic"]
+	_should_v_modal -> "_continue_v_2-fn.Activity_ongoing" [label=ARG1]
+}

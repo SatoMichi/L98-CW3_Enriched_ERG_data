@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "mofy(Sep)" [label=ARG2]
+	compound -> "yofc(1988)" [label=ARG1]
+	udef_q -> "mofy(Sep)" [label=BV]
+	_identical_a_to -> _number_n_of [label=ARG2]
+	proper_q -> "yofc(1988)" [label=BV]
+	_almost_a_1 -> _identical_a_to [label=ARG1]
+	poss -> "named(Shapiro)" [label=ARG2]
+	proper_q -> "named(Shapiro)" [label=BV]
+	_identical_a_to -> _result_n_of [label=ARG1]
+	def_explicit_q -> _number_n_of [label=BV]
+	compound -> _number_n_of [label=ARG1]
+	_the_q -> _result_n_of [label=BV]
+	poss -> _number_n_of [label=ARG1]
+}

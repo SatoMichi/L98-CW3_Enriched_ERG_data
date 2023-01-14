@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _not_c [label="ARG2-fn.Means"]
+	_atmospheric_a_1 -> _chemist_n_1 [label=ARG1]
+	_mechanical_a_1 -> _engineer_n_1 [label=ARG1]
+	_a_q -> _engineer_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _chemist_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	udef_q -> _not_c [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Solidarity)" [label=ARG1]
+	"_form_v_cause-fn.Cause_motion" -> _and_c [label="ARG1-fn.Agent"]
+	_political_a_1 -> "_party_n_of-to" [label=ARG1]
+	_the_q -> "named(Peasants)" [label=BV]
+	_for_p -> _farmer_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	compound -> "named(Rural)" [label=ARG2]
+	_new_a_1 -> "_party_n_of-to" [label=ARG1]
+	udef_q -> _farmer_n_1 [label=BV]
+	udef_q -> "_party_n_of-to" [label=BV]
+	_for_p -> "_party_n_of-to" [label=ARG1]
+	proper_q -> "named(Rural)" [label=BV]
+	proper_q -> "named(Solidarity)" [label=BV]
+	"_form_v_cause-fn.Cause_motion" -> "_party_n_of-to" [label="ARG2-fn.Theme"]
+}

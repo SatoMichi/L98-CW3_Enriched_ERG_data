@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_often_a_1 -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	udef_q -> "_bystanders/nns_u_unknown" [label=BV]
+	"_be_v_id-fn.Cotheme" -> "_bystanders/nns_u_unknown" [label="ARG1-fn.Theme"]
+	"_be_v_id-fn.Cotheme" -> _victim_n_of [label="ARG2-fn.Cotheme"]
+	_the_q -> _victim_n_of [label=BV]
+	_innocent_a_1 -> "_bystanders/nns_u_unknown" [label=ARG1]
+}

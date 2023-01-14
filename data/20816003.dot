@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_long_a_1 -> _term_n_of [label=ARG1]
+	subord -> "_end_v_1-fn.Process_start" [label=ARG1]
+	udef_q -> _term_n_of [label=BV]
+	subord -> _high_a_1 [label=ARG2]
+	compound -> "named(Treasury)" [label=ARG2]
+	comp -> _high_a_1 [label=ARG1]
+	"_end_v_1-fn.Process_start" -> _bond_n_1 [label="ARG1-fn.Event"]
+	udef_q -> _bond_n_1 [label=BV]
+	compound -> _term_n_of [label=ARG2]
+	_slight_a_1 -> _high_a_1 [label=ARG1]
+	proper_q -> "named(Treasury)" [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+}

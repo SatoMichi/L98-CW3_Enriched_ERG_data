@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _intensity_n_1 [label=ARG1]
+	_with_p -> _music_n_1 [label=ARG2]
+	_the_q -> _music_n_1 [label=BV]
+	def_explicit_q -> _intensity_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	"_start_v_1-fn.IN" -> _intensity_n_1 [label="ARG1-fn.NotExist"]
+	_with_p -> _and_c [label=ARG1]
+	"_stop_v_1-fn.Process_stop" -> _intensity_n_1 [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

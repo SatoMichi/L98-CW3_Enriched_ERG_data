@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_watch_v_out-fn.Perception_active" -> person [label="ARG1-fn.Agent"]
+	_else_a_1 -> person [label=ARG1]
+	_for_p -> pron [label=ARG2]
+	_no_q -> person [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _revenue_n_1 [label="ARG1-fn.Process"]
+	times -> "card(1000000)" [label=ARG3]
+	_up_p -> _percent_n_of [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _commission_n_of [label=BV]
+	compound -> _commission_n_of [label=ARG2]
+	compound -> _revenue_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> _revenue_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"card(49)" -> _percent_n_of [label=ARG1]
+	times -> "card(522)" [label=ARG2]
+	_up_p -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _dollar_n_1 [label="ARG2-fn.Means"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_there -> _race_n_of [label=ARG1]
+	_the_q -> "_courthouse/nn_u_unknown" [label=BV]
+	"_start_v_1-fn.Process_start" -> pron [label="ARG1-fn.NotExist"]
+	_if_x_then -> neg [label=ARG1]
+	_to_p -> _race_n_of [label=ARG1]
+	"_going+to_v_qmodal" -> _be_v_there [label=ARG1]
+	_to_p -> "_courthouse/nn_u_unknown" [label=ARG2]
+	_a_q -> _race_n_of [label=BV]
+	_if_x_then -> "_going+to_v_qmodal" [label=ARG2]
+	neg -> "_start_v_1-fn.Process_start" [label=ARG1]
+	_yet_a_1 -> "_start_v_1-fn.Process_start" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

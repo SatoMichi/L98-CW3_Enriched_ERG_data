@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Yamatake-)" [label=ARG2]
+	proper_q -> "named(Yamatake-)" [label=BV]
+	"_negotiate_v_1-fn.Competition" -> _sale_n_of [label="ARG2-fn.Participant_2"]
+	"_say_v_to-fn.Taking" -> "named(Honeywell)" [label="ARG1-fn.Agent"]
+	_still_a_1 -> "_negotiate_v_1-fn.Competition" [label=ARG1]
+	"ord(2)" -> _sale_n_of [label=ARG1]
+	compound -> "named(Honeywell)" [label=ARG1]
+	proper_q -> "named(Honeywell)" [label=BV]
+	parg_d -> "_negotiate_v_1-fn.Competition" [label=ARG1]
+	_sale_n_of -> "named(Honeywell)" [label=ARG1]
+	parg_d -> _sale_n_of [label=ARG2]
+	_a_q -> _sale_n_of [label=BV]
+	"_say_v_to-fn.Taking" -> "_negotiate_v_1-fn.Competition" [label="ARG2-fn.Theme"]
+}

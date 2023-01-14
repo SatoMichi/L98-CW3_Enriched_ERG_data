@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _watch_n_1 [label=BV]
+	_the_q -> _yield_n_1 [label=BV]
+	"_keep_v_unspec-fn.Cause_to_continue" -> _watch_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(S&P)" [label=ARG2]
+	udef_q -> "named(S&P)" [label=BV]
+	_on_p -> _watch_n_1 [label=ARG1]
+	_on_p -> _yield_n_1 [label=ARG1]
+	_close_a_to -> _watch_n_1 [label=ARG1]
+	_on_p -> "card(500)" [label=ARG2]
+	compound -> "card(500)" [label=ARG1]
+	"_keep_v_unspec-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> "card(500)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

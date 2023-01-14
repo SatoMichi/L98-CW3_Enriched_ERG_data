@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_suggest_v_to-fn.Statement" -> _come_v_together [label="ARG2-fn.Topic"]
+	_come_v_together -> _theme_n_of [label=ARG1]
+	udef_q -> _theme_n_of [label=BV]
+	compound -> _doctor_n_1 [label=ARG2]
+	"_suggest_v_to-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	_strange_a_to -> _case_n_of [label=ARG1]
+	compound -> "named(Morgan)" [label=ARG1]
+	udef_q -> _doctor_n_1 [label=BV]
+	_in_p -> _case_n_of [label=ARG2]
+	_in_p -> _come_v_together [label=ARG1]
+	"card(3)" -> _theme_n_of [label=ARG1]
+	_the_q -> _case_n_of [label=BV]
+	_case_n_of -> "named(Morgan)" [label=ARG1]
+	proper_q -> "named(Morgan)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _trend_n_1 [label=BV]
+	_intensify_v_cause -> "named(Beijing)" [label=ARG1]
+	"_prompt_v_1-fn.NF" -> "named(Beijing)" [label="ARG2-fn.Patient"]
+	"_prompt_v_1-fn.NF" -> _intensify_v_cause [label="ARG3-fn.Result"]
+	"_curb_v_1-fn.NF" -> _import_n_of [label="ARG2-fn.Patient"]
+	_intensify_v_cause -> _effort_n_1 [label=ARG2]
+	"_prompt_v_1-fn.NF" -> _trend_n_1 [label="ARG1-fn.Agent"]
+	_effort_n_1 -> "_curb_v_1-fn.NF" [label=ARG1]
+	udef_q -> _effort_n_1 [label=BV]
+	udef_q -> _import_n_of [label=BV]
+	proper_q -> "named(Beijing)" [label=BV]
+}

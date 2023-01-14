@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _business_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	compound -> _core_n_1 [label=ARG2]
+	_strong_a_1 -> _business_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "_remain_v_1-fn.State_continue" [label="ARG2-fn.Requirement"]
+	"_remain_v_1-fn.State_continue" -> _business_n_1 [label="ARG1-fn.Entity"]
+	def_explicit_q -> _business_n_1 [label=BV]
+	poss -> _company_n_of [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	compound -> _business_n_1 [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	"_remain_v_1-fn.State_continue" -> _strong_a_1 [label="ARG2-fn.State"]
+	udef_q -> _core_n_1 [label=BV]
+}

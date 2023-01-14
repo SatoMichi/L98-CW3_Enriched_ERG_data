@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_work_v_1-fn.Assemble" [label=ARG1]
+	def_explicit_q -> _approach_n_to [label=BV]
+	ellipsis_ref -> generic_entity [label=ARG1]
+	poss -> generic_entity [label=ARG1]
+	def_implicit_q -> generic_entity [label=BV]
+	poss -> _approach_n_to [label=ARG1]
+	"_work_v_1-fn.Assemble" -> _approach_n_to [label="ARG1-fn.Individuals"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

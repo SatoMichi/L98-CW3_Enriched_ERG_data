@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_worriers/nns_u_unknown" [label=BV]
+	parg_d -> "_convince_v_of-fn.Cause_to_end" [label=ARG1]
+	"_remain_v_1-fn.Competition" -> "_convince_v_of-fn.Cause_to_end" [label="ARG2-fn.Participant_2"]
+	"_un-_a_rvrs" -> "_convince_v_of-fn.Cause_to_end" [label=ARG1]
+	"_remain_v_1-fn.Competition" -> "_worriers/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	parg_d -> "_worriers/nns_u_unknown" [label=ARG2]
+	"_convince_v_of-fn.Cause_to_end" -> "_worriers/nns_u_unknown" [label="ARG2-fn.Means"]
+}

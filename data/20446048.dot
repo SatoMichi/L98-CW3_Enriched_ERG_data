@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Insight)" [label=BV]
+	compound -> "named(Insight)" [label=ARG1]
+	compound -> "named(Allen)" [label=ARG1]
+	_senior_a_1 -> _editor_n_1 [label=ARG1]
+	compound -> _missus_n_1 [label=ARG2]
+	proper_q -> "named(Allen)" [label=BV]
+	udef_q -> _magazine_n_1 [label=BV]
+	_of_p -> _editor_n_1 [label=ARG1]
+	_a_q -> _editor_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> "named(Allen)" [label="ARG1-fn.Entity"]
+	_of_p -> "named(Insight)" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _editor_n_1 [label="ARG2-fn.Name"]
+	udef_q -> _missus_n_1 [label=BV]
+	compound -> _magazine_n_1 [label=ARG2]
+}

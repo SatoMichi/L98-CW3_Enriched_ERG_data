@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _litigation_n_1 [label=BV]
+	_a_q -> _wave_n_of [label=BV]
+	_vague_a_1 -> _document_n_1 [label=ARG1]
+	"_create_v_1-fn.Creating" -> _document_n_1 [label="ARG1-fn.Cause"]
+	_of_p -> _litigation_n_1 [label=ARG2]
+	_of_p -> _wave_n_of [label=ARG1]
+	_be_v_id -> _document_n_1 [label=ARG2]
+	_be_v_id -> pron [label=ARG1]
+	_a_q -> _document_n_1 [label=BV]
+	"_create_v_1-fn.Creating" -> _wave_n_of [label="ARG2-fn.Theme"]
+	"_intentionally/rb_u_unknown" -> _vague_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

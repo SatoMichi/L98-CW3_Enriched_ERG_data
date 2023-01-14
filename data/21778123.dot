@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _kitchen_n_1 [label=ARG]
+	udef_q -> _crystal_n_1 [label=BV]
+	"_break_v_cause-fn.Cause_to_end" -> _crystal_n_1 [label="ARG2-fn.Means"]
+	_full_a_of -> _kitchen_n_1 [label=ARG1]
+	udef_q -> _kitchen_n_1 [label=BV]
+	parg_d -> _crystal_n_1 [label=ARG2]
+	_full_a_of -> _crystal_n_1 [label=ARG2]
+	parg_d -> "_break_v_cause-fn.Cause_to_end" [label=ARG1]
+}

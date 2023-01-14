@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_as+well_a_1" -> _could_v_modal [label=ARG1]
+	_could_v_modal -> "_guide_v_to-fn.Cotheme" [label=ARG1]
+	_if_x_then -> "_as+well_a_1" [label=ARG2]
+	"_editorially/rb_u_unknown" -> "_guide_v_to-fn.Cotheme" [label=ARG1]
+	"_guide_v_to-fn.Cotheme" -> pron [label="ARG2-fn.NotExist"]
+	_if_x_then -> _interested_a_in [label=ARG1]
+	_interested_a_in -> pron [label=ARG1]
+	_only_x_deg -> _if_x_then [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_eluded/vbd_u_unknown" -> "named(Time)" [label=ARG1]
+	"_eluded/vbd_u_unknown" -> "named(Paramount)" [label=ARG2]
+	compound -> "named(Communications)" [label=ARG1]
+	proper_q -> "named(Paramount)" [label=BV]
+	nominalization -> "_acquire_v_1-fn.Competition" [label=ARG1]
+	_by_p_means -> nominalization [label=ARG2]
+	proper_q -> "named(Communications)" [label=BV]
+	_by_p_means -> "_eluded/vbd_u_unknown" [label=ARG1]
+	compound -> "named(Warner)" [label=ARG2]
+	"_acquire_v_1-fn.Competition" -> "named(Communications)" [label="ARG2-fn.Participant_2"]
+	udef_q -> nominalization [label=BV]
+	proper_q -> "named(Warner)" [label=BV]
+	udef_q -> _inc_n_1 [label=BV]
+	proper_q -> "named(Time)" [label=BV]
+	compound -> _inc_n_1 [label=ARG2]
+}

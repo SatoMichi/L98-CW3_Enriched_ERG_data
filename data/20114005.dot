@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_such+as_p" -> _and_c [label=ARG2]
+	compound -> "named(Long)" [label=ARG2]
+	"_have_v_1-fn.IN" -> _daily_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(Beach)" [label=ARG1]
+	proper_q -> "named(Beach)" [label=BV]
+	_nearby_a_1 -> _city_n_1 [label=ARG1]
+	udef_q -> _daily_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _city_n_1 [label="ARG1-fn.Pivot"]
+	udef_q -> _and_c [label=BV]
+	"_such+as_p" -> _city_n_1 [label=ARG1]
+	proper_q -> "named(Pasadena)" [label=BV]
+	_also_a_1 -> "_have_v_1-fn.IN" [label=ARG1]
+	_large_a_1 -> _daily_n_1 [label=ARG1]
+	proper_q -> "named(Long)" [label=BV]
+	udef_q -> _city_n_1 [label=BV]
+}

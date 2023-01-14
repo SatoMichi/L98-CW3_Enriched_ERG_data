@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_add_v_to-fn.NF" -> _colon_p_namely [label="ARG2-fn.Topic"]
+	_robust_a_1 -> pron [label=ARG1]
+	_by_p -> _robust_a_1 [label=ARG1]
+	_by_p -> _mean_n_1 [label=ARG2]
+	_colon_p_namely -> neg [label=ARG1]
+	_however_a_1 -> "_add_v_to-fn.NF" [label=ARG1]
+	neg -> _robust_a_1 [label=ARG1]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_any_q -> _mean_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

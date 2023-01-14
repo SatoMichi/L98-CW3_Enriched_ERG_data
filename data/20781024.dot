@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_those_q_dem -> _company_n_of [label=BV]
+	nominalization -> "_take_v_1-fn.Commerce_buy" [label=ARG1]
+	"_pay_v_for-fn.Commerce_buy" -> _price_n_of [label="ARG3-fn.Means"]
+	"_pay_v_for-fn.Commerce_buy" -> _company_n_of [label="ARG1-fn.Buyer"]
+	_the_q -> _price_n_of [label=BV]
+	_for_p -> nominalization [label=ARG2]
+	_the_q -> _risk_n_of [label=BV]
+	"_take_v_1-fn.Commerce_buy" -> _risk_n_of [label="ARG2-fn.Goods"]
+	_for_p -> _price_n_of [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

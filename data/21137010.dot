@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_essential_a_for -> _goal_n_1 [label=ARG1]
+	neg -> _be_v_id [label=ARG1]
+	"_accomplish_v_1-fn.Accomplishment" -> _goal_n_1 [label="ARG2-fn.Theme"]
+	_that_q_dem -> _goal_n_1 [label=BV]
+	superl -> "_good_a_at-for-of" [label=ARG1]
+	udef_q -> "_gerrymandering/nn_u_unknown" [label=BV]
+	"_good_a_at-for-of" -> _way_n_of [label=ARG1]
+	_be_v_id -> _way_n_of [label=ARG2]
+	_racial_a_1 -> "_gerrymandering/nn_u_unknown" [label=ARG1]
+	_be_v_id -> "_gerrymandering/nn_u_unknown" [label=ARG1]
+	_way_n_of -> "_accomplish_v_1-fn.Accomplishment" [label=ARG1]
+	_the_q -> _way_n_of [label=BV]
+}

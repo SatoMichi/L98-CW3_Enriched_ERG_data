@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_remarkable_a_to -> "_diversify_v_1-fn.Activity_stop" [label=ARG1]
+	parg_d -> _portfolio_n_1 [label=ARG2]
+	"_diversify_v_1-fn.Activity_stop" -> _portfolio_n_1 [label="ARG2-fn.Place"]
+	parg_d -> "_diversify_v_1-fn.Activity_stop" [label=ARG1]
+	_those_q_dem -> _portfolio_n_1 [label=BV]
+}

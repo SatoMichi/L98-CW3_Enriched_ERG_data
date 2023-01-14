@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_too -> "_take_v_1-fn.Commerce_buy" [label=ARG2]
+	_afraid_a_of -> _company_n_of [label=ARG1]
+	comp_too -> _afraid_a_of [label=ARG1]
+	_that_q_dem -> _chance_n_of [label=BV]
+	"_take_v_1-fn.Commerce_buy" -> _chance_n_of [label="ARG2-fn.Goods"]
+	_most_q -> _company_n_of [label=BV]
+}

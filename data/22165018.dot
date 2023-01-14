@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "_blooper/nn_u_unknown" [label=ARG1]
+	def_explicit_q -> "_blooper/nn_u_unknown" [label=BV]
+	compound -> _stock_n_1 [label=ARG2]
+	compound -> "named(York)" [label=ARG1]
+	poss -> _exchange_n_1 [label=ARG2]
+	_the_q -> _exchange_n_1 [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	compound -> _exchange_n_1 [label=ARG1]
+	proper_q -> "named(York)" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	"_be_v_id-fn.Cotheme" -> generic_entity [label="ARG1-fn.Theme"]
+	proper_q -> "named(New)" [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	"_be_v_id-fn.Cotheme" -> "_blooper/nn_u_unknown" [label="ARG2-fn.Cotheme"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _slump_n_1 [label=ARG2]
+	udef_q -> _platinum_n_1 [label=BV]
+	_deep_a_1 -> _slump_n_1 [label=ARG1]
+	_a_q -> _slump_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	comp -> "_be_v_id-fn.Name_conferral" [label=ARG2]
+	udef_q -> _gold_n_1 [label=BV]
+	udef_q -> generic_entity [label=BV]
+	udef_q -> _silver_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> generic_entity [label="ARG1-fn.Entity"]
+	comp -> _deep_a_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _and_c [label="ARG2-fn.Name"]
+	_in_p -> _silver_n_1 [label=ARG1]
+}

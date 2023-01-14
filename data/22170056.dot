@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Ibbotson)" [label=BV]
+	compound -> "named(Associates)" [label=ARG1]
+	compound -> "named(Ibbotson)" [label=ARG2]
+	"_colon_v_id-fn.Perception_body" -> _source_n_2 [label="ARG1-fn.Experiencer"]
+	udef_q -> _inc_n_1 [label=BV]
+	proper_q -> "named(Associates)" [label=BV]
+	udef_q -> _source_n_2 [label=BV]
+	compound -> _inc_n_1 [label=ARG2]
+	"_colon_v_id-fn.Perception_body" -> "named(Associates)" [label="ARG2-fn.Body_part"]
+}

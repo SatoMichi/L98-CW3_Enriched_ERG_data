@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _feed_n_1 [label=BV]
+	"_buy_v_from-fn.Commerce_buy" -> _state_n_of [label="ARG3-fn.Source"]
+	_the_q -> _state_n_of [label=BV]
+	"_buy_v_from-fn.Commerce_buy" -> _feed_n_1 [label="ARG2-fn.Theme"]
+	"_buy_v_from-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	_can_v_modal -> "_buy_v_from-fn.Commerce_buy" [label=ARG1]
+	neg -> _can_v_modal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

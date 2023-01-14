@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_jitters/nns_u_unknown" [label=BV]
+	comp -> _further_a_1 [label=ARG1]
+	"_expect_v_1-fn.Competition" -> "_jitters/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	loc_nonsp -> "_jitters/nns_u_unknown" [label=ARG1]
+	udef_q -> _analyst_n_1 [label=BV]
+	_this_q_dem -> _week_n_1 [label=BV]
+	"_expect_v_1-fn.Competition" -> _analyst_n_1 [label="ARG1-fn.Participant_1"]
+	_further_a_1 -> "_jitters/nns_u_unknown" [label=ARG1]
+}

@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_these_q_dem -> _player_n_of [label=BV]
+	_dead_a_1 -> _player_n_of [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _level_n_1 [label=BV]
+	_basic_a_1 -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"ord(4)" -> _level_n_1 [label=ARG1]
+	compound -> "named(Chestman)" [label=ARG1]
+	compound -> "_tippee/nn_u_unknown" [label=ARG1]
+	proper_q -> "named(Chestman)" [label=BV]
+	_a_q -> "_tippee/nn_u_unknown" [label=BV]
+	"_be_v_id-fn.Cotheme" -> "named(Chestman)" [label="ARG1-fn.Theme"]
+	compound -> _level_n_1 [label=ARG2]
+	"_be_v_id-fn.Cotheme" -> "_tippee/nn_u_unknown" [label="ARG2-fn.Cotheme"]
+}

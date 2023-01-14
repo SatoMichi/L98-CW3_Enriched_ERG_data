@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _likely_a_1 [label=ARG2]
+	compound -> _cut_n_1 [label=ARG1]
+	comp -> _further_a_1 [label=ARG1]
+	compound -> _staff_n_of [label=ARG2]
+	_the_q -> _spokesman_n_1 [label=BV]
+	udef_q -> _cut_n_1 [label=BV]
+	_likely_a_1 -> _cut_n_1 [label=ARG1]
+	"_indicate_v_1-fn.Communication" -> _likely_a_1 [label="ARG2-fn.Topic"]
+	udef_q -> _staff_n_of [label=BV]
+	focus_d -> "_indicate_v_1-fn.Communication" [label=ARG1]
+	"_indicate_v_1-fn.Communication" -> _spokesman_n_1 [label="ARG1-fn.Cause"]
+	_further_a_1 -> _cut_n_1 [label=ARG1]
+}

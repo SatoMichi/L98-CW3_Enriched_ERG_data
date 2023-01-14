@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _profit_n_1 [label=BV]
+	_a_q -> _beating_n_1 [label=BV]
+	proper_q -> "named(CBS)" [label=BV]
+	udef_q -> _rival_n_1 [label=BV]
+	"_take_v_1-fn.Attempt" -> _beating_n_1 [label="ARG2-fn.Goal"]
+	"_expect_v_1-fn.Attempt" -> "_make_v_1-fn.Competition" [label="ARG2-fn.Goal"]
+	"_contend_v_1-fn.Quitting" -> "_take_v_1-fn.Attempt" [label="ARG2-fn.Employer"]
+	"_expect_v_1-fn.Attempt" -> "named(CBS)" [label="ARG1-fn.Agent"]
+	"_make_v_1-fn.Competition" -> "named(CBS)" [label="ARG1-fn.Participant_1"]
+	"_take_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	"_make_v_1-fn.Competition" -> _profit_n_1 [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	_modest_a_1 -> _profit_n_1 [label=ARG1]
+	"_contend_v_1-fn.Quitting" -> _rival_n_1 [label="ARG1-fn.Employee"]
+}

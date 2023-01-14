@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _versus_c [label=ARG]
+	udef_q -> _versus_c [label=BV]
+	proper_q -> "named(Dynamics)" [label=BV]
+	compound -> "named(Dynamics)" [label=ARG1]
+	compound -> "named(General)" [label=ARG2]
+	compound -> _corporation_n_1 [label=ARG2]
+	proper_q -> "named(Trevino)" [label=BV]
+	proper_q -> "named(General)" [label=BV]
+	udef_q -> _corporation_n_1 [label=BV]
+}

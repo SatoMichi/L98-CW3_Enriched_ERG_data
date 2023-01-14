@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000)" -> _barrel_n_1 [label=ARG1]
+	_of_p -> _reserve_n_1 [label=ARG1]
+	udef_q -> _reserve_n_1 [label=BV]
+	udef_q -> _barrel_n_1 [label=BV]
+	times -> "card(1000000)" [label=ARG3]
+	_of_p -> _barrel_n_1 [label=ARG2]
+	"_have_v_1-fn.IN" -> _reserve_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> "named(Field)" [label=BV]
+	"_have_v_1-fn.IN" -> "named(Field)" [label="ARG1-fn.Pivot"]
+	times -> "card(21)" [label=ARG2]
+}

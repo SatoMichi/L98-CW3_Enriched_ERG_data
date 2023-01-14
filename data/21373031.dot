@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_reach_v_1-fn.NF" [label=ARG1]
+	_a_q -> _settlement_n_of [label=BV]
+	neg -> "_make_v_cause-fn.Causation" [label=ARG1]
+	"_make_v_cause-fn.Causation" -> _public_a_1 [label="ARG2-fn.Theme"]
+	_public_a_1 -> _settlement_n_of [label=ARG1]
+	"_reach_v_1-fn.NF" -> _settlement_n_of [label="ARG2-fn.Theme"]
+	parg_d -> "_make_v_cause-fn.Causation" [label=ARG1]
+	parg_d -> _settlement_n_of [label=ARG2]
+}

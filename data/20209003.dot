@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_thus_a_1 -> _can_v_modal [label=ARG1]
+	_can_v_modal -> "_prevent_v_from-fn.Thwarting" [label=ARG1]
+	_the_q -> _gene_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_fertilize_v_1 -> _plant_n_1 [label=ARG1]
+	"_prevent_v_from-fn.Thwarting" -> _fertilize_v_1 [label="ARG3-fn.Theme"]
+	"_prevent_v_from-fn.Thwarting" -> _gene_n_1 [label="ARG1-fn.Agent"]
+	_fertilize_v_1 -> pron [label=ARG2]
+	"_prevent_v_from-fn.Thwarting" -> _plant_n_1 [label="ARG2-fn.Theme"]
+	_a_q -> _plant_n_1 [label=BV]
+}

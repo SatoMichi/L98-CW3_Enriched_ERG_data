@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hit_v_1-fn.Commerce_buy" -> _ball_n_of [label="ARG2-fn.Goods"]
+	"_be_v_id-fn.Cause_to_end" -> _ball_n_of [label="ARG1-fn.Process"]
+	_the_q -> _ball_n_of [label=BV]
+	"_hit_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	"_be_v_id-fn.Cause_to_end" -> _strike_n_1 [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _strike_n_1 [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

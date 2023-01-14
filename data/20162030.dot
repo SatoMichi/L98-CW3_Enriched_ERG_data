@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_other_a_1 -> _stock_n_1 [label=ARG1]
+	udef_q -> _product_n_1 [label=BV]
+	compound -> _product_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	compound -> _forest_n_of [label=ARG2]
+	parg_d -> _mix_v_1 [label=ARG1]
+	compound -> _and_c [label=ARG2]
+	udef_q -> _paper_n_1 [label=BV]
+	compound -> _stock_n_1 [label=ARG1]
+	"_close_v_1-fn.Halt" -> _stock_n_1 [label="ARG1-fn.Purpose"]
+	udef_q -> _forest_n_of [label=BV]
+	subord -> _mix_v_1 [label=ARG2]
+	udef_q -> _stock_n_1 [label=BV]
+	subord -> "_close_v_1-fn.Halt" [label=ARG1]
+}

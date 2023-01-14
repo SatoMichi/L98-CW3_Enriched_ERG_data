@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "dofw(Mon)" [label=BV]
+	"_fall_v_1-fn.Halt" -> _index_n_1 [label="ARG1-fn.Purpose"]
+	loc_nonsp -> "card(109.85)" [label=ARG2]
+	_the_q -> _index_n_1 [label=BV]
+	number_q -> "card(109.85)" [label=BV]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	loc_nonsp -> "dofw(Mon)" [label=ARG2]
+}

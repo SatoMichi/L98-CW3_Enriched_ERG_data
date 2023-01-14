@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _trust_n_1 [label=BV]
+	_colon_p_namely -> _percent_n_of [label=ARG2]
+	proper_q -> "named(Merrill)" [label=BV]
+	compound -> "named(LYNCH)" [label=ARG1]
+	compound -> "named(Merrill)" [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	unknown -> _trust_n_1 [label=ARG]
+	proper_q -> "named(ASSETS)" [label=BV]
+	compound -> _trust_n_1 [label=ARG1]
+	_ready_a_1 -> "named(ASSETS)" [label=ARG1]
+	compound -> "named(ASSETS)" [label=ARG2]
+	"card(8.64)" -> _percent_n_of [label=ARG1]
+	proper_q -> "named(LYNCH)" [label=BV]
+}

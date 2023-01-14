@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_of-i-fn.Taking" -> "named(Jones)" [label="ARG1-fn.Agent"]
+	idiom_q_i -> _heart_n_i [label=BV]
+	"_take_v_of-i-fn.Taking" -> _heart_n_i [label="ARG2-fn.Theme"]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Jones)" [label=ARG1]
+	proper_q -> "named(Jones)" [label=BV]
+}

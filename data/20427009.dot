@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_contend_v_1-fn.Quitting" -> "_fail_v_1-fn.Competition" [label="ARG2-fn.Employer"]
+	_any_q -> _authority_n_1 [label=BV]
+	"_cite_v_for-fn.Name_conferral" -> _authority_n_1 [label="ARG2-fn.Name"]
+	_also_a_1 -> "_contend_v_1-fn.Quitting" [label=ARG1]
+	"_justify_v_to-fn.State_continue" -> _injunction_n_1 [label="ARG2-fn.State"]
+	_the_q -> _plaintiff_n_1 [label=BV]
+	"_such+a_q" -> _injunction_n_1 [label=BV]
+	"_justify_v_to-fn.State_continue" -> _authority_n_1 [label="ARG1-fn.Entity"]
+	"_contend_v_1-fn.Quitting" -> pron [label="ARG1-fn.Employee"]
+	"_would_v_modal-fn.Cause_to_end" -> "_justify_v_to-fn.State_continue" [label="ARG1-fn.Process"]
+	_legal_a_1 -> _authority_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_cite_v_for-fn.Name_conferral" -> _plaintiff_n_1 [label="ARG1-fn.Entity"]
+	"_fail_v_1-fn.Competition" -> "_cite_v_for-fn.Name_conferral" [label="ARG1-fn.Participant_1"]
+}

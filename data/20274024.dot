@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_offer_v_1-fn.NF" -> _yield_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	_third_a_1 -> "_offer_v_1-fn.NF" [label=ARG1]
+	udef_q -> _yield_n_1 [label=BV]
+	_high_a_1 -> _yield_n_1 [label=ARG1]
+	"_offer_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+}

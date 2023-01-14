@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bring_v_1-fn.Bringing" -> _clash_n_1 [label="ARG2-fn.Theme"]
+	_of_p -> _culture_n_1 [label=ARG2]
+	_the_q -> "_infusion/nn_u_unknown" [label=BV]
+	_of_p -> _clash_n_1 [label=ARG1]
+	"_bring_v_1-fn.Bringing" -> "_infusion/nn_u_unknown" [label="ARG1-fn.Instrument"]
+	_of_p -> _activist_n_1 [label=ARG2]
+	udef_q -> _culture_n_1 [label=BV]
+	_can_v_modal -> "_bring_v_1-fn.Bringing" [label=ARG1]
+	udef_q -> _activist_n_1 [label=BV]
+	_of_p -> "_infusion/nn_u_unknown" [label=ARG1]
+	_a_q -> _clash_n_1 [label=BV]
+}

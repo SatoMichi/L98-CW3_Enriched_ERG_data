@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_indeed_a_1 -> "_dismiss_v_1-fn.Firing" [label=ARG1]
+	parg_d -> "_dismiss_v_1-fn.Firing" [label=ARG1]
+	parg_d -> "_lawsuit/nn_u_unknown" [label=ARG2]
+	"_dismiss_v_1-fn.Firing" -> "_lawsuit/nn_u_unknown" [label="ARG2-fn.Theme"]
+	_the_q -> "_lawsuit/nn_u_unknown" [label=BV]
+}

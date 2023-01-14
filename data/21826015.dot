@@ -1,0 +1,4 @@
+digraph {
+	node [shape=circle style=filled]
+	_so_a_thus -> unknown [label=ARG1]
+}

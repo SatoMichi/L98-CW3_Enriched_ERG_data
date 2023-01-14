@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _town_n_1 [label=BV]
+	_comic_a_1 -> _excursion_n_1 [label=ARG1]
+	compound -> _town_n_1 [label=ARG2]
+	"_watch_v_1-fn.Impact" -> _excursion_n_1 [label="ARG1-fn.Place"]
+	_some_q -> _excursion_n_1 [label=BV]
+	compound -> "_watch_v_1-fn.Impact" [label=ARG1]
+	_downright_x_deg -> _comic_a_1 [label=ARG1]
+}

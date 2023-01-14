@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Kilpatrick)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_remain_v_1-fn.State_continue" -> "named(Kilpatrick)" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Kilpatrick)" [label=BV]
+	"_remain_v_1-fn.State_continue" -> _director_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _director_n_of [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"much-many_a" -> _company_n_of [label=ARG1]
+	udef_q -> _machinery_n_1 [label=BV]
+	with_p -> _machinery_n_1 [label=ARG2]
+	"_assure_v_of-fn.NF" -> _worker_n_1 [label="ARG3-fn.NotExist"]
+	"_assure_v_of-fn.NF" -> _shake_n_1 [label="ARG2-fn.NotExist"]
+	_a_q -> _shake_n_1 [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	_fair_a_1 -> _shake_n_1 [label=ARG1]
+	_set_v_up -> _company_n_of [label=ARG1]
+	_set_v_up -> _machinery_n_1 [label=ARG2]
+	udef_q -> _worker_n_1 [label=BV]
+	with_p -> "_assure_v_of-fn.NF" [label=ARG1]
+}

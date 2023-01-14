@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _would_v_modal [label="ARG2-fn.Topic"]
+	_be_v_id -> _dollar_n_1 [label=ARG2]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_would_v_modal -> _be_v_id [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	_the_q -> _price_n_of [label=BV]
+	times -> "card(10)" [label=ARG2]
+	_be_v_id -> _price_n_of [label=ARG1]
+	_around_x_deg -> udef_q [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

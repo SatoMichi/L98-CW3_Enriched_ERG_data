@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stay_v_prd-fn.Cotheme" -> _in_p [label="ARG2-fn.Cotheme"]
+	loc_nonsp -> _out_p [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	"_stay_v_prd-fn.Cotheme" -> pron [label="ARG1-fn.Theme"]
+	udef_q -> _business_n_1 [label=BV]
+	def_implicit_q -> place_n [label=BV]
+	_there_a_1 -> place_n [label=ARG1]
+	_out_p -> pron [label=ARG1]
+	"_going+to_v_qmodal" -> "_stay_v_prd-fn.Cotheme" [label="ARG1-fn.Process"]
+	_in_p -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_in_p -> _business_n_1 [label=ARG2]
+}

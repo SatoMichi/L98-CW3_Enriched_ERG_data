@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_range_v_1-fn.NF" -> _allegation_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _theft_n_of [label=BV]
+	udef_q -> _lewdness_n_1 [label=BV]
+	"_paint_v_1-fn.Communicate_categorization" -> _allegation_n_1 [label="ARG1-fn.Agent"]
+	_to_p -> "_range_v_1-fn.NF" [label=ARG1]
+	_disquieting_a_1 -> _picture_n_of [label=ARG1]
+	udef_q -> _bribery_n_1 [label=BV]
+	_to_p -> _and_c [label=ARG2]
+	_the_q -> _allegation_n_1 [label=BV]
+	_from_p -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	_from_p -> "_range_v_1-fn.NF" [label=ARG1]
+	"_paint_v_1-fn.Communicate_categorization" -> _picture_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _picture_n_of [label=BV]
+	udef_q -> _coercion_n_1 [label=BV]
+}

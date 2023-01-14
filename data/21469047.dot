@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_can_v_modal-fn.Reliance" -> "_make_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	udef_q -> _purchase_n_of [label=BV]
+	"_make_v_1-fn.Competition" -> _fund_n_1 [label="ARG2-fn.Participant_2"]
+	which_q -> manner [label=BV]
+	"_make_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	unspec_manner -> manner [label=ARG2]
+	_available_a_1 -> _fund_n_1 [label=ARG1]
+	unspec_manner -> "_make_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _fund_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_for_p -> _purchase_n_of [label=ARG2]
+	_for_p -> _fund_n_1 [label=ARG1]
+}

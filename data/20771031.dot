@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "_policy_n_of-on" [label=ARG2]
+	_of_p -> "_sustainability/nn_u_unknown" [label=ARG1]
+	_the_q -> "_sustainability/nn_u_unknown" [label=BV]
+	focus_d -> _essential_a_for [label=ARG2]
+	compound -> "_policy_n_of-on" [label=ARG1]
+	focus_d -> "_explain_v_to-fn.Statement" [label=ARG1]
+	udef_q -> "named_n(US)" [label=BV]
+	_essential_a_for -> "_sustainability/nn_u_unknown" [label=ARG1]
+	_foreign_a_1 -> "_policy_n_of-on" [label=ARG1]
+	"_explain_v_to-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	"_explain_v_to-fn.Statement" -> _essential_a_for [label="ARG2-fn.Topic"]
+	compound -> "named_n(US)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

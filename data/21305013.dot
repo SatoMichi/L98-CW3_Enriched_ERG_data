@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.Competition" -> nominalization [label="ARG2-fn.Participant_2"]
+	_the_q -> _group_n_of [label=BV]
+	_firm_a_1 -> nominalization [label=ARG1]
+	udef_q -> "_buy+out_n_1" [label=BV]
+	_for_p -> _plan_n_1 [label=ARG2]
+	nominalization -> _finance_v_1 [label=ARG1]
+	compound -> _group_n_of [label=ARG1]
+	_the_q -> _plan_n_1 [label=BV]
+	"_have_v_1-fn.Competition" -> _group_n_of [label="ARG1-fn.Participant_1"]
+	_no_q -> nominalization [label=BV]
+	compound -> "_buy+out_n_1" [label=ARG2]
+	_for_p -> nominalization [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _percent_n_of [label=BV]
+	"_use_v_1-fn.Piracy" -> _percent_n_of [label="ARG2-fn.Vehicle"]
+	_of_p -> _ivory_n_1 [label=ARG2]
+	"card(40)" -> _percent_n_of [label=ARG1]
+	_of_p -> _percent_n_of [label=ARG1]
+	poss -> _world_n_of [label=ARG2]
+	def_explicit_q -> _ivory_n_1 [label=BV]
+	"_use_v_1-fn.Piracy" -> _japanese_n_1 [label="ARG1-fn.Perpetrator"]
+	_the_q -> _japanese_n_1 [label=BV]
+	poss -> _ivory_n_1 [label=ARG1]
+	_the_q -> _world_n_of [label=BV]
+}

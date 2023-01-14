@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(IBM)" [label=BV]
+	parg_d -> "named(IBM)" [label=ARG2]
+	proper_q -> "named(New+York)" [label=BV]
+	_in_p -> "named(IBM)" [label=ARG1]
+	compound -> "named(Armonk)" [label=ARG2]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_base_v_1-fn.Change_position_on_a_scale" -> "named(IBM)" [label="ARG2-fn.Item"]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	compound -> "named(New+York)" [label=ARG1]
+	_in_p -> "named(New+York)" [label=ARG2]
+	proper_q -> "named(Armonk)" [label=BV]
+}

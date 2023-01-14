@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_each_q -> _side_n_1 [label=BV]
+	_of_p -> _recommendation_n_1 [label=ARG2]
+	_a_q -> "_litany/nn_u_unknown" [label=BV]
+	_the_q -> _other_n_1 [label=BV]
+	udef_q -> _recommendation_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _side_n_1 [label="ARG1-fn.Pivot"]
+	_of_p -> "_litany/nn_u_unknown" [label=ARG1]
+	"_have_v_1-fn.IN" -> "_litany/nn_u_unknown" [label="ARG2-fn.Theme"]
+	_for_p -> _recommendation_n_1 [label=ARG1]
+	_for_p -> _other_n_1 [label=ARG2]
+}

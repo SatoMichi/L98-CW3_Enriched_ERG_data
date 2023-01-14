@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_slide_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(Industries)" [label=BV]
+	number_q -> "card(5)" [label=BV]
+	plus -> "fraction(1/4)" [label=ARG3]
+	_to_p -> "card(5)" [label=ARG2]
+	proper_q -> "named(Winnebago)" [label=BV]
+	loc_nonsp -> "_slide_v_1-fn.Halt" [label=ARG1]
+	plus -> "card(5)" [label=ARG2]
+	compound -> "named(Winnebago)" [label=ARG2]
+	compound -> "named(Industries)" [label=ARG1]
+	"_slide_v_1-fn.Halt" -> "named(Industries)" [label="ARG1-fn.Purpose"]
+}

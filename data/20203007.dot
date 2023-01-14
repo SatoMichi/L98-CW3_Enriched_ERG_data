@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _really_a_1 [label=ARG1]
+	_really_a_1 -> "_believe_v_in-fn.Trust" [label=ARG1]
+	_apparent_a_1 -> neg [label=ARG1]
+	"_believe_v_in-fn.Trust" -> _ideal_n_1 [label="ARG2-fn.NotExist"]
+	_this_q_dem -> _ideal_n_1 [label=BV]
+	"_believe_v_in-fn.Trust" -> _commission_n_of [label="ARG1-fn.NotExist"]
+	_the_q -> _commission_n_of [label=BV]
+}

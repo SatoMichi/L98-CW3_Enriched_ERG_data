@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> thing [label="ARG2-fn.Theme"]
+	_just_a_1 -> _be_v_id [label=ARG1]
+	proper_q -> "named(Granville)" [label=BV]
+	_be_v_id -> generic_entity [label=ARG1]
+	proper_q -> "named(Joseph)" [label=BV]
+	compound -> "named(Granville)" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_be_v_id -> nominalization [label=ARG2]
+	compound -> "named(Joseph)" [label=ARG2]
+	nominalization -> "_expect_v_1-fn.IN" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_expect_v_1-fn.IN" -> "named(Granville)" [label="ARG1-fn.Experiencer"]
+	which_q -> thing [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Assemble" -> nominalization [label="ARG2-fn.Group"]
+	udef_q -> _index_n_1 [label=BV]
+	compound -> _stock_n_1 [label=ARG2]
+	which_q -> thing [label=BV]
+	compound -> _index_n_1 [label=ARG1]
+	"_seek_v_1-fn.Competition" -> thing [label="ARG2-fn.Participant_2"]
+	nominalization -> "_seek_v_1-fn.Competition" [label=ARG1]
+	_that_q_dem -> "_divergence/nn_u_unknown" [label=BV]
+	compound -> _trader_n_1 [label=ARG1]
+	"_seek_v_1-fn.Competition" -> _trader_n_1 [label="ARG1-fn.Participant_1"]
+	"_be_v_id-fn.Assemble" -> "_divergence/nn_u_unknown" [label="ARG1-fn.Individuals"]
+	udef_q -> _trader_n_1 [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

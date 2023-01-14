@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	proper_q -> "named(Board)" [label=BV]
+	times -> "card(154.2)" [label=ARG2]
+	compound -> "named(Board)" [label=ARG1]
+	"_total_v_1-fn.Change_position_on_a_scale" -> _share_n_of [label="ARG2-fn.Item"]
+	udef_q -> _volume_n_of [label=BV]
+	proper_q -> "named(Big)" [label=BV]
+	compound -> "named(Big)" [label=ARG2]
+	"_total_v_1-fn.Change_position_on_a_scale" -> _volume_n_of [label="ARG1-fn.Attribute"]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _share_n_of [label=BV]
+	compound -> _volume_n_of [label=ARG1]
+}

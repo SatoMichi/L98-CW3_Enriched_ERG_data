@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _dead_n_1 [label=ARG2]
+	udef_q -> _dead_n_1 [label=BV]
+	_serious_a_1 -> _side_n_1 [label=ARG1]
+	poss -> _side_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	proper_q -> "named(Friend)" [label=BV]
+	compound -> _serious_a_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _serious_a_1 [label="ARG2-fn.Topic"]
+	compound -> "named(Friend)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Friend)" [label="ARG1-fn.Agent"]
+	def_explicit_q -> _side_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(MCI)" [label=ARG2]
+	number_q -> "card(43)" [label=BV]
+	_to_p -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> "named(Communications)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Communications)" [label=BV]
+	plus -> "fraction(1/2)" [label=ARG3]
+	plus -> "card(43)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	plus -> "fraction(3/8)" [label=ARG3]
+	plus -> "card(1)" [label=ARG2]
+	"_add_v_to-fn.Cause_to_end" -> "card(1)" [label="ARG2-fn.Means"]
+	proper_q -> "named(MCI)" [label=BV]
+	compound -> "named(Communications)" [label=ARG1]
+	_to_p -> "card(43)" [label=ARG2]
+}

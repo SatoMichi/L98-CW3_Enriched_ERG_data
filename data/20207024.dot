@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _feeling_n_of [label=ARG2]
+	_fuzzy_a_1 -> _feeling_n_of [label=ARG1]
+	_for_p -> _line_n_of [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_permissible_a_1 -> _line_n_of [label=ARG1]
+	udef_q -> _feeling_n_of [label=BV]
+	_over_p_dir -> _line_n_of [label=ARG2]
+	_the_q -> _line_n_of [label=BV]
+	_warm_a_1 -> _feeling_n_of [label=ARG1]
+	"_go_v_1-fn.Halt" -> generic_entity [label="ARG1-fn.Purpose"]
+	_over_p_dir -> "_go_v_1-fn.Halt" [label=ARG1]
+}

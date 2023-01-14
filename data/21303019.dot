@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_know_v_1-fn.Cure" -> _problem_n_of [label="ARG2-fn.Patient"]
+	compound -> "named(Dozen)" [label=ARG1]
+	"_firsthand/rb_u_unknown" -> "_know_v_1-fn.Cure" [label=ARG1]
+	proper_q -> "named(Dozen)" [label=BV]
+	"_know_v_1-fn.Cure" -> "named(Dozen)" [label="ARG1-fn.Healer"]
+	_these_q_dem -> _problem_n_of [label=BV]
+}

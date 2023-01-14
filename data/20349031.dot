@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_each_q -> "card(1)" [label=BV]
+	"_different_a_than-from" -> _agenda_n_1 [label=ARG1]
+	comp -> "_different_a_than-from" [label=ARG1]
+	_a_q -> _agenda_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _agenda_n_1 [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> "card(1)" [label="ARG1-fn.Pivot"]
+}

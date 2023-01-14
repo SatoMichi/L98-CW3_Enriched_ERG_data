@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_start_v_1-fn.Process_start" -> generic_entity [label="ARG1-fn.NotExist"]
+	_the_q -> _deficit_n_of [label=BV]
+	_federal_a_1 -> _deficit_n_of [label=ARG1]
+	_must_v_modal -> "_start_v_1-fn.Process_start" [label=ARG1]
+	_with_p -> "_start_v_1-fn.Process_start" [label=ARG1]
+	nominalization -> _cut_v_1 [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_with_p -> nominalization [label=ARG2]
+	compound -> _deficit_n_of [label=ARG1]
+	_cut_v_1 -> _deficit_n_of [label=ARG2]
+	compound -> _budget_n_1 [label=ARG2]
+	udef_q -> _budget_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

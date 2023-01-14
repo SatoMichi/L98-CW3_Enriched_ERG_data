@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_go_v_for-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	_first_a_1 -> "_go_v_for-fn.Commerce_buy" [label=ARG1]
+	udef_q -> _memento_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_personal_a_1 -> _memento_n_1 [label=ARG1]
+	"_go_v_for-fn.Commerce_buy" -> _memento_n_1 [label="ARG2-fn.Goods"]
+}

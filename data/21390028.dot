@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_apparel/nn_u_unknown" [label=BV]
+	comp_equal -> _same_a_as [label=ARG1]
+	_other_a_1 -> _player_n_of [label=ARG1]
+	_in_p -> "_apparel/nn_u_unknown" [label=ARG2]
+	_major_a_1 -> _player_n_of [label=ARG1]
+	_same_a_as -> _way_n_of [label=ARG1]
+	_intimate_a_1 -> "_apparel/nn_u_unknown" [label=ARG1]
+	_in_p -> _player_n_of [label=ARG1]
+	"_feel_v_1-fn.Opinion" -> _player_n_of [label="ARG1-fn.Experiencer"]
+	_apparent_a_1 -> "_feel_v_1-fn.Opinion" [label=ARG1]
+	"_feel_v_1-fn.Opinion" -> _way_n_of [label="ARG2-fn.Stimulus"]
+	udef_q -> _player_n_of [label=BV]
+	_the_q -> _way_n_of [label=BV]
+}

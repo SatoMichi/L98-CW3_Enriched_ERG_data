@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _use_n_of [label=ARG1]
+	udef_q -> _rig_n_1 [label=BV]
+	"_show_v_1-fn.Competition" -> _use_n_of [label="ARG1-fn.Participant_1"]
+	_similar_a_to -> _trend_n_1 [label=ARG1]
+	compound -> _rig_n_1 [label=ARG2]
+	_upward_a_1 -> _trend_n_1 [label=ARG1]
+	_a_q -> _trend_n_1 [label=BV]
+	comp -> _similar_a_to [label=ARG1]
+	"_show_v_1-fn.Competition" -> _trend_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _use_n_of [label=BV]
+	_global_a_1 -> _use_n_of [label=ARG1]
+	"_off-shore_a_1" -> _rig_n_1 [label=ARG1]
+}

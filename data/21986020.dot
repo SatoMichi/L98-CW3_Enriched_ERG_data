@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_off_p -> _timing_n_1 [label=ARG1]
+	subord -> _off_p [label=ARG1]
+	comp -> _bad_a_1 [label=ARG1]
+	proper_q -> "named(Salomon)" [label=BV]
+	poss -> "named(Salomon)" [label=ARG2]
+	def_explicit_q -> _timing_n_1 [label=BV]
+	poss -> _timing_n_1 [label=ARG1]
+	subord -> _bad_a_1 [label=ARG2]
+}

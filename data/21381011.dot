@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> "_serve_v_as-fn.Assistance" [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	proper_q -> "named(Imperial)" [label=BV]
+	_either_a_also -> "_serve_v_as-fn.Assistance" [label=ARG1]
+	_this_q_dem -> _suit_n_of [label=BV]
+	_with_p -> _suit_n_of [label=ARG2]
+	neg -> "_serve_v_as-fn.Assistance" [label=ARG1]
+	parg_d -> "_serve_v_as-fn.Assistance" [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Imperial)" [label="ARG1-fn.Agent"]
+	"_serve_v_as-fn.Assistance" -> pron [label="ARG2-fn.Attribute"]
+	pronoun_q -> pron [label=BV]
+}

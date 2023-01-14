@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.IN" -> generic_entity [label="ARG1-fn.Pivot"]
+	"_have_v_1-fn.IN" -> _logic_n_1 [label="ARG2-fn.Theme"]
+	_some_q -> _logic_n_1 [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

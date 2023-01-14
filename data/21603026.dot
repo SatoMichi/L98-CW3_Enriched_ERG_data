@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_warn_v_1-fn.NF" [label=ARG1]
+	parg_d -> "_jail_v_1-fn.Imprisonment" [label=ARG1]
+	subord -> _flee_v_from [label=ARG1]
+	_flee_v_from -> pron [label=ARG1]
+	_the_q -> _countryside_n_1 [label=BV]
+	"_warn_v_1-fn.NF" -> eventuality [label="ARG3-fn.Recipient"]
+	subord -> "_warn_v_1-fn.NF" [label=ARG2]
+	_to_p -> _flee_v_from [label=ARG1]
+	eventuality -> "_jail_v_1-fn.Imprisonment" [label=ARG1]
+	_to_p -> _countryside_n_1 [label=ARG2]
+	"_jail_v_1-fn.Imprisonment" -> pron [label="ARG2-fn.Theme"]
+	parg_d -> pron [label=ARG2]
+	_again_a_1 -> "_jail_v_1-fn.Imprisonment" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

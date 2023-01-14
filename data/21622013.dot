@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cause_v_1-fn.Causation" -> _lack_n_1 [label="ARG1-fn.Cause"]
+	parg_d -> "_need_v_1-fn.Needing" [label=ARG1]
+	_of_p -> "_information_n_on-about" [label=ARG2]
+	_of_p -> _lack_n_1 [label=ARG1]
+	_can_v_modal -> "_cause_v_1-fn.Causation" [label=ARG1]
+	udef_q -> _fear_n_1 [label=BV]
+	udef_q -> "_information_n_on-about" [label=BV]
+	parg_d -> "_information_n_on-about" [label=ARG2]
+	"_cause_v_1-fn.Causation" -> _fear_n_1 [label="ARG2-fn.Theme"]
+	_important_a_for -> "_information_n_on-about" [label=ARG1]
+	udef_q -> _lack_n_1 [label=BV]
+	"_need_v_1-fn.Needing" -> "_information_n_on-about" [label="ARG2-fn.Theme"]
+}

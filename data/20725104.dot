@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _boom_n_1 [label="ARG2-fn.Means"]
+	_a_q -> _boom_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_again_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

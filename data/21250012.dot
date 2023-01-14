@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_discuss_v_1 -> _change_v_cause [label=ARG2]
+	loc_nonsp -> _discuss_v_1 [label=ARG1]
+	def_implicit_q -> _month_n_1 [label=BV]
+	proper_q -> "named(Parliament)" [label=BV]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	_next_a_1 -> _month_n_1 [label=ARG1]
+	_change_v_cause -> _law_n_1 [label=ARG2]
+	parg_d -> "_expect_v_1-fn.IN" [label=ARG1]
+	_discuss_v_1 -> "named(Parliament)" [label=ARG1]
+	_the_q -> _law_n_1 [label=BV]
+	parg_d -> "named(Parliament)" [label=ARG2]
+	"_expect_v_1-fn.IN" -> _discuss_v_1 [label="ARG2-fn.Theme"]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cultivate_v_1-fn.NF" -> _consumer_n_of [label="ARG2-fn.NotExist"]
+	_the_q -> _competition_n_1 [label=BV]
+	_a_q -> _consumer_n_of [label=BV]
+	"_savvier/jjr_u_unknown" -> _consumer_n_of [label=ARG1]
+	_much_x_deg -> "_savvier/jjr_u_unknown" [label=ARG1]
+	"_cultivate_v_1-fn.NF" -> _competition_n_1 [label="ARG1-fn.Agent"]
+	comp -> _consumer_n_of [label=ARG1]
+}

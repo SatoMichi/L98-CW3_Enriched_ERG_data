@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Assemble" -> "_macho/nn_u_unknown" [label="ARG2-fn.Group"]
+	_little_a_1 -> "_thing_n_of-about" [label=ARG1]
+	_around_p -> "_walk_v_1-fn.Competition" [label=ARG1]
+	"_walk_v_1-fn.Competition" -> _girl_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> "_macho/nn_u_unknown" [label=BV]
+	_in_p -> "_thing_n_of-about" [label=ARG2]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	_the_q -> _guy_n_1 [label=BV]
+	_in_p -> "_walk_v_1-fn.Competition" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> _guy_n_1 [label="ARG1-fn.Individuals"]
+	_the_q -> _girl_n_1 [label=BV]
+}

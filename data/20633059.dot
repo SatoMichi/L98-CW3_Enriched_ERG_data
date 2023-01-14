@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	every_q -> person [label=BV]
+	"_ask_v_1-fn.Questioning" -> "_want_v_1-fn.Desiring" [label="ARG2-fn.Topic"]
+	_approach_v_1 -> person [label=ARG2]
+	_on_p -> person [label=ARG1]
+	_in_p -> pron [label=ARG1]
+	_a_q -> "_docudrama/nn_u_unknown" [label=BV]
+	"_ask_v_1-fn.Questioning" -> pron [label="ARG1-fn.Agent"]
+	_in_p -> "_docudrama/nn_u_unknown" [label=ARG2]
+	_on_p -> _street_n_1 [label=ARG2]
+	_approach_v_1 -> pron [label=ARG1]
+	"_want_v_1-fn.Desiring" -> _in_p [label="ARG2-fn.Theme"]
+	_the_q -> _street_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

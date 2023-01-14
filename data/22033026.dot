@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Tax)" [label=BV]
+	"_allow_v_1-fn.NF" -> "named(Court)" [label="ARG1-fn.NotExist"]
+	"_say_v_to-fn.IN" -> "named(Court)" [label="ARG1-fn.Agent"]
+	_the_q -> _deduction_n_1 [label=BV]
+	_the_q -> "named(Court)" [label=BV]
+	"_say_v_to-fn.IN" -> _and_c [label="ARG2-fn.Topic"]
+	compound -> "named(Tax)" [label=ARG2]
+	_the_q -> _limitation_n_1 [label=BV]
+	"_allow_v_1-fn.NF" -> _deduction_n_1 [label="ARG2-fn.NotExist"]
+	compound -> "named(Court)" [label=ARG1]
+	_realistic_a_1 -> _limitation_n_1 [label=ARG1]
+	_reasonable_a_for -> _limitation_n_1 [label=ARG1]
+}

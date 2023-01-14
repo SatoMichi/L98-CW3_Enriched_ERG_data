@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(London)" [label=ARG1]
+	_to_p -> "_sell_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(London)" [label=BV]
+	appos -> _antacid_n_1 [label=ARG2]
+	"_sell_v_1-fn.Competition" -> "named(Asilone)" [label="ARG2-fn.Participant_2"]
+	compound -> "named(Boots)" [label=ARG2]
+	compound -> "named(PLC)" [label=ARG1]
+	_a_q -> _antacid_n_1 [label=BV]
+	proper_q -> "named(PLC)" [label=BV]
+	_to_p -> "named(London)" [label=ARG2]
+	proper_q -> "named(Boots)" [label=BV]
+	appos -> "named(Asilone)" [label=ARG1]
+	parg_d -> "_sell_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Asilone)" [label=BV]
+	parg_d -> "named(Asilone)" [label=ARG2]
+}

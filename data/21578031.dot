@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_liquidated/vbn_u_unknown" [label=ARG1]
+	_those_q_dem -> generic_entity [label=BV]
+	eventuality -> "_liquidated/vbn_u_unknown" [label=ARG1]
+	"_remain_v_1-fn.Competition" -> eventuality [label="ARG2-fn.Participant_2"]
+	_outstanding_a_1 -> _contract_n_1 [label=ARG1]
+	"_liquidated/vbn_u_unknown" -> generic_entity [label=ARG2]
+	"_remain_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Participant_1"]
+	udef_q -> _contract_n_1 [label=BV]
+	"_be_v_id-fn.Cotheme" -> generic_entity [label="ARG2-fn.Cotheme"]
+	"_be_v_id-fn.Cotheme" -> _contract_n_1 [label="ARG1-fn.Theme"]
+	parg_d -> generic_entity [label=ARG2]
+}

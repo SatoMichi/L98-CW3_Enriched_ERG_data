@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_suspect_v_of-fn.Awareness" -> pron [label="ARG1-fn.Agent"]
+	"_know_v_1-fn.IN" -> "named(Ortega)" [label="ARG1-fn.Agent"]
+	_a_q -> _blunder_n_1 [label=BV]
+	_the_q -> _difference_n_1 [label=BV]
+	_between_p -> _difference_n_1 [label=ARG1]
+	"_know_v_1-fn.IN" -> _difference_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(Daniel)" [label=ARG2]
+	proper_q -> "named(Daniel)" [label=BV]
+	_between_p -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	"_suspect_v_of-fn.Awareness" -> "_know_v_1-fn.IN" [label="ARG2-fn.Theme"]
+	proper_q -> "named(Ortega)" [label=BV]
+	compound -> "named(Ortega)" [label=ARG1]
+	_a_q -> _strategy_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

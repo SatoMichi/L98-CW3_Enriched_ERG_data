@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Pilson)" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> "_spender/nn_u_unknown" [label="ARG2-fn.Group"]
+	compound -> _mister_n_1 [label=ARG2]
+	_unlikely_a_for -> "_spender/nn_u_unknown" [label=ARG1]
+	_a_q -> "_spender/nn_u_unknown" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_big_a_1 -> "_spender/nn_u_unknown" [label=ARG1]
+	proper_q -> "named(Pilson)" [label=BV]
+	"_be_v_id-fn.Assemble" -> "named(Pilson)" [label="ARG1-fn.Individuals"]
+}

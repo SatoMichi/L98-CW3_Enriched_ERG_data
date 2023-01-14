@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _competition_n_1 [label=ARG1]
+	udef_q -> _rival_n_1 [label=BV]
+	_from_p -> _rival_n_1 [label=ARG2]
+	focus_d -> "_intensify_v_1-fn.Activity_start" [label=ARG1]
+	"_un-_a_rvrs" -> "_encumber_v_with-fn.Communication_manner" [label=ARG1]
+	focus_d -> _meanwhile_p [label=ARG2]
+	"_encumber_v_with-fn.Communication_manner" -> _rival_n_1 [label="ARG2-fn.Addressee"]
+	udef_q -> _history_n_of [label=BV]
+	udef_q -> _competition_n_1 [label=BV]
+	_meanwhile_p -> "_intensify_v_1-fn.Activity_start" [label=ARG1]
+	"_intensify_v_1-fn.Activity_start" -> _competition_n_1 [label="ARG1-fn.Place"]
+	"_encumber_v_with-fn.Communication_manner" -> _history_n_of [label="ARG1-fn.Speaker"]
+	parg_d -> "_encumber_v_with-fn.Communication_manner" [label=ARG1]
+	parg_d -> _rival_n_1 [label=ARG2]
+}

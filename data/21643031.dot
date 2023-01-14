@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stand_v_1-fn.Posture" -> pron [label="ARG1-fn.NotExist"]
+	_on_p -> _hood_n_1 [label=ARG2]
+	"_manage_v_1-fn.IN" -> _run_v_out [label="ARG2-fn.NotExist"]
+	_fortunate_a_1 -> _before_x_h [label=ARG1]
+	_the_q -> _hood_n_1 [label=BV]
+	_on_p -> "_stand_v_1-fn.Posture" [label=ARG1]
+	_run_v_out -> pron [label=ARG1]
+	"_manage_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_the_q -> _quake_n_1 [label=BV]
+	subord -> _naked_a_1 [label=ARG2]
+	_before_x_h -> _over_p_dir [label=ARG1]
+	_over_p_dir -> _quake_n_1 [label=ARG1]
+	_before_x_h -> _and_c [label=ARG2]
+	subord -> "_stand_v_1-fn.Posture" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

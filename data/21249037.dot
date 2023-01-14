@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"little-few_a" -> _hospital_n_1 [label=ARG1]
+	"_hinder_v_1-fn.Hindering" -> nominalization [label="ARG2-fn.Theme"]
+	udef_q -> _hospital_n_1 [label=BV]
+	_of_p -> _fear_n_1 [label=ARG1]
+	_of_p -> "named(AIDS)" [label=ARG2]
+	proper_q -> "named(AIDS)" [label=BV]
+	_at_p -> _hospital_n_1 [label=ARG2]
+	udef_q -> _fear_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	nominalization -> _hire_v_1 [label=ARG1]
+	"_hinder_v_1-fn.Hindering" -> _fear_n_1 [label="ARG1-fn.Agent"]
+	_at_p -> "_hinder_v_1-fn.Hindering" [label=ARG1]
+}

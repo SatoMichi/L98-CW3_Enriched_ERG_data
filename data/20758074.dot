@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_real_a_1 -> _hero_n_1 [label=ARG1]
+	udef_q -> _hero_n_1 [label=BV]
+	"_exist_v_1-fn.Existence" -> _hero_n_1 [label="ARG1-fn.NotExist"]
+}

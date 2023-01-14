@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_help_v_1-fn.Assistance" -> nominalization [label="ARG1-fn.Agent"]
+	"_eliminate_v_from-fn.Removing" -> _limit_n_of [label="ARG2-fn.Theme"]
+	_would_v_modal -> _and_c [label=ARG1]
+	_the_q -> _deficit_n_of [label=BV]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> _deficit_n_of [label="ARG2-fn.Patient"]
+	compound -> _earnings_n_1 [label=ARG2]
+	nominalization -> "_eliminate_v_from-fn.Removing" [label=ARG1]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> nominalization [label="ARG1-fn.Cause"]
+	_the_q -> _limit_n_of [label=BV]
+	"_help_v_1-fn.Assistance" -> _senior_n_1 [label="ARG2-fn.NotExist"]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _senior_n_1 [label=BV]
+	_great_a_1 -> "_help_v_1-fn.Assistance" [label=ARG1]
+	compound -> _limit_n_of [label=ARG1]
+	udef_q -> _earnings_n_1 [label=BV]
+}

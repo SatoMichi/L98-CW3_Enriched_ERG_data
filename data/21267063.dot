@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_weigh_v_1-fn.Competition" -> "_jurors/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	_theoretical_a_1 -> _supposed_a_1 [label=ARG1]
+	focus_d -> _supposed_a_1 [label=ARG1]
+	_in_p -> _evidence_n_of [label=ARG1]
+	_the_q -> _evidence_n_of [label=BV]
+	_a_q -> _case_n_of [label=BV]
+	_logical_a_1 -> "_weigh_v_1-fn.Competition" [label=ARG1]
+	_supposed_a_1 -> "_weigh_v_1-fn.Competition" [label=ARG2]
+	udef_q -> "_jurors/nns_u_unknown" [label=BV]
+	_objective_a_1 -> "_weigh_v_1-fn.Competition" [label=ARG1]
+	_in_p -> _case_n_of [label=ARG2]
+	"_weigh_v_1-fn.Competition" -> _evidence_n_of [label="ARG2-fn.Participant_2"]
+	_supposed_a_1 -> "_jurors/nns_u_unknown" [label=ARG1]
+}

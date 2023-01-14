@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_unchanged_a_1 -> "named(Peripherals)" [label=ARG1]
+	number_q -> "card(15)" [label=BV]
+	proper_q -> "named(Conner)" [label=BV]
+	_at_p -> _unchanged_a_1 [label=ARG1]
+	compound -> "named(Conner)" [label=ARG2]
+	proper_q -> "named(Peripherals)" [label=BV]
+	compound -> "named(Peripherals)" [label=ARG1]
+	_at_p -> "card(15)" [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Reserve)" [label=BV]
+	unknown -> _fund_n_1 [label=ARG]
+	_the_q -> _fund_n_1 [label=BV]
+	compound -> "named(Reserve)" [label=ARG2]
+	compound -> _fund_n_1 [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "card(2410)" [label=ARG2]
+	compound -> "named(Department)" [label=ARG1]
+	proper_q -> "named(Tokyu)" [label=BV]
+	"_advance_v_1-fn.Cause_to_end" -> "named(Store)" [label="ARG1-fn.Process"]
+	compound -> "named(Tokyu)" [label=ARG2]
+	number_q -> "card(2410)" [label=BV]
+	proper_q -> "named(Department)" [label=BV]
+	loc_nonsp -> "card(260)" [label=ARG2]
+	proper_q -> "named(Store)" [label=BV]
+	number_q -> "card(260)" [label=BV]
+	loc_nonsp -> "_advance_v_1-fn.Cause_to_end" [label=ARG1]
+	_to_p -> "_advance_v_1-fn.Cause_to_end" [label=ARG1]
+	compound -> "named(Store)" [label=ARG1]
+}

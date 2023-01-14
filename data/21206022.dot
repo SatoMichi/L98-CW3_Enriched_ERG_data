@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_quiet_a_1 -> "_circulate_v_cause-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _debt_n_1 [label=BV]
+	_among_p -> "_circulate_v_cause-fn.Cause_to_end" [label=ARG1]
+	_preliminary_a_1 -> _plan_n_1 [label=ARG1]
+	_a_q -> _plan_n_1 [label=BV]
+	_plan_n_1 -> "_restructure_v_cause-fn.Left_to_do" [label=ARG1]
+	udef_q -> _creditor_n_1 [label=BV]
+	"_circulate_v_cause-fn.Cause_to_end" -> _plan_n_1 [label="ARG2-fn.Means"]
+	"_circulate_v_cause-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	_among_p -> _creditor_n_1 [label=ARG2]
+	_now_a_1 -> "_circulate_v_cause-fn.Cause_to_end" [label=ARG1]
+	"_restructure_v_cause-fn.Left_to_do" -> _debt_n_1 [label="ARG2-fn.Remainder"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(132.1)" [label=ARG2]
+	relative_mod -> _about_a_1 [label=ARG2]
+	times -> "card(1000000)" [label=ARG3]
+	_about_a_1 -> _average_a_1 [label=ARG1]
+	_for_p -> _year_n_1 [label=ARG2]
+	"_total_v_1-fn.Amounting_to" -> _share_n_of [label="ARG2-fn.Theme"]
+	_for_p -> _average_a_1 [label=ARG1]
+	"_total_v_1-fn.Amounting_to" -> _volume_n_of [label="ARG1-fn.NotExist"]
+	_the_q -> _year_n_1 [label=BV]
+	udef_q -> _share_n_of [label=BV]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	udef_q -> _volume_n_of [label=BV]
+}

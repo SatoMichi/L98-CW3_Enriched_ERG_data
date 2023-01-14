@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _sigh_n_1 [label=ARG2]
+	_extreme_a_1 -> _against_p [label=ARG1]
+	_for_p -> pron [label=ARG2]
+	_for_p -> _pilot_n_of [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_against_p -> pron [label=ARG2]
+	_with_p -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	_against_p -> _pilot_n_of [label=ARG1]
+	_a_q -> _sigh_n_1 [label=BV]
+	focus_d -> _or_c [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	_the_q -> _pilot_n_of [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _or_c [label="ARG2-fn.Requirement"]
+}

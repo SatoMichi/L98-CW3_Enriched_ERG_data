@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _affair_n_1 [label=ARG1]
+	_the_q -> _interview_n_1 [label=BV]
+	_on_p -> "_touch_v_1-fn.NF" [label=ARG1]
+	proper_q -> "named(Singapore)" [label=BV]
+	"_touch_v_1-fn.NF" -> _interview_n_1 [label="ARG1-fn.Theme"]
+	def_explicit_q -> _affair_n_1 [label=BV]
+	poss -> "named(Singapore)" [label=ARG2]
+	neg -> "_touch_v_1-fn.NF" [label=ARG1]
+	_on_p -> _affair_n_1 [label=ARG2]
+	_domestic_a_1 -> _affair_n_1 [label=ARG1]
+}

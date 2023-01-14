@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_enough_q -> generic_entity [label=BV]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	neg -> _be_v_id [label=ARG1]
+	"_say_v_to-fn.IN" -> _holder_n_of [label="ARG1-fn.Agent"]
+	compound -> _junk_n_1 [label=ARG2]
+	compound -> _holder_n_of [label=ARG1]
+	proper_q -> "named(TV)" [label=BV]
+	compound -> "named(SCI)" [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	_some_q -> _holder_n_of [label=BV]
+	compound -> "named(TV)" [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG2]
+	proper_q -> "named(SCI)" [label=BV]
+	udef_q -> _junk_n_1 [label=BV]
+	_militant_a_1 -> _holder_n_of [label=ARG1]
+}

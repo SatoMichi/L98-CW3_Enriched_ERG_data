@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Rally)" [label=BV]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	udef_q -> _official_n_1 [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	compound -> "named(Rally)" [label=ARG2]
+	"_comment_v_on-fn.Activity_ongoing" -> _official_n_1 [label="ARG1-fn.Duration"]
+	compound -> _official_n_1 [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	neg -> _available_a_1 [label=ARG1]
+	"_in+order+to_x" -> neg [label=ARG1]
+	_late_p -> time_n [label=ARG1]
+	loc_nonsp -> "_comment_v_on-fn.Activity_ongoing" [label=ARG1]
+	_available_a_1 -> _official_n_1 [label=ARG1]
+	"_in+order+to_x" -> "_comment_v_on-fn.Activity_ongoing" [label=ARG2]
+}

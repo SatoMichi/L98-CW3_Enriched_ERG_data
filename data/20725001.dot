@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _and_c [label=ARG1]
+	_late_p -> time_n [label=ARG1]
+	proper_q -> "named(Sam)" [label=BV]
+	proper_q -> "named(Ramirez)" [label=BV]
+	poss -> _man_n_1 [label=ARG1]
+	compound -> "named(Sam)" [label=ARG2]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	udef_q -> _and_c [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	compound -> "named(Ramirez)" [label=ARG1]
+	def_explicit_q -> _man_n_1 [label=BV]
+}

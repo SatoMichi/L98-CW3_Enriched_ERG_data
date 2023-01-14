@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	compound -> _auction_n_of [label=ARG2]
+	udef_q -> _auction_n_of [label=BV]
+	def_implicit_q -> place_n [label=BV]
+	_here_a_1 -> place_n [label=ARG1]
+	udef_q -> _detail_n_1 [label=BV]
+	loc_nonsp -> _detail_n_1 [label=ARG1]
+	compound -> _detail_n_1 [label=ARG1]
+	_colon_p_namely -> _detail_n_1 [label=ARG1]
+}

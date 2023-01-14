@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _sale_n_of [label=ARG1]
+	poss -> "named(Emhart)" [label=ARG2]
+	"ord(3)" -> part_of [label=ARG1]
+	part_of -> _sale_n_of [label=ARG1]
+	"_contribute_v_to-fn.Amounting_to" -> part_of [label="ARG2-fn.Attribute"]
+	"_contribute_v_to-fn.Amounting_to" -> _unit_n_of [label="ARG1-fn.Value"]
+	_about_x_deg -> _a_q [label=ARG1]
+	_the_q -> _unit_n_of [label=BV]
+	"card(3)" -> _unit_n_of [label=ARG1]
+	proper_q -> "named(Emhart)" [label=BV]
+	_total_a_1 -> _sale_n_of [label=ARG1]
+	_a_q -> part_of [label=BV]
+	def_explicit_q -> _sale_n_of [label=BV]
+}

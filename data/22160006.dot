@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_may_v_modal-fn.Communication_manner" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Speaker"]
+	parg_d -> "_leverage_v_1-fn.Competition" [label=ARG1]
+	_of_p -> _nature_n_1 [label=ARG1]
+	_the_q -> _nature_n_1 [label=BV]
+	_just_a_1 -> "_be_v_id-fn.Residence" [label=ARG1]
+	_high_a_1 -> "_leverage_v_1-fn.Competition" [label=ARG1]
+	_these_q_dem -> _creature_n_1 [label=BV]
+	"_leverage_v_1-fn.Competition" -> _creature_n_1 [label="ARG2-fn.Participant_2"]
+	_that_q_dem -> generic_entity [label=BV]
+	_little_a_1 -> _creature_n_1 [label=ARG1]
+	_of_p -> _creature_n_1 [label=ARG2]
+	"_be_v_id-fn.Residence" -> _nature_n_1 [label="ARG2-fn.Location"]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	parg_d -> _creature_n_1 [label=ARG2]
+}

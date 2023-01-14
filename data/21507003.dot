@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p_temp -> "yofc(1980)" [label=ARG2]
+	"_be_v_there-fn.Needing" -> generic_entity [label="ARG1-fn.Cognizer"]
+	proper_q -> "yofc(1980)" [label=BV]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_by_p_temp -> "_be_v_there-fn.Needing" [label=ARG1]
+	focus_d -> "_be_v_there-fn.Needing" [label=ARG1]
+	comp -> _fund_n_1 [label=ARG2]
+	focus_d -> _by_p_temp [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	"card(100)" -> _fund_n_1 [label=ARG1]
+	udef_q -> _fund_n_1 [label=BV]
+	comp -> "much-many_a" [label=ARG1]
+	_such_a_1 -> _fund_n_1 [label=ARG1]
+}

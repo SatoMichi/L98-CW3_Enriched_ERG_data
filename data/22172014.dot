@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _bit_n_of [label=BV]
+	_a_q -> _company_n_of [label=BV]
+	_little_a_1 -> _bit_n_of [label=ARG1]
+	loc_nonsp -> "_thing_n_of-about" [label=ARG2]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_out+of_p" -> "_trade_v_1-fn.Piracy" [label=ARG1]
+	"_buy_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	loc_nonsp -> "_and+then_c" [label=ARG1]
+	"_do_v_1-fn.Piracy" -> "_thing_n_of-about" [label="ARG2-fn.Vehicle"]
+	_this_q_dem -> "_thing_n_of-about" [label=BV]
+	_bit_n_of -> _company_n_of [label=ARG1]
+	"_out+of_p" -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_trade_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_buy_v_1-fn.Competition" -> _bit_n_of [label="ARG2-fn.Participant_2"]
+}

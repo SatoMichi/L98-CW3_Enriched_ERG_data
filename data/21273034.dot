@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p_temp -> _broker_n_1 [label=ARG1]
+	_at_p_temp -> _time_n_of [label=ARG2]
+	_the_q -> _time_n_of [label=BV]
+	"_be_v_there-fn.Needing" -> _question_n_about [label="ARG1-fn.Cognizer"]
+	udef_q -> _broker_n_1 [label=BV]
+	_aware_a_of -> _risk_n_of [label=ARG2]
+	_the_q -> _risk_n_of [label=BV]
+	_aware_a_of -> _broker_n_1 [label=ARG1]
+	_a_q -> _question_n_about [label=BV]
+	_question_n_about -> _aware_a_of [label=ARG1]
+	_full_a_of -> _aware_a_of [label=ARG1]
+}

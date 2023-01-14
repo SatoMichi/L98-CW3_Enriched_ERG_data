@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _official_n_1 [label=ARG1]
+	proper_q -> "named(Time)" [label=BV]
+	compound -> "named(Time)" [label=ARG2]
+	udef_q -> _official_n_1 [label=BV]
+	"_comment_v_on-fn.Statement" -> _official_n_1 [label="ARG1-fn.Agent"]
+	_decline_v_1 -> _official_n_1 [label=ARG1]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _politics_n_1 [label=ARG1]
+	_in_p_state -> "_get_v_state-fn.get.03" [label=ARG1]
+	"_get_v_state-fn.get.03" -> _politics_n_1 [label="ARG1-fn.NotExist"]
+	_in_p -> _way_n_of [label=ARG2]
+	udef_q -> _politics_n_1 [label=BV]
+	_in_p_state -> _end_n_of [label=ARG2]
+	_the_q -> _end_n_of [label=BV]
+	focus_d -> "_get_v_state-fn.get.03" [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	_the_q -> _way_n_of [label=BV]
+	"_get_v_state-fn.get.03" -> _in_p [label="ARG2-fn.Patient"]
+}

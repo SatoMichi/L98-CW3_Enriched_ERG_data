@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _lawyer_n_1 [label=BV]
+	"_wrap_v_up-fn.Activity_ongoing" -> _lawyer_n_1 [label="ARG1-fn.Duration"]
+	comp_equal -> _eager_a_1 [label=ARG1]
+	"_in+order+to_x" -> _eager_a_1 [label=ARG1]
+	"_wrap_v_up-fn.Activity_ongoing" -> pron [label="ARG2-fn.Activity"]
+	_eager_a_1 -> _lawyer_n_1 [label=ARG1]
+	_just_x_deg -> comp_equal [label=ARG1]
+	comp_equal -> _judge_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_in+order+to_x" -> "_wrap_v_up-fn.Activity_ongoing" [label=ARG2]
+	_the_q -> _judge_n_of [label=BV]
+}

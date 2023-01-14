@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	"_trim_v_1-fn.Experiencer_obj" -> _roommate_n_1 [label="ARG1-fn.Experiencer"]
+	compound -> _bill_n_of [label=ARG1]
+	udef_q -> _roommate_n_1 [label=BV]
+	"_trim_v_1-fn.Experiencer_obj" -> _bill_n_of [label="ARG2-fn.Stimulus"]
+	parg_d -> _roommate_n_1 [label=ARG2]
+	compound -> _hospital_n_1 [label=ARG2]
+	udef_q -> _bill_n_of [label=BV]
+	"_relate_v_to-fn.Cause_to_end" -> _roommate_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _hospital_n_1 [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _would_v_modal [label="ARG2-fn.Topic"]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_to_p -> _university_n_of [label=ARG2]
+	_university_n_of -> "named(Toronto)" [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	_the_q -> _university_n_of [label=BV]
+	_would_v_modal -> _go_v_1 [label=ARG1]
+	_to_p -> _go_v_1 [label=ARG1]
+	times -> "card(10)" [label=ARG2]
+	proper_q -> "named(Toronto)" [label=BV]
+	_go_v_1 -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

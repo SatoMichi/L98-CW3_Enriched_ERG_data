@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _employee_n_of [label=ARG1]
+	_the_q -> _and_c [label=BV]
+	_no_q -> _consideration_n_of [label=BV]
+	_of_p -> _employee_n_of [label=ARG2]
+	comp -> _important_a_for [label=ARG1]
+	poss -> pron [label=ARG2]
+	comp -> _and_c [label=ARG2]
+	udef_q -> _health_n_1 [label=BV]
+	_important_a_for -> _consideration_n_of [label=ARG1]
+	def_explicit_q -> _employee_n_of [label=BV]
+	_of_p -> _and_c [label=ARG1]
+	udef_q -> _safety_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

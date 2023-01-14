@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Old)" [label=BV]
+	proper_q -> "named(Environmentalism)" [label=BV]
+	udef_q -> "_sanitationists/nns_u_unknown" [label=BV]
+	"_involve_v_1-fn.NF" -> _and_c [label="ARG2-fn.NotExist"]
+	udef_q -> _microbe_n_1 [label=BV]
+	compound -> "named(Environmentalism)" [label=ARG1]
+	compound -> _hunter_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	compound -> "named(Old)" [label=ARG2]
+	"_involve_v_1-fn.NF" -> "named(Environmentalism)" [label="ARG1-fn.NotExist"]
+	compound -> _microbe_n_1 [label=ARG2]
+	udef_q -> _hunter_n_1 [label=BV]
+}

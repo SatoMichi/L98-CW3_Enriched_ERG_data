@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_every_q -> _country_n_of [label=BV]
+	_at_p -> "_join_v_1-fn.Cause_to_amalgamate" [label=ARG1]
+	_at_p -> _meeting_n_of [label=ARG2]
+	"_join_v_1-fn.Cause_to_amalgamate" -> _and_c [label="ARG1-fn.Agent"]
+	proper_q -> "named(Canada)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	_except_p -> "named(Albania)" [label=ARG2]
+	_the_q -> "named_n(US)" [label=BV]
+	_european_a_1 -> _country_n_of [label=ARG1]
+	_except_p -> _country_n_of [label=ARG1]
+	_the_q -> _meeting_n_of [label=BV]
+	proper_q -> "named(Albania)" [label=BV]
+	"_join_v_1-fn.Cause_to_amalgamate" -> _country_n_of [label="ARG2-fn.Patient"]
+}

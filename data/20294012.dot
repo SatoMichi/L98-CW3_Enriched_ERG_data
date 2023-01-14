@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_total_a_1 -> _unwarranted_a_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _unwarranted_a_1 [label="ARG2-fn.Topic"]
+	_unwarranted_a_1 -> _obligation_n_1 [label=ARG1]
+	_the_q -> _statement_n_of [label=BV]
+	_the_q -> _obligation_n_1 [label=BV]
+	focus_d -> _unwarranted_a_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _statement_n_of [label="ARG1-fn.Agent"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

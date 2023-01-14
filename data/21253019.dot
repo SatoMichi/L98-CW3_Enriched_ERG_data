@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _fact_n_1 [label="ARG2-fn.Location"]
+	_on_p -> "_type_n_of-n" [label=ARG2]
+	_the_q -> _fact_n_1 [label=BV]
+	udef_q -> _lending_n_1 [label=BV]
+	_this_q_dem -> "_type_n_of-n" [label=BV]
+	"_type_n_of-n" -> _lending_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> thing [label="ARG1-fn.Resident"]
+	_on_p -> _fact_n_1 [label=ARG1]
+	which_q -> thing [label=BV]
+}

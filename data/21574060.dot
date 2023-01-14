@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_certain_a_of -> generic_entity [label=ARG1]
+	neg -> _certain_a_of [label=ARG1]
+	_these_q_dem -> generic_entity [label=BV]
+	_either_a_also -> _certain_a_of [label=ARG1]
+}

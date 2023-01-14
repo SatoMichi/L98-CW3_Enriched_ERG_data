@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_should_v_modal -> "_guard_v_1-fn.NF" [label=ARG1]
+	"_guard_v_1-fn.NF" -> "named_n(Fed)" [label="ARG1-fn.Agent"]
+	udef_q -> _risk_n_of [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	_against_p -> _risk_n_of [label=ARG2]
+	_the_q -> "named_n(Fed)" [label=BV]
+	"_systemic/jj_u_unknown" -> _risk_n_of [label=ARG1]
+	_against_p -> "_guard_v_1-fn.NF" [label=ARG1]
+	_individual_a_1 -> _stock_n_1 [label=ARG1]
+	_the_q -> _risk_n_of [label=BV]
+	_in_p -> _stock_n_1 [label=ARG2]
+	_inherent_a_1 -> _risk_n_of [label=ARG1]
+	_in_p -> _inherent_a_1 [label=ARG1]
+}

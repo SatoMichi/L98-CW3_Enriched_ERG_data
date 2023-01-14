@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Discouragement)" [label=BV]
+	"_feed_v_dir-fn.Ingestion" -> "named(Discouragement)" [label="ARG1-fn.NotExist"]
+	_on_p -> "_feed_v_dir-fn.Ingestion" [label=ARG1]
+	_on_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

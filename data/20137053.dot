@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _low_a_1 [label=ARG2]
+	compound -> "named(African)" [label=ARG1]
+	subord -> "_close_v_1-fn.Competition" [label=ARG1]
+	comp -> _low_a_1 [label=ARG1]
+	"_marginally/rb_u_unknown" -> _low_a_1 [label=ARG1]
+	proper_q -> "named(African)" [label=BV]
+	udef_q -> _gold_n_1 [label=BV]
+	proper_q -> "named(South)" [label=BV]
+	compound -> "named(South)" [label=ARG2]
+	compound -> _stock_n_1 [label=ARG1]
+	compound -> _gold_n_1 [label=ARG2]
+	"_close_v_1-fn.Competition" -> _stock_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _stock_n_1 [label=BV]
+}

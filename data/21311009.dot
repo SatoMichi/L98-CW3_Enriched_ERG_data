@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_assess_v_1-fn.Competition" [label=ARG1]
+	_that_q_dem -> _impact_n_1 [label=BV]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	parg_d -> _impact_n_1 [label=ARG2]
+	_yet_a_1 -> "_assess_v_1-fn.Competition" [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> "_assess_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	pronoun_q -> pron [label=BV]
+	"_assess_v_1-fn.Competition" -> _impact_n_1 [label="ARG2-fn.Participant_2"]
+	_reasonable_a_for -> "_assess_v_1-fn.Competition" [label=ARG1]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+	"_say_v_to-fn.Surpassing" -> neg [label="ARG2-fn.Profiled_item"]
+}

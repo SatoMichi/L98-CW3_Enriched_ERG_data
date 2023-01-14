@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	def_implicit_q -> place_n [label=BV]
+	_elsewhere_a_1 -> place_n [label=ARG1]
+	_soon_a_1 -> "_find_v_out-fn.IN" [label=ARG1]
+	"_find_v_out-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_as_x_subord -> "_occur_v_to-fn.Event" [label=ARG1]
+	loc_nonsp -> "_occur_v_to-fn.Event" [label=ARG1]
+	_the_q -> _tragedy_n_1 [label=BV]
+	_as_x_subord -> "_find_v_out-fn.IN" [label=ARG2]
+	_real_a_1 -> _tragedy_n_1 [label=ARG1]
+	"_occur_v_to-fn.Event" -> _tragedy_n_1 [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

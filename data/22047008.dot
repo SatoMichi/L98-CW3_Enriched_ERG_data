@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> _not_c [label="ARG2-fn.Theme"]
+	proper_q -> "named(First)" [label=BV]
+	_from_p -> "named(World)" [label=ARG2]
+	_a_q -> _play_n_1 [label=BV]
+	compound -> _play_n_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> "named(Green)" [label="ARG1-fn.Pivot"]
+	compound -> "named(First)" [label=ARG2]
+	udef_q -> _not_c [label=BV]
+	_from_p -> "named(Green)" [label=ARG1]
+	compound -> "named(World)" [label=ARG1]
+	_the_q -> "named(Green)" [label=BV]
+	_the_q -> "named(World)" [label=BV]
+	_a_q -> _negotiation_n_of [label=BV]
+	udef_q -> _morality_n_1 [label=BV]
+	compound -> _morality_n_1 [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _stake_n_1 [label=BV]
+	_large_a_1 -> _stake_n_1 [label=ARG1]
+	_in_p -> _controversy_n_1 [label=ARG2]
+	_the_q -> _controversy_n_1 [label=BV]
+	_in_p -> _stake_n_1 [label=ARG1]
+}

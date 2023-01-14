@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _rubber_n_1 [label=BV]
+	neg -> "_return_v_1-fn.NF" [label=ARG1]
+	def_explicit_q -> _capital_n_1 [label=BV]
+	_represent_v_1 -> _stock_n_1 [label=ARG1]
+	compound -> _stock_n_1 [label=ARG1]
+	compound -> _rubber_n_1 [label=ARG2]
+	poss -> _capital_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_return_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_return_v_1-fn.NF" -> _stock_n_1 [label="ARG2-fn.Theme"]
+	_represent_v_1 -> _capital_n_1 [label=ARG2]
+	_the_q -> _stock_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

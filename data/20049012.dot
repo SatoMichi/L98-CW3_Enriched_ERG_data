@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hire_v_1-fn.Hiring" -> _lawyer_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _investigation_n_1 [label=BV]
+	_when_x_subord -> "_hire_v_1-fn.Hiring" [label=ARG2]
+	_under_p -> _individual_n_1 [label=ARG1]
+	"_hire_v_1-fn.Hiring" -> pron [label="ARG1-fn.Agent"]
+	_when_x_subord -> _under_p [label=ARG1]
+	_these_q_dem -> _individual_n_1 [label=BV]
+	udef_q -> _lawyer_n_1 [label=BV]
+	"_not+necessarily_a_1" -> _may_v_modal [label=ARG1]
+	_under_p -> _investigation_n_1 [label=ARG2]
+	_may_v_modal -> _when_x_subord [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

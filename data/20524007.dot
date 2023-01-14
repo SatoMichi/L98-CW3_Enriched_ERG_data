@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _turmoil_n_1 [label=BV]
+	proper_q -> "named(China)" [label=BV]
+	_in_p -> "named(China)" [label=ARG2]
+	udef_q -> _manufacturer_n_of [label=BV]
+	"_survive_v_1-fn.Competition" -> _turmoil_n_1 [label="ARG2-fn.Participant_2"]
+	subord -> "_survive_v_1-fn.Competition" [label=ARG1]
+	_largely_a_1 -> _unscathed_a_1 [label=ARG1]
+	subord -> _unscathed_a_1 [label=ARG2]
+	_in_p -> _turmoil_n_1 [label=ARG1]
+	"_survive_v_1-fn.Competition" -> _manufacturer_n_of [label="ARG1-fn.Participant_1"]
+}

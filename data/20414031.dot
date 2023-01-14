@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_corporate_a_1 -> "named(DOWNSIZING)" [label=ARG1]
+	"_dig_v_1-fn.Competition" -> "named(DOWNSIZING)" [label="ARG1-fn.Participant_1"]
+	_deeper_a_1 -> "_dig_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(DOWNSIZING)" [label=BV]
+}

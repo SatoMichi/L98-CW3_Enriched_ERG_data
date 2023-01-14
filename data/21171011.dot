@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> nominalization [label=BV]
+	"_do_v_1-fn.State_continue" -> part_of [label="ARG2-fn.State"]
+	part_of -> nominalization [label=ARG1]
+	_all_q -> part_of [label=BV]
+	"_do_v_1-fn.State_continue" -> person [label="ARG1-fn.Entity"]
+	which_q -> person [label=BV]
+	nominalization -> _sell_v_1 [label=ARG1]
+}

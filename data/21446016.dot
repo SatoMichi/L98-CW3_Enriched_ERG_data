@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_receive_v_1-fn.Receiving" [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	compound -> _referral_n_of [label=ARG2]
+	"_receive_v_1-fn.Receiving" -> _and_c [label="ARG1-fn.Agent"]
+	proper_q -> "named(Cane)" [label=BV]
+	udef_q -> _fee_n_1 [label=BV]
+	proper_q -> "named(Associates)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _referral_n_of [label=BV]
+	compound -> _fee_n_1 [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> _fee_n_1 [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

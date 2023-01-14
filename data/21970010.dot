@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_draw_v_1-fn.Cause_motion" -> _report_n_of [label="ARG1-fn.NotExist"]
+	_yet_x_deg -> _another_q [label=ARG1]
+	_settle_v_1 -> _parallel_n_to [label=ARG1]
+	udef_q -> _trade_n_of [label=BV]
+	compound -> _report_n_of [label=ARG1]
+	"_un-_a_rvrs" -> _settle_v_1 [label=ARG1]
+	proper_q -> "mofy(Oct)" [label=BV]
+	_another_q -> _parallel_n_to [label=BV]
+	loc_nonsp -> "mofy(Oct)" [label=ARG1]
+	compound -> _trade_n_of [label=ARG2]
+	_the_q -> _report_n_of [label=BV]
+	"_draw_v_1-fn.Cause_motion" -> _parallel_n_to [label="ARG2-fn.NotExist"]
+	loc_nonsp -> "yofc(1987)" [label=ARG2]
+	proper_q -> "yofc(1987)" [label=BV]
+	_parallel_n_to -> "mofy(Oct)" [label=ARG1]
+}

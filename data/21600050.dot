@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_replication/nn_u_unknown" [label=BV]
+	compound -> "_replication/nn_u_unknown" [label=ARG1]
+	proper_q -> "named(FUNDS)" [label=BV]
+	_colon_p_namely -> "named(FUNDS)" [label=ARG1]
+	compound -> "named(FUNDS)" [label=ARG1]
+	compound -> _manager_n_of [label=ARG2]
+	unknown -> "named(FUNDS)" [label=ARG]
+	udef_q -> _manager_n_of [label=BV]
+}

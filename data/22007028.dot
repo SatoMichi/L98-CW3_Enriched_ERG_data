@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lead_v_1-fn.Competition" -> _sale_n_of [label="ARG1-fn.Participant_1"]
+	udef_q -> _sale_n_of [label=BV]
+	udef_q -> _increase_n_1 [label=BV]
+	compound -> _increase_n_1 [label=ARG1]
+	proper_q -> "named(Prozac)" [label=BV]
+	_sale_n_of -> "named(Prozac)" [label=ARG1]
+	"_anti-_a_1" -> "_depressant/nn_u_unknown" [label=ARG1]
+	appos -> "_depressant/nn_u_unknown" [label=ARG2]
+	udef_q -> _drug_n_1 [label=BV]
+	_a_q -> "_depressant/nn_u_unknown" [label=BV]
+	appos -> "named(Prozac)" [label=ARG1]
+	"_lead_v_1-fn.Competition" -> _increase_n_1 [label="ARG2-fn.Participant_2"]
+	compound -> _sale_n_of [label=ARG1]
+	compound -> _drug_n_1 [label=ARG2]
+}

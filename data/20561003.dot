@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> num_seq [label="ARG2-fn.Means"]
+	_a_q -> "card(3)" [label=BV]
+	compound -> "named_n(Times)" [label=ARG2]
+	compound -> "card(10)" [label=ARG1]
+	number_q -> "card(10)" [label=BV]
+	udef_q -> "named_n(Times)" [label=BV]
+	udef_q -> num_seq [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "card(3)" [label="ARG1-fn.Process"]
+	_again_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

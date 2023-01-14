@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	of_p -> "mofy(Mar)" [label=ARG2]
+	_colon_p_namely -> "dofm(24)" [label=ARG1]
+	loc_nonsp -> "yofc(1986)" [label=ARG2]
+	def_implicit_q -> "mofy(Mar)" [label=BV]
+	def_explicit_q -> "dofm(24)" [label=BV]
+	loc_nonsp -> "dofm(24)" [label=ARG1]
+	proper_q -> "yofc(1986)" [label=BV]
+	of_p -> "dofm(24)" [label=ARG1]
+	unknown -> "dofm(24)" [label=ARG]
+}

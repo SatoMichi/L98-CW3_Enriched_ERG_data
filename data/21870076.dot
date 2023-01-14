@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _money_n_1 [label=ARG2]
+	_on_p -> _repair_n_of [label=ARG2]
+	_a_q -> _plus_n_1 [label=BV]
+	_the_q -> _money_n_1 [label=BV]
+	parg_d -> "_spend_v_1-fn.State_continue" [label=ARG1]
+	"_count_v_1-fn.Change_position_on_a_scale" -> _money_n_1 [label="ARG2-fn.Item"]
+	_as_p -> "_count_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_on_p -> "_spend_v_1-fn.State_continue" [label=ARG1]
+	"_spend_v_1-fn.State_continue" -> _money_n_1 [label="ARG2-fn.State"]
+	_as_p -> _plus_n_1 [label=ARG2]
+	udef_q -> _repair_n_of [label=BV]
+	parg_d -> "_count_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

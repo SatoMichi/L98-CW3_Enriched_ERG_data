@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_silly_a_1 -> nominalization [label=ARG1]
+	"_lie_v_2-fn.Being_located" -> _dispute_n_1 [label="ARG1-fn.NotExist"]
+	_behind_p -> "_lie_v_2-fn.Being_located" [label=ARG1]
+	nominalization -> _posture_v_1 [label=ARG1]
+	_behind_p -> nominalization [label=ARG2]
+	_a_q -> _dispute_n_1 [label=BV]
+	_the_q -> nominalization [label=BV]
+	_real_a_1 -> _dispute_n_1 [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _player_n_of [label=BV]
+	_for_p -> unknown [label=ARG1]
+	_for_p -> _player_n_of [label=ARG2]
+	_just_x_deg -> _for_p [label=ARG1]
+	neg -> _for_p [label=ARG1]
+}

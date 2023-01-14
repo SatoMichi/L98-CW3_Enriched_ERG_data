@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_do_v_1-fn.Piracy" -> _man_n_1 [label="ARG1-fn.Perpetrator"]
+	udef_q -> _chore_n_1 [label=BV]
+	neg -> "_may_v_modal-fn.Communication_manner" [label=ARG1]
+	_when_x_subord -> neg [label=ARG1]
+	"_benefit_v_1-fn.Competition" -> _wife_n_of [label="ARG1-fn.Participant_1"]
+	_when_x_subord -> "_do_v_1-fn.Piracy" [label=ARG2]
+	udef_q -> _man_n_1 [label=BV]
+	udef_q -> _wife_n_of [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> "_benefit_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+	"_do_v_1-fn.Piracy" -> _chore_n_1 [label="ARG2-fn.Vehicle"]
+}

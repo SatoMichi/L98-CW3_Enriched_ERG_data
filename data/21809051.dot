@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _line_n_of [label=BV]
+	_a_q -> _time_n_of [label=BV]
+	poss -> _line_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _time_n_of [label="ARG2-fn.Means"]
+	poss -> "named(Digital)" [label=ARG2]
+	"_come_v_1-fn.Halt" -> _time_n_of [label="ARG1-fn.Purpose"]
+	proper_q -> "named(Digital)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _line_n_of [label="ARG1-fn.Process"]
+	_new_a_1 -> _line_n_of [label=ARG1]
+	_long_a_1 -> _time_n_of [label=ARG1]
+}

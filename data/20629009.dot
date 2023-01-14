@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_large_a_1 -> _amount_n_of [label=ARG1]
+	_the_q -> _amount_n_of [label=BV]
+	udef_q -> _firm_n_1 [label=BV]
+	parg_d -> part_of [label=ARG2]
+	"_raise_v_cause-fn.Cause_to_end" -> _firm_n_1 [label="ARG1-fn.Process"]
+	_some_q -> part_of [label=BV]
+	part_of -> _amount_n_of [label=ARG1]
+	"_raise_v_cause-fn.Cause_to_end" -> part_of [label="ARG2-fn.Means"]
+	_small_a_1 -> _firm_n_1 [label=ARG1]
+	parg_d -> "_raise_v_cause-fn.Cause_to_end" [label=ARG1]
+}

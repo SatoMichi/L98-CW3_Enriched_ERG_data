@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _business_n_1 [label=BV]
+	"_out+of_p" -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_go_v_1-fn.Change_position_on_a_scale" -> _tax_n_1 [label="ARG1-fn.Attribute"]
+	"_out+of_p" -> _business_n_1 [label=ARG2]
+	udef_q -> _tax_n_1 [label=BV]
+}

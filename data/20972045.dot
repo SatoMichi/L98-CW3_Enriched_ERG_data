@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _point_n_of [label=ARG]
+	_the_q -> _animal_n_1 [label=BV]
+	def_explicit_q -> _point_n_of [label=BV]
+	poss -> _animal_n_1 [label=ARG2]
+	idiom_q_i -> _view_n_of [label=BV]
+	poss -> _point_n_of [label=ARG1]
+	_point_n_of -> _view_n_of [label=ARG1]
+}

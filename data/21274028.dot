@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Forman)" [label=BV]
+	proper_q -> "named(Suntory)" [label=BV]
+	_in_p -> "_distribute_v_to-fn.Dispersal" [label=ARG1]
+	compound -> _bourbon_n_1 [label=ARG1]
+	compound -> "named(Brown)" [label=ARG2]
+	"_distribute_v_to-fn.Dispersal" -> "named(Suntory)" [label="ARG1-fn.Agent"]
+	udef_q -> _bourbon_n_1 [label=BV]
+	proper_q -> "named(Brown)" [label=BV]
+	proper_q -> "named(Japan)" [label=BV]
+	_in_p -> "named(Japan)" [label=ARG2]
+	compound -> "named(Forman)" [label=ARG1]
+	"_distribute_v_to-fn.Dispersal" -> _bourbon_n_1 [label="ARG2-fn.Theme"]
+}

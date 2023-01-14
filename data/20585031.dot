@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> "_lose_v_1-fn.Change_position_on_a_scale" [label="ARG2-fn.Requirement"]
+	"_lose_v_1-fn.Change_position_on_a_scale" -> _trader_n_1 [label="ARG1-fn.Attribute"]
+	_sight_n_of -> generic_entity [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_sometimes_a_1 -> "_lose_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _sight_n_of [label=BV]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_lose_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _trader_n_1 [label=BV]
+	"_lose_v_1-fn.Change_position_on_a_scale" -> _sight_n_of [label="ARG2-fn.Item"]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_draft_v_1-fn.Competition" -> _bill_n_of [label="ARG2-fn.Participant_2"]
+	parg_d -> "_draft_v_1-fn.Competition" [label=ARG1]
+	"_draft_v_1-fn.Competition" -> _not_c [label="ARG1-fn.Participant_1"]
+	udef_q -> _politician_n_1 [label=BV]
+	_most_q -> _bill_n_of [label=BV]
+	udef_q -> "_bureaucrats/nns_u_unknown" [label=BV]
+	parg_d -> _bill_n_of [label=ARG2]
+	udef_q -> _not_c [label=BV]
+}

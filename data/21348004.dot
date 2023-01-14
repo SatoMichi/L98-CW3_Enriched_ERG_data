@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_make_v_1-fn.Rite" [label=ARG1]
+	compound -> _purpose_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "_make_v_1-fn.Rite" [label="ARG2-fn.Requirement"]
+	udef_q -> _purpose_n_1 [label=BV]
+	_for_p -> _purpose_n_1 [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	parg_d -> _transaction_n_1 [label=ARG2]
+	_for_p -> "_make_v_1-fn.Rite" [label=ARG1]
+	compound -> _investment_n_1 [label=ARG2]
+	udef_q -> _investment_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _transaction_n_1 [label=BV]
+	"_make_v_1-fn.Rite" -> _transaction_n_1 [label="ARG2-fn.Member"]
+}

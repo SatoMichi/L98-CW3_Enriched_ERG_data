@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Mehl)" [label=BV]
+	proper_q -> "named(Treasury)" [label=BV]
+	compound -> "named(Treasury)" [label=ARG2]
+	"_attribute_v_to-fn.Cause_to_end" -> "named(Mehl)" [label="ARG1-fn.Process"]
+	compound -> _increase_n_1 [label=ARG1]
+	compound -> "named(Mehl)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _bill_n_of [label=ARG1]
+	_specific_a_to -> "_attribute_v_to-fn.Cause_to_end" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_the_q -> _rise_n_1 [label=BV]
+	"_attribute_v_to-fn.Cause_to_end" -> _increase_n_1 [label="ARG3-fn.Place"]
+	_the_q -> _increase_n_1 [label=BV]
+	"_attribute_v_to-fn.Cause_to_end" -> _rise_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _bill_n_of [label=BV]
+}

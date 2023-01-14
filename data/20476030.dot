@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Credit)" [label=ARG1]
+	udef_q -> _swedish_n_1 [label=BV]
+	udef_q -> "named(Sweden)" [label=BV]
+	compound -> _corporation_n_1 [label=ARG1]
+	parenthetical -> "named(Sweden)" [label=ARG2]
+	proper_q -> "named(Export)" [label=BV]
+	unknown -> _corporation_n_1 [label=ARG]
+	compound -> "named(Export)" [label=ARG2]
+	compound -> _swedish_n_1 [label=ARG2]
+	parenthetical -> _corporation_n_1 [label=ARG1]
+	proper_q -> "named(Credit)" [label=BV]
+	udef_q -> _corporation_n_1 [label=BV]
+}

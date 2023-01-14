@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_almost_x_deg -> _a_q [label=ARG1]
+	_underground_a_1 -> _activity_n_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _activity_n_1 [label="ARG2-fn.Name"]
+	"_be_v_id-fn.Name_conferral" -> generic_entity [label="ARG1-fn.Entity"]
+	_a_q -> _activity_n_1 [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

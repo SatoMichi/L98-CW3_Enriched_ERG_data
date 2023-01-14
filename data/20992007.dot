@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_report_v_to-fn.Statement" -> _observation_n_of [label="ARG2-fn.NotExist"]
+	focus_d -> "_begin_v_1-fn.Activity_start" [label=ARG1]
+	udef_q -> "_neurologists/nns_u_unknown" [label=BV]
+	_in_p_state -> "_begin_v_1-fn.Activity_start" [label=ARG1]
+	"_report_v_to-fn.Statement" -> "_neurologists/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	_well_a_1 -> "_report_v_to-fn.Statement" [label=ARG1]
+	_these_q_dem -> _observation_n_of [label=BV]
+	focus_d -> _in_p_state [label=ARG2]
+	"_begin_v_1-fn.Activity_start" -> "_report_v_to-fn.Statement" [label="ARG1-fn.Agent"]
+	udef_q -> _addition_n_1 [label=BV]
+	comp_equal -> _well_a_1 [label=ARG1]
+	_in_p_state -> _addition_n_1 [label=ARG2]
+}

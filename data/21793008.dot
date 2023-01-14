@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _program_n_of [label=BV]
+	comp_too -> _narrow_a_1 [label=ARG1]
+	compound -> _program_n_of [label=ARG1]
+	udef_q -> _review_n_of [label=BV]
+	"_suggest_v_to-fn.Statement" -> _report_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _report_n_of [label=BV]
+	"_suggest_v_to-fn.Statement" -> _narrow_a_1 [label="ARG2-fn.Topic"]
+	_current_a_1 -> _program_n_of [label=ARG1]
+	compound -> _review_n_of [label=ARG2]
+	_narrow_a_1 -> _program_n_of [label=ARG1]
+}

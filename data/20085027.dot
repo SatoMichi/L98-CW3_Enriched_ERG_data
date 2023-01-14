@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_thin_a_1 -> _margin_n_1 [label=ARG1]
+	"card(1)" -> _reason_n_for [label=ARG1]
+	udef_q -> _margin_n_1 [label=BV]
+	_big_a_1 -> _reason_n_for [label=ARG1]
+	"_colon_v_id-fn.Perception_body" -> _margin_n_1 [label="ARG2-fn.Body_part"]
+	"_colon_v_id-fn.Perception_body" -> _reason_n_for [label="ARG1-fn.Experiencer"]
+	udef_q -> _reason_n_for [label=BV]
+}

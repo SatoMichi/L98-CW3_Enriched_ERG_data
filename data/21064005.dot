@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Buchner)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	focus_d -> _cut_v_down [label=ARG2]
+	_this_q_dem -> generic_entity [label=BV]
+	_cut_v_down -> generic_entity [label=ARG1]
+	_great_a_1 -> _cut_v_down [label=ARG1]
+	"_say_v_to-fn.IN" -> _cut_v_down [label="ARG2-fn.Topic"]
+	_on_p -> _labor_n_1 [label=ARG2]
+	proper_q -> "named(Buchner)" [label=BV]
+	udef_q -> _labor_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Buchner)" [label="ARG1-fn.Agent"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

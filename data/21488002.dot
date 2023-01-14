@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_invest_v_in-fn.Assemble" -> _fund_n_1 [label="ARG1-fn.Individuals"]
+	udef_q -> "_bullion/nn_u_unknown" [label=BV]
+	udef_q -> _gold_n_1 [label=BV]
+	"_invest_v_in-fn.Assemble" -> _and_c [label="ARG2-fn.Group"]
+	udef_q -> _and_c [label=BV]
+	compound -> "_bullion/nn_u_unknown" [label=ARG1]
+	_the_q -> _fund_n_1 [label=BV]
+	udef_q -> _silver_n_1 [label=BV]
+	_main_a_1 -> "_invest_v_in-fn.Assemble" [label=ARG1]
+	compound -> _silver_n_1 [label=ARG2]
+}

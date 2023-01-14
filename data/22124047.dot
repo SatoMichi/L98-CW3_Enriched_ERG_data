@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	part_of -> _firm_n_1 [label=ARG1]
+	"_see_v_1-fn.Perception_experience" -> nominalization [label="ARG2-fn.Stimulus"]
+	compound -> _firm_n_1 [label=ARG1]
+	nominalization -> _sail_v_1 [label=ARG1]
+	_clear_a_of -> nominalization [label=ARG1]
+	_all_q -> part_of [label=BV]
+	compound -> "_brokerage/nn_u_unknown" [label=ARG2]
+	_ahead_p -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	"_see_v_1-fn.Perception_experience" -> part_of [label="ARG1-fn.Experiencer"]
+	"_not+even_x_deg" -> _all_q [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	udef_q -> "_brokerage/nn_u_unknown" [label=BV]
+	_the_q -> _firm_n_1 [label=BV]
+}

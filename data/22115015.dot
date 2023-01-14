@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_issue_v_1-fn.NF" -> "named(FASB)" [label="ARG1-fn.Agent"]
+	udef_q -> _rule_n_of [label=BV]
+	_some_q -> generic_entity [label=BV]
+	"_issue_v_1-fn.NF" -> _rule_n_of [label="ARG2-fn.Theme"]
+	_since_p -> time_n [label=ARG2]
+	"card(102)" -> _rule_n_of [label=ARG1]
+	"_rile/vbp_u_unknown" -> _industry_n_1 [label=ARG2]
+	"_rile/vbp_u_unknown" -> generic_entity [label=ARG1]
+	_then_p_temp -> time_n [label=ARG1]
+	_the_q -> "named(FASB)" [label=BV]
+	udef_q -> _industry_n_1 [label=BV]
+	_since_p -> "named(FASB)" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	_still_a_1 -> "_rile/vbp_u_unknown" [label=ARG1]
+}

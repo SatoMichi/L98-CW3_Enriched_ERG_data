@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_claim_v_1-fn.Change_of_quantity_of_possession" -> "_become_v_id-fn.Assemble" [label="ARG2-fn.Possession"]
+	_the_q -> _group_n_of [label=BV]
+	"_become_v_id-fn.Assemble" -> _indicator_n_of [label="ARG2-fn.Group"]
+	_some_q -> generic_entity [label=BV]
+	"_claim_v_1-fn.Change_of_quantity_of_possession" -> generic_entity [label="ARG1-fn.Owner"]
+	"_lead_v_1-fn.Halt" -> _indicator_n_of [label="ARG1-fn.Purpose"]
+	_even_a_1 -> "_claim_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	"_lag_v_1-fn.Change_position_on_a_scale" -> _indicator_n_of [label="ARG1-fn.Attribute"]
+	"_become_v_id-fn.Assemble" -> _group_n_of [label="ARG1-fn.Individuals"]
+	_a_q -> _indicator_n_of [label=BV]
+}

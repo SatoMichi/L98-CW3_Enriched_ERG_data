@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_miss_v_1-fn.Attempt" -> _payment_n_of [label="ARG2-fn.Goal"]
+	proper_q -> "mofy(Sep)" [label=BV]
+	_due_a_1 -> _payment_n_of [label=ARG1]
+	_in_p_temp -> _due_a_1 [label=ARG1]
+	_the_q -> _group_n_of [label=BV]
+	_to_p -> _payment_n_of [label=ARG1]
+	proper_q -> "named(HealthVest)" [label=BV]
+	_a_q -> _payment_n_of [label=BV]
+	_late_a_for -> "mofy(Sep)" [label=ARG1]
+	_in_p_temp -> "mofy(Sep)" [label=ARG2]
+	_to_p -> _group_n_of [label=ARG2]
+	"_miss_v_1-fn.Attempt" -> "named(HealthVest)" [label="ARG1-fn.Agent"]
+}

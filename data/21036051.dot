@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Hampshire)" [label=ARG1]
+	"_go_v_1-fn.Change_position_on_a_scale" -> "named(Service)" [label="ARG1-fn.Attribute"]
+	_to_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> "named(Public)" [label=ARG2]
+	_up_p_dir -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Hampshire)" [label=BV]
+	proper_q -> "named(Service)" [label=BV]
+	_of_p -> "named(Service)" [label=ARG1]
+	compound -> "named(New)" [label=ARG2]
+	proper_q -> "named(Public)" [label=BV]
+	_to_p -> "card(4)" [label=ARG2]
+	proper_q -> "named(New)" [label=BV]
+	_of_p -> "named(Hampshire)" [label=ARG2]
+	number_q -> "card(4)" [label=BV]
+	compound -> "named(Service)" [label=ARG1]
+}

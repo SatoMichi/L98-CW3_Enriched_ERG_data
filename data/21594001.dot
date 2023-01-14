@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _care_n_1 [label=ARG1]
+	udef_q -> _health_n_1 [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> "_get_v_state-fn.Residence" [label="ARG1-fn.Value"]
+	_in_p_temp -> "_get_v_state-fn.Residence" [label=ARG1]
+	compound -> _company_n_of [label=ARG1]
+	_in_p_temp -> _quarter_n_temp [label=ARG2]
+	"_get_v_state-fn.Residence" -> _company_n_of [label="ARG1-fn.Resident"]
+	udef_q -> _company_n_of [label=BV]
+	"ord(3)" -> _quarter_n_temp [label=ARG1]
+	_healthy_a_1 -> _company_n_of [label=ARG1]
+	compound -> _health_n_1 [label=ARG2]
+	udef_q -> _care_n_1 [label=BV]
+	_the_q -> _quarter_n_temp [label=BV]
+	"_get_v_state-fn.Residence" -> _healthy_a_1 [label="ARG2-fn.Location"]
+	comp -> _healthy_a_1 [label=ARG1]
+}

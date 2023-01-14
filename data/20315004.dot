@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_decline_v_1 -> "_estimate_v_at-fn.Estimating" [label=ARG2]
+	compound -> _spokesman_n_1 [label=ARG1]
+	"_estimate_v_at-fn.Estimating" -> _impact_n_1 [label="ARG2-fn.Theme"]
+	_of_p -> _closure_n_of [label=ARG2]
+	_on_p -> _impact_n_1 [label=ARG1]
+	compound -> _company_n_of [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_of_p -> _impact_n_1 [label=ARG1]
+	_on_p -> _earnings_n_1 [label=ARG2]
+	udef_q -> _company_n_of [label=BV]
+	_the_q -> _impact_n_1 [label=BV]
+	"_estimate_v_at-fn.Estimating" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _closure_n_of [label=BV]
+	_decline_v_1 -> _spokesman_n_1 [label=ARG1]
+	udef_q -> _earnings_n_1 [label=BV]
+}

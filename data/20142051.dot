@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_x_subord -> _light_a_of [label=ARG1]
+	_with_x_subord -> "_price_v_1-fn.NF" [label=ARG2]
+	parg_d -> _issue_n_1 [label=ARG2]
+	_in_p -> _market_n_1 [label=ARG2]
+	udef_q -> _market_n_1 [label=BV]
+	udef_q -> _activity_n_1 [label=BV]
+	_no_q -> _issue_n_1 [label=BV]
+	parg_d -> "_price_v_1-fn.NF" [label=ARG1]
+	_in_p -> _light_a_of [label=ARG1]
+	_new_a_1 -> _issue_n_1 [label=ARG1]
+	"_price_v_1-fn.NF" -> _issue_n_1 [label="ARG2-fn.Theme"]
+	_light_a_of -> _activity_n_1 [label=ARG1]
+	_derivative_a_1 -> _market_n_1 [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_constitutional_a_1 -> _change_n_of [label=ARG1]
+	_a_q -> _system_n_of [label=BV]
+	udef_q -> _change_n_of [label=BV]
+	proper_q -> "named(Hungary)" [label=BV]
+	"_adopt_v_1-fn.Adopt_selection" -> _change_n_of [label="ARG2-fn.Theme"]
+	_form_v_cause -> "named(Hungary)" [label=ARG1]
+	"_in+order+to_x" -> "_adopt_v_1-fn.Adopt_selection" [label=ARG1]
+	_form_v_cause -> _system_n_of [label=ARG2]
+	"_adopt_v_1-fn.Adopt_selection" -> "named(Hungary)" [label="ARG1-fn.Agent"]
+	_democratic_a_1 -> _system_n_of [label=ARG1]
+	"_in+order+to_x" -> _form_v_cause [label=ARG2]
+}

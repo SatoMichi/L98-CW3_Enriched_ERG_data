@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _farmer_n_1 [label=ARG1]
+	_only_a_1 -> _farmer_n_1 [label=ARG1]
+	_significant_a_for -> _farmer_n_1 [label=ARG1]
+	_in_p -> "named(Hawaii)" [label=ARG2]
+	_commercial_a_1 -> _farmer_n_1 [label=ARG1]
+	_in_p -> "named_n(US)" [label=ARG2]
+	udef_q -> _banana_n_1 [label=BV]
+	_the_q -> "named_n(US)" [label=BV]
+	proper_q -> "named(Hawaii)" [label=BV]
+	compound -> _banana_n_1 [label=ARG2]
+	_the_q -> _farmer_n_1 [label=BV]
+	_in_p -> _farmer_n_1 [label=ARG1]
+}

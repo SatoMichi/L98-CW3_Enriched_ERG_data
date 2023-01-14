@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _education_n_1 [label=BV]
+	"_get_v_1-fn.IN" -> _education_n_1 [label="ARG2-fn.Theme"]
+	"_think_v_1-fn.IN" -> "_get_v_1-fn.IN" [label="ARG2-fn.NotExist"]
+	"_get_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_to_p -> _go_v_1 [label=ARG1]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_to_p -> _college_n_of [label=ARG2]
+	udef_q -> _college_n_of [label=BV]
+	_go_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

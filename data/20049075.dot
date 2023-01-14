@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	compound -> _collar_n_1 [label=ARG2]
+	"_specialize_v_in-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	compound -> _defense_n_1 [label=ARG1]
+	"_specialize_v_in-fn.Cause_to_end" -> _work_n_1 [label="ARG2-fn.Means"]
+	_white_a_1 -> _collar_n_1 [label=ARG1]
+	_criminal_a_1 -> _defense_n_1 [label=ARG1]
+	udef_q -> _work_n_1 [label=BV]
+	udef_q -> _defense_n_1 [label=BV]
+	compound -> _work_n_1 [label=ARG1]
+	udef_q -> _collar_n_1 [label=BV]
+}

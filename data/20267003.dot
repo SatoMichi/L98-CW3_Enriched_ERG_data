@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Legion)" [label=ARG2]
+	_american_a_1 -> "named(Legion)" [label=ARG1]
+	udef_q -> _color_n_1 [label=BV]
+	compound -> _color_n_1 [label=ARG2]
+	"_lead_v_1-fn.Cotheme" -> _guard_n_1 [label="ARG1-fn.Agent"]
+	"_lead_v_1-fn.Cotheme" -> _way_n_of [label="ARG2-fn.Theme"]
+	compound -> _guard_n_1 [label=ARG1]
+	_local_a_1 -> _guard_n_1 [label=ARG1]
+	proper_q -> "named(Legion)" [label=BV]
+	_the_q -> _guard_n_1 [label=BV]
+	_the_q -> _way_n_of [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_israeli_a_1 -> _list_n_of [label=ARG1]
+	_the_q -> _list_n_of [label=BV]
+	compound -> _official_n_1 [label=ARG1]
+	"_study_v_1-fn.Scrutiny" -> _expert_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _official_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_study_v_1-fn.Scrutiny" [label="ARG2-fn.Topic"]
+	udef_q -> "named_n(US)" [label=BV]
+	udef_q -> _expert_n_1 [label=BV]
+	"_study_v_1-fn.Scrutiny" -> _list_n_of [label="ARG2-fn.Topic"]
+	compound -> "named_n(US)" [label=ARG2]
+	compound -> "_counterterrorism/nn_u_unknown" [label=ARG2]
+	"_say_v_to-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> "_counterterrorism/nn_u_unknown" [label=BV]
+}

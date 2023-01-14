@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_outleaped/vbd_u_unknown" -> _stock_n_1 [label=ARG1]
+	udef_q -> _stock_n_1 [label=BV]
+	"_lead_v_1-fn.Cotheme" -> _stock_n_1 [label="ARG2-fn.Theme"]
+	_indeed_a_1 -> "_outleaped/vbd_u_unknown" [label=ARG1]
+	"_lead_v_1-fn.Cotheme" -> _issue_n_1 [label="ARG1-fn.Agent"]
+	parg_d -> "_lead_v_1-fn.Cotheme" [label=ARG1]
+	_the_q -> _average_n_of [label=BV]
+	_industrial_a_1 -> _average_n_of [label=ARG1]
+	compound -> _technology_n_1 [label=ARG2]
+	"_outleaped/vbd_u_unknown" -> _average_n_of [label=ARG2]
+	udef_q -> _issue_n_1 [label=BV]
+	compound -> _issue_n_1 [label=ARG1]
+	"_over-the-counter_a_1" -> _stock_n_1 [label=ARG1]
+	udef_q -> _technology_n_1 [label=BV]
+	parg_d -> _stock_n_1 [label=ARG2]
+}

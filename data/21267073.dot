@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Rite" -> _distinction_n_1 [label="ARG2-fn.Member"]
+	compound -> "named(Litigation)" [label=ARG2]
+	proper_q -> "named(Litigation)" [label=BV]
+	compound -> "named(Sciences)" [label=ARG1]
+	"_make_v_1-fn.Rite" -> "named(Sciences)" [label="ARG1-fn.Leader"]
+	proper_q -> "named(Sciences)" [label=BV]
+	udef_q -> _distinction_n_1 [label=BV]
+	neg -> "_make_v_1-fn.Rite" [label=ARG1]
+	_moral_a_1 -> _distinction_n_1 [label=ARG1]
+}

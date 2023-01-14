@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(York)" [label=ARG1]
+	compound -> "named(New)" [label=ARG2]
+	unknown -> "named(City)" [label=ARG]
+	proper_q -> "named(City)" [label=BV]
+	proper_q -> "named(York)" [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	_colon_p_namely -> "named(City)" [label=ARG1]
+	compound -> "named(City)" [label=ARG1]
+}

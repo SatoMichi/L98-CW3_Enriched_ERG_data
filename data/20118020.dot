@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> _exception_n_to [label=ARG1]
+	"_say_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_without_p -> "_say_v_1-fn.Attempt" [label=ARG1]
+	_single_a_1 -> _exception_n_to [label=ARG1]
+	_even_a_1 -> "_compromise_v_1-fn.Achieving_first" [label=ARG1]
+	"_compromise_v_1-fn.Achieving_first" -> pron [label="ARG1-fn.Cognizer"]
+	neg -> "_compromise_v_1-fn.Achieving_first" [label=ARG1]
+	_a_q -> _exception_n_to [label=BV]
+	pronoun_q -> pron [label=BV]
+	_without_p -> _exception_n_to [label=ARG2]
+	_universal_a_1 -> "_say_v_1-fn.Attempt" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Thompson)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Kim)" [label=ARG1]
+	compound -> "named(J)" [label=ARG2]
+	proper_q -> "named(J)" [label=BV]
+	_of_p -> "named(Kim)" [label=ARG1]
+	"_think_v_1-fn.IN" -> ellipsis [label="ARG2-fn.NotExist"]
+	"_think_v_1-fn.IN" -> "named(Kim)" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Walter)" [label=BV]
+	proper_q -> "named(Thompson)" [label=BV]
+	neg -> "_think_v_1-fn.IN" [label=ARG1]
+	_of_p -> "named(Thompson)" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Kim)" [label=BV]
+	compound -> "named(Walter)" [label=ARG1]
+}

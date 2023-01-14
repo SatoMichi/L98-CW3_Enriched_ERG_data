@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _airline_n_1 [label=BV]
+	_other_a_1 -> _stock_n_1 [label=ARG1]
+	parg_d -> "_mix_v_1-fn.Cause_to_end" [label=ARG1]
+	"_mix_v_1-fn.Cause_to_end" -> _stock_n_1 [label="ARG2-fn.Means"]
+	compound -> _airline_n_1 [label=ARG2]
+	compound -> _stock_n_1 [label=ARG1]
+	parg_d -> _stock_n_1 [label=ARG2]
+	udef_q -> _stock_n_1 [label=BV]
+}

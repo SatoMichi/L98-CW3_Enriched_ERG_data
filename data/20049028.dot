@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_criminal_a_1 -> _lawyer_n_1 [label=ARG1]
+	_the_q -> "named_n(IRS)" [label=BV]
+	"_test_v_1-fn.IN" -> "named_n(IRS)" [label="ARG1-fn.Agent"]
+	"_in+order+to_x" -> "_send_v_1-fn.Sending" [label=ARG1]
+	_the_q -> _issue_n_1 [label=BV]
+	"_speculate_v_1-fn.NF" -> _lawyer_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _letter_n_of [label=BV]
+	_some_q -> _lawyer_n_1 [label=BV]
+	"_test_v_1-fn.IN" -> _issue_n_1 [label="ARG2-fn.Location"]
+	"_send_v_1-fn.Sending" -> _letter_n_of [label="ARG2-fn.Theme"]
+	"_speculate_v_1-fn.NF" -> "_in+order+to_x" [label="ARG2-fn.Theme"]
+	"_in+order+to_x" -> "_test_v_1-fn.IN" [label=ARG2]
+	"_send_v_1-fn.Sending" -> "named_n(IRS)" [label="ARG1-fn.Agent"]
+}

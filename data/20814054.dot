@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> _sightseeing_n_1 [label=BV]
+	_social_a_1 -> _event_n_item [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	"_be_v_there-fn.Needing" -> implicit_conj [label="ARG1-fn.Cognizer"]
+	nominalization -> _shop_v_buy [label=ARG1]
+	_no_q -> _event_n_item [label=BV]
+	_no_q -> nominalization [label=BV]
+	udef_q -> implicit_conj [label=BV]
+}

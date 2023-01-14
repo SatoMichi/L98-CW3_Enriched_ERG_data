@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _jolt_n_1 [label=BV]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	_in_p -> _market_n_1 [label=ARG2]
+	comp_less -> "_overpriced/jj_u_unknown" [label=ARG1]
+	_after_p -> _jolt_n_1 [label=ARG2]
+	"_a+little_x_deg" -> comp_less [label=ARG1]
+	proper_q -> "dofw(Fri)" [label=BV]
+	"_overpriced/jj_u_unknown" -> "_thing_n_of-about" [label=ARG1]
+	_after_p -> "_overpriced/jj_u_unknown" [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	poss -> _jolt_n_1 [label=ARG1]
+	_in_p -> _jolt_n_1 [label=ARG1]
+	poss -> "dofw(Fri)" [label=ARG2]
+}

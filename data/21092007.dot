@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_place_v_1-fn.Placing" -> _in_p [label="ARG3-fn.Destination"]
+	loc_nonsp -> place_n [label=ARG2]
+	_native_a_1 -> _speaker_n_1 [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	_in_p -> _charge_n_of [label=ARG2]
+	_in_p -> _speaker_n_1 [label=ARG1]
+	_overseas_a_1 -> place_n [label=ARG1]
+	_charge_n_of -> _subsidiary_n_1 [label=ARG1]
+	udef_q -> _charge_n_of [label=BV]
+	"_place_v_1-fn.Placing" -> _speaker_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _subsidiary_n_1 [label=BV]
+	"_place_v_1-fn.Placing" -> _american_n_1 [label="ARG1-fn.Agent"]
+	loc_nonsp -> _subsidiary_n_1 [label=ARG1]
+	udef_q -> _american_n_1 [label=BV]
+	udef_q -> _speaker_n_1 [label=BV]
+}

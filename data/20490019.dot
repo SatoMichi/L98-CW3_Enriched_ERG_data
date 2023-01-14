@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(19-)" -> _month_n_1 [label=ARG1]
+	_a_q -> "_cease-fire_n_1" [label=BV]
+	measure -> _month_n_1 [label=ARG2]
+	udef_q -> _month_n_1 [label=BV]
+	"_threaten_v_1-fn.NF" -> "_end_v_cause-fn.Cause_to_end" [label="ARG2-fn.Experiencer"]
+	"_threaten_v_1-fn.NF" -> "named(Ortega)" [label="ARG1-fn.Stimulus"]
+	_old_a_1 -> "_cease-fire_n_1" [label=ARG1]
+	proper_q -> "named(Ortega)" [label=BV]
+	measure -> _old_a_1 [label=ARG1]
+	"_end_v_cause-fn.Cause_to_end" -> "_cease-fire_n_1" [label="ARG2-fn.Theme"]
+	"_end_v_cause-fn.Cause_to_end" -> "named(Ortega)" [label="ARG1-fn.Agent"]
+}

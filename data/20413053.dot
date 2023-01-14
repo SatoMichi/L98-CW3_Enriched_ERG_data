@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_p -> "_call_v_in-fn.Judgment_direct_address" [label=ARG1]
+	"_call_v_in-fn.Judgment_direct_address" -> _magazine_n_1 [label="ARG1-fn.Communicator"]
+	"_call_v_in-fn.Judgment_direct_address" -> "named(Hyman)" [label="ARG2-fn.Addressee"]
+	compound -> _mister_n_1 [label=ARG2]
+	_a_q -> _consultant_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_the_q -> _magazine_n_1 [label=BV]
+	compound -> "named(Hyman)" [label=ARG1]
+	proper_q -> "named(Hyman)" [label=BV]
+	_as_p -> _consultant_n_1 [label=ARG2]
+}

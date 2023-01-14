@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _generation_n_of [label=ARG1]
+	proper_q -> "yofc(1991)" [label=BV]
+	_until_p -> "yofc(1991)" [label=ARG2]
+	proper_q -> "named(IBM)" [label=BV]
+	_a_q -> _generation_n_of [label=BV]
+	_of_p -> "_mainframes/nns_u_unknown" [label=ARG2]
+	"_deliver_v_to-fn.Delivery" -> _generation_n_of [label="ARG2-fn.Theme"]
+	_new_a_1 -> _generation_n_of [label=ARG1]
+	udef_q -> "_mainframes/nns_u_unknown" [label=BV]
+	parg_d -> "_expect_v_1-fn.IN" [label=ARG1]
+	parg_d -> "named(IBM)" [label=ARG2]
+	neg -> "_expect_v_1-fn.IN" [label=ARG1]
+	"_deliver_v_to-fn.Delivery" -> "named(IBM)" [label="ARG1-fn.Agent"]
+	_until_p -> "_deliver_v_to-fn.Delivery" [label=ARG1]
+	"_expect_v_1-fn.IN" -> "_deliver_v_to-fn.Delivery" [label="ARG2-fn.Theme"]
+}

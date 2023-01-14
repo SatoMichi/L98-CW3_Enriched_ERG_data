@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_reach_v_1-fn.Undergo_change" -> _agreement_n_1 [label="ARG2-fn.Final_category"]
+	proper_q -> "named(Tokyu)" [label=BV]
+	_no_q -> _agreement_n_1 [label=BV]
+	parg_d -> _agreement_n_1 [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> "_reach_v_1-fn.Undergo_change" [label="ARG2-fn.Requirement"]
+	"_say_v_to-fn.Have_as_requirement" -> "named(Tokyu)" [label="ARG1-fn.Dependent"]
+	parg_d -> "_reach_v_1-fn.Undergo_change" [label=ARG1]
+}

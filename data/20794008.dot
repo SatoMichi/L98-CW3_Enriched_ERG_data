@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _problem_n_of [label=ARG1]
+	"_put_v_1-fn.Change_position_on_a_scale" -> _on_p [label="ARG3-fn.Difference"]
+	"_put_v_1-fn.Change_position_on_a_scale" -> _emphasis_n_on [label="ARG2-fn.Item"]
+	"_welcome_v_1-fn.Rite" -> _emphasis_n_on [label="ARG2-fn.Member"]
+	parg_d -> "_put_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_now_a_1 -> "_put_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _drug_n_1 [label=BV]
+	_on_p -> _problem_n_of [label=ARG2]
+	_the_q -> _emphasis_n_on [label=BV]
+	_on_p -> _emphasis_n_on [label=ARG1]
+	_the_q -> _problem_n_of [label=BV]
+	parg_d -> _emphasis_n_on [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_welcome_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	compound -> _drug_n_1 [label=ARG2]
+}

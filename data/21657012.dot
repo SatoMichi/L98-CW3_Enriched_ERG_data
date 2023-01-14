@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_include_v_1-fn.NF" -> "named(Ortega)" [label="ARG2-fn.Theme"]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Ortega)" [label=ARG1]
+	parg_d -> "named(Ortega)" [label=ARG2]
+	proper_q -> "named(Ortega)" [label=BV]
+	_however_a_1 -> "_include_v_1-fn.NF" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	parg_d -> "_include_v_1-fn.NF" [label=ARG1]
+}

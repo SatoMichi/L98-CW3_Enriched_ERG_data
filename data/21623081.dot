@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _example_n_of [label="ARG2-fn.Means"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _food_n_1 [label=BV]
+	udef_q -> _tobacco_n_1 [label=BV]
+	_the_q -> _example_n_of [label=BV]
+	_classic_a_1 -> _example_n_of [label=ARG1]
+	udef_q -> _utility_n_1 [label=BV]
+	udef_q -> _drug_n_1 [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> implicit_conj [label="ARG1-fn.Process"]
+}

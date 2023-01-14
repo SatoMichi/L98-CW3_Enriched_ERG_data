@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _poll_n_1 [label=BV]
+	neg -> "_like_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	_the_q -> _stuff_n_1 [label=BV]
+	compound -> _stuff_n_1 [label=ARG1]
+	"_show_v_1-fn.State_continue" -> _poll_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _attack_n_1 [label=BV]
+	udef_q -> _voter_n_1 [label=BV]
+	compound -> _attack_n_1 [label=ARG2]
+	"_show_v_1-fn.State_continue" -> neg [label="ARG2-fn.State"]
+	poss -> _poll_n_1 [label=ARG1]
+	"_like_v_1-fn.Cause_to_make_noise" -> _voter_n_1 [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	"_like_v_1-fn.Cause_to_make_noise" -> _stuff_n_1 [label="ARG2-fn.Sound_maker"]
+}

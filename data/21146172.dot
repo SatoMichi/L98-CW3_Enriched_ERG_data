@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_get_v_1-fn.Change_position_on_a_scale" -> thing [label="ARG2-fn.Item"]
+	"_get_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	which_q -> thing [label=BV]
+}

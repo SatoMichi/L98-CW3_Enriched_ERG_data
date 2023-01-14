@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_up_p_dir -> "_edge_v_1-fn.Halt" [label=ARG1]
+	nominalization -> _trade_v_1 [label=ARG1]
+	loc_nonsp -> "_edge_v_1-fn.Halt" [label=ARG1]
+	compound -> _stock_n_1 [label=ARG2]
+	proper_q -> "dofw(Fri)" [label=BV]
+	_in_p -> "_edge_v_1-fn.Halt" [label=ARG1]
+	_in_p -> nominalization [label=ARG2]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	loc_nonsp -> "dofw(Fri)" [label=ARG2]
+	_quiet_a_1 -> nominalization [label=ARG1]
+	"_edge_v_1-fn.Halt" -> _price_n_of [label="ARG1-fn.Purpose"]
+	udef_q -> _stock_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

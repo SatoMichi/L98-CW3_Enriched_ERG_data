@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _period_n_of [label=BV]
+	_to_p -> _period_n_of [label=ARG2]
+	_active_a_1 -> _period_n_of [label=ARG1]
+	"_settle_v_down-fn.Experiencer_focus" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+	_to_p -> "_settle_v_down-fn.Experiencer_focus" [label=ARG1]
+	comp_less -> _active_a_1 [label=ARG1]
+}

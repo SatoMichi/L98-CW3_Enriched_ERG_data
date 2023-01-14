@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.Competition" -> "_face_v_1-fn.Expectation" [label="ARG2-fn.Participant_2"]
+	_the_q -> _bank_n_of [label=BV]
+	"_expect_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_the_q -> _merger_n_1 [label=BV]
+	"_face_v_1-fn.Expectation" -> "_hurdles/nns_u_unknown" [label="ARG2-fn.Phenomenon"]
+	neg -> "_expect_v_1-fn.Competition" [label=ARG1]
+	_regulatory_a_1 -> "_hurdles/nns_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> neg [label="ARG2-fn.Means"]
+	"_face_v_1-fn.Expectation" -> _merger_n_1 [label="ARG1-fn.Cognizer"]
+	"_say_v_to-fn.Cause_to_end" -> _bank_n_of [label="ARG1-fn.Process"]
+	_any_q -> "_hurdles/nns_u_unknown" [label=BV]
+}

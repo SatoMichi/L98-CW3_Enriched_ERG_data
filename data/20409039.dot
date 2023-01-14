@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_exaggerate_v_1-fn.Bail_decision" -> pron [label="ARG1-fn.Accused"]
+	_bound_a_1 -> "_exaggerate_v_1-fn.Bail_decision" [label=ARG2]
+	_bound_a_1 -> pron [label=ARG1]
+}

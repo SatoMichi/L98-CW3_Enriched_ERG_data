@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(45)" -> _percent_n_of [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	udef_q -> _revenue_n_1 [label=BV]
+	compound -> "named(Bullock)" [label=ARG1]
+	"_say_v_to-fn.IN" -> _tie_v_to [label="ARG2-fn.NotExist"]
+	proper_q -> "named(Bullock)" [label=BV]
+	parg_d -> _tie_v_to [label=ARG1]
+	_tie_v_to -> _construction_n_of [label=ARG3]
+	udef_q -> _percent_n_of [label=BV]
+	_percent_n_of -> _revenue_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Bullock)" [label="ARG1-fn.NotExist"]
+	udef_q -> _construction_n_of [label=BV]
+	parg_d -> _percent_n_of [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	_tie_v_to -> _percent_n_of [label=ARG2]
+}

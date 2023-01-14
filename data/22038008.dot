@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_emote/vb_u_unknown" -> pron [label=ARG1]
+	_colon_p_namely -> _repression_n_of [label=ARG1]
+	"_emote/vb_u_unknown" -> _control_n_of [label=ARG2]
+	udef_q -> _repression_n_of [label=BV]
+	unknown -> _repression_n_of [label=ARG]
+	udef_q -> _control_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

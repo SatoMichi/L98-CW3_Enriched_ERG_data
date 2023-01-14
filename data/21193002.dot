@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Charlie)" [label=BV]
+	proper_q -> "named(Brown)" [label=BV]
+	compound -> "named(Brown)" [label=ARG1]
+	"_sell_v_out-fn.Commerce_buy" -> "named(Brown)" [label="ARG1-fn.Buyer"]
+	compound -> "named(Charlie)" [label=ARG2]
+}

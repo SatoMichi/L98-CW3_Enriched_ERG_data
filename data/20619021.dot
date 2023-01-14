@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_try_v_1-fn.Attempt" -> "_determine_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	_be_v_id -> implicit_conj [label=ARG2]
+	udef_q -> _investigator_n_1 [label=BV]
+	_a_q -> _accident_n_1 [label=BV]
+	udef_q -> _or_c [label=BV]
+	_be_v_id -> _crash_n_1 [label=ARG1]
+	udef_q -> implicit_conj [label=BV]
+	"_try_v_1-fn.Attempt" -> _investigator_n_1 [label="ARG1-fn.Agent"]
+	"_determine_v_1-fn.NF" -> _investigator_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _crash_n_1 [label=BV]
+	"_determine_v_1-fn.NF" -> _be_v_id [label="ARG2-fn.NotExist"]
+	udef_q -> _sabotage_n_1 [label=BV]
+	udef_q -> _suicide_n_1 [label=BV]
+}

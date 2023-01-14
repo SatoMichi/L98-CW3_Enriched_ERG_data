@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _player_n_of [label=BV]
+	proper_q -> "named(NEC)" [label=BV]
+	_the_q -> _standard_n_1 [label=BV]
+	neg -> "_try_v_1-fn.Attempt" [label=ARG1]
+	"_try_v_1-fn.Attempt" -> _player_n_of [label="ARG1-fn.Agent"]
+	focus_d -> "_try_v_1-fn.Attempt" [label=ARG1]
+	focus_d -> _meanwhile_p [label=ARG2]
+	compound -> "named(NEC)" [label=ARG2]
+	_big_a_1 -> _player_n_of [label=ARG1]
+	"_try_v_1-fn.Attempt" -> _copy_v_1 [label="ARG2-fn.Theme"]
+	compound -> _standard_n_1 [label=ARG1]
+	_copy_v_1 -> _player_n_of [label=ARG1]
+	_meanwhile_p -> "_try_v_1-fn.Attempt" [label=ARG1]
+	_copy_v_1 -> _standard_n_1 [label=ARG2]
+}

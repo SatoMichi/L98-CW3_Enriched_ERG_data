@@ -1,0 +1,4 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> ellipsis_expl [label=ARG1]
+}

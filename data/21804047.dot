@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_retain_v_1-fn.Cause_to_end" -> _title_n_of [label="ARG2-fn.Means"]
+	_title_n_of -> _chairman_n_of [label=ARG1]
+	"_retain_v_1-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_non_a_1 -> _executive_n_1 [label=ARG1]
+	_honorary_a_1 -> _title_n_of [label=ARG1]
+	compound -> _chairman_n_of [label=ARG1]
+	_the_q -> _title_n_of [label=BV]
+	udef_q -> _chairman_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> _executive_n_1 [label=ARG2]
+	udef_q -> _executive_n_1 [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _month_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(MGM)" [label=BV]
+	"_be_v_id-fn.Residence" -> _head_n_of [label="ARG2-fn.Location"]
+	compound -> "named(Evans)" [label=ARG1]
+	_head_n_of -> _and_c [label=ARG1]
+	"_be_v_id-fn.Residence" -> "named(Evans)" [label="ARG1-fn.Resident"]
+	proper_q -> "named(Evans)" [label=BV]
+	_the_q -> _head_n_of [label=BV]
+	_for_p -> "_be_v_id-fn.Residence" [label=ARG1]
+	_for_p -> _month_n_1 [label=ARG2]
+	proper_q -> "named(UA)" [label=BV]
+	"_de+facto_a_1" -> _head_n_of [label=ARG1]
+}

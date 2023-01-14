@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _problem_n_of [label=BV]
+	"_present_v_to-fn.Amounting_to" -> _problem_n_of [label="ARG2-fn.Attribute"]
+	"_present_v_to-fn.Amounting_to" -> generic_entity [label="ARG1-fn.Value"]
+	_odd_a_to -> "_present_v_to-fn.Amounting_to" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	focus_d -> "_present_v_to-fn.Amounting_to" [label=ARG1]
+	_for_p -> _problem_n_of [label=ARG1]
+	_the_q -> _stock_n_1 [label=BV]
+	_for_p -> _stock_n_1 [label=ARG2]
+	comp_enough -> _odd_a_to [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _profit_n_1 [label=ARG2]
+	compound -> _day_n_of [label=ARG2]
+	"card(300-)" -> _day_n_of [label=ARG1]
+	"_compare_v_with-fn.Evaluative_comparison" -> _profit_n_1 [label="ARG2-fn.Patient"]
+	"_compare_v_with-fn.Evaluative_comparison" -> _estimate_n_of [label="ARG3-fn.Co-Patient"]
+	udef_q -> _day_n_of [label=BV]
+	udef_q -> _profit_n_1 [label=BV]
+	compound -> _estimate_n_of [label=ARG1]
+	_actual_a_1 -> _profit_n_1 [label=ARG1]
+	_otherwise_a_1 -> "_compare_v_with-fn.Evaluative_comparison" [label=ARG1]
+	parg_d -> "_compare_v_with-fn.Evaluative_comparison" [label=ARG1]
+	_the_q -> _estimate_n_of [label=BV]
+}

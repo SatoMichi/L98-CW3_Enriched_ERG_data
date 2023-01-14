@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _buy_v_1 [label=ARG1]
+	_in_p -> _stock_n_1 [label=ARG2]
+	_some_q -> _stock_n_1 [label=BV]
+	"_a+little_q" -> nominalization [label=BV]
+	"_smash_v_1-fn.Halt" -> _stock_n_1 [label="ARG2-fn.Place"]
+	parg_d -> "_smash_v_1-fn.Halt" [label=ARG1]
+	_down_p -> "_smash_v_1-fn.Halt" [label=ARG1]
+	"_do_v_1-fn.State_continue" -> nominalization [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	parg_d -> _stock_n_1 [label=ARG2]
+	_in_p -> nominalization [label=ARG1]
+	_really_a_1 -> "_smash_v_1-fn.Halt" [label=ARG1]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+}

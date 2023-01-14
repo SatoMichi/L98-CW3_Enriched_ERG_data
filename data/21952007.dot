@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_suspect_v_of-fn.Awareness" -> pron [label="ARG1-fn.Agent"]
+	"_fed+up_a_with" -> _voter_n_1 [label=ARG1]
+	"_suspect_v_of-fn.Awareness" -> "_fed+up_a_with" [label="ARG2-fn.Theme"]
+	nominalization -> _finagle_v_1 [label=ARG1]
+	udef_q -> _voter_n_1 [label=BV]
+	_the_q -> nominalization [label=BV]
+	"_fed+up_a_with" -> nominalization [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

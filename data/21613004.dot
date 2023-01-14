@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _spread_n_of [label=BV]
+	_among_p -> part_of [label=ARG2]
+	"_be_v_id-fn.Residence" -> _increase_n_1 [label="ARG1-fn.Resident"]
+	_all_q -> part_of [label=BV]
+	_even_a_1 -> "_be_v_id-fn.Residence" [label=ARG1]
+	"_be_v_id-fn.Residence" -> _spread_n_of [label="ARG2-fn.Location"]
+	"card(3)" -> "_type_n_of-n" [label=ARG1]
+	_the_q -> _increase_n_1 [label=BV]
+	udef_q -> "_type_n_of-n" [label=BV]
+	part_of -> "_type_n_of-n" [label=ARG1]
+	_among_p -> "_be_v_id-fn.Residence" [label=ARG1]
+	udef_q -> _fund_n_1 [label=BV]
+	_fairly_x -> _even_a_1 [label=ARG1]
+	"_type_n_of-n" -> _fund_n_1 [label=ARG1]
+}

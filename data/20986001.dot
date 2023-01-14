@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "yofc(1989)" [label=ARG2]
+	loc_nonsp -> "dofm(25)" [label=ARG1]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	loc_nonsp -> "dofw(Wed)" [label=ARG1]
+	proper_q -> "dofw(Wed)" [label=BV]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	proper_q -> "yofc(1989)" [label=BV]
+	def_explicit_q -> "dofm(25)" [label=BV]
+	of_p -> "dofm(25)" [label=ARG1]
+	unknown -> "dofw(Wed)" [label=ARG]
+}

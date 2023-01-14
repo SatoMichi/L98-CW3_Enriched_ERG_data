@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> "mofy(May)" [label=ARG2]
+	_in_p_temp -> "_resign_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Everett)" [label=ARG2]
+	"_resign_v_1-fn.Competition" -> "named(Meyers)" [label="ARG1-fn.Participant_1"]
+	"_succeed_v_1-fn.Competition" -> "named(Meyers)" [label="ARG2-fn.Participant_2"]
+	proper_q -> "mofy(May)" [label=BV]
+	compound -> "named(Meyers)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Meyers)" [label=BV]
+	"_succeed_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Everett)" [label=BV]
+}

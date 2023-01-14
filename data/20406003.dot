@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_scare_v_1-fn.Experiencer_obj" -> _broker_n_1 [label="ARG2-fn.Experiencer"]
+	udef_q -> _broker_n_1 [label=BV]
+	"_scare_v_1-fn.Experiencer_obj" -> pron [label="ARG1-fn.Stimulus"]
+	_most_q -> generic_entity [label=BV]
+	_survive_v_1 -> generic_entity [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

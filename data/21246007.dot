@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _antibody_n_1 [label=BV]
+	"_kill_v_1-fn.Killing" -> _antibody_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _cell_n_1 [label=BV]
+	_then_a_1 -> "_kill_v_1-fn.Killing" [label=ARG1]
+	"_kill_v_1-fn.Killing" -> _cell_n_1 [label="ARG2-fn.Patient"]
+}

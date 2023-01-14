@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_achievable/jj_u_unknown" -> _goal_n_1 [label=ARG1]
+	"_advise_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_make_v_cause-fn.Cause_change" -> "_achievable/jj_u_unknown" [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	_so_a_thus -> "_advise_v_1-fn.IN" [label=ARG1]
+	udef_q -> _goal_n_1 [label=BV]
+	"_make_v_cause-fn.Cause_change" -> pron [label="ARG1-fn.Agent"]
+}

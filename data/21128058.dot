@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _crop_n_1 [label=BV]
+	parg_d -> _crop_n_1 [label=ARG2]
+	"_pick_v_1-fn.Choosing" -> _crop_n_1 [label="ARG2-fn.Theme"]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> _year_n_1 [label=BV]
+	_next_a_1 -> _year_n_1 [label=ARG1]
+	_until_p -> "_pick_v_1-fn.Choosing" [label=ARG1]
+	poss -> _crop_n_1 [label=ARG1]
+	_until_p -> _year_n_1 [label=ARG2]
+	parg_d -> "_pick_v_1-fn.Choosing" [label=ARG1]
+	neg -> "_pick_v_1-fn.Choosing" [label=ARG1]
+	"ord(1)" -> _crop_n_1 [label=ARG1]
+}

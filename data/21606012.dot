@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _digital_n_1 [label=ARG1]
+	udef_q -> _digital_n_1 [label=BV]
+	_the_q -> _monitor_n_1 [label=BV]
+	proper_q -> "named(Western)" [label=BV]
+	"_make_v_1-fn.Rite" -> _monitor_n_1 [label="ARG2-fn.Member"]
+	"_make_v_1-fn.Rite" -> _digital_n_1 [label="ARG1-fn.Leader"]
+	neg -> "_make_v_1-fn.Rite" [label=ARG1]
+	compound -> "named(Western)" [label=ARG2]
+}

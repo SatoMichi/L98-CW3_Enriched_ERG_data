@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_1-fn.Commerce_buy" -> _editor_n_1 [label="ARG1-fn.Buyer"]
+	neg -> subord [label=ARG1]
+	udef_q -> _magazine_n_1 [label=BV]
+	subord -> _lie_v_2 [label=ARG2]
+	_the_q -> _criticism_n_1 [label=BV]
+	subord -> "_take_v_1-fn.Commerce_buy" [label=ARG1]
+	compound -> _editor_n_1 [label=ARG1]
+	"_take_v_1-fn.Commerce_buy" -> _criticism_n_1 [label="ARG2-fn.Goods"]
+	_down_p -> _lie_v_2 [label=ARG1]
+	compound -> _magazine_n_1 [label=ARG2]
+	udef_q -> _editor_n_1 [label=BV]
+}

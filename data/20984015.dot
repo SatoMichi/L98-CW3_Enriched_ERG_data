@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_call_v_name-fn.IN" -> "named(BPCA)" [label="ARG1-fn.Agent"]
+	_a_q -> _collaboration_n_with [label=BV]
+	"_call_v_name-fn.IN" -> _collaboration_n_with [label="ARG2-fn.Theme"]
+	poss -> _team_n_of [label=ARG1]
+	def_explicit_q -> _team_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	_stun_v_1 -> _collaboration_n_with [label=ARG1]
+	"_call_v_name-fn.IN" -> _team_n_of [label="ARG3-fn.Result"]
+	_the_q -> "named(BPCA)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

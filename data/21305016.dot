@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_normalcy/nn_u_unknown" [label=ARG2]
+	focus_d -> "_want_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _board_n_of [label=BV]
+	udef_q -> "_normalcy/nn_u_unknown" [label=BV]
+	_clear_a_of -> _clear_a_of [label=ARG1]
+	"_want_v_1-fn.Competition" -> "_return_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	_the_q -> _company_n_of [label=BV]
+	"_want_v_1-fn.Competition" -> _board_n_of [label="ARG1-fn.Participant_1"]
+	"_return_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	_to_p -> "_return_v_1-fn.Competition" [label=ARG1]
+	"_for+the+time+being_a_1" -> "_want_v_1-fn.Competition" [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_somewhat_a_1 -> "_prolong_v_1-fn.Relative_time" [label=ARG1]
+	"_prolong_v_1-fn.Relative_time" -> _pain_n_of [label="ARG2-fn.Landmark_occasion"]
+	"_prolong_v_1-fn.Relative_time" -> pron [label="ARG1-fn.Focal_occasion"]
+	_the_q -> _pain_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

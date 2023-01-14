@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> _colon_p_namely [label=ARG1]
+	_the_q -> "named(CHECKOFF)" [label=BV]
+	unknown -> "named(CHECKOFF)" [label=ARG]
+	_colon_p_namely -> _ambition_n_1 [label=ARG2]
+	udef_q -> _ambition_n_1 [label=BV]
+	_fiery_a_1 -> _ambition_n_1 [label=ARG1]
+}

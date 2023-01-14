@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fueled/vbd_u_unknown" -> _speculation_n_about [label=ARG2]
+	"_fueled/vbd_u_unknown" -> _announcement_n_of [label=ARG1]
+	_in_p -> _advance_n_of [label=ARG1]
+	_for_p -> _speculation_n_about [label=ARG1]
+	_for_p -> _advance_n_of [label=ARG2]
+	_the_q -> _announcement_n_of [label=BV]
+	_the_q -> _share_n_of [label=BV]
+	udef_q -> _advance_n_of [label=BV]
+	_future_a_1 -> _advance_n_of [label=ARG1]
+	_in_p -> _share_n_of [label=ARG2]
+	udef_q -> _speculation_n_about [label=BV]
+}

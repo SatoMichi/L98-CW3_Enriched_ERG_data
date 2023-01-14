@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _garden_n_1 [label=BV]
+	focus_d -> _hard_a_for [label=ARG2]
+	_rape_v_1 -> person [label=ARG1]
+	_rape_v_1 -> _garden_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> _hard_a_for [label="ARG2-fn.Topic"]
+	_some_q -> person [label=BV]
+	poss -> _garden_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_hard_a_for -> "_think_v_1-fn.IN" [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_think_v_1-fn.IN" -> _rape_v_1 [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

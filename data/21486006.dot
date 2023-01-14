@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Ex-)" [label=BV]
+	compound -> _dividend_n_1 [label=ARG1]
+	_a_q -> _dividend_n_1 [label=BV]
+	compound -> "named(Ex-)" [label=ARG2]
+	unknown -> _dividend_n_1 [label=ARG]
+}

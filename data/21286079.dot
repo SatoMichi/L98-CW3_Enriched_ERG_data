@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _authority_n_1 [label=BV]
+	_with_p -> _authority_n_1 [label=ARG2]
+	_a_q -> _accountability_n_1 [label=BV]
+	_with_p -> "_go_v_1-fn.Competition" [label=ARG1]
+	_unambiguous_a_1 -> _accountability_n_1 [label=ARG1]
+	"_of+course_a_1" -> "_go_v_1-fn.Competition" [label=ARG1]
+	"_go_v_1-fn.Competition" -> _accountability_n_1 [label="ARG1-fn.Participant_1"]
+}

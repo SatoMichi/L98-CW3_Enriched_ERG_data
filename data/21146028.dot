@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_nowadays_a_1 -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	_can_v_modal -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> thing [label="ARG2-fn.Theme"]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	neg -> _can_v_modal [label=ARG1]
+	_any_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG2-fn.Stimulus"]
+	_old_a_1 -> _vintage_n_1 [label=ARG1]
+	_because_x -> "_grow_v_to-fn.NF" [label=ARG2]
+	_partly_x_deg -> _because_x [label=ARG1]
+	"_grow_v_to-fn.NF" -> _vintage_n_1 [label="ARG1-fn.NotExist"]
+	comp -> _old_a_1 [label=ARG1]
+	_because_x -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	_scarce_a_1 -> _vintage_n_1 [label=ARG1]
+	comp -> _scarce_a_1 [label=ARG1]
+	udef_q -> _vintage_n_1 [label=BV]
+	"_grow_v_to-fn.NF" -> _scarce_a_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_proliferation_n_of -> _choice_n_of [label=ARG1]
+	compound -> _buyer_n_of [label=ARG1]
+	_for_p -> _buyer_n_of [label=ARG2]
+	udef_q -> _car_n_1 [label=BV]
+	udef_q -> _choice_n_of [label=BV]
+	_liberating_a_for -> _proliferation_n_of [label=ARG1]
+	_american_a_1 -> _buyer_n_of [label=ARG1]
+	_the_q -> _proliferation_n_of [label=BV]
+	udef_q -> _buyer_n_of [label=BV]
+	focus_d -> _for_p [label=ARG2]
+	compound -> _car_n_1 [label=ARG2]
+	focus_d -> _and_c [label=ARG1]
+	_confusing_a_1 -> _proliferation_n_of [label=ARG1]
+	_for_p -> _and_c [label=ARG1]
+}

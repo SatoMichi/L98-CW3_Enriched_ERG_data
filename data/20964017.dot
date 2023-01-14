@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> nominalization [label=ARG2]
+	_be_v_id -> "_pesticide/nn_u_unknown" [label=ARG1]
+	neg -> _be_v_id [label=ARG1]
+	nominalization -> "_remove_v_1-fn.Removing" [label=ARG1]
+	_a_q -> _hazard_n_1 [label=BV]
+	_for_p -> _process_n_of [label=ARG1]
+	_imminent_a_1 -> _hazard_n_1 [label=ARG1]
+	_be_v_id -> _hazard_n_1 [label=ARG2]
+	_speed_v_up -> _process_n_of [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	_a_q -> "_pesticide/nn_u_unknown" [label=BV]
+	_the_q -> _process_n_of [label=BV]
+	"_remove_v_1-fn.Removing" -> "_pesticide/nn_u_unknown" [label="ARG2-fn.Theme"]
+}

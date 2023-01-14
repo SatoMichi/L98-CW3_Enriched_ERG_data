@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	focus_d -> loc_nonsp [label=ARG2]
+	focus_d -> "_floundered/vbn_u_unknown" [label=ARG1]
+	"_floundered/vbn_u_unknown" -> _series_n_of [label=ARG1]
+	"card(5)" -> _week_n_1 [label=ARG1]
+	udef_q -> _week_n_1 [label=BV]
+	loc_nonsp -> "_floundered/vbn_u_unknown" [label=ARG1]
+	_after_p -> _premiere_n_1 [label=ARG2]
+	_the_q -> _series_n_of [label=BV]
+	_the_q -> _premiere_n_1 [label=BV]
+	_after_p -> _week_n_1 [label=ARG1]
+}

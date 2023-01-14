@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _change_n_of [label=BV]
+	neg -> "_appear_v_to-fn.State_continue" [label=ARG1]
+	_either_a_also -> "_appear_v_to-fn.State_continue" [label=ARG1]
+	_ready_a_1 -> "_make_v_1-fn.Rite" [label=ARG2]
+	"_appear_v_to-fn.State_continue" -> _ready_a_1 [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	_broad_a_1 -> _change_n_of [label=ARG1]
+	"_make_v_1-fn.Rite" -> _change_n_of [label="ARG2-fn.Member"]
+}

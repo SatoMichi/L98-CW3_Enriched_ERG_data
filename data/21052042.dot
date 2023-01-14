@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_assurance_n_1 -> "_continue_v_1-fn.Competition" [label=ARG1]
+	_the_q -> "_prospectus/nn_u_unknown" [label=BV]
+	"_note_v_to-fn.Cause_to_end" -> "_prospectus/nn_u_unknown" [label="ARG1-fn.Process"]
+	"_can_v_modal-fn.Existence" -> "_be_v_there-fn.Cause_to_end" [label="ARG1-fn.Entity"]
+	_at_p -> "_continue_v_1-fn.Competition" [label=ARG1]
+	"_note_v_to-fn.Cause_to_end" -> "_can_v_modal-fn.Existence" [label="ARG2-fn.Means"]
+	udef_q -> _level_n_1 [label=BV]
+	"_continue_v_1-fn.Competition" -> _growth_n_of [label="ARG1-fn.Participant_1"]
+	_no_q -> _assurance_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _assurance_n_1 [label="ARG1-fn.Process"]
+	_past_a_1 -> _level_n_1 [label=ARG1]
+	_at_p -> _level_n_1 [label=ARG2]
+	udef_q -> _growth_n_of [label=BV]
+	_future_a_1 -> _growth_n_of [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_move_v_cause-fn.Cause_to_end" -> _goods_n_1 [label="ARG2-fn.Means"]
+	_of_p -> _game_n_1 [label=ARG2]
+	_the_q -> _name_n_of [label=BV]
+	_the_q -> _game_n_1 [label=BV]
+	udef_q -> _goods_n_1 [label=BV]
+	"_move_v_cause-fn.Cause_to_end" -> _name_n_of [label="ARG1-fn.Process"]
+	_of_p -> _name_n_of [label=ARG1]
+	eventuality -> "_move_v_cause-fn.Cause_to_end" [label=ARG1]
+}

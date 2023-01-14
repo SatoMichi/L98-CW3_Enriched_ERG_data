@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_cheap_a_1 -> _fare_n_1 [label=ARG1]
+	udef_q -> _air_n_1 [label=BV]
+	"_spend_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	subord -> "_spend_v_1-fn.NF" [label=ARG1]
+	subord -> _aloft_a_1 [label=ARG2]
+	_for_p -> _fare_n_1 [label=ARG2]
+	focus_d -> _for_p [label=ARG2]
+	"_spend_v_1-fn.NF" -> "holiday(Christmas)" [label="ARG2-fn.Asset"]
+	udef_q -> _fare_n_1 [label=BV]
+	compound -> _fare_n_1 [label=ARG1]
+	udef_q -> "holiday(Christmas)" [label=BV]
+	_for_p -> "_spend_v_1-fn.NF" [label=ARG1]
+	compound -> _air_n_1 [label=ARG2]
+	focus_d -> "_spend_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> unknown [label=ARG1]
+	_the_q -> "_checkoff/nn_u_unknown" [label=BV]
+	_colon_p_namely -> "_gain_v_1-fn.Getting" [label=ARG2]
+	"_gain_v_1-fn.Getting" -> person [label="ARG1-fn.NotExist"]
+	_some_q -> person [label=BV]
+	_on_p -> "_gain_v_1-fn.Getting" [label=ARG1]
+	_on_p -> "_lay-off_n_1" [label=ARG2]
+	"_at+least_x_deg" -> _some_q [label=ARG1]
+	unknown -> "_checkoff/nn_u_unknown" [label=ARG]
+	udef_q -> "_lay-off_n_1" [label=BV]
+}

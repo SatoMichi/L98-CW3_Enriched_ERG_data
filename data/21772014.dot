@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _lead_n_1 [label=BV]
+	udef_q -> "_draftsmen/nns_u_unknown" [label=BV]
+	udef_q -> _and_c [label=BV]
+	comp -> _hard_a_for [label=ARG1]
+	"_need_v_1-fn.Needing" -> _and_c [label="ARG1-fn.Pivot"]
+	"_need_v_1-fn.Needing" -> _lead_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _artist_n_1 [label=BV]
+	_hard_a_for -> _lead_n_1 [label=ARG1]
+}

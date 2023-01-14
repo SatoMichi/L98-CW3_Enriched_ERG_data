@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_be_v_id -> "_kind_n_of-n" [label=ARG2]
+	udef_q -> _image_n_of [label=BV]
+	_a_q -> "_kind_n_of-n" [label=BV]
+	"_want_v_1-fn.Desiring" -> _be_v_id [label="ARG2-fn.Theme"]
+	_be_v_id -> pron [label=ARG1]
+	"_’90s/jj_u_unknown" -> "_kind_n_of-n" [label=ARG1]
+	"_kind_n_of-n" -> _image_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

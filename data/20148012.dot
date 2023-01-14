@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_nullified/vbn_u_unknown" [label=ARG1]
+	_simple_a_1 -> "_nullified/vbn_u_unknown" [label=ARG1]
+	parg_d -> _contract_n_1 [label=ARG2]
+	"_nullified/vbn_u_unknown" -> _trade_n_of [label=ARG1]
+	subord -> "_come_v_1-fn.Competition" [label=ARG1]
+	"_opposite_a_of-to" -> _trade_n_of [label=ARG1]
+	"_nullified/vbn_u_unknown" -> _contract_n_1 [label=ARG2]
+	subord -> _due_a_1 [label=ARG2]
+	_a_q -> _trade_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_before_x_h -> subord [label=ARG2]
+	_before_x_h -> "_nullified/vbn_u_unknown" [label=ARG1]
+	_most_q -> _contract_n_1 [label=BV]
+	"_come_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

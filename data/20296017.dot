@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _chinese_n_1 [label=ARG2]
+	_the_q -> _chinese_n_1 [label=BV]
+	"_introverted/jj_u_unknown" -> _people_n_of [label=ARG1]
+	compound -> _people_n_of [label=ARG1]
+	proper_q -> "named(Soviet)" [label=BV]
+	"_think_v_1-fn.IN" -> "_introverted/jj_u_unknown" [label="ARG2-fn.NotExist"]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	compound -> "named(Soviet)" [label=ARG2]
+	comp -> "_introverted/jj_u_unknown" [label=ARG1]
+	_the_q -> _people_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

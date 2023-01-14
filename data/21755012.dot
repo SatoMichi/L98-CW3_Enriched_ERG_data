@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_relative_a_to -> _asset_n_1 [label=ARG2]
+	subord -> _relative_a_to [label=ARG2]
+	"_increase_v_1-fn.Achieving_first" -> pron [label="ARG1-fn.Cognizer"]
+	udef_q -> _asset_n_1 [label=BV]
+	_other_a_1 -> _asset_n_1 [label=ARG1]
+	subord -> neg [label=ARG1]
+	_much_a_1 -> "_increase_v_1-fn.Achieving_first" [label=ARG1]
+	neg -> "_increase_v_1-fn.Achieving_first" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

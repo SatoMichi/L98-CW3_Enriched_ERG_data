@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _donation_n_1 [label=BV]
+	_illegal_a_for -> _donation_n_1 [label=ARG1]
+	_by_p -> _illegal_a_for [label=ARG1]
+	"_allege_v_1-fn.NF" -> _illegal_a_for [label="ARG2-fn.Topic"]
+	"_allege_v_1-fn.NF" -> person [label="ARG1-fn.Agent"]
+	_no_q -> person [label=BV]
+	_by_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

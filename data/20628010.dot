@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_while_x -> neg [label=ARG1]
+	parg_d -> _program_n_of [label=ARG2]
+	"_delay_v_1-fn.IN" -> _program_n_of [label="ARG2-fn.Theme"]
+	parg_d -> "_delay_v_1-fn.IN" [label=ARG1]
+	_some_q -> _program_n_of [label=BV]
+	_cancel_v_1 -> pron [label=ARG2]
+	"_automotive/jj_u_unknown" -> _program_n_of [label=ARG1]
+	_while_x -> "_delay_v_1-fn.IN" [label=ARG2]
+	neg -> _cancel_v_1 [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	parg_d -> _cancel_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

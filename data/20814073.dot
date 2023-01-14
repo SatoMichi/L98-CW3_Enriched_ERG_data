@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _year_n_1 [label=BV]
+	udef_q -> _attendance_n_1 [label=BV]
+	_previous_a_1 -> _year_n_1 [label=ARG1]
+	_from_p -> _year_n_1 [label=ARG2]
+	_down_p -> _attendance_n_1 [label=ARG1]
+	_from_p -> _down_p [label=ARG1]
+}

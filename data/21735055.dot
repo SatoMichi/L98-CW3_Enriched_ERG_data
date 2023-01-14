@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(100.2)" [label=ARG2]
+	_a_p_per -> _share_n_of [label=ARG2]
+	udef_q -> _net_n_1 [label=BV]
+	udef_q -> _share_n_of [label=BV]
+	compound -> _net_n_1 [label=ARG2]
+	udef_q -> _loss_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	unknown -> _dollar_n_1 [label=ARG]
+	"card(1.90)" -> _dollar_n_1 [label=ARG1]
+	_a_p_per -> _dollar_n_1 [label=ARG1]
+	"_colon_v_id-fn.Perception_body" -> _dollar_n_1 [label="ARG2-fn.Body_part"]
+	"_colon_v_id-fn.Perception_body" -> _loss_n_of [label="ARG1-fn.Experiencer"]
+	compound -> _loss_n_of [label=ARG1]
+}

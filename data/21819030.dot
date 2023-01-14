@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _appeal_n_1 [label=BV]
+	_on_p -> _count_n_1 [label=ARG2]
+	_both_q -> _count_n_1 [label=BV]
+	compound -> _court_n_of [label=ARG1]
+	"_disagree_v_1-fn.State_continue" -> _court_n_of [label="ARG1-fn.Entity"]
+	"card(2)" -> _count_n_1 [label=ARG1]
+	compound -> _appeal_n_1 [label=ARG2]
+	_the_q -> _court_n_of [label=BV]
+	_on_p -> "_disagree_v_1-fn.State_continue" [label=ARG1]
+}

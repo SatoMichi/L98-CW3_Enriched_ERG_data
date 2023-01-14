@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Treasury)" [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	"card(30-)" -> _year_n_1 [label=ARG1]
+	"fraction(1/8)" -> _point_n_of [label=ARG1]
+	loc_nonsp -> _point_n_of [label=ARG2]
+	poss -> _bond_n_1 [label=ARG1]
+	compound -> "_benchmark/nn_u_unknown" [label=ARG2]
+	udef_q -> "_benchmark/nn_u_unknown" [label=BV]
+	loc_nonsp -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	def_explicit_q -> _bond_n_1 [label=BV]
+	poss -> "named(Treasury)" [label=ARG2]
+	compound -> _year_n_1 [label=ARG2]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _bond_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _point_n_of [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+}

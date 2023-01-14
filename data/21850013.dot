@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_decline_v_1 -> "named(France)" [label=ARG1]
+	"_comment_v_on-fn.Statement" -> "named(France)" [label="ARG1-fn.Agent"]
+	_in_p_state -> "named(Paris)" [label=ARG2]
+	compound -> "named(France)" [label=ARG1]
+	focus_d -> _decline_v_1 [label=ARG1]
+	proper_q -> "named(Paris)" [label=BV]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	proper_q -> "named(Air)" [label=BV]
+	compound -> "named(Air)" [label=ARG2]
+	focus_d -> _in_p_state [label=ARG2]
+	proper_q -> "named(France)" [label=BV]
+	_in_p_state -> _decline_v_1 [label=ARG1]
+}

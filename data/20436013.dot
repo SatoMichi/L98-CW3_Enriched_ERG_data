@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "named(Bass)" [label=ARG1]
+	proper_q -> "named(Bass)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> "named(Bass)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	parg_d -> "named(Bass)" [label=ARG2]
+	compound -> "named(Fort)" [label=ARG2]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Fort)" [label=BV]
+	"_base_v_1-fn.Change_position_on_a_scale" -> "named(Bass)" [label="ARG2-fn.Item"]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	compound -> "named(Worth)" [label=ARG1]
+	proper_q -> "named(Worth)" [label=BV]
+	_in_p -> "named(Worth)" [label=ARG2]
+}

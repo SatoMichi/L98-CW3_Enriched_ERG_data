@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_work_v_on-fn.IN" -> _person_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _deal_n_1 [label=BV]
+	part_of -> "_speedometer/nn_u_unknown" [label=ARG1]
+	_new_a_1 -> _person_n_1 [label=ARG1]
+	_if_x_then -> _be_v_id [label=ARG1]
+	"_work_v_on-fn.IN" -> part_of [label="ARG2-fn.Theme"]
+	_be_v_id -> generic_entity [label=ARG1]
+	_be_v_id -> _deal_n_1 [label=ARG2]
+	_get_v_to -> "_work_v_on-fn.IN" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_big_a_1 -> _deal_n_1 [label=ARG1]
+	_if_x_then -> _get_v_to [label=ARG2]
+	_part_q -> part_of [label=BV]
+	_the_q -> "_speedometer/nn_u_unknown" [label=BV]
+	_a_q -> _person_n_1 [label=BV]
+}

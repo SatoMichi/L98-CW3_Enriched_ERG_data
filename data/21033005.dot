@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_provide_v_1-fn.Competition" -> _assurance_n_1 [label="ARG2-fn.Participant_2"]
+	"_say_v_to-fn.Surpassing" -> "_can_v_modal-fn.Reliance" [label="ARG2-fn.Profiled_item"]
+	"_can_v_modal-fn.Reliance" -> "_provide_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	_no_q -> _assurance_n_1 [label=BV]
+	_the_q -> _unit_n_of [label=BV]
+	_a_q -> _transaction_n_1 [label=BV]
+	"_provide_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_occur_v_to-fn.Cause_to_end" -> _transaction_n_1 [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Surpassing" -> _unit_n_of [label="ARG1-fn.Standard_item"]
+	_assurance_n_1 -> "_occur_v_to-fn.Cause_to_end" [label=ARG1]
+}

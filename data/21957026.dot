@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _construction_n_of [label=ARG2]
+	udef_q -> _share_n_of [label=BV]
+	_to_p -> "card(2,080)" [label=ARG2]
+	udef_q -> _construction_n_of [label=BV]
+	number_q -> "card(2,080)" [label=BV]
+	"_include_v_1-fn.Amounting_to" -> "named(Shimizu)" [label="ARG2-fn.Attribute"]
+	loc_nonsp -> "card(130)" [label=ARG2]
+	proper_q -> "named(Shimizu)" [label=BV]
+	compound -> _share_n_of [label=ARG1]
+	number_q -> "card(130)" [label=BV]
+	_to_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_include_v_1-fn.Amounting_to" -> _share_n_of [label="ARG1-fn.Value"]
+	loc_nonsp -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> "named(Shimizu)" [label="ARG1-fn.Attribute"]
+	"_gain_v_1-fn.Change_of_quantity_of_possession" -> _share_n_of [label="ARG1-fn.Owner"]
+}

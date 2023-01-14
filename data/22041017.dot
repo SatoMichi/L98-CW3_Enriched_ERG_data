@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _failure_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _protest_n_1 [label="ARG2-fn.Location"]
+	_against_p -> _failure_n_1 [label=ARG2]
+	"_could_v_modal-fn.Cause_to_end" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Process"]
+	_big_a_1 -> _protest_n_1 [label=ARG1]
+	_administrative_a_1 -> _failure_n_1 [label=ARG1]
+	_against_p -> _protest_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	_a_q -> _protest_n_1 [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

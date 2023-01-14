@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Blumenfeld)" [label=ARG1]
+	"_understand_v_by-fn.Awareness" -> "_buy_v_1-fn.Commerce_buy" [label="ARG2-fn.NotExist"]
+	compound -> _doctor_n_1 [label=ARG2]
+	neg -> "_understand_v_by-fn.Awareness" [label=ARG1]
+	"_understand_v_by-fn.Awareness" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _doctor_n_1 [label=BV]
+	_concede_v_to -> "named(Blumenfeld)" [label=ARG1]
+	_concede_v_to -> neg [label=ARG2]
+	"_buy_v_1-fn.Commerce_buy" -> thing [label="ARG2-fn.Theme"]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	_full_a_of -> "_understand_v_by-fn.Awareness" [label=ARG1]
+	which_q -> thing [label=BV]
+	proper_q -> "named(Blumenfeld)" [label=BV]
+}

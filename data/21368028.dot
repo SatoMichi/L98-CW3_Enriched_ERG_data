@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _purchase_v_1 [label=ARG1]
+	compound -> "_spree/nn_u_unknown" [label=ARG1]
+	_the_q -> "_spree/nn_u_unknown" [label=BV]
+	_a_q -> _affair_n_1 [label=BV]
+	udef_q -> _time_n_of [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> "_be_v_id-fn.Assemble" [label="ARG1-fn.Speaker"]
+	_current_a_1 -> "_spree/nn_u_unknown" [label=ARG1]
+	compound -> _affair_n_1 [label=ARG1]
+	"_be_v_id-fn.Assemble" -> "_spree/nn_u_unknown" [label="ARG1-fn.Individuals"]
+	compound -> nominalization [label=ARG2]
+	"_be_v_id-fn.Assemble" -> _affair_n_1 [label="ARG2-fn.Group"]
+	compound -> _time_n_of [label=ARG2]
+	"card(1)" -> _time_n_of [label=ARG1]
+	_soviet_a_1 -> "_spree/nn_u_unknown" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

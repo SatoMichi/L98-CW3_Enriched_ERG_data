@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hand_v_out-fn.Undergo_change" -> _contract_n_1 [label="ARG2-fn.Final_category"]
+	_with_p -> _contract_n_1 [label=ARG2]
+	"_say_v_to-fn.Cause_to_end" -> "named(Media)" [label="ARG1-fn.Process"]
+	_very_x_deg -> _scrupulous_a_1 [label=ARG1]
+	_scrupulous_a_1 -> pron [label=ARG1]
+	_with_p -> _scrupulous_a_1 [label=ARG1]
+	compound -> "named(United)" [label=ARG2]
+	proper_q -> "named(United)" [label=BV]
+	_the_q -> _contract_n_1 [label=BV]
+	proper_q -> "named(Media)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> _scrupulous_a_1 [label="ARG2-fn.Means"]
+	"_hand_v_out-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+	compound -> "named(Media)" [label=ARG1]
+}

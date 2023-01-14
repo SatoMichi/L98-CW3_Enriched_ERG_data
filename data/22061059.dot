@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	plus -> "card(56)" [label=ARG2]
+	plus -> "card(2)" [label=ARG2]
+	plus -> "fraction(1/4)" [label=ARG3]
+	number_q -> "card(56)" [label=BV]
+	plus -> "fraction(7/8)" [label=ARG3]
+	number_q -> "card(2)" [label=BV]
+	loc_nonsp -> "card(2)" [label=ARG2]
+	proper_q -> "named(Intertan)" [label=BV]
+	_to_p -> "_jump_v_1-fn.Activity_start" [label=ARG1]
+	_to_p -> "card(56)" [label=ARG2]
+	loc_nonsp -> "_jump_v_1-fn.Activity_start" [label=ARG1]
+	"_jump_v_1-fn.Activity_start" -> "named(Intertan)" [label="ARG1-fn.Place"]
+}

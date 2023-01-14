@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_can_v_modal -> "_continue_v_2-fn.Activity_ongoing" [label=ARG1]
+	_absorb_v_1 -> _supply_n_1 [label=ARG2]
+	"_continue_v_2-fn.Activity_ongoing" -> _absorb_v_1 [label="ARG1-fn.NotExist"]
+	_this_q_dem -> _supply_n_1 [label=BV]
+	_most_q -> _dealer_n_1 [label=BV]
+	neg -> _can_v_modal [label=ARG1]
+	_absorb_v_1 -> _dealer_n_1 [label=ARG1]
+}

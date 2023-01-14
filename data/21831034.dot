@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_can_v_modal-fn.Reliance" -> "_live_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	_little_a_1 -> _pleasure_n_of [label=ARG1]
+	_with_p -> "_live_v_1-fn.Competition" [label=ARG1]
+	_with_p -> _pleasure_n_of [label=ARG2]
+	"_live_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	udef_q -> _pleasure_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

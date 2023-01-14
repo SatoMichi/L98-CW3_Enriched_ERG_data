@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_quiet_a_1 -> _science_n_1 [label=ARG1]
+	_economic_a_1 -> _science_n_1 [label=ARG1]
+	_in_p -> _university_n_of [label=ARG2]
+	_the_q -> _university_n_of [label=BV]
+	_in_p -> "_practice_v_1-fn.Achieving_first" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	_the_q -> _science_n_1 [label=BV]
+	parg_d -> "_practice_v_1-fn.Achieving_first" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _science_n_1 [label="ARG2-fn.Means"]
+	"_practice_v_1-fn.Achieving_first" -> _science_n_1 [label="ARG2-fn.New_idea"]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	parg_d -> _science_n_1 [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rise_v_1-fn.Experiencer_obj" -> _price_n_of [label="ARG1-fn.Experiencer"]
+	compound -> _bond_n_1 [label=ARG2]
+	udef_q -> _bond_n_1 [label=BV]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+}

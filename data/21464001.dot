@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _sentiment_n_1 [label=ARG1]
+	"_bullish/jj_u_unknown" -> _sentiment_n_1 [label=ARG1]
+	udef_q -> _bond_n_1 [label=BV]
+	compound -> _bond_n_1 [label=ARG2]
+	compound -> _market_n_1 [label=ARG2]
+	_on_p -> _rise_n_1 [label=ARG2]
+	udef_q -> _market_n_1 [label=BV]
+	_again_a_1 -> _on_p [label=ARG1]
+	_on_p -> _sentiment_n_1 [label=ARG1]
+	udef_q -> _sentiment_n_1 [label=BV]
+	_the_q -> _rise_n_1 [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> _guarantee_n_of [label=BV]
+	focus_d -> _without_p [label=ARG2]
+	udef_q -> _right_n_1 [label=BV]
+	_civil_a_1 -> _right_n_1 [label=ARG1]
+	_legal_a_1 -> _recourse_n_1 [label=ARG1]
+	_without_p -> _recourse_n_1 [label=ARG2]
+	focus_d -> "_be_v_there-fn.Needing" [label=ARG1]
+	_for_p -> person [label=ARG2]
+	_without_p -> "_be_v_there-fn.Needing" [label=ARG1]
+	"_be_v_there-fn.Needing" -> _guarantee_n_of [label="ARG1-fn.Cognizer"]
+	udef_q -> _recourse_n_1 [label=BV]
+	_guarantee_n_of -> _right_n_1 [label=ARG1]
+	_any_q -> person [label=BV]
+	_for_p -> _guarantee_n_of [label=ARG1]
+}

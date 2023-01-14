@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _delegate_n_1 [label=BV]
+	_the_q -> _elephant_n_1 [label=BV]
+	_the_q -> _ban_n_1 [label=BV]
+	"_guarantee_v_1-fn.NF" -> _ban_n_1 [label="ARG1-fn.Agent"]
+	"_zimbabwean/jj_u_unknown" -> _delegate_n_1 [label=ARG1]
+	_argue_v_with -> _delegate_n_1 [label=ARG1]
+	_the_q -> _extinction_n_1 [label=BV]
+	"_guarantee_v_1-fn.NF" -> _extinction_n_1 [label="ARG2-fn.Theme"]
+	_of_p -> _elephant_n_1 [label=ARG2]
+	_argue_v_with -> _would_v_modal [label=ARG2]
+	_would_v_modal -> "_guarantee_v_1-fn.NF" [label=ARG1]
+	_of_p -> _extinction_n_1 [label=ARG1]
+}

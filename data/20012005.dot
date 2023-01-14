@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _page_n_1 [label=ARG1]
+	udef_q -> _color_n_1 [label=BV]
+	proper_q -> "named(Newsweek)" [label=BV]
+	_a_q -> _page_n_1 [label=BV]
+	compound -> _color_n_1 [label=ARG2]
+	_in_p -> "named(Newsweek)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(4)" -> _color_n_1 [label=ARG1]
+	_in_p -> _page_n_1 [label=ARG1]
+	"_cost_v_1-fn.Expensiveness" -> _dollar_n_1 [label="ARG2-fn.Theme"]
+	_full_a_of -> _page_n_1 [label=ARG1]
+	"_cost_v_1-fn.Expensiveness" -> _page_n_1 [label="ARG1-fn.NotExist"]
+	"card(100,980)" -> _dollar_n_1 [label=ARG1]
+}

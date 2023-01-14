@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_colon_v_id-fn.Operate_vehicle" -> "_salmonella/nn_u_unknown" [label="ARG2-fn.Vehicle"]
+	_main_a_1 -> _reason_n_for [label=ARG1]
+	"_colon_v_id-fn.Operate_vehicle" -> _reason_n_for [label="ARG1-fn.Driver"]
+	udef_q -> "_salmonella/nn_u_unknown" [label=BV]
+	_the_q -> _reason_n_for [label=BV]
+}

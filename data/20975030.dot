@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_current_a_1 -> "_develop_v_cause-fn.IN" [label=ARG1]
+	"_acquire_v_1-fn.Getting" -> _right_n_1 [label="ARG2-fn.Theme"]
+	"_acquire_v_1-fn.Getting" -> "named(Athena)" [label="ARG1-fn.Agent"]
+	_to_p -> _right_n_1 [label=ARG1]
+	"_develop_v_cause-fn.IN" -> "named(Athena)" [label="ARG1-fn.Agent"]
+	udef_q -> _right_n_1 [label=BV]
+	_the_q -> _technology_n_1 [label=BV]
+	_exclusive_a_of -> _right_n_1 [label=ARG1]
+	_eventual_a_1 -> "_acquire_v_1-fn.Getting" [label=ARG1]
+	"_develop_v_cause-fn.IN" -> pron [label="ARG2-fn.Product"]
+	proper_q -> "named(Athena)" [label=BV]
+	_to_p -> _technology_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

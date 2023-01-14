@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_get_v_state-fn.Cause_to_end" [label=ARG2]
+	"_get_v_state-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	"_take_v_1-fn.Commerce_buy" -> generic_entity [label="ARG2-fn.Goods"]
+	_that_q_dem -> generic_entity [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_add_v_to-fn.Cause_to_end" -> "_get_v_state-fn.Cause_to_end" [label="ARG2-fn.Means"]
+	"_get_v_state-fn.Cause_to_end" -> _hard_a_for [label="ARG2-fn.Means"]
+	_hard_a_for -> "_take_v_1-fn.Commerce_buy" [label=ARG1]
+	focus_d -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+}

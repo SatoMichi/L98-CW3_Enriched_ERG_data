@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_wish_v_1-fn.Getting" -> _executive_n_1 [label="ARG1-fn.Recipient"]
+	compound -> _mister_n_1 [label=ARG2]
+	_well_a_1 -> "_wish_v_1-fn.Getting" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _industry_n_1 [label=ARG2]
+	compound -> _executive_n_1 [label=ARG1]
+	"_wish_v_1-fn.Getting" -> "named(Achenbaum)" [label="ARG2-fn.Theme"]
+	proper_q -> "named(Achenbaum)" [label=BV]
+	compound -> "named(Achenbaum)" [label=ARG1]
+	udef_q -> _executive_n_1 [label=BV]
+	udef_q -> _industry_n_1 [label=BV]
+}

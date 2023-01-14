@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_about_p -> "_rule+of+thumb_n_1" [label=ARG1]
+	neg -> _can_v_modal [label=ARG1]
+	_be_v_nv -> neg [label=ARG2]
+	_see_v_1 -> pron [label=ARG1]
+	_can_v_modal -> "_steer_v_1-fn.NF" [label=ARG1]
+	_the_q -> "_rule+of+thumb_n_1" [label=BV]
+	nominalization -> _balloon_v_1 [label=ARG1]
+	_see_v_1 -> _be_v_nv [label=ARG2]
+	_other_a_1 -> "_rule+of+thumb_n_1" [label=ARG1]
+	"_steer_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_about_p -> nominalization [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	_be_v_nv -> "_rule+of+thumb_n_1" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

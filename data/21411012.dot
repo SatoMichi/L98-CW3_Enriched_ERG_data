@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lose_v_1-fn.Competition" -> implicit_conj [label="ARG2-fn.Participant_2"]
+	_once_x_subord -> _and_c [label=ARG2]
+	udef_q -> _money_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_once_x_subord -> "_lose_v_1-fn.Competition" [label=ARG1]
+	"_lose_v_1-fn.Competition" -> "named(Cowboys)" [label="ARG1-fn.Participant_1"]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _fan_n_1 [label=BV]
+	_now_a_1 -> "_lose_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _game_n_1 [label=BV]
+	_the_q -> "named(Cowboys)" [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Sesame)" [label=ARG2]
+	compound -> "named(Street)" [label=ARG1]
+	proper_q -> "named(Sesame)" [label=BV]
+	_the_q -> _polish_n_2 [label=BV]
+	proper_q -> "named(Street)" [label=BV]
+	"_lack_v_1-fn.Piracy" -> "named(Batibot)" [label="ARG1-fn.Perpetrator"]
+	proper_q -> "named(Batibot)" [label=BV]
+	_of_p -> _polish_n_2 [label=ARG1]
+	_of_p -> "named(Street)" [label=ARG2]
+	"_lack_v_1-fn.Piracy" -> _polish_n_2 [label="ARG2-fn.Vehicle"]
+}

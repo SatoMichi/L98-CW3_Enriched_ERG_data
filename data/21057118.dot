@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_mix_v_1-fn.Cause_to_end" -> _outlook_n_1 [label="ARG2-fn.Means"]
+	parg_d -> "_mix_v_1-fn.Cause_to_end" [label=ARG1]
+	_also_a_1 -> "_mix_v_1-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _outlook_n_1 [label=ARG2]
+	_the_q -> _outlook_n_1 [label=BV]
+	compound -> "season(winter)" [label=ARG2]
+	compound -> "named(Games)" [label=ARG1]
+	udef_q -> "season(winter)" [label=BV]
+	compound -> _outlook_n_1 [label=ARG1]
+	proper_q -> "named(Games)" [label=BV]
+}

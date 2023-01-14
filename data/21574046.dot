@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_permanent_a_1 -> _insurance_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> _form_n_of [label="ARG1-fn.Resident"]
+	compound -> _life_n_of [label=ARG2]
+	"_be_v_id-fn.Residence" -> "_policy_n_of-on" [label="ARG2-fn.Location"]
+	_the_q -> "_policy_n_of-on" [label=BV]
+	udef_q -> _insurance_n_1 [label=BV]
+	_whole_a_1 -> _life_n_of [label=ARG1]
+	udef_q -> _life_n_of [label=BV]
+	_traditional_a_1 -> _form_n_of [label=ARG1]
+	superl -> _traditional_a_1 [label=ARG1]
+	superl -> _simple_a_for [label=ARG1]
+	_simple_a_for -> _form_n_of [label=ARG1]
+	compound -> "_policy_n_of-on" [label=ARG1]
+	_the_q -> _form_n_of [label=BV]
+	_straight_a_1 -> "_policy_n_of-on" [label=ARG1]
+}

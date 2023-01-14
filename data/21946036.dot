@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _would_v_modal [label="ARG2-fn.Topic"]
+	udef_q -> _mister_n_1 [label=BV]
+	def_explicit_q -> _lawyer_n_1 [label=BV]
+	_would_v_modal -> _appeal_v_1 [label=ARG1]
+	poss -> "named(Ahmad)" [label=ARG2]
+	_appeal_v_1 -> pron [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _lawyer_n_1 [label="ARG1-fn.Agent"]
+	proper_q -> "named(Ahmad)" [label=BV]
+	compound -> "named(Ahmad)" [label=ARG1]
+	poss -> _lawyer_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _merchant_n_of [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_the_q -> _bank_n_of [label=BV]
+	poss -> _board_n_of [label=ARG1]
+	poss -> _bank_n_of [label=ARG2]
+	def_explicit_q -> _board_n_of [label=BV]
+	"_remain_v_1-fn.State_continue" -> "named(Carey)" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Carey)" [label=BV]
+	compound -> _bank_n_of [label=ARG1]
+	compound -> _merchant_n_of [label=ARG2]
+	"_remain_v_1-fn.State_continue" -> _member_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _member_n_of [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_member_n_of -> _board_n_of [label=ARG1]
+	compound -> "named(Carey)" [label=ARG1]
+}

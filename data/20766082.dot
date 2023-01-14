@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	appos -> "named(Johnson)" [label=ARG1]
+	_that_q_dem -> _assumption_n_1 [label=BV]
+	_even_x_deg -> proper_q [label=ARG1]
+	"_make_v_1-fn.Competition" -> "named(Johnson)" [label="ARG1-fn.Participant_1"]
+	"_make_v_1-fn.Competition" -> _assumption_n_1 [label="ARG2-fn.Participant_2"]
+	compound -> _ms_n_1 [label=ARG2]
+	proper_q -> "named(Johnson)" [label=BV]
+	appos -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _ms_n_1 [label=BV]
+	compound -> "named(Johnson)" [label=ARG1]
+}

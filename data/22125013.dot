@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_this_q_dem -> generic_entity [label=BV]
+	loc_nonsp -> _true_a_of [label=ARG1]
+	_today_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	_true_a_of -> generic_entity [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	"_no+longer_a_1" -> _true_a_of [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> part_of [label="ARG2-fn.Means"]
+	def_explicit_q -> _style_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	part_of -> _style_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	poss -> pron [label=ARG2]
+	_too_a_also -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	poss -> _style_n_of [label=ARG1]
+	_part_q -> part_of [label=BV]
+}

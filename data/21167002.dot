@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Zealand)" [label=ARG1]
+	proper_q -> "named(Zealand)" [label=BV]
+	udef_q -> _retail_n_1 [label=BV]
+	neg -> "_disclose_v_to-fn.Reveal_secret" [label=ARG1]
+	compound -> "named(New)" [label=ARG2]
+	"_disclose_v_to-fn.Reveal_secret" -> _concern_n_1 [label="ARG1-fn.Agent"]
+	"_disclose_v_to-fn.Reveal_secret" -> _term_n_of [label="ARG2-fn.Topic"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _term_n_of [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	compound -> _concern_n_1 [label=ARG1]
+	_brew_v_1 -> _concern_n_1 [label=ARG1]
+	_the_q -> _concern_n_1 [label=BV]
+	compound -> _retail_n_1 [label=ARG2]
+}

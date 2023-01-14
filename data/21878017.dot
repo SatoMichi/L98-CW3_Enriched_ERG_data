@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"ord(4)" -> _game_n_1 [label=ARG1]
+	"ord(3)" -> _game_n_1 [label=ARG1]
+	"_postpone_v_1-fn.Relative_time" -> _quake_n_1 [label="ARG1-fn.Focal_occasion"]
+	compound -> _series_n_of [label=ARG1]
+	_of_p -> _series_n_of [label=ARG2]
+	proper_q -> "named(World)" [label=BV]
+	"_postpone_v_1-fn.Relative_time" -> _game_n_1 [label="ARG2-fn.Landmark_occasion"]
+	_the_q -> _game_n_1 [label=BV]
+	_the_q -> _series_n_of [label=BV]
+	_of_p -> _game_n_1 [label=ARG1]
+	compound -> "named(World)" [label=ARG2]
+	_the_q -> _quake_n_1 [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _price_n_of [label=ARG2]
+	"_expect_v_1-fn.Commerce_buy" -> generic_entity [label="ARG1-fn.Buyer"]
+	comp -> _few_a_1 [label=ARG1]
+	comp -> "_expect_v_1-fn.Commerce_buy" [label=ARG2]
+	udef_q -> _swing_n_1 [label=BV]
+	udef_q -> generic_entity [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _swing_n_1 [label="ARG1-fn.Process"]
+	compound -> _swing_n_1 [label=ARG1]
+	_few_a_1 -> _swing_n_1 [label=ARG1]
+}

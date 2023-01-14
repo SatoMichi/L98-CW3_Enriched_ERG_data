@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_count_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_count_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_count_v_1-fn.Competition" -> thing [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	every_q -> thing [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ask_v_1-fn.Questioning" -> nominalization [label="ARG1-fn.Agent"]
+	udef_q -> _mister_n_1 [label=BV]
+	nominalization -> _could_v_modal [label=ARG1]
+	compound -> "named(Engelken)" [label=ARG1]
+	proper_q -> "named(Engelken)" [label=BV]
+	_could_v_modal -> "_good_a_at-for-of" [label=ARG1]
+	comp -> "_good_a_at-for-of" [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> "named(Engelken)" [label="ARG3-fn.NotExist"]
+	udef_q -> nominalization [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	which_q -> thing [label=BV]
+	"_good_a_at-for-of" -> thing [label=ARG1]
+}

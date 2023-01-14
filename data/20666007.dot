@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_near_a_to -> _pessimistic_a_1 [label=ARG1]
+	udef_q -> _analyst_n_1 [label=BV]
+	comp_equal -> _pessimistic_a_1 [label=ARG1]
+	_other_a_1 -> _analyst_n_1 [label=ARG1]
+	_pessimistic_a_1 -> _analyst_n_1 [label=ARG1]
+}

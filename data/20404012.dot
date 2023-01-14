@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Cause_to_end" -> "_piggybacking/vbg_u_unknown" [label="ARG2-fn.Means"]
+	"_develop_v_cause-fn.Partiality" -> _technology_n_1 [label="ARG2-fn.Side_1"]
+	"_piggybacking/vbg_u_unknown" -> pron [label=ARG1]
+	_onto_p -> _technology_n_1 [label=ARG2]
+	"_say_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	udef_q -> _technology_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	parg_d -> "_develop_v_cause-fn.Partiality" [label=ARG1]
+	_onto_p -> "_piggybacking/vbg_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_piggybacking/vbg_u_unknown" [label=ARG2]
+	parg_d -> _technology_n_1 [label=ARG2]
+}

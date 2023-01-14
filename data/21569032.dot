@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_late_a_for -> _wave_n_of [label=ARG1]
+	superl -> _late_a_for [label=ARG1]
+	_of_p -> _wave_n_of [label=ARG1]
+	nominalization -> _market_v_1 [label=ARG1]
+	_of_p -> nominalization [label=ARG2]
+	"_instructive/jj_u_unknown" -> _wave_n_of [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _wave_n_of [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _detail_n_1 [label=BV]
+	focus_d -> "_provide_v_1-fn.State_continue" [label=ARG1]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	focus_d -> loc_nonsp [label=ARG2]
+	_colon_p_namely -> "_provide_v_1-fn.State_continue" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	"_provide_v_1-fn.State_continue" -> _detail_n_1 [label="ARG2-fn.State"]
+	"_provide_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	loc_nonsp -> "_provide_v_1-fn.State_continue" [label=ARG1]
+}

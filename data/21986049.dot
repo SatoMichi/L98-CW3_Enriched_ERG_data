@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_however_a_1 -> neg [label=ARG1]
+	_the_q -> _phenomenon_n_1 [label=BV]
+	_jewish_a_1 -> _phenomenon_n_1 [label=ARG1]
+	_specific_a_to -> _jewish_a_1 [label=ARG1]
+	neg -> _jewish_a_1 [label=ARG1]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "yofc(1991)" [label=BV]
+	"_begin_v_1-fn.Process_start" -> _delivery_n_of [label="ARG1-fn.NotExist"]
+	_early_a_1 -> "yofc(1991)" [label=ARG1]
+	_in_p_temp -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	eventuality -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	_in_p_temp -> "yofc(1991)" [label=ARG2]
+	udef_q -> _delivery_n_of [label=BV]
+}

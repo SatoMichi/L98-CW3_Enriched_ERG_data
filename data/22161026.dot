@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> loc_nonsp [label=ARG2]
+	_last_a_1 -> _month_n_1 [label=ARG1]
+	def_implicit_q -> _month_n_1 [label=BV]
+	_the_q -> _complaint_n_1 [label=BV]
+	_intensify_v_1 -> _complaint_n_1 [label=ARG1]
+	_the_q -> _massage_n_of [label=BV]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	focus_d -> _intensify_v_1 [label=ARG1]
+	loc_nonsp -> _intensify_v_1 [label=ARG1]
+	"_end_v_1-fn.Cause_to_end" -> _massage_n_of [label="ARG1-fn.NotExist"]
+}

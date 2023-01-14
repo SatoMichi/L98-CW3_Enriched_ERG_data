@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_conspire_v_1-fn.Relative_time" -> _and_c [label="ARG1-fn.Focal_occasion"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _economics_n_1 [label=BV]
+	udef_q -> _politics_n_1 [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _plane_n_1 [label=ARG2]
+	udef_q -> _cargo_n_1 [label=BV]
+	compound -> _cargo_n_1 [label=ARG2]
+	udef_q -> _order_n_of [label=BV]
+	udef_q -> _plane_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	_large_a_1 -> _order_n_of [label=ARG1]
+	compound -> _plane_n_1 [label=ARG1]
+	"_have_v_1-fn.IN" -> _order_n_of [label="ARG2-fn.Theme"]
+	_current_a_1 -> "_have_v_1-fn.IN" [label=ARG1]
+	_for_p -> _order_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

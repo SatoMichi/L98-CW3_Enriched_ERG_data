@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _youth_n_1 [label=BV]
+	_natural_a_for -> _environment_n_1 [label=ARG1]
+	"_date_v_1-fn.NF" -> _interest_n_in [label="ARG1-fn.NotExist"]
+	_the_q -> _environment_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_from_p -> _youth_n_1 [label=ARG2]
+	poss -> _interest_n_in [label=ARG1]
+	def_explicit_q -> _interest_n_in [label=BV]
+	_interest_n_in -> _environment_n_1 [label=ARG1]
+	_from_p -> "_date_v_1-fn.NF" [label=ARG1]
+	poss -> _youth_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

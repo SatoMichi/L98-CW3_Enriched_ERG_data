@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_these_q_dem -> _case_n_of [label=BV]
+	"_occur_v_to-fn.Event" -> _abuse_n_of [label="ARG1-fn.NotExist"]
+	"_in+order+to_x" -> "_review_v_1-fn.NF" [label=ARG1]
+	"_review_v_1-fn.NF" -> "named(Justice)" [label="ARG1-fn.Agent"]
+	"_review_v_1-fn.NF" -> _case_n_of [label="ARG2-fn.Theme"]
+	proper_q -> "named(Justice)" [label=BV]
+	"_see_v_1-fn.Grasp" -> _may_v_modal [label="ARG2-fn.NotExist"]
+	"_see_v_1-fn.Grasp" -> "named(Justice)" [label="ARG1-fn.NotExist"]
+	_which_q -> _abuse_n_of [label=BV]
+	_other_a_1 -> _abuse_n_of [label=ARG1]
+	"_prosecutorial/jj_u_unknown" -> _abuse_n_of [label=ARG1]
+	"_in+order+to_x" -> "_see_v_1-fn.Grasp" [label=ARG2]
+	_may_v_modal -> "_occur_v_to-fn.Event" [label=ARG1]
+	_should_v_modal -> "_in+order+to_x" [label=ARG1]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _burden_n_1 [label=BV]
+	"_how+about_x" -> _burden_n_1 [label=ARG2]
+	compound -> _burden_n_1 [label=ARG1]
+	udef_q -> _debt_n_1 [label=BV]
+	"_how+about_x" -> generic_verb [label=ARG1]
+	compound -> _debt_n_1 [label=ARG2]
+}

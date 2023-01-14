@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	_positive_a_1 -> _sign_n_of [label=ARG1]
+	nominalization -> _sell_v_1 [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> _sign_n_of [label="ARG2-fn.Theme"]
+	parg_d -> part_of [label=ARG2]
+	part_of -> nominalization [label=ARG1]
+	_the_q -> nominalization [label=BV]
+	"_consider_v_1-fn.Categorization" -> part_of [label="ARG3-fn.NotExist"]
+	_actual_a_1 -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	_some_q -> part_of [label=BV]
+	_recent_a_1 -> nominalization [label=ARG1]
+	_could_v_modal -> _actual_a_1 [label=ARG1]
+	_a_q -> _sign_n_of [label=BV]
+}

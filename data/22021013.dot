@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p_temp -> "yofc(1980)" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_predict_v_1-fn.Predicting" -> _famine_n_1 [label="ARG2-fn.Topic"]
+	"_predict_v_1-fn.Predicting" -> "named(Ehrlich)" [label="ARG1-fn.Cause"]
+	compound -> "named(Ehrlich)" [label=ARG1]
+	proper_q -> "named(Ehrlich)" [label=BV]
+	udef_q -> _famine_n_1 [label=BV]
+	_by_p_temp -> "_predict_v_1-fn.Predicting" [label=ARG1]
+	_unprecedented_a_1 -> _famine_n_1 [label=ARG1]
+	proper_q -> "yofc(1980)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+}

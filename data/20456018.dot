@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _revolutionary_n_1 [label="ARG2-fn.Name"]
+	_a_q -> _revolutionary_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> "named(Gonzalez)" [label="ARG1-fn.Entity"]
+	compound -> _side_n_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> _supply_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	udef_q -> _supply_n_1 [label=BV]
+	udef_q -> _closet_n_1 [label=BV]
+	"_not+quite_a" -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	udef_q -> _side_n_1 [label=BV]
+	proper_q -> "named(Gonzalez)" [label=BV]
+	compound -> "named(Gonzalez)" [label=ARG1]
+	compound -> _revolutionary_n_1 [label=ARG1]
+	compound -> _closet_n_1 [label=ARG2]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Causation" -> pron [label="ARG1-fn.Agent"]
+	neg -> "_make_v_1-fn.Causation" [label=ARG1]
+	_any_q -> _difference_n_1 [label=BV]
+	_now_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	loc_nonsp -> "_make_v_1-fn.Causation" [label=ARG1]
+	"_make_v_1-fn.Causation" -> _difference_n_1 [label="ARG2-fn.Theme"]
+	def_implicit_q -> time_n [label=BV]
+	pronoun_q -> pron [label=BV]
+}

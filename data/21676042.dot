@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> "dofm(27)" [label=BV]
+	loc_nonsp -> "yofc(1999)" [label=ARG2]
+	proper_q -> "yofc(1999)" [label=BV]
+	of_p -> "dofm(27)" [label=ARG1]
+	loc_nonsp -> "_mature_v_1-fn.Competition" [label=ARG1]
+	_the_q -> "_debentures/nns_u_unknown" [label=BV]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	"_mature_v_1-fn.Competition" -> "_debentures/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	loc_nonsp -> "dofm(27)" [label=ARG1]
+}

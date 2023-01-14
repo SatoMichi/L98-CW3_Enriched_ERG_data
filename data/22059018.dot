@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_seem_v_to-fn.Desiring" -> _thin_a_1 [label="ARG2-fn.Event"]
+	compound -> _law_n_1 [label=ARG2]
+	compound -> _purpose_n_1 [label=ARG1]
+	_criminal_a_1 -> _law_n_1 [label=ARG1]
+	udef_q -> _law_n_1 [label=BV]
+	udef_q -> _purpose_n_1 [label=BV]
+	_awfully_x -> _thin_a_1 [label=ARG1]
+	_for_p -> _purpose_n_1 [label=ARG2]
+	_for_p -> "_seem_v_to-fn.Desiring" [label=ARG1]
+	_thin_a_1 -> _line_n_of [label=ARG1]
+	"_seem_v_to-fn.Desiring" -> _line_n_of [label="ARG1-fn.Experiencer"]
+	_the_q -> _line_n_of [label=BV]
+}

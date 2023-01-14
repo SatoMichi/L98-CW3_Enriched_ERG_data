@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_after_p -> _announcement_n_of [label=ARG2]
+	udef_q -> _share_n_of [label=BV]
+	"_fall_v_1-fn.Halt" -> _share_n_of [label="ARG1-fn.Purpose"]
+	_after_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	_the_q -> _announcement_n_of [label=BV]
+	proper_q -> "named(Inco)" [label=BV]
+	compound -> "named(Inco)" [label=ARG2]
+	compound -> _share_n_of [label=ARG1]
+}

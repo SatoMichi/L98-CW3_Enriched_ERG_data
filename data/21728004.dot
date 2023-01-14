@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _dollar_n_1 [label=BV]
+	subord -> _finish_v_1 [label=ARG1]
+	subord -> _mix_v_1 [label=ARG2]
+	udef_q -> _gold_n_1 [label=BV]
+	_finish_v_1 -> _dollar_n_1 [label=ARG1]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _gold_n_1 [label="ARG1-fn.NotExist"]
+	_while_x -> "_decline_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	parg_d -> _mix_v_1 [label=ARG1]
+	_while_x -> subord [label=ARG1]
+}

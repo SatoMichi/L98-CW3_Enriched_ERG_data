@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _associate_n_of [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> "_paint_v_1-fn.Piracy" [label="ARG1-fn.Speaker"]
+	"_paint_v_1-fn.Piracy" -> pron [label="ARG2-fn.Vehicle"]
+	parg_d -> "_paint_v_1-fn.Piracy" [label=ARG1]
+	proper_q -> "named(Rubens)" [label=BV]
+	compound -> _associate_n_of [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	_by_p -> _associate_n_of [label=ARG2]
+	_by_p -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_instead_p -> "_paint_v_1-fn.Piracy" [label=ARG1]
+	"_paint_v_1-fn.Piracy" -> _by_p [label="ARG3-fn.Victim"]
+	compound -> "named(Rubens)" [label=ARG2]
+}

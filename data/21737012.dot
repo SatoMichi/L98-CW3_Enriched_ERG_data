@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(10,000)" -> _dollar_n_1 [label=ARG1]
+	_apiece_p -> _dollar_n_1 [label=ARG1]
+	"_pay_v_for-fn.Commerce_buy" -> _dollar_n_1 [label="ARG2-fn.Goods"]
+	"card(282)" -> _member_n_of [label=ARG1]
+	_for_p -> _seat_n_1 [label=ARG2]
+	_for_p -> "_pay_v_for-fn.Commerce_buy" [label=ARG1]
+	udef_q -> _seat_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_pay_v_for-fn.Commerce_buy" -> _member_n_of [label="ARG1-fn.Buyer"]
+	_the_q -> _member_n_of [label=BV]
+}

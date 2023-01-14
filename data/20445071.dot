@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _high_a_1 [label=ARG1]
+	comp -> "little-few_a" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _result_n_of [label="ARG1-fn.Process"]
+	"much-many_a" -> _analyst_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _and_c [label="ARG2-fn.Means"]
+	"little-few_a" -> _innovation_n_1 [label=ARG1]
+	"_according+to_p" -> _analyst_n_1 [label=ARG2]
+	udef_q -> _analyst_n_1 [label=BV]
+	_the_q -> _result_n_of [label=BV]
+	_high_a_1 -> _price_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	"_according+to_p" -> _result_n_of [label=ARG1]
+	udef_q -> _innovation_n_1 [label=BV]
+}

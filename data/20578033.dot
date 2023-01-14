@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG2-fn.Topic"]
+	_up_p -> _call_v_1 [label=ARG1]
+	_if_x_then -> "_tell_v_1-fn.Telling" [label=ARG1]
+	_fine_a_for -> thing [label=ARG1]
+	_if_x_then -> _call_v_1 [label=ARG2]
+	_just_a_1 -> "_tell_v_1-fn.Telling" [label=ARG1]
+	every_q -> thing [label=BV]
+	_call_v_1 -> pron [label=ARG2]
+	"_tell_v_1-fn.Telling" -> _fine_a_for [label="ARG3-fn.Recipient"]
+	pronoun_q -> pron [label=BV]
+}

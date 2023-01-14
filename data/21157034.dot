@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	of_p -> "dofm(10)" [label=ARG1]
+	loc_nonsp -> "_split_v_1-fn.Social_event" [label=ARG1]
+	_on_p_temp -> "dofm(10)" [label=ARG2]
+	_on_p_temp -> "_split_v_1-fn.Social_event" [label=ARG1]
+	_for_p -> "card(1)" [label=ARG2]
+	loc_nonsp -> "card(4)" [label=ARG2]
+	"_split_v_1-fn.Social_event" -> _stock_n_1 [label="ARG1-fn.Duration"]
+	number_q -> "card(1)" [label=BV]
+	def_explicit_q -> "dofm(10)" [label=BV]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	_the_q -> _stock_n_1 [label=BV]
+	number_q -> "card(4)" [label=BV]
+	_for_p -> "card(4)" [label=ARG1]
+}

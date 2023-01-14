@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _system_n_of [label=BV]
+	"_believe_v_in-fn.Coming_to_believe" -> _system_n_of [label="ARG2-fn.Evidence"]
+	"_believe_v_in-fn.Coming_to_believe" -> pron [label="ARG1-fn.Cognizer"]
+}

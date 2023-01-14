@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _holder_n_of [label=BV]
+	_the_q -> _agreement_n_1 [label=BV]
+	"_suspend_v_1-fn.Bail_decision" -> "_lawsuits/nns_u_unknown" [label="ARG2-fn.Judge"]
+	def_explicit_q -> "_lawsuits/nns_u_unknown" [label=BV]
+	_as_p -> "_suspend_v_1-fn.Bail_decision" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	"_suspend_v_1-fn.Bail_decision" -> _and_c [label="ARG1-fn.Accused"]
+	_as_p -> part_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	poss -> "_lawsuits/nns_u_unknown" [label=ARG1]
+	_the_q -> "_thrift/nn_u_unknown" [label=BV]
+	part_of -> _agreement_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_part_q -> part_of [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _risk_n_of [label=BV]
+	_the_q -> _and_c [label=BV]
+	_reasonable_a_for -> _and_c [label=ARG1]
+	udef_q -> _reward_n_1 [label=BV]
+	udef_q -> _developer_n_of [label=BV]
+	_if_x_then -> _reasonable_a_for [label=ARG2]
+	"_respond_v_to-fn.Communication_response" -> _developer_n_of [label="ARG1-fn.Agent"]
+	_if_x_then -> "_respond_v_to-fn.Communication_response" [label=ARG1]
+}

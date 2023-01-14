@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_there [label=ARG1]
+	focus_d -> _at_p_temp [label=ARG2]
+	_the_q -> _time_n_of [label=BV]
+	loc_nonsp -> _time_n_of [label=ARG2]
+	_at_p_temp -> _time_n_of [label=ARG2]
+	"_announce_v_to-fn.Statement" -> _plan_n_1 [label="ARG2-fn.Topic"]
+	parg_d -> "_announce_v_to-fn.Statement" [label=ARG1]
+	parg_d -> _plan_n_1 [label=ARG2]
+	udef_q -> _lawyer_n_1 [label=BV]
+	"card(135)" -> _lawyer_n_1 [label=ARG1]
+	_the_q -> _plan_n_1 [label=BV]
+	_be_v_there -> _lawyer_n_1 [label=ARG1]
+	loc_nonsp -> "_announce_v_to-fn.Statement" [label=ARG1]
+	_at_p_temp -> _be_v_there [label=ARG1]
+}

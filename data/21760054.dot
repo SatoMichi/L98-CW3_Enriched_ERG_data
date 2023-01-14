@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _white_n_1 [label="ARG1-fn.Resident"]
+	_troubled_a_1 -> _white_n_1 [label=ARG1]
+	_the_q -> _white_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> "named(Workers)" [label="ARG2-fn.Location"]
+	udef_q -> "named(Workers)" [label=BV]
+	compound -> "named(650-or-so)" [label=ARG2]
+	_local_a_1 -> _white_n_1 [label=ARG1]
+	proper_q -> "named(Orange)" [label=BV]
+	compound -> _local_a_1 [label=ARG1]
+	neg -> "_be_v_id-fn.Residence" [label=ARG1]
+	compound -> "named(Workers)" [label=ARG1]
+	compound -> "named(Orange)" [label=ARG2]
+	udef_q -> "named(650-or-so)" [label=BV]
+	comp -> _troubled_a_1 [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_disrupt_v_1-fn.Experiencer_obj" [label=ARG1]
+	parg_d -> _business_n_1 [label=ARG2]
+	"_disrupt_v_1-fn.Experiencer_obj" -> _business_n_1 [label="ARG2-fn.Stimulus"]
+	udef_q -> _business_n_1 [label=BV]
+	neg -> "_disrupt_v_1-fn.Experiencer_obj" [label=ARG1]
+}

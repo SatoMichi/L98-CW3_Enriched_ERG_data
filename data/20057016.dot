@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_after_x_h -> "_make_v_1-fn.Rite" [label=ARG1]
+	poss -> _announcement_n_of [label=ARG1]
+	parg_d -> "_make_v_1-fn.Rite" [label=ARG1]
+	parg_d -> _announcement_n_of [label=ARG2]
+	_after_x_h -> "_close_v_1-fn.Halt" [label=ARG2]
+	"_close_v_1-fn.Halt" -> _market_n_1 [label="ARG1-fn.Purpose"]
+	"_make_v_1-fn.Rite" -> _announcement_n_of [label="ARG2-fn.Member"]
+	def_implicit_q -> time_n [label=BV]
+	def_explicit_q -> _announcement_n_of [label=BV]
+	udef_q -> _market_n_1 [label=BV]
+	poss -> time_n [label=ARG2]
+	_yesterday_a_1 -> time_n [label=ARG1]
+}

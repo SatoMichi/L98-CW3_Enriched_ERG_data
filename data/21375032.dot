@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_teach_v_1-fn.Education_teaching" -> pron [label="ARG2-fn.Topic"]
+	_humble_a_1 -> pron [label=ARG1]
+	"_teach_v_1-fn.Education_teaching" -> _humble_a_1 [label="ARG3-fn.Recipient"]
+	"_teach_v_1-fn.Education_teaching" -> _market_n_1 [label="ARG1-fn.Agent"]
+	_this_q_dem -> _market_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

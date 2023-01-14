@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _other_n_1 [label=ARG2]
+	"card(1)" -> generic_entity [label=ARG1]
+	"_go_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	_from_p_dir -> generic_entity [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	_to_p -> _from_p_dir [label=ARG1]
+	_the_q -> _other_n_1 [label=BV]
+	_from_p_dir -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_comment_v_on-fn.Judgment_direct_address" -> "named(Hess)" [label="ARG1-fn.Communicator"]
+	"_decline_v_1-fn.Experiencer_obj" -> "named(Hess)" [label="ARG1-fn.Experiencer"]
+	"_decline_v_1-fn.Experiencer_obj" -> "_comment_v_on-fn.Judgment_direct_address" [label="ARG2-fn.Stimulus"]
+	proper_q -> "named(Hess)" [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_believe_v_1-fn.Opinion" -> _company_n_of [label="ARG1-fn.NotExist"]
+	_the_q -> _analyst_n_1 [label=BV]
+	"_believe_v_1-fn.Opinion" -> _pessimistic_a_1 [label="ARG2-fn.NotExist"]
+	_in_p -> _company_n_of [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	idiom_q_i -> _question_n_about [label=BV]
+	_pessimistic_a_1 -> _analyst_n_1 [label=ARG1]
+	comp_too -> _pessimistic_a_1 [label=ARG1]
+	_in_p -> _question_n_about [label=ARG2]
+}

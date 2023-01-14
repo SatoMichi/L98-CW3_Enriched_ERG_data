@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tell_v_1-fn.Request" -> person [label="ARG1-fn.NotExist"]
+	_some_q -> person [label=BV]
+	_some_q -> thing [label=BV]
+	"_tell_v_1-fn.Request" -> pron [label="ARG3-fn.NotExist"]
+	"_tell_v_1-fn.Request" -> thing [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _confidence_n_1 [label=BV]
+	_no_q -> _question_n_about [label=BV]
+	_question_n_about -> _critical_a_of [label=ARG1]
+	_critical_a_of -> _confidence_n_1 [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> _question_n_about [label="ARG1-fn.Process"]
+	compound -> _stock_n_1 [label=ARG2]
+	compound -> _market_n_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	compound -> _investor_n_1 [label=ARG2]
+	udef_q -> _stock_n_1 [label=BV]
+	compound -> _confidence_n_1 [label=ARG1]
+	_in_p -> _market_n_1 [label=ARG2]
+	_in_p -> _confidence_n_1 [label=ARG1]
+}

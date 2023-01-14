@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	parg_d -> _asset_n_1 [label=ARG2]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	"_sell_v_1-fn.Commerce_sell" -> _asset_n_1 [label="ARG2-fn.Theme"]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	udef_q -> _asset_n_1 [label=BV]
+	_the_q -> _exclusion_n_of [label=BV]
+	_after_p -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_apply_v_to-fn.Using" -> _exclusion_n_of [label="ARG1-fn.NotExist"]
+	def_explicit_q -> "dofm(1)" [label=BV]
+	_would_v_modal -> "_apply_v_to-fn.Using" [label=ARG1]
+	"_apply_v_to-fn.Using" -> _asset_n_1 [label="ARG2-fn.Theme"]
+	of_p -> "dofm(1)" [label=ARG1]
+	_after_p -> "dofm(1)" [label=ARG2]
+}

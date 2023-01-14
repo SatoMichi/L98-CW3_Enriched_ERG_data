@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _high_n_1 [label=BV]
+	compound -> _record_n_of [label=ARG2]
+	"card(2)" -> _figure_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _figure_n_1 [label="ARG1-fn.Process"]
+	compound -> _high_n_1 [label=ARG1]
+	udef_q -> _record_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _high_n_1 [label="ARG2-fn.Means"]
+	_both_q -> _figure_n_1 [label=BV]
+}

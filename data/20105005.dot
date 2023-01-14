@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _cause_n_of [label=BV]
+	"_understand_v_by-fn.Grasp" -> _cause_n_of [label="ARG2-fn.Theme"]
+	parg_d -> "_understand_v_by-fn.Grasp" [label=ARG1]
+	_cause_n_of -> _homelessness_n_1 [label=ARG1]
+	_any_q -> _case_n_of [label=BV]
+	udef_q -> _homelessness_n_1 [label=BV]
+	_individual_a_1 -> _case_n_of [label=ARG1]
+	parg_d -> _cause_n_of [label=ARG2]
+	_complex_a_1 -> _cause_n_of [label=ARG1]
+	_poor_a_1 -> "_understand_v_by-fn.Grasp" [label=ARG1]
+	_in_p -> _complex_a_1 [label=ARG1]
+	_in_p -> _case_n_of [label=ARG2]
+}

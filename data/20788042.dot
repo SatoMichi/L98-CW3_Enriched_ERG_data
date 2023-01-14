@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_x_subord -> ellipsis_ref [label=ARG2]
+	_the_q -> _environment_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_in_p_state -> "_function_v_1-fn.NF" [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	_as_x_subord -> _complex_a_1 [label=ARG1]
+	_in_p_state -> _environment_n_1 [label=ARG2]
+	"_function_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_complex_a_1 -> _market_n_1 [label=ARG1]
+	ellipsis_ref -> _environment_n_1 [label=ARG1]
+}

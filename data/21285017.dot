@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_like_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	_from_p -> _news_n_of [label=ARG1]
+	_apparent_a_1 -> neg [label=ARG1]
+	proper_q -> "named(Technologies)" [label=BV]
+	"_like_v_1-fn.Cause_to_make_noise" -> _investor_n_1 [label="ARG1-fn.Agent"]
+	compound -> "named(Technologies)" [label=ARG1]
+	proper_q -> "named(Rainbow)" [label=BV]
+	_either_a_also -> "_like_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	"_like_v_1-fn.Cause_to_make_noise" -> _news_n_of [label="ARG2-fn.Sound_maker"]
+	udef_q -> _investor_n_1 [label=BV]
+	compound -> "named(Rainbow)" [label=ARG2]
+	_from_p -> "named(Technologies)" [label=ARG2]
+	_the_q -> _news_n_of [label=BV]
+}

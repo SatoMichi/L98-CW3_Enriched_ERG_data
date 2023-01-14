@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(62.04)" -> _yen_n_2 [label=ARG1]
+	udef_q -> _net_n_1 [label=BV]
+	_per_a_1 -> _share_n_of [label=ARG1]
+	_to_p -> _yen_n_2 [label=ARG2]
+	compound -> _net_n_1 [label=ARG1]
+	udef_q -> _yen_n_2 [label=BV]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _net_n_1 [label="ARG1-fn.NotExist"]
+	_from_p -> _yen_n_2 [label=ARG2]
+	compound -> _share_n_of [label=ARG2]
+	"card(51.50)" -> _yen_n_2 [label=ARG1]
+	_to_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	_from_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

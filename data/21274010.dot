@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _shift_n_1 [label=ARG2]
+	_also_a_1 -> "_fueled/vbn_u_unknown" [label=ARG1]
+	"_fueled/vbn_u_unknown" -> _shift_n_1 [label=ARG2]
+	parg_d -> "_fueled/vbn_u_unknown" [label=ARG1]
+	"_fueled/vbn_u_unknown" -> _necessity_n_1 [label=ARG1]
+	udef_q -> _necessity_n_1 [label=BV]
+	_the_q -> _shift_n_1 [label=BV]
+}

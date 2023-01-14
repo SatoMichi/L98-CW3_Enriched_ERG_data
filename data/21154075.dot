@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_warn_v_1-fn.Competition" -> _expensive_a_1 [label="ARG2-fn.Participant_2"]
+	_the_q -> _spokesman_n_1 [label=BV]
+	focus_d -> _expensive_a_1 [label=ARG2]
+	_expensive_a_1 -> pron [label=ARG1]
+	_very_x_deg -> _expensive_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_warn_v_1-fn.Competition" -> _spokesman_n_1 [label="ARG1-fn.Participant_1"]
+	focus_d -> "_warn_v_1-fn.Competition" [label=ARG1]
+}

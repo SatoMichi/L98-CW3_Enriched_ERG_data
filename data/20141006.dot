@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "yofc(1985)" [label=BV]
+	_of_p -> generic_entity [label=ARG2]
+	"_use_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	udef_q -> generic_entity [label=BV]
+	_in_p_temp -> generic_entity [label=ARG1]
+	_a_q -> _base_n_1 [label=BV]
+	"card(100)" -> generic_entity [label=ARG1]
+	"_use_v_1-fn.IN" -> _base_n_1 [label="ARG2-fn.NotExist"]
+	_of_p -> _base_n_1 [label=ARG1]
+	_in_p_temp -> "yofc(1985)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

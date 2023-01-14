@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	"_die_v_1-fn.Death" -> _people_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _people_n_of [label=BV]
+}

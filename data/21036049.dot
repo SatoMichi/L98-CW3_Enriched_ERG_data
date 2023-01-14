@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Esselte)" [label=ARG2]
+	proper_q -> "named(Systems)" [label=BV]
+	proper_q -> "named(Business)" [label=BV]
+	number_q -> "card(43)" [label=BV]
+	compound -> "named(Business)" [label=ARG1]
+	"_rise_v_1-fn.Experiencer_obj" -> "named(Systems)" [label="ARG1-fn.Experiencer"]
+	compound -> "named(Systems)" [label=ARG1]
+	_to_p -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	loc_nonsp -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	plus -> "card(43)" [label=ARG2]
+	_to_p -> "card(43)" [label=ARG2]
+	plus -> "fraction(1/2)" [label=ARG3]
+	proper_q -> "named(Esselte)" [label=BV]
+}

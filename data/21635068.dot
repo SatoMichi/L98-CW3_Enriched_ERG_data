@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _issue_n_1 [label=ARG2]
+	udef_q -> _enhancement_n_of [label=BV]
+	_of_p -> _enhancement_n_of [label=ARG2]
+	"_vary_v_1-fn.NF" -> _detail_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _enhancement_n_of [label=ARG1]
+	_from_p -> _issue_n_1 [label=ARG2]
+	_from_p -> "_vary_v_1-fn.NF" [label=ARG1]
+	udef_q -> _credit_n_1 [label=BV]
+	udef_q -> _detail_n_1 [label=BV]
+	udef_q -> _issue_n_1 [label=BV]
+	_of_p -> _detail_n_1 [label=ARG1]
+	compound -> _credit_n_1 [label=ARG2]
+	_wide_a_1 -> "_vary_v_1-fn.NF" [label=ARG1]
+	_to_p -> _from_p [label=ARG1]
+}

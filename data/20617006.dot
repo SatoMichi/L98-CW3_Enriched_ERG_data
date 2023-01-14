@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _litigation_n_1 [label=BV]
+	"_intend_v_for-fn.Purpose" -> "_add_v_to-fn.Statement" [label="ARG2-fn.NotExist"]
+	"_add_v_to-fn.Statement" -> _staff_n_of [label="ARG3-fn.Co-Patient"]
+	compound -> _litigation_n_1 [label=ARG2]
+	"_add_v_to-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	compound -> _staff_n_of [label=ARG1]
+	"_intend_v_for-fn.Purpose" -> pron [label="ARG1-fn.NotExist"]
+	_the_q -> _staff_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_nv-fn.Commerce_collect" -> generic_entity [label="ARG1-fn.Buyer"]
+	poss -> _behavior_n_1 [label=ARG1]
+	_arguable_a_1 -> "_be_v_nv-fn.Commerce_collect" [label=ARG1]
+	def_explicit_q -> _behavior_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	"card(2)" -> generic_entity [label=ARG1]
+	"_be_v_nv-fn.Commerce_collect" -> _risky_a_for [label="ARG2-fn.Goods"]
+	_on_p -> _notice_n_1 [label=ARG2]
+	_both_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _notice_n_1 [label=BV]
+	_on_p -> "_be_v_nv-fn.Commerce_collect" [label=ARG1]
+	"_at+least_a_1" -> _risky_a_for [label=ARG1]
+	_risky_a_for -> _behavior_n_1 [label=ARG1]
+}

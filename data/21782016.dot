@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_follow_v_1-fn.Cotheme" -> _decline_n_1 [label="ARG2-fn.Theme"]
+	_in_p_temp -> "mofy(Aug)" [label=ARG2]
+	compound -> _decline_n_1 [label=ARG1]
+	"_follow_v_1-fn.Cotheme" -> generic_entity [label="ARG1-fn.NotExist"]
+	udef_q -> _percent_n_of [label=BV]
+	proper_q -> "mofy(Aug)" [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	compound -> _percent_n_of [label=ARG2]
+	_in_p_temp -> _decline_n_1 [label=ARG1]
+	"card(3.3)" -> _percent_n_of [label=ARG1]
+	_a_q -> _decline_n_1 [label=BV]
+}

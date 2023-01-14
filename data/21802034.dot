@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.Competition" -> _expectation_n_of [label="ARG2-fn.Participant_2"]
+	"_have_v_1-fn.Competition" -> "named(B.A.T)" [label="ARG1-fn.Participant_1"]
+	_material_a_1 -> _impact_n_1 [label=ARG1]
+	proper_q -> "named(B.A.T)" [label=BV]
+	_expectation_n_of -> _impact_n_1 [label=ARG1]
+	proper_q -> "named(Farmers)" [label=BV]
+	_a_q -> _impact_n_1 [label=BV]
+	_on_p -> "named(Farmers)" [label=ARG2]
+	_on_p -> _impact_n_1 [label=ARG1]
+	"_add_v_to-fn.Fining" -> "_have_v_1-fn.Competition" [label="ARG2-fn.Instrument"]
+	pronoun_q -> pron [label=BV]
+	_no_q -> _expectation_n_of [label=BV]
+	"_add_v_to-fn.Fining" -> pron [label="ARG1-fn.Speaker"]
+}

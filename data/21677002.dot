@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_then_a_1 -> "_give_v_1-fn.Giving" [label=ARG1]
+	"_give_v_1-fn.Giving" -> _computer_n_1 [label="ARG1-fn.Agent"]
+	_ever_a_1 -> _read_v_1 [label=ARG1]
+	_read_v_1 -> pron [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	_read_v_1 -> generic_entity [label=ARG2]
+	_the_q -> _computer_n_1 [label=BV]
+	udef_q -> generic_entity [label=BV]
+	_can_v_modal -> _read_v_1 [label=ARG1]
+	udef_q -> "_information_n_on-about" [label=BV]
+	"_give_v_1-fn.Giving" -> pron [label="ARG3-fn.Recipient"]
+	"much-many_a" -> "_information_n_on-about" [label=ARG1]
+	comp -> _can_v_modal [label=ARG2]
+	"_give_v_1-fn.Giving" -> "_information_n_on-about" [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

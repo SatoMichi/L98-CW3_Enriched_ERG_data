@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_not+even_x_deg" -> _a_q [label=ARG1]
+	_a_q -> _tractor_n_1 [label=BV]
+	unknown -> _tractor_n_1 [label=ARG]
+}

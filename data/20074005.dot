@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _work_n_1 [label=ARG2]
+	_take_v_1 -> _measure_n_1 [label=ARG2]
+	udef_q -> "_shipment_n_of-to" [label=BV]
+	"_continue_v_2-fn.Activity_ongoing" -> "_shipment_n_of-to" [label="ARG2-fn.NotExist"]
+	_during_p -> "_stoppage/nn_u_unknown" [label=ARG2]
+	_take_v_1 -> pron [label=ARG1]
+	udef_q -> _work_n_1 [label=BV]
+	_the_q -> "_stoppage/nn_u_unknown" [label=BV]
+	udef_q -> _measure_n_1 [label=BV]
+	_measure_n_1 -> "_continue_v_2-fn.Activity_ongoing" [label=ARG1]
+	compound -> "_stoppage/nn_u_unknown" [label=ARG1]
+	"_say_v_to-fn.IN" -> _take_v_1 [label="ARG2-fn.Topic"]
+	_during_p -> "_continue_v_2-fn.Activity_ongoing" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

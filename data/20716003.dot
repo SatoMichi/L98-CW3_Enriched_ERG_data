@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _concern_n_1 [label=BV]
+	"_mine_v_1-fn.Piracy" -> _concern_n_1 [label="ARG1-fn.Perpetrator"]
+	"_be_v_id-fn.Name_conferral" -> "named(Outokumpu)" [label="ARG1-fn.Entity"]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Outokumpu)" [label=BV]
+	udef_q -> _construction_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _concern_n_1 [label="ARG2-fn.Name"]
+	compound -> _construction_n_of [label=ARG2]
+}

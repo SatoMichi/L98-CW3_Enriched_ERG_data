@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_instead_p -> "_freeze_v_cause-fn.Cause_to_end" [label=ARG1]
+	_the_q -> "named(Communists)" [label=BV]
+	"_freeze_v_cause-fn.Cause_to_end" -> _price_n_of [label="ARG2-fn.Means"]
+	"_freeze_v_cause-fn.Cause_to_end" -> "named(Communists)" [label="ARG1-fn.Process"]
+	udef_q -> _price_n_of [label=BV]
+}

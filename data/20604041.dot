@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _speculation_n_about [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Carpenter)" [label=ARG1]
+	"_deny_v_to-fn.Statement" -> "named(Carpenter)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Carpenter)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_deny_v_to-fn.Statement" -> _speculation_n_about [label="ARG2-fn.Predicate"]
+}

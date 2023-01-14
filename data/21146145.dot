@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> "_get_v_state-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _situation_n_1 [label=BV]
+	"_change_v_1-fn.Relative_time" -> _situation_n_1 [label="ARG1-fn.Focal_occasion"]
+	"_get_v_state-fn.Cause_to_end" -> _stuck_a_with [label="ARG2-fn.Means"]
+	"_get_v_state-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	_stuck_a_with -> pron [label=ARG2]
+	_if_x_then -> "_change_v_1-fn.Relative_time" [label=ARG2]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_establish_v_1-fn.State_continue" -> _month_n_1 [label="ARG1-fn.Entity"]
+	_of_p -> _collection_n_of [label=ARG2]
+	"_establish_v_1-fn.State_continue" -> _quality_n_1 [label="ARG2-fn.State"]
+	_last_a_1 -> _month_n_1 [label=ARG1]
+	"card(6)" -> _month_n_1 [label=ARG1]
+	_the_q -> _quality_n_1 [label=BV]
+	_the_q -> _collection_n_of [label=BV]
+	_the_q -> _month_n_1 [label=BV]
+	_of_p -> _quality_n_1 [label=ARG1]
+}

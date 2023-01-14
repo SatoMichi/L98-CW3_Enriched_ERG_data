@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_go_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	_into_p -> "_go_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _specifics_n_of [label=BV]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> "_go_v_1-fn.Halt" [label="ARG2-fn.Item"]
+	pronoun_q -> pron [label=BV]
+	_into_p -> _specifics_n_of [label=ARG2]
+}

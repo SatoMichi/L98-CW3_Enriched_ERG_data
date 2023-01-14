@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_id [label=ARG2]
+	neg -> "_happen_v_1-fn.Event" [label=ARG1]
+	"_happen_v_1-fn.Event" -> _plunge_n_of [label="ARG1-fn.NotExist"]
+	_be_v_id -> pron [label=ARG1]
+	_be_v_id -> _plunge_n_of [label=ARG2]
+	_the_q -> _plunge_n_of [label=BV]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

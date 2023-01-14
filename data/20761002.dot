@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p_temp -> _month_n_1 [label=ARG2]
+	focus_d -> "_double_v_1-fn.Piracy" [label=ARG1]
+	"_double_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	_by_p_temp -> "_double_v_1-fn.Piracy" [label=ARG1]
+	"_more+than_a_1" -> "_double_v_1-fn.Piracy" [label=ARG1]
+	focus_d -> _by_p_temp [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_this_q_dem -> _month_n_1 [label=BV]
+}

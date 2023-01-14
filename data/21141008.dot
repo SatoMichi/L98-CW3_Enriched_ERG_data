@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _year_n_1 [label=BV]
+	udef_q -> _jew_n_1 [label=BV]
+	_within_p_state -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _minority_n_1 [label="ARG2-fn.Name"]
+	"card(25)" -> _year_n_1 [label=ARG1]
+	focus_d -> _within_p_state [label=ARG2]
+	_the_q -> _minority_n_1 [label=BV]
+	focus_d -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	_probable_a_1 -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	_within_p_state -> _year_n_1 [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _jew_n_1 [label="ARG1-fn.Entity"]
+}

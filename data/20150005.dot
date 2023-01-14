@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Primerica)" [label=BV]
+	_at_p -> "_close_v_1-fn.Halt" [label=ARG1]
+	"card(28.25)" -> _dollar_n_1 [label=ARG1]
+	"_close_v_1-fn.Halt" -> "named(Primerica)" [label="ARG1-fn.Purpose"]
+	udef_q -> _cent_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	_down_p -> "_close_v_1-fn.Halt" [label=ARG1]
+	"card(50)" -> _cent_n_1 [label=ARG1]
+	_down_p -> _cent_n_1 [label=ARG2]
+	_at_p -> _dollar_n_1 [label=ARG2]
+}

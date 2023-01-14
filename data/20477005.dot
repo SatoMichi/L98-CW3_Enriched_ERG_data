@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _blow_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> _blow_n_1 [label="ARG2-fn.Location"]
+	_to_p -> _and_c [label=ARG2]
+	compound -> "named(Navigation)" [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	proper_q -> "named(Mixte)" [label=BV]
+	_a_q -> _blow_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	"_would_v_modal-fn.Cause_to_end" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Process"]
+	proper_q -> "named(Paribas)" [label=BV]
+	compound -> "named(Mixte)" [label=ARG1]
+	proper_q -> "named(Navigation)" [label=BV]
+}

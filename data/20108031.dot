@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _way_n_of [label=ARG2]
+	focus_d -> _be_v_id [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG1]
+	"_at+least_a_1" -> _be_v_id [label=ARG1]
+	loc_nonsp -> "_report_v_to-fn.Statement" [label=ARG1]
+	_be_v_id -> _way_n_of [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	"_report_v_to-fn.Statement" -> pron [label="ARG2-fn.NotExist"]
+	parg_d -> "_report_v_to-fn.Statement" [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	_the_q -> _way_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

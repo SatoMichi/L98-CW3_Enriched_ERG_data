@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _visit_n_to [label=ARG1]
+	_the_q -> _mayor_n_of [label=BV]
+	compound -> _stunt_n_1 [label=ARG1]
+	proper_q -> "named(Quayle)" [label=BV]
+	compound -> _visit_n_to [label=ARG1]
+	compound -> "named(Quayle)" [label=ARG2]
+	"_say_v_to-fn.IN" -> _mayor_n_of [label="ARG1-fn.Agent"]
+	compound -> _publicity_n_1 [label=ARG2]
+	_be_v_id -> _stunt_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	udef_q -> _publicity_n_1 [label=BV]
+	_the_q -> _visit_n_to [label=BV]
+	_a_q -> _stunt_n_1 [label=BV]
+}

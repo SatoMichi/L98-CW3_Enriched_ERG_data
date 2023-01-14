@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	_when_x_subord -> "_ascend_v_1-fn.Attempt_suasion" [label=ARG2]
+	"_ascend_v_1-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+	_when_x_subord -> unknown [label=ARG1]
+}

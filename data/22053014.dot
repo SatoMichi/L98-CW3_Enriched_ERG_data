@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _father_n_of [label=ARG1]
+	_because_x -> "_hate_v_1-fn.Experiencer_obj" [label=ARG1]
+	def_explicit_q -> _father_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	"_hate_v_1-fn.Experiencer_obj" -> pron [label="ARG1-fn.Experiencer"]
+	_be_v_id -> pron [label=ARG1]
+	_be_v_id -> _father_n_of [label=ARG2]
+	"_hate_v_1-fn.Experiencer_obj" -> _do_v_1 [label="ARG2-fn.Attribute"]
+	_do_v_1 -> pron [label=ARG2]
+	_because_x -> _be_v_id [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

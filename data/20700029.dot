@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_big_a_1 -> _bank_n_of [label=ARG1]
+	_instrumental_a_1 -> _bank_n_of [label=ARG1]
+	_the_q -> _bank_n_of [label=BV]
+	"_design_v_1-fn.Activity_stop" -> _contract_n_1 [label="ARG2-fn.Place"]
+	_in_p -> nominalization [label=ARG2]
+	_in_p -> _instrumental_a_1 [label=ARG1]
+	_the_q -> _contract_n_1 [label=BV]
+	nominalization -> "_design_v_1-fn.Activity_stop" [label=ARG1]
+	"card(2)" -> _bank_n_of [label=ARG1]
+	_new_a_1 -> _contract_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

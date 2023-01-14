@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "numbered_hour(4":"02)" [label=ARG]
+	"numbered_hour(4":"02)" -> "_am_x(am_time)" [label=ARG2]
+	def_implicit_q -> "numbered_hour(4":"02)" [label=BV]
+}

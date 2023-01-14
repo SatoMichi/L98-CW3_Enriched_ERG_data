@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_during_p -> "_cost_v_1-fn.Expensiveness" [label=ARG1]
+	_during_p -> _drought_n_1 [label=ARG2]
+	"_cost_v_1-fn.Expensiveness" -> _cent_n_1 [label="ARG2-fn.Theme"]
+	"_cost_v_1-fn.Expensiveness" -> _can_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _drought_n_1 [label=BV]
+	udef_q -> _cent_n_1 [label=BV]
+	"card(89)" -> _cent_n_1 [label=ARG1]
+	"card(2)" -> _can_n_1 [label=ARG1]
+	udef_q -> _can_n_1 [label=BV]
+}

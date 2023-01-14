@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "_depend_v_on-upon-fn.Reliance" [label=ARG1]
+	_pharmaceutical_a_1 -> _company_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	udef_q -> _company_n_of [label=BV]
+	"_depend_v_on-upon-fn.Reliance" -> pron [label="ARG1-fn.Agent"]
+	def_explicit_q -> _support_n_of [label=BV]
+	poss -> _support_n_of [label=ARG1]
+	neg -> "_depend_v_on-upon-fn.Reliance" [label=ARG1]
+	_for_p -> _support_n_of [label=ARG2]
+	"_depend_v_on-upon-fn.Reliance" -> _company_n_of [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

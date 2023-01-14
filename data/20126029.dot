@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> "named(Pharaoh)" [label=BV]
+	def_explicit_q -> _pyramid_n_1 [label=BV]
+	"_justify_v_to-fn.NF" -> "named(Pharaoh)" [label="ARG1-fn.Agent"]
+	comp -> "_good_a_at-for-of" [label=ARG1]
+	_egyptian_a_1 -> "named(Pharaoh)" [label=ARG1]
+	subord -> "_justify_v_to-fn.NF" [label=ARG1]
+	poss -> pron [label=ARG2]
+	_any_x_deg -> comp [label=ARG1]
+	subord -> "_good_a_at-for-of" [label=ARG2]
+	_can_v_modal -> subord [label=ARG1]
+	"_justify_v_to-fn.NF" -> _pyramid_n_1 [label="ARG2-fn.Topic"]
+	poss -> _pyramid_n_1 [label=ARG1]
+	neg -> _can_v_modal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

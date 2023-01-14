@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_be_v_nv-fn.Cotheme" [label=ARG1]
+	_the_q -> "named_n(Fed)" [label=BV]
+	comp_too -> _independent_a_of [label=ARG1]
+	poss -> "named_n(Fed)" [label=ARG2]
+	"_be_v_nv-fn.Cotheme" -> _problem_n_of [label="ARG1-fn.Theme"]
+	"_unpolitical/jj_u_unknown" -> pron [label=ARG1]
+	"_be_v_nv-fn.Cotheme" -> _or_c [label="ARG2-fn.Cotheme"]
+	_independent_a_of -> pron [label=ARG1]
+	comp_too -> "_unpolitical/jj_u_unknown" [label=ARG1]
+	poss -> _problem_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _problem_n_of [label=BV]
+}

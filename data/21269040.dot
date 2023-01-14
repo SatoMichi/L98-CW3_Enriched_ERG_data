@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_environmentalism/nn_u_unknown" [label=BV]
+	udef_q -> _money_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _money_n_1 [label="ARG1-fn.Process"]
+	_in_p -> _money_n_1 [label=ARG1]
+	_big_a_1 -> _money_n_1 [label=ARG1]
+	"_after+all_a_1" -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_in_p -> "_environmentalism/nn_u_unknown" [label=ARG2]
+}

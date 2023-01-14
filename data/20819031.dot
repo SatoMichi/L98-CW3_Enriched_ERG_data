@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_move_v_1-fn.Relative_time" -> "named(Alley)" [label="ARG1-fn.Focal_occasion"]
+	_artistic_a_1 -> _front_n_1 [label=ARG1]
+	_now_a_1 -> "_move_v_1-fn.Relative_time" [label=ARG1]
+	udef_q -> _front_n_1 [label=BV]
+	_financial_a_1 -> _front_n_1 [label=ARG1]
+	_on_p -> _front_n_1 [label=ARG2]
+	_ahead_p -> "_move_v_1-fn.Relative_time" [label=ARG1]
+	_on_p -> "_move_v_1-fn.Relative_time" [label=ARG1]
+	_the_q -> "named(Alley)" [label=BV]
+}

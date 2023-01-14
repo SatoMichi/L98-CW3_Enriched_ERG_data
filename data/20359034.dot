@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_irresponsible/jj_u_unknown" -> person [label=ARG1]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG2-fn.Topic"]
+	"_tell_v_1-fn.Telling" -> "_buy_v_1-fn.Commerce_buy" [label="ARG3-fn.Recipient"]
+	udef_q -> _stock_n_1 [label=BV]
+	_in_p -> _market_n_1 [label=ARG2]
+	_technical_a_1 -> "_irresponsible/jj_u_unknown" [label=ARG1]
+	_in_p -> _stock_n_1 [label=ARG1]
+	_any_q -> person [label=BV]
+	"_buy_v_1-fn.Commerce_buy" -> _stock_n_1 [label="ARG2-fn.Theme"]
+	"_tell_v_1-fn.Telling" -> person [label="ARG1-fn.Agent"]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	_this_q_dem -> _market_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

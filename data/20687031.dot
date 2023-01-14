@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Delta)" [label=BV]
+	_the_q -> "_blues/nns_u_unknown" [label=BV]
+	"_be_v_there-fn.Needing" -> _mystery_n_1 [label="ARG1-fn.Cognizer"]
+	_for_p -> "_originate_v_1-fn.Competition" [label=ARG1]
+	"_originate_v_1-fn.Competition" -> nominalization [label="ARG2-fn.Participant_2"]
+	_no_q -> _mystery_n_1 [label=BV]
+	"_singe_v_cause-fn.Cause_harm" -> "_blues/nns_u_unknown" [label="ARG2-fn.Victim"]
+	_for_p -> _mystery_n_1 [label=ARG2]
+	"_originate_v_1-fn.Competition" -> "named(Delta)" [label="ARG1-fn.Participant_1"]
+	udef_q -> nominalization [label=BV]
+	nominalization -> "_singe_v_cause-fn.Cause_harm" [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	appos -> _fee_n_1 [label=ARG1]
+	udef_q -> _fee_n_1 [label=BV]
+	number_q -> "card(2)" [label=BV]
+	unknown -> _fee_n_1 [label=ARG]
+	appos -> "card(2)" [label=ARG2]
+}

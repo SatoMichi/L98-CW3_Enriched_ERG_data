@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _factor_n_1 [label=BV]
+	_negative_a_1 -> _factor_n_1 [label=ARG1]
+	"_continue_v_1-fn.State_continue" -> _factor_n_1 [label="ARG1-fn.Entity"]
+	_next_a_1 -> _year_n_1 [label=ARG1]
+	"_expect_v_1-fn.Commerce_buy" -> "_continue_v_1-fn.State_continue" [label="ARG2-fn.Goods"]
+	def_implicit_q -> _year_n_1 [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> "_expect_v_1-fn.Commerce_buy" [label="ARG2-fn.Requirement"]
+	_into_p -> _year_n_1 [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	_into_p -> "_continue_v_1-fn.State_continue" [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> _company_n_of [label="ARG1-fn.Dependent"]
+	parg_d -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	parg_d -> _factor_n_1 [label=ARG2]
+}

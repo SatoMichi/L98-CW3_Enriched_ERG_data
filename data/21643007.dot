@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_wild_a_1 -> _intimacy_n_1 [label=ARG1]
+	_of_p -> _intimacy_n_1 [label=ARG1]
+	_the_q -> _intimacy_n_1 [label=BV]
+	_of_p -> "named(Stadium)" [label=ARG2]
+	proper_q -> "named(Stadium)" [label=BV]
+	udef_q -> "named_n(Yankee)" [label=BV]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	neg -> "_have_v_1-fn.IN" [label=ARG1]
+	compound -> "named(Stadium)" [label=ARG1]
+	compound -> "named_n(Yankee)" [label=ARG2]
+	_crowded_a_1 -> _intimacy_n_1 [label=ARG1]
+	"_have_v_1-fn.IN" -> _intimacy_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

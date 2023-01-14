@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(High)" [label=ARG1]
+	proper_q -> "named(High)" [label=BV]
+	_on_p -> "_match_v_1-fn.Compatibility" [label=ARG1]
+	"_match_v_1-fn.Compatibility" -> "named(High)" [label="ARG1-fn.NotExist"]
+	_on_p -> "card(64.5)" [label=ARG2]
+	proper_q -> "named(Scoring)" [label=BV]
+	compound -> "named(Scoring)" [label=ARG2]
+	number_q -> "card(64.5)" [label=BV]
+}

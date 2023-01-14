@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> _report_n_of [label=ARG1]
+	compound -> _report_n_of [label=ARG1]
+	unknown -> _report_n_of [label=ARG]
+	udef_q -> _report_n_of [label=BV]
+	udef_q -> "_follow+up_n_1" [label=BV]
+	compound -> "_follow+up_n_1" [label=ARG2]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_long_a_1 -> _term_n_of [label=ARG1]
+	udef_q -> _instrument_n_of [label=BV]
+	udef_q -> _term_n_of [label=BV]
+	"_sock_v_1-fn.Undergo_change" -> pron [label="ARG2-fn.Final_category"]
+	compound -> _term_n_of [label=ARG2]
+	_in_p -> "_sock_v_1-fn.Undergo_change" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	compound -> _instrument_n_of [label=ARG1]
+	_away_p -> "_sock_v_1-fn.Undergo_change" [label=ARG1]
+	_in_p -> _instrument_n_of [label=ARG2]
+}

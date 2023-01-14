@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _ounce_n_1 [label=BV]
+	_a_p_per -> _ounce_n_1 [label=ARG2]
+	compound -> "mofy(Dec)" [label=ARG2]
+	_off_p -> _dollar_n_1 [label=ARG2]
+	"card(1.55)" -> _dollar_n_1 [label=ARG1]
+	_at_p -> _off_p [label=ARG1]
+	_at_p -> _dollar_n_1 [label=ARG2]
+	_off_p -> _palladium_n_1 [label=ARG1]
+	compound -> _palladium_n_1 [label=ARG1]
+	proper_q -> "mofy(Dec)" [label=BV]
+	udef_q -> _palladium_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	_a_p_per -> _dollar_n_1 [label=ARG1]
+	"card(137.20)" -> _dollar_n_1 [label=ARG1]
+}

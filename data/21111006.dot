@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_applauded/vbd_u_unknown" -> _move_n_1 [label=ARG2]
+	udef_q -> _investor_n_1 [label=BV]
+	"_applauded/vbd_u_unknown" -> _investor_n_1 [label=ARG1]
+	udef_q -> _analyst_n_1 [label=BV]
+	_the_q -> _action_n_1 [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> _analyst_n_1 [label="ARG1-fn.Process"]
+	"_say_v_to-fn.Cause_to_end" -> "_expect_v_1-fn.Competition" [label="ARG2-fn.Means"]
+	_the_q -> _move_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_expect_v_1-fn.Competition" -> _action_n_1 [label="ARG2-fn.Participant_2"]
+	"_expect_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

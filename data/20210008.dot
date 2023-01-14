@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Japan)" [label=ARG2]
+	"_show_v_1-fn.IN" -> _dispute_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _power_n_1 [label=BV]
+	_of_p -> "_titans/nns_u_unknown" [label=ARG2]
+	def_explicit_q -> "_titans/nns_u_unknown" [label=BV]
+	_the_q -> _dispute_n_1 [label=BV]
+	"_show_v_1-fn.IN" -> _power_n_1 [label="ARG2-fn.NotExist"]
+	_clear_a_of -> "_show_v_1-fn.IN" [label=ARG1]
+	_of_p -> _power_n_1 [label=ARG1]
+	proper_q -> "named(Japan)" [label=BV]
+	poss -> "_titans/nns_u_unknown" [label=ARG1]
+	_global_a_1 -> _power_n_1 [label=ARG1]
+	_financial_a_1 -> "_titans/nns_u_unknown" [label=ARG1]
+}

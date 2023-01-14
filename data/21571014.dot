@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _preference_n_for [label=BV]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> _preference_n_for [label="ARG2-fn.Patient"]
+	proper_q -> "named(Berkeley)" [label=BV]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> _category_n_of [label="ARG1-fn.Cause"]
+	_new_a_1 -> _category_n_of [label=ARG1]
+	poss -> _preference_n_for [label=ARG1]
+	_racial_a_1 -> _preference_n_for [label=ARG1]
+	"_replace_v_with-fn.IN" -> _preference_n_for [label="ARG2-fn.Theme"]
+	"_replace_v_with-fn.IN" -> _category_n_of [label="ARG1-fn.NotExist"]
+	poss -> "named(Berkeley)" [label=ARG2]
+	_the_q -> _category_n_of [label=BV]
+	neg -> _or_c [label=ARG1]
+	_broad_a_1 -> _preference_n_for [label=ARG1]
+}

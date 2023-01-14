@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> "_muscovites/nns_u_unknown" [label=ARG2]
+	"card(1,000)" -> "_muscovites/nns_u_unknown" [label=ARG1]
+	"_attend_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Participant_1"]
+	"much-many_a" -> generic_entity [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	udef_q -> "_muscovites/nns_u_unknown" [label=BV]
+	"_attend_v_1-fn.Competition" -> _service_n_1 [label="ARG2-fn.Participant_2"]
+	_the_q -> _service_n_1 [label=BV]
+	comp -> "much-many_a" [label=ARG1]
+}

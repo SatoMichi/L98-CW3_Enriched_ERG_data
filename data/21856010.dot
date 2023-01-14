@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	poss -> "_grandkids/nns_u_unknown" [label=ARG1]
+	"_want_v_1-fn.Desiring" -> part_of [label="ARG2-fn.Theme"]
+	_that_q_dem -> _oil_n_1 [label=BV]
+	def_explicit_q -> "_grandkids/nns_u_unknown" [label=BV]
+	_for_p -> "_grandkids/nns_u_unknown" [label=ARG2]
+	poss -> pron [label=ARG2]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	_any_q -> part_of [label=BV]
+	_for_p -> "_want_v_1-fn.Desiring" [label=ARG1]
+	part_of -> _oil_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "_back_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_for_p -> _security_n_1 [label=ARG2]
+	udef_q -> _security_n_1 [label=BV]
+	_such_a_1 -> _listing_n_of [label=ARG1]
+	udef_q -> _asset_n_1 [label=BV]
+	_any_q -> _listing_n_of [label=BV]
+	"_back_v_1-fn.Change_position_on_a_scale" -> _security_n_1 [label="ARG2-fn.Item"]
+	compound -> _asset_n_1 [label=ARG2]
+	neg -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	parg_d -> "_back_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	parg_d -> _security_n_1 [label=ARG2]
+	_for_p -> _listing_n_of [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> _listing_n_of [label="ARG1-fn.Process"]
+}

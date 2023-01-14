@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_another_q -> _fall_n_1 [label=BV]
+	_for_p -> "_set_v_up-fn.Perception_active" [label=ARG1]
+	neg -> "_good_a_at-for-of" [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	_for_p -> _fall_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_good_a_at-for-of" -> pron [label=ARG1]
+	"_set_v_up-fn.Perception_active" -> _market_n_1 [label="ARG1-fn.Perceiver_agentive"]
+}

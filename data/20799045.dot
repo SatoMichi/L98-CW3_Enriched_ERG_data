@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _era_n_1 [label=BV]
+	_competitive_a_1 -> _era_n_1 [label=ARG1]
+	_evident_a_to -> "_enter_v_1-fn.Activity_prepare" [label=ARG1]
+	"_enter_v_1-fn.Activity_prepare" -> pron [label="ARG1-fn.Agent"]
+	"_enter_v_1-fn.Activity_prepare" -> _era_n_1 [label="ARG2-fn.Activity"]
+	focus_d -> _evident_a_to [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _evident_a_to [label="ARG2-fn.Requirement"]
+	comp -> _competitive_a_1 [label=ARG1]
+}

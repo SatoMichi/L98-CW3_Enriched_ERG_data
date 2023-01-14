@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _resistance_n_to [label=BV]
+	udef_q -> "_superconductors/nns_u_unknown" [label=BV]
+	parg_d -> _cool_v_cause [label=ARG1]
+	udef_q -> _electricity_n_1 [label=BV]
+	"_conduct_v_1-fn.Cotheme" -> _electricity_n_1 [label="ARG2-fn.Theme"]
+	_when_x_subord -> "_conduct_v_1-fn.Cotheme" [label=ARG1]
+	"_conduct_v_1-fn.Cotheme" -> "_superconductors/nns_u_unknown" [label="ARG1-fn.Agent"]
+	_without_p -> _resistance_n_to [label=ARG2]
+	_without_p -> "_conduct_v_1-fn.Cotheme" [label=ARG1]
+	_when_x_subord -> _cool_v_cause [label=ARG2]
+}

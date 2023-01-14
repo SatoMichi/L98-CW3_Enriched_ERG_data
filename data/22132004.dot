@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Wall)" [label=ARG2]
+	compound -> "named(Journal)" [label=ARG1]
+	_publisher_n_1 -> "named(Journal)" [label=ARG1]
+	compound -> "named(Street)" [label=ARG1]
+	compound -> "named(Dow)" [label=ARG2]
+	_the_q -> _publisher_n_1 [label=BV]
+	compound -> "named(Jones)" [label=ARG1]
+	proper_q -> "named(Street)" [label=BV]
+	_the_q -> "named(Journal)" [label=BV]
+	proper_q -> "named(Jones)" [label=BV]
+	proper_q -> "named(Dow)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _publisher_n_1 [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> "named(Jones)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Wall)" [label=BV]
+}

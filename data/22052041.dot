@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> generic_entity [label=ARG2]
+	_moderate_a_1 -> _leader_n_of [label=ARG1]
+	_this_q_dem -> _support_n_of [label=BV]
+	_for_p -> _support_n_of [label=ARG1]
+	_outside_a_1 -> _support_n_of [label=ARG1]
+	_heavy_a_1 -> _support_n_of [label=ARG1]
+	_the_q -> generic_entity [label=BV]
+	"_undermine_v_1-fn.Competition" -> _support_n_of [label="ARG1-fn.Participant_1"]
+	"_undermine_v_1-fn.Competition" -> _leader_n_of [label="ARG2-fn.Participant_2"]
+	comp -> "_good_a_at-for-of" [label=ARG1]
+	udef_q -> _leader_n_of [label=BV]
+	"_good_a_at-for-of" -> _leader_n_of [label=ARG1]
+	superl -> _bad_a_1 [label=ARG1]
+	_bad_a_1 -> generic_entity [label=ARG1]
+}

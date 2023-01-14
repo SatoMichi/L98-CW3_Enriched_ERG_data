@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	poss -> _increase_n_1 [label=ARG1]
+	_common_a_for -> _share_n_of [label=ARG1]
+	_late_a_for -> _earnings_n_1 [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	"_reflect_v_1-fn.Competition" -> _earnings_n_1 [label="ARG1-fn.Participant_1"]
+	"_reflect_v_1-fn.Competition" -> _increase_n_1 [label="ARG2-fn.Participant_2"]
+	_the_q -> _earnings_n_1 [label=BV]
+	_in_p -> _increase_n_1 [label=ARG1]
+	times -> "card(5.5)" [label=ARG2]
+	_in_p -> _share_n_of [label=ARG2]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	_about_x_deg -> "card(1000000)" [label=ARG1]
+	superl -> _late_a_for [label=ARG1]
+	_a_q -> _increase_n_1 [label=BV]
+}

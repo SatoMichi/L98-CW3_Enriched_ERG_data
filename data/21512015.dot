@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _production_n_of [label=BV]
+	parg_d -> _meet_v_1 [label=ARG1]
+	focus_d -> _demand_n_1 [label=ARG2]
+	_meet_v_1 -> _demand_n_1 [label=ARG2]
+	parg_d -> _demand_n_1 [label=ARG2]
+	_from_p -> "_rather+than_c" [label=ARG2]
+	udef_q -> _demand_n_1 [label=BV]
+	udef_q -> "_rather+than_c" [label=BV]
+	_new_a_1 -> _production_n_of [label=ARG1]
+	"_believe_v_1-fn.Awareness" -> pron [label="ARG1-fn.NotExist"]
+	"_believe_v_1-fn.Awareness" -> _meet_v_1 [label="ARG2-fn.NotExist"]
+	focus_d -> "_believe_v_1-fn.Awareness" [label=ARG1]
+	_from_p -> _meet_v_1 [label=ARG1]
+	udef_q -> _overhang_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

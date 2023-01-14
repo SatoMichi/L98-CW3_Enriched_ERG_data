@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_begin_v_1-fn.Process_start" -> _stage_n_of [label="ARG1-fn.Event"]
+	_the_q -> _stage_n_of [label=BV]
+	_stage_n_of -> part_of [label=ARG1]
+	_at_p -> _stage_n_of [label=ARG2]
+	_at_p -> pron [label=ARG1]
+	_these_q_dem -> _change_n_of [label=BV]
+	_still_a_1 -> _at_p [label=ARG1]
+	_some_q -> part_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	part_of -> _change_n_of [label=ARG1]
+}

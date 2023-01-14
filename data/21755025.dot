@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _corporation_n_1 [label=BV]
+	parg_d -> _business_n_1 [label=ARG2]
+	appos -> _and_c [label=ARG1]
+	appos -> _corporation_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	parg_d -> "_incorporate_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _proprietorship_n_1 [label=BV]
+	"_colon_v_id-fn.Communication_means" -> _business_n_1 [label="ARG1-fn.Communicator"]
+	"_colon_v_id-fn.Communication_means" -> _and_c [label="ARG2-fn.Addressee"]
+	"_incorporate_v_1-fn.Competition" -> _business_n_1 [label="ARG2-fn.Participant_2"]
+	"_un-_a_rvrs" -> "_incorporate_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Partnerships)" [label=BV]
+	_sole_a_1 -> _proprietorship_n_1 [label=ARG1]
+	_professional_a_1 -> _corporation_n_1 [label=ARG1]
+}

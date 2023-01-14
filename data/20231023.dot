@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Real)" [label=BV]
+	number_q -> "card(2210)" [label=BV]
+	number_q -> "card(40)" [label=BV]
+	proper_q -> "named(Estate)" [label=BV]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Estate)" [label="ARG1-fn.Attribute"]
+	compound -> "named(Real)" [label=ARG2]
+	proper_q -> "named(Heiwa)" [label=BV]
+	compound -> "named(Heiwa)" [label=ARG2]
+	_to_p -> "card(2210)" [label=ARG2]
+	compound -> "named(Estate)" [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(40)" [label="ARG2-fn.Item"]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_feel_v_1-fn.Grasp" -> _need_n_of [label="ARG2-fn.Phenomenon"]
+	"_educate_v_1-fn.Commerce_collect" -> pron [label="ARG2-fn.Goods"]
+	udef_q -> _time_n_of [label=BV]
+	_from_p_time -> _need_n_of [label=ARG1]
+	_to_p -> _need_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _need_n_of [label=BV]
+	_from_p_time -> _time_n_of [label=ARG2]
+	"_feel_v_1-fn.Grasp" -> pron [label="ARG1-fn.Cognizer"]
+	_to_p -> _time_n_of [label=ARG2]
+	_need_n_of -> "_educate_v_1-fn.Commerce_collect" [label=ARG1]
+}

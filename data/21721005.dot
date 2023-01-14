@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Societe)" [label=ARG2]
+	_this_q_dem -> generic_entity [label=BV]
+	_joint_a_1 -> _control_n_of [label=ARG1]
+	proper_q -> "named(Lonrho)" [label=BV]
+	"_give_v_1-fn.Giving" -> generic_entity [label="ARG1-fn.Agent"]
+	"_give_v_1-fn.Giving" -> _control_n_of [label="ARG2-fn.Theme"]
+	"_give_v_1-fn.Giving" -> _and_c [label="ARG3-fn.Recipient"]
+	udef_q -> _and_c [label=BV]
+	_control_n_of -> "named(Commerciale)" [label=ARG1]
+	proper_q -> "named(Commerciale)" [label=BV]
+	compound -> "named(Commerciale)" [label=ARG1]
+	udef_q -> _control_n_of [label=BV]
+	proper_q -> "named(Societe)" [label=BV]
+	proper_q -> "named(Paribas)" [label=BV]
+}

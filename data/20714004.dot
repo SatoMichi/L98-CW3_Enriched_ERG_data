@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _net_n_1 [label=BV]
+	_to_p -> _yen_n_2 [label=ARG2]
+	udef_q -> _yen_n_2 [label=BV]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _net_n_1 [label="ARG1-fn.NotExist"]
+	"card(4.97)" -> _yen_n_2 [label=ARG1]
+	_from_p -> _yen_n_2 [label=ARG2]
+	"_pershare/jj_u_unknown" -> _net_n_1 [label=ARG1]
+	_from_p -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_to_p -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"card(5.40)" -> _yen_n_2 [label=ARG1]
+}

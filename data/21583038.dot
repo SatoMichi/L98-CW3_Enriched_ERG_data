@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q -> person [label=BV]
+	_the_q -> _discount_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> person [label="ARG1-fn.Process"]
+	comp -> _old_a_1 [label=ARG1]
+	unknown -> generic_entity [label=ARG]
+	comp -> _big_a_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG2-fn.Means"]
+	appos -> generic_entity [label=ARG1]
+	_the_q -> generic_entity [label=BV]
+	_old_a_1 -> generic_entity [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	_this_q_dem -> _year_n_1 [label=BV]
+	_big_a_1 -> generic_entity [label=ARG1]
+	appos -> _discount_n_1 [label=ARG2]
+}

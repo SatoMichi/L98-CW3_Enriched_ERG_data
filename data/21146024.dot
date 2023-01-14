@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_any_q -> person [label=BV]
+	which_q -> reason [label=BV]
+	"_want_v_1-fn.Desiring" -> "_sell_v_1-fn.Commerce_sell" [label="ARG2-fn.Theme"]
+	_to_p -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	_for_p -> "_want_v_1-fn.Desiring" [label=ARG1]
+	_to_p -> pron [label=ARG2]
+	"_want_v_1-fn.Desiring" -> person [label="ARG1-fn.Pivot"]
+	_for_p -> reason [label=ARG2]
+	_should_v_modal -> "_want_v_1-fn.Desiring" [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> person [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_amiable_a_1 -> pron [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	focus_d -> _amiable_a_1 [label=ARG2]
+	proper_q -> "named(Brawer)" [label=BV]
+	compound -> "named(Brawer)" [label=ARG1]
+	"_say_v_to-fn.IN" -> _amiable_a_1 [label="ARG2-fn.Topic"]
+	_all_a_1 -> _amiable_a_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Brawer)" [label="ARG1-fn.Agent"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_very_x_deg -> _amiable_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

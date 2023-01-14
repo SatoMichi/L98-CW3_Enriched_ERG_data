@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_such+as_p" -> _topic_n_of [label=ARG1]
+	neg -> _afraid_a_of [label=ARG1]
+	_afraid_a_of -> "_tackle_v_1-fn.NF" [label=ARG2]
+	"_tackle_v_1-fn.NF" -> _program_n_of [label="ARG1-fn.Agent"]
+	"_such+as_p" -> _and_c [label=ARG2]
+	_nuclear_a_1 -> _weapon_n_1 [label=ARG1]
+	"_tackle_v_1-fn.NF" -> _topic_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _environment_n_1 [label=BV]
+	_the_q -> _program_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	_controversial_a_1 -> _topic_n_of [label=ARG1]
+	udef_q -> _weapon_n_1 [label=BV]
+	_afraid_a_of -> _program_n_of [label=ARG1]
+	udef_q -> _topic_n_of [label=BV]
+}

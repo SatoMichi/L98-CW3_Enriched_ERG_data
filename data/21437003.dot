@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	eventuality -> "_redeem_v_for-fn.NF" [label=ARG1]
+	"_redeem_v_for-fn.NF" -> _note_n_1 [label="ARG2-fn.Theme"]
+	"_notify_v_of-fn.Telling" -> _holder_n_of [label="ARG2-fn.Recipient"]
+	parg_d -> _note_n_1 [label=ARG2]
+	_the_q -> _note_n_1 [label=BV]
+	udef_q -> _holder_n_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_holder_n_of -> _note_n_1 [label=ARG1]
+	parg_d -> "_redeem_v_for-fn.NF" [label=ARG1]
+	"_notify_v_of-fn.Telling" -> _company_n_of [label="ARG1-fn.Agent"]
+}

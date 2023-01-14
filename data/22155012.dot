@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _analyst_n_1 [label=ARG1]
+	udef_q -> _security_n_1 [label=BV]
+	compound -> _security_n_1 [label=ARG2]
+	"_downbeat/jj_u_unknown" -> _analyst_n_1 [label=ARG1]
+	udef_q -> _analyst_n_1 [label=BV]
+	"_remain_v_1-fn.Competition" -> "_downbeat/jj_u_unknown" [label="ARG2-fn.Participant_2"]
+	"_remain_v_1-fn.Competition" -> _analyst_n_1 [label="ARG1-fn.Participant_1"]
+}

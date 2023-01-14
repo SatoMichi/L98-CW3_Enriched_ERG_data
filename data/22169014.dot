@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_id [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Feinman)" [label=ARG1]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.NotExist"]
+	_be_v_id -> "_deadbeats/nns_u_unknown" [label=ARG2]
+	proper_q -> "named(Feinman)" [label=BV]
+	_of_p -> "named(Feinman)" [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Feinman)" [label="ARG1-fn.NotExist"]
+	_still_a_1 -> _be_v_id [label=ARG1]
+	_the_q -> "_deadbeats/nns_u_unknown" [label=BV]
+	_of_p -> "named(Drexel)" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Drexel)" [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	udef_q -> "_deadbeats/nns_u_unknown" [label=BV]
+}

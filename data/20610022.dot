@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Surpassing" -> _until_x_h [label="ARG2-fn.Profiled_item"]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+	udef_q -> _market_n_1 [label=BV]
+	_until_x_h -> "_warrant_v_1-fn.Competition" [label=ARG2]
+	"_warrant_v_1-fn.Competition" -> _condition_n_1 [label="ARG1-fn.Participant_1"]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _construction_n_of [label=BV]
+	"_warrant_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	compound -> _condition_n_1 [label=ARG1]
+	compound -> _market_n_1 [label=ARG2]
+	"_would_v_modal-fn.Cause_to_end" -> "_resume_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _condition_n_1 [label=BV]
+	_until_x_h -> neg [label=ARG1]
+	"_resume_v_1-fn.Competition" -> _construction_n_of [label="ARG1-fn.Participant_1"]
+}

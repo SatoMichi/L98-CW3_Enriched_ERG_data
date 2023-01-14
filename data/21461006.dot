@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _lack_n_1 [label=ARG2]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	_of_p -> _lack_n_1 [label=ARG1]
+	_last_a_1 -> _week_n_1 [label=ARG1]
+	_apart_a_1 -> _deal_n_1 [label=ARG1]
+	"_fall_v_state-fn.Cause_to_end" -> _apart_a_1 [label="ARG2-fn.Means"]
+	loc_nonsp -> "_fall_v_state-fn.Cause_to_end" [label=ARG1]
+	_for_p -> "_fall_v_state-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _deal_n_1 [label=BV]
+	nominalization -> _finance_v_1 [label=ARG1]
+	udef_q -> _lack_n_1 [label=BV]
+	"_fall_v_state-fn.Cause_to_end" -> _deal_n_1 [label="ARG1-fn.Process"]
+	def_implicit_q -> _week_n_1 [label=BV]
+	_of_p -> nominalization [label=ARG2]
+	udef_q -> nominalization [label=BV]
+}

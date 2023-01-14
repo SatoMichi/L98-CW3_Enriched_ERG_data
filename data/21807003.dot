@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _outstanding_a_1 [label=ARG2]
+	subord -> "_have_v_1-fn.IN" [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(36.6)" [label=ARG2]
+	proper_q -> "named(Mellon)" [label=BV]
+	"_have_v_1-fn.IN" -> _share_n_of [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> "named(Mellon)" [label="ARG1-fn.Pivot"]
+	udef_q -> _share_n_of [label=BV]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+}

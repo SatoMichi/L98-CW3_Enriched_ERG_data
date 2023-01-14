@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _pursue_v_1 [label=ARG1]
+	parg_d -> _vehicle_n_1 [label=ARG2]
+	_the_q -> _vehicle_n_1 [label=BV]
+	parg_d -> "_use_v_1-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> "named(DIG)" [label="ARG1-fn.Process"]
+	"_use_v_1-fn.Cause_to_end" -> _vehicle_n_1 [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> _vehicle_n_1 [label="ARG2-fn.Means"]
+	_to_p -> _acquisition_n_of [label=ARG2]
+	"_use_v_1-fn.Cause_to_end" -> _pursue_v_1 [label="ARG3-fn.Place"]
+	proper_q -> "named(DIG)" [label=BV]
+	udef_q -> _acquisition_n_of [label=BV]
+}

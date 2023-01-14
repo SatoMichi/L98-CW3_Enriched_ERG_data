@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	def_implicit_q -> place_n [label=BV]
+	"_end_v_1-fn.Cause_to_end" -> "_vacillation/nn_u_unknown" [label="ARG1-fn.NotExist"]
+	_the_q -> "_vacillation/nn_u_unknown" [label=BV]
+	_there_a_1 -> place_n [label=ARG1]
+	neg -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	loc_nonsp -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+}

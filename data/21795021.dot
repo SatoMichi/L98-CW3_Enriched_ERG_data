@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_over_p -> _year_n_1 [label=ARG2]
+	_due_a_1 -> _inflation_n_of [label=ARG1]
+	_monetary_a_1 -> "_policy_n_of-on" [label=ARG1]
+	_the_q -> _inflation_n_of [label=BV]
+	_to_p -> _due_a_1 [label=ARG1]
+	"card(30)" -> _year_n_1 [label=ARG1]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	_enormous_a_1 -> _inflation_n_of [label=ARG1]
+	_to_p -> "_policy_n_of-on" [label=ARG2]
+	_over_p -> _inflation_n_of [label=ARG1]
+	_past_a_1 -> _year_n_1 [label=ARG1]
+	_largely_a_1 -> _due_a_1 [label=ARG1]
+	_the_q -> _year_n_1 [label=BV]
+}

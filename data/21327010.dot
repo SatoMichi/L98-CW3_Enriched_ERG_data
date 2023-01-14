@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _trust_n_1 [label=BV]
+	neg -> "_trust_v_1-fn.Trust" [label=ARG1]
+	"_trust_v_1-fn.Trust" -> pron [label="ARG2-fn.Attribute"]
+	neg -> "_reward_v_1-fn.Rewards_and_punishments" [label=ARG1]
+	"_reward_v_1-fn.Rewards_and_punishments" -> _trust_n_1 [label="ARG2-fn.NotExist"]
+	"_reward_v_1-fn.Rewards_and_punishments" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

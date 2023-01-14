@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _present_n_1 [label=BV]
+	"_suggest_v_to-fn.Statement" -> _past_n_1 [label="ARG2-fn.Topic"]
+	_such_q -> _trappings_n_1 [label=BV]
+	_no_q -> _hint_n_of [label=BV]
+	_glorious_a_1 -> _past_n_1 [label=ARG1]
+	"_give_v_1-fn.Giving" -> _hint_n_of [label="ARG2-fn.Theme"]
+	"_suggest_v_to-fn.Statement" -> _trappings_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _past_n_1 [label=BV]
+	_troubled_a_1 -> _present_n_1 [label=ARG1]
+	"_give_v_1-fn.Giving" -> _trappings_n_1 [label="ARG1-fn.Agent"]
+	_hint_n_of -> _present_n_1 [label=ARG1]
+}

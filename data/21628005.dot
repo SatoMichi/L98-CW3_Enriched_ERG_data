@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_urge_v_to-fn.IN" -> pron [label="ARG2-fn.Recipient"]
+	"_urge_v_to-fn.IN" -> "named(Mitchell)" [label="ARG1-fn.Agent"]
+	udef_q -> _senator_n_1 [label=BV]
+	"_desist_v_1-fn.Avoiding" -> pron [label="ARG1-fn.Agent"]
+	compound -> _senator_n_1 [label=ARG2]
+	compound -> "named(Mitchell)" [label=ARG1]
+	proper_q -> "named(Mitchell)" [label=BV]
+	"_urge_v_to-fn.IN" -> "_desist_v_1-fn.Avoiding" [label="ARG3-fn.Topic"]
+	pronoun_q -> pron [label=BV]
+}

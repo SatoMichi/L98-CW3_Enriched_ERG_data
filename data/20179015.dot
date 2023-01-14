@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _speculation_n_about [label=BV]
+	_all_q -> part_of [label=BV]
+	"_comment_v_on-fn.Judgment_direct_address" -> part_of [label="ARG2-fn.Addressee"]
+	neg -> "_comment_v_on-fn.Judgment_direct_address" [label=ARG1]
+	"_comment_v_on-fn.Judgment_direct_address" -> "named(Columbia)" [label="ARG1-fn.Communicator"]
+	proper_q -> "named(Columbia)" [label=BV]
+	part_of -> _speculation_n_about [label=ARG1]
+}

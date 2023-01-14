@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _ease_n_1 [label=BV]
+	every_q -> person [label=BV]
+	compound -> _massage_n_of [label=ARG1]
+	udef_q -> _office_n_of [label=BV]
+	_not_x_deg -> person [label=ARG1]
+	compound -> _office_n_of [label=ARG2]
+	_at_p -> person [label=ARG1]
+	udef_q -> _massage_n_of [label=BV]
+	_at_p -> _ease_n_1 [label=ARG2]
+	_with_p -> _massage_n_of [label=ARG2]
+	_with_p -> _at_p [label=ARG1]
+}

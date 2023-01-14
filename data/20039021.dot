@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _and_c [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> _child_n_1 [label="ARG1-fn.Process"]
+	_cute_a_1 -> _child_n_1 [label=ARG1]
+	_a_q -> _curse_n_1 [label=BV]
+	_a_q -> _blessing_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_turn_v_out-fn.Cause_to_end" -> _child_n_1 [label="ARG1-fn.Process"]
+	"_turn_v_out-fn.Cause_to_end" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.Means"]
+	_this_q_dem -> _child_n_1 [label=BV]
+}

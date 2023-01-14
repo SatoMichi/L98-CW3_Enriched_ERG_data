@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _order_n_of [label=BV]
+	compound -> _computer_n_1 [label=ARG2]
+	_so_x -> "_operate_v_1-fn.Competition" [label=ARG1]
+	compound -> _system_n_of [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> "_take_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	udef_q -> _computer_n_1 [label=BV]
+	parg_d -> _order_n_of [label=ARG2]
+	_so_x -> "_can_v_modal-fn.Reliance" [label=ARG2]
+	_the_q -> _system_n_of [label=BV]
+	"_operate_v_1-fn.Competition" -> _system_n_of [label="ARG1-fn.Participant_1"]
+	parg_d -> "_take_v_1-fn.Competition" [label=ARG1]
+	"_take_v_1-fn.Competition" -> _order_n_of [label="ARG2-fn.Participant_2"]
+}

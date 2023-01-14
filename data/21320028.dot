@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _dollar_n_1 [label=BV]
+	focus_d -> _would_v_modal [label=ARG2]
+	_if_x_then -> _would_v_modal [label=ARG1]
+	_would_v_modal -> _probable_a_1 [label=ARG1]
+	comp -> _bad_a_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_probable_a_1 -> _bad_a_1 [label=ARG1]
+	_strong_a_1 -> _dollar_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _if_x_then [label="ARG2-fn.Topic"]
+	_bad_a_1 -> "_sell-off_n_1" [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_the_q -> "_sell-off_n_1" [label=BV]
+	_if_x_then -> _strong_a_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

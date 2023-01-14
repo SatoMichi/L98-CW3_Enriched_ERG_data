@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _step_n_1 [label=ARG1]
+	eventuality -> "_beef_v_up-fn.Amounting_to" [label=ARG1]
+	def_explicit_q -> _fleet_n_1 [label=BV]
+	"_beef_v_up-fn.Amounting_to" -> _step_n_1 [label="ARG1-fn.Value"]
+	poss -> _fleet_n_1 [label=ARG1]
+	udef_q -> _step_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_beef_v_up-fn.Amounting_to" -> _fleet_n_1 [label="ARG2-fn.Attribute"]
+	poss -> pron [label=ARG2]
+}

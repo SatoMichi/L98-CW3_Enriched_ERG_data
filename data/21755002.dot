@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	which_q -> time_n [label=BV]
+	nominalization -> _look_v_1 [label=ARG1]
+	loc_nonsp -> _look_v_1 [label=ARG1]
+	"_depend_v_on-upon-fn.Reliance" -> nominalization [label="ARG2-fn.Theme"]
+	"_depend_v_on-upon-fn.Reliance" -> pron [label="ARG1-fn.Agent"]
+	loc_nonsp -> time_n [label=ARG2]
+	_look_v_1 -> pron [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	pronoun_q -> pron [label=BV]
+}

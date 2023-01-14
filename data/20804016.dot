@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "named(Filipino)" [label=ARG2]
+	_of_p -> _opponent_n_1 [label=ARG1]
+	neg -> "_tagalog/jj_u_unknown" [label=ARG1]
+	_from_p_dir -> "_come_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Filipino)" [label=BV]
+	"_tagalog/jj_u_unknown" -> _region_n_of [label=ARG1]
+	_from_p_dir -> _region_n_of [label=ARG2]
+	udef_q -> _opponent_n_1 [label=BV]
+	udef_q -> _region_n_of [label=BV]
+	_other_a_1 -> _opponent_n_1 [label=ARG1]
+	"_come_v_1-fn.Competition" -> _opponent_n_1 [label="ARG1-fn.Participant_1"]
+}

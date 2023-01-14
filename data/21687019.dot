@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_precious_a_1 -> _metal_n_1 [label=ARG1]
+	udef_q -> _metal_n_1 [label=BV]
+	unknown -> _metal_n_1 [label=ARG]
+}

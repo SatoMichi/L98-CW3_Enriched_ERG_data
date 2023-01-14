@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_enter_v_1 -> _story_n_of [label=ARG2]
+	_toward_p -> _end_n_of [label=ARG2]
+	_just_x_deg -> _in_p_temp [label=ARG1]
+	_in_p_temp -> _time_n_of [label=ARG2]
+	"_get_v_state-fn.IN" -> _arrest_v_1 [label="ARG2-fn.Patient"]
+	_toward_p -> _enter_v_1 [label=ARG1]
+	udef_q -> _time_n_of [label=BV]
+	_the_q -> _story_n_of [label=BV]
+	parg_d -> _arrest_v_1 [label=ARG1]
+	_the_q -> _end_n_of [label=BV]
+	with_p -> _time_n_of [label=ARG2]
+	with_p -> "_get_v_state-fn.IN" [label=ARG1]
+	_enter_v_1 -> pron [label=ARG1]
+	_in_p_temp -> _enter_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _sovereignty_n_1 [label=BV]
+	proper_q -> "named(Africa)" [label=BV]
+	_the_q -> _nation_n_of [label=BV]
+	"_surrender_v_1-fn.NF" -> _sovereignty_n_1 [label="ARG2-fn.Theme"]
+	_southern_a_1 -> "named(Africa)" [label=ARG1]
+	"_surrender_v_1-fn.NF" -> _nation_n_of [label="ARG1-fn.Agent"]
+	poss -> pron [label=ARG2]
+	_fortunate_a_1 -> neg [label=ARG1]
+	_nation_n_of -> "named(Africa)" [label=ARG1]
+	_total_a_1 -> "_surrender_v_1-fn.NF" [label=ARG1]
+	poss -> _sovereignty_n_1 [label=ARG1]
+	neg -> "_surrender_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

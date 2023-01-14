@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _american_n_1 [label=BV]
+	_out_p -> _way_n_of [label=ARG1]
+	"_leave_v_1-fn.Departing" -> _american_n_1 [label="ARG1-fn.Theme"]
+	_a_q -> _way_n_of [label=BV]
+	"_leave_v_1-fn.Departing" -> pron [label="ARG2-fn.Initial_Location"]
+	_without_p -> _way_n_of [label=ARG2]
+	_without_p -> pron [label=ARG1]
+	"_leave_v_1-fn.Departing" -> _without_p [label="ARG3-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

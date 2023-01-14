@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_afford_v_1 -> "_stay_v_prd-fn.stay.01" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_stay_v_prd-fn.stay.01" -> "_out+of_p" [label="ARG2-fn.Theme"]
+	"_out+of_p" -> pron [label=ARG1]
+	"_out+of_p" -> "_hdtv/nn_u_unknown" [label=ARG2]
+	"_stay_v_prd-fn.stay.01" -> pron [label="ARG1-fn.NotExist"]
+	neg -> _can_v_modal [label=ARG1]
+	udef_q -> "_hdtv/nn_u_unknown" [label=BV]
+	_afford_v_1 -> pron [label=ARG1]
+	_can_v_modal -> _afford_v_1 [label=ARG1]
+}

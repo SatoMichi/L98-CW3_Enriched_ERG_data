@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _concession_n_1 [label=BV]
+	"_retort_v_1-fn.Attempt_suasion" -> _japanese_n_1 [label="ARG1-fn.Content"]
+	comp_too -> "_make_v_1-fn.Competition" [label=ARG2]
+	_the_q -> _japanese_n_1 [label=BV]
+	_the_q -> _round_n_of [label=BV]
+	loc_nonsp -> _round_n_of [label=ARG1]
+	"ord(1)" -> _round_n_of [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	def_implicit_q -> time_n [label=BV]
+	"_make_v_1-fn.Competition" -> _concession_n_1 [label="ARG2-fn.Participant_2"]
+	"_retort_v_1-fn.Attempt_suasion" -> loc_nonsp [label="ARG2-fn.Addressee"]
+	comp_too -> _early_a_1 [label=ARG1]
+	_early_a_1 -> time_n [label=ARG1]
+}

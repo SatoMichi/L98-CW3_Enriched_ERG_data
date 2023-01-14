@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_call_v_name-fn.Judgment_direct_address" -> _scenario_n_1 [label="ARG2-fn.Addressee"]
+	superl -> _bad_a_1 [label=ARG1]
+	proper_q -> "named(Barnum)" [label=BV]
+	"_call_v_name-fn.Judgment_direct_address" -> "named(Barnum)" [label="ARG1-fn.Communicator"]
+	_a_q -> _scenario_n_1 [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	_bad_a_1 -> _case_n_of [label=ARG1]
+	compound -> "named(Barnum)" [label=ARG1]
+	"_call_v_name-fn.Judgment_direct_address" -> generic_entity [label="ARG3-fn.Topic"]
+	compound -> _scenario_n_1 [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _case_n_of [label=BV]
+	compound -> _case_n_of [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_pulp/nn_u_unknown" [label=BV]
+	"_be_v_id-fn.Residence" -> "named(Canada)" [label="ARG1-fn.Resident"]
+	_large_a_1 -> _producer_n_of [label=ARG1]
+	udef_q -> _market_n_1 [label=BV]
+	poss -> _producer_n_of [label=ARG1]
+	compound -> "_pulp/nn_u_unknown" [label=ARG1]
+	poss -> _world_n_of [label=ARG2]
+	_producer_n_of -> "_pulp/nn_u_unknown" [label=ARG1]
+	def_explicit_q -> _producer_n_of [label=BV]
+	compound -> _market_n_1 [label=ARG2]
+	superl -> _large_a_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> _producer_n_of [label="ARG2-fn.Location"]
+	_the_q -> _world_n_of [label=BV]
+	proper_q -> "named(Canada)" [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_relatively_x_deg -> _quiet_a_1 [label=ARG1]
+	_quiet_a_1 -> _performance_n_1 [label=ARG1]
+	_when_x_subord -> "_dash_v_2-fn.Halt" [label=ARG1]
+	compound -> _stock_n_1 [label=ARG2]
+	_those_q_dem -> _hope_n_1 [label=BV]
+	compound -> _market_n_1 [label=ARG1]
+	"_put_v_in-fn.Amounting_to" -> _market_n_1 [label="ARG1-fn.Value"]
+	_the_q -> _market_n_1 [label=BV]
+	_when_x_subord -> "_put_v_in-fn.Amounting_to" [label=ARG2]
+	parg_d -> "_dash_v_2-fn.Halt" [label=ARG1]
+	_a_q -> _performance_n_1 [label=BV]
+	"_dash_v_2-fn.Halt" -> _hope_n_1 [label="ARG2-fn.Place"]
+	udef_q -> _stock_n_1 [label=BV]
+	"_put_v_in-fn.Amounting_to" -> _performance_n_1 [label="ARG2-fn.Attribute"]
+	parg_d -> _hope_n_1 [label=ARG2]
+}

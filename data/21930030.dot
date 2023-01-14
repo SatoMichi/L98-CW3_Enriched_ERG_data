@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_include_v_1-fn.Amounting_to" -> _business_n_1 [label="ARG1-fn.Value"]
+	proper_q -> "named(Beefeater)" [label=BV]
+	udef_q -> _gin_n_1 [label=BV]
+	"_include_v_1-fn.Amounting_to" -> _gin_n_1 [label="ARG2-fn.Attribute"]
+	compound -> "named(Beefeater)" [label=ARG2]
+	compound -> _gin_n_1 [label=ARG1]
+	_the_q -> _business_n_1 [label=BV]
+}

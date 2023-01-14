@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(3)" -> _irishman_n_1 [label=ARG1]
+	parg_d -> implicit_conj [label=ARG2]
+	_the_q -> "card(4)" [label=BV]
+	udef_q -> _irishman_n_1 [label=BV]
+	_since_p -> "yofc(1975)" [label=ARG2]
+	udef_q -> implicit_conj [label=BV]
+	"_imprison_v_1-fn.Imprisonment" -> implicit_conj [label="ARG2-fn.Theme"]
+	udef_q -> _and_c [label=BV]
+	parg_d -> "_imprison_v_1-fn.Imprisonment" [label=ARG1]
+	_a_q -> "named(Englishwoman)" [label=BV]
+	_since_p -> "_imprison_v_1-fn.Imprisonment" [label=ARG1]
+	proper_q -> "yofc(1975)" [label=BV]
+	compound -> "card(4)" [label=ARG1]
+	compound -> "named(Guildford)" [label=ARG2]
+	udef_q -> "named(Guildford)" [label=BV]
+}

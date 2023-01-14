@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _capacity_n_1 [label=BV]
+	comp -> _old_a_1 [label=ARG1]
+	"_got_v_to-fn.Needing" -> "_go_v_1-fn.Competition" [label="ARG1-fn.Cognizer"]
+	_so_a_thus -> "_got_v_to-fn.Needing" [label=ARG1]
+	"_go_v_1-fn.Competition" -> _capacity_n_1 [label="ARG1-fn.Participant_1"]
+	_inefficient_a_1 -> _capacity_n_1 [label=ARG1]
+	_old_a_1 -> _capacity_n_1 [label=ARG1]
+	superl -> _inefficient_a_1 [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(California)" [label=BV]
+	_with_p -> _aftermath_n_1 [label=ARG2]
+	_the_q -> _aftermath_n_1 [label=BV]
+	_with_p -> "_struggle_v_1-fn.NF" [label=ARG1]
+	compound -> "named(Bay)" [label=ARG2]
+	proper_q -> "named(Bay)" [label=BV]
+	"_struggle_v_1-fn.NF" -> "named(California)" [label="ARG1-fn.Agent"]
+	compound -> _earthquake_n_1 [label=ARG1]
+	_of_p -> _aftermath_n_1 [label=ARG1]
+	udef_q -> _area_n_of [label=BV]
+	compound -> _area_n_of [label=ARG1]
+	_of_p -> _earthquake_n_1 [label=ARG2]
+	_a_q -> _earthquake_n_1 [label=BV]
+}

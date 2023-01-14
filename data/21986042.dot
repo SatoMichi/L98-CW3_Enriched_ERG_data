@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_help_v_1-fn.Assistance" -> _game_n_1 [label="ARG1-fn.Agent"]
+	_however_a_1 -> "_help_v_1-fn.Assistance" [label=ARG1]
+	compound -> _game_n_1 [label=ARG1]
+	_on_p_state -> _balance_n_of [label=ARG2]
+	proper_q -> "named(America)" [label=BV]
+	udef_q -> _balance_n_of [label=BV]
+	"_help_v_1-fn.Assistance" -> "named(America)" [label="ARG2-fn.Theme"]
+	focus_d -> _on_p_state [label=ARG2]
+	_on_p_state -> "_help_v_1-fn.Assistance" [label=ARG1]
+	focus_d -> "_help_v_1-fn.Assistance" [label=ARG1]
+	compound -> _charity_n_1 [label=ARG2]
+	udef_q -> _charity_n_1 [label=BV]
+	_the_q -> _game_n_1 [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_when_x_subord -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	_high_a_1 -> _position_n_of [label=ARG1]
+	_when_x_subord -> "_help_v_to-fn.Assistance" [label=ARG1]
+	compound -> _cash_n_1 [label=ARG2]
+	"_help_v_to-fn.Assistance" -> _buffer_v_1 [label="ARG2-fn.Theme"]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _market_n_1 [label="ARG1-fn.NotExist"]
+	"_help_v_to-fn.Assistance" -> _position_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _position_n_of [label=BV]
+	compound -> _position_n_of [label=ARG1]
+	_buffer_v_1 -> _position_n_of [label=ARG1]
+	_buffer_v_1 -> _fund_n_1 [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	udef_q -> _cash_n_1 [label=BV]
+	_a_q -> _fund_n_1 [label=BV]
+}

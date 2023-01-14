@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> person [label=ARG1]
+	"_return_v_1-fn.Competition" -> "_predictability/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	_for_p -> "_return_v_1-fn.Competition" [label=ARG1]
+	every_q -> person [label=BV]
+	_from_p_time -> person [label=ARG1]
+	_for_p -> person [label=ARG2]
+	_now_a_1 -> "_return_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _economist_n_1 [label=BV]
+	"_at+least_x_deg" -> _some_q [label=ARG1]
+	udef_q -> _motorist_n_1 [label=BV]
+	_some_q -> "_predictability/nn_u_unknown" [label=BV]
+	_from_p_time -> _economist_n_1 [label=ARG2]
+	_to_p -> _motorist_n_1 [label=ARG2]
+}

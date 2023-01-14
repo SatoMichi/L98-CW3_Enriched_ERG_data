@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_appear_v_to-fn.Cause_to_end" -> "_be_v_id-fn.Assemble" [label="ARG2-fn.Means"]
+	_the_q -> _bank_n_of [label=BV]
+	"_be_v_id-fn.Assemble" -> _fit_n_of [label="ARG2-fn.Group"]
+	_a_q -> _fit_n_of [label=BV]
+	"_good_a_at-for-of" -> _fit_n_of [label=ARG1]
+	"card(2)" -> _bank_n_of [label=ARG1]
+	"_be_v_id-fn.Assemble" -> _bank_n_of [label="ARG1-fn.Individuals"]
+}

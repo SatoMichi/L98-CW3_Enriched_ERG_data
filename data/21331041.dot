@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_criminal_a_1 -> _provision_n_1 [label=ARG1]
+	_contain_v_1 -> "named(Superfund)" [label=ARG1]
+	"_concern_v_1-fn.Topic" -> _provision_n_1 [label="ARG1-fn.Theme"]
+	udef_q -> _substance_n_1 [label=BV]
+	_into_p -> _release_n_of [label=ARG1]
+	_the_q -> _environment_n_1 [label=BV]
+	_a_q -> _provision_n_1 [label=BV]
+	"_concern_v_1-fn.Topic" -> _release_n_of [label="ARG2-fn.Co-Theme"]
+	_also_a_1 -> _contain_v_1 [label=ARG1]
+	_contain_v_1 -> _provision_n_1 [label=ARG2]
+	_toxic_a_1 -> _substance_n_1 [label=ARG1]
+	_into_p -> _environment_n_1 [label=ARG2]
+	proper_q -> "named(Superfund)" [label=BV]
+	_the_q -> _release_n_of [label=BV]
+	_release_n_of -> _substance_n_1 [label=ARG1]
+}

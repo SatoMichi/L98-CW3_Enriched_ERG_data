@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_determine_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_of_p -> _transaction_n_1 [label=ARG2]
+	_specific_a_to -> _term_n_of [label=ARG1]
+	"_determine_v_1-fn.Competition" -> _term_n_of [label="ARG2-fn.Participant_2"]
+	_possible_a_for -> _transaction_n_1 [label=ARG1]
+	"_note_v_to-fn.State_continue" -> neg [label="ARG2-fn.State"]
+	_a_q -> _transaction_n_1 [label=BV]
+	_of_p -> _term_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_any_q -> _term_n_of [label=BV]
+	"_note_v_to-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	neg -> "_determine_v_1-fn.Competition" [label=ARG1]
+}

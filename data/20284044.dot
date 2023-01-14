@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _war_n_1 [label=ARG]
+	compound -> _war_n_1 [label=ARG1]
+	compound -> _drug_n_1 [label=ARG2]
+	udef_q -> _drug_n_1 [label=BV]
+	udef_q -> _war_n_1 [label=BV]
+}

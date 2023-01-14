@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000)" -> _surfer_n_1 [label=ARG1]
+	udef_q -> _surfer_n_1 [label=BV]
+	_atop_p -> _wall_n_of [label=ARG2]
+	"_wait_v_for-fn.IN" -> "_wipeout/nn_u_unknown" [label="ARG2-fn.Theme"]
+	_atop_p -> _surfer_n_1 [label=ARG1]
+	_the_q -> "_wipeout/nn_u_unknown" [label=BV]
+	compound -> _wall_n_of [label=ARG1]
+	"_wait_v_for-fn.IN" -> _surfer_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _concrete_n_1 [label=BV]
+	compound -> _concrete_n_1 [label=ARG2]
+	_a_q -> _wall_n_of [label=BV]
+	unknown -> _surfer_n_1 [label=ARG]
+	times -> "card(60)" [label=ARG2]
+	times -> "card(1000)" [label=ARG3]
+}

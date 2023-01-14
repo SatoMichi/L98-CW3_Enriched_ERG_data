@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _hunter_n_1 [label=ARG]
+	udef_q -> _hunter_n_1 [label=BV]
+	_in_p -> _forest_n_of [label=ARG2]
+	_in_p -> _hunter_n_1 [label=ARG1]
+	_the_q -> _forest_n_of [label=BV]
+	"card(2)" -> _hunter_n_1 [label=ARG1]
+}

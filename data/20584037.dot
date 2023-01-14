@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_buy_v_up-fn.Commerce_buy" -> _share_n_of [label="ARG2-fn.Goods"]
+	"_buy_v_up-fn.Commerce_buy" -> "named(BellSouth)" [label="ARG1-fn.Buyer"]
+	udef_q -> _share_n_of [label=BV]
+	"_in+the+meanwhile_p" -> "_buy_v_up-fn.Commerce_buy" [label=ARG1]
+	proper_q -> "named(BellSouth)" [label=BV]
+	"_prevent_v_from-fn.Cause_motion" -> "named(BellSouth)" [label="ARG2-fn.Theme"]
+	"_be_v_there-fn.Needing" -> thing [label="ARG1-fn.Cognizer"]
+	_no_q -> thing [label=BV]
+	"_prevent_v_from-fn.Cause_motion" -> "_buy_v_up-fn.Commerce_buy" [label="ARG3-fn.Source"]
+	"_prevent_v_from-fn.Cause_motion" -> thing [label="ARG1-fn.Agent"]
+}

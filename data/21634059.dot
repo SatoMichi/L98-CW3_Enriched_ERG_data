@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _producer_n_of [label=BV]
+	_producer_n_of -> _movie_n_of [label=ARG1]
+	_that_q_dem -> _movie_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _producer_n_of [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

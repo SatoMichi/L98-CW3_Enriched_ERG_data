@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> "_deliver_v_to-fn.Delivery" [label=ARG1]
+	parg_d -> "_deliver_v_to-fn.Delivery" [label=ARG1]
+	"_deliver_v_to-fn.Delivery" -> _unit_n_of [label="ARG2-fn.Theme"]
+	"ord(1)" -> _unit_n_of [label=ARG1]
+	parg_d -> _unit_n_of [label=ARG2]
+	"card(5)" -> _unit_n_of [label=ARG1]
+	_the_q -> _unit_n_of [label=BV]
+	_in_p_temp -> "yofc(1991)" [label=ARG2]
+	eventuality -> "_deliver_v_to-fn.Delivery" [label=ARG1]
+	"_lease_v_1-fn.Renting_out" -> _unit_n_of [label="ARG2-fn.Theme"]
+	proper_q -> "yofc(1991)" [label=BV]
+	parg_d -> "_lease_v_1-fn.Renting_out" [label=ARG1]
+}

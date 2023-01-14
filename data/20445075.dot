@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _price_n_of [label=ARG2]
+	unknown -> _competition_n_1 [label=ARG]
+	_no_q -> _competition_n_1 [label=BV]
+	_no_q -> _war_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _war_n_1 [label="ARG1-fn.Process"]
+	udef_q -> _price_n_of [label=BV]
+	compound -> _war_n_1 [label=ARG1]
+}

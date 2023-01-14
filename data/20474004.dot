@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_delay_v_1-fn.Competition" -> _merger_n_1 [label="ARG2-fn.Participant_2"]
+	"_delay_v_1-fn.Competition" -> _petition_n_1 [label="ARG1-fn.Participant_1"]
+	"_scuttle_v_1-fn.Relative_time" -> _merger_n_1 [label="ARG2-fn.Landmark_occasion"]
+	udef_q -> _petition_n_1 [label=BV]
+	_actual_a_1 -> _or_c [label=ARG1]
+	udef_q -> _merger_n_1 [label=BV]
+	"little-few_a" -> _petition_n_1 [label=ARG1]
+	"_scuttle_v_1-fn.Relative_time" -> _petition_n_1 [label="ARG1-fn.Focal_occasion"]
+}

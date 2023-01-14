@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _recovery_n_1 [label=ARG1]
+	_the_q -> _earthquake_n_1 [label=BV]
+	def_explicit_q -> _recovery_n_1 [label=BV]
+	_from_p -> _earthquake_n_1 [label=ARG2]
+	poss -> _city_n_1 [label=ARG2]
+	poss -> _recovery_n_1 [label=ARG1]
+	_the_q -> _city_n_1 [label=BV]
+	_uneven_a_1 -> _recovery_n_1 [label=ARG1]
+}

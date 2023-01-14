@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_suspect_v_of-fn.Awareness" -> pron [label="ARG1-fn.Agent"]
+	_build_v_into -> _process_n_of [label=ARG3]
+	_build_v_into -> "_downtime/nn_u_unknown" [label=ARG2]
+	_be_v_there -> "_downtime/nn_u_unknown" [label=ARG1]
+	parg_d -> "_downtime/nn_u_unknown" [label=ARG2]
+	parg_d -> _build_v_into [label=ARG1]
+	poss -> pron [label=ARG2]
+	udef_q -> "_downtime/nn_u_unknown" [label=BV]
+	poss -> _process_n_of [label=ARG1]
+	def_explicit_q -> _process_n_of [label=BV]
+	"_suspect_v_of-fn.Awareness" -> _be_v_there [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

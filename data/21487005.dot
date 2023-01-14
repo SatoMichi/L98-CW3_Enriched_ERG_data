@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _merit_n_1 [label=BV]
+	compound -> _company_n_of [label=ARG1]
+	compound -> "named(York)" [label=ARG1]
+	"_call_v_1-fn.Competition" -> _without_p [label="ARG3-fn.Participants"]
+	_without_p -> "_lawsuit/nn_u_unknown" [label=ARG1]
+	_without_p -> _merit_n_1 [label=ARG2]
+	"_call_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(York)" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	_the_q -> "_lawsuit/nn_u_unknown" [label=BV]
+	"_call_v_1-fn.Competition" -> "_lawsuit/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+}

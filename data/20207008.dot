@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_play_v_1-fn.Cause_to_make_noise" -> thing [label="ARG2-fn.Theme"]
+	"_believe_v_in-fn.Religious_belief" -> nominalization [label="ARG2-fn.NotExist"]
+	nominalization -> "_play_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	"_play_v_1-fn.Cause_to_make_noise" -> pron [label="ARG1-fn.Agent"]
+	_superb_a_1 -> "_play_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	"_believe_v_in-fn.Religious_belief" -> pron [label="ARG1-fn.NotExist"]
+	udef_q -> nominalization [label=BV]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _screen_n_1 [label=ARG1]
+	_of_p -> _dimension_n_1 [label=ARG1]
+	_the_q -> _set_n_of [label=BV]
+	compound -> _movie_n_of [label=ARG2]
+	_a_q -> _screen_n_1 [label=BV]
+	_the_q -> _dimension_n_1 [label=BV]
+	comp -> _wide_a_1 [label=ARG1]
+	subord -> _wide_a_1 [label=ARG1]
+	udef_q -> _movie_n_of [label=BV]
+	"_resemble_v_1-fn.Competition" -> _dimension_n_1 [label="ARG2-fn.Participant_2"]
+	subord -> "_resemble_v_1-fn.Competition" [label=ARG2]
+	_wide_a_1 -> _set_n_of [label=ARG1]
+	_of_p -> _screen_n_1 [label=ARG2]
+}

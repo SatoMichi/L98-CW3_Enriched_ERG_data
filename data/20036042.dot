@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _spend_v_1 [label=ARG1]
+	_the_q -> _government_n_of [label=BV]
+	"_include_v_1-fn.NF" -> _government_n_of [label="ARG1-fn.Agent"]
+	_spend_v_1 -> _money_n_1 [label=ARG2]
+	udef_q -> _money_n_1 [label=BV]
+	_on_p -> _renovation_n_of [label=ARG2]
+	udef_q -> _renovation_n_of [label=BV]
+	_on_p -> _money_n_1 [label=ARG1]
+	proper_q -> "named(Dodge)" [label=BV]
+	"_include_v_1-fn.NF" -> _money_n_1 [label="ARG2-fn.Theme"]
+	_spend_v_1 -> _on_p [label=ARG3]
+	neg -> ellipsis_ref [label=ARG1]
+	ellipsis_ref -> "named(Dodge)" [label=ARG1]
+	parg_d -> _money_n_1 [label=ARG2]
+	_residential_a_1 -> _renovation_n_of [label=ARG1]
+}

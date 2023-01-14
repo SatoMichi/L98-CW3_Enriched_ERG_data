@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "named(REACTOR)" [label=ARG]
+	_nuclear_a_1 -> "named(REACTOR)" [label=ARG1]
+	_for_p -> "named(Israel)" [label=ARG2]
+	proper_q -> "named(REACTOR)" [label=BV]
+	proper_q -> "named(Israel)" [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_equal -> "much-many_a" [label=ARG1]
+	comp_equal -> "_used+to_v_qmodal" [label=ARG2]
+	ellipsis_ref -> pron [label=ARG1]
+	"_make_v_1-fn.Manufacturing" -> pron [label="ARG1-fn.Agent"]
+	neg -> "_make_v_1-fn.Manufacturing" [label=ARG1]
+	"_make_v_1-fn.Manufacturing" -> _device_n_1 [label="ARG2-fn.Product"]
+	udef_q -> _device_n_1 [label=BV]
+	"_pyrotechnic/jj_u_unknown" -> _device_n_1 [label=ARG1]
+	"much-many_a" -> _device_n_1 [label=ARG1]
+	"_used+to_v_qmodal" -> ellipsis_ref [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_unique_a_to -> "named(Blumenfeld)" [label=ARG1]
+	compound -> "named(Blumenfeld)" [label=ARG1]
+	compound -> _doctor_n_1 [label=ARG2]
+	udef_q -> _doctor_n_1 [label=BV]
+	neg -> _unique_a_to [label=ARG1]
+	proper_q -> "named(Blumenfeld)" [label=BV]
+}

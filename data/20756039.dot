@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_foreign_a_1 -> _trade_n_of [label=ARG1]
+	unknown -> _trade_n_of [label=ARG]
+	udef_q -> _trade_n_of [label=BV]
+}

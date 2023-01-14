@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_never_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_in_p -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	comp -> _early_a_1 [label=ARG1]
+	_a_q -> _rebel_n_1 [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _never_a_1 [label="ARG2-fn.Requirement"]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG2]
+	_in_p -> _interview_n_1 [label=ARG2]
+	_early_a_1 -> _interview_n_1 [label=ARG1]
+	_a_q -> _interview_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _rebel_n_1 [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+}

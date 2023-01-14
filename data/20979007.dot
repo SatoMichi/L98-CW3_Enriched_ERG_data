@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_between_p -> _relationship_n_of [label=ARG1]
+	_quick_a_1 -> "_deteriorate_v_1-fn.NF" [label=ARG1]
+	compound -> "named(Qintex)" [label=ARG2]
+	"_deteriorate_v_1-fn.NF" -> _relationship_n_of [label="ARG1-fn.NotExist"]
+	compound -> "named(Entertainment)" [label=ARG1]
+	_between_p -> _and_c [label=ARG2]
+	_the_q -> _relationship_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	_australian_a_1 -> _company_n_of [label=ARG1]
+	proper_q -> "named(Qintex)" [label=BV]
+	proper_q -> "named(Entertainment)" [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_appear_v_to -> "_deteriorate_v_1-fn.NF" [label=ARG2]
+}

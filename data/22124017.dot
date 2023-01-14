@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_into_p -> _rally_n_1 [label=ARG2]
+	"_think_v_1-fn.IN" -> generic_entity [label="ARG1-fn.NotExist"]
+	"_think_v_1-fn.IN" -> _should_v_modal [label="ARG2-fn.NotExist"]
+	_should_v_modal -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	_some_q -> generic_entity [label=BV]
+	udef_q -> _rally_n_1 [label=BV]
+	"_sell_v_1-fn.Commerce_sell" -> _investor_n_1 [label="ARG1-fn.Agent"]
+	_into_p -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+}

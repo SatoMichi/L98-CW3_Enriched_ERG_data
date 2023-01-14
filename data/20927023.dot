@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Maurer)" [label=BV]
+	compound -> _and_c [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_include_v_1-fn.Amounting_to" -> pron [label="ARG1-fn.Value"]
+	proper_q -> "named(Schwarz)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_include_v_1-fn.Amounting_to" -> _and_c [label="ARG2-fn.Attribute"]
+}

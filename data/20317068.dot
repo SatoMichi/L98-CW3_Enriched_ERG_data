@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _company_n_of [label=BV]
+	"_own_v_1-fn.Competition" -> "named(Nekoosa)" [label="ARG2-fn.Participant_2"]
+	"_predict_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Participant_1"]
+	"_predict_v_1-fn.Competition" -> "_end_v_up-fn.Halt" [label="ARG2-fn.Participant_2"]
+	"_own_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	_some_q -> generic_entity [label=BV]
+	_japanese_a_1 -> _company_n_of [label=ARG1]
+	parg_d -> "_own_v_1-fn.Competition" [label=ARG1]
+	"_end_v_up-fn.Halt" -> "named(Nekoosa)" [label="ARG1-fn.Purpose"]
+	"_end_v_up-fn.Halt" -> "_own_v_1-fn.Competition" [label="ARG2-fn.Place"]
+	proper_q -> "named(Nekoosa)" [label=BV]
+	parg_d -> "named(Nekoosa)" [label=ARG2]
+}

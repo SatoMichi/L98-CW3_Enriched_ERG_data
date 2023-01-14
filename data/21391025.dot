@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_suffer_v_1-fn.Catastrophe" -> _balance_n_of [label="ARG1-fn.Experiencer"]
+	_balance_n_of -> _payment_n_of [label=ARG1]
+	_would_v_modal -> "_suffer_v_1-fn.Catastrophe" [label=ARG1]
+	_with_x_subord -> _come_v_1 [label=ARG2]
+	def_explicit_q -> _balance_n_of [label=BV]
+	poss -> _balance_n_of [label=ARG1]
+	comp -> "little-few_a" [label=ARG1]
+	_with_x_subord -> _would_v_modal [label=ARG1]
+	"little-few_a" -> _capital_n_1 [label=ARG1]
+	poss -> "named(China)" [label=ARG2]
+	udef_q -> _payment_n_of [label=BV]
+	_come_v_1 -> _capital_n_1 [label=ARG1]
+	proper_q -> "named(China)" [label=BV]
+	_in_p_dir -> _come_v_1 [label=ARG1]
+	udef_q -> _capital_n_1 [label=BV]
+}

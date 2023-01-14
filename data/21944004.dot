@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_add_v_to-fn.Cause_to_end" -> _list_n_of [label="ARG3-fn.Place"]
+	_for_p -> reason [label=ARG2]
+	_the_q -> _list_n_of [label=BV]
+	_for_p -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	which_q -> reason [label=BV]
+	compound -> "named(Value)" [label=ARG2]
+	compound -> "named(Fund)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Value)" [label=BV]
+	_the_q -> "named(Fund)" [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> "named(Fund)" [label="ARG2-fn.Means"]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

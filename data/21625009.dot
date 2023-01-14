@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_number_n_of -> _case_n_of [label=ARG1]
+	_in_p -> unknown [label=ARG1]
+	_a_q -> _number_n_of [label=BV]
+	udef_q -> _case_n_of [label=BV]
+	_distressing_a_for -> _number_n_of [label=ARG1]
+	_in_p -> _number_n_of [label=ARG2]
+	_no_a_1 -> unknown [label=ARG1]
+}

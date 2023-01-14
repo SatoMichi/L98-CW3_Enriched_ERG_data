@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(I-880)" [label=ARG2]
+	_of_p -> "_retrofitting/nn_u_unknown" [label=ARG2]
+	_the_q -> _section_n_of [label=BV]
+	_of_p -> _phase_n_1 [label=ARG1]
+	"_complete_v_2-fn.Activity_finish" -> _section_n_of [label="ARG1-fn.Agent"]
+	_the_q -> "_retrofitting/nn_u_unknown" [label=BV]
+	"ord(1)" -> _phase_n_1 [label=ARG1]
+	proper_q -> "named(I-880)" [label=BV]
+	"_complete_v_2-fn.Activity_finish" -> _phase_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _phase_n_1 [label=BV]
+	compound -> _section_n_of [label=ARG1]
+}

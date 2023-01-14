@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_at+all_a_1" -> _bother_v_with [label=ARG1]
+	_bother_v_with -> _drug_n_1 [label=ARG2]
+	_why_x -> generic_verb [label=ARG1]
+	_this_q_dem -> _drug_n_1 [label=BV]
+	"_ask_v_1-fn.Questioning" -> _why_x [label="ARG2-fn.Topic"]
+	_might_v_modal -> "_ask_v_1-fn.Questioning" [label=ARG1]
+	generic_verb -> _bother_v_with [label=ARG1]
+	_well_a_1 -> "_ask_v_1-fn.Questioning" [label=ARG1]
+	pronoun_q -> _one_n_1 [label=BV]
+	_colon_p_namely -> _why_x [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> _one_n_1 [label="ARG1-fn.Agent"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_try_v_1-fn.Attempt" -> "_maintain_v_1-fn.Activity_ongoing" [label="ARG2-fn.Theme"]
+	"_maintain_v_1-fn.Activity_ongoing" -> pron [label="ARG1-fn.NotExist"]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_under_p -> "_maintain_v_1-fn.Activity_ongoing" [label=ARG1]
+	udef_q -> _circumstance_n_1 [label=BV]
+	poss -> _dignity_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _dignity_n_1 [label=BV]
+	_under_p -> _circumstance_n_1 [label=ARG2]
+	"_maintain_v_1-fn.Activity_ongoing" -> _dignity_n_1 [label="ARG2-fn.NotExist"]
+	_difficult_a_for -> _circumstance_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _proceeds_n_1 [label=ARG1]
+	udef_q -> _debt_n_1 [label=BV]
+	parg_d -> _proceeds_n_1 [label=ARG2]
+	parg_d -> "_use_v_1-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _proceeds_n_1 [label=BV]
+	_those_q_dem -> _sale_n_of [label=BV]
+	"_use_v_1-fn.Cause_to_end" -> _proceeds_n_1 [label="ARG2-fn.Means"]
+	"_reduce_v_1-fn.Cause_to_end" -> _debt_n_1 [label="ARG2-fn.Means"]
+	"_use_v_1-fn.Cause_to_end" -> "_reduce_v_1-fn.Cause_to_end" [label="ARG3-fn.Place"]
+	_from_p -> _sale_n_of [label=ARG2]
+}

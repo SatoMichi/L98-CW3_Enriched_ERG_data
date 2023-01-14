@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cotheme" -> _hit_n_1 [label="ARG2-fn.Cotheme"]
+	udef_q -> "_mega-/nn_u_unknown" [label=BV]
+	focus_d -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	_a_q -> _hit_n_1 [label=BV]
+	_with_p -> _hit_n_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	_far_a_1 -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> _issue_n_1 [label="ARG1-fn.Theme"]
+	compound -> _issue_n_1 [label=ARG1]
+	comp_so -> _far_a_1 [label=ARG1]
+	compound -> "_mega-/nn_u_unknown" [label=ARG2]
+	_with_p -> _investor_n_1 [label=ARG2]
+	_the_q -> _issue_n_1 [label=BV]
+}

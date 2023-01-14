@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _insurance_n_1 [label=ARG1]
+	comp_equal -> "_look_v_1-fn.Appearance" [label=ARG2]
+	_may_v_modal -> neg [label=ARG1]
+	comp_equal -> _cheap_a_1 [label=ARG1]
+	neg -> _cheap_a_1 [label=ARG1]
+	compound -> _term_n_of [label=ARG2]
+	udef_q -> _term_n_of [label=BV]
+	_cheap_a_1 -> _insurance_n_1 [label=ARG1]
+	"_look_v_1-fn.Appearance" -> pron [label="ARG1-fn.Stimulus"]
+	udef_q -> _insurance_n_1 [label=BV]
+	_so_a_thus -> _may_v_modal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

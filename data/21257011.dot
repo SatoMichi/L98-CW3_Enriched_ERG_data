@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_previous_a_1 -> _deadline_n_of [label=ARG1]
+	_the_q -> _deadline_n_of [label=BV]
+	of_p -> "dofm(30)" [label=ARG1]
+	def_explicit_q -> "dofm(30)" [label=BV]
+	def_implicit_q -> "mofy(Nov)" [label=BV]
+	"_complete_v_2-fn.Activity_ongoing" -> _sale_n_of [label="ARG2-fn.Activity"]
+	with_p -> "_complete_v_2-fn.Activity_ongoing" [label=ARG1]
+	with_p -> _deadline_n_of [label=ARG2]
+	of_p -> "mofy(Nov)" [label=ARG2]
+	loc_nonsp -> "dofm(30)" [label=ARG2]
+	_the_q -> _sale_n_of [label=BV]
+	loc_nonsp -> _deadline_n_of [label=ARG1]
+}

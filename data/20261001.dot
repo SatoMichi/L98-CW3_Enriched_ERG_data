@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _half_n_of [label=ARG2]
+	_a_q -> _cup_n_of [label=BV]
+	compound -> _quarter_n_of [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _or_c [label="ARG2-fn.Means"]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _or_c [label=BV]
+	compound -> _cup_n_of [label=ARG1]
+	udef_q -> _quarter_n_of [label=BV]
+	_now_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _half_n_of [label=BV]
+}

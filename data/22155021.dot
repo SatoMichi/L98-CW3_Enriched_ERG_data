@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_could_v_modal-fn.Cause_to_end" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Process"]
+	_the_q -> _input_n_to [label=BV]
+	"_have_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_be_v_id-fn.Residence" -> _while_n_1 [label="ARG2-fn.Location"]
+	_still_a_1 -> "_could_v_modal-fn.Cause_to_end" [label=ARG1]
+	"_be_v_nv-fn.Experiencer_obj" -> "_could_v_modal-fn.Cause_to_end" [label="ARG2-fn.Stimulus"]
+	"_be_v_nv-fn.Experiencer_obj" -> _input_n_to [label="ARG1-fn.Experiencer"]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	_from_p -> _customer_n_of [label=ARG2]
+	_from_p -> "_have_v_1-fn.Competition" [label=ARG1]
+	_a_q -> _while_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_have_v_1-fn.Competition" -> _input_n_to [label="ARG2-fn.Participant_2"]
+	udef_q -> _customer_n_of [label=BV]
+}

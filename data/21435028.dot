@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _after_c [label=BV]
+	_on_p_temp -> _rain_v_1 [label=ARG1]
+	udef_q -> _day_n_of [label=BV]
+	proper_q -> "dofw(Sat)" [label=BV]
+	udef_q -> _sunshine_n_1 [label=BV]
+	_of_p -> _sunshine_n_1 [label=ARG2]
+	neg -> "_help_v_1-fn.Assistance" [label=ARG1]
+	focus_d -> _on_p_temp [label=ARG2]
+	focus_d -> _rain_v_1 [label=ARG1]
+	"card(3)" -> _day_n_of [label=ARG1]
+	_of_p -> _day_n_of [label=ARG1]
+	"_help_v_1-fn.Assistance" -> _rain_v_1 [label="ARG1-fn.NotExist"]
+	_on_p_temp -> _after_c [label=ARG2]
+}

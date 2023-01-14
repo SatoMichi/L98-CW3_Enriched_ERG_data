@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_maybe_x_deg -> pronoun_q [label=ARG1]
+	_all_q -> part_of [label=BV]
+	part_of -> _people_n_of [label=ARG1]
+	"_hide_v_away-fn.Eclipse" -> pron [label="ARG2-fn.Patient"]
+	"_hide_v_away-fn.Eclipse" -> part_of [label="ARG1-fn.Agent"]
+	parg_d -> pron [label=ARG2]
+	_the_q -> _people_n_of [label=BV]
+	parg_d -> "_hide_v_away-fn.Eclipse" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

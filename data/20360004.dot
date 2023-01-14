@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _penny_n_1 [label=BV]
+	_otherwise_a_1 -> _suggest_v_to [label=ARG1]
+	_wise_a_for -> nominalization [label=ARG1]
+	_small_a_1 -> _reduction_n_of [label=ARG1]
+	compound -> _foolish_a_1 [label=ARG1]
+	_a_q -> _reduction_n_of [label=BV]
+	_unacceptable_a_1 -> _reduction_n_of [label=ARG1]
+	udef_q -> _pound_n_1 [label=BV]
+	compound -> _penny_n_1 [label=ARG2]
+	compound -> _pound_n_1 [label=ARG2]
+	_foolish_a_1 -> nominalization [label=ARG1]
+	nominalization -> _suggest_v_to [label=ARG1]
+	compound -> _wise_a_for [label=ARG1]
+	_even_x_deg -> _a_q [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

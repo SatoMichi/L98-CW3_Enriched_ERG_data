@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _fault_n_1 [label=ARG1]
+	"_be_v_nv-fn.Halt" -> _news_n_of [label="ARG1-fn.Purpose"]
+	def_explicit_q -> _fault_n_1 [label=BV]
+	neg -> "_be_v_id-fn.Assemble" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	"_be_v_nv-fn.Halt" -> neg [label="ARG2-fn.Place"]
+	"_be_v_id-fn.Assemble" -> _fault_n_1 [label="ARG2-fn.Group"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	"_good_a_at-for-of" -> _news_n_of [label=ARG1]
+	_the_q -> _news_n_of [label=BV]
+}

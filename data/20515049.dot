@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_trickle/vb_u_unknown" -> _news_n_of [label=ARG1]
+	_the_q -> _boom_n_1 [label=BV]
+	_to_p -> "_trickle/vb_u_unknown" [label=ARG1]
+	_the_q -> _farmer_n_1 [label=BV]
+	_to_p -> _farmer_n_1 [label=ARG2]
+	_down_p -> "_trickle/vb_u_unknown" [label=ARG1]
+	_news_n_of -> _boom_n_1 [label=ARG1]
+	"_have_v_yet-fn.State_continue" -> "_trickle/vb_u_unknown" [label="ARG1-fn.Entity"]
+	_the_q -> _news_n_of [label=BV]
+}

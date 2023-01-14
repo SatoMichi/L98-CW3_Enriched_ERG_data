@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> loc_nonsp [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	loc_nonsp -> unknown [label=ARG1]
+	_this_q_dem -> _year_n_1 [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _in_p_temp [label=ARG2]
+	"_come_v_along-fn.Needing" -> _folks_n_1 [label="ARG1-fn.Cognizer"]
+	_the_q -> _folks_n_1 [label=BV]
+	_the_q -> _hour_n_1 [label=BV]
+	_real_x_deg -> _nervous_a_about [label=ARG1]
+	"_say_v_to-fn.Taking" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	"ord(1)" -> _hour_n_1 [label=ARG1]
+	"_say_v_to-fn.Taking" -> "_come_v_along-fn.Needing" [label="ARG2-fn.Theme"]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	_in_p_temp -> "_come_v_along-fn.Needing" [label=ARG1]
+	_a_q -> _spokesman_n_1 [label=BV]
+	focus_d -> "_come_v_along-fn.Needing" [label=ARG1]
+	_in_p_temp -> _hour_n_1 [label=ARG2]
+	_nervous_a_about -> _folks_n_1 [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _government_n_of [label=BV]
+	focus_d -> "_anomalous/jj_u_unknown" [label=ARG1]
+	poss -> _position_n_of [label=ARG1]
+	_in_p -> _position_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	_first_a_1 -> "_anomalous/jj_u_unknown" [label=ARG1]
+	def_explicit_q -> _position_n_of [label=BV]
+	_in_p -> _government_n_of [label=ARG2]
+	"_anomalous/jj_u_unknown" -> _position_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_employ_v_1-fn.Employing" -> _people_n_of [label="ARG2-fn.Theme"]
+	_the_q -> "_steelmaker/nn_u_unknown" [label=BV]
+	"_employ_v_1-fn.Employing" -> "_steelmaker/nn_u_unknown" [label="ARG1-fn.Agent"]
+	_about_x_deg -> "card(16,000)" [label=ARG1]
+	"card(16,000)" -> _people_n_of [label=ARG1]
+	udef_q -> _people_n_of [label=BV]
+}

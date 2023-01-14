@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_since_p -> "mofy(Mar)" [label=ARG2]
+	_the_q -> _sale_n_of [label=BV]
+	_every_q -> _month_n_1 [label=BV]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	proper_q -> "mofy(Mar)" [label=BV]
+	loc_nonsp -> "_set_v_1-fn.Relative_time" [label=ARG1]
+	_since_p -> "_set_v_1-fn.Relative_time" [label=ARG1]
+	_monthly_a_1 -> _sale_n_of [label=ARG1]
+	udef_q -> _record_n_of [label=BV]
+	"_set_v_1-fn.Relative_time" -> _sale_n_of [label="ARG1-fn.Focal_occasion"]
+	"_set_v_1-fn.Relative_time" -> _record_n_of [label="ARG2-fn.Landmark_occasion"]
+}

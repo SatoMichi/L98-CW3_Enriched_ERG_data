@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_available_a_1 -> "_debentures/nns_u_unknown" [label=ARG1]
+	udef_q -> "_and+company_n_1" [label=BV]
+	_the_q -> "_debentures/nns_u_unknown" [label=BV]
+	compound -> "_and+company_n_1" [label=ARG2]
+	_through_p -> "named(Sachs)" [label=ARG2]
+	compound -> "named(Goldman)" [label=ARG2]
+	_through_p -> _available_a_1 [label=ARG1]
+	proper_q -> "named(Goldman)" [label=BV]
+	compound -> "named(Sachs)" [label=ARG1]
+	proper_q -> "named(Sachs)" [label=BV]
+}

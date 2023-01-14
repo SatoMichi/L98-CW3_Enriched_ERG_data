@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _idea_n_of [label="ARG2-fn.Means"]
+	poss -> _idea_n_of [label=ARG1]
+	poss -> "named(Bush)" [label=ARG2]
+	proper_q -> "named(George)" [label=BV]
+	_own_a_1 -> _idea_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	compound -> "named(Bush)" [label=ARG1]
+	def_explicit_q -> _idea_n_of [label=BV]
+	proper_q -> "named(Bush)" [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	compound -> "named(George)" [label=ARG2]
+}

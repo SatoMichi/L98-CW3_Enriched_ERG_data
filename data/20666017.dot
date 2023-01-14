@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_avoid_v_1-fn.Avoiding" -> "named(Ross)" [label="ARG1-fn.Agent"]
+	_would_v_modal -> "_avoid_v_1-fn.Avoiding" [label=ARG1]
+	compound -> "named(Lawrence)" [label=ARG2]
+	proper_q -> "named(Lawrence)" [label=BV]
+	_of_p -> "named(PaineWebber)" [label=ARG2]
+	"_avoid_v_1-fn.Avoiding" -> "named(Camp)" [label="ARG2-fn.Theme"]
+	proper_q -> "named(Union)" [label=BV]
+	_of_p -> "named(Ross)" [label=ARG1]
+	proper_q -> "named(Ross)" [label=BV]
+	proper_q -> "named(PaineWebber)" [label=BV]
+	proper_q -> "named(Camp)" [label=BV]
+	compound -> "named(Ross)" [label=ARG1]
+	compound -> "named(Camp)" [label=ARG1]
+	compound -> "named(Union)" [label=ARG2]
+}

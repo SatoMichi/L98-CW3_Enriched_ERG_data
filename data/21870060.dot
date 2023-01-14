@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_feel_v_1-fn.Perception_experience" -> _industry_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _industry_n_1 [label=ARG1]
+	_increase_v_cause -> _demand_n_1 [label=ARG2]
+	parg_d -> _demand_n_1 [label=ARG2]
+	_sure_a_of -> "_feel_v_1-fn.Perception_experience" [label=ARG1]
+	"_feel_v_1-fn.Perception_experience" -> _demand_n_1 [label="ARG2-fn.NotExist"]
+	compound -> _construction_n_of [label=ARG2]
+	_the_q -> _industry_n_1 [label=BV]
+	udef_q -> _demand_n_1 [label=BV]
+	udef_q -> _construction_n_of [label=BV]
+	parg_d -> _increase_v_cause [label=ARG1]
+}

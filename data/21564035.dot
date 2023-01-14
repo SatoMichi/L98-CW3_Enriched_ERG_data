@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _wide_a_1 [label=ARG1]
+	_then_a_1 -> "_in+order+to_x" [label=ARG1]
+	"card(2)" -> _deviation_n_from [label=ARG1]
+	"_in+order+to_x" -> "_get_v_1-fn.IN" [label=ARG2]
+	"_subtract_v_1-fn.NF" -> _deviation_n_from [label="ARG2-fn.Theme"]
+	"_add_v_to-fn.Statement" -> _deviation_n_from [label="ARG2-fn.Patient"]
+	"_get_v_1-fn.IN" -> _range_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _deviation_n_from [label=BV]
+	"_in+order+to_x" -> _and_c [label=ARG1]
+	_wide_a_1 -> _range_n_of [label=ARG1]
+	_a_q -> _range_n_of [label=BV]
+	_standard_a_1 -> _deviation_n_from [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _businessman_n_1 [label="ARG2-fn.Location"]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	_a_q -> _businessman_n_1 [label=BV]
+	"_in+order+to_x" -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	"_do_v_1-fn.Piracy" -> "_thing_n_of-about" [label="ARG2-fn.Vehicle"]
+	"_can_v_modal-fn.Reliance" -> "_do_v_1-fn.Piracy" [label="ARG1-fn.Protagonist"]
+	"_in+order+to_x" -> "_be_v_id-fn.Residence" [label=ARG2]
+	"card(5)" -> "_thing_n_of-about" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_at+once_a_1" -> "_do_v_1-fn.Piracy" [label=ARG1]
+}

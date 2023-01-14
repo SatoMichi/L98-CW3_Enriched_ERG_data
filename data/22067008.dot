@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_reject_v_as -> _member_n_of [label=ARG1]
+	"_want_v_1-fn.Desiring" -> "_bring_v_back-fn.Bringing" [label="ARG2-fn.Theme"]
+	_reject_v_as -> thing [label=ARG2]
+	_some_q -> thing [label=BV]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	"_bring_v_back-fn.Bringing" -> thing [label="ARG2-fn.Theme"]
+	"_bring_v_back-fn.Bringing" -> pron [label="ARG1-fn.Instrument"]
+	_the_q -> _member_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

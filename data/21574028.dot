@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> _cancel_v_1 [label=ARG2]
+	"_have_v_1-fn.IN" -> _insurance_n_1 [label="ARG2-fn.Theme"]
+	"_no+more_q" -> _insurance_n_1 [label=BV]
+	_a_q -> _consideration_n_of [label=BV]
+	_if_x_then -> _would_v_modal [label=ARG1]
+	"_not+insignificant_a_1" -> _consideration_n_of [label=ARG1]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	_first_a_1 -> "_have_v_1-fn.IN" [label=ARG1]
+	_cancel_v_1 -> pron [label=ARG1]
+	_would_v_modal -> "_have_v_1-fn.IN" [label=ARG1]
+	focus_d -> _would_v_modal [label=ARG1]
+	unknown -> _consideration_n_of [label=ARG]
+	pronoun_q -> pron [label=BV]
+}

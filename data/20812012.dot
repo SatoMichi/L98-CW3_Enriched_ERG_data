@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_those_q_dem -> _company_n_of [label=BV]
+	"_in+fact_a_1" -> "_receive_v_1-fn.Competition" [label=ARG1]
+	"card(6)" -> part_of [label=ARG1]
+	times -> "card(120)" [label=ARG2]
+	"_receive_v_1-fn.Competition" -> part_of [label="ARG1-fn.Participant_1"]
+	part_of -> _company_n_of [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> part_of [label=BV]
+	"_receive_v_1-fn.Competition" -> _refund_n_of [label="ARG2-fn.Participant_2"]
+	udef_q -> _refund_n_of [label=BV]
+	"_total_v_1-fn.Competition" -> _refund_n_of [label="ARG1-fn.Participant_1"]
+	focus_d -> "_receive_v_1-fn.Competition" [label=ARG1]
+	"_total_v_1-fn.Competition" -> _dollar_n_1 [label="ARG2-fn.Participant_2"]
+}

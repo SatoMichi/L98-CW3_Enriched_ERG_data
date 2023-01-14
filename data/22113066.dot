@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sell_v_1-fn.Competition" -> _state_n_of [label="ARG1-fn.Participant_1"]
+	"_give_v_1-fn.Competition" -> _day_n_of [label="ARG2-fn.Participant_2"]
+	"_sell_v_1-fn.Competition" -> "named(Rubens)" [label="ARG2-fn.Participant_2"]
+	_the_q -> "named(Rubens)" [label=BV]
+	_the_q -> _state_n_of [label=BV]
+	"card(30)" -> _day_n_of [label=ARG1]
+	"_give_v_1-fn.Competition" -> _state_n_of [label="ARG1-fn.Participant_1"]
+	"_give_v_1-fn.Competition" -> "named(CenTrust)" [label="ARG3-fn.Participants"]
+	proper_q -> "named(CenTrust)" [label=BV]
+	udef_q -> _day_n_of [label=BV]
+	"_in+order+to_x" -> "_give_v_1-fn.Competition" [label=ARG1]
+	"_in+order+to_x" -> "_sell_v_1-fn.Competition" [label=ARG2]
+}

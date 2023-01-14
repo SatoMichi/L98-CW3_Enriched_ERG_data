@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _trust_n_1 [label=BV]
+	poss -> _people_n_of [label=ARG2]
+	poss -> _trust_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_twist_v_1-fn.Manipulate_into_shape" -> pron [label="ARG1-fn.Agent"]
+	"_twist_v_1-fn.Manipulate_into_shape" -> _trust_n_1 [label="ARG2-fn.Material"]
+	udef_q -> _people_n_of [label=BV]
+}

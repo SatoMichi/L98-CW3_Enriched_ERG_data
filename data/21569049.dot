@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _advice_n_1 [label=BV]
+	"_panic_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	_colon_p_namely -> unknown [label=ARG1]
+	_colon_p_namely -> neg [label=ARG2]
+	unknown -> _advice_n_1 [label=ARG]
+	poss -> _advice_n_1 [label=ARG1]
+	neg -> "_panic_v_1-fn.Impact" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

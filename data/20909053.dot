@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _scandal_n_1 [label=BV]
+	compound -> _victim_n_of [label=ARG1]
+	"_fare_v_1-fn.Renting" -> _victim_n_of [label="ARG1-fn.Lessee"]
+	_male_a_1 -> _victim_n_of [label=ARG1]
+	_invariable_a_1 -> "_fare_v_1-fn.Renting" [label=ARG1]
+	udef_q -> _victim_n_of [label=BV]
+	compound -> _scandal_n_1 [label=ARG2]
+	_better_a_1 -> "_fare_v_1-fn.Renting" [label=ARG1]
+}

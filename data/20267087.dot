@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _bank_n_of [label=BV]
+	"_acquiesced/vbd_u_unknown" -> _bank_n_of [label=ARG1]
+}

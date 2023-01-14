@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _reading_n_of [label=BV]
+	compound -> _reading_n_of [label=ARG1]
+	_american_a_1 -> _capitalism_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	"_long-term_a_1" -> "_be_v_id-fn.Residence" [label=ARG1]
+	proper_q -> "named(Richter)" [label=BV]
+	udef_q -> _capitalism_n_1 [label=BV]
+	_on_p -> _capitalism_n_1 [label=ARG2]
+	_these_q_dem -> generic_entity [label=BV]
+	_on_p -> _reading_n_of [label=ARG1]
+	"_be_v_id-fn.Residence" -> _reading_n_of [label="ARG2-fn.Location"]
+	compound -> "named(Richter)" [label=ARG2]
+}

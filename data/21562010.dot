@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> time_n [label=ARG2]
+	_like_p -> nominalization [label=ARG2]
+	loc_nonsp -> "_get_v_out-fn.Cause_to_continue" [label=ARG1]
+	_like_p -> pron [label=ARG1]
+	loc_nonsp -> "_get_v_in-fn.Commerce_buy" [label=ARG1]
+	"_get_v_in-fn.Commerce_buy" -> pron [label="ARG2-fn.Goods"]
+	_now_a_1 -> time_n [label=ARG1]
+	"_get_v_out-fn.Cause_to_continue" -> pron [label="ARG2-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	nominalization -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _or_c [label="ARG2-fn.Requirement"]
+}

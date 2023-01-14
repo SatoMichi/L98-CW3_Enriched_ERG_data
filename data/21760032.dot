@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_must_v_modal -> "_end_v_cause-fn.Cause_to_end" [label=ARG1]
+	def_explicit_q -> _reliance_n_1 [label=BV]
+	_the_q -> "named(Afrikaner)" [label=BV]
+	poss -> pron [label=ARG2]
+	_on_p -> _reliance_n_1 [label=ARG1]
+	"_end_v_cause-fn.Cause_to_end" -> _reliance_n_1 [label="ARG2-fn.Theme"]
+	poss -> _reliance_n_1 [label=ARG1]
+	"_end_v_cause-fn.Cause_to_end" -> "named(Afrikaner)" [label="ARG1-fn.Agent"]
+	udef_q -> _other_n_1 [label=BV]
+	_on_p -> _other_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.Commerce_buy" -> "_approve_v_1-fn.Attempt_suasion" [label="ARG2-fn.Goods"]
+	"_approve_v_1-fn.Attempt_suasion" -> _court_n_of [label="ARG1-fn.Content"]
+	"_approve_v_1-fn.Attempt_suasion" -> _plan_n_1 [label="ARG2-fn.Addressee"]
+	compound -> "named(High)" [label=ARG2]
+	compound -> _court_n_of [label=ARG1]
+	_the_q -> _plan_n_1 [label=BV]
+	poss -> _court_n_of [label=ARG1]
+	poss -> "named(Malaysia)" [label=ARG2]
+	parg_d -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	proper_q -> "named(High)" [label=BV]
+	proper_q -> "named(Malaysia)" [label=BV]
+	def_explicit_q -> _court_n_of [label=BV]
+	parg_d -> _court_n_of [label=ARG2]
+}

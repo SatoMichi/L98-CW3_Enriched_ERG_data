@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _liquidity_n_1 [label=ARG2]
+	"_think_v_1-fn.Attempt" -> _people_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _liquidity_n_1 [label=BV]
+	_for_p -> _search_n_of [label=ARG1]
+	"_think_v_1-fn.Attempt" -> "_fruitless/jj_u_unknown" [label="ARG2-fn.Goal"]
+	_some_q -> _people_n_of [label=BV]
+	"_fruitless/jj_u_unknown" -> _search_n_of [label=ARG1]
+	_the_q -> _search_n_of [label=BV]
+}

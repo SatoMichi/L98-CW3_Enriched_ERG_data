@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _country_n_of [label=ARG2]
+	_every_q -> _part_n_1 [label=BV]
+	"_present_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_this_q_dem -> _country_n_of [label=BV]
+	udef_q -> part_of [label=BV]
+	_in_p -> _part_n_1 [label=ARG2]
+	_of_p -> _part_n_1 [label=ARG1]
+	"_exist_v_1-fn.Existence" -> part_of [label="ARG1-fn.NotExist"]
+	part_of -> _problem_n_of [label=ARG1]
+	"_present_v_to-fn.NF" -> _problem_n_of [label="ARG2-fn.Theme"]
+	_in_p -> "_exist_v_1-fn.Existence" [label=ARG1]
+	"much-many_a" -> part_of [label=ARG1]
+	_the_q -> _problem_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

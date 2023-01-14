@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_can_v_modal -> _and_c [label=ARG1]
+	_right_x_deg -> _off_p [label=ARG1]
+	_if_x_then -> "_have_v_1-fn.IN" [label=ARG2]
+	focus_d -> _can_v_modal [label=ARG1]
+	_if_x_then -> _can_v_modal [label=ARG1]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	_a_q -> _headache_n_1 [label=BV]
+	_walk_v_1 -> pron [label=ARG2]
+	_off_p -> _walk_v_1 [label=ARG1]
+	_sometimes_a_1 -> _and_c [label=ARG1]
+	"_have_v_1-fn.IN" -> _headache_n_1 [label="ARG2-fn.Theme"]
+	_out_p_dir -> _go_v_1 [label=ARG1]
+	_go_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _code_n_1 [label=BV]
+	poss -> _code_n_1 [label=ARG2]
+	_skeptical_a_of -> generic_entity [label=ARG1]
+	def_explicit_q -> _effectiveness_n_1 [label=BV]
+	poss -> _effectiveness_n_1 [label=ARG1]
+	_some_q -> generic_entity [label=BV]
+	_skeptical_a_of -> _effectiveness_n_1 [label=ARG2]
+}

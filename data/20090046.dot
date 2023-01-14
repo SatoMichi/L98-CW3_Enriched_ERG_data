@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_straight_a_1 -> _month_n_1 [label=ARG1]
+	"card(4)" -> _month_n_1 [label=ARG1]
+	_the_q -> _number_n_of [label=BV]
+	"_trail_v_1-fn.Cotheme" -> _pace_n_1 [label="ARG2-fn.Theme"]
+	"_follow_v_1-fn.Cotheme" -> generic_entity [label="ARG1-fn.NotExist"]
+	"_year-earlier_a_1" -> _pace_n_1 [label=ARG1]
+	udef_q -> _increase_n_1 [label=BV]
+	_number_n_of -> _increase_n_1 [label=ARG1]
+	udef_q -> _month_n_1 [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	"_trail_v_1-fn.Cotheme" -> _number_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _pace_n_1 [label=BV]
+	_in_p_state -> _month_n_1 [label=ARG2]
+	_in_p_state -> "_trail_v_1-fn.Cotheme" [label=ARG1]
+	"_follow_v_1-fn.Cotheme" -> _month_n_1 [label="ARG2-fn.Theme"]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_fine_a_for -> _and_c [label=ARG1]
+	comp -> _young_a_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	def_explicit_q -> _daughter_n_1 [label=BV]
+	_young_a_1 -> _daughter_n_1 [label=ARG1]
+	poss -> _daughter_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

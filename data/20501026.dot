@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_foreign_a_1 -> _company_n_of [label=ARG1]
+	"_bid_v_on-fn.Cause_to_continue" -> _company_n_of [label="ARG1-fn.Agent"]
+	compound -> _project_n_1 [label=ARG1]
+	_the_q -> _project_n_1 [label=BV]
+	"_according+to_p" -> "_bid_v_on-fn.Cause_to_continue" [label=ARG1]
+	proper_q -> "named(Hiroshima)" [label=BV]
+	"_bid_v_on-fn.Cause_to_continue" -> _project_n_1 [label="ARG2-fn.Process"]
+	"_according+to_p" -> _bureau_n_of [label=ARG2]
+	_no_q -> _company_n_of [label=BV]
+	compound -> "named(Hiroshima)" [label=ARG2]
+	_the_q -> _bureau_n_of [label=BV]
+}

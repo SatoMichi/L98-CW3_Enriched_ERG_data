@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_transport_v_1-fn.Bringing" -> "named(TransCanada)" [label="ARG1-fn.Agent"]
+	_all_q -> _gas_n_1 [label=BV]
+	loc_nonsp -> place_n [label=ARG2]
+	"_transport_v_1-fn.Bringing" -> _gas_n_1 [label="ARG2-fn.Theme"]
+	def_implicit_q -> place_n [label=BV]
+	"_move_v_1-fn.Motion" -> _gas_n_1 [label="ARG1-fn.NotExist"]
+	_from_p -> "_move_v_1-fn.Motion" [label=ARG1]
+	loc_nonsp -> "_move_v_1-fn.Motion" [label=ARG1]
+	proper_q -> "named(Alberta)" [label=BV]
+	proper_q -> "named(TransCanada)" [label=BV]
+	_eastward_a_1 -> place_n [label=ARG1]
+	_from_p -> "named(Alberta)" [label=ARG2]
+}

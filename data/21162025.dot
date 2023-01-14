@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_close_a_to -> generic_entity [label=ARG1]
+	_a_q -> generic_entity [label=BV]
+	compound -> _regulation_n_1 [label=ARG1]
+	compound -> _workplace_n_1 [label=ARG2]
+	"_comply_v_with-fn.State_continue" -> _regulation_n_1 [label="ARG2-fn.State"]
+	nominalization -> "_comply_v_with-fn.State_continue" [label=ARG1]
+	udef_q -> _regulation_n_1 [label=BV]
+	udef_q -> _workplace_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"ord(2)" -> generic_entity [label=ARG1]
+	_environmental_a_1 -> _regulation_n_1 [label=ARG1]
+	"_run_v_1-fn.Activity_start" -> nominalization [label="ARG1-fn.Place"]
+	udef_q -> nominalization [label=BV]
+	"_run_v_1-fn.Activity_start" -> generic_entity [label="ARG2-fn.Purpose"]
+}

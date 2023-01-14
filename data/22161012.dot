@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_last_v_1-fn.NF" -> _massage_n_of [label="ARG1-fn.NotExist"]
+	"card(10)" -> _dollar_n_1 [label=ARG1]
+	"_cost_v_1-fn.Expensiveness" -> _massage_n_of [label="ARG1-fn.NotExist"]
+	_the_q -> _massage_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	_about_x_deg -> udef_q [label=ARG1]
+	_typical_a_of -> "_cost_v_1-fn.Expensiveness" [label=ARG1]
+	"_last_v_1-fn.NF" -> _minute_n_1 [label="ARG2-fn.Theme"]
+	"_cost_v_1-fn.Expensiveness" -> _dollar_n_1 [label="ARG2-fn.Theme"]
+	"card(15)" -> _minute_n_1 [label=ARG1]
+	udef_q -> _minute_n_1 [label=BV]
+}

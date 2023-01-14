@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _target_n_of [label=ARG2]
+	"_instead+of_p" -> _price_n_of [label=ARG2]
+	udef_q -> _target_n_of [label=BV]
+	"_establish_v_1-fn.Competition" -> _price_n_of [label="ARG2-fn.Participant_2"]
+	parg_d -> _price_n_of [label=ARG2]
+	parg_d -> "_establish_v_1-fn.Competition" [label=ARG1]
+	focus_d -> "_instead+of_p" [label=ARG2]
+	compound -> _price_n_of [label=ARG1]
+	"_instead+of_p" -> "_establish_v_1-fn.Competition" [label=ARG1]
+	_minimum_a_1 -> _price_n_of [label=ARG1]
+	_a_q -> _price_n_of [label=BV]
+	_only_x_deg -> _a_q [label=ARG1]
+	focus_d -> "_establish_v_1-fn.Competition" [label=ARG1]
+}

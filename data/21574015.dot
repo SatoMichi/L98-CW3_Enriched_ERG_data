@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_generalize_v_1-fn.Achieving_first" -> pron [label="ARG1-fn.Cognizer"]
+	focus_d -> "_generalize_v_1-fn.Achieving_first" [label=ARG1]
+	_first_a_1 -> "_generalize_v_1-fn.Achieving_first" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

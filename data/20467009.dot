@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _move_n_1 [label=BV]
+	_strategic_a_1 -> _move_n_1 [label=ARG1]
+	"_think_v_1-fn.Attempt" -> "_be_v_id-fn.Name_conferral" [label="ARG2-fn.Goal"]
+	"_be_v_id-fn.Name_conferral" -> _move_n_1 [label="ARG2-fn.Name"]
+	_colon_p_namely -> "_think_v_1-fn.Attempt" [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> _colon_p_namely [label="ARG2-fn.Means"]
+	_this_q_dem -> generic_entity [label=BV]
+	_great_a_for -> _move_n_1 [label=ARG1]
+	proper_q -> "named(Quebecor)" [label=BV]
+	"_be_v_id-fn.Name_conferral" -> generic_entity [label="ARG1-fn.Entity"]
+	_for_p -> _move_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_think_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_for_p -> "named(Quebecor)" [label=ARG2]
+}

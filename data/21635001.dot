@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_can_v_modal -> "_sound_v_1-fn.Appearance" [label=ARG1]
+	compound -> _sale_n_of [label=ARG2]
+	"_sound_v_1-fn.Appearance" -> _pitch_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _pitch_n_1 [label=ARG1]
+	neg -> _can_v_modal [label=ARG1]
+	_better_a_1 -> "_sound_v_1-fn.Appearance" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	_the_q -> _pitch_n_1 [label=BV]
+}

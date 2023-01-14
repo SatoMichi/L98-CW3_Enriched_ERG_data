@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_past_a_1 -> _decade_n_1 [label=ARG1]
+	_during_p -> _decade_n_1 [label=ARG2]
+	proper_q -> "named(China)" [label=BV]
+	_in_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> _decade_n_1 [label=BV]
+	_in_p -> _cycle_n_1 [label=ARG2]
+	poss -> "named(China)" [label=ARG2]
+	"_go_v_1-fn.Change_position_on_a_scale" -> _trade_n_of [label="ARG1-fn.Attribute"]
+	poss -> _trade_n_of [label=ARG1]
+	udef_q -> _cycle_n_1 [label=BV]
+	def_explicit_q -> _trade_n_of [label=BV]
+	_foreign_a_1 -> _trade_n_of [label=ARG1]
+	_during_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

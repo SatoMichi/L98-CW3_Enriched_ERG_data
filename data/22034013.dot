@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	part_of -> _growth_n_of [label=ARG1]
+	_half_q -> part_of [label=BV]
+	_past_a_1 -> _year_n_1 [label=ARG1]
+	_the_q -> _year_n_1 [label=BV]
+	_alone_p -> _year_n_1 [label=ARG1]
+	_in_p -> "_come_v_1-fn.Competition" [label=ARG1]
+	_in_p -> _year_n_1 [label=ARG2]
+	"card(3)" -> _year_n_1 [label=ARG1]
+	"_come_v_1-fn.Competition" -> part_of [label="ARG1-fn.Participant_1"]
+	"_at+least_x_deg" -> _half_q [label=ARG1]
+	_that_q_dem -> _growth_n_of [label=BV]
+}

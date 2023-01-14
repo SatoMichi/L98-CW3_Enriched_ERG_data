@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _dramatic_a_1 [label=ARG2]
+	_real_x_deg -> _dramatic_a_1 [label=ARG1]
+	"_flop_v_1-fn.Moving_in_place" -> pron [label="ARG1-fn.NotExist"]
+	_around_p -> "_flop_v_1-fn.Moving_in_place" [label=ARG1]
+	_all_x_deg -> _around_p [label=ARG1]
+	subord -> "_flop_v_1-fn.Moving_in_place" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+general_a_1" -> _and_c [label=ARG1]
+	_to_p -> "_adjust_v_1-fn.NF" [label=ARG1]
+	focus_d -> "_in+general_a_1" [label=ARG2]
+	udef_q -> _circumstance_n_1 [label=BV]
+	_financial_a_1 -> _circumstance_n_1 [label=ARG1]
+	"_function_v_1-fn.NF" -> _market_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _market_n_1 [label=BV]
+	"_adjust_v_1-fn.NF" -> _market_n_1 [label="ARG1-fn.NotExist"]
+	_well_a_1 -> "_function_v_1-fn.NF" [label=ARG1]
+	_smooth_a_1 -> "_adjust_v_1-fn.NF" [label=ARG1]
+	_economic_a_1 -> _circumstance_n_1 [label=ARG1]
+	focus_d -> _and_c [label=ARG1]
+	_change_v_1 -> _circumstance_n_1 [label=ARG1]
+	_to_p -> _circumstance_n_1 [label=ARG2]
+}

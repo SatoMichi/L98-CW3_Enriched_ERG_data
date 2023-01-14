@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_realize_v_1-fn.Rite" -> "_happen_v_1-fn.Impact" [label="ARG2-fn.Member"]
+	which_q -> thing [label=BV]
+	_for_p -> "_scream_v_1-fn.Activity_stop" [label=ARG1]
+	_into_p -> "_scream_v_1-fn.Activity_stop" [label=ARG1]
+	"_realize_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	_for_p -> _dog_n_1 [label=ARG2]
+	"_scream_v_1-fn.Activity_stop" -> pron [label="ARG1-fn.Purpose"]
+	_into_p -> _house_n_of [label=ARG2]
+	_the_q -> _dog_n_1 [label=BV]
+	"_happen_v_1-fn.Impact" -> thing [label="ARG1-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _house_n_of [label=BV]
+}

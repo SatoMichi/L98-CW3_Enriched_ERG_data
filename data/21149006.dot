@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_attempt_v_1-fn.Attempt" -> "named(Justice)" [label="ARG1-fn.Agent"]
+	"_avoid_v_1-fn.Avoiding" -> "named(Justice)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Justice)" [label=BV]
+	"_avoid_v_1-fn.Avoiding" -> _replay_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _replay_n_of [label=BV]
+	_these_q_dem -> _tactic_n_1 [label=BV]
+	_replay_n_of -> _tactic_n_1 [label=ARG1]
+	"_attempt_v_1-fn.Attempt" -> "_avoid_v_1-fn.Avoiding" [label="ARG2-fn.Theme"]
+}

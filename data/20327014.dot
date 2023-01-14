@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	plus -> "card(1)" [label=ARG2]
+	_up_p -> "named(Intel)" [label=ARG1]
+	plus -> "fraction(3/8)" [label=ARG3]
+	plus -> "card(33)" [label=ARG2]
+	proper_q -> "named(Intel)" [label=BV]
+	number_q -> "card(33)" [label=BV]
+	_to_p -> _up_p [label=ARG1]
+	_up_p -> "card(1)" [label=ARG2]
+	_to_p -> "card(33)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	plus -> "fraction(3/4)" [label=ARG3]
+}

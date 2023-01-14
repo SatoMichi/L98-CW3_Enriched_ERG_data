@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(China)" [label=BV]
+	_secure_a_1 -> _benefit_n_of [label=ARG1]
+	_economic_a_1 -> _trouble_n_1 [label=ARG1]
+	"_seem_v_to-fn.Desiring" -> _benefit_n_of [label="ARG1-fn.Experiencer"]
+	_despite_p -> _trouble_n_1 [label=ARG2]
+	_current_a_1 -> _trouble_n_1 [label=ARG1]
+	poss -> "named(China)" [label=ARG2]
+	"_seem_v_to-fn.Desiring" -> _secure_a_1 [label="ARG2-fn.Event"]
+	def_explicit_q -> _trouble_n_1 [label=BV]
+	_political_a_1 -> _trouble_n_1 [label=ARG1]
+	poss -> _trouble_n_1 [label=ARG1]
+	_despite_p -> "_seem_v_to-fn.Desiring" [label=ARG1]
+	_these_q_dem -> _benefit_n_of [label=BV]
+}

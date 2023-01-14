@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "named(Paribas)" [label="ARG1-fn.Agent"]
+	compound -> "named(Societe)" [label=ARG2]
+	"_participate_v_in-fn.Participation" -> "named(Lonrho)" [label="ARG1-fn.Agent"]
+	_for_p -> _boost_n_1 [label=ARG1]
+	"_participate_v_in-fn.Participation" -> _boost_n_1 [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.IN" -> "_participate_v_in-fn.Participation" [label="ARG2-fn.Topic"]
+	proper_q -> "named(Lonrho)" [label=BV]
+	_forthcoming_a_1 -> _boost_n_1 [label=ARG1]
+	_for_p -> "named(Commerciale)" [label=ARG2]
+	proper_q -> "named(Commerciale)" [label=BV]
+	compound -> "named(Commerciale)" [label=ARG1]
+	_the_q -> _boost_n_1 [label=BV]
+	_capital_a_1 -> _boost_n_1 [label=ARG1]
+	proper_q -> "named(Societe)" [label=BV]
+	udef_q -> "named(Paribas)" [label=BV]
+}

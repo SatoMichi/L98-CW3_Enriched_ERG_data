@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _limit_n_of [label=ARG2]
+	udef_q -> _ruble_n_1 [label=BV]
+	parg_d -> "_lift_v_cause-fn.Theft" [label=ARG1]
+	"card(200-)" -> _ruble_n_1 [label=ARG1]
+	_yet_a_1 -> _clear_a_of [label=ARG1]
+	"_lift_v_cause-fn.Theft" -> _limit_n_of [label="ARG2-fn.Theme"]
+	compound -> _ruble_n_1 [label=ARG2]
+	neg -> _clear_a_of [label=ARG1]
+	_the_q -> _limit_n_of [label=BV]
+	compound -> _limit_n_of [label=ARG1]
+	_clear_a_of -> "_lift_v_cause-fn.Theft" [label=ARG1]
+}

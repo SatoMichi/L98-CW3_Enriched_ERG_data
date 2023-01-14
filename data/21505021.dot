@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Pioneer)" [label=BV]
+	"card(42.60)" -> _dollar_n_1 [label=ARG1]
+	appos -> _dollar_n_1 [label=ARG2]
+	_to_p -> _yen_n_2 [label=ARG2]
+	udef_q -> _yen_n_2 [label=BV]
+	loc_nonsp -> _yen_n_2 [label=ARG2]
+	"_surge_v_1-fn.NF" -> "named(Pioneer)" [label="ARG1-fn.NotExist"]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(3.16)" -> _dollar_n_1 [label=ARG1]
+	"card(6,050)" -> _yen_n_2 [label=ARG1]
+	"card(450)" -> _yen_n_2 [label=ARG1]
+	_to_p -> "_surge_v_1-fn.NF" [label=ARG1]
+	loc_nonsp -> "_surge_v_1-fn.NF" [label=ARG1]
+	appos -> _yen_n_2 [label=ARG1]
+}

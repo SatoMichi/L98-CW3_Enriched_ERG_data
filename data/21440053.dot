@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _addiction_n_to [label=ARG2]
+	compound -> "named(Tucson)" [label=ARG1]
+	udef_q -> _treatment_n_of [label=BV]
+	"_operate_v_1-fn.Cause_to_end" -> "named(Tucson)" [label="ARG1-fn.Process"]
+	udef_q -> _addiction_n_to [label=BV]
+	compound -> "named(Sierra)" [label=ARG2]
+	"_operate_v_1-fn.Cause_to_end" -> _center_n_of [label="ARG2-fn.Means"]
+	proper_q -> "named(Tucson)" [label=BV]
+	proper_q -> "named(Sierra)" [label=BV]
+	_a_q -> _center_n_of [label=BV]
+	compound -> _center_n_of [label=ARG1]
+	compound -> _treatment_n_of [label=ARG1]
+}

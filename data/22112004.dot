@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_buy_v_off-fn.Commerce_buy" [label=ARG1]
+	_cheap_a_1 -> "_buy_v_off-fn.Commerce_buy" [label=ARG1]
+	_relatively_x_deg -> _cheap_a_1 [label=ARG1]
+	"_buy_v_off-fn.Commerce_buy" -> generic_entity [label="ARG2-fn.Theme"]
+	_can_v_modal -> "_buy_v_off-fn.Commerce_buy" [label=ARG1]
+	_some_q -> generic_entity [label=BV]
+	parg_d -> generic_entity [label=ARG2]
+}

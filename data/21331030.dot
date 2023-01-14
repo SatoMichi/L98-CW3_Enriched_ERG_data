@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_against_p -> "named(Robins)" [label=ARG2]
+	comp -> "much-many_a" [label=ARG1]
+	_against_p -> _claim_n_of [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	udef_q -> _claim_n_of [label=BV]
+	comp -> _claim_n_of [label=ARG2]
+	"much-many_a" -> generic_entity [label=ARG1]
+	proper_q -> "named(Robins)" [label=BV]
+	"card(100,000)" -> _claim_n_of [label=ARG1]
+	_pending_a_1 -> generic_entity [label=ARG1]
+}

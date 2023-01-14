@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_because+of_p" -> "_occur_v_to-fn.Event" [label=ARG1]
+	_the_q -> _number_n_of [label=BV]
+	_partly_x_deg -> "_because+of_p" [label=ARG1]
+	udef_q -> _business_n_1 [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	udef_q -> _competition_n_1 [label=BV]
+	comp -> "much-many_a" [label=ARG1]
+	_as_x_subord -> "_surge_v_1-fn.NF" [label=ARG2]
+	"_occur_v_to-fn.Event" -> generic_entity [label="ARG1-fn.NotExist"]
+	"_surge_v_1-fn.NF" -> _number_n_of [label="ARG1-fn.NotExist"]
+	"much-many_a" -> _competition_n_1 [label=ARG1]
+	_number_n_of -> _business_n_1 [label=ARG1]
+	_as_x_subord -> "_occur_v_to-fn.Event" [label=ARG1]
+	"_because+of_p" -> _competition_n_1 [label=ARG2]
+	_new_a_1 -> _business_n_1 [label=ARG1]
+}

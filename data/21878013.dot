@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_out+of_p" -> _box_n_of [label=ARG2]
+	_the_q -> _box_n_of [label=BV]
+	"_out+of_p" -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

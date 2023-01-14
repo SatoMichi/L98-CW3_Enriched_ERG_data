@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _relent_v_1 [label=ARG1]
+	_no_q -> _sign_n_of [label=BV]
+	"_show_v_1-fn.IN" -> "named(Republicans)" [label="ARG1-fn.NotExist"]
+	udef_q -> nominalization [label=BV]
+	_sign_n_of -> nominalization [label=ARG1]
+	_the_q -> "named(Republicans)" [label=BV]
+	"_show_v_1-fn.IN" -> _sign_n_of [label="ARG2-fn.NotExist"]
+}

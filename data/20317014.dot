@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _culture_n_1 [label=ARG1]
+	_of_p -> _industry_n_1 [label=ARG2]
+	_just_x_deg -> _the_q [label=ARG1]
+	"_be_v_itcleft-fn.Quitting" -> _culture_n_1 [label="ARG1-fn.Employee"]
+	"_keep_v_from-fn.Event" -> "_happen_v_1-fn.Impact" [label="ARG3-fn.Explanation"]
+	"_happen_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	"_be_v_itcleft-fn.Quitting" -> "_keep_v_from-fn.Event" [label="ARG2-fn.Employer"]
+	_the_q -> _industry_n_1 [label=BV]
+	_the_q -> _culture_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_keep_v_from-fn.Event" -> _culture_n_1 [label="ARG1-fn.Event"]
+	"_keep_v_from-fn.Event" -> pron [label="ARG2-fn.Place"]
+}

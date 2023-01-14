@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	unspec_manner -> "_win_v_1-fn.NF" [label=ARG1]
+	"_win_v_1-fn.NF" -> "named(West)" [label="ARG2-fn.Theme"]
+	which_q -> manner [label=BV]
+	_the_q -> "named(West)" [label=BV]
+	parg_d -> "_win_v_1-fn.NF" [label=ARG1]
+	unspec_manner -> manner [label=ARG2]
+	parg_d -> "named(West)" [label=ARG2]
+}

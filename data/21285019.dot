@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _stock_n_1 [label=BV]
+	_to_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "fraction(1/4)" [label=ARG3]
+	number_q -> "card(2)" [label=BV]
+	loc_nonsp -> "card(2)" [label=ARG2]
+	proper_q -> "named(Rainbow)" [label=BV]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> _stock_n_1 [label="ARG1-fn.Attribute"]
+	poss -> _stock_n_1 [label=ARG1]
+	poss -> "named(Rainbow)" [label=ARG2]
+	plus -> "card(14)" [label=ARG2]
+	_to_p -> "card(14)" [label=ARG2]
+	loc_nonsp -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	number_q -> "card(14)" [label=BV]
+}

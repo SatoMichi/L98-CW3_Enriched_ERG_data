@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "_proceed_v_1-fn.NF" [label=ARG1]
+	"_proceed_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_in_p -> _way_n_of [label=ARG2]
+	_a_q -> _way_n_of [label=BV]
+	"_going+to_v_qmodal" -> "_proceed_v_1-fn.NF" [label=ARG1]
+	comp -> _logical_a_for [label=ARG1]
+	_logical_a_for -> _way_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

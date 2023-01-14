@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_challenge_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_can_v_modal-fn.Reliance" -> "_challenge_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	ellipsis_ref -> pron [label=ARG1]
+	neg -> ellipsis_ref [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_show_v_up-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+}

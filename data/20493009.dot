@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_major_a_1 -> _case_n_of [label=ARG1]
+	"_lose_v_1-fn.Change_position_on_a_scale" -> _case_n_of [label="ARG2-fn.Item"]
+	compound -> _company_n_of [label=ARG1]
+	compound -> _case_n_of [label=ARG1]
+	udef_q -> _company_n_of [label=BV]
+	_a_q -> _case_n_of [label=BV]
+	udef_q -> _drug_n_1 [label=BV]
+	compound -> _drug_n_1 [label=ARG2]
+	"_lose_v_1-fn.Change_position_on_a_scale" -> _company_n_of [label="ARG1-fn.Attribute"]
+	compound -> _liability_n_1 [label=ARG2]
+	udef_q -> _liability_n_1 [label=BV]
+}

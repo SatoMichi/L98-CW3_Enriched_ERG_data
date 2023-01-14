@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lament_v_to-fn.NF" -> "named(Arrington)" [label="ARG1-fn.Experiencer"]
+	poss -> "named(Birmingham)" [label=ARG2]
+	proper_q -> "named(Richard)" [label=BV]
+	appos -> _mayor_n_of [label=ARG2]
+	proper_q -> "named(Arrington)" [label=BV]
+	proper_q -> "named(Birmingham)" [label=BV]
+	"_lament_v_to-fn.NF" -> _consequence_n_of [label="ARG2-fn.Stimulus"]
+	poss -> _mayor_n_of [label=ARG1]
+	_the_q -> _consequence_n_of [label=BV]
+	def_explicit_q -> _mayor_n_of [label=BV]
+	compound -> "named(Arrington)" [label=ARG1]
+	compound -> "named(Richard)" [label=ARG2]
+	_black_a_1 -> _mayor_n_of [label=ARG1]
+	appos -> "named(Arrington)" [label=ARG1]
+}

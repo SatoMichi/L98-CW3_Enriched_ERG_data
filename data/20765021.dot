@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_aware_a_of -> "_have_v_1-fn.IN" [label=ARG2]
+	_budgetary_a_1 -> _problem_n_of [label=ARG1]
+	_real_a_1 -> _problem_n_of [label=ARG1]
+	_aware_a_of -> pron [label=ARG1]
+	udef_q -> _problem_n_of [label=BV]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	"_have_v_1-fn.IN" -> _problem_n_of [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

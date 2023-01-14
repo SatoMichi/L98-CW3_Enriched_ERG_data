@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	part_of -> pron [label=ARG1]
+	comp -> "_resilient/jj_u_unknown" [label=ARG1]
+	"_prove_v_to-fn.Turning_out" -> pron [label="ARG1-fn.NotExist"]
+	"_resilient/jj_u_unknown" -> pron [label=ARG1]
+	_any_q -> part_of [label=BV]
+	"_prove_v_to-fn.Turning_out" -> "_resilient/jj_u_unknown" [label="ARG2-fn.Theme"]
+	comp -> part_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

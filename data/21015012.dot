@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	appos -> _yen_n_2 [label=ARG1]
+	_to_p -> _yen_n_2 [label=ARG2]
+	"card(1,380,000)" -> _yen_n_2 [label=ARG1]
+	proper_q -> "named(NTT)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	appos -> _dollar_n_1 [label=ARG2]
+	"_lose_v_1-fn.Competition" -> "named(NTT)" [label="ARG1-fn.Participant_1"]
+	_to_p -> "_lose_v_1-fn.Competition" [label=ARG1]
+	"_lose_v_1-fn.Competition" -> _yen_n_2 [label="ARG2-fn.Participant_2"]
+	"card(9,756)" -> _dollar_n_1 [label=ARG1]
+	"card(30,000)" -> _yen_n_2 [label=ARG1]
+	udef_q -> _yen_n_2 [label=BV]
+}

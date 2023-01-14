@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Agriculture)" [label=BV]
+	compound -> "named(Department)" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> "_battleground/nn_u_unknown" [label="ARG1-fn.Individuals"]
+	"_be_v_id-fn.Assemble" -> "named(Department)" [label="ARG2-fn.Group"]
+	_of_p -> "named(Department)" [label=ARG1]
+	_early_a_1 -> "_battleground/nn_u_unknown" [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	udef_q -> "named_n(US)" [label=BV]
+	_the_q -> "named(Department)" [label=BV]
+	_of_p -> "named(Agriculture)" [label=ARG2]
+	_a_q -> "_battleground/nn_u_unknown" [label=BV]
+}

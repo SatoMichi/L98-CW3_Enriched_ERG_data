@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_reluctant_a_1 -> "_embarrass_v_1-fn.Experiencer_obj" [label=ARG2]
+	udef_q -> _colleague_n_1 [label=BV]
+	appos -> _colleague_n_1 [label=ARG1]
+	udef_q -> "_party_n_of-to" [label=BV]
+	_those_q_dem -> part_of [label=BV]
+	"_embarrass_v_1-fn.Experiencer_obj" -> "_lawmakers/nns_u_unknown" [label="ARG1-fn.Stimulus"]
+	part_of -> "_party_n_of-to" [label=ARG1]
+	"_embarrass_v_1-fn.Experiencer_obj" -> _colleague_n_1 [label="ARG2-fn.Experiencer"]
+	_even_x_deg -> _those_q_dem [label=ARG1]
+	_reluctant_a_1 -> "_lawmakers/nns_u_unknown" [label=ARG1]
+	appos -> part_of [label=ARG2]
+	udef_q -> "_lawmakers/nns_u_unknown" [label=BV]
+	_political_a_1 -> "_party_n_of-to" [label=ARG1]
+	_often_a_1 -> _reluctant_a_1 [label=ARG1]
+	_oppose_v_1 -> "_party_n_of-to" [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decrease_v_1-fn.Change_position_on_a_scale" -> _share_n_of [label="ARG1-fn.Attribute"]
+	poss -> _share_n_of [label=ARG1]
+	_but_x -> _slight_a_1 [label=ARG2]
+	def_explicit_q -> _share_n_of [label=BV]
+	_only_x_deg -> _slight_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	_but_x -> "_decrease_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_mix_v_1-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _price_n_of [label=ARG2]
+	_the_q -> _day_n_of [label=BV]
+	focus_d -> "_mix_v_1-fn.Cause_to_end" [label=ARG1]
+	compound -> _bond_n_1 [label=ARG2]
+	udef_q -> _bond_n_1 [label=BV]
+	_end_n_of -> _day_n_of [label=ARG1]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	_the_q -> _end_n_of [label=BV]
+	focus_d -> _by_p_state [label=ARG2]
+	_by_p_state -> _end_n_of [label=ARG2]
+	_by_p_state -> "_mix_v_1-fn.Cause_to_end" [label=ARG1]
+	"_mix_v_1-fn.Cause_to_end" -> _price_n_of [label="ARG2-fn.Means"]
+}

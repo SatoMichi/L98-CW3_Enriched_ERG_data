@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> "card(2,960)" [label=ARG2]
+	proper_q -> "named(Misawa)" [label=BV]
+	compound -> "named(Homes)" [label=ARG1]
+	number_q -> "card(2,960)" [label=BV]
+	_up_p -> "named(Homes)" [label=ARG1]
+	_up_p -> "card(20)" [label=ARG2]
+	_at_p -> _up_p [label=ARG1]
+	proper_q -> "named(Homes)" [label=BV]
+	compound -> "named(Misawa)" [label=ARG2]
+	number_q -> "card(20)" [label=BV]
+}

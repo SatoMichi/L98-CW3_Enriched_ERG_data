@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_piece_n_of -> _meat_n_1 [label=ARG1]
+	udef_q -> _word_n_of [label=BV]
+	udef_q -> _meat_n_1 [label=BV]
+	"_treat_v_1-fn.Cause_to_end" -> pron [label="ARG2-fn.Means"]
+	focus_d -> _in_p_state [label=ARG2]
+	_other_a_1 -> _word_n_of [label=ARG1]
+	_like_p -> _piece_n_of [label=ARG2]
+	_like_p -> "_treat_v_1-fn.Cause_to_end" [label=ARG1]
+	focus_d -> "_treat_v_1-fn.Cause_to_end" [label=ARG1]
+	_in_p_state -> "_treat_v_1-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_in_p_state -> _word_n_of [label=ARG2]
+	_a_q -> _piece_n_of [label=BV]
+}

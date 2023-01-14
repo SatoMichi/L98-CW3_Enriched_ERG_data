@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _independent_a_of [label=ARG1]
+	"_become_v_id-fn.Cause_to_end" -> _independent_a_of [label="ARG2-fn.Means"]
+	_independent_a_of -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_become_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

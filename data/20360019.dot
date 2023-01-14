@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_write_v_of-fn.Statement" -> _interest_n_in [label="ARG2-fn.Theme"]
+	"_threaten_v_1-fn.NF" -> _interest_n_in [label="ARG2-fn.NotExist"]
+	_this_q_dem -> generic_entity [label=BV]
+	_massive_a_1 -> _interest_n_in [label=ARG1]
+	parg_d -> _interest_n_in [label=ARG2]
+	"_in+turn_a_1" -> "_threaten_v_1-fn.NF" [label=ARG1]
+	parg_d -> _vest_v_with [label=ARG1]
+	"_write_v_of-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _interest_n_in [label=BV]
+	_vest_v_with -> _interest_n_in [label=ARG2]
+	"_threaten_v_1-fn.NF" -> generic_entity [label="ARG1-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+}

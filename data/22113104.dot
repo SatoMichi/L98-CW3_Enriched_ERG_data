@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_change_v_1-fn.Competition" -> "_thing_n_of-about" [label="ARG1-fn.Participant_1"]
+	_rather_a_1 -> "_show_v_1-fn.Competition" [label=ARG1]
+	"_show_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_show_v_1-fn.Competition" -> "_change_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	_just_a_1 -> "_show_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

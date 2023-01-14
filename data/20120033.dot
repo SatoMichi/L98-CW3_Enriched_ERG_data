@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _trim_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_tired_a_of -> nominalization [label=ARG2]
+}

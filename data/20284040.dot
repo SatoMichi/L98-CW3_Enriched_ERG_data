@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _merger_n_1 [label=ARG]
+	proper_q -> "named(NEW)" [label=BV]
+	compound -> "named(Jersey)" [label=ARG1]
+	compound -> _merger_n_1 [label=ARG1]
+	udef_q -> _merger_n_1 [label=BV]
+	_colon_p_namely -> _merger_n_1 [label=ARG1]
+	compound -> "named(NEW)" [label=ARG2]
+	proper_q -> "named(Jersey)" [label=BV]
+}

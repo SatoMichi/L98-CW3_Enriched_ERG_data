@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _result_n_of [label=ARG1]
+	udef_q -> _decade_n_1 [label=BV]
+	_the_q -> _result_n_of [label=BV]
+	_of_p -> _decade_n_1 [label=ARG2]
+	_recent_a_1 -> _decade_n_1 [label=ARG1]
+	"_account_v_for-fn.State_continue" -> _result_n_of [label="ARG2-fn.State"]
+	"_account_v_for-fn.State_continue" -> thing [label="ARG1-fn.Entity"]
+	which_q -> thing [label=BV]
+}

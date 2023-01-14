@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(23)" -> _percent_n_of [label=ARG1]
+	_ago_p -> _year_n_1 [label=ARG2]
+	_off_p -> _percent_n_of [label=ARG2]
+	udef_q -> _year_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _attendance_n_1 [label=BV]
+	_off_p -> _attendance_n_1 [label=ARG1]
+	poss -> _attendance_n_1 [label=ARG1]
+	_ago_p -> _from_p [label=ARG1]
+	"card(6)" -> _year_n_1 [label=ARG1]
+	_from_p -> _off_p [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Competition" -> thing [label="ARG1-fn.Participant_1"]
+	"_see_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_dumbfounded/jj_u_unknown" -> pron [label=ARG1]
+	nominalization -> "_see_v_1-fn.Competition" [label=ARG1]
+	_forever_a_1 -> "_dumbfounded/jj_u_unknown" [label=ARG1]
+	"_make_v_1-fn.Competition" -> _price_n_of [label="ARG2-fn.Participant_2"]
+	_by_p -> "_dumbfounded/jj_u_unknown" [label=ARG1]
+	"_see_v_1-fn.Competition" -> thing [label="ARG2-fn.Participant_2"]
+	which_q -> thing [label=BV]
+	_high_a_1 -> _price_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_these_q_dem -> _price_n_of [label=BV]
+	_by_p -> nominalization [label=ARG2]
+	"_see_v_1-fn.Competition" -> "_make_v_1-fn.Competition" [label="ARG3-fn.Participants"]
+	udef_q -> nominalization [label=BV]
+}

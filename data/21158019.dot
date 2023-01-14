@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_so -> "_dub_v_1-fn.Name_conferral" [label=ARG2]
+	_in_p -> _fantastic_a_1 [label=ARG1]
+	"card(1)" -> generic_entity [label=ARG1]
+	_in_p -> _appearance_n_of [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	parg_d -> "_dub_v_1-fn.Name_conferral" [label=ARG1]
+	"_dub_v_1-fn.Name_conferral" -> pron [label="ARG3-fn.Result"]
+	"_dub_v_1-fn.Name_conferral" -> "named(Hallucigenia)" [label="ARG2-fn.Theme"]
+	comp_so -> _fantastic_a_1 [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	_fantastic_a_1 -> generic_entity [label=ARG1]
+	udef_q -> _appearance_n_of [label=BV]
+	proper_q -> "named(Hallucigenia)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

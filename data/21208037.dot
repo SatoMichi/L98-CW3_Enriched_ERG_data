@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p_temp -> _down_p [label=ARG1]
+	_down_p -> "named(Dow)" [label=ARG1]
+	_by_p_temp -> "numbered_hour(10":"30)" [label=ARG2]
+	focus_d -> _down_p [label=ARG1]
+	_the_q -> "named(Dow)" [label=BV]
+	def_implicit_q -> "numbered_hour(10":"30)" [label=BV]
+	"numbered_hour(10":"30)" -> "_am_x(am_time)" [label=ARG2]
+	focus_d -> _by_p_temp [label=ARG2]
+	number_q -> "card(62.70)" [label=BV]
+	_down_p -> "card(62.70)" [label=ARG2]
+}

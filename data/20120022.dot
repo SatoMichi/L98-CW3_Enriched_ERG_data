@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _caller_n_of [label=BV]
+	"_grow_v_1-fn.IN" -> _number_n_of [label="ARG1-fn.NotExist"]
+	"_bring_v_1-fn.Bringing" -> nominalization [label="ARG1-fn.Instrument"]
+	"_bring_v_1-fn.Bringing" -> _caller_n_of [label="ARG3-fn.Destination"]
+	_number_n_of -> _service_n_1 [label=ARG1]
+	nominalization -> _dial_v_1 [label=ARG1]
+	udef_q -> _service_n_1 [label=BV]
+	_a_q -> _number_n_of [label=BV]
+	number_q -> "card(900)" [label=BV]
+	"_bring_v_1-fn.Bringing" -> _number_n_of [label="ARG2-fn.Theme"]
+	udef_q -> nominalization [label=BV]
+	_dial_v_1 -> "card(900)" [label=ARG2]
+}

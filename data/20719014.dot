@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(London)" [label=BV]
+	subord -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	def_explicit_q -> generic_entity [label=BV]
+	subord -> "_compare_v_with-fn.Amounting_to" [label=ARG2]
+	poss -> "named(Continent)" [label=ARG2]
+	_the_q -> "named(Continent)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	parg_d -> "_compare_v_with-fn.Amounting_to" [label=ARG1]
+	_no_q -> thing [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _problem_n_of [label="ARG1-fn.Process"]
+	poss -> generic_entity [label=ARG1]
+	poss -> _problem_n_of [label=ARG1]
+	"_compare_v_with-fn.Amounting_to" -> generic_entity [label="ARG3-fn.Time_span"]
+	poss -> "named(London)" [label=ARG2]
+	def_explicit_q -> _problem_n_of [label=BV]
+}

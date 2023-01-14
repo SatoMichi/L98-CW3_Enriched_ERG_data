@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_on_p -> _gain_n_1 [label=ARG1]
+	"_include_v_1-fn.Amounting_to" -> _gain_n_1 [label="ARG2-fn.Attribute"]
+	"_include_v_1-fn.Amounting_to" -> "named(B)" [label="ARG1-fn.Value"]
+	compound -> _dollar_n_1 [label=ARG2]
+	times -> "card(41.3)" [label=ARG2]
+	compound -> _gain_n_1 [label=ARG1]
+	_sale_n_of -> "named(FiberCom)" [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	_a_q -> _gain_n_1 [label=BV]
+	_on_p -> _sale_n_of [label=ARG2]
+	proper_q -> "named(B)" [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_the_q -> _sale_n_of [label=BV]
+	proper_q -> "named(FiberCom)" [label=BV]
+}

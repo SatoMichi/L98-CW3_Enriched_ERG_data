@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_these_q_dem -> _attack_n_1 [label=BV]
+	"_resume_v_1-fn.Process_resume" -> _operation_n_of [label="ARG2-fn.Theme"]
+	_attempt_n_1 -> "_resume_v_1-fn.Process_resume" [label=ARG1]
+	_short_a_of -> _attempt_n_1 [label=ARG1]
+	parg_d -> _cut_v_1 [label=ARG1]
+	_cut_v_1 -> _attempt_n_1 [label=ARG2]
+	_recent_a_1 -> _attempt_n_1 [label=ARG1]
+	parg_d -> _attempt_n_1 [label=ARG2]
+	_a_q -> _attempt_n_1 [label=BV]
+	_cut_v_1 -> _attack_n_1 [label=ARG1]
+	_cut_v_1 -> _short_a_of [label=ARG3]
+	udef_q -> _operation_n_of [label=BV]
+	_quick_a_1 -> _short_a_of [label=ARG1]
+}

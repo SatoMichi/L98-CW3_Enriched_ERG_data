@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _consumer_n_of [label=BV]
+	udef_q -> _issue_n_1 [label=BV]
+	compound -> _consumer_n_of [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	_that_q_dem -> generic_entity [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _issue_n_1 [label="ARG2-fn.Means"]
+	compound -> _issue_n_1 [label=ARG1]
+}

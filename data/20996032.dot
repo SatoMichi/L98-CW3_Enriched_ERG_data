@@ -1,0 +1,4 @@
+digraph {
+	node [shape=circle style=filled]
+	_exactly_x_deg -> _right_a_1 [label=ARG1]
+}

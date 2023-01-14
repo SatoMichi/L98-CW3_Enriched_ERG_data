@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_both_q -> generic_entity [label=BV]
+	_right_a_1 -> generic_entity [label=ARG1]
+	"card(2)" -> generic_entity [label=ARG1]
+}

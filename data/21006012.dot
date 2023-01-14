@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _analyst_n_1 [label=BV]
+	"_applauded/vbd_u_unknown" -> _news_n_of [label=ARG2]
+	udef_q -> _investor_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_applauded/vbd_u_unknown" -> _and_c [label=ARG1]
+	_the_q -> _news_n_of [label=BV]
+}

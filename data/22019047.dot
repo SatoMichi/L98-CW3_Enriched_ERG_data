@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(5)" [label=BV]
+	_to_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "card(5)" [label=ARG2]
+	compound -> "named(Associates)" [label=ARG1]
+	_to_p -> "card(5)" [label=ARG2]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	plus -> "fraction(3/8)" [label=ARG3]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> "named(Associates)" [label="ARG1-fn.Attribute"]
+	loc_nonsp -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	number_q -> "card(1)" [label=BV]
+	compound -> "named(Capital)" [label=ARG2]
+	proper_q -> "named(Capital)" [label=BV]
+	proper_q -> "named(Associates)" [label=BV]
+}

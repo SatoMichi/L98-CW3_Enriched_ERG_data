@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_general_a_1 -> _retreat_n_1 [label=ARG1]
+	compound -> _stock_n_1 [label=ARG2]
+	"_seem_v_to-fn.Desiring" -> _in_p [label="ARG2-fn.Event"]
+	_a_q -> _retreat_n_1 [label=BV]
+	_in_p -> _price_n_of [label=ARG1]
+	_in_p -> _retreat_n_1 [label=ARG2]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	_now_a_1 -> "_seem_v_to-fn.Desiring" [label=ARG1]
+}

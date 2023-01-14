@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _pipe_v_1 [label=ARG1]
+	compound -> "named(North)" [label=ARG2]
+	with_p -> _gas_n_1 [label=ARG2]
+	_from_p -> _pipe_v_1 [label=ARG1]
+	_would_v_modal -> _pipe_v_1 [label=ARG1]
+	_the_q -> "named(Sea)" [label=BV]
+	"_fuel_v_1-fn.NF" -> pron [label="ARG2-fn.Destination"]
+	parg_d -> _gas_n_1 [label=ARG2]
+	compound -> "named(Sea)" [label=ARG1]
+	proper_q -> "named(North)" [label=BV]
+	_pipe_v_1 -> _gas_n_1 [label=ARG2]
+	with_p -> "_fuel_v_1-fn.NF" [label=ARG1]
+	udef_q -> _gas_n_1 [label=BV]
+	_from_p -> "named(Sea)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_pleasant_a_1 -> _place_n_of [label=ARG1]
+	_a_q -> _place_n_of [label=BV]
+	"_spend_v_1-fn.NF" -> _hour_n_1 [label="ARG2-fn.Asset"]
+	unknown -> _place_n_of [label=ARG]
+	"_a+few_a_1" -> _hour_n_1 [label=ARG1]
+	with_p -> _and_c [label=ARG1]
+	with_p -> _place_n_of [label=ARG2]
+	udef_q -> _hour_n_1 [label=BV]
+}

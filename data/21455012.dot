@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _question_n_about [label=BV]
+	"_be_v_nv-fn.Cause_to_end" -> _question_n_about [label="ARG1-fn.Process"]
+	loc_nonsp -> time_n [label=ARG2]
+	"_be_v_nv-fn.Cause_to_end" -> _colon_p_namely [label="ARG2-fn.Means"]
+	_for_p -> pron [label=ARG2]
+	_for_p -> _ready_a_1 [label=ARG1]
+	_now_a_1 -> time_n [label=ARG1]
+	_colon_p_namely -> ellipsis_ref [label=ARG2]
+	_ready_a_1 -> "named(Poland)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	ellipsis_ref -> "named(Poland)" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	loc_nonsp -> "_be_v_nv-fn.Cause_to_end" [label=ARG1]
+	proper_q -> "named(Poland)" [label=BV]
+}

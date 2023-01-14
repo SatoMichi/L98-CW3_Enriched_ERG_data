@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_repair_v_1-fn.Piracy" [label=ARG1]
+	"_repair_v_1-fn.Piracy" -> "_thing_n_of-about" [label="ARG2-fn.Vehicle"]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	_some_q -> "_thing_n_of-about" [label=BV]
+	parg_d -> "_thing_n_of-about" [label=ARG2]
+	"_can_v_modal-fn.Reliance" -> "_repair_v_1-fn.Piracy" [label="ARG1-fn.Protagonist"]
+}

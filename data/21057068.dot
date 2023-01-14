@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ail_v_1-fn.Undergo_change" -> _image_n_of [label="ARG1-fn.Entity"]
+	_also_a_1 -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	_a_q -> _fix_n_1 [label=BV]
+	_for_p -> _fix_n_1 [label=ARG1]
+	_fast_a_1 -> _fix_n_1 [label=ARG1]
+	_for_p -> _image_n_of [label=ARG2]
+	_a_q -> _image_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _fix_n_1 [label="ARG2-fn.Name"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Name_conferral" -> pron [label="ARG1-fn.Entity"]
+}

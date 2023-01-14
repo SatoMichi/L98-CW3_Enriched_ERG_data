@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _income_n_1 [label=ARG1]
+	compound -> _price_n_of [label=ARG2]
+	udef_q -> _change_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _return_n_of [label="ARG1-fn.Process"]
+	udef_q -> _plus_c [label=BV]
+	udef_q -> _interest_n_in [label=BV]
+	_total_a_1 -> _return_n_of [label=ARG1]
+	udef_q -> _income_n_1 [label=BV]
+	udef_q -> _return_n_of [label=BV]
+	compound -> _change_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _plus_c [label="ARG2-fn.Means"]
+	compound -> _interest_n_in [label=ARG2]
+}

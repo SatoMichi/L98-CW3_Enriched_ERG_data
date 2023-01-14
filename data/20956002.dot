@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _system_n_of [label=ARG1]
+	"_colon_v_id-fn.Activity_stop" -> _highlight_n_1 [label="ARG1-fn.Purpose"]
+	udef_q -> _control_n_of [label=BV]
+	_the_q -> _highlight_n_1 [label=BV]
+	udef_q -> _fragrance_n_1 [label=BV]
+	compound -> _control_n_of [label=ARG1]
+	"_colon_v_id-fn.Activity_stop" -> _system_n_of [label="ARG2-fn.Place"]
+	_a_q -> _system_n_of [label=BV]
+	compound -> _fragrance_n_1 [label=ARG2]
+}

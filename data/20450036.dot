@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_bring_v_1-fn.Bringing" [label=ARG1]
+	"_bring_v_1-fn.Bringing" -> _against_p [label="ARG3-fn.Destination"]
+	"_bring_v_1-fn.Bringing" -> _charge_n_of [label="ARG2-fn.Theme"]
+	_no_q -> _charge_n_of [label=BV]
+	parg_d -> _charge_n_of [label=ARG2]
+	_against_p -> _charge_n_of [label=ARG1]
+	_against_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

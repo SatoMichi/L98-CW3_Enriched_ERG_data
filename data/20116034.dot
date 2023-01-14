@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _promotion_n_of [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _promotion_n_of [label="ARG2-fn.Means"]
+	poss -> _promotion_n_of [label=ARG1]
+	"ord(1)" -> _promotion_n_of [label=ARG1]
+	def_explicit_q -> _promotion_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	"_relate_v_to-fn.Cause_to_end" -> _promotion_n_of [label="ARG2-fn.Means"]
+	compound -> _travel_n_1 [label=ARG2]
+	compound -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	proper_q -> "named(Buick)" [label=BV]
+	udef_q -> _travel_n_1 [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	poss -> "named(Buick)" [label=ARG2]
+}

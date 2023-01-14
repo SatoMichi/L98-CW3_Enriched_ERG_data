@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_run_v_into-fn.Impact" -> "named(Dinkins)" [label="ARG1-fn.Theme"]
+	udef_q -> _mister_n_1 [label=BV]
+	"_echo_v_1-fn.Sound_movement" -> _problem_n_of [label="ARG1-fn.Theme"]
+	udef_q -> _campaign_n_1 [label=BV]
+	compound -> _problem_n_of [label=ARG1]
+	"_run_v_into-fn.Impact" -> _difficulty_n_1 [label="ARG2-fn.Location"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_echo_v_1-fn.Sound_movement" -> _difficulty_n_1 [label="ARG2-fn.NotExist"]
+	_before_p -> "_run_v_into-fn.Impact" [label=ARG1]
+	_these_q_dem -> _problem_n_of [label=BV]
+	compound -> _campaign_n_1 [label=ARG2]
+	proper_q -> "named(Dinkins)" [label=BV]
+	compound -> "named(Dinkins)" [label=ARG1]
+	udef_q -> _difficulty_n_1 [label=BV]
+}

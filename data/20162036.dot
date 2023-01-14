@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(2)" [label=BV]
+	loc_nonsp -> "card(2)" [label=ARG2]
+	_to_p -> "_tumble_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_tumble_v_1-fn.Change_position_on_a_scale" -> "named(GenCorp)" [label="ARG1-fn.Attribute"]
+	_to_p -> "card(14)" [label=ARG2]
+	proper_q -> "named(GenCorp)" [label=BV]
+	loc_nonsp -> "_tumble_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	number_q -> "card(14)" [label=BV]
+}

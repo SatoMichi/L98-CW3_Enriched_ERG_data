@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Aslacton)" [label=BV]
+	proper_q -> "named(England)" [label=BV]
+	compound -> "named(Aslacton)" [label=ARG2]
+	unknown -> "named(England)" [label=ARG]
+	compound -> "named(England)" [label=ARG1]
+}

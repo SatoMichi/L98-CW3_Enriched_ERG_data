@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_late_a_for -> time_n [label=ARG1]
+	def_explicit_q -> time_n [label=BV]
+	comp -> _late_a_for [label=ARG1]
+	loc_nonsp -> _week_n_1 [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	compound -> _plan_n_1 [label=ARG1]
+	proper_q -> "named(MGM)" [label=BV]
+	loc_nonsp -> "_collapse_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> "named(MGM)" [label=ARG2]
+	_the_q -> _plan_n_1 [label=BV]
+	_just_x_deg -> "_collapse_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"card(2)" -> _week_n_1 [label=ARG1]
+	"_collapse_v_1-fn.Change_position_on_a_scale" -> _plan_n_1 [label="ARG1-fn.Attribute"]
+	udef_q -> _week_n_1 [label=BV]
+}

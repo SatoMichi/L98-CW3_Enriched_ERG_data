@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_amount_n_of -> _holding_n_1 [label=ARG1]
+	"_exact_a_same-as" -> _amount_n_of [label=ARG1]
+	poss -> "named(Reliance)" [label=ARG2]
+	_formal_a_1 -> "_disclose_v_to-fn.Amounting_to" [label=ARG1]
+	_the_q -> _amount_n_of [label=BV]
+	_current_a_1 -> _holding_n_1 [label=ARG1]
+	parg_d -> _amount_n_of [label=ARG2]
+	"_disclose_v_to-fn.Amounting_to" -> _amount_n_of [label="ARG2-fn.Attribute"]
+	parg_d -> "_disclose_v_to-fn.Amounting_to" [label=ARG1]
+	comp_equal -> "_exact_a_same-as" [label=ARG1]
+	neg -> "_disclose_v_to-fn.Amounting_to" [label=ARG1]
+	proper_q -> "named(Reliance)" [label=BV]
+	def_explicit_q -> _holding_n_1 [label=BV]
+	poss -> _holding_n_1 [label=ARG1]
+}

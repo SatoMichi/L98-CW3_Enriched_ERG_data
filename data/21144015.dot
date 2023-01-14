@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_elaborate_v_on-fn.Fining" -> _change_n_of [label="ARG2-fn.Instrument"]
+	compound -> _spokesman_n_1 [label=ARG1]
+	parg_d -> _change_n_of [label=ARG2]
+	proper_q -> "named(Manville)" [label=BV]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> "_elaborate_v_on-fn.Fining" [label="ARG1-fn.Process"]
+	"_propose_v_to-fn.Receiving" -> _change_n_of [label="ARG2-fn.Donor"]
+	parg_d -> "_propose_v_to-fn.Receiving" [label=ARG1]
+	_the_q -> _change_n_of [label=BV]
+	compound -> "named(Manville)" [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+	"_elaborate_v_on-fn.Fining" -> _spokesman_n_1 [label="ARG1-fn.Speaker"]
+}

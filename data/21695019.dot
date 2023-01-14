@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_while_x -> _appear_v_to [label=ARG1]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	_simple_a_for -> _theory_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_several_a_1 -> "_thing_n_of-about" [label=ARG1]
+	_this_q_dem -> _theory_n_of [label=BV]
+	"_explain_v_to-fn.Explaining_the_facts" -> pron [label="ARG1-fn.NotExist"]
+	_exceeding_a_1 -> _simple_a_for [label=ARG1]
+	"_explain_v_to-fn.Explaining_the_facts" -> "_thing_n_of-about" [label="ARG2-fn.NotExist"]
+	_appear_v_to -> "_explain_v_to-fn.Explaining_the_facts" [label=ARG2]
+	_while_x -> _simple_a_for [label=ARG2]
+}

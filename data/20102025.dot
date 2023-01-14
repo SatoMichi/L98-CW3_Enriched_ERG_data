@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_prolonged_a_1 -> _sunlight_n_1 [label=ARG1]
+	_in_p -> "_break_v_down-fn.Process_start" [label=ARG1]
+	udef_q -> _sunlight_n_1 [label=BV]
+	_in_p -> _sunlight_n_1 [label=ARG2]
+	_while_x -> neg [label=ARG1]
+	_while_x -> "_break_v_down-fn.Process_start" [label=ARG2]
+	neg -> _recyclable_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_recyclable_a_1 -> pron [label=ARG1]
+	"_break_v_down-fn.Process_start" -> pron [label="ARG1-fn.Event"]
+}

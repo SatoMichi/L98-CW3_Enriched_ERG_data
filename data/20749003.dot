@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_attract_v_1 -> _notice_n_1 [label=ARG2]
+	udef_q -> _notice_n_1 [label=BV]
+	_attract_v_1 -> _report_n_of [label=ARG1]
+	udef_q -> _report_n_of [label=BV]
+	comp -> _detailed_a_1 [label=ARG1]
+	"_follow_v_1-fn.Cotheme" -> _report_n_of [label="ARG1-fn.NotExist"]
+	"little-few_a" -> _notice_n_1 [label=ARG1]
+	comp -> "little-few_a" [label=ARG1]
+	_even_x_deg -> comp [label=ARG1]
+	_detailed_a_1 -> _report_n_of [label=ARG1]
+}

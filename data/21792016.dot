@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_wait_v_for-fn.Cause_to_continue" [label=ARG1]
+	_concerned_a_about -> pron [label=ARG1]
+	eventuality -> "_settle_v_1-fn.Getting" [label=ARG1]
+	comp_equal -> _far_a_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_far_a_1 -> "_wait_v_for-fn.Cause_to_continue" [label=ARG1]
+	comp_equal -> _concerned_a_about [label=ARG2]
+	"_wait_v_for-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	"_settle_v_1-fn.Getting" -> _dust_n_1 [label="ARG1-fn.Recipient"]
+	"_say_v_to-fn.Have_as_requirement" -> "_wait_v_for-fn.Cause_to_continue" [label="ARG2-fn.Requirement"]
+	pronoun_q -> pron [label=BV]
+	"_wait_v_for-fn.Cause_to_continue" -> _dust_n_1 [label="ARG2-fn.Process"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	_the_q -> _dust_n_1 [label=BV]
+}

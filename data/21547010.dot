@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_certain_a_of -> _plan_n_1 [label=ARG1]
+	"_notify_v_of-fn.Telling" -> "_dictators/nns_u_unknown" [label="ARG2-fn.Recipient"]
+	compound -> _plan_n_1 [label=ARG1]
+	udef_q -> _coup_n_1 [label=BV]
+	parg_d -> "named_n(US)" [label=ARG2]
+	udef_q -> "_dictators/nns_u_unknown" [label=BV]
+	_foreign_a_1 -> "_dictators/nns_u_unknown" [label=ARG1]
+	udef_q -> _plan_n_1 [label=BV]
+	_require_v_of -> "_notify_v_of-fn.Telling" [label=ARG3]
+	compound -> _coup_n_1 [label=ARG2]
+	_the_q -> "named_n(US)" [label=BV]
+	"_notify_v_of-fn.Telling" -> "named_n(US)" [label="ARG1-fn.Agent"]
+	"_notify_v_of-fn.Telling" -> _plan_n_1 [label="ARG3-fn.Topic"]
+	parg_d -> _require_v_of [label=ARG1]
+	_require_v_of -> "named_n(US)" [label=ARG2]
+}

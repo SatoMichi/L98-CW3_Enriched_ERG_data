@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> neg [label=ARG2]
+	"_be_v_there-fn.Needing" -> ellipsis_expl [label="ARG1-fn.Cognizer"]
+	_the_q -> _deal_n_1 [label=BV]
+	"_put_v_forward-fn.Taking_time" -> _deal_n_1 [label="ARG2-fn.Attribute"]
+	neg -> ellipsis_expl [label=ARG1]
+	parg_d -> "_put_v_forward-fn.Taking_time" [label=ARG1]
+	_to_p -> _shareholder_n_1 [label=ARG2]
+	udef_q -> _shareholder_n_1 [label=BV]
+	neg -> "_put_v_forward-fn.Taking_time" [label=ARG1]
+	_to_p -> "_put_v_forward-fn.Taking_time" [label=ARG1]
+	parg_d -> _deal_n_1 [label=ARG2]
+}

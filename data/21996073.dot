@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> "named(Wang)" [label=ARG2]
+	_in_p -> _eye_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _glad_a_1 [label="ARG2-fn.Topic"]
+	proper_q -> "named(Wang)" [label=BV]
+	_look_v_1 -> _customer_n_of [label=ARG2]
+	_glad_a_1 -> _at_p [label=ARG2]
+	_glad_a_1 -> pron [label=ARG1]
+	_right_x_deg -> _in_p [label=ARG1]
+	_the_q -> _eye_n_1 [label=BV]
+	_at_p -> pron [label=ARG1]
+	_look_v_1 -> pron [label=ARG1]
+	_in_p -> _look_v_1 [label=ARG1]
+	_a_q -> _customer_n_of [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

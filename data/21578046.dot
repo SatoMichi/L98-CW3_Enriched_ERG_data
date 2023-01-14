@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "card(28)" [label=ARG2]
+	plus -> "fraction(1/4)" [label=ARG3]
+	_to_p -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	proper_q -> "named(Golden)" [label=BV]
+	number_q -> "card(2)" [label=BV]
+	loc_nonsp -> "card(2)" [label=ARG2]
+	loc_nonsp -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	"_rise_v_1-fn.Experiencer_obj" -> "named(Nugget)" [label="ARG1-fn.Experiencer"]
+	compound -> "named(Nugget)" [label=ARG1]
+	proper_q -> "named(Nugget)" [label=BV]
+	compound -> "named(Golden)" [label=ARG2]
+	plus -> "card(28)" [label=ARG2]
+	number_q -> "card(28)" [label=BV]
+}

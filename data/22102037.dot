@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_federal_a_1 -> _judge_n_of [label=ARG1]
+	"_kill_v_1-fn.Killing" -> _judge_n_of [label="ARG2-fn.Patient"]
+	_on_p -> "_kill_v_1-fn.Killing" [label=ARG1]
+	_a_q -> _street_n_1 [label=BV]
+	_a_q -> _assassin_n_1 [label=BV]
+	compound -> "named(Medellin)" [label=ARG2]
+	"_kill_v_1-fn.Killing" -> _assassin_n_1 [label="ARG1-fn.Agent"]
+	compound -> _street_n_1 [label=ARG1]
+	_on_p -> _street_n_1 [label=ARG2]
+	proper_q -> "named(Colombia)" [label=BV]
+	_in_p -> _assassin_n_1 [label=ARG1]
+	_a_q -> _judge_n_of [label=BV]
+	_in_p -> "named(Colombia)" [label=ARG2]
+	proper_q -> "named(Medellin)" [label=BV]
+}

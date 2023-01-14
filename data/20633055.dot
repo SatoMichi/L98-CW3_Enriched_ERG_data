@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _extra_n_1 [label=ARG2]
+	_of_p -> _town_n_1 [label=ARG1]
+	udef_q -> _extra_n_1 [label=BV]
+	number_q -> "card(10,000)" [label=BV]
+	_for_p -> "_comb_v_2-fn.Scouring" [label=ARG1]
+	_about_x_deg -> "card(200)" [label=ARG1]
+	"card(200)" -> _extra_n_1 [label=ARG1]
+	_of_p -> "card(10,000)" [label=ARG2]
+	"_comb_v_2-fn.Scouring" -> _town_n_1 [label="ARG2-fn.Location"]
+	"_comb_v_2-fn.Scouring" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _town_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

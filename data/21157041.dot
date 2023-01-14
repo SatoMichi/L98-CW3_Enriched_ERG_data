@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(50,085)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_receive_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_receive_v_1-fn.Competition" -> _dollar_n_1 [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+}

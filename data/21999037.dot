@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_year-ago_a_1" -> _period_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"card(70)" -> _percent_n_of [label=ARG1]
+	_with_p -> _strong_a_1 [label=ARG1]
+	"_note_v_to-fn.Surpassing" -> _strong_a_1 [label="ARG2-fn.Profiled_item"]
+	_particularly_x_deg -> _strong_a_1 [label=ARG1]
+	_the_q -> _period_n_of [label=BV]
+	_nearly_x_deg -> udef_q [label=ARG1]
+	_of_p -> _increase_n_1 [label=ARG1]
+	_with_p -> _increase_n_1 [label=ARG2]
+	"_note_v_to-fn.Surpassing" -> _company_n_of [label="ARG1-fn.Standard_item"]
+	_the_q -> _company_n_of [label=BV]
+	_strong_a_1 -> _period_n_of [label=ARG1]
+	_of_p -> _percent_n_of [label=ARG2]
+	_a_q -> _increase_n_1 [label=BV]
+}

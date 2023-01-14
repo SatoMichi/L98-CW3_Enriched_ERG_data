@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_early_a_1 -> time_n [label=ARG1]
+	_a_q -> _move_n_1 [label=BV]
+	def_explicit_q -> time_n [label=BV]
+	comp -> _early_a_1 [label=ARG1]
+	"_make_v_1-fn.Rite" -> _move_n_1 [label="ARG2-fn.Member"]
+	_similar_a_to -> _move_n_1 [label=ARG1]
+	_the_q -> _fund_n_1 [label=BV]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	"_make_v_1-fn.Rite" -> _fund_n_1 [label="ARG1-fn.Leader"]
+	_this_q_dem -> _year_n_1 [label=BV]
+	loc_nonsp -> time_n [label=ARG1]
+	comp -> _similar_a_to [label=ARG1]
+	loc_nonsp -> "_make_v_1-fn.Rite" [label=ARG1]
+}

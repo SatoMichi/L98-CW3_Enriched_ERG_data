@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_talk_v_about-fn.Speak_on_topic" -> pron [label="ARG1-fn.Audience"]
+	"_want_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	_to_p -> pron [label=ARG2]
+	"_want_v_1-fn.State_continue" -> "_talk_v_about-fn.Speak_on_topic" [label="ARG2-fn.State"]
+	neg -> "_want_v_1-fn.State_continue" [label=ARG1]
+	_to_p -> "_talk_v_about-fn.Speak_on_topic" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_even_a_1 -> "_want_v_1-fn.State_continue" [label=ARG1]
+}

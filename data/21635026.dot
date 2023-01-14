@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_’80s/nns_u_unknown" [label=BV]
+	_on_p -> "_set_v_1-fn.Competition" [label=ARG1]
+	"_leave_v_1-fn.Competition" -> thing [label="ARG2-fn.Participant_2"]
+	_the_q -> _sun_n_1 [label=BV]
+	parg_d -> "_unhocked/vbn_u_unknown" [label=ARG1]
+	parg_d -> "_leave_v_1-fn.Competition" [label=ARG1]
+	"_set_v_1-fn.Competition" -> _sun_n_1 [label="ARG1-fn.Participant_1"]
+	"_leave_v_1-fn.Competition" -> "_unhocked/vbn_u_unknown" [label="ARG3-fn.Participants"]
+	"_seem_v_to-fn.Cause_to_end" -> "_leave_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_no_q -> thing [label=BV]
+	parg_d -> thing [label=ARG2]
+	_on_p -> "_’80s/nns_u_unknown" [label=ARG2]
+	"_unhocked/vbn_u_unknown" -> thing [label=ARG2]
+	_before_x_h -> "_set_v_1-fn.Competition" [label=ARG2]
+	_before_x_h -> "_seem_v_to-fn.Cause_to_end" [label=ARG1]
+}

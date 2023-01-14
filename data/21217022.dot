@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_attract_v_1-fn.Competition" -> _shopper_n_1 [label="ARG2-fn.Participant_2"]
+	"_show_v_1-fn.Social_event" -> _result_n_of [label="ARG1-fn.Duration"]
+	"_show_v_1-fn.Social_event" -> "_struggle_v_1-fn.Competition" [label="ARG2-fn.Social_event"]
+	_the_q -> _result_n_of [label=BV]
+	"_struggle_v_1-fn.Competition" -> "_attract_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	udef_q -> _shopper_n_1 [label=BV]
+	"_attract_v_1-fn.Competition" -> "named(Sears)" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Sears)" [label=BV]
+	"_struggle_v_1-fn.Competition" -> "named(Sears)" [label="ARG1-fn.Participant_1"]
+}

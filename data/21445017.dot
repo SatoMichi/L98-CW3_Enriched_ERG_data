@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _heel_n_1 [label=ARG1]
+	"_keep_v_prd-fn.Undergo_change" -> _japanese_n_1 [label="ARG1-fn.Entity"]
+	"_keep_v_prd-fn.Undergo_change" -> _close_a_to [label="ARG2-fn.Final_category"]
+	_on_p -> _close_a_to [label=ARG1]
+	poss -> "named(Conner)" [label=ARG2]
+	_close_a_to -> _japanese_n_1 [label=ARG1]
+	proper_q -> "named(Conner)" [label=BV]
+	_the_q -> _japanese_n_1 [label=BV]
+	def_explicit_q -> _heel_n_1 [label=BV]
+	_likely_a_1 -> "_keep_v_prd-fn.Undergo_change" [label=ARG1]
+	_on_p -> _heel_n_1 [label=ARG2]
+}

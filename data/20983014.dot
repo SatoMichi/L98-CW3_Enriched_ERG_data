@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Income)" [label=BV]
+	_the_q -> "named(Fund)" [label=BV]
+	"_consider_v_1-fn.Cogitation" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(High)" [label=BV]
+	compound -> "named(America)" [label=ARG1]
+	compound -> "named(New)" [label=ARG2]
+	compound -> "named(Income)" [label=ARG1]
+	"_consider_v_1-fn.Cogitation" -> "named(Fund)" [label="ARG2-fn.Theme"]
+	proper_q -> "named(New)" [label=BV]
+	proper_q -> "named(America)" [label=BV]
+	compound -> "named(High)" [label=ARG1]
+	compound -> "named(Fund)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

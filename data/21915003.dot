@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _facility_n_1 [label=BV]
+	compound -> _company_n_of [label=ARG2]
+	_most_q -> _case_n_of [label=BV]
+	_in_p_state -> _case_n_of [label=ARG2]
+	udef_q -> _damage_n_to [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	focus_d -> _minimal_a_1 [label=ARG1]
+	compound -> _and_c [label=ARG1]
+	udef_q -> _operation_n_of [label=BV]
+	_in_p_state -> _minimal_a_1 [label=ARG1]
+	_minimal_a_1 -> _damage_n_to [label=ARG1]
+	_damage_n_to -> _and_c [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+}

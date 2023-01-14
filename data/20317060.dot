@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_could_v_modal-fn.Cotheme" -> "_be_v_id-fn.Cotheme" [label="ARG1-fn.Theme"]
+	_foreign_a_1 -> "_u.s.concerns/nns_u_unknown" [label=ARG1]
+	"_add_v_to-fn.Cause_to_fragment" -> _analyst_n_1 [label="ARG1-fn.Agent"]
+	_other_a_1 -> "_u.s.concerns/nns_u_unknown" [label=ARG1]
+	focus_d -> "_add_v_to-fn.Cause_to_fragment" [label=ARG1]
+	"_add_v_to-fn.Cause_to_fragment" -> "_could_v_modal-fn.Cotheme" [label="ARG2-fn.Instrument"]
+	_either_q -> "_u.s.concerns/nns_u_unknown" [label=BV]
+	"_be_v_id-fn.Cotheme" -> "_u.s.concerns/nns_u_unknown" [label="ARG2-fn.Cotheme"]
+	_these_q_dem -> _analyst_n_1 [label=BV]
+	focus_d -> _buyer_n_of [label=ARG2]
+	"_be_v_id-fn.Cotheme" -> _buyer_n_of [label="ARG1-fn.Theme"]
+	_the_q -> _buyer_n_of [label=BV]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_incorporate_v_1-fn.Competition" -> "named(Nekoosa)" [label="ARG2-fn.Participant_2"]
+	_in_p -> "_incorporate_v_1-fn.Competition" [label=ARG1]
+	parg_d -> "_incorporate_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Maine)" [label=BV]
+	parg_d -> "named(Nekoosa)" [label=ARG2]
+	proper_q -> "named(Nekoosa)" [label=BV]
+	_in_p -> "named(Maine)" [label=ARG2]
+}

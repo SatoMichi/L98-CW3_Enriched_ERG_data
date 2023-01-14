@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.State_continue" -> part_of [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	_all_q -> part_of [label=BV]
+	_the_q -> _back_n_1 [label=BV]
+	_the_q -> _answer_n_to [label=BV]
+	part_of -> _answer_n_to [label=ARG1]
+	focus_d -> "_read_v_1-fn.Required_event" [label=ARG1]
+	"_read_v_1-fn.Required_event" -> "_have_v_1-fn.State_continue" [label="ARG2-fn.Negative_consequences"]
+	focus_d -> _on_p_state [label=ARG2]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	"_read_v_1-fn.Required_event" -> _shirt_n_1 [label="ARG1-fn.Required_situation"]
+	_on_p_state -> "_read_v_1-fn.Required_event" [label=ARG1]
+	_on_p_state -> _back_n_1 [label=ARG2]
+	_the_q -> _shirt_n_1 [label=BV]
+}

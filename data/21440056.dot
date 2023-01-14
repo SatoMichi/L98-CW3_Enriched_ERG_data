@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(International)" [label=ARG1]
+	proper_q -> "named(International)" [label=BV]
+	plus -> "fraction(1/4)" [label=ARG3]
+	number_q -> "card(7)" [label=BV]
+	plus -> "card(7)" [label=ARG2]
+	compound -> "named(Medstone)" [label=ARG2]
+	plus -> "card(3)" [label=ARG2]
+	_to_p -> "card(7)" [label=ARG2]
+	"_plummet_v_1-fn.Change_position_on_a_scale" -> "named(International)" [label="ARG1-fn.Attribute"]
+	number_q -> "card(3)" [label=BV]
+	loc_nonsp -> "_plummet_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Medstone)" [label=BV]
+	loc_nonsp -> "card(3)" [label=ARG2]
+	_to_p -> "_plummet_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

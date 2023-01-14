@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _bill_n_of [label=BV]
+	"_oppose_v_1-fn.NF" -> pron [label="ARG1-fn.Patient"]
+	focus_d -> "_oppose_v_1-fn.NF" [label=ARG2]
+	_vigorous_a_1 -> "_oppose_v_1-fn.NF" [label=ARG1]
+	"_say_v_to-fn.IN" -> "_oppose_v_1-fn.NF" [label="ARG2-fn.Topic"]
+	"_oppose_v_1-fn.NF" -> _bill_n_of [label="ARG2-fn.Co-Patient"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"card(13)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _revenue_n_1 [label="ARG1-fn.Attribute"]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	_from_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	times -> "card(77.3)" [label=ARG2]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _percent_n_of [label="ARG2-fn.Item"]
+	times -> "card(68.5)" [label=ARG2]
+}

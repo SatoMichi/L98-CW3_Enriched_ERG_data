@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _cost_n_1 [label=BV]
+	_the_q -> _league_n_of [label=BV]
+	_in_p -> _league_n_of [label=ARG2]
+	_in_p -> _cost_n_1 [label=ARG1]
+	"_have_v_1-fn.State_continue" -> part_of [label="ARG2-fn.State"]
+	part_of -> _cost_n_1 [label=ARG1]
+	_high_a_1 -> _cost_n_1 [label=ARG1]
+	_some_q -> part_of [label=BV]
+	superl -> _high_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+}

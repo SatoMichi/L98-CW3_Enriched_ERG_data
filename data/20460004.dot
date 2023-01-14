@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Cetus)" [label=BV]
+	"_try_v_1-fn.Attempt" -> "named(Cetus)" [label="ARG1-fn.Agent"]
+	_for_p -> _clearance_n_1 [label=ARG1]
+	udef_q -> _distribution_n_1 [label=BV]
+	udef_q -> "named_n(US)" [label=BV]
+	"_try_v_1-fn.Attempt" -> "_obtain_v_1-fn.Getting" [label="ARG2-fn.Theme"]
+	_federal_a_1 -> _clearance_n_1 [label=ARG1]
+	_regulatory_a_1 -> _clearance_n_1 [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	_current_a_1 -> "_try_v_1-fn.Attempt" [label=ARG1]
+	compound -> _distribution_n_1 [label=ARG1]
+	_for_p -> _distribution_n_1 [label=ARG2]
+	"_obtain_v_1-fn.Getting" -> _clearance_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _clearance_n_1 [label=BV]
+	"_obtain_v_1-fn.Getting" -> "named(Cetus)" [label="ARG1-fn.Agent"]
+}

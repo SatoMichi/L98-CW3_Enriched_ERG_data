@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> generic_entity [label=BV]
+	_crazy_a_1 -> generic_entity [label=ARG1]
+}

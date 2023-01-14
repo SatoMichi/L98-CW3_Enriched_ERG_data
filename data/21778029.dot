@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> "_shake_v_1-fn.Moving_in_place" [label=ARG1]
+	"_get_v_state-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_this_q_dem -> _building_n_1 [label=BV]
+	_strong_a_1 -> pron [label=ARG1]
+	udef_q -> _hell_n_1 [label=BV]
+	"_keep_v_on-fn.Activity_ongoing" -> "_get_v_state-fn.IN" [label="ARG1-fn.NotExist"]
+	"_get_v_state-fn.IN" -> _strong_a_1 [label="ARG2-fn.Patient"]
+	"_shake_v_1-fn.Moving_in_place" -> _building_n_1 [label="ARG1-fn.NotExist"]
+	comp -> _strong_a_1 [label=ARG1]
+	_like_p -> _hell_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

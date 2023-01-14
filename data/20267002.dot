@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _basket_n_1 [label=BV]
+	_of_p -> _rose_n_1 [label=ARG2]
+	"_adorn_v_1-fn.Adorning" -> _bench_n_1 [label="ARG2-fn.Destination"]
+	poss -> pron [label=ARG2]
+	udef_q -> _palm_n_1 [label=BV]
+	parg_d -> _pot_v_1 [label=ARG1]
+	"_adorn_v_1-fn.Adorning" -> _and_c [label="ARG1-fn.NotExist"]
+	udef_q -> _and_c [label=BV]
+	_of_p -> _basket_n_1 [label=ARG1]
+	_pot_v_1 -> _palm_n_1 [label=ARG2]
+	def_explicit_q -> _bench_n_1 [label=BV]
+	poss -> _bench_n_1 [label=ARG1]
+	parg_d -> _palm_n_1 [label=ARG2]
+	udef_q -> _rose_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_other_a_1 -> _day_n_of [label=ARG1]
+	"_reply_v_to-fn.Request" -> pron [label="ARG1-fn.Speaker"]
+	"_ask_v_about-fn.Needing" -> generic_entity [label="ARG3-fn.Dependent"]
+	subord -> "_reply_v_to-fn.Request" [label=ARG1]
+	_the_q -> _day_n_of [label=BV]
+	"_anti-_a_1" -> "named(Semitic)" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	unknown -> "named(Semitic)" [label=ARG]
+	proper_q -> "named(Semitic)" [label=BV]
+	loc_nonsp -> _day_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	subord -> "_ask_v_about-fn.Needing" [label=ARG2]
+	loc_nonsp -> "_ask_v_about-fn.Needing" [label=ARG1]
+	parg_d -> "_ask_v_about-fn.Needing" [label=ARG1]
+}

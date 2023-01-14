@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_love_v_1-fn.NF" -> pron [label="ARG1-fn.Experiencer"]
+	udef_q -> _turban_n_1 [label=BV]
+	"_love_v_1-fn.NF" -> _turban_n_1 [label="ARG2-fn.Attribute"]
+	pronoun_q -> pron [label=BV]
+}

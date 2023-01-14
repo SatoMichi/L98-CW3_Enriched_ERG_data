@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _rise_n_1 [label=ARG1]
+	"card(1)" -> _percent_n_of [label=ARG1]
+	_from_p -> _rise_n_1 [label=ARG1]
+	"_follow_v_1-fn.Cotheme" -> _increase_n_1 [label="ARG1-fn.NotExist"]
+	proper_q -> "mofy(Sep)" [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	_monthly_a_1 -> _rise_n_1 [label=ARG1]
+	proper_q -> "mofy(Aug)" [label=BV]
+	_a_q -> _rise_n_1 [label=BV]
+	"_follow_v_1-fn.Cotheme" -> _rise_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _increase_n_1 [label=BV]
+	_in_p_temp -> "mofy(Sep)" [label=ARG2]
+	_from_p -> "mofy(Aug)" [label=ARG2]
+	_in_p_temp -> _rise_n_1 [label=ARG1]
+	_of_p -> _percent_n_of [label=ARG2]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _problem_n_of [label=ARG1]
+	"_fall_v_1-fn.Competition" -> _sale_n_of [label="ARG1-fn.Participant_1"]
+	_still_a_1 -> "_fall_v_1-fn.Competition" [label=ARG1]
+	_through_p_dir -> "_fall_v_1-fn.Competition" [label=ARG1]
+	"_develop_v_1-fn.Competition" -> _problem_n_of [label="ARG1-fn.Participant_1"]
+	_that_q_dem -> _sale_n_of [label=BV]
+	nominalization -> _finance_v_1 [label=ARG1]
+	udef_q -> _problem_n_of [label=BV]
+	"_could_v_modal-fn.Cause_to_end" -> "_fall_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_if_x_then -> "_could_v_modal-fn.Cause_to_end" [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	_if_x_then -> "_develop_v_1-fn.Competition" [label=ARG2]
+	udef_q -> nominalization [label=BV]
+}

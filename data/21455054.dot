@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_conceive_v_1-fn.Competition" -> _restaurant_n_1 [label="ARG2-fn.Participant_2"]
+	_crystalline_a_1 -> "_geode/nn_u_unknown" [label=ARG1]
+	_the_q -> _restaurant_n_1 [label=BV]
+	_a_q -> "_geode/nn_u_unknown" [label=BV]
+	"_sparkle_v_1-fn.Competition" -> "_geode/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	parg_d -> "_conceive_v_1-fn.Competition" [label=ARG1]
+	parg_d -> _restaurant_n_1 [label=ARG2]
+	_as_p -> "_conceive_v_1-fn.Competition" [label=ARG1]
+	_as_p -> "_geode/nn_u_unknown" [label=ARG2]
+}

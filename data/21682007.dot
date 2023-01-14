@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Israeli)" [label=BV]
+	proper_q -> "named(Baker)" [label=BV]
+	_in_p -> "_falter_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Israeli)" [label=ARG2]
+	_in_p -> _and_c [label=ARG2]
+	_amid_p -> "_paralysis/nn_u_unknown" [label=ARG2]
+	udef_q -> "_paralysis/nn_u_unknown" [label=BV]
+	udef_q -> "named(Mideast)" [label=BV]
+	"_falter_v_1-fn.Competition" -> "named(Baker)" [label="ARG1-fn.Participant_1"]
+	udef_q -> _politics_n_1 [label=BV]
+	_amid_p -> "named(Mideast)" [label=ARG1]
+	_the_q -> _and_c [label=BV]
+	"_palestinian/jj_u_unknown" -> _politics_n_1 [label=ARG1]
+	compound -> "_paralysis/nn_u_unknown" [label=ARG1]
+}

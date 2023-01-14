@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p_temp -> "numbered_hour(4":"30)" [label=ARG2]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	"numbered_hour(4":"30)" -> "_pm_x(pm_time)" [label=ARG2]
+	loc_nonsp -> time_n [label=ARG2]
+	def_implicit_q -> "numbered_hour(4":"30)" [label=BV]
+	_at_p_temp -> "_close_v_1-fn.Competition" [label=ARG1]
+	loc_nonsp -> "_close_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Office)" [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	"timezone_p(EDT)" -> "numbered_hour(4":"30)" [label=ARG1]
+	"_close_v_1-fn.Competition" -> "named(Office)" [label="ARG1-fn.Participant_1"]
+}

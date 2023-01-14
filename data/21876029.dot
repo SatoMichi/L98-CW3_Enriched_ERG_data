@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Systems)" [label=BV]
+	proper_q -> "named(Telerate)" [label=BV]
+	compound -> "named(Telerate)" [label=ARG2]
+	compound -> "named(Systems)" [label=ARG1]
+	"_colon_v_id-fn.Perception_body" -> _source_n_2 [label="ARG1-fn.Experiencer"]
+	"_colon_v_id-fn.Perception_body" -> "named(Systems)" [label="ARG2-fn.Body_part"]
+	udef_q -> _inc_n_1 [label=BV]
+	udef_q -> _source_n_2 [label=BV]
+	compound -> _inc_n_1 [label=ARG2]
+}

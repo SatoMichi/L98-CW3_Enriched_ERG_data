@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "card(470.67)" [label=ARG2]
+	loc_nonsp -> "_ease_v_1-fn.Impact" [label=ARG1]
+	_to_p -> "_ease_v_1-fn.Impact" [label=ARG1]
+	compound -> "named(Composite)" [label=ARG1]
+	_the_q -> "named(Index)" [label=BV]
+	number_q -> "card(470.67)" [label=BV]
+	number_q -> "card(0.13)" [label=BV]
+	compound -> "named(Index)" [label=ARG1]
+	compound -> "named(Nasdaq)" [label=ARG2]
+	proper_q -> "named(Nasdaq)" [label=BV]
+	loc_nonsp -> "card(0.13)" [label=ARG2]
+	proper_q -> "named(Composite)" [label=BV]
+	"_ease_v_1-fn.Impact" -> "named(Index)" [label="ARG1-fn.Place"]
+}

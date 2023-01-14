@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _inch_n_1 [label=BV]
+	"card(5)" -> _inch_n_1 [label=ARG1]
+	"_more+than_p" -> _inch_n_1 [label=ARG2]
+	_during_p -> _test_n_of [label=ARG2]
+	parg_d -> "_depress_v_1-fn.Social_event" [label=ARG1]
+	_the_q -> _test_n_of [label=BV]
+	parg_d -> _roof_n_1 [label=ARG2]
+	_during_p -> "_depress_v_1-fn.Social_event" [label=ARG1]
+	"_depress_v_1-fn.Social_event" -> _roof_n_1 [label="ARG2-fn.Social_event"]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> "_depress_v_1-fn.Social_event" [label="ARG1-fn.Protagonist"]
+	"_more+than_p" -> "_depress_v_1-fn.Social_event" [label=ARG1]
+	focus_d -> _during_p [label=ARG2]
+	focus_d -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	_the_q -> _roof_n_1 [label=BV]
+}

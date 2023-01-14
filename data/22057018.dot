@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "dofw(Mon)" [label=BV]
+	_when_x_subord -> "_have_v_qmodal-fn.Cause_to_end" [label=ARG2]
+	_when_x_subord -> "_spark_v_1-fn.Impact" [label=ARG1]
+	"much-many_a" -> _firm_n_1 [label=ARG1]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_pay_v_up-fn.Halt" [label="ARG1-fn.Process"]
+	poss -> "dofw(Mon)" [label=ARG2]
+	udef_q -> _firm_n_1 [label=BV]
+	_sudden_a_1 -> _rally_n_1 [label=ARG1]
+	parg_d -> "_spark_v_1-fn.Impact" [label=ARG1]
+	"_pay_v_up-fn.Halt" -> _firm_n_1 [label="ARG1-fn.Purpose"]
+	def_explicit_q -> _rally_n_1 [label=BV]
+	"_spark_v_1-fn.Impact" -> _rally_n_1 [label="ARG2-fn.Result"]
+	parg_d -> _rally_n_1 [label=ARG2]
+	poss -> _rally_n_1 [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Aoki)" [label=BV]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _yen_n_2 [label="ARG2-fn.Patient"]
+	_to_p -> _yen_n_2 [label=ARG2]
+	appos -> _dollar_n_1 [label=ARG2]
+	udef_q -> _yen_n_2 [label=BV]
+	"card(60)" -> _yen_n_2 [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Aoki)" [label="ARG1-fn.NotExist"]
+	"card(1,480)" -> _yen_n_2 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(10.40)" -> _dollar_n_1 [label=ARG1]
+	appos -> _yen_n_2 [label=ARG1]
+}

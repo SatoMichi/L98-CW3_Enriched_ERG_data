@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_deceive_v_1-fn.Prevarication" -> pron [label="ARG2-fn.Patient"]
+	_for_p -> _investor_n_1 [label=ARG2]
+	"_leave_v_1-fn.Causation" -> pron [label="ARG2-fn.Initial_Location"]
+	_some_q -> _investor_n_1 [label=BV]
+	_for_p -> _be_v_itcleft [label=ARG1]
+	_be_v_itcleft -> _appearance_n_of [label=ARG1]
+	parg_d -> "_deceive_v_1-fn.Prevarication" [label=ARG1]
+	"_leave_v_1-fn.Causation" -> "_deceive_v_1-fn.Prevarication" [label="ARG3-fn.NotExist"]
+	focus_d -> _for_p [label=ARG2]
+	_the_q -> _appearance_n_of [label=BV]
+	"_leave_v_1-fn.Causation" -> _appearance_n_of [label="ARG1-fn.Theme"]
+	parg_d -> pron [label=ARG2]
+	focus_d -> _be_v_itcleft [label=ARG1]
+	_be_v_itcleft -> "_leave_v_1-fn.Causation" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

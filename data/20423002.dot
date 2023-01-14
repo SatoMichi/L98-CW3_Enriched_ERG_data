@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_1-fn.IN" -> "named(Gates)" [label="ARG1-fn.Agent"]
+	udef_q -> _mister_n_1 [label=BV]
+	_wonder_v_1 -> "_want_v_1-fn.Desiring" [label=ARG2]
+	_wonder_v_1 -> pron [label=ARG1]
+	proper_q -> "named(Gates)" [label=BV]
+	"_keep_v_on-fn.Activity_ongoing" -> _wonder_v_1 [label="ARG1-fn.Agent"]
+	"_say_v_1-fn.IN" -> thing [label="ARG2-fn.Topic"]
+	compound -> "named(Gates)" [label=ARG1]
+	"_want_v_1-fn.Desiring" -> "named(Gates)" [label="ARG1-fn.Pivot"]
+	"_want_v_1-fn.Desiring" -> "_say_v_1-fn.IN" [label="ARG2-fn.Theme"]
+	compound -> _mister_n_1 [label=ARG2]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

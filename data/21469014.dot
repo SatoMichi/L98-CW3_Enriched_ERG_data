@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_foreign_a_1 -> nominalization [label=ARG1]
+	_the_q -> _pinch_n_1 [label=BV]
+	focus_d -> "_in+general_a_1" [label=ARG2]
+	"_feel_v_1-fn.Perception_experience" -> _company_n_of [label="ARG1-fn.Experiencer"]
+	compound -> nominalization [label=ARG2]
+	"_feel_v_1-fn.Perception_experience" -> _pinch_n_1 [label="ARG2-fn.Stimulus"]
+	"_in+general_a_1" -> "_feel_v_1-fn.Perception_experience" [label=ARG1]
+	focus_d -> "_feel_v_1-fn.Perception_experience" [label=ARG1]
+	nominalization -> _trade_v_1 [label=ARG1]
+	_all_q -> _company_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+	compound -> _company_n_of [label=ARG1]
+}

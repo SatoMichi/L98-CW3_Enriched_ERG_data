@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_long_a_1 -> _term_n_of [label=ARG1]
+	_sure_a_of -> "_think_v_1-fn.Impact" [label=ARG2]
+	_the_q -> _term_n_of [label=BV]
+	"_make_v_i-fn.Rite" -> generic_entity [label="ARG1-fn.Leader"]
+	_that_q_dem -> generic_entity [label=BV]
+	_for_p -> _term_n_of [label=ARG2]
+	_sure_a_of -> generic_entity [label=ARG1]
+	"_think_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	_all_a_1 -> "_think_v_1-fn.Impact" [label=ARG1]
+	_for_p -> "_think_v_1-fn.Impact" [label=ARG1]
+	"_make_v_i-fn.Rite" -> _sure_a_of [label="ARG2-fn.Member"]
+	pronoun_q -> pron [label=BV]
+	"_ought_v_qmodal-fn.Cause_to_end" -> "_make_v_i-fn.Rite" [label="ARG1-fn.Process"]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _anxiety_n_1 [label=ARG2]
+	def_explicit_q -> _anxiety_n_1 [label=BV]
+	_alone_p -> "named(AG)" [label=ARG1]
+	poss -> pron [label=ARG2]
+	_in_p -> _alone_p [label=ARG1]
+	proper_q -> "named(AG)" [label=BV]
+	poss -> _anxiety_n_1 [label=ARG1]
+	_hardly_x_deg -> _alone_p [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

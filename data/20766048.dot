@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_out+of_p" [label=ARG1]
+	_the_q -> _question_n_about [label=BV]
+	"_out+of_p" -> _repair_n_of [label=ARG1]
+	_sometimes_a_1 -> "_out+of_p" [label=ARG1]
+	udef_q -> _repair_n_of [label=BV]
+	"_out+of_p" -> _question_n_about [label=ARG2]
+}

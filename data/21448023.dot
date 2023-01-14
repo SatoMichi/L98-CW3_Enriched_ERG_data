@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_exclude_v_1 -> _repair_n_of [label=ARG2]
+	udef_q -> _highway_n_1 [label=BV]
+	compound -> _highway_n_1 [label=ARG2]
+	"_exceed_v_1-fn.NF" -> _repair_n_of [label="ARG1-fn.Theme"]
+	times -> "card(1)" [label=ARG2]
+	_exclude_v_1 -> _estimate_n_of [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	"_exceed_v_1-fn.NF" -> _dollar_n_1 [label="ARG2-fn.Co-Theme"]
+	compound -> _repair_n_of [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	udef_q -> _repair_n_of [label=BV]
+	_all_q -> _estimate_n_of [label=BV]
+	_could_v_modal -> "_exceed_v_1-fn.NF" [label=ARG1]
+}

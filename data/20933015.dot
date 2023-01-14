@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _rule_n_of [label=ARG1]
+	compound -> _ira_n_1 [label=ARG2]
+	_over_p -> _year_n_1 [label=ARG2]
+	_the_q -> _year_n_1 [label=BV]
+	parg_d -> _rule_n_of [label=ARG2]
+	_over_p -> "_change_v_cause-fn.Cause_motion" [label=ARG1]
+	"_change_v_cause-fn.Cause_motion" -> _rule_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _rule_n_of [label=BV]
+	parg_d -> "_change_v_cause-fn.Cause_motion" [label=ARG1]
+	udef_q -> _ira_n_1 [label=BV]
+}

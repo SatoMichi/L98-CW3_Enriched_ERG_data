@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_fundamental_a_1 -> "_different_a_than-from" [label=ARG1]
+	comp -> "_different_a_than-from" [label=ARG1]
+	_strategic_a_1 -> _review_n_of [label=ARG1]
+	"_different_a_than-from" -> _review_n_of [label=ARG1]
+	_a_q -> _review_n_of [label=BV]
+}

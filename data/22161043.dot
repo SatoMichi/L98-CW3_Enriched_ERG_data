@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _touch_n_1 [label=BV]
+	"_change_v_cause-fn.Cause_to_end" -> _consciousness_n_1 [label="ARG2-fn.Means"]
+	"_change_v_cause-fn.Cause_to_end" -> _vision_n_1 [label="ARG1-fn.Process"]
+	poss -> pron [label=ARG2]
+	udef_q -> _consciousness_n_1 [label=BV]
+	eventuality -> "_change_v_cause-fn.Cause_to_end" [label=ARG1]
+	def_explicit_q -> _vision_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_towards_p -> _consciousness_n_1 [label=ARG1]
+	_towards_p -> _touch_n_1 [label=ARG2]
+	poss -> _vision_n_1 [label=ARG1]
+	_human_a_1 -> _consciousness_n_1 [label=ARG1]
+}

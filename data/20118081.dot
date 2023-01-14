@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _pay_n_1 [label=BV]
+	poss -> "_stockbrokers/nns_u_unknown" [label=ARG2]
+	poss -> _and_c [label=ARG1]
+	udef_q -> _business_n_1 [label=BV]
+	udef_q -> "_stockbrokers/nns_u_unknown" [label=BV]
+	def_explicit_q -> _and_c [label=BV]
+	"_fall_v_1-fn.Competition" -> _and_c [label="ARG1-fn.Participant_1"]
+}

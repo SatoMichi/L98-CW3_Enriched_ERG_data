@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _high_a_1 [label=ARG1]
+	loc_nonsp -> "_end_v_1-fn.Process_start" [label=ARG1]
+	_at_p -> _high_a_1 [label=ARG1]
+	"_end_v_1-fn.Process_start" -> "named(Jaguar)" [label="ARG1-fn.Event"]
+	_high_a_1 -> "card(22)" [label=ARG1]
+	proper_q -> "named(Jaguar)" [label=BV]
+	number_q -> "card(22)" [label=BV]
+	_at_p -> "card(747)" [label=ARG2]
+	number_q -> "card(747)" [label=BV]
+	loc_nonsp -> "card(22)" [label=ARG2]
+}

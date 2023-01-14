@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Miami)" [label=ARG2]
+	proper_q -> "named(Dolphins)" [label=BV]
+	compound -> "named(Dolphins)" [label=ARG1]
+	proper_q -> "named(Joe)" [label=BV]
+	"_prove_v_to-fn.Reasoning" -> pron [label="ARG2-fn.Theme"]
+	compound -> "named(Robbie)" [label=ARG1]
+	compound -> _owner_n_of [label=ARG1]
+	proper_q -> "named(Miami)" [label=BV]
+	compound -> "named(Joe)" [label=ARG2]
+	"_disagree_v_1-fn.NF" -> "named(Robbie)" [label="ARG1-fn.Agent"]
+	_can_v_modal -> "_prove_v_to-fn.Reasoning" [label=ARG1]
+	udef_q -> _owner_n_of [label=BV]
+	proper_q -> "named(Robbie)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _dividend_n_1 [label="ARG1-fn.Entity"]
+	_a_p_per -> _share_n_of [label=ARG2]
+	udef_q -> _share_n_of [label=BV]
+	_the_q -> _dividend_n_1 [label=BV]
+	udef_q -> _cent_n_1 [label=BV]
+	_a_p_per -> _cent_n_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _cent_n_1 [label="ARG2-fn.Name"]
+	"card(5)" -> _cent_n_1 [label=ARG1]
+}

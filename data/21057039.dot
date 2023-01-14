@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_spend_v_1 -> "named(CBS)" [label=ARG1]
+	_likely_a_1 -> _spend_v_1 [label=ARG1]
+	"_take_v_2-fn.Have_as_requirement" -> thing [label="ARG3-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+	"_keep_v_unspec-fn.Storing" -> pron [label="ARG2-fn.NotExist"]
+	_spend_v_1 -> thing [label=ARG2]
+	proper_q -> "named(CBS)" [label=BV]
+	"_take_v_2-fn.Have_as_requirement" -> "_keep_v_unspec-fn.Storing" [label="ARG1-fn.NotExist"]
+	free_relative_ever_q -> thing [label=BV]
+}

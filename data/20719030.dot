@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_such_q -> _time_n_of [label=BV]
+	_turbulent_a_1 -> _time_n_of [label=ARG1]
+	_the_q -> _switch_n_1 [label=BV]
+	_to_p -> _switch_n_1 [label=ARG1]
+	compound -> _market_n_1 [label=ARG1]
+	_during_p -> _switch_n_1 [label=ARG1]
+	_during_p -> _time_n_of [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	_significant_a_for -> _switch_n_1 [label=ARG1]
+	compound -> "named(London)" [label=ARG2]
+	proper_q -> "named(London)" [label=BV]
+	_to_p -> _market_n_1 [label=ARG2]
+}

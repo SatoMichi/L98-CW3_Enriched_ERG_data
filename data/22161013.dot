@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_even_a_1 -> "_pay_v_for-fn.Commerce_buy" [label=ARG1]
+	proper_q -> "named(Heinz)" [label=BV]
+	"_include_v_1-fn.Cause_to_end" -> "named(Heinz)" [label="ARG2-fn.Means"]
+	part_of -> _fee_n_1 [label=ARG1]
+	"_pay_v_for-fn.Commerce_buy" -> _company_n_of [label="ARG1-fn.Buyer"]
+	"_pay_v_for-fn.Commerce_buy" -> part_of [label="ARG2-fn.Goods"]
+	_some_q -> _company_n_of [label=BV]
+	_the_q -> _fee_n_1 [label=BV]
+	"_include_v_1-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+	_part_q -> part_of [label=BV]
+}

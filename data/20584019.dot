@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> nominalization [label=BV]
+	proper_q -> "named(McCaw)" [label=BV]
+	"_escalate_v_cause-fn.Cause_to_start" -> nominalization [label="ARG2-fn.Effect"]
+	"_expect_v_1-fn.Competition" -> "_escalate_v_cause-fn.Cause_to_start" [label="ARG2-fn.Participant_2"]
+	nominalization -> _bid_v_1 [label=ARG1]
+	"_say_v_to-fn.Surpassing" -> "_expect_v_1-fn.Competition" [label="ARG2-fn.Profiled_item"]
+	udef_q -> _analyst_n_1 [label=BV]
+	"_say_v_to-fn.Surpassing" -> _analyst_n_1 [label="ARG1-fn.Standard_item"]
+	"_escalate_v_cause-fn.Cause_to_start" -> "named(McCaw)" [label="ARG1-fn.Cause"]
+	_again_a_1 -> "_escalate_v_cause-fn.Cause_to_start" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_expect_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

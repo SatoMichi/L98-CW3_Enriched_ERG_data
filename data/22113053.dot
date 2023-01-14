@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_develop_v_cause-fn.Killing" -> _relationship_n_of [label="ARG2-fn.Victim"]
+	_close_a_to -> _relationship_n_of [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_with_p -> "named(Sothebys)" [label=ARG2]
+	compound -> "named(Paul)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_with_p -> _relationship_n_of [label=ARG1]
+	proper_q -> "named(Paul)" [label=BV]
+	"_develop_v_cause-fn.Killing" -> "named(Paul)" [label="ARG1-fn.Killer"]
+	_symbiotic_a_1 -> _relationship_n_of [label=ARG1]
+	_a_q -> _relationship_n_of [label=BV]
+	_thus_a_1 -> "_develop_v_cause-fn.Killing" [label=ARG1]
+	proper_q -> "named(Sothebys)" [label=BV]
+}

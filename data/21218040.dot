@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_experiment_v_on-fn.Activity_start" -> _artery_n_1 [label="ARG2-fn.Purpose"]
+	compound -> _artery_n_1 [label=ARG1]
+	_the_q -> _artery_n_1 [label=BV]
+	compound -> _neck_n_1 [label=ARG2]
+	_tiny_a_1 -> _artery_n_1 [label=ARG1]
+	_of_p -> _artery_n_1 [label=ARG1]
+	udef_q -> _neck_n_1 [label=BV]
+	_of_p -> _rat_n_1 [label=ARG2]
+	"_experiment_v_on-fn.Activity_start" -> _scientist_n_1 [label="ARG1-fn.Place"]
+	_the_q -> _scientist_n_1 [label=BV]
+	udef_q -> _rat_n_1 [label=BV]
+}

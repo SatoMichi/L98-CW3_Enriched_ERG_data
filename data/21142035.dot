@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Industries)" [label=BV]
+	number_q -> "card(5)" [label=BV]
+	"_jump_v_1-fn.Activity_start" -> "named(Industries)" [label="ARG1-fn.Place"]
+	compound -> "named(North)" [label=ARG2]
+	plus -> "fraction(3/4)" [label=ARG3]
+	_to_p -> "card(5)" [label=ARG2]
+	proper_q -> "named(North)" [label=BV]
+	proper_q -> "named(Atlantic)" [label=BV]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	compound -> "named(Atlantic)" [label=ARG1]
+	_to_p -> "_jump_v_1-fn.Activity_start" [label=ARG1]
+	loc_nonsp -> "_jump_v_1-fn.Activity_start" [label=ARG1]
+	plus -> "card(5)" [label=ARG2]
+	compound -> "named(Industries)" [label=ARG1]
+}

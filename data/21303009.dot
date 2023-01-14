@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_large_a_1 -> _firm_n_1 [label=ARG1]
+	compound -> _firm_n_1 [label=ARG1]
+	poss -> _firm_n_1 [label=ARG1]
+	proper_q -> "named(Daiwa)" [label=BV]
+	udef_q -> _security_n_1 [label=BV]
+	poss -> _world_n_of [label=ARG2]
+	compound -> _security_n_1 [label=ARG2]
+	def_explicit_q -> _firm_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> part_of [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> "named(Daiwa)" [label="ARG1-fn.Process"]
+	udef_q -> part_of [label=BV]
+	"card(1)" -> part_of [label=ARG1]
+	superl -> _large_a_1 [label=ARG1]
+	part_of -> _firm_n_1 [label=ARG1]
+	_the_q -> _world_n_of [label=BV]
+}

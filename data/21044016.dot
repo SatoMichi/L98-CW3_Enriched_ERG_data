@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named_n(House)" [label=BV]
+	_after_x_h -> "_approve_v_1-fn.NF" [label=ARG2]
+	_come_v_1 -> _action_n_1 [label=ARG1]
+	"_approve_v_1-fn.NF" -> _measure_n_1 [label="ARG2-fn.Stimulus"]
+	_the_q -> _measure_n_1 [label=BV]
+	_the_q -> "named_n(Senate)" [label=BV]
+	_the_q -> _action_n_1 [label=BV]
+	compound -> _pass_v_1 [label=ARG1]
+	parg_d -> _pass_v_1 [label=ARG1]
+	parg_d -> _measure_n_1 [label=ARG2]
+	"_approve_v_1-fn.NF" -> "named_n(Senate)" [label="ARG1-fn.Experiencer"]
+	_pass_v_1 -> _measure_n_1 [label=ARG2]
+	_after_x_h -> _come_v_1 [label=ARG1]
+	compound -> "named_n(House)" [label=ARG2]
+}

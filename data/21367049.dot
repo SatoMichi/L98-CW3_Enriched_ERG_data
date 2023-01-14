@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_have_v_cause -> "_make_v_cause-fn.Causation" [label=ARG2]
+	"_make_v_cause-fn.Causation" -> pron [label="ARG1-fn.Agent"]
+	_editorial_a_1 -> _people_n_of [label=ARG1]
+	"_work_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_impossible_a_for -> _idea_n_of [label=ARG1]
+	"_think_v_1-fn.IN" -> _impossible_a_for [label="ARG2-fn.NotExist"]
+	"_make_v_cause-fn.Causation" -> "_work_v_1-fn.IN" [label="ARG2-fn.Theme"]
+	"_think_v_of-fn.IN" -> _idea_n_of [label="ARG2-fn.NotExist"]
+	_have_v_cause -> pron [label=ARG1]
+	"_think_v_of-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_the_q -> _people_n_of [label=BV]
+	_a_q -> _idea_n_of [label=BV]
+	"_think_v_1-fn.IN" -> _people_n_of [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

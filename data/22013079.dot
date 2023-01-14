@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_cause_v_1-fn.Causation" [label=ARG1]
+	_at_p -> "_cause_v_1-fn.Causation" [label=ARG1]
+	focus_d -> _at_p [label=ARG2]
+	udef_q -> _concern_n_1 [label=BV]
+	udef_q -> _drug_n_1 [label=BV]
+	_early_a_1 -> _stage_n_of [label=ARG1]
+	_at_p -> _stage_n_of [label=ARG2]
+	"_cause_v_1-fn.Causation" -> _drug_n_1 [label="ARG1-fn.Cause"]
+	_additional_a_1 -> _concern_n_1 [label=ARG1]
+	_even_x_deg -> _at_p [label=ARG1]
+	_this_q_dem -> _stage_n_of [label=BV]
+	"_cause_v_1-fn.Causation" -> _concern_n_1 [label="ARG2-fn.Theme"]
+}

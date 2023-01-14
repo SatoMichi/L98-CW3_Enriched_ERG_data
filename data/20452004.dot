@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _liability_n_1 [label=BV]
+	"_report_v_to-fn.Statement" -> _and_c [label="ARG2-fn.NotExist"]
+	times -> "card(4)" [label=ARG2]
+	_of_p -> _dollar_n_1 [label=ARG2]
+	_of_p -> _asset_n_1 [label=ARG1]
+	_recent_a_1 -> "_report_v_to-fn.Statement" [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	_of_p -> _liability_n_1 [label=ARG1]
+	udef_q -> _asset_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_report_v_to-fn.Statement" -> pron [label="ARG1-fn.NotExist"]
+	times -> "card(1000000000)" [label=ARG3]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(2.4)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

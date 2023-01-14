@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _head_n_of [label=BV]
+	_have_v_prd -> pron [label=ARG1]
+	parg_d -> "_chop_v_off-fn.Cause_harm" [label=ARG1]
+	poss -> _head_n_of [label=ARG1]
+	"_chop_v_off-fn.Cause_harm" -> _head_n_of [label="ARG2-fn.Patient"]
+	poss -> pron [label=ARG2]
+	_deserve_v_1 -> _have_v_prd [label=ARG2]
+	_have_v_prd -> "_chop_v_off-fn.Cause_harm" [label=ARG3]
+	_have_v_prd -> _head_n_of [label=ARG2]
+	parg_d -> _head_n_of [label=ARG2]
+	_deserve_v_1 -> pron [label=ARG1]
+	neg -> _deserve_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "_advise_v_1-fn.IN" [label=ARG1]
+	neg -> _fix_v_1 [label=ARG1]
+	"_advise_v_1-fn.IN" -> _saying_n_1 [label="ARG1-fn.Agent"]
+	neg -> _broke_a_1 [label=ARG1]
+	_fix_v_1 -> pron [label=ARG2]
+	_the_q -> _saying_n_1 [label=BV]
+	_if_x_then -> neg [label=ARG2]
+	_old_a_1 -> _saying_n_1 [label=ARG1]
+	_broke_a_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

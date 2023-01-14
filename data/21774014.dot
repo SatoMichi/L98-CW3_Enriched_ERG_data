@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_linger_v_1-fn.Halt" -> _impact_n_1 [label="ARG1-fn.Purpose"]
+	"_predict_v_1-fn.Change_position_on_a_scale" -> _analyst_n_1 [label="ARG1-fn.Attribute"]
+	udef_q -> _sale_n_of [label=BV]
+	"_predict_v_1-fn.Change_position_on_a_scale" -> "_linger_v_1-fn.Halt" [label="ARG2-fn.Item"]
+	_the_q -> _impact_n_1 [label=BV]
+	udef_q -> _analyst_n_1 [label=BV]
+	compound -> _impact_n_1 [label=ARG1]
+	compound -> _sale_n_of [label=ARG2]
+}

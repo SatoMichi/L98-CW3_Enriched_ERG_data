@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_croaker/nn_u_unknown" [label=ARG2]
+	_from_p -> _hook_n_1 [label=ARG2]
+	subord -> "_do_v_1-fn.Competition" [label=ARG1]
+	"_do_v_1-fn.Competition" -> "_croaker/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	_from_p -> _gone_a_1 [label=ARG1]
+	subord -> _gone_a_1 [label=ARG2]
+	parg_d -> "_do_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _hook_n_1 [label=BV]
+	_the_q -> "_croaker/nn_u_unknown" [label=BV]
+}

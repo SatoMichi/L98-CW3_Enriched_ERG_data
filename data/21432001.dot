@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_may_v_modal -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	_for_p -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	focus_d -> _may_v_modal [label=ARG1]
+	"_end_v_1-fn.Cause_to_end" -> _ride_n_1 [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Cathay)" [label=BV]
+	compound -> "named(Pacific)" [label=ARG1]
+	focus_d -> _for_p [label=ARG2]
+	proper_q -> "named(Airways)" [label=BV]
+	proper_q -> "named(Pacific)" [label=BV]
+	compound -> "named(Cathay)" [label=ARG2]
+	_smooth_a_1 -> _ride_n_1 [label=ARG1]
+	_for_p -> "named(Airways)" [label=ARG2]
+	_the_q -> _ride_n_1 [label=BV]
+	compound -> "named(Airways)" [label=ARG1]
+}

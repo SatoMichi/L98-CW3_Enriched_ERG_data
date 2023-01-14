@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_abandon_v_1-fn.Competition" [label=ARG1]
+	_large_a_1 -> "named(Mesa)" [label=ARG1]
+	"_abandon_v_1-fn.Competition" -> "named(StatesWest)" [label="ARG1-fn.Participant_1"]
+	poss -> _pursuit_n_of [label=ARG1]
+	_pursuit_n_of -> "named(Mesa)" [label=ARG1]
+	_the_q -> "named(Mesa)" [label=BV]
+	def_explicit_q -> _pursuit_n_of [label=BV]
+	_much_x_deg -> comp [label=ARG1]
+	_however_a_1 -> neg [label=ARG1]
+	comp -> _large_a_1 [label=ARG1]
+	proper_q -> "named(StatesWest)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_abandon_v_1-fn.Competition" -> _pursuit_n_of [label="ARG2-fn.Participant_2"]
+	poss -> pron [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_further_a_1 -> "_go_v_1-fn.Competition" [label=ARG1]
+	_now_a_1 -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_go_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_can_v_modal-fn.Reliance" -> "_go_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	pronoun_q -> pron [label=BV]
+}

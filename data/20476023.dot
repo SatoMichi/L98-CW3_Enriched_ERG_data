@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Finance)" [label=ARG1]
+	compound -> "named(South)" [label=ARG2]
+	compound -> _agency_n_1 [label=ARG1]
+	proper_q -> "named(Authority)" [label=BV]
+	compound -> "named(Authority)" [label=ARG1]
+	proper_q -> "named(Government)" [label=BV]
+	compound -> "named(Government)" [label=ARG1]
+	compound -> "named(Australian)" [label=ARG1]
+	proper_q -> "named(Finance)" [label=BV]
+	proper_q -> "named(South)" [label=BV]
+	proper_q -> "named(Australian)" [label=BV]
+	udef_q -> _agency_n_1 [label=BV]
+	unknown -> _agency_n_1 [label=ARG]
+}

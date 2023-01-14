@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_high_a_1 -> _price_n_of [label=ARG1]
+	_can_v_modal -> "_boast_v_to-fn.IN" [label=ARG1]
+	compound -> _price_n_of [label=ARG2]
+	_the_q -> _lion_n_1 [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	"_boast_v_to-fn.IN" -> _share_n_of [label="ARG2-fn.Topic"]
+	poss -> _share_n_of [label=ARG1]
+	def_explicit_q -> _share_n_of [label=BV]
+	poss -> _lion_n_1 [label=ARG2]
+	_share_n_of -> _bottle_n_of [label=ARG1]
+	compound -> _bottle_n_of [label=ARG1]
+	udef_q -> _bottle_n_of [label=BV]
+	proper_q -> "named(France)" [label=BV]
+	"_boast_v_to-fn.IN" -> "named(France)" [label="ARG1-fn.Agent"]
+}

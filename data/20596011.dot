@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_smoke_v_1-fn.Halt" [label=ARG1]
+	_so_a_thus -> neg [label=ARG1]
+	_in_p -> _gasoline_n_1 [label=ARG2]
+	"_smoke_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	_in_p -> "_stand_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _gasoline_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_stand_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _dollar_n_1 [label=ARG1]
+	_a_p_per -> _share_n_of [label=ARG2]
+	_by_p_means -> _accident_n_1 [label=ARG2]
+	udef_q -> _share_n_of [label=BV]
+	_of_p -> _dollar_n_1 [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> _accident_n_1 [label=BV]
+	_the_q -> _price_n_of [label=BV]
+	_now_a_1 -> _standard_a_1 [label=ARG1]
+	_by_p_means -> "_come_v_about-fn.Needing" [label=ARG1]
+	_of_p -> _price_n_of [label=ARG1]
+	_standard_a_1 -> _price_n_of [label=ARG1]
+	"_come_v_about-fn.Needing" -> _price_n_of [label="ARG1-fn.Cognizer"]
+	_a_p_per -> _dollar_n_1 [label=ARG1]
+}

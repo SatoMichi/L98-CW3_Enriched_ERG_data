@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_carry_v_1-fn.Bringing" -> _woman_n_1 [label="ARG2-fn.NotExist"]
+	"_voluptuous/jj_u_unknown" -> _woman_n_1 [label=ARG1]
+	_in_p -> _woman_n_1 [label=ARG1]
+	_feature_v_cause -> _robot_n_1 [label=ARG2]
+	"_carry_v_1-fn.Bringing" -> _robot_n_1 [label="ARG1-fn.NotExist"]
+	"card(1)" -> _ad_n_1 [label=ARG1]
+	_feature_v_cause -> _ad_n_1 [label=ARG1]
+	_a_q -> _woman_n_1 [label=BV]
+	_in_p -> _faint_n_1 [label=ARG2]
+	udef_q -> _ad_n_1 [label=BV]
+	_huge_a_1 -> _robot_n_1 [label=ARG1]
+	_a_q -> _faint_n_1 [label=BV]
+	_a_q -> _robot_n_1 [label=BV]
+}

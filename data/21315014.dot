@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_impossible_a_for -> _or_c [label=ARG1]
+	"_transfer_v_1-fn.NF" -> _principal_n_1 [label="ARG2-fn.Theme"]
+	"_mean_v_to-fn.NF" -> _virtual_a_1 [label="ARG2-fn.Theme"]
+	_incompetent_a_1 -> _principal_n_1 [label=ARG1]
+	_virtual_a_1 -> _impossible_a_for [label=ARG1]
+	udef_q -> _principal_n_1 [label=BV]
+	_even_a_1 -> "_transfer_v_1-fn.NF" [label=ARG1]
+	"_mean_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_fire_v_1-fn.Firing" -> _principal_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _heel_n_1 [label=BV]
+	_a_q -> _hole_n_1 [label=BV]
+	poss -> _shoe_n_1 [label=ARG1]
+	"_poke_v_1-fn.NF" -> _in_p [label="ARG3-fn.NotExist"]
+	_in_p -> _hole_n_1 [label=ARG1]
+	_of_p -> _shoe_n_1 [label=ARG2]
+	_in_p -> _heel_n_1 [label=ARG2]
+	def_explicit_q -> _shoe_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_another_q -> generic_entity [label=BV]
+	"_poke_v_1-fn.NF" -> _hole_n_1 [label="ARG2-fn.Patient"]
+	_of_p -> _heel_n_1 [label=ARG1]
+	"_poke_v_1-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

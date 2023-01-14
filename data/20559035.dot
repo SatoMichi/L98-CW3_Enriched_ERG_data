@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_about_p -> _negotiation_n_of [label=ARG2]
+	_the_q -> _government_n_of [label=BV]
+	udef_q -> _negotiation_n_of [label=BV]
+	"_see_v_1-fn.Grasp" -> pron [label="ARG1-fn.Experiencer"]
+	focus_d -> "_see_v_1-fn.Grasp" [label=ARG1]
+	_clear_a_of -> _indication_n_of [label=ARG1]
+	_no_q -> _indication_n_of [label=BV]
+	_indication_n_of -> _serious_a_1 [label=ARG1]
+	"_see_v_1-fn.Grasp" -> _indication_n_of [label="ARG2-fn.Stimulus"]
+	_serious_a_1 -> _government_n_of [label=ARG1]
+	_about_p -> _serious_a_1 [label=ARG1]
+	focus_d -> "_to+date_p" [label=ARG2]
+	"_to+date_p" -> "_see_v_1-fn.Grasp" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

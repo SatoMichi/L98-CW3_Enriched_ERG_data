@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_around_p -> _computer_n_1 [label=ARG1]
+	udef_q -> _business_n_1 [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	compound -> _computer_n_1 [label=ARG1]
+	udef_q -> "_mainframe/nn_u_unknown" [label=BV]
+	_for_p -> _year_n_1 [label=ARG2]
+	udef_q -> _computer_n_1 [label=BV]
+	compound -> "_mainframe/nn_u_unknown" [label=ARG2]
+	_big_a_1 -> _computer_n_1 [label=ARG1]
+	_for_p -> _business_n_1 [label=ARG2]
+	_for_p -> _around_p [label=ARG1]
+	_for_p -> _computer_n_1 [label=ARG1]
+}

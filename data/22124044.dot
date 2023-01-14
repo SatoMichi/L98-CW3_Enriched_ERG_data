@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_nag_v_1 -> _worry_n_1 [label=ARG1]
+	udef_q -> _worry_n_1 [label=BV]
+	udef_q -> _investor_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _worry_n_1 [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> _investor_n_1 [label="ARG1-fn.Pivot"]
+	"much-many_a" -> _investor_n_1 [label=ARG1]
+}

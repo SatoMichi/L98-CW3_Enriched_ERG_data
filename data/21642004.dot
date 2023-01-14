@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_leap_v_1-fn.Attempt" [label=ARG1]
+	_to_p -> "card(470.80)" [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	"card(7.52)" -> _point_n_of [label=ARG1]
+	"_leap_v_1-fn.Attempt" -> _composite_n_1 [label="ARG1-fn.Agent"]
+	loc_nonsp -> "_leap_v_1-fn.Attempt" [label=ARG1]
+	compound -> _composite_n_1 [label=ARG1]
+	"card(1.6)" -> _percent_n_of [label=ARG1]
+	udef_q -> _point_n_of [label=BV]
+	number_q -> "card(470.80)" [label=BV]
+	proper_q -> "named(Nasdaq)" [label=BV]
+	udef_q -> _or_c [label=BV]
+	loc_nonsp -> _or_c [label=ARG2]
+	compound -> "named(Nasdaq)" [label=ARG2]
+	_the_q -> _composite_n_1 [label=BV]
+}

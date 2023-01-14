@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(COLA)" [label=BV]
+	parenthetical -> "named(Atlanta)" [label=ARG2]
+	udef_q -> "named(Atlanta)" [label=BV]
+	udef_q -> _company_n_1 [label=BV]
+	compound -> "named(COCA-)" [label=ARG2]
+	proper_q -> "named(COCA-)" [label=BV]
+	unknown -> "named(COLA)" [label=ARG]
+	parenthetical -> "named(COLA)" [label=ARG1]
+	compound -> "named(COLA)" [label=ARG1]
+	compound -> _company_n_1 [label=ARG2]
+}

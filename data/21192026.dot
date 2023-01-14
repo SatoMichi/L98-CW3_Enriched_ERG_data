@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _airline_n_1 [label=BV]
+	parg_d -> _executive_n_1 [label=ARG2]
+	compound -> _airline_n_1 [label=ARG2]
+	"_decline_v_1-fn.Experiencer_obj" -> "_identify_v_1-fn.State_continue" [label="ARG2-fn.Stimulus"]
+	"_call_v_1-fn.State_continue" -> _executive_n_1 [label="ARG1-fn.Entity"]
+	compound -> _executive_n_1 [label=ARG1]
+	"card(1)" -> _executive_n_1 [label=ARG1]
+	"_identify_v_1-fn.State_continue" -> _executive_n_1 [label="ARG2-fn.State"]
+	_amazing_a_to -> _loss_n_of [label=ARG1]
+	"_call_v_1-fn.State_continue" -> _amazing_a_to [label="ARG3-fn.Time"]
+	"_decline_v_1-fn.Experiencer_obj" -> _executive_n_1 [label="ARG1-fn.Experiencer"]
+	"_call_v_1-fn.State_continue" -> _loss_n_of [label="ARG2-fn.State"]
+	_the_q -> _loss_n_of [label=BV]
+	udef_q -> _executive_n_1 [label=BV]
+	parg_d -> "_identify_v_1-fn.State_continue" [label=ARG1]
+}

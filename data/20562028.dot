@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _snag_n_1 [label=ARG1]
+	_in_p -> _process_n_of [label=ARG2]
+	"_identify_v_1-fn.Competition" -> _snag_n_1 [label="ARG2-fn.Participant_2"]
+	"_identify_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_then_a_1 -> "_identify_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _process_n_of [label=BV]
+	udef_q -> _snag_n_1 [label=BV]
+}

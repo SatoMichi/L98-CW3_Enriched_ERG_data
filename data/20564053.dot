@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> "_real+estate_n_1" [label=ARG2]
+	"_explain_v_to-fn.Statement" -> "_give_v_1-fn.Giving" [label="ARG2-fn.Topic"]
+	"_explain_v_to-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	"_give_v_1-fn.Giving" -> _company_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _company_n_of [label=BV]
+	udef_q -> "_real+estate_n_1" [label=BV]
+	"_give_v_1-fn.Giving" -> _security_n_1 [label="ARG2-fn.Theme"]
+	_with_p -> _company_n_of [label=ARG1]
+	udef_q -> _security_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

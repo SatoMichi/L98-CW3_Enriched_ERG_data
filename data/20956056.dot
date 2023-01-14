@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	_japanese_a_1 -> nominalization [label=ARG1]
+	proper_q -> "named(GM)" [label=BV]
+	proper_q -> "named(Jordan)" [label=BV]
+	_of_p -> "named(GM)" [label=ARG2]
+	"_criticize_v_for-as-fn.Judgment_communication" -> nominalization [label="ARG2-fn.Theme"]
+	compound -> "named(Jordan)" [label=ARG1]
+	_of_p -> "named(Jordan)" [label=ARG1]
+	_meanwhile_p -> "named(Jordan)" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_criticize_v_for-as-fn.Judgment_communication" -> "named(Jordan)" [label="ARG1-fn.Agent"]
+	nominalization -> _style_v_1 [label=ARG1]
+	_still_a_1 -> "_criticize_v_for-as-fn.Judgment_communication" [label=ARG1]
+}

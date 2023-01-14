@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _list_n_of [label=BV]
+	"_lead_v_1-fn.Cotheme" -> _group_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _stock_n_1 [label=BV]
+	_set_v_1 -> _stock_n_1 [label=ARG1]
+	_recent_a_1 -> "_lead_v_1-fn.Cotheme" [label=ARG1]
+	_set_v_1 -> _high_n_1 [label=ARG2]
+	_new_a_1 -> _high_n_1 [label=ARG1]
+	"_lead_v_1-fn.Cotheme" -> _list_n_of [label="ARG2-fn.Theme"]
+	"card(2)" -> _group_n_of [label=ARG1]
+	_those_q_dem -> _group_n_of [label=BV]
+	_list_n_of -> _stock_n_1 [label=ARG1]
+	udef_q -> _high_n_1 [label=BV]
+}

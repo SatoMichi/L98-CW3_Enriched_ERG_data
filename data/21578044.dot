@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(27)" [label=BV]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "card(27)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(1)" [label="ARG2-fn.Item"]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Xtra)" [label="ARG1-fn.Attribute"]
+	proper_q -> "named(Xtra)" [label=BV]
+	_to_p -> "card(27)" [label=ARG2]
+	plus -> "fraction(1/8)" [label=ARG3]
+}

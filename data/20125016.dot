@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _underwriter_n_1 [label=ARG1]
+	"_rate_v_1-fn.Change_of_quantity_of_possession" -> "named(Single_A)" [label="ARG2-fn.Possession"]
+	proper_q -> "named(S&P)" [label=BV]
+	_the_q -> _underwriter_n_1 [label=BV]
+	parg_d -> _bond_n_1 [label=ARG2]
+	proper_q -> "named(Single_A)" [label=BV]
+	_the_q -> _bond_n_1 [label=BV]
+	udef_q -> _lead_n_1 [label=BV]
+	compound -> _lead_n_1 [label=ARG2]
+	"_rate_v_1-fn.Change_of_quantity_of_possession" -> _bond_n_1 [label="ARG3-fn.Time"]
+	"_according+to_p" -> _underwriter_n_1 [label=ARG2]
+	"_rate_v_1-fn.Change_of_quantity_of_possession" -> "named(S&P)" [label="ARG1-fn.Owner"]
+	"_according+to_p" -> "_rate_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	parg_d -> "_rate_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+}

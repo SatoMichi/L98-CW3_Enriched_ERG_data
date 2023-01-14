@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	part_of -> _fund_n_1 [label=ARG1]
+	_by_p -> "_use_v_1-fn.IN" [label=ARG1]
+	udef_q -> _end_n_of [label=BV]
+	compound -> _fund_n_1 [label=ARG1]
+	parg_d -> _leverage_n_1 [label=ARG2]
+	parg_d -> "_use_v_1-fn.IN" [label=ARG1]
+	_only_x_deg -> _by_p [label=ARG1]
+	"_use_v_1-fn.IN" -> _leverage_n_1 [label="ARG2-fn.NotExist"]
+	compound -> _end_n_of [label=ARG2]
+	_the_q -> _fund_n_1 [label=BV]
+	_closed_a_1 -> _end_n_of [label=ARG1]
+	udef_q -> _leverage_n_1 [label=BV]
+	_some_q -> part_of [label=BV]
+	_by_p -> part_of [label=ARG2]
+}

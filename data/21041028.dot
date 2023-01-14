@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _similar_a_to [label=ARG1]
+	_on_p -> "named(Hill)" [label=ARG2]
+	parg_d -> "_voice_v_1-fn.Expressing_publicly" [label=ARG1]
+	_on_p -> "_voice_v_1-fn.Expressing_publicly" [label=ARG1]
+	proper_q -> "named(Hill)" [label=BV]
+	compound -> "named(Hill)" [label=ARG1]
+	compound -> "named(Capitol)" [label=ARG2]
+	proper_q -> "named(Capitol)" [label=BV]
+	_similar_a_to -> _sentiment_n_1 [label=ARG1]
+	udef_q -> _sentiment_n_1 [label=BV]
+	"_voice_v_1-fn.Expressing_publicly" -> _sentiment_n_1 [label="ARG2-fn.Topic"]
+	parg_d -> _sentiment_n_1 [label=ARG2]
+}

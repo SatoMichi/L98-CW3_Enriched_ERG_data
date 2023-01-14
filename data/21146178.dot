@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_naczelnik/fw_u_unknown" [label=BV]
+	_too_a_also -> "_stand_v_1-fn.Competition" [label=ARG1]
+	"_stand_v_1-fn.Competition" -> "_naczelnik/fw_u_unknown" [label="ARG1-fn.Participant_1"]
+}

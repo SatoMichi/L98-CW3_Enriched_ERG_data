@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	plus -> "card(21)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> "named(Crane)" [label="ARG1-fn.Attribute"]
+	_to_p -> "card(21)" [label=ARG2]
+	loc_nonsp -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	number_q -> "card(21)" [label=BV]
+	plus -> "fraction(1/8)" [label=ARG3]
+	proper_q -> "named(Crane)" [label=BV]
+}

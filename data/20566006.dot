@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_weaken_v_1-fn.Competition" -> _resolve_n_1 [label="ARG1-fn.Participant_1"]
+	_the_q -> _resolve_n_1 [label=BV]
+	"card(57,000)" -> _machinist_n_1 [label=ARG1]
+	_of_p -> _resolve_n_1 [label=ARG1]
+	"_strike_v_1-fn.Judgment" -> _machinist_n_1 [label="ARG1-fn.Cognizer"]
+	_of_p -> part_of [label=ARG2]
+	part_of -> _machinist_n_1 [label=ARG1]
+	_the_q -> _machinist_n_1 [label=BV]
+	"_might_v_modal-fn.Cause_to_end" -> "_weaken_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_some_q -> part_of [label=BV]
+	_however_a_1 -> "_might_v_modal-fn.Cause_to_end" [label=ARG1]
+}

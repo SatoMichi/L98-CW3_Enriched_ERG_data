@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _trade_n_of [label=ARG2]
+	_for_p -> "_mean_v_1-fn.Expectation" [label=ARG1]
+	_for_p -> "_policy_n_of-on" [label=ARG2]
+	compound -> "_policy_n_of-on" [label=ARG1]
+	which_q -> thing [label=BV]
+	"_mean_v_1-fn.Expectation" -> generic_entity [label="ARG1-fn.Cognizer"]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	"_mean_v_1-fn.Expectation" -> thing [label="ARG2-fn.Phenomenon"]
+	udef_q -> _trade_n_of [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

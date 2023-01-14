@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _price_n_of [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	"card(1)" -> _percent_n_of [label=ARG1]
+	_a_q -> _rise_n_1 [label=BV]
+	_the_q -> _index_n_1 [label=BV]
+	compound -> _percent_n_of [label=ARG2]
+	compound -> _rise_n_1 [label=ARG1]
+	_in_p -> _index_n_1 [label=ARG2]
+	_in_p -> _rise_n_1 [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	"_anticipate_v_1-fn.Attempt_suasion" -> _rise_n_1 [label="ARG2-fn.Addressee"]
+	"_anticipate_v_1-fn.Attempt_suasion" -> _market_n_1 [label="ARG1-fn.Content"]
+	udef_q -> _price_n_of [label=BV]
+	compound -> _index_n_1 [label=ARG1]
+}

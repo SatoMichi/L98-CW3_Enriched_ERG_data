@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_look_v_for-fn.Needing" -> _way_n_of [label="ARG2-fn.Requirement"]
+	udef_q -> _cost_n_1 [label=BV]
+	_the_q -> _way_n_of [label=BV]
+	_way_n_of -> "_clean_v_up-fn.Left_to_do" [label=ARG1]
+	superl -> _effective_a_1 [label=ARG1]
+	compound -> _cost_n_1 [label=ARG2]
+	compound -> _effective_a_1 [label=ARG1]
+	_the_q -> _air_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_effective_a_1 -> _way_n_of [label=ARG1]
+	"_clean_v_up-fn.Left_to_do" -> _air_n_1 [label="ARG2-fn.Remainder"]
+	"_look_v_for-fn.Needing" -> pron [label="ARG1-fn.Cognizer"]
+}

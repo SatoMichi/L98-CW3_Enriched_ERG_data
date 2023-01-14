@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_too -> "_blame_v_for-fn.IN" [label=ARG2]
+	udef_q -> _parent_n_of [label=BV]
+	_educational_a_1 -> _limitation_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_blame_v_for-fn.IN" -> _limitation_n_1 [label="ARG3-fn.Attribute"]
+	pronoun_q -> pron [label=BV]
+	poss -> _child_n_1 [label=ARG1]
+	udef_q -> _school_n_1 [label=BV]
+	_of_p -> _child_n_1 [label=ARG2]
+	_the_q -> _limitation_n_1 [label=BV]
+	_of_p -> _limitation_n_1 [label=ARG1]
+	comp_too -> _likely_a_1 [label=ARG1]
+	_likely_a_1 -> _parent_n_of [label=ARG1]
+	"_blame_v_for-fn.IN" -> _school_n_1 [label="ARG2-fn.Theme"]
+	def_explicit_q -> _child_n_1 [label=BV]
+}

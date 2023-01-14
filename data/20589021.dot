@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _market_n_1 [label=ARG2]
+	_both_q -> _company_n_of [label=BV]
+	_be_v_id -> _company_n_of [label=ARG1]
+	udef_q -> _market_n_1 [label=BV]
+	"_rely_v_on-fn.Reliance" -> "_marketers/nns_u_unknown" [label="ARG1-fn.Agent"]
+	_extensive_a_1 -> _research_n_1 [label=ARG1]
+	compound -> _research_n_1 [label=ARG1]
+	_conservative_a_1 -> "_marketers/nns_u_unknown" [label=ARG1]
+	"_rely_v_on-fn.Reliance" -> _research_n_1 [label="ARG2-fn.Theme"]
+	_be_v_id -> "_marketers/nns_u_unknown" [label=ARG2]
+	udef_q -> _research_n_1 [label=BV]
+	udef_q -> "_marketers/nns_u_unknown" [label=BV]
+	"card(2)" -> _company_n_of [label=ARG1]
+}

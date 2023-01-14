@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _hen_n_1 [label=BV]
+	udef_q -> _piglet_n_1 [label=BV]
+	udef_q -> _potato_n_1 [label=BV]
+	_for_p -> implicit_conj [label=ARG2]
+	"_grow_v_cause-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _and_c [label=BV]
+	_for_p -> "_grow_v_cause-fn.IN" [label=ARG1]
+	udef_q -> implicit_conj [label=BV]
+	"card(5)" -> _cow_n_1 [label=ARG1]
+	udef_q -> _cow_n_1 [label=BV]
+	"_a+few_a_1" -> _hen_n_1 [label=ARG1]
+	udef_q -> _rye_n_1 [label=BV]
+	"card(25)" -> _piglet_n_1 [label=ARG1]
+	"_grow_v_cause-fn.IN" -> _and_c [label="ARG2-fn.Product"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_follow_v_1-fn.Cotheme" -> "_rather+than_c" [label="ARG2-fn.Theme"]
+	_conventional_a_1 -> _wisdom_n_1 [label=ARG1]
+	_bad_a_1 -> "_need_v_1-fn.Required_event" [label=ARG1]
+	_of_p -> _wisdom_n_1 [label=ARG2]
+	udef_q -> _wisdom_n_1 [label=BV]
+	"_need_v_1-fn.Required_event" -> "_follow_v_1-fn.Cotheme" [label="ARG2-fn.Theme"]
+	udef_q -> "_rather+than_c" [label=BV]
+	_of_p -> _rhetoric_n_1 [label=ARG1]
+	_the_q -> _rhetoric_n_1 [label=BV]
+	"_need_v_1-fn.Required_event" -> pron [label="ARG1-fn.Pivot"]
+	udef_q -> _fact_n_1 [label=BV]
+	"_follow_v_1-fn.Cotheme" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

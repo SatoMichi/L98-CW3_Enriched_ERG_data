@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Nations)" [label=BV]
+	_at_p -> _expert_n_1 [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> "_babelists/nns_u_unknown" [label="ARG1-fn.Theme"]
+	compound -> "named(Nations)" [label=ARG1]
+	_of_p -> "named(Nations)" [label=ARG2]
+	_at_p -> "_obfuscation/nn_u_unknown" [label=ARG2]
+	compound -> "named(United)" [label=ARG2]
+	_the_q -> "_babelists/nns_u_unknown" [label=BV]
+	proper_q -> "named(United)" [label=BV]
+	udef_q -> "_obfuscation/nn_u_unknown" [label=BV]
+	"_be_v_id-fn.Cotheme" -> _expert_n_1 [label="ARG2-fn.Cotheme"]
+	_of_p -> "_babelists/nns_u_unknown" [label=ARG1]
+	udef_q -> _expert_n_1 [label=BV]
+}

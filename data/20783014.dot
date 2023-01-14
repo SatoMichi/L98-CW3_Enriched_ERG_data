@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_last_a_1 -> _resort_n_1 [label=ARG1]
+	proper_q -> "named(Congress)" [label=BV]
+	"_see_v_as-fn.Cause_to_end" -> _resort_n_1 [label="ARG3-fn.Place"]
+	"_see_v_as-fn.Cause_to_end" -> "named(Congress)" [label="ARG2-fn.Means"]
+	"_see_v_as-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_a_q -> _resort_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

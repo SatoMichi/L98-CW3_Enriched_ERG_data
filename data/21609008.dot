@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"_charge_v_off-fn.Cause_to_continue" -> _bank_n_of [label="ARG1-fn.Agent"]
+	_in_p -> _loan_n_1 [label=ARG2]
+	times -> "card(53)" [label=ARG2]
+	_the_q -> _bank_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_during_p -> "_charge_v_off-fn.Cause_to_continue" [label=ARG1]
+	"_charge_v_off-fn.Cause_to_continue" -> _dollar_n_1 [label="ARG2-fn.Process"]
+	udef_q -> _loan_n_1 [label=BV]
+	_in_p -> _dollar_n_1 [label=ARG1]
+	_the_q -> _quarter_n_temp [label=BV]
+	_during_p -> _quarter_n_temp [label=ARG2]
+}

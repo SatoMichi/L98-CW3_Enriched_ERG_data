@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _vehicle_n_1 [label=ARG2]
+	udef_q -> _front_n_1 [label=BV]
+	_such_q -> _belt_n_1 [label=BV]
+	_for_p -> _seat_n_1 [label=ARG2]
+	_the_q -> _vehicle_n_1 [label=BV]
+	poss -> _seat_n_1 [label=ARG1]
+	compound -> _seat_n_1 [label=ARG1]
+	def_explicit_q -> _seat_n_1 [label=BV]
+	_already_a_1 -> "_require_v_of-fn.NF" [label=ARG1]
+	"_require_v_of-fn.NF" -> _belt_n_1 [label="ARG2-fn.Theme"]
+	_for_p -> "_require_v_of-fn.NF" [label=ARG1]
+	parg_d -> "_require_v_of-fn.NF" [label=ARG1]
+	compound -> _front_n_1 [label=ARG2]
+	parg_d -> _belt_n_1 [label=ARG2]
+}

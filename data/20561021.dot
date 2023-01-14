@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _unusual_a_about [label=ARG1]
+	_this_q_dem -> _series_n_of [label=BV]
+	"_win_v_1-fn.NF" -> _series_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _team_n_of [label=BV]
+	superl -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> _team_n_of [label=ARG1]
+	"_sound_v_seem-to-fn.Appearance" -> pron [label="ARG1-fn.NotExist"]
+	comp -> _may_v_modal [label=ARG2]
+	relative_mod -> _unusual_a_about [label=ARG2]
+	"_win_v_1-fn.NF" -> _team_n_of [label="ARG1-fn.Agent"]
+	_may_v_modal -> "_sound_v_seem-to-fn.Appearance" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

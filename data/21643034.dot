@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cotheme" -> pron [label="ARG1-fn.Theme"]
+	_the_q -> _planet_n_1 [label=BV]
+	_on_p -> _planet_n_1 [label=ARG2]
+	_of_p -> _event_n_item [label=ARG2]
+	_on_p -> _event_n_item [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> "_eyewitness/nn_u_unknown" [label="ARG2-fn.Cotheme"]
+	superl -> "_newsworthy/jj_u_unknown" [label=ARG1]
+	_a_q -> "_eyewitness/nn_u_unknown" [label=BV]
+	_the_q -> _event_n_item [label=BV]
+	_that_q_dem -> _moment_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_of_p -> "_eyewitness/nn_u_unknown" [label=ARG1]
+	_at_p_temp -> _moment_n_1 [label=ARG2]
+	_at_p_temp -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	"_newsworthy/jj_u_unknown" -> _event_n_item [label=ARG1]
+}

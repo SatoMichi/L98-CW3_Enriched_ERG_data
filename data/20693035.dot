@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_heavy_a_1 -> _ounce_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _ounce_n_1 [label="ARG2-fn.Means"]
+	"card(1000000)" -> _ounce_n_1 [label=ARG1]
+	udef_q -> _volume_n_of [label=BV]
+	parg_d -> "_estimate_v_at-fn.Activity_start" [label=ARG1]
+	parg_d -> _volume_n_of [label=ARG2]
+	times -> "card(7)" [label=ARG2]
+	"_estimate_v_at-fn.Activity_start" -> _volume_n_of [label="ARG2-fn.Purpose"]
+	_a_q -> _ounce_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _volume_n_of [label="ARG1-fn.Process"]
+}

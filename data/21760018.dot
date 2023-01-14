@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	_a_q -> _effort_n_1 [label=BV]
+	_futile_a_1 -> _effort_n_1 [label=ARG1]
+	_utter_a_1 -> _futile_a_1 [label=ARG1]
+	"_preposterous/jj_u_unknown" -> _effort_n_1 [label=ARG1]
+	proper_q -> "named(Africa)" [label=BV]
+	"_seem_v_to-fn.Cause_to_end" -> "_be_v_id-fn.Cotheme" [label="ARG2-fn.Means"]
+	_in_p -> "named(Africa)" [label=ARG2]
+	"_be_v_id-fn.Cotheme" -> _effort_n_1 [label="ARG2-fn.Cotheme"]
+	"_may_v_modal-fn.Communication_manner" -> "_seem_v_to-fn.Cause_to_end" [label="ARG1-fn.Speaker"]
+	_this_q_dem -> generic_entity [label=BV]
+}

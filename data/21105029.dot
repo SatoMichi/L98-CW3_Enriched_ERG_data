@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(2)" -> _percent_n_of [label=ARG1]
+	proper_q -> "mofy(Sep)" [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	poss -> "named(Sears)" [label=ARG2]
+	_in_p_temp -> _percent_n_of [label=ARG1]
+	_friendly_a_to -> _personnel_n_1 [label=ARG1]
+	_only_x_deg -> "card(2)" [label=ARG1]
+	poss -> _personnel_n_1 [label=ARG1]
+	proper_q -> "named(Sears)" [label=BV]
+	def_explicit_q -> _personnel_n_1 [label=BV]
+	"_cite_v_for-fn.Amounting_to" -> _personnel_n_1 [label="ARG2-fn.Attribute"]
+	_percent_n_of -> _people_n_of [label=ARG1]
+	"_cite_v_for-fn.Amounting_to" -> _percent_n_of [label="ARG1-fn.Value"]
+	_in_p_temp -> "mofy(Sep)" [label=ARG2]
+	_the_q -> _people_n_of [label=BV]
+}

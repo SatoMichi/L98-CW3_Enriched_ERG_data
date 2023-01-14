@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_prove_v_to-fn.Reasoning" -> _negative_n_1 [label="ARG2-fn.Theme"]
+	which_q -> manner [label=BV]
+	unspec_manner -> "_prove_v_to-fn.Reasoning" [label=ARG1]
+	"_prove_v_to-fn.Reasoning" -> pron [label="ARG1-fn.NotExist"]
+	unspec_manner -> manner [label=ARG2]
+	_a_q -> _negative_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

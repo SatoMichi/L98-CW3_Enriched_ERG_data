@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_complete_v_2-fn.Competition" [label=ARG1]
+	"_complete_v_2-fn.Competition" -> part_of [label="ARG2-fn.Participant_2"]
+	part_of -> nominalization [label=ARG1]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"much-many_a" -> part_of [label=ARG1]
+	which_q -> thing [label=BV]
+	udef_q -> part_of [label=BV]
+	parg_d -> part_of [label=ARG2]
+	"_set_v_out-aim-fn.Attack" -> pron [label="ARG1-fn.Victim"]
+	nominalization -> "_set_v_out-aim-fn.Attack" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_set_v_out-aim-fn.Attack" -> "_do_v_1-fn.Piracy" [label="ARG2-fn.Weapon"]
+	"_do_v_1-fn.Piracy" -> thing [label="ARG2-fn.Vehicle"]
+}

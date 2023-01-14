@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Cup)" [label=ARG1]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	proper_q -> "named(Imperial)" [label=BV]
+	compound -> "named(Imperial)" [label=ARG2]
+	"_have_v_1-fn.IN" -> "named(Cup)" [label="ARG1-fn.Pivot"]
+	_of_p -> _dollar_n_1 [label=ARG2]
+	_approximately_x_deg -> udef_q [label=ARG1]
+	"_have_v_1-fn.IN" -> _sale_n_of [label="ARG2-fn.Theme"]
+	proper_q -> "named(Cup)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(75)" [label=ARG2]
+	times -> "card(1000000)" [label=ARG3]
+	_of_p -> _sale_n_of [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	_annual_a_1 -> _sale_n_of [label=ARG1]
+}

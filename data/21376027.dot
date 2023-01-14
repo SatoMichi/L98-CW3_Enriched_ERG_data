@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_very_x_deg -> _brief_a_1 [label=ARG1]
+	nominalization -> _pass_v_1 [label=ARG1]
+	parg_d -> "named(Beauregard)" [label=ARG2]
+	_twice_a_1 -> "_mention_v_to-fn.Statement" [label=ARG1]
+	"_mention_v_to-fn.Statement" -> "named(Beauregard)" [label="ARG2-fn.Topic"]
+	parg_d -> "_mention_v_to-fn.Statement" [label=ARG1]
+	_in_p -> nominalization [label=ARG2]
+	_although_x -> "_mention_v_to-fn.Statement" [label=ARG1]
+	proper_q -> "named(Beauregard)" [label=BV]
+	udef_q -> nominalization [label=BV]
+	_although_x -> _and_c [label=ARG2]
+}

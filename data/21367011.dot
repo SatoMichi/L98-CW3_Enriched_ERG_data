@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_through_p -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	parg_d -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	udef_q -> _bookstore_n_1 [label=BV]
+	_through_p -> implicit_conj [label=ARG2]
+	"_sell_v_1-fn.Commerce_sell" -> pron [label="ARG2-fn.Theme"]
+	compound -> _store_n_1 [label=ARG1]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _video_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	_some_q -> _store_n_1 [label=BV]
+	parg_d -> pron [label=ARG2]
+	compound -> _video_n_of [label=ARG2]
+	udef_q -> "_newsstands/nns_u_unknown" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

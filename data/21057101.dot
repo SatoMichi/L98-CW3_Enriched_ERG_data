@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_1-fn.Commerce_buy" -> _effort_n_1 [label="ARG2-fn.Goods"]
+	"_avoid_v_1-fn.Achieving_first" -> _loss_n_of [label="ARG2-fn.New_idea"]
+	_such_q -> _loss_n_of [label=BV]
+	_a_q -> _effort_n_1 [label=BV]
+	_monumental_a_1 -> _effort_n_1 [label=ARG1]
+	"_take_v_1-fn.Commerce_buy" -> nominalization [label="ARG1-fn.Buyer"]
+	udef_q -> nominalization [label=BV]
+	nominalization -> "_avoid_v_1-fn.Achieving_first" [label=ARG1]
+}

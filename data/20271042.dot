@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Railway)" [label=ARG1]
+	compound -> "named(Electric)" [label=ARG1]
+	udef_q -> "named(Japan)" [label=BV]
+	parenthetical -> "named(Railway)" [label=ARG1]
+	compound -> "named(Keio)" [label=ARG2]
+	proper_q -> "named(Electric)" [label=BV]
+	unknown -> "named(Railway)" [label=ARG]
+	proper_q -> "named(Railway)" [label=BV]
+	compound -> "named(Teito)" [label=ARG1]
+	proper_q -> "named(Keio)" [label=BV]
+	proper_q -> "named(Teito)" [label=BV]
+	udef_q -> _company_n_1 [label=BV]
+	parenthetical -> "named(Japan)" [label=ARG2]
+	compound -> _company_n_1 [label=ARG2]
+}

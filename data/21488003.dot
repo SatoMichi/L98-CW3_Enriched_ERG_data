@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _dividend_n_1 [label=ARG2]
+	_precious_a_1 -> _metal_n_1 [label=ARG1]
+	"_say_v_to-fn.Taking" -> "_reflect_v_1-fn.Competition" [label="ARG2-fn.Theme"]
+	"_reflect_v_1-fn.Competition" -> _dividend_n_1 [label="ARG1-fn.Participant_1"]
+	_the_q -> _dividend_n_1 [label=BV]
+	"_reflect_v_1-fn.Competition" -> _price_n_of [label="ARG2-fn.Participant_2"]
+	_the_q -> _price_n_of [label=BV]
+	udef_q -> _metal_n_1 [label=BV]
+	_low_a_on -> _price_n_of [label=ARG1]
+	_for_p -> _metal_n_1 [label=ARG2]
+	"_say_v_to-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	"_reduce_v_1-fn.Achieving_first" -> _dividend_n_1 [label="ARG2-fn.New_idea"]
+	pronoun_q -> pron [label=BV]
+	_for_p -> _price_n_of [label=ARG1]
+	parg_d -> "_reduce_v_1-fn.Achieving_first" [label=ARG1]
+}

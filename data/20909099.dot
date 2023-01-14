@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _recall_v_1 [label=ARG1]
+	"_end_v_1-fn.Cause_to_end" -> _hurricane_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _mister_n_1 [label=BV]
+	_recall_v_1 -> "named(Deaver)" [label=ARG1]
+	_recall_v_1 -> _assure_v_of [label=ARG2]
+	_the_q -> _hurricane_n_1 [label=BV]
+	_assure_v_of -> _would_v_modal [label=ARG3]
+	_would_v_modal -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	"_re-_a_again" -> _assure_v_of [label=ARG1]
+	focus_d -> _assure_v_of [label=ARG2]
+	proper_q -> "named(Deaver)" [label=BV]
+	_assure_v_of -> pron [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> "named(Deaver)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

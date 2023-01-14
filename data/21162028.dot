@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _regulation_n_1 [label=ARG]
+	udef_q -> _regulation_n_1 [label=BV]
+	_environmental_a_1 -> _regulation_n_1 [label=ARG1]
+}

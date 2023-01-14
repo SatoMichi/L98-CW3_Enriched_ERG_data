@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Bangkok)" [label=BV]
+	proper_q -> "named(Manila)" [label=BV]
+	"_coordinate_v_1-fn.Activity_stop" -> pron [label="ARG1-fn.Purpose"]
+	udef_q -> _and_c [label=BV]
+	_like_p -> _place_n_of [label=ARG1]
+	_this_q_dem -> _end_n_of [label=BV]
+	proper_q -> "named(Singapore)" [label=BV]
+	_on_p -> _end_n_of [label=ARG2]
+	_to_p -> _place_n_of [label=ARG2]
+	udef_q -> implicit_conj [label=BV]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _place_n_of [label=BV]
+	_to_p -> "_coordinate_v_1-fn.Activity_stop" [label=ARG1]
+	_on_p -> "_coordinate_v_1-fn.Activity_stop" [label=ARG1]
+	_like_p -> implicit_conj [label=ARG2]
+}

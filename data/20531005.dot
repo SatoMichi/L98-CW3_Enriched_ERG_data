@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_buy_v_back-fn.Commerce_buy" [label=ARG1]
+	"_buy_v_back-fn.Commerce_buy" -> _share_n_of [label="ARG2-fn.Theme"]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(1.6)" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	_far_a_1 -> "_buy_v_back-fn.Commerce_buy" [label=ARG1]
+	comp_so -> _far_a_1 [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	"_buy_v_back-fn.Commerce_buy" -> _company_n_of [label="ARG1-fn.Agent"]
+}

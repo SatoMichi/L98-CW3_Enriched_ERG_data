@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_far_x_deg -> comp [label=ARG1]
+	"_post_v_1-fn.Sending" -> _fund_n_1 [label="ARG1-fn.Agent"]
+	"_post_v_1-fn.Sending" -> _yield_n_1 [label="ARG2-fn.Theme"]
+	_some_q -> _fund_n_1 [label=BV]
+	comp -> _high_a_1 [label=ARG1]
+	comp -> _average_n_of [label=ARG2]
+	_the_q -> _average_n_of [label=BV]
+	udef_q -> _yield_n_1 [label=BV]
+	_high_a_1 -> _yield_n_1 [label=ARG1]
+}

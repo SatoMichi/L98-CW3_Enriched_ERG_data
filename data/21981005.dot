@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_good_a_at-for-of" -> _rebate_n_of [label=ARG1]
+	superl -> _late_a_for [label=ARG1]
+	_the_q -> _rebate_n_of [label=BV]
+	proper_q -> "named(Beretta)" [label=BV]
+	_all_q -> _model_n_of [label=BV]
+	_for_p -> "_good_a_at-for-of" [label=ARG1]
+	_late_a_for -> _rebate_n_of [label=ARG1]
+	_for_p -> _model_n_of [label=ARG2]
+	compound -> _model_n_of [label=ARG1]
+	compound -> "named(Beretta)" [label=ARG2]
+}

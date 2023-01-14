@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_look_v_at -> "named(Saatchi)" [label=ARG2]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	neg -> _look_v_at [label=ARG1]
+	proper_q -> "named(Dentsu)" [label=BV]
+	proper_q -> "named(Saatchi)" [label=BV]
+	_serious_a_1 -> _look_v_at [label=ARG1]
+	_look_v_at -> "named(Dentsu)" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

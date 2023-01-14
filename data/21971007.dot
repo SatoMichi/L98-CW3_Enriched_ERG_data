@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ship_v_1-fn.Sending" -> _machine_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _machine_n_1 [label=BV]
+	def_implicit_q -> _year_n_1 [label=BV]
+	_at_p -> "_ship_v_1-fn.Sending" [label=ARG1]
+	_end_n_of -> _year_n_1 [label=ARG1]
+	"_begin_v_1-fn.Process_start" -> "_ship_v_1-fn.Sending" [label="ARG1-fn.NotExist"]
+	_the_q -> _end_n_of [label=BV]
+	_last_a_1 -> _year_n_1 [label=ARG1]
+	_at_p -> _end_n_of [label=ARG2]
+}

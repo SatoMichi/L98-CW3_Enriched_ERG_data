@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _change_n_of [label=BV]
+	"_oppose_v_1-fn.NF" -> part_of [label="ARG1-fn.Patient"]
+	_all_q -> part_of [label=BV]
+	not_x_deg -> _all_q [label=ARG1]
+	"_write_v_to-fn.Contacting" -> generic_entity [label="ARG1-fn.Agent"]
+	"_oppose_v_1-fn.NF" -> _change_n_of [label="ARG2-fn.Co-Patient"]
+	part_of -> generic_entity [label=ARG1]
+	_those_q_dem -> generic_entity [label=BV]
+}

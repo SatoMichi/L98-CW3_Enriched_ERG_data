@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_believe_v_1-fn.Trust" -> pron [label="ARG2-fn.NotExist"]
+	neg -> "_believe_v_1-fn.Trust" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.Competition" -> "_close_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	parg_d -> _transaction_n_1 [label=ARG2]
+	_around_p -> "_close_v_1-fn.Competition" [label=ARG1]
+	"_close_v_1-fn.Competition" -> _transaction_n_1 [label="ARG1-fn.Participant_1"]
+	_the_q -> _transaction_n_1 [label=BV]
+	udef_q -> "_year+end_n_1" [label=BV]
+	parg_d -> "_expect_v_1-fn.Competition" [label=ARG1]
+	_around_p -> "_year+end_n_1" [label=ARG2]
+}

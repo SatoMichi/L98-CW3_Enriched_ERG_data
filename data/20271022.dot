@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "card(1)" [label=ARG1]
+	compound -> "named(Navigation)" [label=ARG1]
+	proper_q -> "named(Navigation)" [label=BV]
+	compound -> _number_n_of [label=ARG2]
+	compound -> "named(Matagorda)" [label=ARG2]
+	udef_q -> _number_n_of [label=BV]
+	compound -> "named(District)" [label=ARG1]
+	compound -> "named(County)" [label=ARG1]
+	proper_q -> "named(County)" [label=BV]
+	proper_q -> "named(Matagorda)" [label=BV]
+	number_q -> "card(1)" [label=BV]
+	proper_q -> "named(Texas)" [label=BV]
+	udef_q -> "named(District)" [label=BV]
+	unknown -> "named(Texas)" [label=ARG]
+}

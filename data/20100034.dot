@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_from_p -> _operation_n_of [label=ARG2]
+	udef_q -> _profit_n_1 [label=BV]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(1000000)" [label=ARG3]
+	"_soar_v_1-fn.Change_position_on_a_scale" -> _profit_n_1 [label="ARG1-fn.NotExist"]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(75)" [label=ARG2]
+	"_continue_v_1-fn.Activity_ongoing" -> _operation_n_of [label="ARG1-fn.NotExist"]
+	_to_p -> "_soar_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_from_p -> _profit_n_1 [label=ARG1]
+	udef_q -> _operation_n_of [label=BV]
+	_from_p -> "_soar_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	times -> "card(467)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+}

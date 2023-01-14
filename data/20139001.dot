@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hold_v_1-fn.Change_position_on_a_scale" -> "named(Putty)" [label="ARG2-fn.Item"]
+	"_hold_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> "named(Putty)" [label=BV]
+}

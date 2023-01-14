@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _work_n_1 [label=ARG2]
+	poss -> _force_n_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _work_n_1 [label=BV]
+	_these_q_dem -> _group_n_of [label=BV]
+	"_constitute_v_1-fn.Competition" -> _group_n_of [label="ARG1-fn.Participant_1"]
+	"card(10)" -> _percent_n_of [label=ARG1]
+	"_constitute_v_1-fn.Competition" -> _percent_n_of [label="ARG2-fn.Participant_2"]
+	compound -> _force_n_1 [label=ARG1]
+	"_up+to_x_deg" -> "card(10)" [label=ARG1]
+	_percent_n_of -> _force_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _force_n_1 [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _enter_v_1 [label=ARG1]
+	_in_p -> _area_n_of [label=ARG2]
+	"_want_v_1-fn.Desiring" -> _enter_v_1 [label="ARG2-fn.Theme"]
+	"_compete_v_1-fn.Competition" -> pron [label="ARG1-fn.Agent"]
+	_prepared_a_1 -> pron [label=ARG1]
+	loc_nonsp -> _area_n_of [label=ARG2]
+	neg -> _prepared_a_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> _japanese_n_1 [label="ARG1-fn.Pivot"]
+	_enter_v_1 -> _japanese_n_1 [label=ARG1]
+	_prepared_a_1 -> "_compete_v_1-fn.Competition" [label=ARG2]
+	_a_q -> _area_n_of [label=BV]
+	_the_q -> _japanese_n_1 [label=BV]
+	_in_p -> "_compete_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _forecast_n_1 [label=BV]
+	_then_a_1 -> _become_v_id [label=ARG1]
+	_become_v_id -> _prisoner_n_1 [label=ARG2]
+	poss -> _prisoner_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_make_v_1-fn.IN" -> _forecast_n_1 [label="ARG2-fn.Product"]
+	"_make_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	def_explicit_q -> _prisoner_n_1 [label=BV]
+	_become_v_id -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

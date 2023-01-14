@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_late_a_for -> time_n [label=ARG1]
+	udef_q -> _money_n_1 [label=BV]
+	"_up+front_p" -> _money_n_1 [label=ARG1]
+	comp -> _late_a_for [label=ARG1]
+	def_explicit_q -> time_n [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	"_ask_v_for-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	"_need_v_1-fn.State_continue" -> "_ask_v_for-fn.Have_as_requirement" [label="ARG2-fn.State"]
+	loc_nonsp -> "_ask_v_for-fn.Have_as_requirement" [label=ARG1]
+	"_ask_v_for-fn.Have_as_requirement" -> _money_n_1 [label="ARG3-fn.Degree"]
+	ellipsis_ref -> pron [label=ARG1]
+	"_need_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	_if_x_then -> ellipsis_ref [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_if_x_then -> "_need_v_1-fn.State_continue" [label=ARG2]
+}

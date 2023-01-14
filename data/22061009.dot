@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_heavy_a_1 -> "_trade_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_close_a_to -> "_watch_v_1-fn.Halt" [label=ARG1]
+	parg_d -> "named(UAL)" [label=ARG2]
+	parg_d -> "_trade_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(UAL)" [label=BV]
+	parg_d -> "_watch_v_1-fn.Halt" [label=ARG1]
+	"_watch_v_1-fn.Halt" -> "named(UAL)" [label="ARG2-fn.Place"]
+	"_trade_v_1-fn.Change_position_on_a_scale" -> "named(UAL)" [label="ARG2-fn.Item"]
+}

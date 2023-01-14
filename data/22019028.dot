@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Institute)" [label=BV]
+	_for_p -> _day_n_of [label=ARG1]
+	_for_p -> _investor_n_1 [label=ARG2]
+	_in_p -> "named(Institute)" [label=ARG2]
+	_in_p -> _investor_n_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	compound -> "named(Genetics)" [label=ARG2]
+	_a_q -> _day_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _day_n_of [label="ARG2-fn.Means"]
+	proper_q -> "named(Genetics)" [label=BV]
+	"_jar_v_1-fn.Rite" -> _day_n_of [label="ARG1-fn.Leader"]
+	compound -> "named(Institute)" [label=ARG1]
+}

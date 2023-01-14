@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lose_v_1-fn.NF" -> _sight_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _sight_n_of [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	_sight_n_of -> generic_entity [label=ARG1]
+	"_lose_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	neg -> _can_v_modal [label=ARG1]
+	_can_v_modal -> "_lose_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ship_v_cause-fn.Cause_to_end" -> "named(Conner)" [label="ARG1-fn.Process"]
+	"_ship_v_cause-fn.Cause_to_end" -> _drive_n_1 [label="ARG2-fn.Means"]
+	poss -> _drive_n_1 [label=ARG1]
+	_already_a_1 -> "_ship_v_cause-fn.Cause_to_end" [label=ARG1]
+	def_explicit_q -> _drive_n_1 [label=BV]
+	proper_q -> "named(Conner)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_new_a_1 -> _drive_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+}

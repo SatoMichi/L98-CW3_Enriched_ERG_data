@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _bankruptcy_n_1 [label=BV]
+	compound -> _filing_n_1 [label=ARG1]
+	compound -> _and_c [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	compound -> _bankruptcy_n_1 [label=ARG2]
+	proper_q -> "named(Hollywood)" [label=BV]
+	udef_q -> _investor_n_1 [label=BV]
+	udef_q -> _executive_n_1 [label=BV]
+	"_stun_v_1-fn.Undergo_change" -> _report_n_of [label="ARG1-fn.Entity"]
+	_report_n_of -> _filing_n_1 [label=ARG1]
+	_the_q -> _filing_n_1 [label=BV]
+	compound -> "named(Hollywood)" [label=ARG2]
+	"_stun_v_1-fn.Undergo_change" -> _and_c [label="ARG2-fn.Final_category"]
+	_the_q -> _report_n_of [label=BV]
+}

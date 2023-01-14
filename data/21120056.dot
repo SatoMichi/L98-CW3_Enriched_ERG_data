@@ -1,0 +1,4 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p_dir -> _so_a_true [label=ARG1]
+}

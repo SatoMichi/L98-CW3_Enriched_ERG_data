@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Oxnard)" [label=ARG1]
+	_very_x_deg -> _complicated_a_for [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_the_q -> _situation_n_1 [label=BV]
+	_also_a_1 -> _complicated_a_for [label=ARG1]
+	"_observe_v_to-fn.Statement" -> _also_a_1 [label="ARG2-fn.Topic"]
+	_in_p -> _situation_n_1 [label=ARG1]
+	_in_p -> "named(Brazil)" [label=ARG2]
+	_complicated_a_for -> _situation_n_1 [label=ARG1]
+	"_observe_v_to-fn.Statement" -> "named(Oxnard)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Brazil)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Oxnard)" [label=BV]
+}

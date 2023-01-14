@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _professional_n_1 [label=ARG2]
+	_typical_a_of -> _manager_n_of [label=ARG2]
+	udef_q -> _money_n_1 [label=BV]
+	"much-many_a" -> _manager_n_of [label=ARG1]
+	_typical_a_of -> pron [label=ARG1]
+	udef_q -> _professional_n_1 [label=BV]
+	udef_q -> _manager_n_of [label=BV]
+	compound -> _money_n_1 [label=ARG2]
+	compound -> _manager_n_of [label=ARG1]
+	"_seem_v_to-fn.Desiring" -> _typical_a_of [label="ARG2-fn.Event"]
+	pronoun_q -> pron [label=BV]
+}

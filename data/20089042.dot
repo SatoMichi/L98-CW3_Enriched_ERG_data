@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	with_p -> _ringer_n_1 [label=ARG2]
+	"card(8)" -> _bell_n_1 [label=ARG1]
+	_the_q -> _bell_n_1 [label=BV]
+	comp -> "much-many_a" [label=ARG1]
+	neg -> _be_v_there [label=ARG1]
+	with_p -> "_ring_v_cause-fn.Make_noise" [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	comp -> generic_entity [label=ARG2]
+	_be_v_there -> _ringer_n_1 [label=ARG1]
+	_enough_q -> _ringer_n_1 [label=BV]
+	"_ring_v_cause-fn.Make_noise" -> generic_entity [label="ARG2-fn.Theme"]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_of_p -> generic_entity [label=ARG1]
+	_of_p -> _bell_n_1 [label=ARG2]
+	"card(6)" -> generic_entity [label=ARG1]
+}

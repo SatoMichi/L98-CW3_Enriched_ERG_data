@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _story_n_of [label="ARG1-fn.Resident"]
+	_partly_a_1 -> "_be_v_id-fn.Residence" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _story_n_of [label=BV]
+	udef_q -> part_of [label=BV]
+	_personal_a_1 -> "_downfall/nn_u_unknown" [label=ARG1]
+	"_be_v_id-fn.Residence" -> part_of [label="ARG2-fn.Location"]
+	poss -> pron [label=ARG2]
+	part_of -> "_downfall/nn_u_unknown" [label=ARG1]
+	udef_q -> "_downfall/nn_u_unknown" [label=BV]
+	poss -> _story_n_of [label=ARG1]
+	"card(1)" -> part_of [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_due_a_1 -> _process_n_of [label=ARG1]
+	"_variety_n_of-n" -> _reason_n_for [label=ARG1]
+	_corporate_a_1 -> _process_n_of [label=ARG1]
+	udef_q -> _reason_n_for [label=BV]
+	_for_p -> "_variety_n_of-n" [label=ARG2]
+	"_appeal_v_to-fn.Preference" -> _management_n_1 [label="ARG2-fn.Event"]
+	_a_q -> "_variety_n_of-n" [label=BV]
+	udef_q -> _management_n_1 [label=BV]
+	"_appeal_v_to-fn.Preference" -> _process_n_of [label="ARG1-fn.Experiencer"]
+	udef_q -> _process_n_of [label=BV]
+	_for_p -> "_appeal_v_to-fn.Preference" [label=ARG1]
+}

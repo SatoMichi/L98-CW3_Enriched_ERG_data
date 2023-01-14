@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _support_n_of [label=BV]
+	udef_q -> _observer_n_1 [label=BV]
+	"_expect_v_1-fn.IN" -> _observer_n_1 [label="ARG1-fn.Experiencer"]
+	"_expect_v_1-fn.IN" -> _support_n_of [label="ARG2-fn.Theme"]
+	_broad_a_1 -> _support_n_of [label=ARG1]
+}

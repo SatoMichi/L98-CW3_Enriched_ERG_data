@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _issue_n_1 [label=ARG2]
+	_the_q -> "named(White)" [label=BV]
+	"_compromise_v_1-fn.NF" -> "named(White)" [label="ARG1-fn.Agent"]
+	_on_p -> "_compromise_v_1-fn.NF" [label=ARG1]
+	"_implore_v_1-fn.Request" -> "_compromise_v_1-fn.NF" [label="ARG3-fn.Recipient"]
+	_the_q -> _issue_n_1 [label=BV]
+	udef_q -> _wage_n_1 [label=BV]
+	"_implore_v_1-fn.Request" -> _republican_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _republican_n_1 [label=BV]
+	compound -> "named(White)" [label=ARG1]
+	compound -> _house_n_1 [label=ARG2]
+	udef_q -> _house_n_1 [label=BV]
+	compound -> _issue_n_1 [label=ARG1]
+	compound -> _wage_n_1 [label=ARG2]
+	"_implore_v_1-fn.Request" -> "named(White)" [label="ARG2-fn.Topic"]
+}

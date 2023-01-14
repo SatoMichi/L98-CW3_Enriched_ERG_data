@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _effort_n_1 [label=ARG1]
+	compound -> _company_n_of [label=ARG1]
+	def_explicit_q -> _effort_n_1 [label=BV]
+	"_redouble_v_1-fn.Attempt_suasion" -> _company_n_of [label="ARG1-fn.Content"]
+	compound -> "named_n(US)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	udef_q -> "named_n(US)" [label=BV]
+	"_redouble_v_1-fn.Attempt_suasion" -> _effort_n_1 [label="ARG2-fn.Addressee"]
+	poss -> pron [label=ARG2]
+}

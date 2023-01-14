@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_get_v_to-fn.Cause_to_continue" -> "_move_v_1-fn.Relative_time" [label="ARG1-fn.Agent"]
+	"_move_v_1-fn.Relative_time" -> pron [label="ARG1-fn.Focal_occasion"]
+	_quick_a_1 -> "_move_v_1-fn.Relative_time" [label=ARG1]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_against_p -> "named(Paribas)" [label=ARG2]
+	which_q -> person [label=BV]
+	_against_p -> "_bid_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Paribas)" [label=BV]
+	"_would_v_modal-fn.Cause_to_end" -> "_bid_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_bid_v_1-fn.Competition" -> person [label="ARG1-fn.Participant_1"]
+}

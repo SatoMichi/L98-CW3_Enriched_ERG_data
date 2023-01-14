@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_furthermore_a_1 -> "_deny_v_to-fn.State_continue" [label=ARG1]
+	proper_q -> "named(Wachter)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_deny_v_to-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	comp_too -> _heavy_a_1 [label=ARG1]
+	"_deny_v_to-fn.State_continue" -> "_rely_v_on-fn.State_continue" [label="ARG2-fn.State"]
+	compound -> "named(Wachter)" [label=ARG1]
+	udef_q -> _or_c [label=BV]
+	_heavy_a_1 -> "_rely_v_on-fn.State_continue" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Sothebys)" [label=BV]
+	"_rely_v_on-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	"_rely_v_on-fn.State_continue" -> _or_c [label="ARG2-fn.State"]
+}

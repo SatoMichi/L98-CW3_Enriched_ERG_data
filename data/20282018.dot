@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Unification)" [label=BV]
+	parg_d -> _wealth_n_of [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _wealth_n_of [label="ARG1-fn.Entity"]
+	compound -> "named(Church)" [label=ARG1]
+	_another_q -> _matter_n_of [label=BV]
+	_the_q -> "named(Church)" [label=BV]
+	"_repute_v_1-fn.Cause_to_start" -> _wealth_n_of [label="ARG2-fn.Effect"]
+	parg_d -> "_repute_v_1-fn.Cause_to_start" [label=ARG1]
+	compound -> "named(Unification)" [label=ARG2]
+	_the_q -> _wealth_n_of [label=BV]
+	_matter_n_of -> _contention_n_1 [label=ARG1]
+	_wealth_n_of -> "named(Church)" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _matter_n_of [label="ARG2-fn.Name"]
+	udef_q -> _contention_n_1 [label=BV]
+}

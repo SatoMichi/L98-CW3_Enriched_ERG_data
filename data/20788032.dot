@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _concept_n_1 [label=ARG2]
+	_try_v_1 -> _concept_n_1 [label=ARG2]
+	udef_q -> _damages_n_1 [label=BV]
+	"_punitive/jj_u_unknown" -> _damages_n_1 [label=ARG1]
+	"_expose_v_to-fn.Reveal_secret" -> _concept_n_1 [label="ARG1-fn.NotExist"]
+	"_expose_v_to-fn.Reveal_secret" -> _firm_n_1 [label="ARG2-fn.NotExist"]
+	_astronomical_a_1 -> _damages_n_1 [label=ARG1]
+	"_un-_a_rvrs" -> _try_v_1 [label=ARG1]
+	parg_d -> _try_v_1 [label=ARG1]
+	_these_q_dem -> _firm_n_1 [label=BV]
+	"_expose_v_to-fn.Reveal_secret" -> _damages_n_1 [label="ARG3-fn.NotExist"]
+	_this_q_dem -> _concept_n_1 [label=BV]
+	_potential_a_1 -> _astronomical_a_1 [label=ARG1]
+	_would_v_modal -> "_expose_v_to-fn.Reveal_secret" [label=ARG1]
+}

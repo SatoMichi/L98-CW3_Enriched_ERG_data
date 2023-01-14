@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Wilcock)" [label=BV]
+	compound -> "named(W)" [label=ARG1]
+	"_retire_v_1-fn.Quitting" -> "named(Wilcock)" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(W)" [label=BV]
+	_succeed_v_1 -> pron [label=ARG1]
+	proper_q -> "named(James)" [label=BV]
+	_succeed_v_1 -> "named(Wilcock)" [label=ARG2]
+	compound -> "named(Wilcock)" [label=ARG1]
+	compound -> "named(James)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

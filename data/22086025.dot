@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_reach_v_1-fn.Competition" -> _accord_n_1 [label="ARG1-fn.Participant_1"]
+	compound -> "named(Jaguar)" [label=ARG2]
+	"_such+a_q" -> _accord_n_1 [label=BV]
+	_far_a_1 -> "_reach_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Jaguar)" [label=BV]
+	udef_q -> _shareholder_n_1 [label=BV]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_bless_v_1-fn.Quitting" [label="ARG1-fn.Process"]
+	"_bless_v_1-fn.Quitting" -> _shareholder_n_1 [label="ARG1-fn.Employee"]
+	"_would_v_modal-fn.Cause_to_end" -> "_have_v_qmodal-fn.Cause_to_end" [label="ARG1-fn.Process"]
+	compound -> _shareholder_n_1 [label=ARG1]
+	"_bless_v_1-fn.Quitting" -> _accord_n_1 [label="ARG2-fn.Employer"]
+}

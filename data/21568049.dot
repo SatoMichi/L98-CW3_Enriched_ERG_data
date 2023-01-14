@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_private_a_1 -> "_indulge_v_1-fn.State_continue" [label=ARG1]
+	compound -> "named(Beach)" [label=ARG1]
+	"_indulge_v_1-fn.State_continue" -> _operator_n_of [label="ARG1-fn.Entity"]
+	compound -> "named(Newport)" [label=ARG2]
+	"_tend_v_1-fn.Competition" -> "_indulge_v_1-fn.State_continue" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Newport)" [label=BV]
+	proper_q -> "named(Beach)" [label=BV]
+	_also_a_1 -> "_tend_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	compound -> _operator_n_of [label=ARG1]
+	"_indulge_v_1-fn.State_continue" -> pron [label="ARG2-fn.State"]
+	_the_q -> _operator_n_of [label=BV]
+}

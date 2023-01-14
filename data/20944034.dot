@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_understand_v_by-fn.Awareness" -> _and_c [label="ARG1-fn.NotExist"]
+	_of_p -> _scholarship_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	compound -> _and_c [label=ARG1]
+	"_understand_v_by-fn.Awareness" -> _requirement_n_1 [label="ARG2-fn.NotExist"]
+	udef_q -> _judge_n_of [label=BV]
+	_of_p -> _requirement_n_1 [label=ARG1]
+	proper_q -> "named(Oakes)" [label=BV]
+	compound -> _judge_n_of [label=ARG2]
+	udef_q -> _scholarship_n_1 [label=BV]
+	proper_q -> "named(Leval)" [label=BV]
+	_historical_a_1 -> _scholarship_n_1 [label=ARG1]
+	_the_q -> _requirement_n_1 [label=BV]
+}

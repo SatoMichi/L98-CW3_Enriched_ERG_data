@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _country_n_of [label=BV]
+	_a_q -> _barrier_n_to [label=BV]
+	_separate_v_from -> _country_n_of [label=ARG2]
+	comp -> _wide_a_1 [label=ARG1]
+	parg_d -> _separate_v_from [label=ARG1]
+	_separate_v_from -> _barrier_n_to [label=ARG1]
+	"card(2)" -> _country_n_of [label=ARG1]
+	_cultural_a_1 -> _barrier_n_to [label=ARG1]
+	_the_q -> _ocean_n_1 [label=BV]
+	_wide_a_1 -> _barrier_n_to [label=ARG1]
+	comp -> _ocean_n_1 [label=ARG2]
+	parg_d -> _country_n_of [label=ARG2]
+	"_remain_v_1-fn.State_continue" -> _country_n_of [label="ARG1-fn.NotExist"]
+	"_remain_v_1-fn.State_continue" -> _separate_v_from [label="ARG2-fn.Theme"]
+}

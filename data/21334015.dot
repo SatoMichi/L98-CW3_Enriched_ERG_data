@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Integrated)" [label=BV]
+	_from_p -> "_draw_v_1-fn.Attack" [label=ARG1]
+	"card(2)" -> _officer_n_1 [label=ARG1]
+	_independent_a_of -> _operation_n_of [label=ARG1]
+	_from_p -> "named(Integrated)" [label=ARG2]
+	_the_q -> _operation_n_of [label=BV]
+	_the_q -> _deal_n_1 [label=BV]
+	_the_q -> _officer_n_1 [label=BV]
+	_from_p -> _operation_n_of [label=ARG2]
+	"_draw_v_1-fn.Attack" -> _salary_n_1 [label="ARG2-fn.Weapon"]
+	_if_x_then -> "_close_v_1-fn.Halt" [label=ARG2]
+	"_close_v_1-fn.Halt" -> _deal_n_1 [label="ARG1-fn.Purpose"]
+	_if_x_then -> "_draw_v_1-fn.Attack" [label=ARG1]
+	"_draw_v_1-fn.Attack" -> _officer_n_1 [label="ARG1-fn.Victim"]
+	udef_q -> _salary_n_1 [label=BV]
+}

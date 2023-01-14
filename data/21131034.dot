@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_provide_v_1-fn.Supply" -> pron [label="ARG1-fn.Agent"]
+	comp -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> _incentive_n_to [label=ARG1]
+	"_provide_v_1-fn.Supply" -> _incentive_n_to [label="ARG2-fn.Theme"]
+	udef_q -> _incentive_n_to [label=BV]
+	number_q -> "card(2.)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

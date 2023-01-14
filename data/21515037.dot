@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Trelleborg)" [label=BV]
+	poss -> "named(Trelleborg)" [label=ARG2]
+	def_explicit_q -> _business_n_1 [label=BV]
+	"_remain_v_1-fn.State_continue" -> nominalization [label="ARG1-fn.NotExist"]
+	_main_a_1 -> _business_n_1 [label=ARG1]
+	"_remain_v_1-fn.State_continue" -> _business_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> nominalization [label=BV]
+	nominalization -> _mine_v_1 [label=ARG1]
+	_likely_a_1 -> "_remain_v_1-fn.State_continue" [label=ARG1]
+	poss -> _business_n_1 [label=ARG1]
+}

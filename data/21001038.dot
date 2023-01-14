@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(9)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> "named(Mae)" [label=ARG1]
+	parg_d -> _issue_n_1 [label=ARG2]
+	compound -> _percent_n_of [label=ARG2]
+	compound -> "named(Fannie)" [label=ARG2]
+	proper_q -> "named(Mae)" [label=BV]
+	proper_q -> "named(Fannie)" [label=BV]
+	udef_q -> "_securitiess/nn_u_unknown" [label=BV]
+	compound -> "_securitiess/nn_u_unknown" [label=ARG1]
+	"_back_v_1-fn.Competition" -> "_securitiess/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	parg_d -> "_back_v_1-fn.Competition" [label=ARG1]
+	"_back_v_1-fn.Competition" -> _issue_n_1 [label="ARG2-fn.Participant_2"]
+	_the_q -> _issue_n_1 [label=BV]
+}

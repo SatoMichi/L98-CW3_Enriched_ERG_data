@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> "named(Care)" [label=ARG2]
+	proper_q -> "named(Care)" [label=BV]
+	"_follow_v_1-fn.Cotheme" -> pron [label="ARG1-fn.NotExist"]
+	_with_p -> "_follow_v_1-fn.Cotheme" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

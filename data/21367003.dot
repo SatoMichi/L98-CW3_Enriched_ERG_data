@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_quick_a_1 -> "_adapt_v_to-fn.Adjusting" [label=ARG1]
+	"_not+surprising_a_1" -> "_adapt_v_to-fn.Adjusting" [label=ARG1]
+	"_adapt_v_to-fn.Adjusting" -> _way_n_of [label="ARG2-fn.NotExist"]
+	compound -> _way_n_of [label=ARG1]
+	proper_q -> "named(American)" [label=BV]
+	compound -> "named(American)" [label=ARG2]
+	"_adapt_v_to-fn.Adjusting" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _way_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_those_q_dem -> _note_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _plan_n_1 [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.IN" -> "_have_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	_at_p_temp -> _time_n_of [label=ARG2]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	_this_q_dem -> _time_n_of [label=BV]
+	_pay_v_off -> _note_n_1 [label=ARG2]
+	_at_p_temp -> _plan_n_1 [label=ARG1]
+	focus_d -> "_have_v_1-fn.IN" [label=ARG2]
+	_no_q -> _plan_n_1 [label=BV]
+	_plan_n_1 -> _pay_v_off [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

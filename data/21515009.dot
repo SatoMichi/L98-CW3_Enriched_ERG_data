@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.IN" -> _start_v_cause [label="ARG2-fn.Patient"]
+	subord -> _waste_v_1 [label=ARG1]
+	parg_d -> _start_v_cause [label=ARG1]
+	subord -> "_get_v_state-fn.IN" [label=ARG2]
+	"much-many_a" -> _time_n_of [label=ARG1]
+	udef_q -> _time_n_of [label=BV]
+	neg -> subord [label=ARG1]
+	focus_d -> _waste_v_1 [label=ARG1]
+	_waste_v_1 -> _time_n_of [label=ARG2]
+	_waste_v_1 -> pron [label=ARG1]
+	_characteristic_a_of -> _waste_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

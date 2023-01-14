@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_become_v_id-fn.Residence" -> "_kind_n_of-n" [label="ARG2-fn.Location"]
+	"_become_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_see_v_1-fn.Expectation" -> "_become_v_id-fn.Residence" [label="ARG3-fn.Degree"]
+	udef_q -> _business_n_1 [label=BV]
+	"_kind_n_of-n" -> _business_n_1 [label=ARG1]
+	compound -> "_kind_n_of-n" [label=ARG1]
+	compound -> _basement_n_1 [label=ARG1]
+	udef_q -> _bargain_n_1 [label=BV]
+	_a_q -> "_kind_n_of-n" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_see_v_1-fn.Expectation" -> pron [label="ARG2-fn.Phenomenon"]
+	compound -> _bargain_n_1 [label=ARG2]
+	udef_q -> _basement_n_1 [label=BV]
+}

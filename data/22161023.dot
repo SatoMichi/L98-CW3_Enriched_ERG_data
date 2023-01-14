@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_though_x -> "_grumble_v_1-fn.Complaining" [label=ARG1]
+	_even_x_deg -> _though_x [label=ARG1]
+	_the_q -> _bill_n_of [label=BV]
+	"_grumble_v_1-fn.Complaining" -> "_taxpayers/nns_u_unknown" [label="ARG1-fn.Agent"]
+	_pay_v_for -> _employee_n_of [label=ARG1]
+	udef_q -> _employee_n_of [label=BV]
+	udef_q -> "_taxpayers/nns_u_unknown" [label=BV]
+	_pay_v_for -> _bill_n_of [label=ARG2]
+	_though_x -> _pay_v_for [label=ARG2]
+}

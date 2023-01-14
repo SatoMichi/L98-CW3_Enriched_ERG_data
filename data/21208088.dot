@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_surge_v_1-fn.Experiencer_obj" [label=ARG1]
+	plus -> "fraction(1/4)" [label=ARG3]
+	loc_nonsp -> "card(4)" [label=ARG2]
+	"_surge_v_1-fn.Experiencer_obj" -> "named(Kellogg)" [label="ARG1-fn.Experiencer"]
+	plus -> "card(4)" [label=ARG2]
+	number_q -> "card(75)" [label=BV]
+	_to_p -> "card(75)" [label=ARG2]
+	proper_q -> "named(Kellogg)" [label=BV]
+	number_q -> "card(4)" [label=BV]
+	_to_p -> "_surge_v_1-fn.Experiencer_obj" [label=ARG1]
+}

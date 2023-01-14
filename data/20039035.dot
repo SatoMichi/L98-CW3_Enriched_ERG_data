@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _job_n_of [label=ARG1]
+	parg_d -> _job_n_of [label=ARG2]
+	"_botched/vbn_u_unknown" -> _job_n_of [label=ARG2]
+	_train_v_1 -> pron [label=ARG2]
+	parg_d -> "_botched/vbn_u_unknown" [label=ARG1]
+	_a_q -> _client_n_1 [label=BV]
+	"_kill_v_1-fn.Killing" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _job_n_of [label=BV]
+	"_kill_v_1-fn.Killing" -> _client_n_1 [label="ARG2-fn.Patient"]
+	_in_p -> _job_n_of [label=ARG2]
+	parg_d -> pron [label=ARG2]
+	"_un-_a_rvrs" -> _train_v_1 [label=ARG1]
+	_in_p -> "_kill_v_1-fn.Killing" [label=ARG1]
+	parg_d -> _train_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

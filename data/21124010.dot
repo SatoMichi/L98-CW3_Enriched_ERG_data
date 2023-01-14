@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _harsh_a_1 [label=ARG1]
+	_harsh_a_1 -> _market_n_1 [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	_overly_x -> _harsh_a_1 [label=ARG1]
+	_to_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

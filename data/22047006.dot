@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_would_v_modal-fn.Cotheme" -> "_control_v_1-fn.Competition" [label="ARG1-fn.Theme"]
+	udef_q -> "_poachers/nns_u_unknown" [label=BV]
+	"_control_v_1-fn.Competition" -> "_poachers/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	compound -> "named_n(Underground)" [label=ARG2]
+	"_control_v_1-fn.Competition" -> _trade_n_of [label="ARG2-fn.Participant_2"]
+	udef_q -> "named_n(Underground)" [label=BV]
+	_the_q -> _trade_n_of [label=BV]
+	compound -> _trade_n_of [label=ARG1]
+}

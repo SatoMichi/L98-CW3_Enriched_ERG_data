@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Rite" -> _product_n_1 [label="ARG2-fn.Member"]
+	_enough_q -> _product_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	"_sell_v_1-fn.Commerce_buy" -> _product_n_1 [label="ARG2-fn.Goods"]
+	with_p -> "_sell_v_1-fn.Commerce_buy" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_have_v_1-fn.State_continue" -> _and_c [label="ARG2-fn.State"]
+	_these_q_dem -> _product_n_1 [label=BV]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	with_p -> _market_n_1 [label=ARG2]
+}

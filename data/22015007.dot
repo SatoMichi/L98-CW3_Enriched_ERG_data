@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _measure_n_1 [label=BV]
+	nominalization -> _manufacture_v_1 [label=ARG1]
+	_overall_a_1 -> _measure_n_1 [label=ARG1]
+	"_more+than_p" -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	compound -> _activity_n_1 [label=ARG1]
+	udef_q -> _activity_n_1 [label=BV]
+	_of_p -> _measure_n_1 [label=ARG1]
+	_of_p -> _activity_n_1 [label=ARG2]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _measure_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _measure_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_more+than_p" -> _measure_n_1 [label=ARG2]
+}

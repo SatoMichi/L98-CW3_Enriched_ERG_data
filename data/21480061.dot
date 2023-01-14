@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(British)" [label=BV]
+	compound -> "named(British)" [label=ARG2]
+	plus -> "card(31)" [label=ARG2]
+	plus -> "fraction(7/8)" [label=ARG3]
+	_to_p -> "card(31)" [label=ARG2]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	compound -> "named(Airways)" [label=ARG1]
+	proper_q -> "named(Airways)" [label=BV]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	"_fall_v_1-fn.Halt" -> "named(Airways)" [label="ARG1-fn.Purpose"]
+	number_q -> "card(31)" [label=BV]
+}

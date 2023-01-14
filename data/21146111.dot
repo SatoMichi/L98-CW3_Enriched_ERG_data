@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Communists)" [label=BV]
+	focus_d -> _by_p_means [label=ARG2]
+	_the_q -> _peasant_n_1 [label=BV]
+	_by_p_means -> nominalization [label=ARG2]
+	focus_d -> "_starve_v_cause-fn.Cause_to_end" [label=ARG1]
+	"_starve_v_cause-fn.Cause_to_end" -> _peasant_n_1 [label="ARG2-fn.Means"]
+	"_starve_v_cause-fn.Cause_to_end" -> "named(Communists)" [label="ARG1-fn.Process"]
+	"_starve_v_cause-fn.Cause_to_end" -> "named(Poland)" [label="ARG2-fn.Means"]
+	nominalization -> "_starve_v_cause-fn.Cause_to_end" [label=ARG1]
+	_by_p_means -> "_starve_v_cause-fn.Cause_to_end" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	proper_q -> "named(Poland)" [label=BV]
+}

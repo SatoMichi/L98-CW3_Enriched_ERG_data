@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_automotive/jj_u_unknown" -> _part_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> "named(Eaton)" [label="ARG1-fn.Resident"]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _part_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _concern_n_1 [label="ARG2-fn.Location"]
+	compound -> _aerospace_n_1 [label=ARG2]
+	compound -> _concern_n_1 [label=ARG1]
+	proper_q -> "named(Eaton)" [label=BV]
+	udef_q -> _electronics_n_1 [label=BV]
+	udef_q -> _aerospace_n_1 [label=BV]
+	compound -> _electronics_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _control_n_of [label=BV]
+	_a_q -> _concern_n_1 [label=BV]
+	compound -> implicit_conj [label=ARG2]
+}

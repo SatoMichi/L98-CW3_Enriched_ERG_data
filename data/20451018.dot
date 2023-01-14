@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _offer_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "named(Ford)" [label="ARG1-fn.Agent"]
+	_run_v_1 -> _offer_n_1 [label=ARG1]
+	_indefinite_a_1 -> _run_v_1 [label=ARG1]
+	proper_q -> "dofw(Sat)" [label=BV]
+	_new_a_1 -> _offer_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _and_c [label="ARG2-fn.Topic"]
+	"_begin_v_1-fn.Process_start" -> _offer_n_1 [label="ARG1-fn.NotExist"]
+	loc_nonsp -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	loc_nonsp -> "dofw(Sat)" [label=ARG2]
+	proper_q -> "named(Ford)" [label=BV]
+}

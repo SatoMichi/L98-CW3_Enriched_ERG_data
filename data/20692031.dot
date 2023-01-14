@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_know_v_as-fn.IN" [label=ARG1]
+	_negative_a_1 -> _wedge_n_of [label=ARG1]
+	_the_q -> "named(Pentagon)" [label=BV]
+	_the_q -> _wedge_n_of [label=BV]
+	"_know_v_as-fn.IN" -> _wedge_n_of [label="ARG3-fn.Predicate"]
+	"_know_v_as-fn.IN" -> pron [label="ARG2-fn.Theme"]
+	_in_p -> "named(Pentagon)" [label=ARG2]
+	parg_d -> pron [label=ARG2]
+	_in_p -> "_know_v_as-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_call_v_1-fn.Labeling" -> pron [label="ARG2-fn.Theme"]
+	_photographic_a_1 -> pron [label=ARG1]
+	"_call_v_1-fn.Labeling" -> _photographic_a_1 [label="ARG3-fn.Result"]
+	pronoun_q -> pron [label=BV]
+}

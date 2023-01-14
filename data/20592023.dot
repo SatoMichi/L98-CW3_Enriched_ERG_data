@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_leave_v_transfer-fn.Receiving" -> "named(Thatcher)" [label="ARG3-fn.Theme"]
+	"_would_v_modal-fn.Cause_to_end" -> "_leave_v_transfer-fn.Receiving" [label="ARG1-fn.Process"]
+	udef_q -> _maneuver_n_1 [label=BV]
+	_for_p -> _maneuver_n_1 [label=ARG2]
+	compound -> _missus_n_1 [label=ARG2]
+	"little-few_a" -> _room_n_1 [label=ARG1]
+	compound -> "named(Thatcher)" [label=ARG1]
+	proper_q -> "named(Thatcher)" [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	"_leave_v_transfer-fn.Receiving" -> _room_n_1 [label="ARG2-fn.Donor"]
+	"_leave_v_transfer-fn.Receiving" -> generic_entity [label="ARG1-fn.Recipient"]
+	udef_q -> _room_n_1 [label=BV]
+	_for_p -> _room_n_1 [label=ARG1]
+	udef_q -> _missus_n_1 [label=BV]
+}

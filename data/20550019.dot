@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_know_v_about-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	udef_q -> _campaign_n_1 [label=BV]
+	udef_q -> _promise_n_of [label=BV]
+	compound -> _promise_n_of [label=ARG1]
+	"_know_v_about-fn.IN" -> _promise_n_of [label="ARG3-fn.NotExist"]
+	compound -> _campaign_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_s+a_n_1" [label=BV]
+	compound -> "_s+a_n_1" [label=ARG2]
+	_in_p -> "named(Nestle)" [label=ARG1]
+	compound -> "named(Switzerland)" [label=ARG1]
+	compound -> "named(Vevey)" [label=ARG2]
+	proper_q -> "named(Switzerland)" [label=BV]
+	parg_d -> "named(Nestle)" [label=ARG2]
+	"_base_v_1-fn.Social_event" -> _in_p [label="ARG3-fn.Place"]
+	_in_p -> "named(Switzerland)" [label=ARG2]
+	proper_q -> "named(Vevey)" [label=BV]
+	"_base_v_1-fn.Social_event" -> "named(Nestle)" [label="ARG2-fn.Social_event"]
+	compound -> "named(Nestle)" [label=ARG1]
+	proper_q -> "named(Nestle)" [label=BV]
+	parg_d -> "_base_v_1-fn.Social_event" [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _corporation_n_1 [label=ARG2]
+	udef_q -> _corporation_n_1 [label=BV]
+	proper_q -> "named(Air)" [label=BV]
+	proper_q -> "named(Texas)" [label=BV]
+	compound -> "named(Airlines)" [label=ARG1]
+	proper_q -> "named(Continental)" [label=BV]
+	compound -> "named(Air)" [label=ARG1]
+	proper_q -> "named(Airlines)" [label=BV]
+	_unit_n_of -> "named(Air)" [label=ARG1]
+	_a_q -> _unit_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _unit_n_of [label="ARG2-fn.Means"]
+	compound -> "named(Continental)" [label=ARG2]
+	compound -> "named(Texas)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> "named(Airlines)" [label="ARG1-fn.Process"]
+}

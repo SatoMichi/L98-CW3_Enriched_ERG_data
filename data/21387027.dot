@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_immediate_a_1 -> "_deny_v_to-fn.Statement" [label=ARG1]
+	proper_q -> "named(Chosen)" [label=BV]
+	compound -> "named(Chosen)" [label=ARG2]
+	"_deny_v_to-fn.Statement" -> _report_n_of [label="ARG2-fn.Predicate"]
+	_the_q -> _report_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	_the_q -> "named(Soren)" [label=BV]
+	_the_q -> "named(JSP)" [label=BV]
+	"_deny_v_to-fn.Statement" -> _and_c [label="ARG1-fn.Agent"]
+	compound -> "named(Soren)" [label=ARG1]
+}

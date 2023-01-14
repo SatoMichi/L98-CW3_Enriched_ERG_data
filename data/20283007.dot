@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_make_v_1-fn.Rite" [label=ARG1]
+	"_discuss_v_1-fn.Attempt_suasion" -> _offer_n_1 [label="ARG2-fn.Addressee"]
+	proper_q -> "named(Manville)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_make_v_1-fn.Rite" -> _decision_n_1 [label="ARG2-fn.Member"]
+	parg_d -> _decision_n_1 [label=ARG2]
+	"_discuss_v_1-fn.Attempt_suasion" -> _and_c [label="ARG1-fn.Content"]
+	_the_q -> _offer_n_1 [label=BV]
+	_the_q -> _trust_n_1 [label=BV]
+	_no_q -> _decision_n_1 [label=BV]
+}

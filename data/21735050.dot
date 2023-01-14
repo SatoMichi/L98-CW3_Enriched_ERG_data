@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _business_n_1 [label=BV]
+	_other_a_1 -> _business_n_1 [label=ARG1]
+	poss -> "named(Block)" [label=ARG2]
+	poss -> _business_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	"_grow_v_1-fn.Undergo_change" -> _business_n_1 [label="ARG1-fn.Entity"]
+	"_say_v_to-fn.Have_as_requirement" -> _although_x [label="ARG2-fn.Requirement"]
+	_although_x -> "_grow_v_1-fn.Undergo_change" [label=ARG1]
+	_although_x -> _consistent_a_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	comp_less -> _consistent_a_1 [label=ARG1]
+	proper_q -> "named(Block)" [label=BV]
+}

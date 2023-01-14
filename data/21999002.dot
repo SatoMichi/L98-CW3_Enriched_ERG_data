@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _corporation_n_1 [label=ARG2]
+	udef_q -> _corporation_n_1 [label=BV]
+	proper_q -> "named(Bell)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _decline_n_1 [label=BV]
+	"_post_v_1-fn.Social_event" -> _and_c [label="ARG1-fn.Duration"]
+	proper_q -> "named(Southwestern)" [label=BV]
+	"_post_v_1-fn.Social_event" -> _decline_n_1 [label="ARG2-fn.Social_event"]
+	proper_q -> "named(Cincinnati)" [label=BV]
+	compound -> "named(Southwestern)" [label=ARG2]
+	compound -> "named(Cincinnati)" [label=ARG2]
+	compound -> "named(Bell)" [label=ARG1]
+	_slight_a_1 -> _decline_n_1 [label=ARG1]
+}

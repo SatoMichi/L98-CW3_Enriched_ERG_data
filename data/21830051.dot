@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Maynard)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_fall_v_1 -> "named(Maynard)" [label=ARG1]
+	_from_p -> _horse_n_1 [label=ARG2]
+	"_fracture_v_1-fn.IN" -> "named(Maynard)" [label="ARG1-fn.Experiencer"]
+	poss -> _arm_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_from_p -> _fall_v_1 [label=ARG1]
+	_recent_a_1 -> _and_c [label=ARG1]
+	"_fracture_v_1-fn.IN" -> _arm_n_1 [label="ARG2-fn.Patient"]
+	def_explicit_q -> _arm_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_a_q -> _horse_n_1 [label=BV]
+	proper_q -> "named(Maynard)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

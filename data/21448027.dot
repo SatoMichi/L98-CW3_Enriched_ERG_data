@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _engineer_n_1 [label=BV]
+	compound -> _structure_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _engineer_n_1 [label="ARG1-fn.Agent"]
+	proper_q -> "named(Embarcadero)" [label=BV]
+	"_say_v_to-fn.IN" -> _take_v_2 [label="ARG2-fn.Topic"]
+	_take_v_2 -> _repair_v_1 [label=ARG2]
+	udef_q -> _month_n_1 [label=BV]
+	"card(8)" -> _month_n_1 [label=ARG1]
+	_repair_v_1 -> _structure_n_1 [label=ARG2]
+	_the_q -> _structure_n_1 [label=BV]
+	compound -> "named(Embarcadero)" [label=ARG2]
+	_repair_v_1 -> _month_n_1 [label=ARG1]
+	_take_v_2 -> pron [label=ARG1]
+	"_at+least_x_deg" -> udef_q [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _as_p [label=ARG2]
+	compound -> _egg_n_1 [label=ARG2]
+	compound -> _industry_n_1 [label=ARG1]
+	_as_p -> _thanks_n_1 [label=ARG2]
+	focus_d -> "_try_v_1-fn.Attempt" [label=ARG1]
+	"_try_v_1-fn.Attempt" -> _break_v_cause [label="ARG2-fn.Theme"]
+	_break_v_cause -> pron [label=ARG2]
+	udef_q -> _egg_n_1 [label=BV]
+	_the_q -> _industry_n_1 [label=BV]
+	"_try_v_1-fn.Attempt" -> _industry_n_1 [label="ARG1-fn.Agent"]
+	_as_p -> "_try_v_1-fn.Attempt" [label=ARG1]
+	_break_v_cause -> _industry_n_1 [label=ARG1]
+	udef_q -> _thanks_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

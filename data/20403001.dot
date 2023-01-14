@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "named(Stackup)" [label=ARG]
+	_seasonal_a_1 -> "named(Stackup)" [label=ARG1]
+	proper_q -> "named(Stackup)" [label=BV]
+}

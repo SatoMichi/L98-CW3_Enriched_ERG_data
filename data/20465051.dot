@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _medicine_n_1 [label=BV]
+	"_rivet_v_1-fn.Process_stop" -> _medicine_n_1 [label="ARG2-fn.Place"]
+	"_rivet_v_1-fn.Process_stop" -> _finding_n_1 [label="ARG1-fn.Process"]
+	_the_q -> _finding_n_1 [label=BV]
+}

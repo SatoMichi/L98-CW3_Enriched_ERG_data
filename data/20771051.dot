@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _substitute_n_1 [label=ARG1]
+	_a_q -> _system_n_of [label=BV]
+	_a_q -> "_gridlock/nn_u_unknown" [label=BV]
+	_produce_v_1 -> _system_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_produce_v_1 -> "_gridlock/nn_u_unknown" [label=ARG2]
+	_be_v_id -> _substitute_n_1 [label=ARG1]
+	_be_v_id -> _system_n_of [label=ARG2]
+	"_illustrate_v_1-fn.NF" -> "named(Panama)" [label="ARG1-fn.Agent"]
+	_absurd_a_for -> "_gridlock/nn_u_unknown" [label=ARG1]
+	proper_q -> "named(Panama)" [label=BV]
+	def_explicit_q -> _substitute_n_1 [label=BV]
+	"_illustrate_v_1-fn.NF" -> _be_v_id [label="ARG2-fn.Theme"]
+}

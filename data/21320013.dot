@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_immediate_a_1 -> _estimate_n_of [label=ARG1]
+	udef_q -> _damage_n_to [label=BV]
+	_estimate_n_of -> _damage_n_to [label=ARG1]
+	_from_p -> _estimate_n_of [label=ARG1]
+	_from_p -> _company_n_of [label=ARG2]
+	_no_q -> _estimate_n_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _estimate_n_of [label="ARG1-fn.Process"]
+}

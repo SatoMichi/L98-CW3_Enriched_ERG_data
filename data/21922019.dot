@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	"_know_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	def_implicit_q -> place_n [label=BV]
+	"_know_v_1-fn.IN" -> loc_nonsp [label="ARG2-fn.Theme"]
+	loc_nonsp -> pron [label=ARG1]
+	_there_a_1 -> place_n [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

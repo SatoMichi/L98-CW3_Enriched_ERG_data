@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> "_mature_v_1-fn.Achieving_first" [label=ARG1]
+	proper_q -> "yofc(2009)" [label=BV]
+	proper_q -> "yofc(2005)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	_in_p_temp -> implicit_conj [label=ARG2]
+	udef_q -> implicit_conj [label=BV]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "yofc(2029)" [label=BV]
+	"_mature_v_1-fn.Achieving_first" -> pron [label="ARG1-fn.Cognizer"]
+}

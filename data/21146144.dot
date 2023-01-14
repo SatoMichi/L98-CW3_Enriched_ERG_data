@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	udef_q -> _machine_n_1 [label=BV]
+	"_want_v_1-fn.State_continue" -> _machine_n_1 [label="ARG2-fn.State"]
+	neg -> "_want_v_1-fn.State_continue" [label=ARG1]
+	_expensive_a_1 -> _machine_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

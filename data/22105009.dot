@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"_say_v_to-fn.Taking" -> _company_n_of [label="ARG1-fn.Agent"]
+	_total_a_1 -> nominalization [label=ARG1]
+	_the_q -> nominalization [label=BV]
+	"_say_v_to-fn.Taking" -> "_be_v_id-fn.Name_conferral" [label="ARG2-fn.Theme"]
+	times -> "card(208)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _dollar_n_1 [label="ARG2-fn.Name"]
+	focus_d -> "_be_v_id-fn.Name_conferral" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> nominalization [label="ARG1-fn.Entity"]
+	nominalization -> _borrow_v_from [label=ARG1]
+}

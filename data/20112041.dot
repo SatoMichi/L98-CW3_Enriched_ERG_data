@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _means_n_of [label="ARG1-fn.Entity"]
+	"_be_v_nv-fn.Cause_to_end" -> _question_n_about [label="ARG1-fn.Process"]
+	"_be_v_nv-fn.Cause_to_end" -> "_be_v_id-fn.Name_conferral" [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Name_conferral" -> _veto_n_1 [label="ARG2-fn.Name"]
+	udef_q -> _defense_n_1 [label=BV]
+	_means_n_of -> _defense_n_1 [label=ARG1]
+	poss -> _means_n_of [label=ARG1]
+	_only_a_1 -> _means_n_of [label=ARG1]
+	_the_q -> _veto_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _means_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	_the_q -> _question_n_about [label=BV]
+}

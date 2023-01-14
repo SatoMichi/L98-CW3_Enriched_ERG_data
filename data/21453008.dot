@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _bond_n_1 [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	udef_q -> _instrument_n_of [label=BV]
+	udef_q -> _money_n_1 [label=BV]
+	compound -> _money_n_1 [label=ARG2]
+	udef_q -> _market_n_1 [label=BV]
+	"_mean_v_1-fn.NF" -> implicit_conj [label="ARG2-fn.Theme"]
+	compound -> _market_n_1 [label=ARG1]
+	udef_q -> implicit_conj [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_mean_v_1-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	udef_q -> "_real+estate_n_1" [label=BV]
+	compound -> _instrument_n_of [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(16,800,000)" -> _share_n_of [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	udef_q -> _volume_n_of [label=BV]
+	"_total_v_1-fn.Competition" -> _volume_n_of [label="ARG1-fn.Participant_1"]
+	"_total_v_1-fn.Competition" -> _share_n_of [label="ARG2-fn.Participant_2"]
+}

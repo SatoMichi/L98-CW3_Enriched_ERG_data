@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "named(Kimbrough)" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_the_q -> _situation_n_1 [label=BV]
+	_especially_x_deg -> _delicate_a_1 [label=ARG1]
+	_for_p -> _delicate_a_1 [label=ARG1]
+	proper_q -> "named(Kimbrough)" [label=BV]
+	_delicate_a_1 -> _situation_n_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> "named(Kimbrough)" [label=ARG1]
+}

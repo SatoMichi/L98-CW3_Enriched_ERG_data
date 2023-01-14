@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _percent_n_of [label="ARG2-fn.Name"]
+	"card(13)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"fraction(3/4)" -> _percent_n_of [label=ARG1]
+	_minimum_a_1 -> _coupon_n_1 [label=ARG1]
+	plus -> "fraction(3/4)" [label=ARG3]
+	_the_q -> _coupon_n_1 [label=BV]
+	plus -> _percent_n_of [label=ARG1]
+	plus -> "card(13)" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _coupon_n_1 [label="ARG1-fn.Entity"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_number_n_of -> generic_entity [label=ARG1]
+	_a_q -> _number_n_of [label=BV]
+	"_leave_v_1-fn.Departing" -> generic_entity [label="ARG1-fn.Theme"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _professional_n_1 [label=BV]
+	_be_v_id -> _and_c [label=ARG2]
+	_those_q_dem -> generic_entity [label=BV]
+	_large_a_1 -> _number_n_of [label=ARG1]
+	_be_v_id -> _number_n_of [label=ARG1]
+	udef_q -> _manager_n_of [label=BV]
+}

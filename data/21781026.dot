@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(527.39)" -> generic_entity [label=ARG1]
+	loc_nonsp -> "_gain_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	_the_q -> _index_n_1 [label=BV]
+	loc_nonsp -> "dofw(Tue)" [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	"_gain_v_1-fn.Change_of_quantity_of_possession" -> _index_n_1 [label="ARG1-fn.Owner"]
+	"_gain_v_1-fn.Change_of_quantity_of_possession" -> generic_entity [label="ARG2-fn.Possession"]
+	proper_q -> "dofw(Tue)" [label=BV]
+}

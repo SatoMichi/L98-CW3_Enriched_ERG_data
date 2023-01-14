@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _time_n_of [label=ARG1]
+	"_know_v_1-fn.Quitting" -> _number_n_of [label="ARG2-fn.Employer"]
+	_at_p_temp -> _time_n_of [label=ARG2]
+	_the_q -> _time_n_of [label=BV]
+	_at_p_temp -> "_work_v_1-fn.Social_event" [label=ARG1]
+	parg_d -> _number_n_of [label=ARG2]
+	_the_q -> _number_n_of [label=BV]
+	neg -> "_know_v_1-fn.Quitting" [label=ARG1]
+	parg_d -> "_know_v_1-fn.Quitting" [label=ARG1]
+	_the_q -> _blast_n_1 [label=BV]
+	"_work_v_1-fn.Social_event" -> _number_n_of [label="ARG1-fn.Duration"]
+	_of_p -> _blast_n_1 [label=ARG2]
+}

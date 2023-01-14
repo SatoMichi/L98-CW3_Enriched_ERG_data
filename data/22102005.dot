@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rage_v_1-fn.NF" -> _fire_n_1 [label="ARG1-fn.Theme"]
+	compound -> _and_c [label=ARG2]
+	compound -> _line_n_of [label=ARG1]
+	"_ruptured/vbd_u_unknown" -> _line_n_of [label=ARG1]
+	udef_q -> _water_n_1 [label=BV]
+	udef_q -> _fire_n_1 [label=BV]
+	udef_q -> _line_n_of [label=BV]
+	_collapse_v_1 -> _building_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_some_q -> _building_n_1 [label=BV]
+	udef_q -> _gas_n_1 [label=BV]
+}

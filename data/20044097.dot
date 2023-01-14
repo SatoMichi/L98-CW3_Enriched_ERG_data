@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _missus_n_1 [label=ARG2]
+	compound -> _official_n_1 [label=ARG1]
+	compound -> "named(Yeargin)" [label=ARG1]
+	proper_q -> "named(Yeargin)" [label=BV]
+	udef_q -> _official_n_1 [label=BV]
+	udef_q -> _missus_n_1 [label=BV]
+	compound -> _school_n_1 [label=ARG2]
+	udef_q -> _school_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_say_v_to-fn.IN" -> _and_c [label="ARG1-fn.NotExist"]
+	_lie_v_mental -> "named(Yeargin)" [label=ARG1]
+	udef_q -> _prosecutor_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _lie_v_mental [label="ARG2-fn.NotExist"]
+}

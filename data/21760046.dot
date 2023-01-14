@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _house_n_of [label=BV]
+	_in_p -> _crack_n_1 [label=ARG1]
+	_in_p -> _sidewalk_n_1 [label=ARG2]
+	udef_q -> _storefront_n_1 [label=BV]
+	_the_q -> _crack_n_1 [label=BV]
+	"much-many_a" -> _and_c [label=ARG1]
+	_empty_a_1 -> _and_c [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_the_q -> _sidewalk_n_1 [label=BV]
+	_through_p -> _crack_n_1 [label=ARG2]
+	udef_q -> _weed_n_1 [label=BV]
+	_up_p -> "_push_v_1-fn.push.01" [label=ARG1]
+	"_push_v_1-fn.push.01" -> _weed_n_1 [label="ARG1-fn.Agent"]
+	_through_p -> "_push_v_1-fn.push.01" [label=ARG1]
+}

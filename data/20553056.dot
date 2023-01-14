@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_itcleft -> _become_v_id [label=ARG2]
+	_become_v_id -> _intolerable_a_1 [label=ARG2]
+	_be_v_itcleft -> _situation_n_1 [label=ARG1]
+	_the_q -> _situation_n_1 [label=BV]
+	"_underlie_v_1-fn.NF" -> _situation_n_1 [label="ARG1-fn.Theme"]
+	_intolerable_a_1 -> _situation_n_1 [label=ARG1]
+	_become_v_id -> _situation_n_1 [label=ARG1]
+}

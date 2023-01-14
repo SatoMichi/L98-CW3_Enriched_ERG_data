@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	with_p -> thing [label=ARG2]
+	"_make_v_1-fn.Rite" -> _sale_n_of [label="ARG2-fn.Member"]
+	with_p -> "_make_v_1-fn.Rite" [label=ARG1]
+	_any_q -> thing [label=BV]
+	unknown -> thing [label=ARG]
+	_a_q -> _sale_n_of [label=BV]
+}

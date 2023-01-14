@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_up_p -> _yen_n_2 [label=ARG1]
+	udef_q -> _mark_n_cur [label=BV]
+	_up_p -> _mark_n_cur [label=ARG1]
+	_up_p -> "card(0.0108)" [label=ARG2]
+	udef_q -> _yen_n_2 [label=BV]
+	_up_p -> "card(0.73)" [label=ARG2]
+	number_q -> "card(0.0108)" [label=BV]
+	"card(1.8578)" -> _mark_n_cur [label=ARG1]
+	unknown -> _mark_n_cur [label=ARG]
+	"card(142.43)" -> _yen_n_2 [label=ARG1]
+	number_q -> "card(0.73)" [label=BV]
+	unknown -> _yen_n_2 [label=ARG]
+}

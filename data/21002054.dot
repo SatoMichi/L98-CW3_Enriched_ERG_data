@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_limit_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Participant_1"]
+	_financial_a_1 -> "_exposure_n_of-to" [label=ARG1]
+	focus_d -> "_say_v_to-fn.Surpassing" [label=ARG1]
+	focus_d -> "_limit_v_1-fn.Competition" [label=ARG2]
+	"_limit_v_1-fn.Competition" -> "_exposure_n_of-to" [label="ARG2-fn.Participant_2"]
+	def_explicit_q -> "_exposure_n_of-to" [label=BV]
+	poss -> "_exposure_n_of-to" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Surpassing" -> "_limit_v_1-fn.Competition" [label="ARG2-fn.Profiled_item"]
+	poss -> pron [label=ARG2]
+	_this_q_dem -> generic_entity [label=BV]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+}

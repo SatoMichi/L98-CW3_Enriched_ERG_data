@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_clear_a_of -> "_going+to_v_qmodal" [label=ARG1]
+	_a_q -> _shot_n_of [label=BV]
+	"_give_v_1-fn.Giving" -> _shot_n_of [label="ARG2-fn.Theme"]
+	"_going+to_v_qmodal" -> "_give_v_1-fn.Giving" [label=ARG1]
+	"_give_v_1-fn.Giving" -> pron [label="ARG3-fn.Recipient"]
+	pronoun_q -> pron [label=BV]
+}

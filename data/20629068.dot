@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _government_n_of [label=BV]
+	_low_a_on -> _possibility_n_of [label=ARG1]
+	"_such+a_q" -> _possibility_n_of [label=BV]
+	"_insist_v_1-fn.Statement" -> _low_a_on [label="ARG2-fn.Topic"]
+	"_insist_v_1-fn.Statement" -> _government_n_of [label="ARG1-fn.Agent"]
+}

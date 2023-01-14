@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_stature/nn_u_unknown" [label=BV]
+	_new_a_1 -> "_stature/nn_u_unknown" [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	compound -> _photograph_n_1 [label=ARG2]
+	udef_q -> _photograph_n_1 [label=BV]
+	"_gain_v_1-fn.Getting" -> nominalization [label="ARG1-fn.Agent"]
+	_as_x_subord -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	nominalization -> _collect_v_1 [label=ARG1]
+	"_gain_v_1-fn.Getting" -> "_stature/nn_u_unknown" [label="ARG2-fn.Theme"]
+	compound -> nominalization [label=ARG1]
+	_as_x_subord -> "_gain_v_1-fn.Getting" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _price_n_of [label="ARG1-fn.NotExist"]
+}

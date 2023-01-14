@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Rich)" [label=ARG2]
+	poss -> _partner_n_1 [label=ARG1]
+	proper_q -> "named(Rich)" [label=BV]
+	compound -> "named(Wells)" [label=ARG2]
+	def_explicit_q -> _partner_n_1 [label=BV]
+	unknown -> _partner_n_1 [label=ARG]
+	compound -> "named(Rich)" [label=ARG1]
+	proper_q -> "named(Wells)" [label=BV]
+	_new_a_1 -> _partner_n_1 [label=ARG1]
+}

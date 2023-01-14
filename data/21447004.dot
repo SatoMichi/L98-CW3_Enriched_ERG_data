@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Morris)" [label=BV]
+	compound -> "named(Spielvogel)" [label=ARG1]
+	"_comment_v_on-fn.Statement" -> _and_c [label="ARG1-fn.Agent"]
+	compound -> "named(Philip)" [label=ARG2]
+	proper_q -> "named(Philip)" [label=BV]
+	proper_q -> "named(Backer)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	_decline_v_1 -> _and_c [label=ARG1]
+	compound -> "named(Morris)" [label=ARG1]
+	proper_q -> "named(Spielvogel)" [label=BV]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	compound -> "named(Backer)" [label=ARG2]
+}

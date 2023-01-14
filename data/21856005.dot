@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_mind_v_1-fn.NF" -> "_prefer_v_to-fn.Preference" [label="ARG2-fn.Stimulus"]
+	def_explicit_q -> _husband_n_1 [label=BV]
+	"_mind_v_1-fn.NF" -> pron [label="ARG1-fn.Experiencer"]
+	"_prefer_v_to-fn.Preference" -> _husband_n_1 [label="ARG1-fn.NotExist"]
+	poss -> pron [label=ARG2]
+	"_prefer_v_to-fn.Preference" -> "named(Crest)" [label="ARG2-fn.NotExist"]
+	poss -> _husband_n_1 [label=ARG1]
+	proper_q -> "named(Crest)" [label=BV]
+	_never_a_1 -> "_mind_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

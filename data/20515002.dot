@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_harvest_v_1 -> _crop_n_1 [label=ARG2]
+	parg_d -> _crop_n_1 [label=ARG2]
+	_the_q -> _crop_n_1 [label=BV]
+	compound -> "season(summer)" [label=ARG2]
+	compound -> _crop_n_1 [label=ARG1]
+	parg_d -> _harvest_v_1 [label=ARG1]
+	"_have_v_yet-fn.IN" -> "_begin_v_1-fn.Process_start" [label="ARG1-fn.Pivot"]
+	compound -> "season(winter)" [label=ARG2]
+	nominalization -> _sow_v_1 [label=ARG1]
+	udef_q -> "season(summer)" [label=BV]
+	compound -> nominalization [label=ARG1]
+	udef_q -> "season(winter)" [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_begin_v_1-fn.Process_start" -> nominalization [label="ARG1-fn.NotExist"]
+}

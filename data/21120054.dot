@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_nuclear_a_1 -> _power_n_1 [label=ARG1]
+	compound -> _plant_n_1 [label=ARG1]
+	compound -> _power_n_1 [label=ARG2]
+	_acceptable_a_for -> _plant_n_1 [label=ARG1]
+	udef_q -> _power_n_1 [label=BV]
+	udef_q -> _plant_n_1 [label=BV]
+}

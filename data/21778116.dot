@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_escape_v_1-fn.Competition" [label=ARG1]
+	"_escape_v_1-fn.Competition" -> "named(Albany)" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Albany)" [label=BV]
+	subord -> _unscathed_a_1 [label=ARG2]
+	_embarrassing_a_1 -> _unscathed_a_1 [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _title_n_of [label=BV]
+	poss -> _subtitle_n_1 [label=ARG1]
+	appos -> pron [label=ARG2]
+	_ample_a_1 -> "_justify_v_to-fn.NF" [label=ARG1]
+	poss -> pron [label=ARG2]
+	_dubious_a_1 -> _title_n_of [label=ARG1]
+	_the_q -> _book_n_of [label=BV]
+	def_explicit_q -> _subtitle_n_1 [label=BV]
+	"_justify_v_to-fn.NF" -> _subtitle_n_1 [label="ARG2-fn.Topic"]
+	"_justify_v_to-fn.NF" -> _book_n_of [label="ARG1-fn.Agent"]
+	_while_x -> "_justify_v_to-fn.NF" [label=ARG2]
+	_while_x -> _dubious_a_1 [label=ARG1]
+	appos -> _title_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

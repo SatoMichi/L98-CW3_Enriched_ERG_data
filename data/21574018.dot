@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_same_a_as -> _age_n_1 [label=ARG1]
+	comp -> _insurance_n_1 [label=ARG2]
+	_permanent_a_1 -> _insurance_n_1 [label=ARG1]
+	_at_p -> _age_n_1 [label=ARG2]
+	comp_equal -> _same_a_as [label=ARG1]
+	parg_d -> _insurance_n_1 [label=ARG2]
+	_much_x_deg -> comp [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> _insurance_n_1 [label="ARG2-fn.Theme"]
+	_at_p -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	comp -> _cheap_a_1 [label=ARG1]
+	udef_q -> _insurance_n_1 [label=BV]
+	parg_d -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	_cheap_a_1 -> pron [label=ARG1]
+	_the_q -> _age_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

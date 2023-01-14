@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_efficient_a_1 -> _idea_n_of [label=ARG1]
+	"_call_v_1-fn.Labeling" -> neg [label="ARG3-fn.Result"]
+	compound -> _cost_n_1 [label=ARG2]
+	_for_p -> _spokesman_n_1 [label=ARG1]
+	"_call_v_1-fn.Labeling" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_the_q -> _idea_n_of [label=BV]
+	_the_q -> _state_n_of [label=BV]
+	compound -> _efficient_a_1 [label=ARG1]
+	"_call_v_1-fn.Labeling" -> _idea_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _cost_n_1 [label=BV]
+	_for_p -> _state_n_of [label=ARG2]
+	_effective_a_1 -> _idea_n_of [label=ARG1]
+	neg -> _or_c [label=ARG1]
+}

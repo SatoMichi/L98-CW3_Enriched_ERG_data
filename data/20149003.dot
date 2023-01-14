@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_seek_v_1-fn.Competition" -> _investor_n_1 [label="ARG1-fn.Participant_1"]
+	"_might_v_modal-fn.Abounding_with" -> "_seek_v_1-fn.Competition" [label="ARG1-fn.Theme"]
+	"_seek_v_1-fn.Competition" -> _control_n_of [label="ARG2-fn.Participant_2"]
+	_federal_a_1 -> _clearance_n_1 [label=ARG1]
+	_necessary_a_for -> _application_n_of [label=ARG1]
+	udef_q -> _control_n_of [label=BV]
+	"_such+a_q" -> _application_n_of [label=BV]
+	_necessary_a_for -> _investor_n_1 [label=ARG2]
+	"_antitrust/jj_u_unknown" -> _clearance_n_1 [label=ARG1]
+	_for_p -> _clearance_n_1 [label=ARG2]
+	udef_q -> _clearance_n_1 [label=BV]
+	_for_p -> _application_n_of [label=ARG1]
+	_any_q -> _investor_n_1 [label=BV]
+}

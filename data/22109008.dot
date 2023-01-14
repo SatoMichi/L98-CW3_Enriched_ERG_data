@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_take_v_1 -> _stance_n_1 [label=ARG2]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_a_q -> _stance_n_1 [label=BV]
+	_be_v_do -> generic_entity [label=ARG1]
+	_do_v_be -> generic_entity [label=ARG2]
+	comp -> _aggressive_a_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> _do_v_be [label="ARG2-fn.Theme"]
+	_which_q -> generic_entity [label=BV]
+	_take_v_1 -> pron [label=ARG1]
+	_do_v_be -> pron [label=ARG1]
+	_be_v_do -> _take_v_1 [label=ARG2]
+	_aggressive_a_1 -> _stance_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

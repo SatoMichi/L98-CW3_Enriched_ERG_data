@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_any_q -> _nation_n_of [label=BV]
+	_if_x_then -> _be_v_id [label=ARG1]
+	_environmental_a_1 -> _benign_a_1 [label=ARG1]
+	_be_v_id -> "named(Poland)" [label=ARG2]
+	_benign_a_1 -> _architecture_n_1 [label=ARG1]
+	_if_x_then -> _can_v_modal [label=ARG2]
+	"_use_v_1-fn.IN" -> _nation_n_of [label="ARG1-fn.NotExist"]
+	_be_v_id -> pron [label=ARG1]
+	"_use_v_1-fn.IN" -> _architecture_n_1 [label="ARG2-fn.NotExist"]
+	_can_v_modal -> "_use_v_1-fn.IN" [label=ARG1]
+	proper_q -> "named(Poland)" [label=BV]
+	udef_q -> _architecture_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

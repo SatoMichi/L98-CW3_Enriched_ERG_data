@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _life_n_of [label=ARG2]
+	compound -> _style_n_of [label=ARG1]
+	poss -> "named(Kellogg)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _style_n_of [label="ARG2-fn.Means"]
+	_main_a_1 -> _problem_n_of [label=ARG1]
+	udef_q -> _life_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _problem_n_of [label="ARG1-fn.Process"]
+	poss -> _problem_n_of [label=ARG1]
+	proper_q -> "named(Kellogg)" [label=BV]
+	def_explicit_q -> _problem_n_of [label=BV]
+	udef_q -> _style_n_of [label=BV]
+}

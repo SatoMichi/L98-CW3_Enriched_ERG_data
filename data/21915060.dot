@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Palo)" [label=ARG2]
+	_in_p -> "named(Alto)" [label=ARG2]
+	parg_d -> "_damage_v_1-fn.Piracy" [label=ARG1]
+	_beyond_p -> "_damage_v_1-fn.Piracy" [label=ARG1]
+	parg_d -> _building_n_1 [label=ARG2]
+	udef_q -> _repair_n_of [label=BV]
+	"_damage_v_1-fn.Piracy" -> _building_n_1 [label="ARG2-fn.Vehicle"]
+	"card(1)" -> _building_n_1 [label=ARG1]
+	compound -> "named(Alto)" [label=ARG1]
+	proper_q -> "named(Palo)" [label=BV]
+	proper_q -> "named(Alto)" [label=BV]
+	_in_p -> _building_n_1 [label=ARG1]
+	"_may_v_modal-fn.Communication_manner" -> "_damage_v_1-fn.Piracy" [label="ARG1-fn.Speaker"]
+	_beyond_p -> _repair_n_of [label=ARG2]
+	udef_q -> _building_n_1 [label=BV]
+}

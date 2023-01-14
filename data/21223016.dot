@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_should_v_modal-fn.Amounting_to" -> "_be_v_there-fn.Needing" [label="ARG1-fn.Value"]
+	eventuality -> "_buy_v_1-fn.Competition" [label=ARG1]
+	_great_a_for -> _rush_n_1 [label=ARG1]
+	_for_p -> _investor_n_1 [label=ARG2]
+	udef_q -> _investor_n_1 [label=BV]
+	_for_p -> _rush_n_1 [label=ARG1]
+	_no_q -> _rush_n_1 [label=BV]
+	"_buy_v_1-fn.Competition" -> _investor_n_1 [label="ARG1-fn.Participant_1"]
+	"_be_v_there-fn.Needing" -> _rush_n_1 [label="ARG1-fn.Cognizer"]
+	"_buy_v_1-fn.Competition" -> generic_entity [label="ARG2-fn.Participant_2"]
+	_this_q_dem -> generic_entity [label=BV]
+}

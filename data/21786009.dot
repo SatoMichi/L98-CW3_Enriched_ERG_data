@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _story_n_of [label=ARG1]
+	_insensitive_a_to -> _story_n_of [label=ARG1]
+	"_tasteless/jj_u_unknown" -> _story_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _story_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

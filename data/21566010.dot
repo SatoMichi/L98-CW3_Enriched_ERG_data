@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_this_q_dem -> _portfolio_n_1 [label=BV]
+	_on_p -> _portfolio_n_1 [label=ARG2]
+	_fine_a_for -> _portfolio_n_1 [label=ARG1]
+	neg -> _negative_a_1 [label=ARG1]
+	_on_p -> _return_n_of [label=ARG1]
+	_modest_a_1 -> _return_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_when_x_subord -> _modest_a_1 [label=ARG1]
+	udef_q -> _return_n_of [label=BV]
+	_negative_a_1 -> pron [label=ARG1]
+	_when_x_subord -> neg [label=ARG2]
+}

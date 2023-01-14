@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_may_v_modal-fn.Communication_manner" -> "_limit_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+	parg_d -> "_limit_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _affiliate_n_of [label=BV]
+	_even_x_deg -> _the_q [label=ARG1]
+	"_limit_v_1-fn.Competition" -> "_boon/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	_to_p -> _relation_n_of [label=ARG2]
+	parg_d -> "_boon/nn_u_unknown" [label=ARG2]
+	_to_p -> "_boon/nn_u_unknown" [label=ARG1]
+	_the_q -> "_boon/nn_u_unknown" [label=BV]
+	udef_q -> _relation_n_of [label=BV]
+	compound -> _affiliate_n_of [label=ARG2]
+	compound -> _relation_n_of [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _field_n_of [label=ARG1]
+	_a_q -> _field_n_of [label=BV]
+	udef_q -> _mine_n_of [label=BV]
+	nominalization -> "_speak_v_to-fn.Have_as_requirement" [label=ARG1]
+	compound -> _mine_n_of [label=ARG2]
+	_emotional_a_1 -> _field_n_of [label=ARG1]
+	compound -> _field_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> nominalization [label="ARG1-fn.Process"]
+	"_speak_v_to-fn.Have_as_requirement" -> _tongue_n_1 [label="ARG2-fn.Requirement"]
+	_which_q -> _tongue_n_1 [label=BV]
+	_in_p -> "named(Philippines)" [label=ARG2]
+	_the_q -> "named(Philippines)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _field_n_of [label="ARG2-fn.Means"]
+	udef_q -> nominalization [label=BV]
+}

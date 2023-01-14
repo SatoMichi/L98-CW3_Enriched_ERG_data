@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _business_n_1 [label=BV]
+	_foreign_a_1 -> _market_n_1 [label=ARG1]
+	udef_q -> "named_n(US)" [label=BV]
+	"_court_v_1-fn.Personal_relationship" -> _business_n_1 [label="ARG2-fn.Co-Agent"]
+	_aggressive_a_1 -> "_court_v_1-fn.Personal_relationship" [label=ARG1]
+	compound -> _business_n_1 [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	_all_q -> _market_n_1 [label=BV]
+	"_court_v_1-fn.Personal_relationship" -> _market_n_1 [label="ARG1-fn.Agent"]
+}

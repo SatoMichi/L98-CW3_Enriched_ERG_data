@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _franc_n_1 [label=BV]
+	_of_p -> _revenue_n_1 [label=ARG1]
+	times -> "card(56.9)" [label=ARG2]
+	times -> "card(1000000000)" [label=ARG3]
+	_the_q -> _group_n_of [label=BV]
+	"_forecast_v_1-fn.Competition" -> _group_n_of [label="ARG1-fn.Participant_1"]
+	compound -> "yofc(1989)" [label=ARG2]
+	compound -> _revenue_n_1 [label=ARG1]
+	_of_p -> _franc_n_1 [label=ARG2]
+	"_forecast_v_1-fn.Competition" -> _revenue_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _revenue_n_1 [label=BV]
+	proper_q -> "yofc(1989)" [label=BV]
+	"card(1000000000)" -> _franc_n_1 [label=ARG1]
+}

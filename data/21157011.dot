@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_continue_v_1-fn.State_continue" -> _investigation_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> "named_n(US)" [label=BV]
+	proper_q -> "named(Postal)" [label=BV]
+	_by_p -> _inspector_n_1 [label=ARG2]
+	compound -> "named(Postal)" [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	_a_q -> _investigation_n_1 [label=BV]
+	_by_p -> _investigation_n_1 [label=ARG1]
+	compound -> _inspector_n_1 [label=ARG1]
+	udef_q -> _inspector_n_1 [label=BV]
+}

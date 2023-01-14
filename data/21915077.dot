@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_affect_v_1-fn.NF" -> nominalization [label="ARG1-fn.Stimulus"]
+	"_affect_v_1-fn.NF" -> _employee_n_of [label="ARG2-fn.Experiencer"]
+	"card(266)" -> _employee_n_of [label=ARG1]
+	nominalization -> _close_v_1 [label=ARG1]
+	"_continue_v_1-fn.Process_continue" -> nominalization [label="ARG1-fn.NotExist"]
+	udef_q -> _road_n_1 [label=BV]
+	udef_q -> _employee_n_of [label=BV]
+	parg_d -> _road_n_1 [label=ARG2]
+	"_at+least_x_deg" -> _until_x_h [label=ARG1]
+	_until_x_h -> "_clear_v_1-fn.Emptying" [label=ARG2]
+	parg_d -> "_clear_v_1-fn.Emptying" [label=ARG1]
+	"_clear_v_1-fn.Emptying" -> _road_n_1 [label="ARG2-fn.NotExist"]
+	_until_x_h -> "_continue_v_1-fn.Process_continue" [label=ARG1]
+	_the_q -> nominalization [label=BV]
+}

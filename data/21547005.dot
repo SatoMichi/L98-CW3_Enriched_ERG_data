@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	compound -> _jam_n_1 [label=ARG1]
+	_for_p -> _jam_n_1 [label=ARG2]
+	proper_q -> "named(California)" [label=BV]
+	parg_d -> _jam_n_1 [label=ARG2]
+	"_relate_v_to-fn.Cause_to_end" -> _jam_n_1 [label="ARG2-fn.Means"]
+	compound -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _traffic_n_1 [label=BV]
+	_for_p -> "_brace_v_1-fn.Experiencer_obj" [label=ARG1]
+	compound -> _traffic_n_1 [label=ARG2]
+	udef_q -> _earthquake_n_1 [label=BV]
+	udef_q -> _jam_n_1 [label=BV]
+	_northern_a_1 -> "named(California)" [label=ARG1]
+	compound -> _earthquake_n_1 [label=ARG2]
+	"_brace_v_1-fn.Experiencer_obj" -> "named(California)" [label="ARG1-fn.Experiencer"]
+}

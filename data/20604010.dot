@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Wall)" [label=ARG2]
+	"_understandably/rb_u_unknown" -> _skeptical_a_of [label=ARG1]
+	compound -> "named(Street)" [label=ARG1]
+	proper_q -> "named(Wall)" [label=BV]
+	_skeptical_a_of -> "named(Street)" [label=ARG1]
+	proper_q -> "named(Street)" [label=BV]
+}

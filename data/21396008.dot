@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> "_vote_v_1-fn.NF" [label=ARG1]
+	_less_a_1 -> _charge_n_of [label=ARG1]
+	_the_q -> "named_n(Senate)" [label=BV]
+	neg -> "_vote_v_1-fn.NF" [label=ARG1]
+	"card(6)" -> _charge_n_of [label=ARG1]
+	udef_q -> _charge_n_of [label=BV]
+	"_vote_v_1-fn.NF" -> "named_n(Senate)" [label="ARG1-fn.Agent"]
+	_on_p -> _charge_n_of [label=ARG2]
+	comp -> _less_a_1 [label=ARG1]
+}

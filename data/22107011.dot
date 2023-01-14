@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _quarter_n_temp [label=BV]
+	superl -> _late_a_for [label=ARG1]
+	_at_p -> _flat_a_1 [label=ARG1]
+	_flat_a_1 -> _sale_n_of [label=ARG1]
+	_for_p -> _quarter_n_temp [label=ARG2]
+	_at_p -> _dollar_n_1 [label=ARG2]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	_for_p -> _sale_n_of [label=ARG1]
+	_late_a_for -> _quarter_n_temp [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(1.72)" [label=ARG2]
+	udef_q -> _sale_n_of [label=BV]
+}

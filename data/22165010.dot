@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_meanwhile_p -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _confusion_n_1 [label=BV]
+	_awful_a_1 -> _lot_n_of [label=ARG1]
+	focus_d -> _meanwhile_p [label=ARG2]
+	"_be_v_there-fn.Cause_to_end" -> _lot_n_of [label="ARG1-fn.Process"]
+	_lot_n_of -> _confusion_n_1 [label=ARG1]
+	_a_q -> _lot_n_of [label=BV]
+}

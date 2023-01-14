@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_leverage_v_1 -> "_buy+out_n_1" [label=ARG2]
+	parg_d -> "_propose_v_to-fn.Statement" [label=ARG1]
+	"_plummet_v_1-fn.Change_position_on_a_scale" -> _price_n_of [label="ARG1-fn.NotExist"]
+	_the_q -> _price_n_of [label=BV]
+	parg_d -> "_buy+out_n_1" [label=ARG2]
+	_after_x_h -> _fall_v_1 [label=ARG2]
+	_the_q -> _airline_n_1 [label=BV]
+	_after_x_h -> "_plummet_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_of_p -> _airline_n_1 [label=ARG2]
+	_fall_v_1 -> "_buy+out_n_1" [label=ARG1]
+	_through_p_dir -> _fall_v_1 [label=ARG1]
+	_of_p -> "_buy+out_n_1" [label=ARG1]
+	"_propose_v_to-fn.Statement" -> "_buy+out_n_1" [label="ARG2-fn.Topic"]
+	_a_q -> "_buy+out_n_1" [label=BV]
+	parg_d -> _leverage_v_1 [label=ARG1]
+}

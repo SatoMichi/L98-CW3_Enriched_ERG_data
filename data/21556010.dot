@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bring_v_1-fn.Bringing" -> generic_entity [label="ARG1-fn.Instrument"]
+	_in_p -> _reaction_n_1 [label=ARG1]
+	"_bring_v_1-fn.Bringing" -> _reaction_n_1 [label="ARG2-fn.Theme"]
+	_in_p -> _industry_n_1 [label=ARG2]
+	_a_q -> _reaction_n_1 [label=BV]
+	_the_q -> _industry_n_1 [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _chain_n_of [label=BV]
+	compound -> _reaction_n_1 [label=ARG1]
+	compound -> _chain_n_of [label=ARG2]
+}

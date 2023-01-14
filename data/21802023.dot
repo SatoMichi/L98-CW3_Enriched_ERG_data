@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	"_raise_v_cause-fn.Cause_harm" -> _sale_n_of [label="ARG1-fn.Agent"]
+	_roughly_x_deg -> udef_q [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	"_could_v_modal-fn.Cause_to_end" -> "_raise_v_cause-fn.Cause_harm" [label="ARG1-fn.Process"]
+	_sale_n_of -> _business_n_1 [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	"_raise_v_cause-fn.Cause_harm" -> _dollar_n_1 [label="ARG2-fn.Victim"]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> _analyst_n_1 [label=BV]
+	"card(2)" -> _business_n_1 [label=ARG1]
+	"_estimate_v_at-fn.Event" -> "_could_v_modal-fn.Cause_to_end" [label="ARG2-fn.Place"]
+	"_estimate_v_at-fn.Event" -> _analyst_n_1 [label="ARG1-fn.Event"]
+	times -> "card(2)" [label=ARG2]
+	_the_q -> _business_n_1 [label=BV]
+}

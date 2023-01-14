@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cruise_v_1-fn.Self_motion" -> _balloon_n_1 [label="ARG1-fn.Agent"]
+	_along_p_dir -> "_cruise_v_1-fn.Self_motion" [label=ARG1]
+	_at_p -> "_cruise_v_1-fn.Self_motion" [label=ARG1]
+	udef_q -> _motion_n_1 [label=BV]
+	_sense_n_of -> _motion_n_1 [label=ARG1]
+	_the_q -> _balloon_n_1 [label=BV]
+	udef_q -> _sense_n_of [label=BV]
+	_a_q -> _altitude_n_1 [label=BV]
+	_steady_a_1 -> _altitude_n_1 [label=ARG1]
+	_at_p -> _altitude_n_1 [label=ARG2]
+	_when_x_subord -> _be_v_there [label=ARG1]
+	_little_a_1 -> _sense_n_of [label=ARG1]
+	_when_x_subord -> "_cruise_v_1-fn.Self_motion" [label=ARG2]
+	_be_v_there -> _sense_n_of [label=ARG1]
+}

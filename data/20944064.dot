@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_must_v_modal-fn.Cause_to_end" -> neg [label="ARG1-fn.Process"]
+	_the_q -> _writer_n_of [label=BV]
+	"_invent_v_1-fn.Attack" -> _writer_n_of [label="ARG1-fn.Victim"]
+	neg -> "_invent_v_1-fn.Attack" [label=ARG1]
+}

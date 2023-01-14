@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _with_p [label=ARG2]
+	_visual_a_1 -> _distinct_a_1 [label=ARG1]
+	_with_p -> _distinct_a_1 [label=ARG1]
+	_distinct_a_1 -> pron [label=ARG1]
+	_with_p -> _note_n_1 [label=ARG2]
+	focus_d -> _distinct_a_1 [label=ARG1]
+	udef_q -> _note_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

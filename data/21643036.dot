@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	unspec_manner -> "_file_v_1-fn.Submitting_documents" [label=ARG1]
+	_would_v_modal -> "_file_v_1-fn.Submitting_documents" [label=ARG1]
+	which_q -> manner [label=BV]
+	"_file_v_1-fn.Submitting_documents" -> pron [label="ARG1-fn.Agent"]
+	unspec_manner -> manner [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

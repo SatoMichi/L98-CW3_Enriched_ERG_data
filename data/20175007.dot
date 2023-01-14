@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(2)" -> _side_n_1 [label=ARG1]
+	_the_q -> _dispute_n_1 [label=BV]
+	_in_p -> _side_n_1 [label=ARG1]
+	with_p -> "_settle_v_1-fn.Impact" [label=ARG1]
+	_in_p -> "_talk_n_of-on" [label=ARG2]
+	with_p -> "_talk_n_of-on" [label=ARG2]
+	"_settle_v_1-fn.Impact" -> _dispute_n_1 [label="ARG2-fn.Result"]
+	_both_q -> _side_n_1 [label=BV]
+	udef_q -> "_talk_n_of-on" [label=BV]
+}

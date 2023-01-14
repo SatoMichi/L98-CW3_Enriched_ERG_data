@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _activity_n_1 [label=ARG2]
+	_medical_a_1 -> _cost_n_1 [label=ARG1]
+	_for_p -> _cent_n_1 [label=ARG1]
+	_colon_p_namely -> _unaltered_a_1 [label=ARG1]
+	_for_p -> _cost_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	"card(9)" -> _cent_n_1 [label=ARG1]
+	udef_q -> _cent_n_1 [label=BV]
+	"card(12)" -> _cent_n_1 [label=ARG1]
+	unknown -> _and_c [label=ARG]
+	udef_q -> _activity_n_1 [label=BV]
+	_also_a_1 -> _unaltered_a_1 [label=ARG1]
+	_charitable_a_1 -> _activity_n_1 [label=ARG1]
+	"_move_v_1-fn.Attack" -> _cost_n_1 [label="ARG1-fn.Victim"]
+	udef_q -> _cost_n_1 [label=BV]
+}

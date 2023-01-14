@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named(Texans)" [label=BV]
+	"_hope_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	udef_q -> "_paddleball/nn_u_unknown" [label=BV]
+	"_play_v_1-fn.Competition" -> "_paddleball/nn_u_unknown" [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_hope_v_1-fn.Desiring" [label=ARG1]
+	"_at+least_a_1" -> "_hope_v_1-fn.Desiring" [label=ARG1]
+	neg -> "_play_v_1-fn.Competition" [label=ARG1]
+	"_hope_v_1-fn.Desiring" -> neg [label="ARG2-fn.NotExist"]
+	neg -> ellipsis [label=ARG1]
+	_real_a_1 -> "named(Texans)" [label=ARG1]
+	"_play_v_1-fn.Competition" -> "named(Texans)" [label="ARG1-fn.Agent"]
+}

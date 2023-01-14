@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_feel_v_1-fn.Opinion" -> _scientist_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _scientist_n_1 [label=BV]
+	"_different_a_than-from" -> "_feel_v_1-fn.Opinion" [label=ARG1]
+}

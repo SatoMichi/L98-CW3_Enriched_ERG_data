@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_love_v_1-fn.NF" -> _misery_n_1 [label="ARG1-fn.Experiencer"]
+	udef_q -> _misery_n_1 [label=BV]
+	"_love_v_1-fn.NF" -> _company_n_of [label="ARG2-fn.Attribute"]
+	udef_q -> _company_n_of [label=BV]
+}

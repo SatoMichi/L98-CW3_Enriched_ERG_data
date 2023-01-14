@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _advantage_n_1 [label=BV]
+	"_give_v_1-fn.Giving" -> nominalization [label="ARG1-fn.Agent"]
+	_would_v_modal -> "_give_v_1-fn.Giving" [label=ARG1]
+	"_give_v_1-fn.Giving" -> _president_n_of [label="ARG3-fn.Recipient"]
+	nominalization -> _have_v_1 [label=ARG1]
+	"_give_v_1-fn.Giving" -> _advantage_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _democrat_n_1 [label=BV]
+	parg_d -> "_sponsor_v_1-fn.NF" [label=ARG1]
+	_the_q -> _president_n_of [label=BV]
+	"_sponsor_v_1-fn.NF" -> _proposal_n_1 [label="ARG2-fn.Beneficiary"]
+	udef_q -> nominalization [label=BV]
+	parg_d -> _proposal_n_1 [label=ARG2]
+	_a_q -> _proposal_n_1 [label=BV]
+	_have_v_1 -> _proposal_n_1 [label=ARG2]
+	"_sponsor_v_1-fn.NF" -> _democrat_n_1 [label="ARG1-fn.Agent"]
+}

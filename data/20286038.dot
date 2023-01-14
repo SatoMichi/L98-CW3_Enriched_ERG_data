@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _car_n_1 [label=ARG1]
+	udef_q -> _engineer_n_1 [label=BV]
+	_a_q -> _car_n_1 [label=BV]
+	_sideways_p_dir -> "_move_v_1-fn.Motion" [label=ARG1]
+	"_develop_v_cause-fn.IN" -> _engineer_n_1 [label="ARG1-fn.Agent"]
+	"_develop_v_cause-fn.IN" -> _car_n_1 [label="ARG2-fn.Product"]
+	compound -> _crab_n_1 [label=ARG2]
+	udef_q -> _crab_n_1 [label=BV]
+	"_move_v_1-fn.Motion" -> _car_n_1 [label="ARG1-fn.NotExist"]
+	"card(1)" -> _engineer_n_1 [label=ARG1]
+}

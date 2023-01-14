@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _stock_n_1 [label=BV]
+	_which_q -> "_type_n_of-n" [label=BV]
+	_likely_a_1 -> "_qualify_v_for-fn.NF" [label=ARG1]
+	"_qualify_v_for-fn.NF" -> "_type_n_of-n" [label="ARG1-fn.NotExist"]
+	"_type_n_of-n" -> _stock_n_1 [label=ARG1]
+	superl -> _likely_a_1 [label=ARG1]
+}

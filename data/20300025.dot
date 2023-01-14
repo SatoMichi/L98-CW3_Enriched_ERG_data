@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _matter_n_of [label=BV]
+	parg_d -> _press_v_1 [label=ARG1]
+	comp -> _specific_a_to [label=ARG1]
+	subord -> _press_v_1 [label=ARG2]
+	subord -> _specific_a_to [label=ARG1]
+	_on_p -> _matter_n_of [label=ARG2]
+	_specific_a_to -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_on_p -> _press_v_1 [label=ARG1]
+}

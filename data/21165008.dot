@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.Commerce_collect" -> "named(HomeFed)" [label="ARG1-fn.Buyer"]
+	_of_p -> _dollar_n_1 [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(17.9)" [label=ARG2]
+	_of_p -> _asset_n_1 [label=ARG2]
+	times -> "card(1000000000)" [label=ARG3]
+	udef_q -> _asset_n_1 [label=BV]
+	proper_q -> "named(HomeFed)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_have_v_1-fn.Commerce_collect" -> _dollar_n_1 [label="ARG2-fn.Goods"]
+}

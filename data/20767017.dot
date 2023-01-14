@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(FCC)" [label=ARG2]
+	"_applauded/vbd_u_unknown" -> "named(ATT)" [label=ARG1]
+	"_applauded/vbd_u_unknown" -> _action_n_1 [label=ARG2]
+	poss -> _action_n_1 [label=ARG1]
+	def_explicit_q -> _action_n_1 [label=BV]
+	proper_q -> "named(ATT)" [label=BV]
+	_the_q -> "named(FCC)" [label=BV]
+}

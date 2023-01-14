@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _fertility_n_1 [label=ARG2]
+	_decide_v_1 -> "_adopt_v_1-fn.Adopt_selection" [label=ARG2]
+	_modern_a_1 -> _aid_n_1 [label=ARG1]
+	proper_q -> "named(Linda)" [label=BV]
+	udef_q -> _fertility_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_exhaust_v_1-fn.NF" -> _aid_n_1 [label="ARG2-fn.Experiencer"]
+	"_adopt_v_1-fn.Adopt_selection" -> _and_c [label="ARG1-fn.Agent"]
+	proper_q -> "named(Michael)" [label=BV]
+	_decide_v_1 -> _and_c [label=ARG1]
+	_to_p -> _aid_n_1 [label=ARG1]
+	_all_q -> _aid_n_1 [label=BV]
+	subord -> "_exhaust_v_1-fn.NF" [label=ARG2]
+	subord -> _decide_v_1 [label=ARG1]
+}

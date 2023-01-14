@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _trap_n_1 [label=BV]
+	compound -> _move_n_1 [label=ARG2]
+	compound -> "card(21)" [label=ARG1]
+	_deep_a_1 -> _trap_n_1 [label=ARG1]
+	_into_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(D.T.)" [label=BV]
+	_by_p_state -> "card(21)" [label=ARG2]
+	_positional_a_1 -> _trap_n_1 [label=ARG1]
+	focus_d -> _by_p_state [label=ARG2]
+	number_q -> "card(21)" [label=BV]
+	"_fall_v_1-fn.Halt" -> "named(D.T.)" [label="ARG1-fn.Purpose"]
+	focus_d -> "_fall_v_1-fn.Halt" [label=ARG1]
+	_by_p_state -> "_fall_v_1-fn.Halt" [label=ARG1]
+	_into_p -> _trap_n_1 [label=ARG2]
+	udef_q -> _move_n_1 [label=BV]
+}

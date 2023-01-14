@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(19)" [label=ARG2]
+	"_purchase_v_1-fn.Change_of_quantity_of_possession" -> pron [label="ARG1-fn.Owner"]
+	"card(1000000)" -> part_of [label=ARG1]
+	udef_q -> part_of [label=BV]
+	_about_x_deg -> udef_q [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_purchase_v_1-fn.Change_of_quantity_of_possession" -> part_of [label="ARG2-fn.Possession"]
+	part_of -> pron [label=ARG1]
+}

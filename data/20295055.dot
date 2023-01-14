@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Frank)" [label=BV]
+	compound -> "named(Frank)" [label=ARG2]
+	proper_q -> "named(Mingo)" [label=BV]
+	"_die_v_1-fn.Change_position_on_a_scale" -> "named(Mingo)" [label="ARG1-fn.Attribute"]
+	udef_q -> generic_entity [label=BV]
+	"card(49)" -> generic_entity [label=ARG1]
+	compound -> "named(Mingo)" [label=ARG1]
+	_at_p -> "_die_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_at_p -> generic_entity [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_need_v_1-fn.Needing" -> pron [label="ARG2-fn.Theme"]
+	proper_q -> "named(God)" [label=BV]
+	"_thank_v_for-fn.Judgment_direct_address" -> "named(God)" [label="ARG2-fn.Theme"]
+	"_thank_v_for-fn.Judgment_direct_address" -> pron [label="ARG3-fn.Attribute"]
+	pronoun_q -> pron [label=BV]
+}

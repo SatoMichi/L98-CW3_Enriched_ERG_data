@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.get.03" -> _into_p [label="ARG2-fn.Patient"]
+	"_get_v_state-fn.get.03" -> _supermarket_n_1 [label="ARG1-fn.NotExist"]
+	_too_a_also -> "_get_v_state-fn.get.03" [label=ARG1]
+	_the_q -> _act_n_of [label=BV]
+	udef_q -> _supermarket_n_1 [label=BV]
+	compound -> "_variety_n_of-n" [label=ARG2]
+	_into_p -> _supermarket_n_1 [label=ARG1]
+	compound -> _act_n_of [label=ARG1]
+	udef_q -> "_variety_n_of-n" [label=BV]
+	_into_p -> _act_n_of [label=ARG2]
+}

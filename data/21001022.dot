@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_yield_v_1-fn.Commerce_buy" -> _certificate_n_of [label="ARG1-fn.Buyer"]
+	udef_q -> _percent_n_of [label=BV]
+	_to_p -> _percent_n_of [label=ARG2]
+	udef_q -> _certificate_n_of [label=BV]
+	_in_p_temp -> "yofc(2004)" [label=ARG2]
+	compound -> _serial_n_1 [label=ARG2]
+	compound -> _certificate_n_of [label=ARG1]
+	_in_p_temp -> "_yield_v_1-fn.Commerce_buy" [label=ARG1]
+	_to_p -> "_yield_v_1-fn.Commerce_buy" [label=ARG1]
+	proper_q -> "yofc(2004)" [label=BV]
+	udef_q -> _serial_n_1 [label=BV]
+	"card(7.10)" -> _percent_n_of [label=ARG1]
+}

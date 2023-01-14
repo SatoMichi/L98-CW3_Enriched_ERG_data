@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_predict_v_1-fn.Predicting" -> generic_entity [label="ARG1-fn.Cause"]
+	_would_v_modal -> "_short-lived_a_1" [label=ARG1]
+	"_predict_v_1-fn.Predicting" -> _would_v_modal [label="ARG2-fn.Topic"]
+	udef_q -> generic_entity [label=BV]
+	_commercial_a_1 -> _disruption_n_of [label=ARG1]
+	"_short-lived_a_1" -> _disruption_n_of [label=ARG1]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_the_q -> _disruption_n_of [label=BV]
+}

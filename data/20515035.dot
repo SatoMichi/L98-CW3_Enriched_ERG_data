@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _crowded_a_1 [label=ARG1]
+	udef_q -> "_psyllium/nn_u_unknown" [label=BV]
+	focus_d -> _in_p_temp [label=ARG2]
+	proper_q -> "mofy(Apr)" [label=BV]
+	"_get_v_state-fn.IN" -> _crowded_a_1 [label="ARG2-fn.Patient"]
+	_in_p_temp -> "mofy(Apr)" [label=ARG2]
+	compound -> "_bandwagon/nn_u_unknown" [label=ARG1]
+	_in_p_temp -> "_get_v_state-fn.IN" [label=ARG1]
+	_the_q -> "_bandwagon/nn_u_unknown" [label=BV]
+	"_get_v_state-fn.IN" -> "_bandwagon/nn_u_unknown" [label="ARG1-fn.NotExist"]
+	_crowded_a_1 -> "_bandwagon/nn_u_unknown" [label=ARG1]
+	focus_d -> "_get_v_state-fn.IN" [label=ARG1]
+	compound -> "_psyllium/nn_u_unknown" [label=ARG2]
+}

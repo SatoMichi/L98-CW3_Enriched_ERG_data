@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(John)" [label=ARG2]
+	proper_q -> "named(Rush)" [label=BV]
+	compound -> "named(W)" [label=ARG1]
+	compound -> "named(Rush)" [label=ARG1]
+	proper_q -> "named(John)" [label=BV]
+	proper_q -> "named(W)" [label=BV]
+	unknown -> "named(Rush)" [label=ARG]
+}

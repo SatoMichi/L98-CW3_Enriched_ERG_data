@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_end_v_cause-fn.Cause_to_end" -> _strike_n_1 [label="ARG1-fn.Process"]
+	"_end_v_cause-fn.Cause_to_end" -> "mofy(Oct)" [label="ARG2-fn.Means"]
+	proper_q -> "mofy(Oct)" [label=BV]
+	_the_q -> _strike_n_1 [label=BV]
+}

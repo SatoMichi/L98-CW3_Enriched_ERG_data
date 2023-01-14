@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+order+to_x" -> "_stand_v_1-fn.Expectation" [label=ARG1]
+	_the_q -> _farmer_n_1 [label=BV]
+	"_in+order+to_x" -> "_go_v_1-fn.Competition" [label=ARG2]
+	"_go_v_1-fn.Competition" -> _farmer_n_1 [label="ARG1-fn.Participant_1"]
+	"_stand_v_1-fn.Expectation" -> _farmer_n_1 [label="ARG1-fn.Cognizer"]
+}

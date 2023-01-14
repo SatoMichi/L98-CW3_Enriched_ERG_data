@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _gyration_n_1 [label=ARG1]
+	_political_a_1 -> _gyration_n_1 [label=ARG1]
+	_the_q -> _fund_n_1 [label=BV]
+	compound -> _currency_n_1 [label=ARG2]
+	udef_q -> _gyration_n_1 [label=BV]
+	udef_q -> _currency_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_whipsaw/vb_u_unknown" -> _gyration_n_1 [label=ARG1]
+	"_can_v_modal-fn.Communication_manner" -> "_whipsaw/vb_u_unknown" [label="ARG1-fn.Speaker"]
+	"_whipsaw/vb_u_unknown" -> _fund_n_1 [label=ARG2]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _velocity_n_1 [label=BV]
+	poss -> _velocity_n_1 [label=ARG1]
+	_maximum_a_1 -> _velocity_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _mph_n_1 [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _mph_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _velocity_n_1 [label="ARG1-fn.Process"]
+	"card(72)" -> _mph_n_1 [label=ARG1]
+}

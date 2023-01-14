@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_there-fn.Cause_to_end" -> _support_n_of [label="ARG1-fn.Process"]
+	_for_p -> _support_n_of [label=ARG1]
+	_any_q -> _support_n_of [label=BV]
+	_this_q_dem -> _theory_n_of [label=BV]
+	_empirical_a_1 -> _support_n_of [label=ARG1]
+	_for_p -> _theory_n_of [label=ARG2]
+}

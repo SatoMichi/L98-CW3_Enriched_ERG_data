@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> "_talk_n_of-on" [label="ARG1-fn.Process"]
+	_between_p -> _merger_n_1 [label=ARG1]
+	_periodical_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_between_p -> _exchange_n_1 [label=ARG2]
+	"_talk_n_of-on" -> _merger_n_1 [label=ARG1]
+	"_one+or+more_a_1" -> _exchange_n_1 [label=ARG1]
+	udef_q -> _merger_n_1 [label=BV]
+	_even_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	udef_q -> "_talk_n_of-on" [label=BV]
+	udef_q -> _exchange_n_1 [label=BV]
+}

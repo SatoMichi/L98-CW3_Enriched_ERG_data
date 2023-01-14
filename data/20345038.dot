@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(32)" [label=BV]
+	plus -> "card(32)" [label=ARG2]
+	plus -> "fraction(1/4)" [label=ARG3]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "fraction(7/8)" [label=ARG3]
+	number_q -> "card(1)" [label=BV]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Ogden)" [label="ARG1-fn.Attribute"]
+	plus -> "card(1)" [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(1)" [label="ARG2-fn.Item"]
+	proper_q -> "named(Ogden)" [label=BV]
+	_to_p -> "card(32)" [label=ARG2]
+}

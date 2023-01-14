@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _journalist_n_1 [label=ARG2]
+	_if_x_then -> _would_v_modal [label=ARG1]
+	poss -> _wish_n_1 [label=ARG1]
+	_survive_v_1 -> pron [label=ARG1]
+	"_achieve_v_1-fn.Accomplishment" -> pron [label="ARG1-fn.Agent"]
+	_high_a_1 -> _wish_n_1 [label=ARG1]
+	_every_q -> _journalist_n_1 [label=BV]
+	_would_v_modal -> "_achieve_v_1-fn.Accomplishment" [label=ARG1]
+	superl -> _high_a_1 [label=ARG1]
+	"_achieve_v_1-fn.Accomplishment" -> _wish_n_1 [label="ARG2-fn.Theme"]
+	_if_x_then -> _survive_v_1 [label=ARG2]
+	def_explicit_q -> _wish_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

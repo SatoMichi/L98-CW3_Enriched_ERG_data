@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_disclose_v_to-fn.Reveal_secret" -> _company_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _purchase_n_of [label=BV]
+	compound -> "_capitalization/nn_u_unknown" [label=ARG2]
+	neg -> "_disclose_v_to-fn.Reveal_secret" [label=ARG1]
+	compound -> _purchase_n_of [label=ARG2]
+	udef_q -> _or_c [label=BV]
+	"_disclose_v_to-fn.Reveal_secret" -> _or_c [label="ARG2-fn.Topic"]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> "_capitalization/nn_u_unknown" [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_a_q -> _price_n_of [label=BV]
+	udef_q -> _figure_n_1 [label=BV]
+	compound -> _figure_n_1 [label=ARG1]
+}

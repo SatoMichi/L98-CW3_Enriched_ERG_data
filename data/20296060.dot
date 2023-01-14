@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_forward_p -> _way_n_of [label=ARG1]
+	_the_q -> _way_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _way_n_of [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	which_q -> thing [label=BV]
+}

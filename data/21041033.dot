@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_there -> _finger_n_1 [label=ARG1]
+	"_point_v_1-fn.IN" -> _finger_n_1 [label="ARG2-fn.Patient"]
+	parg_d -> "_point_v_1-fn.IN" [label=ARG1]
+	parg_d -> _finger_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _be_v_there [label="ARG2-fn.Topic"]
+	_no_q -> _finger_n_1 [label=BV]
+	eventuality -> "_point_v_1-fn.IN" [label=ARG1]
+	focus_d -> _be_v_there [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

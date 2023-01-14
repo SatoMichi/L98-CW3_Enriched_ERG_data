@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> unknown [label=ARG1]
+	_only_a_1 -> "_ask_v_1-fn.Questioning" [label=ARG1]
+	proper_q -> "named(Jim)" [label=BV]
+	"_ask_v_1-fn.Questioning" -> "_want_v_1-fn.Desiring" [label="ARG2-fn.Topic"]
+	compound -> "named(Beam)" [label=ARG1]
+	_the_q -> "_tagline/nn_u_unknown" [label=BV]
+	"_ask_v_1-fn.Questioning" -> pron [label="ARG1-fn.Agent"]
+	_colon_p_namely -> _only_a_1 [label=ARG2]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.NotExist"]
+	"_want_v_1-fn.Desiring" -> "named(Beam)" [label="ARG2-fn.NotExist"]
+	_a_q -> "named(Beam)" [label=BV]
+	compound -> "named(Jim)" [label=ARG2]
+	unknown -> "_tagline/nn_u_unknown" [label=ARG]
+	pronoun_q -> pron [label=BV]
+}

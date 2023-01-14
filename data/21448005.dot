@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(250,000)" -> _commuter_n_1 [label=ARG1]
+	udef_q -> _commuter_n_1 [label=BV]
+	udef_q -> _day_n_of [label=BV]
+	"_carry_v_1-fn.Bringing" -> _commuter_n_1 [label="ARG2-fn.Value"]
+	"_carry_v_1-fn.Bringing" -> _bridge_n_1 [label="ARG1-fn.Location"]
+	"card(1)" -> _day_n_of [label=ARG1]
+	_the_q -> _bridge_n_1 [label=BV]
+	loc_nonsp -> "_carry_v_1-fn.Bringing" [label=ARG1]
+	loc_nonsp -> _day_n_of [label=ARG2]
+	_normal_a_1 -> "_carry_v_1-fn.Bringing" [label=ARG1]
+}

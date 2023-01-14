@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> neg [label=ARG2]
+	"_consummate_v_1-fn.Relative_time" -> _marriage_n_1 [label="ARG2-fn.Landmark_occasion"]
+	parg_d -> "_consummate_v_1-fn.Relative_time" [label=ARG1]
+	_exactly_x_deg -> _inevitable_a_1 [label=ARG1]
+	udef_q -> _news_n_of [label=BV]
+	_if_x_then -> _nonetheless_a_1 [label=ARG1]
+	_of_p -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _theater_n_1 [label=BV]
+	neg -> _inevitable_a_1 [label=ARG1]
+	_of_p -> _marriage_n_1 [label=ARG1]
+	parg_d -> _marriage_n_1 [label=ARG2]
+	_nonetheless_a_1 -> "_consummate_v_1-fn.Relative_time" [label=ARG1]
+	_the_q -> _marriage_n_1 [label=BV]
+}

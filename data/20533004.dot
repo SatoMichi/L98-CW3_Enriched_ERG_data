@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _evening_n_of [label=BV]
+	_due_a_1 -> "_expire_v_1-fn.State_continue" [label=ARG1]
+	def_implicit_q -> "dofw(Fri)" [label=BV]
+	loc_nonsp -> _evening_n_of [label=ARG2]
+	"_expire_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	of_p -> _evening_n_of [label=ARG1]
+	loc_nonsp -> "_expire_v_1-fn.State_continue" [label=ARG1]
+	of_p -> "dofw(Fri)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

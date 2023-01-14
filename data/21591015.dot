@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _machine_n_1 [label=BV]
+	_in_p -> "_cost_v_1-fn.Expensiveness" [label=ARG1]
+	"card(16,250)" -> _dollar_n_1 [label=ARG1]
+	_in_p -> "named(Europe)" [label=ARG2]
+	idiom_q_i -> _average_n_of [label=BV]
+	proper_q -> "named(Europe)" [label=BV]
+	"_cost_v_1-fn.Expensiveness" -> _machine_n_1 [label="ARG1-fn.NotExist"]
+	_around_x_deg -> udef_q [label=ARG1]
+	"_cost_v_1-fn.Expensiveness" -> _dollar_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _dollar_n_1 [label=BV]
+	_on_p -> _average_n_of [label=ARG2]
+	_on_p -> _dollar_n_1 [label=ARG1]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _unit_n_of [label="ARG1-fn.Process"]
+	_the_q -> _unit_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(100,000)" -> _dollar_n_1 [label=ARG1]
+	_minimum_a_1 -> _unit_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _dollar_n_1 [label="ARG2-fn.Means"]
+}

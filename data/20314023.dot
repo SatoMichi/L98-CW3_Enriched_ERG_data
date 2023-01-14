@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_cynical_a_about -> _interest_n_in [label=ARG2]
+	udef_q -> _overhaul_n_1 [label=BV]
+	_corporate_a_1 -> _interest_n_in [label=ARG1]
+	compound -> _care_n_1 [label=ARG1]
+	compound -> _health_n_1 [label=ARG2]
+	compound -> _overhaul_n_1 [label=ARG1]
+	_some_q -> _analyst_n_1 [label=BV]
+	_cynical_a_about -> _analyst_n_1 [label=ARG1]
+	_new_a_1 -> _interest_n_in [label=ARG1]
+	_in_p -> _overhaul_n_1 [label=ARG2]
+	udef_q -> _health_n_1 [label=BV]
+	_the_q -> _interest_n_in [label=BV]
+	udef_q -> _care_n_1 [label=BV]
+	_in_p -> _interest_n_in [label=ARG1]
+}

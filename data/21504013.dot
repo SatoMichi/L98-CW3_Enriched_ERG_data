@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Stone)" [label=BV]
+	compound -> "named(Stone)" [label=ARG1]
+	proper_q -> "named(Bob)" [label=BV]
+	_the_q -> _incident_n_1 [label=BV]
+	"_describe_v_to-fn.Amounting_to" -> _incident_n_1 [label="ARG2-fn.Attribute"]
+	"_be_v_id-fn.Cause_to_end" -> "named(Stone)" [label="ARG1-fn.Process"]
+	compound -> "named(Bob)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _name_n_of [label="ARG2-fn.Means"]
+	_fictional_a_1 -> _name_n_of [label=ARG1]
+	_real_a_1 -> _incident_n_1 [label=ARG1]
+	parg_d -> _incident_n_1 [label=ARG2]
+	parg_d -> "_describe_v_to-fn.Amounting_to" [label=ARG1]
+	_a_q -> _name_n_of [label=BV]
+}

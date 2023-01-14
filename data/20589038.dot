@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Schering)" [label=BV]
+	"_deny_v_to-fn.Statement" -> "named(Schering)" [label="ARG1-fn.Agent"]
+	"_comment_v_on-fn.Statement" -> "named(Unilever)" [label="ARG1-fn.Agent"]
+	_the_q -> _brand_n_of [label=BV]
+	proper_q -> "named(Unilever)" [label=BV]
+	"_for-sale_a_1" -> _brand_n_of [label=ARG1]
+	"_deny_v_to-fn.Statement" -> "_for-sale_a_1" [label="ARG2-fn.Predicate"]
+	neg -> "_comment_v_on-fn.Statement" [label=ARG1]
+}

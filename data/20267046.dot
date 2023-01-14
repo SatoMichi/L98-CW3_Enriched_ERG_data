@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.IN" -> _gut_n_1 [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> person [label="ARG1-fn.Pivot"]
+	with_p -> _gut_n_1 [label=ARG2]
+	_the_q -> _gut_n_1 [label=BV]
+	with_p -> "_complain_v_to-about" [label=ARG1]
+	_no_q -> person [label=BV]
+}

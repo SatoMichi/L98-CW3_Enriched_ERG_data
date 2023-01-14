@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_incorporate_v_1-fn.Competition" -> "named(Angels)" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Angels)" [label=BV]
+	udef_q -> "named(Hell)" [label=BV]
+	"_form_v_cause-fn.Cause_to_end" -> "named(Angels)" [label="ARG2-fn.Means"]
+	_in_p_temp -> "_form_v_cause-fn.Cause_to_end" [label=ARG1]
+	proper_q -> "yofc(1948)" [label=BV]
+	_in_p_temp -> "yofc(1948)" [label=ARG2]
+	proper_q -> "yofc(1966)" [label=BV]
+	compound -> "named(Angels)" [label=ARG1]
+	parg_d -> "_form_v_cause-fn.Cause_to_end" [label=ARG1]
+	parg_d -> "_incorporate_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Hell)" [label=ARG2]
+	_in_p_temp -> "yofc(1966)" [label=ARG2]
+	_in_p_temp -> "_incorporate_v_1-fn.Competition" [label=ARG1]
+	parg_d -> "named(Angels)" [label=ARG2]
+}

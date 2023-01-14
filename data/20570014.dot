@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Assemble" -> _concern_n_1 [label="ARG2-fn.Group"]
+	udef_q -> _concern_n_1 [label=BV]
+	udef_q -> _emission_n_of [label=BV]
+	compound -> "_automotive-/nn_u_unknown" [label=ARG2]
+	nominalization -> _test_v_1 [label=ARG1]
+	compound -> _concern_n_1 [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	compound -> _emission_n_of [label=ARG1]
+	compound -> nominalization [label=ARG1]
+	"_be_v_id-fn.Assemble" -> _company_n_of [label="ARG1-fn.Individuals"]
+	udef_q -> nominalization [label=BV]
+	udef_q -> "_automotive-/nn_u_unknown" [label=BV]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_want_v_1-fn.State_continue" [label=ARG1]
+	"_want_v_1-fn.State_continue" -> _customer_n_of [label="ARG1-fn.Entity"]
+	_the_q -> _customer_n_of [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	"_want_v_1-fn.State_continue" -> generic_entity [label="ARG2-fn.State"]
+}

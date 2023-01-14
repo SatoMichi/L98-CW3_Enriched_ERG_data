@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_urge_v_1-fn.IN" -> _passage_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> _abortion_n_of [label=BV]
+	_constitutional_a_1 -> _amendment_n_of [label=ARG1]
+	_again_a_1 -> "_urge_v_1-fn.IN" [label=ARG1]
+	"_outlaw_v_1-fn.Prohibiting" -> _abortion_n_of [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _amendment_n_of [label=BV]
+	"_outlaw_v_1-fn.Prohibiting" -> _amendment_n_of [label="ARG1-fn.Agent"]
+	_passage_n_of -> _amendment_n_of [label=ARG1]
+	udef_q -> _passage_n_of [label=BV]
+	"_urge_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+}

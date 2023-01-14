@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "season(winter)" [label=ARG2]
+	loc_nonsp -> "_eat_v_1-fn.Ingestion" [label=ARG1]
+	_this_q_dem -> "season(winter)" [label=BV]
+	_well_a_1 -> "_eat_v_1-fn.Ingestion" [label=ARG1]
+	_polish_a_1 -> _rat_n_1 [label=ARG1]
+	_the_q -> _rat_n_1 [label=BV]
+	"_eat_v_1-fn.Ingestion" -> _rat_n_1 [label="ARG1-fn.Agent"]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	"_bring_v_1-fn.Bringing" -> _rally_n_1 [label="ARG1-fn.Instrument"]
+	"card(114)" -> _point_n_of [label=ARG1]
+	_this_q_dem -> _week_n_1 [label=BV]
+	_the_q -> _rally_n_1 [label=BV]
+	_to_p -> _point_n_of [label=ARG2]
+	loc_nonsp -> _far_a_1 [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	_far_a_1 -> _gain_n_1 [label=ARG1]
+	_to_p -> "_bring_v_1-fn.Bringing" [label=ARG1]
+	_the_q -> _gain_n_1 [label=BV]
+	comp_so -> _far_a_1 [label=ARG1]
+	udef_q -> _point_n_of [label=BV]
+	"_bring_v_1-fn.Bringing" -> _gain_n_1 [label="ARG2-fn.Theme"]
+}

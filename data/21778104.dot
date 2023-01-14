@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_see_v_1-fn.Expectation" -> _picture_n_of [label="ARG2-fn.Phenomenon"]
+	proper_q -> "named(Bay)" [label=BV]
+	_when_x_subord -> "_begin_v_1-fn.Attack" [label=ARG1]
+	number_q -> "card(880)" [label=BV]
+	_picture_n_of -> _and_c [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_the_q -> "named(Bridge)" [label=BV]
+	_when_x_subord -> "_see_v_1-fn.Expectation" [label=ARG2]
+	"_cry_v_to-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _picture_n_of [label=BV]
+	compound -> "named(Bay)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_see_v_1-fn.Expectation" -> pron [label="ARG1-fn.Cognizer"]
+	compound -> "named(Bridge)" [label=ARG1]
+	"_begin_v_1-fn.Attack" -> "_cry_v_to-fn.Cause_to_continue" [label="ARG1-fn.Victim"]
+}

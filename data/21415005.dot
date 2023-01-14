@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _loan_n_1 [label=ARG2]
+	_intend_v_for -> "_provide_v_1-fn.Supply" [label=ARG2]
+	_the_q -> _loan_n_1 [label=BV]
+	"_provide_v_1-fn.Supply" -> _loan_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _acquisition_n_of [label=BV]
+	nominalization -> _finance_v_1 [label=ARG1]
+	_temporary_a_1 -> nominalization [label=ARG1]
+	compound -> _bridge_n_1 [label=ARG2]
+	parg_d -> _intend_v_for [label=ARG1]
+	"_provide_v_1-fn.Supply" -> nominalization [label="ARG2-fn.Theme"]
+	compound -> _loan_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_for_p -> nominalization [label=ARG1]
+	_for_p -> _acquisition_n_of [label=ARG2]
+	udef_q -> _bridge_n_1 [label=BV]
+}

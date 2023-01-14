@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_total_v_1-fn.Change_position_on_a_scale" -> _dollar_n_1 [label="ARG2-fn.Item"]
+	_previous_a_1 -> _year_n_1 [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	"_total_v_1-fn.Change_position_on_a_scale" -> _sale_n_of [label="ARG1-fn.Attribute"]
+	_the_q -> _year_n_1 [label=BV]
+	loc_nonsp -> _dollar_n_1 [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	_from_p -> _up_p [label=ARG1]
+	times -> "card(1.71)" [label=ARG2]
+	_up_p -> "_total_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	times -> "card(1.81)" [label=ARG2]
+	_from_p -> _dollar_n_1 [label=ARG2]
+}

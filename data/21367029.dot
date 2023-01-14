@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_party_n_of-to" [label=BV]
+	_if_x_then -> "_give_v_1-fn.Giving" [label=ARG1]
+	parg_d -> _bear_v_2 [label=ARG1]
+	"_give_v_1-fn.Giving" -> "_party_n_of-to" [label="ARG2-fn.Theme"]
+	_bear_v_2 -> pron [label=ARG2]
+	"_give_v_1-fn.Giving" -> pron [label="ARG1-fn.Agent"]
+	"_in+order+to_x" -> _bear_v_2 [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	_if_x_then -> "_in+order+to_x" [label=ARG2]
+	"_in+order+to_x" -> "_give_v_1-fn.Giving" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

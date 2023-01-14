@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _chip_n_1 [label=BV]
+	compound -> _chip_n_1 [label=ARG1]
+	"_need_v_1-fn.Needing" -> pron [label="ARG1-fn.Pivot"]
+	_mistaken_a_1 -> "_stick_v_with-fn.Being_attached" [label=ARG1]
+	udef_q -> "_kryptonite/nn_u_unknown" [label=BV]
+	compound -> "_silicon/nn_u_unknown" [label=ARG2]
+	_the_q -> "_handlers/nns_u_unknown" [label=BV]
+	udef_q -> "_silicon/nn_u_unknown" [label=BV]
+	"_need_v_1-fn.Needing" -> "_kryptonite/nn_u_unknown" [label="ARG2-fn.Theme"]
+	"_stick_v_with-fn.Being_attached" -> "_handlers/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	"_stick_v_with-fn.Being_attached" -> _chip_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

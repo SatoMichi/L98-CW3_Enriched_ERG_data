@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_know_v_as-fn.IN" -> _condition_n_1 [label="ARG2-fn.Theme"]
+	parg_d -> "_know_v_as-fn.IN" [label=ARG1]
+	"_lead_v_to-fn.Causation" -> _and_c [label="ARG3-fn.Result"]
+	"_paroxysmal/jj_u_unknown" -> "_tachycardia/nn_u_unknown" [label=ARG1]
+	nominalization -> _faint_v_1 [label=ARG1]
+	udef_q -> "_tachycardia/nn_u_unknown" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _dizziness_n_1 [label=BV]
+	_the_q -> _condition_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_know_v_as-fn.IN" -> "_tachycardia/nn_u_unknown" [label="ARG3-fn.Predicate"]
+	parg_d -> _condition_n_1 [label=ARG2]
+	"_lead_v_to-fn.Causation" -> _condition_n_1 [label="ARG1-fn.Agent"]
+	"_supraventricular/jj_u_unknown" -> "_tachycardia/nn_u_unknown" [label=ARG1]
+}

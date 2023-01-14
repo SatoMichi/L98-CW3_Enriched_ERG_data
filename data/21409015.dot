@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _topic_n_of [label=BV]
+	compound -> "_host_n_of-to" [label=ARG1]
+	"_change_v_cause-fn.Cause_motion" -> _topic_n_of [label="ARG2-fn.Theme"]
+	udef_q -> "_talk_n_of-on" [label=BV]
+	compound -> "_talk_n_of-on" [label=ARG2]
+	udef_q -> _show_n_of [label=BV]
+	compound -> _show_n_of [label=ARG1]
+	_quick_a_1 -> "_change_v_cause-fn.Cause_motion" [label=ARG1]
+	"_change_v_cause-fn.Cause_motion" -> "_host_n_of-to" [label="ARG1-fn.Agent"]
+	udef_q -> "_host_n_of-to" [label=BV]
+}

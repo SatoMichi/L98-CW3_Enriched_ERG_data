@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "named(Boston)" [label=ARG2]
+	proper_q -> "named(Boston)" [label=BV]
+	proper_q -> "named(Westwood)" [label=BV]
+	udef_q -> _group_n_of [label=BV]
+	compound -> _brick_n_1 [label=ARG1]
+	_both_q -> _and_c [label=BV]
+	_in_p -> _and_c [label=ARG1]
+	compound -> _group_n_of [label=ARG1]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _and_c [label="ARG2-fn.Item"]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _brick_n_1 [label=BV]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	"card(2)" -> _and_c [label=ARG1]
+	parg_d -> _and_c [label=ARG2]
+	compound -> "named(Westwood)" [label=ARG2]
+}

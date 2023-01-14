@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _uncertain_a_of [label=ARG2]
+	"_remain_v_1-fn.State_continue" -> _future_n_1 [label="ARG1-fn.NotExist"]
+	subord -> "_remain_v_1-fn.State_continue" [label=ARG1]
+	_of_p -> _forest_n_of [label=ARG2]
+	_of_p -> _future_n_1 [label=ARG1]
+	_the_q -> _future_n_1 [label=BV]
+	_the_q -> _forest_n_of [label=BV]
+}

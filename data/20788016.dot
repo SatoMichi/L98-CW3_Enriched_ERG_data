@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _key_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _consideration_n_of [label="ARG2-fn.Means"]
+	_a_q -> _consideration_n_of [label=BV]
+	_the_q -> _sweep_n_1 [label=BV]
+	_of_p -> _market_n_1 [label=ARG2]
+	"_because+of_p" -> _sweep_n_1 [label=ARG2]
+	_of_p -> _sweep_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _cost_n_1 [label="ARG1-fn.Process"]
+	compound -> _key_n_1 [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	_financial_a_1 -> _market_n_1 [label=ARG1]
+	_global_a_1 -> _sweep_n_1 [label=ARG1]
+	compound -> _consideration_n_of [label=ARG1]
+	udef_q -> _cost_n_1 [label=BV]
+	"_because+of_p" -> _consideration_n_of [label=ARG1]
+}

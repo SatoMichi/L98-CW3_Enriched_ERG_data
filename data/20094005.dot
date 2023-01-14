@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pass_v_1-fn.Giving" -> _buck_n_money [label="ARG2-fn.Theme"]
+	_the_q -> _buck_n_money [label=BV]
+	"_pass_v_1-fn.Giving" -> pron [label="ARG1-fn.Agent"]
+	_to_p -> "_pass_v_1-fn.Giving" [label=ARG1]
+	udef_q -> _people_n_of [label=BV]
+	_to_p -> _people_n_of [label=ARG2]
+	_just_a_1 -> "_pass_v_1-fn.Giving" [label=ARG1]
+	_young_a_1 -> _people_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

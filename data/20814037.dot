@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> _official_n_1 [label="ARG1-fn.Dependent"]
+	udef_q -> _official_n_1 [label=BV]
+	_various_a_1 -> _proposal_n_1 [label=ARG1]
+	"_discuss_v_1-fn.Attempt_suasion" -> _detail_n_1 [label="ARG2-fn.Addressee"]
+	udef_q -> _detail_n_1 [label=BV]
+	"_study_v_1-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+	neg -> "_discuss_v_1-fn.Attempt_suasion" [label=ARG1]
+	udef_q -> _company_n_of [label=BV]
+	udef_q -> _proposal_n_1 [label=BV]
+	compound -> _official_n_1 [label=ARG1]
+	compound -> _company_n_of [label=ARG2]
+	"_discuss_v_1-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+	"_study_v_1-fn.Attempt_suasion" -> _proposal_n_1 [label="ARG2-fn.Addressee"]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _but_c [label="ARG2-fn.Requirement"]
+}

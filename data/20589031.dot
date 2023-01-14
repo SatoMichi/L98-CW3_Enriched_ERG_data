@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Taking" -> _company_n_of [label="ARG1-fn.Agent"]
+	"_soar_v_1-fn.Undergo_change" -> _sale_n_of [label="ARG1-fn.Entity"]
+	udef_q -> _sale_n_of [label=BV]
+	"_say_v_to-fn.Taking" -> "_soar_v_1-fn.Undergo_change" [label="ARG2-fn.Theme"]
+	_the_q -> _company_n_of [label=BV]
+}

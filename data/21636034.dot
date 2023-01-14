@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_any_q -> generic_entity [label=BV]
+	"card(57)" -> _percent_n_of [label=ARG1]
+	_only_a_1 -> _percent_n_of [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> generic_entity [label="ARG2-fn.Theme"]
+	udef_q -> _percent_n_of [label=BV]
+	_some_q_indiv -> _stock_n_1 [label=BV]
+	"card(71)" -> _percent_n_of [label=ARG1]
+	_past_a_1 -> _year_n_1 [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> _stock_n_1 [label="ARG2-fn.Theme"]
+	"_buy_v_1-fn.Commerce_buy" -> _percent_n_of [label="ARG1-fn.Agent"]
+	"_sell_v_1-fn.Commerce_sell" -> _percent_n_of [label="ARG1-fn.Agent"]
+	_in_p_temp -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	_the_q -> _year_n_1 [label=BV]
+	_in_p_temp -> _year_n_1 [label=ARG2]
+	_some_q -> _percent_n_of [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _trail_n_1 [label=ARG1]
+	udef_q -> _park_n_1 [label=BV]
+	_national_a_1 -> _park_n_1 [label=ARG1]
+	_in_p -> _park_n_1 [label=ARG2]
+	_the_q -> _bike_n_1 [label=BV]
+	_on_p -> _trail_n_1 [label=ARG2]
+	_unwelcome_a_1 -> _bike_n_1 [label=ARG1]
+	udef_q -> _trail_n_1 [label=BV]
+	_on_p -> _unwelcome_a_1 [label=ARG1]
+}

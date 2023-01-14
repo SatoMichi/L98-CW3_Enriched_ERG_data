@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_invite_v_to-fn.Request" -> pron [label="ARG1-fn.NotExist"]
+	"_invite_v_to-fn.Request" -> _and_c [label="ARG3-fn.NotExist"]
+	_the_q -> _public_n_1 [label=BV]
+	_stop_v_by -> _public_n_1 [label=ARG1]
+	"_invite_v_to-fn.Request" -> _public_n_1 [label="ARG2-fn.NotExist"]
+	"_see_v_1-fn.Touring" -> _program_n_of [label="ARG2-fn.Stimulus"]
+	"_see_v_1-fn.Touring" -> _public_n_1 [label="ARG1-fn.Experiencer"]
+	neg -> _be_v_there [label=ARG1]
+	udef_q -> _interest_n_in [label=BV]
+	_the_q -> _program_n_of [label=BV]
+	"much-many_a" -> _interest_n_in [label=ARG1]
+	_even_a_1 -> "_invite_v_to-fn.Request" [label=ARG1]
+	_be_v_there -> _interest_n_in [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

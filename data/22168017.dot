@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _offer_n_1 [label=BV]
+	_marvel_v_1 -> pron [label=ARG1]
+	_the_q -> _bid_n_1 [label=BV]
+	_can_v_modal -> _and_c [label=ARG1]
+	_at_p -> _bid_n_1 [label=ARG2]
+	"_sell_v_1-fn.Commerce_sell" -> pron [label="ARG1-fn.Agent"]
+	_at_p -> _offer_n_1 [label=ARG2]
+	_make_v_1 -> pron [label=ARG1]
+	_a_q -> _fortune_n_1 [label=BV]
+	_at_p -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	_at_p -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	_make_v_1 -> _fortune_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

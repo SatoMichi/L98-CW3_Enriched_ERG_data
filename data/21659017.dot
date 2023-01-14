@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _series_n_of [label=BV]
+	"_plan_v_1-fn.Purpose" -> _night_n_of [label="ARG2-fn.NotExist"]
+	_also_a_1 -> "_plan_v_1-fn.Purpose" [label=ARG1]
+	_another_q -> _night_n_of [label=BV]
+	_original_a_1 -> _series_n_of [label=ARG1]
+	_night_n_of -> _series_n_of [label=ARG1]
+	"_plan_v_1-fn.Purpose" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+}

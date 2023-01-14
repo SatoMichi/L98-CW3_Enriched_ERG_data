@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_look_v_like-fn.Appearance" -> "_type_n_of-n" [label="ARG1-fn.Stimulus"]
+	_like_p -> "_look_v_like-fn.Appearance" [label=ARG1]
+	proper_q -> "named(Eagle)" [label=BV]
+	poss -> "named(Eagle)" [label=ARG2]
+	_wooden_a_1 -> _pencil_n_1 [label=ARG1]
+	def_explicit_q -> "_type_n_of-n" [label=BV]
+	_a_q -> _pencil_n_1 [label=BV]
+	_sharpen_v_cause -> _pencil_n_1 [label=ARG2]
+	_sharpen_v_cause -> "_type_n_of-n" [label=ARG1]
+	_like_p -> _pencil_n_1 [label=ARG2]
+	_plastic_a_1 -> "_type_n_of-n" [label=ARG1]
+	poss -> "_type_n_of-n" [label=ARG1]
+}

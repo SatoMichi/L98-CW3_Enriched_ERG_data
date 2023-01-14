@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Saatchi)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(Advertising)" [label="ARG1-fn.Process"]
+	udef_q -> _and_c [label=BV]
+	compound -> _company_n_1 [label=ARG2]
+	proper_q -> "named(Advertising)" [label=BV]
+	udef_q -> _company_n_1 [label=BV]
+	_a_q -> _unit_n_of [label=BV]
+	_unit_n_of -> _and_c [label=ARG1]
+	compound -> "named(Advertising)" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _unit_n_of [label="ARG2-fn.Means"]
+	compound -> "named(Saatchi)" [label=ARG1]
+	compound -> "named(AC&R)" [label=ARG2]
+	proper_q -> "named(AC&R)" [label=BV]
+}

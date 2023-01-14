@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_mislead_v_1-fn.Relative_time" -> _purchase_n_of [label="ARG1-fn.Focal_occasion"]
+	"_can_v_modal-fn.Reliance" -> "_mislead_v_1-fn.Relative_time" [label="ARG1-fn.Protagonist"]
+	_these_q_dem -> _purchase_n_of [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "_lead_v_1-fn.Assemble" [label=ARG1]
+	udef_q -> _chip_n_1 [label=BV]
+	_heavy_a_1 -> nominalization [label=ARG1]
+	_the_q -> _march_n_1 [label=BV]
+	"_lead_v_1-fn.Assemble" -> _march_n_1 [label="ARG2-fn.Group"]
+	_in_p -> nominalization [label=ARG2]
+	_up_p -> "_lead_v_1-fn.Assemble" [label=ARG1]
+	nominalization -> _trade_v_1 [label=ARG1]
+	_blue_a_1 -> _chip_n_1 [label=ARG1]
+	"_lead_v_1-fn.Assemble" -> _chip_n_1 [label="ARG1-fn.Individuals"]
+	udef_q -> nominalization [label=BV]
+}

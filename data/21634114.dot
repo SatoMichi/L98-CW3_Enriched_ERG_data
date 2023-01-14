@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(2)" -> _side_n_1 [label=ARG1]
+	_each_q -> _other_n_1 [label=BV]
+	"_accuse_v_of-fn.Rewards_and_punishments" -> _side_n_1 [label="ARG1-fn.Evaluee"]
+	"_accuse_v_of-fn.Rewards_and_punishments" -> nominalization [label="ARG3-fn.Means"]
+	_the_q -> _side_n_1 [label=BV]
+	"_accuse_v_of-fn.Rewards_and_punishments" -> _other_n_1 [label="ARG2-fn.Manner"]
+	nominalization -> _lie_v_mental [label=ARG1]
+	_now_a_1 -> "_accuse_v_of-fn.Rewards_and_punishments" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

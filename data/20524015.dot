@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_through_p_dir -> _port_n_of [label=ARG2]
+	"_bind_v_to-fn.Cause_to_end" -> _freight_n_1 [label="ARG2-fn.Means"]
+	udef_q -> "named(China)" [label=BV]
+	compound -> "named(China)" [label=ARG2]
+	udef_q -> _freight_n_1 [label=BV]
+	poss -> _port_n_of [label=ARG1]
+	_through_p_dir -> "_stream_v_1-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _freight_n_1 [label=ARG2]
+	"_stream_v_1-fn.Cause_to_end" -> _freight_n_1 [label="ARG1-fn.Process"]
+	poss -> _territory_n_1 [label=ARG2]
+	_the_q -> _territory_n_1 [label=BV]
+	def_explicit_q -> _port_n_of [label=BV]
+	compound -> "_bind_v_to-fn.Cause_to_end" [label=ARG1]
+	parg_d -> "_bind_v_to-fn.Cause_to_end" [label=ARG1]
+}

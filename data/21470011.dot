@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _corporation_n_1 [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+	compound -> "named(Trinidad)" [label=ARG1]
+	"_contest_v_1-fn.State_continue" -> "named(Trinidad)" [label="ARG1-fn.Entity"]
+	"_contest_v_1-fn.State_continue" -> _liability_n_1 [label="ARG2-fn.State"]
+	proper_q -> "named(Trinidad)" [label=BV]
+	udef_q -> _liability_n_1 [label=BV]
+}

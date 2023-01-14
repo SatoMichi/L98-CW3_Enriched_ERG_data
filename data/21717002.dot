@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Duncan)" [label=ARG2]
+	compound -> "named(Columbia)" [label=ARG1]
+	proper_q -> "named(British)" [label=BV]
+	compound -> "named(British)" [label=ARG2]
+	_in_p -> "named(Doman)" [label=ARG1]
+	proper_q -> "named(Duncan)" [label=BV]
+	proper_q -> "named(Doman)" [label=BV]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_in_p -> "named(Columbia)" [label=ARG2]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	proper_q -> "named(Columbia)" [label=BV]
+	"_base_v_1-fn.Change_position_on_a_scale" -> "named(Doman)" [label="ARG2-fn.Item"]
+	parg_d -> "named(Doman)" [label=ARG2]
+}

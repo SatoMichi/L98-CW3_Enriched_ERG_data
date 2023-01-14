@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(9.58)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _conversion_n_1 [label=BV]
+	_a_p_per -> _share_n_of [label=ARG2]
+	udef_q -> _share_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	_the_q -> _price_n_of [label=BV]
+	compound -> _conversion_n_1 [label=ARG2]
+	compound -> _price_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _price_n_of [label="ARG1-fn.Process"]
+	_a_p_per -> _dollar_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _dollar_n_1 [label="ARG2-fn.Means"]
+}

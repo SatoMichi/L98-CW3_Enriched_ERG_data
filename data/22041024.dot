@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_election_n_of-for" [label=BV]
+	_national_a_1 -> _issue_n_1 [label=ARG1]
+	udef_q -> _issue_n_1 [label=BV]
+	_previous_a_1 -> "_election_n_of-for" [label=ARG1]
+	"_clinch_v_1-fn.Attack" -> _issue_n_1 [label="ARG1-fn.Victim"]
+	_similar_a_to -> _issue_n_1 [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	_in_p_state -> "_election_n_of-for" [label=ARG2]
+	"_clinch_v_1-fn.Attack" -> _vote_n_1 [label="ARG2-fn.Weapon"]
+	focus_d -> "_clinch_v_1-fn.Attack" [label=ARG1]
+	_in_p_state -> "_clinch_v_1-fn.Attack" [label=ARG1]
+	_general_a_1 -> "_election_n_of-for" [label=ARG1]
+	comp -> _similar_a_to [label=ARG1]
+	"card(3)" -> "_election_n_of-for" [label=ARG1]
+	_the_q -> _vote_n_1 [label=BV]
+}

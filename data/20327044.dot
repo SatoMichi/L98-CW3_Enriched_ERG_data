@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> nominalization [label=BV]
+	parg_d -> "_blame_v_for-fn.State_continue" [label=ARG1]
+	"_blame_v_for-fn.State_continue" -> nominalization [label="ARG2-fn.State"]
+	"much-many_a" -> part_of [label=ARG1]
+	poss -> _market_n_1 [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	udef_q -> part_of [label=BV]
+	part_of -> _volatility_n_1 [label=ARG1]
+	def_explicit_q -> _volatility_n_1 [label=BV]
+	_recent_a_1 -> _volatility_n_1 [label=ARG1]
+	nominalization -> _trade_v_1 [label=ARG1]
+	"_blame_v_for-fn.State_continue" -> part_of [label="ARG3-fn.Time"]
+	poss -> _volatility_n_1 [label=ARG1]
+	parg_d -> nominalization [label=ARG2]
+}

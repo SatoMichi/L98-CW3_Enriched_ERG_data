@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Council)" [label=ARG1]
+	proper_q -> "named(Defense)" [label=BV]
+	compound -> "named(Resources)" [label=ARG1]
+	_the_q -> "named(Council)" [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Value"]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	proper_q -> "named(Natural)" [label=BV]
+	proper_q -> "named(Resources)" [label=BV]
+	compound -> "named(Natural)" [label=ARG2]
+	compound -> "named(Defense)" [label=ARG1]
+	"_be_v_id-fn.Residence" -> "named(Council)" [label="ARG2-fn.Location"]
+	pronoun_q -> pron [label=BV]
+}

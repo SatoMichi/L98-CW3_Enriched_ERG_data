@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	focus_d -> "_kill_v_1-fn.Attack" [label=ARG2]
+	"_kill_v_1-fn.Attack" -> pron [label="ARG2-fn.Weapon"]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> "_kill_v_1-fn.Attack" [label="ARG2-fn.Requirement"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+}

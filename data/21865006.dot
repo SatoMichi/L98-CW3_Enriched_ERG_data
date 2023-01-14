@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Valley)" [label=BV]
+	_a_p_per -> _share_n_of [label=ARG2]
+	compound -> "named(Valley)" [label=ARG2]
+	"card(36)" -> _cent_n_1 [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	proper_q -> "named(National)" [label=BV]
+	_a_q -> _dividend_n_1 [label=BV]
+	udef_q -> _cent_n_1 [label=BV]
+	_quarterly_a_1 -> _dividend_n_1 [label=ARG1]
+	_of_p -> _dividend_n_1 [label=ARG1]
+	_a_p_per -> _cent_n_1 [label=ARG1]
+	_of_p -> _cent_n_1 [label=ARG2]
+	"_pay_v_for-fn.Receiving" -> "named(National)" [label="ARG1-fn.Recipient"]
+	compound -> "named(National)" [label=ARG1]
+	"_pay_v_for-fn.Receiving" -> _dividend_n_1 [label="ARG3-fn.Theme"]
+}

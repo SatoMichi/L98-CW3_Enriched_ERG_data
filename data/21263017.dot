@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _release_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	"_comment_v_on-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _news_n_of [label=BV]
+	_the_q -> _spokesman_n_1 [label=BV]
+	focus_d -> "_comment_v_on-fn.Statement" [label=ARG2]
+	compound -> _news_n_of [label=ARG2]
+	_beyond_p -> _release_n_of [label=ARG2]
+	_the_q -> _release_n_of [label=BV]
+	_beyond_p -> "_comment_v_on-fn.Statement" [label=ARG1]
+	"_say_v_to-fn.IN" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	neg -> "_comment_v_on-fn.Statement" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

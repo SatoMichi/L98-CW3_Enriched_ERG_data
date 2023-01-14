@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decline_v_1-fn.Experiencer_obj" -> _comment_n_1 [label="ARG2-fn.Stimulus"]
+	udef_q -> _comment_n_1 [label=BV]
+	"_decline_v_1-fn.Experiencer_obj" -> "named(Warner)" [label="ARG1-fn.Experiencer"]
+	compound -> "named(Warner)" [label=ARG1]
+	proper_q -> "named(Warner)" [label=BV]
+	compound -> "named(Time)" [label=ARG2]
+	proper_q -> "named(Time)" [label=BV]
+}

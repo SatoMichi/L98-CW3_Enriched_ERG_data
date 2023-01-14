@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_current_a_1 -> "_do_v_1-fn.State_continue" [label=ARG1]
+	"_do_v_1-fn.State_continue" -> thing [label="ARG2-fn.State"]
+	_however_a_1 -> neg [label=ARG1]
+	neg -> "_do_v_1-fn.State_continue" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_any_q -> thing [label=BV]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	comp -> _small_a_1 [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	"_swell_v_1-fn.Cause_change_of_position_on_a_scale" -> _figure_n_1 [label="ARG2-fn.Patient"]
+	_the_q -> _figure_n_1 [label=BV]
+	times -> "card(2.5)" [label=ARG2]
+	_small_a_1 -> _project_n_1 [label=ARG1]
+	udef_q -> _project_n_1 [label=BV]
+	"_swell_v_1-fn.Cause_change_of_position_on_a_scale" -> _project_n_1 [label="ARG1-fn.NotExist"]
+	times -> "card(1000000000)" [label=ARG3]
+	"_at+least_x_deg" -> udef_q [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	_to_p -> "_swell_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG1]
+}

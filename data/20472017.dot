@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lose_v_1-fn.Competition" -> "named(Boeing)" [label="ARG1-fn.Participant_1"]
+	_the_q -> _strike_n_1 [label=BV]
+	_any_q -> _sense_n_of [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	"_lose_v_1-fn.Competition" -> _business_n_1 [label="ARG2-fn.Participant_2"]
+	neg -> "_go_v_on-fn.Impact" [label=ARG1]
+	_for_x_cond -> neg [label=ARG1]
+	"_go_v_on-fn.Impact" -> _strike_n_1 [label="ARG1-fn.Place"]
+	_long_a_1 -> "_go_v_on-fn.Impact" [label=ARG1]
+	comp_enough -> _long_a_1 [label=ARG1]
+	_in_p -> "_lose_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Boeing)" [label=BV]
+	_in_p -> _sense_n_of [label=ARG2]
+	_real_a_1 -> _sense_n_of [label=ARG1]
+	_for_x_cond -> "_lose_v_1-fn.Competition" [label=ARG2]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_introduce_v_to-fn.Cause_to_end" [label=ARG1]
+	_in_p_temp -> "_introduce_v_to-fn.Cause_to_end" [label=ARG1]
+	"_introduce_v_to-fn.Cause_to_end" -> "_moisturizer/nn_u_unknown" [label="ARG2-fn.Means"]
+	proper_q -> "yofc(1962)" [label=BV]
+	"_have_v_1-fn.Competition" -> _image_n_of [label="ARG2-fn.Participant_2"]
+	"_have_v_1-fn.Competition" -> "_moisturizer/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	_in_p_temp -> "yofc(1962)" [label=ARG2]
+	_a_q -> _image_n_of [label=BV]
+	"_dowdy/jj_u_unknown" -> _image_n_of [label=ARG1]
+	parg_d -> "_moisturizer/nn_u_unknown" [label=ARG2]
+	_the_q -> "_moisturizer/nn_u_unknown" [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _hotel_n_1 [label=ARG2]
+	"_set_v_off-fn.Cause_to_continue" -> _war_n_1 [label="ARG2-fn.Process"]
+	_among_p -> _casino_n_1 [label=ARG2]
+	_a_q -> _war_n_1 [label=BV]
+	nominalization -> _market_v_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	compound -> _war_n_1 [label=ARG1]
+	_among_p -> _war_n_1 [label=ARG1]
+	udef_q -> _hotel_n_1 [label=BV]
+	_big_a_1 -> _casino_n_1 [label=ARG1]
+	_the_q -> _expansion_n_1 [label=BV]
+	"_set_v_off-fn.Cause_to_continue" -> _expansion_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _casino_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	compound -> _casino_n_1 [label=ARG1]
+}

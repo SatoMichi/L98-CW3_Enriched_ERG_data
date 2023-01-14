@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(War)" [label=ARG1]
+	"_let_v_down-fn.Change_posture" -> pron [label="ARG2-fn.Protagonist"]
+	compound -> "named(II)" [label=ARG1]
+	_when_x_subord -> "_come_v_1-fn.Impact" [label=ARG2]
+	"_come_v_1-fn.Impact" -> _japanese_n_1 [label="ARG1-fn.Place"]
+	proper_q -> "named(World)" [label=BV]
+	proper_q -> "named(II)" [label=BV]
+	_when_x_subord -> "_let_v_down-fn.Change_posture" [label=ARG1]
+	compound -> "named(World)" [label=ARG2]
+	_during_p -> "named(II)" [label=ARG2]
+	_the_q -> _japanese_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_down_p -> "_come_v_1-fn.Impact" [label=ARG1]
+	proper_q -> "named(War)" [label=BV]
+	_during_p -> "_come_v_1-fn.Impact" [label=ARG1]
+}

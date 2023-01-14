@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "named(Medical)" [label=ARG2]
+	"_acquire_v_1-fn.Getting" -> "named(Medical)" [label="ARG2-fn.Theme"]
+	compound -> "named(Medical)" [label=ARG1]
+	proper_q -> "named(American)" [label=BV]
+	parg_d -> "_acquire_v_1-fn.Getting" [label=ARG1]
+	compound -> "named(American)" [label=ARG2]
+	proper_q -> "named(Medical)" [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Dorrance)" [label=ARG2]
+	_the_q -> _sale_n_of [label=BV]
+	proper_q -> "named(Sothebys)" [label=BV]
+	_aggressive_a_1 -> "_promote_v_1-fn.NF" [label=ARG1]
+	"_promote_v_1-fn.NF" -> "named(Sothebys)" [label="ARG1-fn.Agent"]
+	"_promote_v_1-fn.NF" -> _sale_n_of [label="ARG2-fn.Theme"]
+	proper_q -> "named(Dorrance)" [label=BV]
+	compound -> _sale_n_of [label=ARG1]
+}

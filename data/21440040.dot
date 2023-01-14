@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_up_p -> _percent_n_of [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	"card(1)" -> _percent_n_of [label=ARG1]
+	"_finish_v_1-fn.Competition" -> _composite_n_1 [label="ARG1-fn.Participant_1"]
+	def_implicit_q -> "dofw(Fri)" [label=BV]
+	_up_p -> "_finish_v_1-fn.Competition" [label=ARG1]
+	_from_p -> "_finish_v_1-fn.Competition" [label=ARG1]
+	_from_p -> _close_n_of [label=ARG2]
+	poss -> _close_n_of [label=ARG1]
+	def_explicit_q -> _close_n_of [label=BV]
+	_last_a_1 -> "dofw(Fri)" [label=ARG1]
+	_the_q -> _composite_n_1 [label=BV]
+	poss -> "dofw(Fri)" [label=ARG2]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _competition_n_1 [label=ARG1]
+	_heavy_a_1 -> _duty_n_1 [label=ARG1]
+	_all_q -> part_of [label=BV]
+	part_of -> "_hoopla/nn_u_unknown" [label=ARG1]
+	_behind_p -> _competition_n_1 [label=ARG1]
+	_some_q_indiv -> _competition_n_1 [label=BV]
+	compound -> _duty_n_1 [label=ARG2]
+	_the_q -> "_hoopla/nn_u_unknown" [label=BV]
+	_behind_p -> part_of [label=ARG2]
+	udef_q -> _duty_n_1 [label=BV]
+}

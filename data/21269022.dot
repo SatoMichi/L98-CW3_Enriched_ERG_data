@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	comp_so -> _soon_p [label=ARG1]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	"_be_v_id-fn.Residence" -> time_n [label="ARG2-fn.Location"]
+	_soon_p -> time_n [label=ARG1]
+}

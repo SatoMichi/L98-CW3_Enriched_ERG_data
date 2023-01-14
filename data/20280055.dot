@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_make_v_1 -> _american_n_1 [label=ARG1]
+	"_believe_v_1-fn.Awareness" -> neg [label="ARG2-fn.NotExist"]
+	compound -> _convenience_n_1 [label=ARG2]
+	neg -> _make_v_1 [label=ARG1]
+	_the_q -> "_trade-off_n_1" [label=BV]
+	_make_v_1 -> "_trade-off_n_1" [label=ARG2]
+	_most_q -> _american_n_1 [label=BV]
+	compound -> "_trade-off_n_1" [label=ARG1]
+	udef_q -> _convenience_n_1 [label=BV]
+	"_believe_v_1-fn.Awareness" -> "_marketers/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	udef_q -> "_marketers/nns_u_unknown" [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Wireless)" [label=BV]
+	number_q -> "card(20)" [label=BV]
+	loc_nonsp -> "card(20)" [label=ARG2]
+	"_fall_v_1-fn.Halt" -> _and_c [label="ARG1-fn.Purpose"]
+	udef_q -> _and_c [label=BV]
+	number_q -> "card(478)" [label=BV]
+	_to_p -> "card(478)" [label=ARG2]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(Cable)" [label=BV]
+}

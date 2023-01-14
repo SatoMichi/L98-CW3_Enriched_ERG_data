@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_advance_v_1-fn.Competition" -> "card(4,400)" [label="ARG3-fn.Participants"]
+	"_add_v_to-fn.Cause_to_end" -> "card(2,010)" [label="ARG3-fn.Place"]
+	number_q -> "card(80)" [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> "card(80)" [label="ARG2-fn.Means"]
+	number_q -> "card(2,010)" [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> "named(Fujisawa)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Mochida)" [label=BV]
+	"_advance_v_1-fn.Competition" -> "yofc(230)" [label="ARG2-fn.Participant_2"]
+	number_q -> "card(4,400)" [label=BV]
+	proper_q -> "named(Fujisawa)" [label=BV]
+	proper_q -> "yofc(230)" [label=BV]
+	"_advance_v_1-fn.Competition" -> "named(Mochida)" [label="ARG1-fn.Participant_1"]
+}

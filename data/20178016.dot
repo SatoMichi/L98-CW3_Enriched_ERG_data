@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _airline_n_1 [label=BV]
+	compound -> "_buy+out_n_1" [label=ARG1]
+	_the_q -> "named_n(House)" [label=BV]
+	compound -> _bill_n_of [label=ARG1]
+	"_approve_v_1-fn.Competition" -> "named_n(House)" [label="ARG1-fn.Participant_1"]
+	parg_d -> _bill_n_of [label=ARG2]
+	udef_q -> "_buy+out_n_1" [label=BV]
+	parg_d -> "_approve_v_1-fn.Competition" [label=ARG1]
+	compound -> _airline_n_1 [label=ARG2]
+	"_approve_v_1-fn.Competition" -> _bill_n_of [label="ARG2-fn.Participant_2"]
+	_a_q -> _bill_n_of [label=BV]
+}

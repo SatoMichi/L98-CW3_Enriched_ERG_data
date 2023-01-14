@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_attract_v_1-fn.Cause_to_end" -> _market_n_1 [label="ARG1-fn.Process"]
+	poss -> _investor_n_1 [label=ARG1]
+	superl -> _big_a_1 [label=ARG1]
+	def_explicit_q -> _investor_n_1 [label=BV]
+	"much-many_a" -> part_of [label=ARG1]
+	poss -> _nation_n_of [label=ARG2]
+	_big_a_1 -> _investor_n_1 [label=ARG1]
+	"_attract_v_1-fn.Cause_to_end" -> part_of [label="ARG2-fn.Means"]
+	_the_q -> _market_n_1 [label=BV]
+	part_of -> _investor_n_1 [label=ARG1]
+	udef_q -> part_of [label=BV]
+	_institutional_a_1 -> _investor_n_1 [label=ARG1]
+	_already_a_1 -> "_attract_v_1-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _nation_n_of [label=BV]
+	"_boom_v_1-fn.Halt" -> _market_n_1 [label="ARG1-fn.Purpose"]
+}

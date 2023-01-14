@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_liquid_a_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_second_a_1 -> _liquid_a_1 [label=ARG1]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_admitted_a_1 -> _gentle_a_1 [label=ARG1]
+	_gentle_a_1 -> _urging_n_1 [label=ARG1]
+	_the_q -> _urging_n_1 [label=BV]
+}

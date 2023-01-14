@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _odds_n_1 [label=BV]
+	_against_p -> _odds_n_1 [label=ARG1]
+	_would_v_modal -> "_no+doubt_a_1" [label=ARG1]
+	"_no+doubt_a_1" -> "_tell_v_1-fn.Telling" [label=ARG1]
+	appos -> pron [label=ARG2]
+	_as_x_subord -> _against_p [label=ARG1]
+	_as_x_subord -> _would_v_modal [label=ARG2]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG2-fn.NotExist"]
+	_against_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

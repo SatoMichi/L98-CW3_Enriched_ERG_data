@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	poss -> _brow_n_1 [label=ARG1]
+	compound -> "named(Pyszkiewicz)" [label=ARG1]
+	_furrow_v_1 -> _brow_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	proper_q -> "named(Pyszkiewicz)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	def_explicit_q -> _brow_n_1 [label=BV]
+	"_smile_v_1-fn.Making_faces" -> "named(Pyszkiewicz)" [label="ARG1-fn.Agent"]
+}

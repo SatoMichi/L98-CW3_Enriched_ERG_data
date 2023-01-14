@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _license_n_1 [label=BV]
+	"_cover_v_1-fn.Social_event" -> _user_n_of [label="ARG2-fn.Social_event"]
+	compound -> "named(Packard)" [label=ARG1]
+	udef_q -> _user_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_charge_v_1-fn.State_continue" -> "named(Packard)" [label="ARG1-fn.Entity"]
+	"card(10)" -> _user_n_of [label=ARG1]
+	proper_q -> "named(Hewlett-)" [label=BV]
+	"card(5,000)" -> _dollar_n_1 [label=ARG1]
+	"_charge_v_1-fn.State_continue" -> _dollar_n_1 [label="ARG2-fn.State"]
+	proper_q -> "named(Packard)" [label=BV]
+	compound -> "named(Hewlett-)" [label=ARG2]
+	"_cover_v_1-fn.Social_event" -> _license_n_1 [label="ARG1-fn.Duration"]
+	_for_p -> _license_n_1 [label=ARG2]
+	_for_p -> "_charge_v_1-fn.State_continue" [label=ARG1]
+}

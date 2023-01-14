@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_ready_a_1 -> "_give_v_in-fn.Cause_motion" [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> "_give_v_in-fn.Cause_motion" [label="ARG1-fn.Process"]
+	"_give_v_in-fn.Cause_motion" -> _government_n_of [label="ARG1-fn.Agent"]
+	_probable_a_1 -> neg [label=ARG1]
+	_to_p -> _foray_n_1 [label=ARG2]
+	_however_a_1 -> _probable_a_1 [label=ARG1]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	proper_q -> "named(Ford)" [label=BV]
+	_by_p -> _foray_n_1 [label=ARG1]
+	_the_q -> _government_n_of [label=BV]
+	_by_p -> "named(Ford)" [label=ARG2]
+	_hostile_a_1 -> _foray_n_1 [label=ARG1]
+	_a_q -> _foray_n_1 [label=BV]
+}

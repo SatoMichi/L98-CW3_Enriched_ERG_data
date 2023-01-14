@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_issue_v_1-fn.NF" -> _trust_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _certificate_n_of [label=BV]
+	_the_q -> _trust_n_1 [label=BV]
+	"_issue_v_1-fn.NF" -> _certificate_n_of [label="ARG2-fn.Theme"]
+}

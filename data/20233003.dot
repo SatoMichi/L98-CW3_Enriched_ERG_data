@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_intend_v_for-fn.Purpose" [label=ARG1]
+	parg_d -> _index_n_1 [label=ARG2]
+	"_intend_v_for-fn.Purpose" -> "_measure_v_1-fn.Dimension" [label="ARG2-fn.NotExist"]
+	udef_q -> _performance_n_1 [label=BV]
+	_economic_a_1 -> _performance_n_1 [label=ARG1]
+	"_measure_v_1-fn.Dimension" -> _index_n_1 [label="ARG1-fn.NotExist"]
+	"_measure_v_1-fn.Dimension" -> _performance_n_1 [label="ARG2-fn.Theme"]
+	_future_a_1 -> _performance_n_1 [label=ARG1]
+	_the_q -> _index_n_1 [label=BV]
+}

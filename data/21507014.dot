@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_but_x -> _beyond_p [label=ARG2]
+	compound -> _decimal_n_1 [label=ARG2]
+	_but_x -> "_fluctuate_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"ord(3)" -> _place_n_of [label=ARG1]
+	compound -> _place_n_of [label=ARG1]
+	_the_q -> _fund_n_1 [label=BV]
+	udef_q -> _decimal_n_1 [label=BV]
+	_actual_a_1 -> _but_x [label=ARG1]
+	_the_q -> _place_n_of [label=BV]
+	_beyond_p -> _place_n_of [label=ARG2]
+	"_fluctuate_v_1-fn.Change_position_on_a_scale" -> _fund_n_1 [label="ARG1-fn.Attribute"]
+}

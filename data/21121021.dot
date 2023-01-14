@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _sand_n_1 [label=ARG2]
+	_sting_v_1 -> _wind_n_1 [label=ARG1]
+	_the_q -> _wind_n_1 [label=BV]
+	"_stop_v_1-fn.Halt" -> _wind_n_1 [label="ARG1-fn.NotExist"]
+	_seem_v_to -> "_stop_v_1-fn.Halt" [label=ARG2]
+	_with_p -> _sting_v_1 [label=ARG1]
+	udef_q -> _sand_n_1 [label=BV]
+	_never_a_1 -> _seem_v_to [label=ARG1]
+}

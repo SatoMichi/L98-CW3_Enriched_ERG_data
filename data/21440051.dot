@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _offering_n_of [label=BV]
+	compound -> "named(Tucson)" [label=ARG1]
+	_the_q -> _list_n_of [label=BV]
+	compound -> "named(Sierra)" [label=ARG2]
+	_initial_a_1 -> _offering_n_of [label=ARG1]
+	"_make_v_1-fn.Rite" -> "named(Tucson)" [label="ARG1-fn.Leader"]
+	proper_q -> "named(Tucson)" [label=BV]
+	proper_q -> "named(Sierra)" [label=BV]
+	_active_a_1 -> _list_n_of [label=ARG1]
+	appos -> _offering_n_of [label=ARG2]
+	appos -> "named(Tucson)" [label=ARG1]
+	_public_a_1 -> _offering_n_of [label=ARG1]
+	superl -> _active_a_1 [label=ARG1]
+	"_make_v_1-fn.Rite" -> _list_n_of [label="ARG2-fn.Member"]
+}

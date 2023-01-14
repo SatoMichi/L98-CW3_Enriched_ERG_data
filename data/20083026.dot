@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_the_q -> _outside_n_of [label=BV]
+	"_see_v_1-fn.Grasp" -> pron [label="ARG1-fn.Experiencer"]
+	_from_p -> "_see_v_1-fn.Grasp" [label=ARG1]
+	compound -> _market_n_1 [label=ARG1]
+	udef_q -> _not_c [label=BV]
+	_from_p -> _not_c [label=ARG2]
+	_the_q -> _inside_n_of [label=BV]
+	"_see_v_1-fn.Grasp" -> _market_n_1 [label="ARG2-fn.Stimulus"]
+	"_want_v_1-fn.Desiring" -> "_see_v_1-fn.Grasp" [label="ARG2-fn.Theme"]
+	_the_q -> _market_n_1 [label=BV]
+	compound -> _glass_n_of [label=ARG2]
+	udef_q -> _glass_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

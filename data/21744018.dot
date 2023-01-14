@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_cut_v_1 -> "_shutdown/nn_u_unknown" [label=ARG1]
+	_by_p -> _cut_v_1 [label=ARG1]
+	udef_q -> _car_n_1 [label=BV]
+	"_affect_v_1-fn.NF" -> "_shutdown/nn_u_unknown" [label="ARG1-fn.Stimulus"]
+	"card(3,000)" -> _worker_n_1 [label=ARG1]
+	_cut_v_1 -> _output_n_of [label=ARG2]
+	_the_q -> "_shutdown/nn_u_unknown" [label=BV]
+	"card(4,320)" -> _car_n_1 [label=ARG1]
+	_about_x_deg -> "card(4,320)" [label=ARG1]
+	udef_q -> _output_n_of [label=BV]
+	_by_p -> _car_n_1 [label=ARG2]
+	udef_q -> _worker_n_1 [label=BV]
+	"_affect_v_1-fn.NF" -> _worker_n_1 [label="ARG2-fn.Experiencer"]
+}

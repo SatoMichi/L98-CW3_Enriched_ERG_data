@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _critic_n_of [label=BV]
+	"_consider_v_1-fn.Categorization" -> _change_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _change_n_of [label=BV]
+	"_regressive/jj_u_unknown" -> _change_n_of [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> "_regressive/jj_u_unknown" [label="ARG3-fn.NotExist"]
+	"_consider_v_1-fn.Categorization" -> _critic_n_of [label="ARG1-fn.Agent"]
+}

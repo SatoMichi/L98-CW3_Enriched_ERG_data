@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _branch_n_of [label=BV]
+	"much-many_a" -> part_of [label=ARG1]
+	focus_d -> _lucrative_a_1 [label=ARG2]
+	_very_x_deg -> _lucrative_a_1 [label=ARG1]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	part_of -> _branch_n_of [label=ARG1]
+	udef_q -> part_of [label=BV]
+	_lucrative_a_1 -> part_of [label=ARG1]
+	"_say_v_to-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Taking" -> _lucrative_a_1 [label="ARG2-fn.Theme"]
+}

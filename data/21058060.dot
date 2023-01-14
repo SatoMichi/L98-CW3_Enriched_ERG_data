@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Shack)" [label=BV]
+	def_explicit_q -> _product_n_1 [label=BV]
+	_controversial_a_1 -> part_of [label=ARG1]
+	_aware_a_of -> _controversial_a_1 [label=ARG2]
+	proper_q -> "named(Radio)" [label=BV]
+	_aware_a_of -> "named(Shack)" [label=ARG1]
+	compound -> "named(Shack)" [label=ARG1]
+	poss -> _product_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_still_a_disc -> _aware_a_of [label=ARG1]
+	part_of -> _product_n_1 [label=ARG1]
+	compound -> "named(Radio)" [label=ARG2]
+	_some_q -> part_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

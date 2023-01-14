@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	which_q -> person [label=BV]
+	"_carry_v_1-fn.Bringing" -> person [label="ARG1-fn.Agent"]
+	"_carry_v_1-fn.Bringing" -> "named(?)" [label="ARG2-fn.Theme"]
+	compound -> _water_n_1 [label=ARG2]
+	udef_q -> _water_n_1 [label=BV]
+	_the_q -> "named(?)" [label=BV]
+	compound -> "named(?)" [label=ARG1]
+	"_going+to_v_qmodal" -> "_carry_v_1-fn.Bringing" [label=ARG1]
+}

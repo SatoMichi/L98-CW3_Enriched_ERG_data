@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _close_v_1 [label=ARG1]
+	"_murder_v_1-fn.Killing" -> _robber_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _business_n_1 [label=BV]
+	loc_nonsp -> temp [label=ARG2]
+	temp_loc_x -> temp [label=ARG2]
+	parg_d -> "_murder_v_1-fn.Killing" [label=ARG1]
+	udef_q -> _robber_n_1 [label=BV]
+	_close_v_1 -> _business_n_1 [label=ARG1]
+	_the_q -> _owner_n_of [label=BV]
+	"_murder_v_1-fn.Killing" -> _owner_n_of [label="ARG2-fn.Patient"]
+	temp_loc_x -> "_murder_v_1-fn.Killing" [label=ARG1]
+	free_relative_q -> temp [label=BV]
+	parg_d -> _owner_n_of [label=ARG2]
+}

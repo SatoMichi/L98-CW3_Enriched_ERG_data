@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Zurich)" [label=BV]
+	_in_p -> "named(Zurich)" [label=ARG2]
+	parg_d -> "_mix_v_1-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _price_n_of [label=ARG2]
+	proper_q -> "named(Stockholm)" [label=BV]
+	_in_p -> "_mix_v_1-fn.Cause_to_end" [label=ARG1]
+	comp -> _low_a_1 [label=ARG1]
+	_in_p -> _low_a_1 [label=ARG1]
+	_low_a_1 -> _price_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	"_mix_v_1-fn.Cause_to_end" -> _price_n_of [label="ARG2-fn.Means"]
+	_in_p -> "named(Stockholm)" [label=ARG2]
+}

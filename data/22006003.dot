@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_decline_v_1 -> "named(Percival)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(Percival)" [label=BV]
+	"_comment_v_on-fn.Statement" -> "named(Percival)" [label="ARG1-fn.Agent"]
+	compound -> "named(Percival)" [label=ARG1]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _proposal_n_1 [label=BV]
+	_at_p -> _executive_n_1 [label=ARG1]
+	udef_q -> _executive_n_1 [label=BV]
+	_decline_v_1 -> _executive_n_1 [label=ARG1]
+	_at_p -> "named(Sharon)" [label=ARG2]
+	proper_q -> "named(Sharon)" [label=BV]
+	"_comment_v_on-fn.Statement" -> _executive_n_1 [label="ARG1-fn.Agent"]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	"_comment_v_on-fn.Statement" -> _proposal_n_1 [label="ARG2-fn.Topic"]
+}

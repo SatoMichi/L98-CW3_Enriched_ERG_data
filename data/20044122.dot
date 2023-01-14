@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_interview_v_1-fn.Social_event" -> _witness_n_1 [label="ARG2-fn.Social_event"]
+	parg_d -> _witness_n_1 [label=ARG2]
+	appos -> _witness_n_1 [label=ARG1]
+	udef_q -> _student_n_of [label=BV]
+	_over_x_deg -> "card(50)" [label=ARG1]
+	udef_q -> _witness_n_1 [label=BV]
+	parg_d -> "_interview_v_1-fn.Social_event" [label=ARG1]
+	_mostly_x_deg -> udef_q [label=ARG1]
+	appos -> _student_n_of [label=ARG2]
+	"card(50)" -> _witness_n_1 [label=ARG1]
+}

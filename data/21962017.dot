@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_expire_v_1-fn.Death" [label=ARG1]
+	_would_v_modal -> _if_x_then [label=ARG1]
+	_the_q -> _put_n_1 [label=BV]
+	subord -> _worthless_a_to [label=ARG2]
+	_if_x_then -> subord [label=ARG2]
+	udef_q -> _case_n_of [label=BV]
+	ellipsis_ref -> _scenario_n_1 [label=ARG1]
+	_the_q -> _scenario_n_1 [label=BV]
+	compound -> _scenario_n_1 [label=ARG1]
+	_bad_a_1 -> _case_n_of [label=ARG1]
+	_if_x_then -> ellipsis_ref [label=ARG1]
+	superl -> _bad_a_1 [label=ARG1]
+	"_expire_v_1-fn.Death" -> _put_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _case_n_of [label=ARG2]
+}

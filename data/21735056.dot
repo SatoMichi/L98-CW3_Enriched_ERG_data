@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _quarter_n_temp [label=ARG1]
+	def_explicit_q -> "dofm(31)" [label=BV]
+	udef_q -> _quarter_n_temp [label=BV]
+	_colon_p_namely -> _quarter_n_temp [label=ARG1]
+	of_p -> "dofm(31)" [label=ARG1]
+	def_implicit_q -> "mofy(Jul)" [label=BV]
+	"ord(1)" -> _quarter_n_temp [label=ARG1]
+	of_p -> "mofy(Jul)" [label=ARG2]
+	loc_nonsp -> "dofm(31)" [label=ARG1]
+	unknown -> _quarter_n_temp [label=ARG]
+	proper_q -> "yofc(1989)" [label=BV]
+	loc_nonsp -> "yofc(1989)" [label=ARG2]
+}

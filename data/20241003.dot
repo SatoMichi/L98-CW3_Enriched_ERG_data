@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_retire_v_1-fn.Quitting" -> _other_n_1 [label="ARG1-fn.NotExist"]
+	_while_x -> _resign_v_1 [label=ARG1]
+	focus_d -> _in_p_temp [label=ARG2]
+	"card(3)" -> _other_n_1 [label=ARG1]
+	_while_x -> "_retire_v_1-fn.Quitting" [label=ARG2]
+	_in_p_temp -> _resign_v_1 [label=ARG1]
+	udef_q -> _director_n_of [label=BV]
+	udef_q -> _other_n_1 [label=BV]
+	"card(1)" -> _director_n_of [label=ARG1]
+	_past_a_1 -> _year_n_1 [label=ARG1]
+	focus_d -> _resign_v_1 [label=ARG1]
+	_the_q -> _year_n_1 [label=BV]
+	_resign_v_1 -> _director_n_of [label=ARG1]
+	_in_p_temp -> _year_n_1 [label=ARG2]
+	_inside_a_1 -> _director_n_of [label=ARG1]
+}

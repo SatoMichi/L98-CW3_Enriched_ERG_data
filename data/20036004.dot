@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(50)" -> _percent_n_of [label=ARG1]
+	_below_p -> _reading_n_of [label=ARG1]
+	"_suggest_v_to-fn.Statement" -> _reading_n_of [label="ARG1-fn.Agent"]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _sector_n_1 [label="ARG1-fn.NotExist"]
+	"_suggest_v_to-fn.Statement" -> "_decline_v_1-fn.Change_position_on_a_scale" [label="ARG2-fn.Topic"]
+	udef_q -> _percent_n_of [label=BV]
+	_any_q -> _reading_n_of [label=BV]
+	_below_p -> _percent_n_of [label=ARG2]
+	_manufacture_v_1 -> _sector_n_1 [label=ARG1]
+	_the_q -> _sector_n_1 [label=BV]
+	_general_a_1 -> "_decline_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

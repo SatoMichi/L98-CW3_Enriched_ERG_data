@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_slow_a_1 -> _construction_n_of [label=ARG1]
+	"_describe_v_as-fn.Have_as_requirement" -> _slow_a_1 [label="ARG3-fn.Degree"]
+	_in_p -> _area_n_of [label=ARG2]
+	_most_q -> _area_n_of [label=BV]
+	_in_p -> "_describe_v_as-fn.Have_as_requirement" [label=ARG1]
+	"_describe_v_as-fn.Have_as_requirement" -> _construction_n_of [label="ARG2-fn.Requirement"]
+	udef_q -> _construction_n_of [label=BV]
+	parg_d -> _construction_n_of [label=ARG2]
+	parg_d -> "_describe_v_as-fn.Have_as_requirement" [label=ARG1]
+	_also_a_1 -> "_describe_v_as-fn.Have_as_requirement" [label=ARG1]
+}

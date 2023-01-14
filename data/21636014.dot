@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_extrapolated/vbn_u_unknown" [label=ARG1]
+	"_can_v_modal-fn.Communication_manner" -> "_extrapolated/vbn_u_unknown" [label="ARG1-fn.Speaker"]
+	_to_p -> _investor_n_1 [label=ARG2]
+	_all_q -> _investor_n_1 [label=BV]
+	parg_d -> _result_n_of [label=ARG2]
+	_to_p -> "_extrapolated/vbn_u_unknown" [label=ARG1]
+	neg -> "_can_v_modal-fn.Communication_manner" [label=ARG1]
+	_the_q -> _result_n_of [label=BV]
+	"_extrapolated/vbn_u_unknown" -> _result_n_of [label=ARG2]
+}

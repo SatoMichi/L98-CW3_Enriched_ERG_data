@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	"_review_v_1-fn.NF" -> _accountant_n_1 [label="ARG1-fn.Agent"]
+	"_review_v_1-fn.NF" -> _book_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _business_n_1 [label=BV]
+	_before_p -> nominalization [label=ARG2]
+	def_explicit_q -> _book_n_of [label=BV]
+	poss -> _book_n_of [label=ARG1]
+	_a_q -> _accountant_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _seller_n_of [label=BV]
+	poss -> _seller_n_of [label=ARG2]
+	"_buy_v_1-fn.Commerce_buy" -> _business_n_1 [label="ARG2-fn.Theme"]
+	_before_p -> "_review_v_1-fn.NF" [label=ARG1]
+	neg -> "_review_v_1-fn.NF" [label=ARG1]
+}

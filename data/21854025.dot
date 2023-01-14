@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_lose_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> "named(Telesis)" [label=ARG1]
+	compound -> "named(Group)" [label=ARG1]
+	proper_q -> "named(Telesis)" [label=BV]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	"card(62.5)" -> _cent_n_1 [label=ARG1]
+	proper_q -> "named(Group)" [label=BV]
+	"_lose_v_1-fn.Change_position_on_a_scale" -> _cent_n_1 [label="ARG2-fn.Item"]
+	udef_q -> _cent_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(44.625)" -> _dollar_n_1 [label=ARG1]
+	"_lose_v_1-fn.Change_position_on_a_scale" -> "named(Group)" [label="ARG1-fn.Attribute"]
+	compound -> "named(Pacific)" [label=ARG2]
+	proper_q -> "named(Pacific)" [label=BV]
+}

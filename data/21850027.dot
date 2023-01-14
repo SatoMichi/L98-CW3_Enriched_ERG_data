@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_receive_v_1-fn.Receiving" [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_from_p -> "named(JAL)" [label=ARG2]
+	"_receive_v_1-fn.Receiving" -> _proposal_n_1 [label="ARG2-fn.Theme"]
+	proper_q -> "named(JAL)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(British)" [label=BV]
+	_from_p -> _proposal_n_1 [label=ARG1]
+	proper_q -> "named(Airways)" [label=BV]
+	"_say_v_to-fn.IN" -> "named(Airways)" [label="ARG1-fn.Agent"]
+	compound -> "named(British)" [label=ARG2]
+	"_receive_v_1-fn.Receiving" -> pron [label="ARG1-fn.Agent"]
+	_a_q -> _proposal_n_1 [label=BV]
+	compound -> "named(Airways)" [label=ARG1]
+}

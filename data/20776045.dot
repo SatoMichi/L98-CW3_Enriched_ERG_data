@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stop_v_1-fn.Halt" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(Hole)" [label=BV]
+	_until_x_h -> neg [label=ARG1]
+	"_get_v_state-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_get_v_state-fn.IN" -> _to_p [label="ARG2-fn.Patient"]
+	proper_q -> "named(Jackson)" [label=BV]
+	_to_p -> "named(Wyoming)" [label=ARG2]
+	compound -> "named(Wyoming)" [label=ARG1]
+	_to_p -> pron [label=ARG1]
+	neg -> "_stop_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(Wyoming)" [label=BV]
+	compound -> "named(Jackson)" [label=ARG2]
+	_until_x_h -> "_get_v_state-fn.IN" [label=ARG2]
+	compound -> "named(Hole)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(40)" -> _chapter_n_1 [label=ARG1]
+	udef_q -> _chapter_n_1 [label=BV]
+	_foreign_a_1 -> _country_n_of [label=ARG1]
+	focus_d -> "_be_v_there-fn.Needing" [label=ARG1]
+	_in_p -> "named_n(US)" [label=ARG2]
+	_the_q -> "named_n(US)" [label=BV]
+	_in_p -> _chapter_n_1 [label=ARG1]
+	"_in+addition+to_p" -> "_be_v_there-fn.Needing" [label=ARG1]
+	"_be_v_there-fn.Needing" -> _chapter_n_1 [label="ARG1-fn.Cognizer"]
+	udef_q -> _country_n_of [label=BV]
+	focus_d -> "_in+addition+to_p" [label=ARG2]
+	"_in+addition+to_p" -> _chapter_n_1 [label=ARG2]
+	_in_p -> _country_n_of [label=ARG2]
+	"card(26)" -> _chapter_n_1 [label=ARG1]
+}

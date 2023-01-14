@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hide_v_away-fn.Apply_heat" -> _attraction_n_of [label="ARG2-fn.Heating_instrument"]
+	parg_d -> _attraction_n_of [label=ARG2]
+	compound -> "named(Navigation)" [label=ARG2]
+	_huge_a_1 -> _attraction_n_of [label=ARG1]
+	_a_q -> _attraction_n_of [label=BV]
+	proper_q -> "named(Mixte)" [label=BV]
+	parg_d -> "_hide_v_away-fn.Apply_heat" [label=ARG1]
+	"_have_v_1-fn.State_continue" -> "named(Mixte)" [label="ARG1-fn.Entity"]
+	compound -> "named(Mixte)" [label=ARG1]
+	"_have_v_1-fn.State_continue" -> _attraction_n_of [label="ARG2-fn.State"]
+	proper_q -> "named(Navigation)" [label=BV]
+}

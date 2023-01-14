@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_steep_a_1 -> _decline_n_1 [label=ARG1]
+	comp -> _steep_a_1 [label=ARG1]
+	comp -> _in_p_temp [label=ARG2]
+	proper_q -> "mofy(Sep)" [label=BV]
+	_the_q -> _decline_n_1 [label=BV]
+	_in_p_temp -> "mofy(Sep)" [label=ARG2]
+	_even_a_1 -> _steep_a_1 [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _would_v_modal [label=ARG1]
+	_would_v_modal -> _be_v_id [label=ARG1]
+	"_hope_v_1-fn.Desiring" -> neg [label="ARG2-fn.Theme"]
+	_as_p -> _institution_n_1 [label=ARG2]
+	_be_v_id -> generic_entity [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_as_p -> _college_n_of [label=ARG1]
+	_educational_a_1 -> _institution_n_1 [label=ARG1]
+	udef_q -> _institution_n_1 [label=BV]
+	_be_v_id -> _case_n_of [label=ARG2]
+	_the_q -> _college_n_of [label=BV]
+	_the_q -> _case_n_of [label=BV]
+	"_hope_v_1-fn.Desiring" -> _college_n_of [label="ARG1-fn.Pivot"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lose_v_1-fn.Competition" -> "card(1)" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Industries)" [label=BV]
+	compound -> "named(Nutmeg)" [label=ARG2]
+	plus -> "fraction(3/4)" [label=ARG3]
+	"_lose_v_1-fn.Competition" -> "named(Industries)" [label="ARG1-fn.Participant_1"]
+	number_q -> "card(1)" [label=BV]
+	proper_q -> "named(Nutmeg)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	_to_p -> "card(14)" [label=ARG2]
+	_to_p -> "_lose_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Industries)" [label=ARG1]
+	number_q -> "card(14)" [label=BV]
+}

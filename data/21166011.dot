@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _percent_n_of [label="ARG2-fn.Name"]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _yield_n_1 [label="ARG1-fn.Entity"]
+	_on_p -> _and_c [label=ARG2]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	compound -> _year_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	"card(7.98)" -> _percent_n_of [label=ARG1]
+	_average_a_1 -> _yield_n_1 [label=ARG1]
+	udef_q -> _cd_n_1 [label=BV]
+	compound -> _cd_n_1 [label=ARG1]
+	_on_p -> _yield_n_1 [label=ARG1]
+	_the_q -> _yield_n_1 [label=BV]
+	"card(5)" -> _year_n_1 [label=ARG1]
+}

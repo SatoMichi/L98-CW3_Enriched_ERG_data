@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _difference_n_1 [label=ARG2]
+	_the_q -> _difference_n_1 [label=BV]
+	_too_a_also -> "_magnify_v_1-fn.Activity_start" [label=ARG1]
+	"_magnify_v_1-fn.Activity_start" -> _difference_n_1 [label="ARG2-fn.Purpose"]
+	parg_d -> "_magnify_v_1-fn.Activity_start" [label=ARG1]
+	udef_q -> _time_n_of [label=BV]
+	_by_p_temp -> _time_n_of [label=ARG2]
+	_by_p_temp -> "_magnify_v_1-fn.Activity_start" [label=ARG1]
+}

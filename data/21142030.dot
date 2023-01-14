@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Ohio)" [label=ARG2]
+	plus -> "card(2)" [label=ARG2]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> "named(Casualty)" [label="ARG1-fn.Attribute"]
+	_to_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "card(49)" [label=ARG2]
+	number_q -> "card(2)" [label=BV]
+	loc_nonsp -> "card(2)" [label=ARG2]
+	_to_p -> "card(49)" [label=ARG2]
+	proper_q -> "named(Ohio)" [label=BV]
+	number_q -> "card(49)" [label=BV]
+	proper_q -> "named(Casualty)" [label=BV]
+	compound -> "named(Casualty)" [label=ARG1]
+	plus -> "fraction(1/2)" [label=ARG3]
+	loc_nonsp -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "fraction(1/8)" [label=ARG3]
+}

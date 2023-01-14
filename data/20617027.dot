@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _attorney_n_1 [label=ARG1]
+	"_average_v_1-fn.NF" -> "card(16)" [label="ARG2-fn.NotExist"]
+	udef_q -> "named_n(US)" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	compound -> "named(Jersey)" [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	proper_q -> "named(New)" [label=BV]
+	"_average_v_1-fn.NF" -> _attorney_n_1 [label="ARG1-fn.Agent"]
+	proper_q -> "named(Jersey)" [label=BV]
+	number_q -> "card(16)" [label=BV]
+	_the_q -> _attorney_n_1 [label=BV]
+}

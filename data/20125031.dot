@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	plus -> "card(2)" [label=ARG2]
+	plus -> "fraction(1/4)" [label=ARG3]
+	udef_q -> _fee_n_1 [label=BV]
+	loc_nonsp -> "card(2)" [label=ARG2]
+	number_q -> "card(2)" [label=BV]
+	unknown -> _fee_n_1 [label=ARG]
+}

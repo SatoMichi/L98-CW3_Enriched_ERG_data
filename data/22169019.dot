@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _money_n_1 [label=BV]
+	_bunch_n_of -> _stuff_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	neg -> "_good_a_at-for-of" [label=ARG1]
+	_whole_a_1 -> _bunch_n_of [label=ARG1]
+	udef_q -> _stuff_n_1 [label=BV]
+	compound -> _money_n_1 [label=ARG2]
+	comp_so -> "_good_a_at-for-of" [label=ARG1]
+	_a_q -> _bunch_n_of [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _and_c [label="ARG1-fn.Process"]
+	compound -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> _stuff_n_1 [label=ARG1]
+}

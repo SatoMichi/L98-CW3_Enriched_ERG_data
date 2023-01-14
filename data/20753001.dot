@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> implicit_conj [label=ARG]
+	unknown -> _association_n_of [label=ARG]
+	compound -> _and_c [label=ARG2]
+	proper_q -> "named(New+Jersey)" [label=BV]
+	udef_q -> _savings_n_1 [label=BV]
+	udef_q -> _association_n_of [label=BV]
+	proper_q -> "named(CRESTMONT)" [label=BV]
+	proper_q -> "named(FEDERAL)" [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _and_c [label=BV]
+	compound -> _association_n_of [label=ARG1]
+	proper_q -> "named(Edison)" [label=BV]
+	compound -> "named(CRESTMONT)" [label=ARG2]
+	udef_q -> _loan_n_1 [label=BV]
+	compound -> "named(FEDERAL)" [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_shore_v_up -> pron [label=ARG1]
+	poss -> pron [label=ARG2]
+	compound -> _tobacco_n_1 [label=ARG2]
+	_also_a_1 -> "_try_v_1-fn.Attempt" [label=ARG1]
+	_shore_v_up -> _business_n_1 [label=ARG2]
+	compound -> _business_n_1 [label=ARG1]
+	poss -> _business_n_1 [label=ARG1]
+	udef_q -> _tobacco_n_1 [label=BV]
+	def_explicit_q -> _business_n_1 [label=BV]
+	"_try_v_1-fn.Attempt" -> _shore_v_up [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

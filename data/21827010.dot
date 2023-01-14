@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(54.875)" -> _dollar_n_1 [label=ARG1]
+	"_close_v_1-fn.Halt" -> "named(Dynamics)" [label="ARG1-fn.Purpose"]
+	_at_p -> "_close_v_1-fn.Halt" [label=ARG1]
+	_up_p -> _cent_n_1 [label=ARG2]
+	compound -> "named(Dynamics)" [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> _cent_n_1 [label=BV]
+	proper_q -> "named(General)" [label=BV]
+	"card(50)" -> _cent_n_1 [label=ARG1]
+	_up_p -> "_close_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(Dynamics)" [label=BV]
+	compound -> "named(General)" [label=ARG2]
+	_at_p -> _dollar_n_1 [label=ARG2]
+}

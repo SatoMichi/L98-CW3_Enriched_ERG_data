@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	_a_q -> _claim_n_of [label=BV]
+	_audacious_a_1 -> _claim_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Residence" -> _claim_n_of [label="ARG2-fn.Location"]
+}

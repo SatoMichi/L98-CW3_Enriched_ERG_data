@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_limit_v_1-fn.Relative_time" [label=ARG1]
+	udef_q -> _airline_n_1 [label=BV]
+	_because_x -> "_become_v_id-fn.Cause_to_end" [label=ARG2]
+	comp_too -> _expensive_a_1 [label=ARG1]
+	"_become_v_id-fn.Cause_to_end" -> _expensive_a_1 [label="ARG2-fn.Means"]
+	_because_x -> "_limit_v_1-fn.Relative_time" [label=ARG1]
+	"_limit_v_1-fn.Relative_time" -> _airline_n_1 [label="ARG1-fn.Focal_occasion"]
+	_the_q -> _program_n_of [label=BV]
+	_expensive_a_1 -> pron [label=ARG1]
+	focus_d -> _previously_p [label=ARG2]
+	"_limit_v_1-fn.Relative_time" -> _program_n_of [label="ARG2-fn.Landmark_occasion"]
+	pronoun_q -> pron [label=BV]
+	"_become_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_previously_p -> "_limit_v_1-fn.Relative_time" [label=ARG1]
+}

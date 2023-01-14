@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _promotion_n_of [label=ARG1]
+	_scope_n_of -> _promotion_n_of [label=ARG1]
+	poss -> "named(Seagram)" [label=ARG2]
+	"_set_v_apart-fn.IN" -> _scope_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _scope_n_of [label=BV]
+	compound -> _promotion_n_of [label=ARG1]
+	"_set_v_apart-fn.IN" -> pron [label="ARG2-fn.Theme"]
+	def_explicit_q -> _promotion_n_of [label=BV]
+	proper_q -> "named(Chivas)" [label=BV]
+	compound -> "named(Chivas)" [label=ARG2]
+	proper_q -> "named(Seagram)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

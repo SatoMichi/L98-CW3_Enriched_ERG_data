@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_put_v_together-fn.Talking_into" -> "named(Kloves)" [label="ARG1-fn.Speaker"]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Kloves)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_some_q -> _moment_n_1 [label=BV]
+	compound -> "named(Kloves)" [label=ARG1]
+	_priceless_a_1 -> _moment_n_1 [label=ARG1]
+	"_put_v_together-fn.Talking_into" -> _moment_n_1 [label="ARG2-fn.Content"]
+}

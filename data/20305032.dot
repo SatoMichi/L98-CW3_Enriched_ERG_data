@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_shut_v_down-fn.Cause_to_continue" -> _headquarters_n_1 [label="ARG2-fn.Process"]
+	def_explicit_q -> _headquarters_n_1 [label=BV]
+	poss -> _headquarters_n_1 [label=ARG1]
+	compound -> "named(York)" [label=ARG1]
+	"_shut_v_down-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	_tony_a_1 -> _headquarters_n_1 [label=ARG1]
+	proper_q -> "named(York)" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	compound -> _headquarters_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	poss -> _company_n_of [label=ARG2]
+}

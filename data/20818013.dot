@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_sight_n_of -> pron [label=ARG1]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	_within_p -> _sight_n_of [label=ARG2]
+	free_relative_q -> thing [label=BV]
+	_all_a_1 -> "_do_v_1-fn.Piracy" [label=ARG1]
+	"_stay_v_prd-fn.Undergo_change" -> _within_p [label="ARG2-fn.Final_category"]
+	udef_q -> _sight_n_of [label=BV]
+	_within_p -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_in+order+to_x" -> "_stay_v_prd-fn.Undergo_change" [label=ARG2]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_in+order+to_x" [label="ARG1-fn.Process"]
+	"_in+order+to_x" -> "_do_v_1-fn.Piracy" [label=ARG1]
+	"_stay_v_prd-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+	"_do_v_1-fn.Piracy" -> thing [label="ARG2-fn.Vehicle"]
+}

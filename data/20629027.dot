@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_persuade_v_of -> _businessman_n_1 [label=ARG2]
+	"_start_v_1-fn.Activity_start" -> subord [label="ARG1-fn.NotExist"]
+	_have_v_qmodal -> _persuade_v_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	subord -> "_think_v_1-fn.IN" [label=ARG1]
+	subord -> _big_a_1 [label=ARG2]
+	def_explicit_q -> _businessman_n_1 [label=BV]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	poss -> _businessman_n_1 [label=ARG1]
+	poss -> "named(India)" [label=ARG2]
+	parg_d -> _businessman_n_1 [label=ARG2]
+	"_overregulated/jj_u_unknown" -> _businessman_n_1 [label=ARG1]
+	proper_q -> "named(India)" [label=BV]
+	parg_d -> _persuade_v_of [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_might_v_modal -> "_pick_v_1-fn.Choosing" [label=ARG1]
+	udef_q -> _sponsor_n_of [label=BV]
+	"_pick_v_1-fn.Choosing" -> _stock_n_1 [label="ARG2-fn.Theme"]
+	"_match_v_cause-fn.Compatibility" -> _stock_n_1 [label="ARG1-fn.NotExist"]
+	"_pick_v_1-fn.Choosing" -> _sponsor_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _market_n_1 [label=BV]
+	neg -> _might_v_modal [label=ARG1]
+	_the_q -> _stock_n_1 [label=BV]
+	"_match_v_cause-fn.Compatibility" -> _market_n_1 [label="ARG2-fn.Patient"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_expectation_n_of -> _bid_n_1 [label=ARG1]
+	_a_q -> _bid_n_1 [label=BV]
+	_imminent_a_1 -> _bid_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> _dealer_n_1 [label="ARG1-fn.Dependent"]
+	_that_q_dem -> _interpretation_n_of [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> "_spark_v_1-fn.Halt" [label="ARG2-fn.Requirement"]
+	udef_q -> _expectation_n_of [label=BV]
+	proper_q -> "named(Ford)" [label=BV]
+	"_spark_v_1-fn.Halt" -> _expectation_n_of [label="ARG2-fn.Place"]
+	_by_p -> _bid_n_1 [label=ARG1]
+	udef_q -> _dealer_n_1 [label=BV]
+	"_spark_v_1-fn.Halt" -> _interpretation_n_of [label="ARG1-fn.Purpose"]
+	_by_p -> "named(Ford)" [label=ARG2]
+}

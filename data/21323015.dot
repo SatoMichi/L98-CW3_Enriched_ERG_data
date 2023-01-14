@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_set_n_of -> _piling_n_1 [label=ARG1]
+	"_cruise_v_1-fn.Ride_vehicle" -> pron [label="ARG1-fn.Agent"]
+	_another_q -> _set_n_of [label=BV]
+	udef_q -> _piling_n_1 [label=BV]
+	_toward_p -> _set_n_of [label=ARG2]
+	_toward_p -> "_cruise_v_1-fn.Ride_vehicle" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

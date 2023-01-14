@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_forever_a_1 -> "_blink_v_1-fn.Competition" [label=ARG1]
+	udef_q -> "named_n(Fed)" [label=BV]
+	"_supremely/rb_u_unknown" -> _cautious_a_of [label=ARG1]
+	_a_q -> _man_n_1 [label=BV]
+	_the_q -> _chairman_n_of [label=BV]
+	compound -> _chairman_n_of [label=ARG1]
+	compound -> "named_n(Fed)" [label=ARG2]
+	_cautious_a_of -> _man_n_1 [label=ARG1]
+	subord -> _yellow_a_1 [label=ARG2]
+	subord -> "_blink_v_1-fn.Competition" [label=ARG1]
+	"_blink_v_1-fn.Competition" -> _chairman_n_of [label="ARG1-fn.Participant_1"]
+}

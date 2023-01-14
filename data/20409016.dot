@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _shoe_n_1 [label=ARG2]
+	"_be_v_id-fn.Assemble" -> generic_entity [label="ARG1-fn.Individuals"]
+	_for_p -> _news_n_of [label=ARG1]
+	udef_q -> _news_n_of [label=BV]
+	_for_p -> "_marketers/nns_u_unknown" [label=ARG2]
+	"_be_v_id-fn.Assemble" -> _news_n_of [label="ARG2-fn.Group"]
+	compound -> _shoe_n_1 [label=ARG1]
+	nominalization -> _walk_v_1 [label=ARG1]
+	udef_q -> "_marketers/nns_u_unknown" [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	_of_p -> "_marketers/nns_u_unknown" [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	udef_q -> _shoe_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_good_a_at-for-of" -> _news_n_of [label=ARG1]
+}

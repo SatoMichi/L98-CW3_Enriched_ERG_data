@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_help_v_1-fn.Competition" -> _stockholder_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _stockholder_n_1 [label=BV]
+	"_help_v_1-fn.Competition" -> nominalization [label="ARG1-fn.Participant_1"]
+	compound -> "named(Columbia)" [label=ARG2]
+	"_would_v_modal-fn.Cause_to_end" -> "_help_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_clear_a_of -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	_a_q -> nominalization [label=BV]
+	measure -> _much_a_1 [label=ARG1]
+	_much_a_1 -> "_help_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Columbia)" [label=BV]
+	compound -> _stockholder_n_1 [label=ARG1]
+	which_q -> abstr_deg [label=BV]
+	measure -> abstr_deg [label=ARG2]
+	neg -> _clear_a_of [label=ARG1]
+	nominalization -> _restructure_v_1 [label=ARG1]
+}

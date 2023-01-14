@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fed+up_a_with" -> _one_n_1 [label=ARG1]
+	_import_v_1 -> _and_c [label=ARG2]
+	"_get_v_state-fn.IN" -> _one_n_1 [label="ARG1-fn.NotExist"]
+	nominalization -> _import_v_1 [label=ARG1]
+	udef_q -> _news_n_of [label=BV]
+	"_get_v_state-fn.IN" -> "_fed+up_a_with" [label="ARG2-fn.Patient"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> "_information_n_on-about" [label=BV]
+	udef_q -> nominalization [label=BV]
+	pronoun_q -> _one_n_1 [label=BV]
+	"_fed+up_a_with" -> nominalization [label=ARG2]
+}

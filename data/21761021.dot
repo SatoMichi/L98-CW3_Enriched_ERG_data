@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(EARNINGS)" [label=ARG2]
+	"_watch_v_for-fn.Perception_active" -> _disappointment_n_at [label="ARG2-fn.Stimulus"]
+	compound -> _disappointment_n_at [label=ARG1]
+	proper_q -> "named(EARNINGS)" [label=BV]
+	"_watch_v_for-fn.Perception_active" -> pron [label="ARG1-fn.Experiencer"]
+	udef_q -> _disappointment_n_at [label=BV]
+	pronoun_q -> pron [label=BV]
+}

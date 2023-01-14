@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_look_v_1-fn.Impact" -> thing [label="ARG2-fn.Result"]
+	_but_p_except -> nominalization [label=ARG2]
+	"_look_v_1-fn.Impact" -> _future_n_1 [label="ARG1-fn.Place"]
+	_but_p_except -> thing [label=ARG1]
+	_terrible_a_for -> _quarter_n_temp [label=ARG1]
+	_the_q -> _future_n_1 [label=BV]
+	nominalization -> _encourage_v_1 [label=ARG1]
+	_any_q -> thing [label=BV]
+	_the_q -> _quarter_n_temp [label=BV]
+	udef_q -> nominalization [label=BV]
+}

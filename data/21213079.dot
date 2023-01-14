@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	plus -> "fraction(21/32)" [label=ARG3]
+	_up_p -> _at_p [label=ARG1]
+	"card(9)" -> _percent_n_of [label=ARG1]
+	_at_p -> "card(97)" [label=ARG2]
+	compound -> "named(Mac)" [label=ARG1]
+	number_q -> "card(97)" [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	proper_q -> "named(Mac)" [label=BV]
+	proper_q -> "named(Freddie)" [label=BV]
+	compound -> _security_n_1 [label=ARG1]
+	compound -> _percent_n_of [label=ARG2]
+	plus -> "card(97)" [label=ARG2]
+	_at_p -> _security_n_1 [label=ARG1]
+	udef_q -> _security_n_1 [label=BV]
+	compound -> "named(Freddie)" [label=ARG2]
+}

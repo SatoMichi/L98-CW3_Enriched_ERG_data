@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sketch_v_1-fn.NF" -> "_passers-/nn_u_unknown" [label="ARG2-fn.Theme"]
+	def_explicit_q -> _day_n_of [label=BV]
+	"_spend_v_1-fn.NF" -> _or_c [label="ARG3-fn.Goal"]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_by_p_dir -> "_passers-/nn_u_unknown" [label=ARG1]
+	"_try_v_1-fn.Attempt" -> ellipsis_ref [label="ARG2-fn.Theme"]
+	ellipsis_ref -> pron [label=ARG1]
+	poss -> _day_n_of [label=ARG1]
+	"_sketch_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> "_passers-/nn_u_unknown" [label=BV]
+	poss -> pron [label=ARG2]
+	"_spend_v_1-fn.NF" -> _day_n_of [label="ARG2-fn.Asset"]
+	"_spend_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _weapon_n_1 [label=BV]
+	"_offer_v_1-fn.NF" -> _opportunity_n_1 [label="ARG2-fn.Theme"]
+	parg_d -> _poise_v_1 [label=ARG1]
+	"_supply_v_1-fn.NF" -> _weapon_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	_well_a_1 -> _poise_v_1 [label=ARG1]
+	_poise_v_1 -> "_supply_v_1-fn.NF" [label=ARG3]
+	udef_q -> "named(Americans)" [label=BV]
+	parg_d -> "named(Americans)" [label=ARG2]
+	"_supply_v_1-fn.NF" -> "named(Americans)" [label="ARG1-fn.Agent"]
+	udef_q -> _opportunity_n_1 [label=BV]
+	_poise_v_1 -> "named(Americans)" [label=ARG2]
+	_also_a_1 -> "_offer_v_1-fn.NF" [label=ARG1]
+	"_offer_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+}

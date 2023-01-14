@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(542)" [label=BV]
+	udef_q -> _issue_n_1 [label=BV]
+	_to_p -> "card(542)" [label=ARG1]
+	"_advance_v_1-fn.Competition" -> _issue_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> "_decliners/nns_u_unknown" [label=BV]
+	loc_nonsp -> "_outnumber_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_while_x -> "_outnumber_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	loc_nonsp -> "card(542)" [label=ARG2]
+	"_outnumber_v_1-fn.Change_position_on_a_scale" -> "_decliners/nns_u_unknown" [label="ARG2-fn.Item"]
+	"card(208)" -> _issue_n_1 [label=ARG1]
+	_to_p -> "card(362)" [label=ARG2]
+	_unchanged_a_1 -> _issue_n_1 [label=ARG1]
+	"_outnumber_v_1-fn.Change_position_on_a_scale" -> _issue_n_1 [label="ARG1-fn.Attribute"]
+	number_q -> "card(362)" [label=BV]
+	_while_x -> _unchanged_a_1 [label=ARG2]
+}

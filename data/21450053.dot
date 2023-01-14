@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_raise_v_cause-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	compound -> _cost_n_1 [label=ARG2]
+	parg_d -> "_add_v_to-fn.Statement" [label=ARG1]
+	"_raise_v_cause-fn.NF" -> _barrier_n_to [label="ARG2-fn.Theme"]
+	_this_q_dem -> generic_entity [label=BV]
+	parg_d -> _barrier_n_to [label=ARG2]
+	"_add_v_to-fn.Statement" -> _barrier_n_to [label="ARG2-fn.Patient"]
+	compound -> _barrier_n_to [label=ARG1]
+	_barrier_n_to -> "_entrepreneurship/nn_u_unknown" [label=ARG1]
+	udef_q -> _cost_n_1 [label=BV]
+	_urban_a_1 -> "_entrepreneurship/nn_u_unknown" [label=ARG1]
+	udef_q -> "_entrepreneurship/nn_u_unknown" [label=BV]
+	udef_q -> _barrier_n_to [label=BV]
+}

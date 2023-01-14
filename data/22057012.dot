@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _indicator_n_of [label=BV]
+	"_watch_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_same_a_as -> "_prognosticators/nns_u_unknown" [label=ARG1]
+	_same_a_as -> _indicator_n_of [label=ARG1]
+	comp_equal -> _same_a_as [label=ARG1]
+	"_listen_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_watch_v_1-fn.Competition" -> _indicator_n_of [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> "_prognosticators/nns_u_unknown" [label=BV]
+	"_listen_v_to-fn.Cause_to_end" -> "_prognosticators/nns_u_unknown" [label="ARG2-fn.Means"]
+}

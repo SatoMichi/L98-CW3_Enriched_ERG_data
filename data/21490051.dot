@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _volume_n_of [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	_daily_a_1 -> _volume_n_of [label=ARG1]
+	udef_q -> _volume_n_of [label=BV]
+	"card(881,969)" -> _share_n_of [label=ARG1]
+	_colon_p_namely -> _share_n_of [label=ARG2]
+	unknown -> _volume_n_of [label=ARG]
+	compound -> nominalization [label=ARG2]
+	nominalization -> _trade_v_1 [label=ARG1]
+	_average_a_1 -> _volume_n_of [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

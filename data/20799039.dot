@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _mistake_n_1 [label="ARG2-fn.Means"]
+	"ord(1)" -> _acquisition_n_of [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	def_explicit_q -> _acquisition_n_of [label=BV]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.Requirement"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	poss -> _acquisition_n_of [label=ARG1]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _acquisition_n_of [label="ARG2-fn.Means"]
+	_a_q -> _mistake_n_1 [label=BV]
+}

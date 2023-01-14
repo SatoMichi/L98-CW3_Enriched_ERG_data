@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rely_v_on-fn.Reliance" -> _theory_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _assumption_n_1 [label=BV]
+	_the_q -> _theory_n_of [label=BV]
+	"_rely_v_on-fn.Reliance" -> _assumption_n_1 [label="ARG2-fn.Theme"]
+	"card(3)" -> _assumption_n_1 [label=ARG1]
+	_colon_p_namely -> "_rely_v_on-fn.Reliance" [label=ARG1]
+}

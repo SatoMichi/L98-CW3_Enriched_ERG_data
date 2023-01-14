@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	_the_q -> _purchase_n_of [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	"_complete_v_2-fn.Activity_finish" -> _purchase_n_of [label="ARG2-fn.Manner"]
+	_never_a_1 -> "_materialize_v_1-fn.Activity_start" [label=ARG1]
+	"_complete_v_2-fn.Activity_finish" -> "named(IMA)" [label="ARG1-fn.Depictive"]
+	proper_q -> "named(IMA)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	"_materialize_v_1-fn.Activity_start" -> pron [label="ARG1-fn.Place"]
+	loc_nonsp -> "_complete_v_2-fn.Activity_finish" [label=ARG1]
+}

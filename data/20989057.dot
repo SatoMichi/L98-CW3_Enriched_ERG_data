@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(2)" -> _ad_n_1 [label=ARG1]
+	poss -> "named(Omnicom)" [label=ARG2]
+	compound -> _agency_n_1 [label=ARG1]
+	poss -> _agency_n_1 [label=ARG1]
+	compound -> "named(DDB)" [label=ARG2]
+	"_design_v_1-fn.Social_event" -> _ad_n_1 [label="ARG2-fn.Social_event"]
+	proper_q -> "named(Needham)" [label=BV]
+	_both_q -> _ad_n_1 [label=BV]
+	proper_q -> "named(Omnicom)" [label=BV]
+	compound -> "named(Needham)" [label=ARG1]
+	proper_q -> "named(DDB)" [label=BV]
+	parg_d -> "_design_v_1-fn.Social_event" [label=ARG1]
+	parg_d -> _ad_n_1 [label=ARG2]
+	"_design_v_1-fn.Social_event" -> _agency_n_1 [label="ARG1-fn.Duration"]
+	def_explicit_q -> _agency_n_1 [label=BV]
+}

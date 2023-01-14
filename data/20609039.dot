@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sparingly/rb_u_unknown" -> "_use_v_1-fn.IN" [label=ARG1]
+	"_use_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_find_v_1-fn.IN" -> _have_v_qmodal [label="ARG2-fn.NotExist"]
+	"_find_v_1-fn.IN" -> _governor_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _governor_n_1 [label=BV]
+	"_maintain_v_1-fn.Statement" -> "_comity/nn_u_unknown" [label="ARG2-fn.Theme"]
+	udef_q -> "_comity/nn_u_unknown" [label=BV]
+	"_maintain_v_1-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _device_n_1 [label=BV]
+	"_use_v_1-fn.IN" -> _device_n_1 [label="ARG2-fn.NotExist"]
+	_political_a_1 -> "_comity/nn_u_unknown" [label=ARG1]
+	_have_v_qmodal -> "_in+order+to_x" [label=ARG1]
+	"_in+order+to_x" -> "_use_v_1-fn.IN" [label=ARG1]
+	"_in+order+to_x" -> "_maintain_v_1-fn.Statement" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Utah)" [label=BV]
+	"card(10)" -> _year_n_1 [label=ARG1]
+	udef_q -> _year_n_1 [label=BV]
+	subord -> _even_a_1 [label=ARG2]
+	"_may_v_modal-fn.Communication_manner" -> _true_a_of [label="ARG1-fn.Speaker"]
+	_true_a_of -> generic_entity [label=ARG1]
+	udef_q -> _time_n_of [label=BV]
+	_in_p -> "named(Utah)" [label=ARG2]
+	_in_p -> _even_a_1 [label=ARG1]
+	subord -> "_change_v_1-fn.Competition" [label=ARG1]
+	"_change_v_1-fn.Competition" -> _time_n_of [label="ARG1-fn.Participant_1"]
+	_ago_p -> _true_a_of [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	_ago_p -> _year_n_1 [label=ARG2]
+}

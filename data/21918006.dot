@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_budge_v_1 -> _company_n_of [label=ARG1]
+	_on_p -> thing [label=ARG2]
+	_for_p -> _union_n_of [label=ARG2]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_on_p -> _budge_v_1 [label=ARG1]
+	_for_p -> _spokesman_n_1 [label=ARG1]
+	neg -> _budge_v_1 [label=ARG1]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_the_q -> _union_n_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	focus_d -> _budge_v_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_any_q -> thing [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

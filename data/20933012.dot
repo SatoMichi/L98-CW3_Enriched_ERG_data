@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_sing_v_1-fn.Communication_manner" [label=ARG1]
+	"_sing_v_1-fn.Communication_manner" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

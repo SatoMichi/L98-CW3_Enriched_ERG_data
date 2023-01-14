@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> implicit_conj [label=ARG]
+	compound -> "named(Brown)" [label=ARG2]
+	unknown -> "named(FORMAN)" [label=ARG]
+	compound -> _corporation_n_1 [label=ARG2]
+	compound -> "named(FORMAN)" [label=ARG1]
+	proper_q -> "named(Brown)" [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	proper_q -> "named(Kentucky)" [label=BV]
+	proper_q -> "named(Louisville)" [label=BV]
+	proper_q -> "named(FORMAN)" [label=BV]
+	udef_q -> _corporation_n_1 [label=BV]
+}

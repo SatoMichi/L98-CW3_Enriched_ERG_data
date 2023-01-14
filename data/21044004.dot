@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _rate_n_of [label=ARG1]
+	"_establish_v_1-fn.Intentionally_create" -> _action_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _tier_n_1 [label=BV]
+	_the_q -> _action_n_1 [label=BV]
+	_a_q -> _rate_n_of [label=BV]
+	compound -> _tier_n_1 [label=ARG2]
+	udef_q -> _exchange_n_1 [label=BV]
+	compound -> _exchange_n_1 [label=ARG2]
+	"_establish_v_1-fn.Intentionally_create" -> _rate_n_of [label="ARG2-fn.NotExist"]
+	"card(2)" -> _tier_n_1 [label=ARG1]
+}

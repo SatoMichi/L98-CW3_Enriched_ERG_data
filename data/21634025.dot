@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _direct_v_to [label=ARG1]
+	_to_p -> _other_n_1 [label=ARG2]
+	"_in+order+to_x" -> "_do_v_1-fn.Piracy" [label=ARG2]
+	udef_q -> _other_n_1 [label=BV]
+	"_do_v_1-fn.Piracy" -> implicit_conj [label="ARG2-fn.Vehicle"]
+	"_in+order+to_x" -> "_fall_v_1-fn.Competition" [label=ARG1]
+	_the_q -> implicit_conj [label=BV]
+	"_fall_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	_to_p -> "_fall_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	nominalization -> _produce_v_1 [label=ARG1]
+	nominalization -> _write_v_to [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> nominalization [label=BV]
+}

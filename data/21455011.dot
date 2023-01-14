@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stir_v_1-fn.Experiencer_obj" -> thing [label="ARG1-fn.NotExist"]
+	"_aerobic/jj_u_unknown" -> _architecture_n_1 [label=ARG1]
+	"_stir_v_1-fn.Experiencer_obj" -> _muse_n_1 [label="ARG2-fn.Experiencer"]
+	def_explicit_q -> _muse_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	udef_q -> _architecture_n_1 [label=BV]
+	_really_a_1 -> "_stir_v_1-fn.Experiencer_obj" [label=ARG1]
+	nominalization -> _really_a_1 [label=ARG1]
+	_be_v_id -> nominalization [label=ARG1]
+	_be_v_id -> _architecture_n_1 [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	poss -> _muse_n_1 [label=ARG1]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

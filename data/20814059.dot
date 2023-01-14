@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _support_n_of [label=BV]
+	"card(50)" -> _percent_n_of [label=ARG1]
+	_other_a_1 -> _country_n_of [label=ARG1]
+	_all_q -> _country_n_of [label=BV]
+	_below_p -> _support_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"_register_v_1-fn.NF" -> _support_n_of [label="ARG2-fn.Theme"]
+	_below_p -> _percent_n_of [label=ARG2]
+	"_register_v_1-fn.NF" -> _country_n_of [label="ARG1-fn.Agent"]
+}

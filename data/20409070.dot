@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_of+course_a_1" -> "_be_v_there-fn.Needing" [label=ARG1]
+	"_be_v_there-fn.Needing" -> _body_n_1 [label="ARG1-fn.Cognizer"]
+	compound -> _die_n_1 [label=ARG2]
+	compound -> _hard_a_for [label=ARG1]
+	_hard_a_for -> _body_n_1 [label=ARG1]
+	udef_q -> _body_n_1 [label=BV]
+	udef_q -> _die_n_1 [label=BV]
+}

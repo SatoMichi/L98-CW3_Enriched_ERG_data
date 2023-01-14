@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(MARKET)" [label=BV]
+	"_move_v_1-fn.Change_position_on_a_scale" -> "named(MARKET)" [label="ARG1-fn.NotExist"]
+	ellipsis_ref -> _manager_n_of [label=ARG1]
+	neg -> ellipsis_ref [label=ARG1]
+	_these_q_dem -> _manager_n_of [label=BV]
+}

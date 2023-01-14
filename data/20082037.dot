@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_both_q -> _side_n_1 [label=BV]
+	"_take_v_1-fn.Commerce_buy" -> _action_n_1 [label="ARG2-fn.Goods"]
+	udef_q -> _action_n_1 [label=BV]
+	"_take_v_1-fn.Commerce_buy" -> _side_n_1 [label="ARG1-fn.Buyer"]
+	"card(2)" -> _side_n_1 [label=ARG1]
+}

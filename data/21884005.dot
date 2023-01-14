@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_modest_a_1 -> _gain_n_1 [label=ARG1]
+	comp -> _broad_a_1 [label=ARG1]
+	udef_q -> _average_n_of [label=BV]
+	_also_a_1 -> "_post_v_1-fn.Social_event" [label=ARG1]
+	"_post_v_1-fn.Social_event" -> _gain_n_1 [label="ARG2-fn.Social_event"]
+	"_post_v_1-fn.Social_event" -> _average_n_of [label="ARG1-fn.Duration"]
+	_broad_a_1 -> _average_n_of [label=ARG1]
+	udef_q -> _gain_n_1 [label=BV]
+}

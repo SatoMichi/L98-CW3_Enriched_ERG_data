@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(9.19)" -> _percent_n_of [label=ARG1]
+	"_in+order+to_x" -> "_price_v_1-fn.NF" [label=ARG1]
+	parg_d -> _security_n_1 [label=ARG2]
+	_at_p -> "card(99.1875)" [label=ARG2]
+	"_in+order+to_x" -> _yield_v_1 [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	_yield_v_1 -> _security_n_1 [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	number_q -> "card(99.1875)" [label=BV]
+	"_price_v_1-fn.NF" -> _security_n_1 [label="ARG2-fn.Theme"]
+	_at_p -> "_price_v_1-fn.NF" [label=ARG1]
+	_the_q -> _security_n_1 [label=BV]
+	parg_d -> "_price_v_1-fn.NF" [label=ARG1]
+	_yield_v_1 -> _percent_n_of [label=ARG2]
+}

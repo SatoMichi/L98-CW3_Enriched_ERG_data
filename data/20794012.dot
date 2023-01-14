@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_comprehensive_a_1 -> _program_n_of [label=ARG1]
+	_a_q -> _program_n_of [label=BV]
+	"_design_v_1-fn.Activity_stop" -> pron [label="ARG1-fn.Purpose"]
+	"_work_v_on-fn.Activity_ongoing" -> pron [label="ARG2-fn.Activity"]
+	_hard_a_for -> "_work_v_on-fn.Activity_ongoing" [label=ARG1]
+	"_design_v_1-fn.Activity_stop" -> _program_n_of [label="ARG2-fn.Place"]
+	pronoun_q -> pron [label=BV]
+}

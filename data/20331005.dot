@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.Competition" -> _holder_n_of [label="ARG1-fn.Participant_1"]
+	udef_q -> _holder_n_of [label=BV]
+	_for_p -> reason [label=ARG2]
+	_for_p -> "_expect_v_1-fn.Competition" [label=ARG1]
+	"_realize_v_1-fn.Competition" -> _holder_n_of [label="ARG1-fn.Participant_1"]
+	"_should_v_modal-fn.Amounting_to" -> "_expect_v_1-fn.Competition" [label="ARG1-fn.Value"]
+	"_expect_v_1-fn.Competition" -> "_realize_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	which_q -> reason [label=BV]
+	parg_d -> _worth_n_of [label=ARG2]
+	parg_d -> "_presume_v_1-fn.Bail_decision" [label=ARG1]
+	_that_q_dem -> _worth_n_of [label=BV]
+	"_presume_v_1-fn.Bail_decision" -> _worth_n_of [label="ARG2-fn.Judge"]
+	"_realize_v_1-fn.Competition" -> _worth_n_of [label="ARG2-fn.Participant_2"]
+}

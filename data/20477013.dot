@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_at+least_x_deg" -> udef_q [label=ARG1]
+	compound -> "named(Deutsche)" [label=ARG2]
+	udef_q -> _year_n_1 [label=BV]
+	_for_p -> "_seek_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Bank)" [label=ARG1]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	_french_a_1 -> _acquisition_n_of [label=ARG1]
+	_for_p -> _year_n_1 [label=ARG2]
+	"_seek_v_1-fn.Competition" -> _acquisition_n_of [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Deutsche)" [label=BV]
+	_a_q -> _acquisition_n_of [label=BV]
+	_active_a_1 -> "_seek_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Bank)" [label=BV]
+	"_seek_v_1-fn.Competition" -> "named(Bank)" [label="ARG1-fn.Participant_1"]
+}

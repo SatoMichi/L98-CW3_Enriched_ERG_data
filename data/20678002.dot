@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(3)" -> _month_n_1 [label=ARG1]
+	compound -> _and_c [label=ARG2]
+	unknown -> _dollar_n_1 [label=ARG]
+	udef_q -> _bill_n_of [label=BV]
+	_of_p -> _bill_n_of [label=ARG2]
+	compound -> _bill_n_of [label=ARG1]
+	"card(6)" -> _month_n_1 [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _month_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	_of_p -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(15.6)" [label=ARG2]
+}

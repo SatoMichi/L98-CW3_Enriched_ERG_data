@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_wide_a_1 -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	ellipsis_ref -> pron [label=ARG1]
+	parg_d -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_expect_v_1-fn.Commerce_buy" -> ellipsis_ref [label="ARG2-fn.Goods"]
+}

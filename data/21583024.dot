@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_too_a_also -> _angry_a_at [label=ARG1]
+	udef_q -> _advocate_n_1 [label=BV]
+	compound -> _right_n_1 [label=ARG1]
+	udef_q -> _right_n_1 [label=BV]
+	_angry_a_at -> _advocate_n_1 [label=ARG1]
+	udef_q -> _gay_n_1 [label=BV]
+	compound -> _gay_n_1 [label=ARG2]
+	compound -> _advocate_n_1 [label=ARG1]
+}

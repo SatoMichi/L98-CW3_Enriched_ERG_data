@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_suffer_v_1-fn.Catastrophe" -> _breakdown_n_1 [label="ARG2-fn.Stimulus"]
+	def_explicit_q -> _predecessor_n_1 [label=BV]
+	"_suffer_v_1-fn.Catastrophe" -> _predecessor_n_1 [label="ARG1-fn.Experiencer"]
+	_nervous_a_about -> _breakdown_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _breakdown_n_1 [label=BV]
+	poss -> _predecessor_n_1 [label=ARG1]
+	_immediate_a_1 -> _predecessor_n_1 [label=ARG1]
+}

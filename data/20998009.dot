@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_turn_v_over-fn.Undergo_change" -> _owner_n_of [label="ARG1-fn.Entity"]
+	udef_q -> "_foreclosure/nn_u_unknown" [label=BV]
+	"_in+lieu+of_p" -> "_foreclosure/nn_u_unknown" [label=ARG2]
+	_to_p -> "_turn_v_over-fn.Undergo_change" [label=ARG1]
+	_to_p -> "_lenders/nns_u_unknown" [label=ARG2]
+	udef_q -> _property_n_1 [label=BV]
+	_quiet_a_1 -> discourse [label=ARG1]
+	_through_p -> _deed_n_1 [label=ARG2]
+	udef_q -> _deed_n_1 [label=BV]
+	_through_p -> "_turn_v_over-fn.Undergo_change" [label=ARG1]
+	udef_q -> _owner_n_of [label=BV]
+	_voluntary_a_1 -> discourse [label=ARG1]
+	"_turn_v_over-fn.Undergo_change" -> _property_n_1 [label="ARG2-fn.Final_category"]
+	udef_q -> "_lenders/nns_u_unknown" [label=BV]
+	"_in+lieu+of_p" -> _deed_n_1 [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_nv -> "_continue_v_1-fn.Process_continue" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_be_v_nv -> _risk_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Clough)" [label="ARG1-fn.Agent"]
+	compound -> "named(Clough)" [label=ARG1]
+	"_continue_v_1-fn.Process_continue" -> _disappointment_n_at [label="ARG1-fn.NotExist"]
+	compound -> _disappointment_n_at [label=ARG1]
+	compound -> _earnings_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _be_v_nv [label="ARG2-fn.Topic"]
+	udef_q -> _disappointment_n_at [label=BV]
+	proper_q -> "named(Clough)" [label=BV]
+	_the_q -> _risk_n_of [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _earnings_n_1 [label=BV]
+}

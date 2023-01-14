@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _utterance_n_1 [label=ARG1]
+	_all_q -> part_of [label=BV]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _utterance_n_1 [label=BV]
+	part_of -> _utterance_n_1 [label=ARG1]
+	_vague_a_1 -> part_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

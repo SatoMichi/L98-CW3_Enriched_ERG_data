@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_ostentation/nn_u_unknown" [label=ARG2]
+	"_appreciate_v_1-fn.Judgment" -> "_ostentation/nn_u_unknown" [label="ARG2-fn.Stimulus"]
+	_moreover_a_1 -> "_appreciate_v_1-fn.Judgment" [label=ARG1]
+	parg_d -> "_appreciate_v_1-fn.Judgment" [label=ARG1]
+	udef_q -> "_ostentation/nn_u_unknown" [label=BV]
+}

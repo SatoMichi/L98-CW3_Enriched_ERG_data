@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> "named(Edisto)" [label="ARG1-fn.Process"]
+	proper_q -> "named(NRM)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _partner_n_1 [label="ARG2-fn.Means"]
+	_general_a_1 -> _partner_n_1 [label=ARG1]
+	_of_p -> "named(NRM)" [label=ARG2]
+	proper_q -> "named(Edisto)" [label=BV]
+	_of_p -> _partner_n_1 [label=ARG1]
+	_current_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _partner_n_1 [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	_a_q -> _loss_n_of [label=BV]
+	compound -> _dollar_n_1 [label=ARG2]
+	"_expect_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_quarterly_a_1 -> _loss_n_of [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	times -> "card(1.42)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_expect_v_1-fn.Attempt" -> _loss_n_of [label="ARG2-fn.Goal"]
+	pronoun_q -> pron [label=BV]
+	compound -> _loss_n_of [label=ARG1]
+}

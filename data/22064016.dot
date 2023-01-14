@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _effort_n_1 [label=ARG1]
+	udef_q -> _effort_n_1 [label=BV]
+	compound -> _reform_n_1 [label=ARG2]
+	comp -> _effort_n_1 [label=ARG2]
+	udef_q -> _reform_n_1 [label=BV]
+	_available_a_1 -> _fund_n_1 [label=ARG1]
+	"_show_v_1-fn.Competition" -> _opponent_n_1 [label="ARG1-fn.Participant_1"]
+	"_show_v_1-fn.Competition" -> "_be_v_there-fn.Needing" [label="ARG2-fn.Participant_2"]
+	_already_a_1 -> "_be_v_there-fn.Needing" [label=ARG1]
+	_commendable_a_1 -> _effort_n_1 [label=ARG1]
+	"_be_v_there-fn.Needing" -> _fund_n_1 [label="ARG1-fn.Cognizer"]
+	udef_q -> _fund_n_1 [label=BV]
+	udef_q -> _opponent_n_1 [label=BV]
+	"much-many_a" -> _fund_n_1 [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+}

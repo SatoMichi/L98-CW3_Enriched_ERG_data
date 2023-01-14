@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mortgage_n_1 [label=ARG2]
+	_the_q -> _demand_n_1 [label=BV]
+	udef_q -> _evidence_n_of [label=BV]
+	_for_p -> _demand_n_1 [label=ARG1]
+	_for_p -> _security_n_1 [label=ARG2]
+	udef_q -> _mortgage_n_1 [label=BV]
+	compound -> _security_n_1 [label=ARG1]
+	_japanese_a_1 -> _demand_n_1 [label=ARG1]
+	_grow_v_1 -> _demand_n_1 [label=ARG1]
+	_evidence_n_of -> _demand_n_1 [label=ARG1]
+	"_abound_v_1-fn.NF" -> _evidence_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _security_n_1 [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _critic_n_of [label=BV]
+	_critic_n_of -> _arrangement_n_1 [label=ARG1]
+	_present_a_1 -> _arrangement_n_1 [label=ARG1]
+	"_in+order+to_x" -> _correct_a_1 [label=ARG1]
+	_correct_a_1 -> _critic_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> _undemocratic_a_1 [label="ARG2-fn.Topic"]
+	_undemocratic_a_1 -> pron [label=ARG1]
+	_the_q -> _arrangement_n_1 [label=BV]
+	"_in+order+to_x" -> "_say_v_to-fn.IN" [label=ARG2]
+	"_say_v_to-fn.IN" -> _critic_n_of [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

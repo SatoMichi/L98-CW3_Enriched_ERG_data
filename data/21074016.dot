@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Taking" -> "_hope_v_1-fn.Getting" [label="ARG2-fn.Theme"]
+	"_complete_v_2-fn.Activity_finish" -> _reorganization_n_1 [label="ARG2-fn.Manner"]
+	_early_a_1 -> "yofc(1990)" [label=ARG1]
+	"_hope_v_1-fn.Getting" -> "_complete_v_2-fn.Activity_finish" [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.Taking" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _spokesman_n_1 [label=BV]
+	_by_p_temp -> "_complete_v_2-fn.Activity_finish" [label=ARG1]
+	_by_p_temp -> "yofc(1990)" [label=ARG2]
+	proper_q -> "yofc(1990)" [label=BV]
+	proper_q -> "named(Maxicare)" [label=BV]
+	"_hope_v_1-fn.Getting" -> "named(Maxicare)" [label="ARG1-fn.Recipient"]
+	_the_q -> _reorganization_n_1 [label=BV]
+	"_complete_v_2-fn.Activity_finish" -> "named(Maxicare)" [label="ARG1-fn.Depictive"]
+}

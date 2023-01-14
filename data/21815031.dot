@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.NotExist"]
+	_the_q -> "named(Northeast)" [label=BV]
+	_slight_a_1 -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(West)" [label=BV]
+	_in_p -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_in_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> "named(South)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	_in_p -> _and_c [label=ARG2]
+	_sharp_a_1 -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Midwest)" [label=BV]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

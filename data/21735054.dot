@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(899.6)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	"_colon_v_id-fn.Perception_body" -> _revenue_n_1 [label="ARG1-fn.Experiencer"]
+	"_colon_v_id-fn.Perception_body" -> _dollar_n_1 [label="ARG2-fn.Body_part"]
+}

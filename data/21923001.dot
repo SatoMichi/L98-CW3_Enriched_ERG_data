@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _cola_n_1 [label=BV]
+	compound -> "named(Coca-)" [label=ARG2]
+	_about_a_1 -> "named(Cola)" [label=ARG1]
+	"_intensify_v_cause-fn.Cause_to_start" -> "named(Cola)" [label="ARG1-fn.Cause"]
+	"_intensify_v_cause-fn.Cause_to_start" -> _war_n_1 [label="ARG2-fn.Effect"]
+	_the_q -> _war_n_1 [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> _about_a_1 [label="ARG1-fn.Speaker"]
+	_about_a_1 -> "_intensify_v_cause-fn.Cause_to_start" [label=ARG2]
+	compound -> _cola_n_1 [label=ARG2]
+	compound -> _company_n_1 [label=ARG2]
+	udef_q -> _company_n_1 [label=BV]
+	proper_q -> "named(Coca-)" [label=BV]
+	proper_q -> "named(Cola)" [label=BV]
+	compound -> _war_n_1 [label=ARG1]
+	compound -> "named(Cola)" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_promise_v_1-fn.Commitment" -> _exchange_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _designer_n_of [label=BV]
+	udef_q -> _change_n_of [label=BV]
+	_a_q -> _exchange_n_1 [label=BV]
+	_both_q -> _side_n_1 [label=BV]
+	"_promise_v_1-fn.Commitment" -> _change_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> "named_n(US)" [label=BV]
+	"card(2)" -> _side_n_1 [label=ARG1]
+	_of_p -> _designer_n_of [label=ARG2]
+	_of_p -> _exchange_n_1 [label=ARG1]
+	_on_p -> _side_n_1 [label=ARG2]
+	compound -> "named_n(US)" [label=ARG2]
+	compound -> _designer_n_of [label=ARG1]
+	_soviet_a_1 -> _designer_n_of [label=ARG1]
+	_on_p -> _change_n_of [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _inch_n_1 [label="ARG2-fn.Means"]
+	poss -> person [label=ARG2]
+	every_q -> person [label=BV]
+	comp -> _close_a_to [label=ARG1]
+	"card(1)" -> _inch_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _finger_n_1 [label="ARG1-fn.Process"]
+	_the_q -> _button_n_1 [label=BV]
+	poss -> _finger_n_1 [label=ARG1]
+	_close_a_to -> _inch_n_1 [label=ARG1]
+	udef_q -> _inch_n_1 [label=BV]
+	def_explicit_q -> _finger_n_1 [label=BV]
+	_close_a_to -> _button_n_1 [label=ARG2]
+}

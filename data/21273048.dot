@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_always_a_1 -> _have_v_qmodal [label=ARG1]
+	"_watch_v_out-fn.Perception_active" -> pron [label="ARG1-fn.Agent"]
+	_for_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _lesson_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _learn_v_1 [label="ARG2-fn.NotExist"]
+	_learn_v_1 -> pron [label=ARG1]
+	_learn_v_1 -> _lesson_n_1 [label=ARG2]
+	_have_v_qmodal -> "_watch_v_out-fn.Perception_active" [label=ARG1]
+	_colon_p_namely -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+}

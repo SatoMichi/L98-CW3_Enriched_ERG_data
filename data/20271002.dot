@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Cablevision)" [label=ARG1]
+	unknown -> "named(Cablevision)" [label=ARG]
+	udef_q -> _inc_n_1 [label=BV]
+	compound -> "named(Continental)" [label=ARG2]
+	proper_q -> "named(Continental)" [label=BV]
+	compound -> _inc_n_1 [label=ARG2]
+	proper_q -> "named(Cablevision)" [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_influence_v_1-fn.Social_event" -> _stock_n_1 [label="ARG1-fn.Duration"]
+	_great_a_1 -> "_influence_v_1-fn.Social_event" [label=ARG1]
+	compound -> "named(Composite)" [label=ARG1]
+	_the_q -> "named(Index)" [label=BV]
+	_these_q_dem -> _stock_n_1 [label=BV]
+	"_influence_v_1-fn.Social_event" -> "named(Index)" [label="ARG2-fn.Social_event"]
+	compound -> "named(Index)" [label=ARG1]
+	proper_q -> "named(Nasdaq)" [label=BV]
+	compound -> "named(Nasdaq)" [label=ARG2]
+	proper_q -> "named(Composite)" [label=BV]
+	_big_a_1 -> _stock_n_1 [label=ARG1]
+}

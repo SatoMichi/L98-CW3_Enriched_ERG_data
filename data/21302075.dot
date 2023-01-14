@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_maintain_v_1-fn.Competition" -> _also_a_1 [label="ARG2-fn.Participant_2"]
+	_also_a_1 -> _inept_a_1 [label=ARG1]
+	"_maintain_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Participant_1"]
+	_some_q -> generic_entity [label=BV]
+	_inept_a_1 -> _underwriter_n_1 [label=ARG1]
+	udef_q -> _underwriter_n_1 [label=BV]
+}

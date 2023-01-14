@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_identify_v_1-fn.Competition" -> _technique_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _vessel_n_1 [label=BV]
+	_diseased_a_1 -> _vessel_n_1 [label=ARG1]
+	_the_q -> _technique_n_1 [label=BV]
+	"_be_v_nv-fn.Experiencer_obj" -> "_could_v_modal-fn.Cause_to_end" [label="ARG2-fn.Stimulus"]
+	"_be_v_nv-fn.Experiencer_obj" -> _hope_n_1 [label="ARG1-fn.Experiencer"]
+	_the_q -> _hope_n_1 [label=BV]
+	_ultimate_a_1 -> _hope_n_1 [label=ARG1]
+	"_identify_v_1-fn.Competition" -> _vessel_n_1 [label="ARG2-fn.Participant_2"]
+	"_could_v_modal-fn.Cause_to_end" -> "_identify_v_1-fn.Competition" [label="ARG1-fn.Process"]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	which_q -> person [label=BV]
+	"_come_v_1-fn.NF" -> thing [label="ARG1-fn.NotExist"]
+	_be_v_id -> person [label=ARG2]
+	_in_p -> "_come_v_1-fn.NF" [label=ARG1]
+	_sure_a_of -> person [label=ARG1]
+	proper_q -> "named(Somalia)" [label=BV]
+	_next_a_1 -> "_come_v_1-fn.NF" [label=ARG1]
+	_in_p -> "named(Somalia)" [label=ARG2]
+	_sure_a_of -> _or_c [label=ARG2]
+	_might_v_modal -> _be_v_id [label=ARG1]
+	_no_q -> person [label=BV]
+	_the_q -> _successor_n_to [label=BV]
+	which_q -> thing [label=BV]
+	_be_v_id -> _successor_n_to [label=ARG1]
+}

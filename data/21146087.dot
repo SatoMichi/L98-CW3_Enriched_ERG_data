@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _tragedy_n_1 [label="ARG2-fn.Means"]
+	_a_q -> _tragedy_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _part_n_1 [label="ARG1-fn.Process"]
+	udef_q -> _part_n_1 [label=BV]
+}

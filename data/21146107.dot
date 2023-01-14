@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	udef_q -> _but_c [label=BV]
+	"_have_v_1-fn.State_continue" -> _but_c [label="ARG2-fn.State"]
+	udef_q -> _plenty_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _freedom_n_1 [label=BV]
+	_plenty_n_of -> _freedom_n_1 [label=ARG1]
+	_no_q -> _choice_n_of [label=BV]
+}

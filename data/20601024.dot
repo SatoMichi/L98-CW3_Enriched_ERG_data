@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _on_p [label=ARG1]
+	compound -> "named(Mayer)" [label=ARG1]
+	"card(3)" -> _member_n_of [label=ARG1]
+	_the_q -> _panel_n_of [label=BV]
+	udef_q -> _member_n_of [label=BV]
+	proper_q -> "named(Mayer)" [label=BV]
+	compound -> _member_n_of [label=ARG2]
+	udef_q -> _judge_n_of [label=BV]
+	compound -> _judge_n_of [label=ARG2]
+	_on_p -> "named(Mayer)" [label=ARG1]
+	compound -> _panel_n_of [label=ARG1]
+	_on_p -> _panel_n_of [label=ARG2]
+}

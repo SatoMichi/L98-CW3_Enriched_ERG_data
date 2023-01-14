@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_become_v_id-fn.Residence" -> "named(Dinkins)" [label="ARG1-fn.Resident"]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _democrat_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_a_q -> _leader_n_of [label=BV]
+	"_become_v_id-fn.Residence" -> _leader_n_of [label="ARG2-fn.Location"]
+	_national_a_1 -> _leader_n_of [label=ARG1]
+	"_hope_v_1-fn.Impact" -> "_could_v_modal-fn.Cause_to_end" [label="ARG2-fn.Result"]
+	"_hope_v_1-fn.Impact" -> _democrat_n_1 [label="ARG1-fn.Place"]
+	_visible_a_to -> _leader_n_of [label=ARG1]
+	proper_q -> "named(Dinkins)" [label=BV]
+	_high_a_1 -> _visible_a_to [label=ARG1]
+	"_could_v_modal-fn.Cause_to_end" -> "_become_v_id-fn.Residence" [label="ARG1-fn.Process"]
+	compound -> "named(Dinkins)" [label=ARG1]
+}

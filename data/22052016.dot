@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "named(Soviets)" [label=ARG]
+	_the_q -> "named(Soviets)" [label=BV]
+	_so_a_thus -> unknown [label=ARG1]
+}

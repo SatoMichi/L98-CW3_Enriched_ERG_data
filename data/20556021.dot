@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> generic_entity [label=BV]
+	_recent_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	proper_q -> "named(Bloomingdale)" [label=BV]
+	"_say_v_to-fn.IN" -> "named(Campeau)" [label="ARG1-fn.Agent"]
+	poss -> "named(Bloomingdale)" [label=ARG2]
+	poss -> generic_entity [label=ARG1]
+	proper_q -> "named(Campeau)" [label=BV]
+	"_sell_v_1-fn.Commerce_sell" -> pron [label="ARG1-fn.Agent"]
+	"_include_v_1-fn.NF" -> _chain_n_of [label="ARG1-fn.NotExist"]
+	"_include_v_1-fn.NF" -> generic_entity [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.IN" -> "_sell_v_1-fn.Commerce_sell" [label="ARG2-fn.Topic"]
+	"_sell_v_1-fn.Commerce_sell" -> generic_entity [label="ARG2-fn.Theme"]
+	_those_q_dem -> _chain_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

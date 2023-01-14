@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cotheme" -> pron [label="ARG1-fn.Theme"]
+	_a_q -> _session_n_1 [label=BV]
+	"_be_v_id-fn.Cotheme" -> _session_n_1 [label="ARG2-fn.Cotheme"]
+	pronoun_q -> pron [label=BV]
+	"ord(1)" -> _session_n_1 [label=ARG1]
+	_interesting_a_for -> _session_n_1 [label=ARG1]
+	"_needless+to+say_a_1" -> "_be_v_id-fn.Cotheme" [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _pilot_n_of [label=ARG1]
+	_too_a_also -> "_anger_v_1-fn.Cause_change" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_anger_v_1-fn.Cause_change" -> _pilot_n_of [label="ARG2-fn.Initial_category"]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(Federal)" [label=BV]
+	proper_q -> "named(Smith)" [label=BV]
+	compound -> "named(Smith)" [label=ARG1]
+	"_anger_v_1-fn.Cause_change" -> "named(Smith)" [label="ARG1-fn.Agent"]
+	poss -> "named(Federal)" [label=ARG2]
+	def_explicit_q -> _pilot_n_of [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.IN" -> _reader_n_of [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	neg -> "_have_v_1-fn.IN" [label=ARG1]
+	udef_q -> _reader_n_of [label=BV]
+	_passive_a_1 -> _reader_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

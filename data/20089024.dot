@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _change_n_of [label=BV]
+	_a_q -> _peal_n_1 [label=BV]
+	_be_v_id -> _peal_n_1 [label=ARG2]
+	_series_n_of -> _change_n_of [label=ARG1]
+	udef_q -> _hour_n_1 [label=BV]
+	_a_q -> _series_n_of [label=BV]
+	compound -> _change_n_of [label=ARG1]
+	"_take_v_1-fn.Taking_time" -> _hour_n_1 [label="ARG2-fn.NotExist"]
+	"_take_v_1-fn.Taking_time" -> _series_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> "_or+so_n_meas" [label=BV]
+	_about_x_deg -> "card(3)" [label=ARG1]
+	_be_v_id -> _series_n_of [label=ARG1]
+	"card(3)" -> _hour_n_1 [label=ARG1]
+	"card(5,000)" -> "_or+so_n_meas" [label=ARG1]
+	compound -> "_or+so_n_meas" [label=ARG2]
+}

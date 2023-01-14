@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _percent_n_of [label=BV]
+	poss -> _profit_n_1 [label=ARG1]
+	def_explicit_q -> _profit_n_1 [label=BV]
+	_of_p -> _profit_n_1 [label=ARG2]
+	proper_q -> "named(Ratners)" [label=BV]
+	_of_p -> _percent_n_of [label=ARG1]
+	"card(30)" -> _percent_n_of [label=ARG1]
+	_already_a_1 -> "_derive_v_from-fn.Giving" [label=ARG1]
+	_the_q -> "named_n(US)" [label=BV]
+	parg_d -> "_derive_v_from-fn.Giving" [label=ARG1]
+	"_derive_v_from-fn.Giving" -> _percent_n_of [label="ARG2-fn.Recipient"]
+	parg_d -> _percent_n_of [label=ARG2]
+	_about_x_deg -> udef_q [label=ARG1]
+	poss -> "named(Ratners)" [label=ARG2]
+	"_derive_v_from-fn.Giving" -> "named_n(US)" [label="ARG3-fn.Theme"]
+}

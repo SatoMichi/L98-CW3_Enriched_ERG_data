@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	_about_p -> _philosophical_a_1 [label=ARG1]
+	def_explicit_q -> _travail_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_philosophical_a_1 -> "named(Fedders)" [label=ARG1]
+	proper_q -> "named(Fedders)" [label=BV]
+	poss -> _travail_n_1 [label=ARG1]
+	_about_p -> _travail_n_1 [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> "named(Fedders)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

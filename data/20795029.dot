@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_slow_v_1-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+	udef_q -> _production_n_of [label=BV]
+	"_slow_v_1-fn.Undergo_change" -> _production_n_of [label="ARG2-fn.Final_category"]
+}

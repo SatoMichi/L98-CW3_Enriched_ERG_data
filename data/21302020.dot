@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_ever_a_1 -> _costly_a_1 [label=ARG1]
+	_costly_a_1 -> _catastrophe_n_1 [label=ARG1]
+	udef_q -> _catastrophe_n_1 [label=BV]
+	"_get_v_state-fn.IN" -> _catastrophe_n_1 [label="ARG1-fn.NotExist"]
+	comp -> _ever_a_1 [label=ARG1]
+	"_get_v_state-fn.IN" -> _costly_a_1 [label="ARG2-fn.Patient"]
+}

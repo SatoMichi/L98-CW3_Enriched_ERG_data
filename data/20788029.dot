@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _litigation_n_1 [label=BV]
+	_the_q -> "_enactment/nn_u_unknown" [label=BV]
+	_of_p -> "_enactment/nn_u_unknown" [label=ARG1]
+	_increase_v_cause -> _litigation_n_1 [label=ARG2]
+	_this_q_dem -> _provision_n_1 [label=BV]
+	_of_p -> _provision_n_1 [label=ARG2]
+	parg_d -> _litigation_n_1 [label=ARG2]
+	_logical_a_for -> "_assume_v_1-fn.Adopt_selection" [label=ARG1]
+	"_lead_v_to-fn.Causation" -> "_enactment/nn_u_unknown" [label="ARG1-fn.Agent"]
+	_only_x_deg -> _logical_a_for [label=ARG1]
+	"_lead_v_to-fn.Causation" -> _litigation_n_1 [label="ARG3-fn.Result"]
+	parg_d -> _increase_v_cause [label=ARG1]
+	"_assume_v_1-fn.Adopt_selection" -> "_lead_v_to-fn.Causation" [label="ARG2-fn.NotExist"]
+}

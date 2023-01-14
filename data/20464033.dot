@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_to_p -> _due_a_1 [label=ARG1]
+	compound -> _addition_n_1 [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _reserve_n_1 [label=BV]
+	_to_p -> _reserve_n_1 [label=ARG2]
+	_the_q -> _loss_n_of [label=BV]
+	_due_a_1 -> _loss_n_of [label=ARG1]
+	compound -> _dollar_n_1 [label=ARG2]
+	times -> "card(55.2)" [label=ARG2]
+	_a_q -> _addition_n_1 [label=BV]
+	_to_p -> _addition_n_1 [label=ARG1]
+	_largely_a_1 -> _due_a_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+}

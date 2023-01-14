@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_at+least_x_deg" -> comp_so [label=ARG1]
+	neg -> "_obligate_v_1-fn.NF" [label=ARG1]
+	"_mean_v_to-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	"_obligate_v_1-fn.NF" -> _pay_v_for [label="ARG3-fn.Result"]
+	_pay_v_for -> _fund_n_1 [label=ARG1]
+	_pay_v_for -> thing [label=ARG2]
+	_far_a_1 -> "_obligate_v_1-fn.NF" [label=ARG1]
+	parg_d -> _fund_n_1 [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	_the_q -> _fund_n_1 [label=BV]
+	comp_so -> _far_a_1 [label=ARG1]
+	"_obligate_v_1-fn.NF" -> _fund_n_1 [label="ARG2-fn.Patient"]
+	_any_q -> thing [label=BV]
+	"_mean_v_to-fn.NF" -> neg [label="ARG2-fn.Theme"]
+	parg_d -> "_obligate_v_1-fn.NF" [label=ARG1]
+}

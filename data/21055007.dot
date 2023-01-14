@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _day_n_of [label=BV]
+	_financial_a_1 -> _stock_n_1 [label=ARG1]
+	"_carry_v_1-fn.State_continue" -> _day_n_of [label="ARG2-fn.State"]
+	_big_a_1 -> _stock_n_1 [label=ARG1]
+	udef_q -> _stock_n_1 [label=BV]
+	"_carry_v_1-fn.State_continue" -> _stock_n_1 [label="ARG1-fn.Entity"]
+}

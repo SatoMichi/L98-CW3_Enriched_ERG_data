@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(2680)" [label=BV]
+	_the_q -> _day_n_of [label=BV]
+	"_end_v_cause-fn.Cause_to_end" -> "named(Estate)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Estate)" [label=BV]
+	_up_p -> "_end_v_cause-fn.Cause_to_end" [label=ARG1]
+	proper_q -> "named(Mitsubishi)" [label=BV]
+	compound -> "named(Mitsubishi)" [label=ARG2]
+	"_end_v_cause-fn.Cause_to_end" -> _day_n_of [label="ARG2-fn.Means"]
+	_up_p -> "card(150)" [label=ARG2]
+	_at_p -> "_end_v_cause-fn.Cause_to_end" [label=ARG1]
+	number_q -> "card(150)" [label=BV]
+	_at_p -> "card(2680)" [label=ARG2]
+	compound -> "named(Estate)" [label=ARG1]
+}

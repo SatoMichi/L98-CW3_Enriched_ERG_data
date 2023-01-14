@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "_put_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	focus_d -> "_put_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	"_put_v_1-fn.Change_position_on_a_scale" -> _up_p [label="ARG3-fn.Difference"]
+	focus_d -> loc_nonsp [label=ARG2]
+	loc_nonsp -> "_put_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_up_p -> pron [label=ARG1]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	_the_q -> _month_n_1 [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_put_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG2-fn.Item"]
+	_for_p -> _sale_n_of [label=ARG2]
+	"_put_v_1-fn.Change_position_on_a_scale" -> _company_n_of [label="ARG1-fn.Attribute"]
+	_following_a_1 -> _month_n_1 [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _expectation_n_of [label="ARG2-fn.Location"]
+	_unrealistic_a_1 -> _expectation_n_of [label=ARG1]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _expectation_n_of [label=BV]
+}

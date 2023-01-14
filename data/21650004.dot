@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Shioya)" [label=ARG1]
+	proper_q -> "named(Shioya)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_the_q -> _table_n_1 [label=BV]
+	"_turn_v_1-fn.Halt" -> _table_n_1 [label="ARG2-fn.Place"]
+	"_turn_v_1-fn.Halt" -> "named(Shioya)" [label="ARG1-fn.Purpose"]
+}

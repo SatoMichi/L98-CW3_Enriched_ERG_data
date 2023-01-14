@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "card(151.20)" [label=ARG2]
+	proper_q -> "dofw(Fri)" [label=BV]
+	loc_nonsp -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	number_q -> "card(151.20)" [label=BV]
+	loc_nonsp -> "dofw(Fri)" [label=ARG2]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _index_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _index_n_1 [label=BV]
+}

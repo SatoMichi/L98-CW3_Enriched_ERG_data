@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_protect_v_1 -> _electronics_n_1 [label=ARG2]
+	compound -> "named(Passive)" [label=ARG2]
+	udef_q -> _filter_n_1 [label=BV]
+	proper_q -> "named(Components)" [label=BV]
+	parg_d -> "_use_v_1-fn.IN" [label=ARG1]
+	"_make_v_1-fn.Manufacturing" -> "named(Components)" [label="ARG1-fn.Agent"]
+	compound -> "named(Components)" [label=ARG1]
+	"_make_v_1-fn.Manufacturing" -> _and_c [label="ARG2-fn.Product"]
+	proper_q -> "named(Passive)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> "_capacitors/nns_u_unknown" [label=BV]
+	"_use_v_1-fn.IN" -> _protect_v_1 [label="ARG3-fn.NotExist"]
+	parg_d -> _and_c [label=ARG2]
+	"_use_v_1-fn.IN" -> _and_c [label="ARG2-fn.NotExist"]
+	udef_q -> _electronics_n_1 [label=BV]
+}

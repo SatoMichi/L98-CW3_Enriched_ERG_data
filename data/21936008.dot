@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> implicit_conj [label=ARG2]
+	udef_q -> "_dishonesty/nn_u_unknown" [label=BV]
+	udef_q -> _injustice_n_1 [label=BV]
+	parg_d -> "_fill_v_cause-fn.Filling" [label=ARG1]
+	_with_p -> "_fill_v_cause-fn.Filling" [label=ARG1]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_fill_v_cause-fn.Filling" -> _play_n_1 [label="ARG2-fn.Destination"]
+	udef_q -> _intrigue_n_1 [label=BV]
+	parg_d -> _play_n_1 [label=ARG2]
+	_the_q -> _play_n_1 [label=BV]
+}

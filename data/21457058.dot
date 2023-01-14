@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pay_v_for-fn.Commerce_buy" -> _son_n_of [label="ARG1-fn.Buyer"]
+	"_pay_v_for-fn.Commerce_buy" -> _share_n_of [label="ARG4-fn.Money"]
+	"_say_v_to-fn.Have_as_requirement" -> neg [label="ARG2-fn.Requirement"]
+	poss -> _son_n_of [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	neg -> "_pay_v_for-fn.Commerce_buy" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _son_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	_the_q -> _share_n_of [label=BV]
+}

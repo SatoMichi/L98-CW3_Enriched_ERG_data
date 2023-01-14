@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _comment_n_1 [label=ARG1]
+	_the_q -> "named(Association)" [label=BV]
+	"_have_v_1-fn.IN" -> _comment_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(Association)" [label=ARG1]
+	_any_q -> _comment_n_1 [label=BV]
+	proper_q -> "named(American)" [label=BV]
+	neg -> "_have_v_1-fn.IN" [label=ARG1]
+	compound -> "named(American)" [label=ARG2]
+	proper_q -> "named(Bankers)" [label=BV]
+	compound -> "named(Bankers)" [label=ARG1]
+	"_have_v_1-fn.IN" -> "named(Association)" [label="ARG1-fn.Pivot"]
+	_on_p -> _plan_n_1 [label=ARG2]
+	_the_q -> _plan_n_1 [label=BV]
+}

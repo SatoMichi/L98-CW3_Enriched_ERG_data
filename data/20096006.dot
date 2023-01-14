@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_either_q -> "_party_n_of-to" [label=BV]
+	udef_q -> _telephone_n_1 [label=BV]
+	_a_q -> _operator_n_of [label=BV]
+	"_have_v_1-fn.IN" -> _listing_n_of [label="ARG2-fn.Theme"]
+	compound -> _telephone_n_1 [label=ARG2]
+	_no_q -> _listing_n_of [label=BV]
+	compound -> "_information_n_on-about" [label=ARG1]
+	_for_p -> _listing_n_of [label=ARG1]
+	compound -> _operator_n_of [label=ARG1]
+	udef_q -> "_information_n_on-about" [label=BV]
+	_for_p -> "_party_n_of-to" [label=ARG2]
+	"_have_v_1-fn.IN" -> _operator_n_of [label="ARG1-fn.Pivot"]
+}

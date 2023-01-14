@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_out_p -> "_dine_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_dine_v_1-fn.Change_position_on_a_scale" -> _and_c [label="ARG1-fn.Attribute"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_even_a_1 -> "_dine_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Roderick)" [label=BV]
+	compound -> "named(Roderick)" [label=ARG1]
+	_together_p -> "_dine_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_agree_v_1-fn.Competition" -> "_indemnify/vb_u_unknown" [label="ARG2-fn.Participant_2"]
+	"_agree_v_1-fn.Competition" -> "named(Sony)" [label="ARG1-fn.Participant_1"]
+	_the_q -> _producer_n_of [label=BV]
+	_to_p -> "named(Warner)" [label=ARG2]
+	"_indemnify/vb_u_unknown" -> "named(Sony)" [label=ARG1]
+	_to_p -> _liability_n_1 [label=ARG1]
+	_against_p -> "_indemnify/vb_u_unknown" [label=ARG1]
+	proper_q -> "named(Sony)" [label=BV]
+	proper_q -> "named(Warner)" [label=BV]
+	_against_p -> _liability_n_1 [label=ARG2]
+	_any_q -> _liability_n_1 [label=BV]
+	_also_a_1 -> "_agree_v_1-fn.Competition" [label=ARG1]
+	"_indemnify/vb_u_unknown" -> _producer_n_of [label=ARG2]
+}

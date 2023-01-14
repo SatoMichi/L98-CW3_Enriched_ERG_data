@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> _data_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _data_n_1 [label="ARG1-fn.Process"]
+	_scientific_a_1 -> _data_n_1 [label=ARG1]
+	_on_p -> _data_n_1 [label=ARG1]
+	_this_q_dem -> _question_n_about [label=BV]
+	_on_p -> _question_n_about [label=ARG2]
+}

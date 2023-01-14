@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_most_q -> part_of [label=BV]
+	_absolute_a_1 -> _unnecessary_a_for [label=ARG1]
+	_unnecessary_a_for -> part_of [label=ARG1]
+	_these_q_dem -> generic_entity [label=BV]
+	part_of -> generic_entity [label=ARG1]
+}

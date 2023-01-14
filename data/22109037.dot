@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _month_n_1 [label=ARG2]
+	_in_p -> _discussion_n_1 [label=ARG2]
+	_with_p -> _discussion_n_1 [label=ARG1]
+	udef_q -> _month_n_1 [label=BV]
+	udef_q -> _discussion_n_1 [label=BV]
+	_in_p -> "named(WCRS)" [label=ARG1]
+	_with_p -> "named(Eurocom)" [label=ARG2]
+	proper_q -> "named(WCRS)" [label=BV]
+	_several_a_1 -> _month_n_1 [label=ARG1]
+	proper_q -> "named(Eurocom)" [label=BV]
+	_for_p -> _in_p [label=ARG1]
+}

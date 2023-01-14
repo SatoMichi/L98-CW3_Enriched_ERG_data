@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_frustrated_a_at-by-with" -> pron [label=ARG1]
+	_very_x_deg -> "_frustrated_a_at-by-with" [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	focus_d -> "_frustrated_a_at-by-with" [label=ARG2]
+	"_say_v_to-fn.Cause_to_end" -> "_frustrated_a_at-by-with" [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+}

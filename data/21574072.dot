@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_merit_v_1-fn.Competition" -> _inspection_n_of [label="ARG2-fn.Participant_2"]
+	_close_a_to -> _inspection_n_of [label=ARG1]
+	"_merit_v_1-fn.Competition" -> _provision_n_1 [label="ARG1-fn.Participant_1"]
+	_a_q -> _inspection_n_of [label=BV]
+	compound -> _provision_n_1 [label=ARG1]
+	udef_q -> _provision_n_1 [label=BV]
+	_also_a_1 -> "_merit_v_1-fn.Competition" [label=ARG1]
+	"_so-called_a_1" -> _provision_n_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	nominalization -> _live_v_1 [label=ARG1]
+	compound -> _benefit_n_of [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _benefit_n_of [label=BV]
+}

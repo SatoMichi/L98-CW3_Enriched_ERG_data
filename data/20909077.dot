@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_off_p -> _bet_n_1 [label=ARG1]
+	"_involve_v_1-fn.NF" -> _sex_n_1 [label="ARG2-fn.NotExist"]
+	parg_d -> _sex_n_1 [label=ARG2]
+	udef_q -> _sex_n_1 [label=BV]
+	_if_x_then -> _off_p [label=ARG1]
+	parg_d -> "_involve_v_1-fn.NF" [label=ARG1]
+	_if_x_then -> "_involve_v_1-fn.NF" [label=ARG2]
+	_all_q -> _bet_n_1 [label=BV]
+}

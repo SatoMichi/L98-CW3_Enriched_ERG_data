@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _child_n_1 [label=ARG1]
+	_to_p -> _university_n_of [label=ARG2]
+	number_q -> "card(3.)" [label=BV]
+	poss -> pron [label=ARG2]
+	"_send_v_1-fn.Sending" -> _child_n_1 [label="ARG2-fn.Theme"]
+	_a_q -> _university_n_of [label=BV]
+	"_send_v_1-fn.Sending" -> pron [label="ARG1-fn.Agent"]
+	"_send_v_1-fn.Sending" -> _to_p [label="ARG3-fn.Destination"]
+	def_explicit_q -> _child_n_1 [label=BV]
+	poss -> _child_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

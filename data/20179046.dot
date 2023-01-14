@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "_dilute_v_1-fn.Relative_time" [label=ARG2]
+	parg_d -> "_dilute_v_1-fn.Relative_time" [label=ARG1]
+	"_dilute_v_1-fn.Relative_time" -> _figure_n_1 [label="ARG2-fn.Landmark_occasion"]
+	_full_a_of -> "_dilute_v_1-fn.Relative_time" [label=ARG1]
+	"_note_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+	compound -> _figure_n_1 [label=ARG1]
+	parg_d -> _figure_n_1 [label=ARG2]
+	udef_q -> _share_n_of [label=BV]
+	_all_q -> _figure_n_1 [label=BV]
+	_per_a_1 -> _share_n_of [label=ARG1]
+	_colon_p_namely -> "_note_v_to-fn.Surpassing" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	compound -> _share_n_of [label=ARG2]
+}

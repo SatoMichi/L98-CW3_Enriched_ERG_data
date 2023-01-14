@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Pizza)" [label=BV]
+	_to_p -> "card(13)" [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Time)" [label="ARG1-fn.Attribute"]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	number_q -> "card(13)" [label=BV]
+	compound -> "named(Pizza)" [label=ARG1]
+	proper_q -> "named(ShowBiz)" [label=BV]
+	number_q -> "card(1)" [label=BV]
+	compound -> "named(ShowBiz)" [label=ARG2]
+	plus -> "card(1)" [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(1)" [label="ARG2-fn.Item"]
+	plus -> "fraction(1/2)" [label=ARG3]
+	compound -> "named(Time)" [label=ARG1]
+	proper_q -> "named(Time)" [label=BV]
+}

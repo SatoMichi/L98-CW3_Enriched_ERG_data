@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _fax_n_1 [label=ARG1]
+	unknown -> _fax_n_1 [label=ARG]
+	proper_q -> "named(ATT)" [label=BV]
+	udef_q -> _fax_n_1 [label=BV]
+	compound -> "named(ATT)" [label=ARG2]
+	_colon_p_namely -> _fax_n_1 [label=ARG1]
+}

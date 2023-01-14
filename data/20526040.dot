@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_tomorrow_a_1 -> time_n [label=ARG1]
+	"_start_v_cause-fn.Cause_to_end" -> time_n [label="ARG2-fn.Means"]
+	def_implicit_q -> time_n [label=BV]
+	subord -> "_start_v_cause-fn.Cause_to_end" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	subord -> "_stalking/vbg_u_unknown" [label=ARG1]
+	"_stalking/vbg_u_unknown" -> pron [label=ARG2]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(McLaughlin)" [label=ARG2]
+	"_merge_v_1-fn.Cause_to_amalgamate" -> _firm_n_1 [label="ARG2-fn.Patient"]
+	compound -> "named(Norris)" [label=ARG2]
+	"_carry_v_1-fn.Bringing" -> _name_n_of [label="ARG2-fn.Value"]
+	proper_q -> "named(McLaughlin)" [label=BV]
+	proper_q -> "named(Norris)" [label=BV]
+	poss -> _name_n_of [label=ARG1]
+	"_carry_v_1-fn.Bringing" -> _firm_n_1 [label="ARG1-fn.Location"]
+	parg_d -> "_merge_v_1-fn.Cause_to_amalgamate" [label=ARG1]
+	parg_d -> _firm_n_1 [label=ARG2]
+	compound -> "named(McLaughlin)" [label=ARG1]
+	_the_q -> _firm_n_1 [label=BV]
+	def_explicit_q -> _name_n_of [label=BV]
+}

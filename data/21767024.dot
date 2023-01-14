@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_suffer_v_from-fn.Catastrophe" -> _car_n_1 [label="ARG1-fn.Experiencer"]
+	compound -> _car_n_1 [label=ARG1]
+	_the_q -> _car_n_1 [label=BV]
+	udef_q -> _quality_n_1 [label=BV]
+	"_suffer_v_from-fn.Catastrophe" -> _quality_n_1 [label="ARG2-fn.Stimulus"]
+	_some_q -> _dealer_n_1 [label=BV]
+	focus_d -> "_suffer_v_from-fn.Catastrophe" [label=ARG2]
+	"_say_v_to-fn.IN" -> _also_a_1 [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> _dealer_n_1 [label="ARG1-fn.Agent"]
+	proper_q -> "named(Merkur)" [label=BV]
+	_also_a_1 -> "_suffer_v_from-fn.Catastrophe" [label=ARG1]
+	_spotty_a_1 -> _quality_n_1 [label=ARG1]
+	compound -> "named(Merkur)" [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_japanese_a_1 -> _parent_n_of [label=ARG1]
+	parenthetical -> _parent_n_of [label=ARG2]
+	compound -> _finance_n_1 [label=ARG1]
+	udef_q -> _parent_n_of [label=BV]
+	compound -> _corporation_n_1 [label=ARG1]
+	compound -> "named(Mitsubishi)" [label=ARG2]
+	unknown -> _finance_n_1 [label=ARG]
+	proper_q -> "named(Mitsubishi)" [label=BV]
+	udef_q -> _finance_n_1 [label=BV]
+	parenthetical -> _finance_n_1 [label=ARG1]
+	udef_q -> _corporation_n_1 [label=BV]
+}

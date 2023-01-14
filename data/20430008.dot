@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_loc-fn.Taking_time" -> loc_nonsp [label="ARG2-fn.Attribute"]
+	loc_nonsp -> time_n [label=ARG2]
+	"_say_v_loc-fn.Taking_time" -> pron [label="ARG1-fn.Activity"]
+	_now_a_1 -> time_n [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+}

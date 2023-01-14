@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	which_q -> manner [label=BV]
+	"_know_v_1-fn.State_continue" -> "_get_v_state-fn.Cause_to_end" [label="ARG2-fn.State"]
+	udef_q -> _socialism_n_1 [label=BV]
+	unspec_manner -> manner [label=ARG2]
+	"_know_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	_from_p_time -> _socialism_n_1 [label=ARG2]
+	udef_q -> _capitalism_n_1 [label=BV]
+	unspec_manner -> "_get_v_state-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	neg -> "_know_v_1-fn.State_continue" [label=ARG1]
+	"_get_v_state-fn.Cause_to_end" -> _from_p_time [label="ARG2-fn.Means"]
+	_to_p -> _capitalism_n_1 [label=ARG2]
+}

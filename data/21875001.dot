@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Berlin)" [label=ARG2]
+	proper_q -> "named(Berlin)" [label=BV]
+	compound -> "named(Wall)" [label=ARG1]
+	_the_q -> "named(Wall)" [label=BV]
+	_still_a_1 -> "_stand_v_1-fn.Posture" [label=ARG1]
+	"_stand_v_1-fn.Posture" -> "named(Wall)" [label="ARG1-fn.NotExist"]
+}

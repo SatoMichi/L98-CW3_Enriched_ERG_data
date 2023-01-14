@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _and_c [label=ARG]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _meat_n_1 [label=BV]
+	udef_q -> _livestock_n_1 [label=BV]
+	_colon_p_namely -> _and_c [label=ARG1]
+}

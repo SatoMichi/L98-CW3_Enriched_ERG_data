@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "named(Harsco)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Harsco)" [label=BV]
+	_which_q -> _country_n_of [label=BV]
+	"_place_v_1-fn.Placing" -> _country_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _order_n_of [label=BV]
+	_decline_v_1 -> "named(Harsco)" [label=ARG1]
+	"_say_v_to-fn.IN" -> "_place_v_1-fn.Placing" [label="ARG2-fn.Topic"]
+	_decline_v_1 -> "_say_v_to-fn.IN" [label=ARG2]
+	"_place_v_1-fn.Placing" -> _order_n_of [label="ARG2-fn.Theme"]
+}

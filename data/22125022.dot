@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_buy_v_1-fn.Commerce_buy" -> _paper_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _paper_n_1 [label=BV]
+	"_buy_v_1-fn.Commerce_buy" -> _institution_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _retail_n_1 [label=BV]
+	_have_v_qmodal -> _concerned_a_about [label=ARG1]
+	comp -> _concerned_a_about [label=ARG1]
+	udef_q -> _institution_n_1 [label=BV]
+	_usual_a_1 -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	_concerned_a_about -> _institution_n_1 [label=ARG1]
+	compound -> _retail_n_1 [label=ARG2]
+	compound -> _paper_n_1 [label=ARG1]
+}

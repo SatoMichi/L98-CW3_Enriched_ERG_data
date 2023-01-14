@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_have_v_1 -> pron [label=ARG1]
+	nominalization -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_add_v_to-fn.NF" -> _have_v_1 [label="ARG2-fn.Topic"]
+	_have_v_1 -> _intention_n_1 [label=ARG2]
+	_no_q -> _intention_n_1 [label=BV]
+	_of_p -> nominalization [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	_of_p -> _intention_n_1 [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> _business_n_1 [label="ARG2-fn.Theme"]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_either_q -> _business_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

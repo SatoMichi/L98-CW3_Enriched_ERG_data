@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _volunteer_n_1 [label=BV]
+	udef_q -> _money_n_1 [label=BV]
+	udef_q -> _work_n_1 [label=BV]
+	_necessary_a_for -> pron [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _business_n_1 [label="ARG1-fn.Process"]
+	udef_q -> _business_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _work_n_1 [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	compound -> _work_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _money_n_1 [label="ARG1-fn.Process"]
+	compound -> _volunteer_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	every_q -> thing [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

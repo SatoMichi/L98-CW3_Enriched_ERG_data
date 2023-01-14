@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_spring_v_up-fn.Undergo_change" -> _fear_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _recession_n_1 [label=BV]
+	_among_p -> _investor_n_1 [label=ARG2]
+	compound -> _fear_n_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	_again_a_1 -> "_spring_v_up-fn.Undergo_change" [label=ARG1]
+	udef_q -> _fear_n_1 [label=BV]
+	_among_p -> "_spring_v_up-fn.Undergo_change" [label=ARG1]
+	compound -> _recession_n_1 [label=ARG2]
+}

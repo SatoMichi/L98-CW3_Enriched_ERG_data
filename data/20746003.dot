@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_be_v_id-fn.Residence" [label=ARG1]
+	"_be_v_id-fn.Residence" -> _kronor_n_1 [label="ARG2-fn.Location"]
+	udef_q -> _earnings_n_1 [label=BV]
+	udef_q -> _kronor_n_1 [label=BV]
+	udef_q -> _share_n_of [label=BV]
+	subord -> "_compare_v_with-fn.Communication_means" [label=ARG2]
+	"_be_v_id-fn.Residence" -> _earnings_n_1 [label="ARG1-fn.Resident"]
+	"card(10.35)" -> _kronor_n_1 [label=ARG1]
+	_per_p -> _share_n_of [label=ARG2]
+	_per_p -> _earnings_n_1 [label=ARG1]
+	"card(5.80)" -> _kronor_n_1 [label=ARG1]
+	"_compare_v_with-fn.Communication_means" -> _kronor_n_1 [label="ARG3-fn.Message"]
+	parg_d -> "_compare_v_with-fn.Communication_means" [label=ARG1]
+}

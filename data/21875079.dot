@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ban_v_from-fn.Prohibiting" -> pron [label="ARG1-fn.Agent"]
+	focus_d -> "_ban_v_from-fn.Prohibiting" [label=ARG1]
+	_late_a_for -> "yofc(1988)" [label=ARG1]
+	proper_q -> "yofc(1988)" [label=BV]
+	udef_q -> _publication_n_1 [label=BV]
+	compound -> _publication_n_1 [label=ARG1]
+	focus_d -> _by_p_temp [label=ARG2]
+	_by_p_temp -> "_ban_v_from-fn.Prohibiting" [label=ARG1]
+	proper_q -> "named(Soviet)" [label=BV]
+	"_ban_v_from-fn.Prohibiting" -> _publication_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(Soviet)" [label=ARG2]
+	_by_p_temp -> "yofc(1988)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

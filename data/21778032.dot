@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _cat_n_1 [label=BV]
+	_although_x -> _nervous_a_about [label=ARG2]
+	_although_x -> _fine_a_for [label=ARG1]
+	_fine_a_for -> _cat_n_1 [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decide_v_on-fn.Halt" -> nominalization [label="ARG2-fn.Place"]
+	"_decide_v_on-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	nominalization -> "_build_v_1-fn.Competition" [label=ARG1]
+	"_indicate_v_1-fn.Competition" -> "_decide_v_on-fn.Halt" [label="ARG2-fn.Participant_2"]
+	_before_p -> "_decide_v_on-fn.Halt" [label=ARG1]
+	"_indicate_v_1-fn.Competition" -> "named(Cray)" [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	_before_p -> "_year+end_n_1" [label=ARG2]
+	udef_q -> "_year+end_n_1" [label=BV]
+	proper_q -> "named(Cray)" [label=BV]
+	"_build_v_1-fn.Competition" -> _machine_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> nominalization [label=BV]
+	"_such+a_q" -> _machine_n_1 [label=BV]
+}

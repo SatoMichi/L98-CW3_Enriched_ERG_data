@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_endorse_v_1-fn.State_continue" -> _offer_n_1 [label="ARG2-fn.State"]
+	parg_d -> _offer_n_1 [label=ARG2]
+	parg_d -> "_endorse_v_1-fn.State_continue" [label=ARG1]
+	compound -> _shareholder_n_1 [label=ARG2]
+	_the_q -> _committee_n_of [label=BV]
+	udef_q -> _shareholder_n_1 [label=BV]
+	"_endorse_v_1-fn.State_continue" -> _committee_n_of [label="ARG1-fn.Entity"]
+	compound -> _committee_n_of [label=ARG1]
+	_that_q_dem -> _offer_n_1 [label=BV]
+}

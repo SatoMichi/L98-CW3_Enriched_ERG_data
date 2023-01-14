@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+order+to_x" -> "_stretch_v_1-fn.Expansion" [label=ARG1]
+	_too_a_also -> _manufacturer_n_of [label=ARG1]
+	"_in+order+to_x" -> "_lure_v_1-fn.Manipulate_into_doing" [label=ARG2]
+	"_stretch_v_1-fn.Expansion" -> _manufacturer_n_of [label="ARG1-fn.NotExist"]
+	"_lure_v_1-fn.Manipulate_into_doing" -> _buyer_n_of [label="ARG2-fn.Patient"]
+	_further_a_1 -> "_stretch_v_1-fn.Expansion" [label=ARG1]
+	udef_q -> _buyer_n_of [label=BV]
+	udef_q -> _manufacturer_n_of [label=BV]
+	"_lure_v_1-fn.Manipulate_into_doing" -> _manufacturer_n_of [label="ARG1-fn.Agent"]
+}

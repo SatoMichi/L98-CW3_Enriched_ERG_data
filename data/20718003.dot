@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	"card(100)" -> _mile_n_1 [label=ARG1]
+	udef_q -> _mile_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> "named(Brockville)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Toronto)" [label=BV]
+	def_implicit_q -> place_n [label=BV]
+	_east_a_1 -> place_n [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _mile_n_1 [label="ARG2-fn.Name"]
+	_about_x_deg -> udef_q [label=ARG1]
+	_east_a_1 -> "named(Toronto)" [label=ARG2]
+	loc_nonsp -> _mile_n_1 [label=ARG1]
+	proper_q -> "named(Brockville)" [label=BV]
+}

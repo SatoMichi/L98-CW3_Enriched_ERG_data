@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(TRUST)" [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"card(8.62)" -> _percent_n_of [label=ARG1]
+	proper_q -> "named(LYNCH)" [label=BV]
+	compound -> "named(LYNCH)" [label=ARG1]
+	compound -> "named(READY)" [label=ARG1]
+	proper_q -> "named(ASSETS)" [label=BV]
+	proper_q -> "named(TRUST)" [label=BV]
+	proper_q -> "named(Merrill)" [label=BV]
+	"_colon_v_id-fn.Perception_body" -> _percent_n_of [label="ARG2-fn.Body_part"]
+	proper_q -> "named(READY)" [label=BV]
+	compound -> "named(ASSETS)" [label=ARG1]
+	"_colon_v_id-fn.Perception_body" -> "named(TRUST)" [label="ARG1-fn.Experiencer"]
+	compound -> "named(Merrill)" [label=ARG2]
+}

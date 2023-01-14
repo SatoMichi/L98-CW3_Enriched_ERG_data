@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_break_v_cause -> "named(Communists)" [label=ARG1]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	ellipsis_ref -> pron [label=ARG1]
+	"_replace_v_with-fn.IN" -> "named(Communists)" [label="ARG1-fn.Agent"]
+	_as_x_subord -> "_try_v_1-fn.Attempt" [label=ARG1]
+	_might_v_modal -> ellipsis_ref [label=ARG1]
+	_break_v_cause -> pron [label=ARG2]
+	_as_x_subord -> _might_v_modal [label=ARG2]
+	_the_q -> "named(Communists)" [label=BV]
+	_can_v_modal -> _nor_c [label=ARG1]
+	"_replace_v_with-fn.IN" -> pron [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

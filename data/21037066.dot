@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Toshiba)" [label=ARG2]
+	compound -> _spokesman_n_1 [label=ARG1]
+	focus_d -> _important_a_for [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _leadership_n_1 [label="ARG2-fn.Item"]
+	"_say_v_to-fn.Have_as_requirement" -> _important_a_for [label="ARG2-fn.Requirement"]
+	udef_q -> _leadership_n_1 [label=BV]
+	_important_a_for -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Toshiba)" [label=BV]
+	_a_q -> _spokesman_n_1 [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _spokesman_n_1 [label="ARG1-fn.Dependent"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+}

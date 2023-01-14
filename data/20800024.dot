@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_consider_v_1-fn.Competition" -> pron [label="ARG3-fn.Participants"]
+	"_consider_v_1-fn.Competition" -> "_connoisseur/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	_a_q -> "_connoisseur/nn_u_unknown" [label=BV]
+	udef_q -> _art_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Morishita)" [label=ARG1]
+	proper_q -> "named(Morishita)" [label=BV]
+	_of_p -> "_connoisseur/nn_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_consider_v_1-fn.Competition" -> "named(Morishita)" [label="ARG1-fn.Participant_1"]
+	_of_p -> _art_n_1 [label=ARG2]
+}

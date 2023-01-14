@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _profession_n_1 [label=BV]
+	_historical_a_1 -> _profession_n_1 [label=ARG1]
+	_these_q_dem -> _decision_n_1 [label=BV]
+	"_survive_v_1-fn.Cause_to_end" -> _profession_n_1 [label="ARG1-fn.Process"]
+	"_survive_v_1-fn.Cause_to_end" -> _decision_n_1 [label="ARG2-fn.Means"]
+}

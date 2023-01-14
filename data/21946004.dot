@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Beebes)" [label=BV]
+	_from_p -> _fume_n_1 [label=ARG1]
+	_the_q -> _carpet_n_1 [label=BV]
+	_sick_a_of -> pron [label=ARG1]
+	"_make_v_cause-fn.Causation" -> _sick_a_of [label="ARG2-fn.Theme"]
+	_toxic_a_1 -> _fume_n_1 [label=ARG1]
+	"_allege_v_1-fn.NF" -> "named(Beebes)" [label="ARG1-fn.Agent"]
+	"_allege_v_1-fn.NF" -> "_make_v_cause-fn.Causation" [label="ARG2-fn.Topic"]
+	"_make_v_cause-fn.Causation" -> _fume_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _fume_n_1 [label=BV]
+	_from_p -> _carpet_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

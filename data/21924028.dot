@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p_means -> "_election_n_of-for" [label=ARG1]
+	udef_q -> _ballot_n_1 [label=BV]
+	compound -> "named(General)" [label=ARG2]
+	_the_q -> "_election_n_of-for" [label=BV]
+	_in_p -> _by_p_means [label=ARG1]
+	_by_p_means -> _ballot_n_1 [label=ARG2]
+	compound -> "named(Assembly)" [label=ARG1]
+	_the_q -> "named(Assembly)" [label=BV]
+	_in_p -> "named(Assembly)" [label=ARG2]
+	proper_q -> "named(General)" [label=BV]
+	_secret_a_1 -> _ballot_n_1 [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Interpublic)" [label=BV]
+	compound -> _spokesman_n_1 [label=ARG1]
+	_about_p -> "named(Interpublic)" [label=ARG2]
+	compound -> "named(Saatchi)" [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_about_p -> "_comment_v_on-fn.Statement" [label=ARG1]
+	"_comment_v_on-fn.Statement" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	proper_q -> "named(Saatchi)" [label=BV]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	_decline_v_1 -> _spokesman_n_1 [label=ARG1]
+}

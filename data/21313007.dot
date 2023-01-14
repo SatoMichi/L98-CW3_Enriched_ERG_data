@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> person [label=ARG2]
+	"_do_v_1-fn.Competition" -> thing [label="ARG2-fn.Participant_2"]
+	neg -> _acceptable_a_for [label=ARG1]
+	_acceptable_a_for -> thing [label=ARG1]
+	_in_p -> _acceptable_a_for [label=ARG1]
+	poss -> "_home_n_of-n" [label=ARG1]
+	"_going+to_v_qmodal" -> "_do_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	neg -> "_going+to_v_qmodal" [label=ARG1]
+	def_explicit_q -> "_home_n_of-n" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_any_q -> thing [label=BV]
+	_any_q -> person [label=BV]
+	"_do_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_in_p -> "_home_n_of-n" [label=ARG2]
+}

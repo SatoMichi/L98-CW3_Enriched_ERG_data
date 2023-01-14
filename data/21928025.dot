@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_lot_n_of -> _art_n_1 [label=ARG1]
+	"much-many_a" -> _competition_n_1 [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	udef_q -> _art_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _competition_n_1 [label="ARG1-fn.Process"]
+	udef_q -> _competition_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _lot_n_of [label="ARG1-fn.Process"]
+	"_seem_v_to-fn.Desiring" -> "_be_v_there-fn.Cause_to_end" [label="ARG2-fn.Event"]
+	_for_p -> _sale_n_of [label=ARG2]
+	_for_p -> _art_n_1 [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	_a_q -> _lot_n_of [label=BV]
+}

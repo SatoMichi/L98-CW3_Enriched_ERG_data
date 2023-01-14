@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _administration_n_of [label=ARG1]
+	compound -> "named(Reagan)" [label=ARG2]
+	"much-many_a" -> _luck_n_1 [label=ARG1]
+	proper_q -> "named(Reagan)" [label=BV]
+	_during_p -> "_have_v_1-fn.IN" [label=ARG1]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	neg -> "_have_v_1-fn.IN" [label=ARG1]
+	_the_q -> _administration_n_of [label=BV]
+	udef_q -> _luck_n_1 [label=BV]
+	_during_p -> _administration_n_of [label=ARG2]
+	"_have_v_1-fn.IN" -> _luck_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

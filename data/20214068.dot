@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	udef_q -> "_brushbacks/nns_u_unknown" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_expect_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	proper_q -> "named(McEnaney)" [label=BV]
+	"_expect_v_1-fn.IN" -> _but_c [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.IN" -> "named(McEnaney)" [label="ARG1-fn.Agent"]
+	_no_q -> "_beanballs/nns_u_unknown" [label=BV]
+	focus_d -> "_expect_v_1-fn.IN" [label=ARG2]
+	compound -> "named(McEnaney)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _but_c [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

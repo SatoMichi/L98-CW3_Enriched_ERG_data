@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_discuss_v_1-fn.Attempt_suasion" -> _term_n_of [label="ARG2-fn.Addressee"]
+	udef_q -> _term_n_of [label=BV]
+	_other_a_1 -> _term_n_of [label=ARG1]
+	"_discuss_v_1-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+	"_decline_v_1-fn.Experiencer_obj" -> "_discuss_v_1-fn.Attempt_suasion" [label="ARG2-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+	_term_n_of -> _issue_n_1 [label=ARG1]
+	"_decline_v_1-fn.Experiencer_obj" -> pron [label="ARG1-fn.Experiencer"]
+	_the_q -> _issue_n_1 [label=BV]
+}

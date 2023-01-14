@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"much-many_a" -> generic_entity [label=ARG1]
+	comp_too -> "much-many_a" [label=ARG1]
+	"_accomplish_v_1-fn.Commerce_collect" -> pron [label="ARG1-fn.Buyer"]
+	udef_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_accomplish_v_1-fn.Commerce_collect" -> generic_entity [label="ARG2-fn.Goods"]
+}

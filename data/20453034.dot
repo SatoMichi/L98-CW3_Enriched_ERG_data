@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_give_v_back-fn.Giving" -> pron [label="ARG1-fn.Agent"]
+	"_feel_v_1-fn.Opinion" -> _should_v_modal [label="ARG2-fn.Theme"]
+	"_feel_v_1-fn.Opinion" -> pron [label="ARG1-fn.Agent"]
+	"_give_v_back-fn.Giving" -> thing [label="ARG2-fn.Theme"]
+	_some_q -> thing [label=BV]
+	_should_v_modal -> "_give_v_back-fn.Giving" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

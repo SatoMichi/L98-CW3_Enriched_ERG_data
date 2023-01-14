@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Wolf)" [label=ARG1]
+	proper_q -> "named(Wolf)" [label=BV]
+	"_criticize_v_for-as-fn.Have_as_requirement" -> _term_n_of [label="ARG2-fn.Requirement"]
+	"_receive_v_1-fn.Competition" -> _term_n_of [label="ARG2-fn.Participant_2"]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_receive_v_1-fn.Competition" -> _and_c [label="ARG1-fn.Participant_1"]
+	_the_q -> "_buy+out_n_1" [label=BV]
+	_in_p -> "_buy+out_n_1" [label=ARG2]
+	_the_q -> _machinist_n_1 [label=BV]
+	"_criticize_v_for-as-fn.Have_as_requirement" -> _machinist_n_1 [label="ARG1-fn.Dependent"]
+	udef_q -> _management_n_1 [label=BV]
+	_the_q -> _term_n_of [label=BV]
+	_in_p -> "_receive_v_1-fn.Competition" [label=ARG1]
+}

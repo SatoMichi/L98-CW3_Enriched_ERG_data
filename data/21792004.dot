@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_commit_v_to-fn.Receiving" -> nominalization [label="ARG3-fn.Theme"]
+	"_at+all_a_1" -> "_go_v_through-fn.Needing" [label=ARG1]
+	_a_q -> _deal_n_1 [label=BV]
+	_in_p -> _way_n_of [label=ARG2]
+	"_go_v_through-fn.Needing" -> _deal_n_1 [label="ARG1-fn.Cognizer"]
+	parg_d -> "_commit_v_to-fn.Receiving" [label=ARG1]
+	"_commit_v_to-fn.Receiving" -> pron [label="ARG2-fn.Donor"]
+	nominalization -> "_go_v_through-fn.Needing" [label=ARG1]
+	_in_p -> "_commit_v_to-fn.Receiving" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_no_q -> _way_n_of [label=BV]
+	parg_d -> pron [label=ARG2]
+	udef_q -> nominalization [label=BV]
+}

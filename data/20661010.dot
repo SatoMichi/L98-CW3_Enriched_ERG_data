@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_start_v_cause-fn.Cause_motion" -> "named(Dataproducts)" [label="ARG1-fn.Agent"]
+	neg -> "_for-sale_a_1" [label=ARG1]
+	_a_q -> nominalization [label=BV]
+	proper_q -> "named(Dataproducts)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_since_p -> "_start_v_cause-fn.Cause_motion" [label=ARG1]
+	"_for-sale_a_1" -> pron [label=ARG1]
+	"_say_v_to-fn.Surpassing" -> neg [label="ARG2-fn.Profiled_item"]
+	"_start_v_cause-fn.Cause_motion" -> nominalization [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.Surpassing" -> "named(Dataproducts)" [label="ARG1-fn.Standard_item"]
+	nominalization -> _restructure_v_1 [label=ARG1]
+}

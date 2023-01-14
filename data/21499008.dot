@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _bill_n_of [label=BV]
+	udef_q -> _quack_n_1 [label=BV]
+	compound -> _bill_n_of [label=ARG1]
+	compound -> "named(Air)" [label=ARG1]
+	compound -> "named(Clean)" [label=ARG2]
+	parenthetical -> _quack_n_1 [label=ARG2]
+	unknown -> _bill_n_of [label=ARG]
+	parenthetical -> _bill_n_of [label=ARG1]
+	proper_q -> "named(Air)" [label=BV]
+	proper_q -> "named(Clean)" [label=BV]
+}

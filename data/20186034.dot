@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _program_n_of [label=BV]
+	_for_p -> "_eliminate_v_from-fn.Removing" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	"_eliminate_v_from-fn.Removing" -> _program_n_of [label="ARG2-fn.Theme"]
+	_like_p -> generic_entity [label=ARG2]
+	parg_d -> _program_n_of [label=ARG2]
+	neg -> "_eliminate_v_from-fn.Removing" [label=ARG1]
+	parg_d -> "_eliminate_v_from-fn.Removing" [label=ARG1]
+	_for_p -> reason [label=ARG2]
+	which_q -> reason [label=BV]
+	_like_p -> _program_n_of [label=ARG1]
+}

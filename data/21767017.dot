@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_early_a_1 -> "yofc(1985)" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	proper_q -> "yofc(1985)" [label=BV]
+	_on_p -> "_go_v_1-fn.Competition" [label=ARG1]
+	_in_p_temp -> "yofc(1985)" [label=ARG2]
+	"ord(1)" -> "named(Merkur)" [label=ARG1]
+	_on_p -> _sale_n_of [label=ARG2]
+	_the_q -> "named(XR4Ti)" [label=BV]
+	_the_q -> "named(Merkur)" [label=BV]
+	appos -> "named(Merkur)" [label=ARG1]
+	"_go_v_1-fn.Competition" -> "named(Merkur)" [label="ARG1-fn.Participant_1"]
+	appos -> "named(XR4Ti)" [label=ARG2]
+	_in_p_temp -> "_go_v_1-fn.Competition" [label=ARG1]
+}

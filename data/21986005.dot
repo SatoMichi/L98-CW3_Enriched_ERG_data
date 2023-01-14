@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	_eventual_a_1 -> "_break_v_cause-fn.Experience_bodily_harm" [label=ARG1]
+	"_break_v_cause-fn.Experience_bodily_harm" -> _toe_n_1 [label="ARG2-fn.Patient"]
+	_in_p -> _dark_n_1 [label=ARG2]
+	compound -> "named(Postel)" [label=ARG1]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_break_v_cause-fn.Experience_bodily_harm" [label=ARG1]
+	_in_p -> "_break_v_cause-fn.Experience_bodily_harm" [label=ARG1]
+	poss -> _toe_n_1 [label=ARG1]
+	_the_q -> _dark_n_1 [label=BV]
+	proper_q -> "named(Postel)" [label=BV]
+	"_break_v_cause-fn.Experience_bodily_harm" -> "named(Postel)" [label="ARG1-fn.Experiencer"]
+	compound -> _mister_n_1 [label=ARG2]
+	def_explicit_q -> _toe_n_1 [label=BV]
+}

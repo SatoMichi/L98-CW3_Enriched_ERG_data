@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _haul_n_1 [label=BV]
+	_in_p -> pron [label=ARG2]
+	_for_p -> _in_p [label=ARG1]
+	_for_p -> _haul_n_1 [label=ARG2]
+	_long_a_1 -> _haul_n_1 [label=ARG1]
+	"_appear_v_to-fn.State_continue" -> _in_p [label="ARG2-fn.State"]
+}

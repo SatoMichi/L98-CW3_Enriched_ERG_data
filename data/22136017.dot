@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_increase_v_cause -> _sale_n_of [label=ARG2]
+	"_plan_v_1-fn.Purpose" -> _increase_v_cause [label="ARG2-fn.NotExist"]
+	_increase_v_cause -> "named(Algeria)" [label=ARG1]
+	compound -> _gas_n_1 [label=ARG2]
+	_to_p -> _and_c [label=ARG2]
+	_to_p -> _sale_n_of [label=ARG1]
+	proper_q -> "named(Europe)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _gas_n_1 [label=BV]
+	proper_q -> "named(Algeria)" [label=BV]
+	_the_q -> "named_n(US)" [label=BV]
+	_natural_a_for -> _gas_n_1 [label=ARG1]
+	compound -> _sale_n_of [label=ARG1]
+	"_plan_v_1-fn.Purpose" -> "named(Algeria)" [label="ARG1-fn.Experiencer"]
+	udef_q -> _sale_n_of [label=BV]
+}

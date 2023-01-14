@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _test_n_of [label=BV]
+	_well_a_1 -> _work_v_1 [label=ARG1]
+	_dual_a_1 -> nominalization [label=ARG1]
+	_test_n_of -> nominalization [label=ARG1]
+	_far_a_1 -> _work_v_1 [label=ARG1]
+	nominalization -> _trade_v_1 [label=ARG1]
+	"_restrict_v_to-fn.NF" -> nominalization [label="ARG2-fn.Patient"]
+	_work_v_1 -> _test_n_of [label=ARG1]
+	nominalization -> "_restrict_v_to-fn.NF" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	comp_so -> _far_a_1 [label=ARG1]
+	focus_d -> _work_v_1 [label=ARG1]
+	"card(1)" -> _test_n_of [label=ARG1]
+}

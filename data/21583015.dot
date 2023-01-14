@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_consider_v_1-fn.Cogitation" -> pron [label="ARG1-fn.Agent"]
+	"_consider_v_1-fn.Cogitation" -> "_adopt_v_1-fn.Adopt_selection" [label="ARG2-fn.Theme"]
+	"_adopt_v_1-fn.Adopt_selection" -> pron [label="ARG1-fn.Agent"]
+	poss -> _spouse_n_of [label=ARG2]
+	poss -> pron [label=ARG2]
+	"_adopt_v_1-fn.Adopt_selection" -> _name_n_of [label="ARG2-fn.Theme"]
+	def_explicit_q -> _name_n_of [label=BV]
+	def_explicit_q -> _spouse_n_of [label=BV]
+	poss -> _name_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Otto)" [label=ARG2]
+	appos -> "named(Czech)" [label=ARG2]
+	compound -> "named(Wichterle)" [label=ARG1]
+	proper_q -> "yofc(1962)" [label=BV]
+	appos -> "named(Wichterle)" [label=ARG1]
+	"_invent_v_1-fn.Process_start" -> "named(Wichterle)" [label="ARG1-fn.Event"]
+	_in_p_temp -> "yofc(1962)" [label=ARG2]
+	proper_q -> "named(Otto)" [label=BV]
+	proper_q -> "named(Wichterle)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_in_p_temp -> "_invent_v_1-fn.Process_start" [label=ARG1]
+	_a_q -> "named(Czech)" [label=BV]
+	"_invent_v_1-fn.Process_start" -> pron [label="ARG2-fn.Place"]
+}

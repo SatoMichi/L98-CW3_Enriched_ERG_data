@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _farmer_n_1 [label=BV]
+	_before_p -> "_bulldozers/nns_u_unknown" [label=ARG2]
+	_the_q -> "_bulldozers/nns_u_unknown" [label=BV]
+	_before_p -> "_lay_v_down-fn.lay.01" [label=ARG1]
+	"_lay_v_down-fn.lay.01" -> _farmer_n_1 [label="ARG1-fn.NotExist"]
+}

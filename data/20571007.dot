@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> "_policy_n_of-on" [label=BV]
+	udef_q -> _sir_n_1 [label=BV]
+	"_consider_v_1-fn.Categorization" -> "_policy_n_of-on" [label="ARG2-fn.Theme"]
+	_this_q_dem -> generic_entity [label=BV]
+	parg_d -> _advise_v_1 [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> generic_entity [label="ARG3-fn.NotExist"]
+	_advise_v_1 -> "_policy_n_of-on" [label=ARG2]
+	parg_d -> "_policy_n_of-on" [label=ARG2]
+	_costly_a_1 -> "_policy_n_of-on" [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> "named(Alan)" [label="ARG1-fn.Agent"]
+	compound -> _sir_n_1 [label=ARG2]
+	proper_q -> "named(Alan)" [label=BV]
+	_ill_a_1 -> _advise_v_1 [label=ARG1]
+	compound -> "named(Alan)" [label=ARG1]
+}

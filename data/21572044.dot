@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_cause-fn.Causation" -> "_think_v_1-fn.IN" [label="ARG2-fn.Theme"]
+	_conservative_a_1 -> _investment_n_1 [label=ARG1]
+	"_make_v_cause-fn.Causation" -> _appearance_n_of [label="ARG1-fn.Agent"]
+	"_think_v_1-fn.IN" -> _be_v_id [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+	_be_v_id -> _investment_n_1 [label=ARG2]
+	_a_q -> _investment_n_1 [label=BV]
+	_be_v_id -> pron [label=ARG1]
+	_conservative_a_1 -> _appearance_n_of [label=ARG1]
+	udef_q -> _appearance_n_of [label=BV]
+	"_think_v_1-fn.IN" -> _people_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _people_n_of [label=BV]
+}

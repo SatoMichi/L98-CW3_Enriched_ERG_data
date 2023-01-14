@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_price_n_of -> _stock_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> _correct_a_1 [label="ARG2-fn.Requirement"]
+	"_say_v_to-fn.Have_as_requirement" -> "named(Quotron)" [label="ARG1-fn.Dependent"]
+	_individual_a_1 -> _stock_n_1 [label=ARG1]
+	proper_q -> "named(Quotron)" [label=BV]
+	_the_q -> _price_n_of [label=BV]
+	_wrong_a_with -> _average_n_of [label=ARG1]
+	"_make_v_up-fn.Amounting_to" -> _average_n_of [label="ARG2-fn.Attribute"]
+	_correct_a_1 -> _price_n_of [label=ARG1]
+	focus_d -> _correct_a_1 [label=ARG2]
+	_the_q -> _average_n_of [label=BV]
+	"_make_v_up-fn.Amounting_to" -> _stock_n_1 [label="ARG1-fn.Value"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	_the_q -> _stock_n_1 [label=BV]
+}

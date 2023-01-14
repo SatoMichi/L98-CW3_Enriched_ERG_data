@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> "yofc(1985)" [label=ARG2]
+	"_merge_v_1-fn.Assemble" -> _bank_n_of [label="ARG1-fn.Individuals"]
+	proper_q -> "yofc(1985)" [label=BV]
+	"card(2)" -> _bank_n_of [label=ARG1]
+	_in_p_temp -> "_merge_v_1-fn.Assemble" [label=ARG1]
+	_the_q -> _bank_n_of [label=BV]
+}

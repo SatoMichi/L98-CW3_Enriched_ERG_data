@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_elaborate_v_1-fn.Competition" -> _spokesman_n_1 [label="ARG1-fn.Participant_1"]
+	"_cite_v_for-fn.Amounting_to" -> _spokesman_n_1 [label="ARG1-fn.Value"]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _spokesman_n_1 [label="ARG1-fn.Attribute"]
+	_a_q -> _spokesman_n_1 [label=BV]
+	"_cite_v_for-fn.Amounting_to" -> _error_n_1 [label="ARG2-fn.Attribute"]
+	_a_q -> _error_n_1 [label=BV]
+	_technical_a_1 -> _error_n_1 [label=ARG1]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> "_elaborate_v_1-fn.Competition" [label="ARG2-fn.Item"]
+}

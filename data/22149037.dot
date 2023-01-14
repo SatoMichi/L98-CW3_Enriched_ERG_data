@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_own_a_1 -> _mistake_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> "_make_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	"_make_v_1-fn.IN" -> _mistake_n_1 [label="ARG2-fn.Product"]
+	"_make_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	def_explicit_q -> _mistake_n_1 [label=BV]
+	poss -> _mistake_n_1 [label=ARG1]
+	_even_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	neg -> _can_v_modal [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_can_v_modal -> "_say_v_to-fn.IN" [label=ARG1]
+}

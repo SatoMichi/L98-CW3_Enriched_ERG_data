@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _top_n_1 [label=ARG2]
+	compound -> _and_c [label=ARG2]
+	udef_q -> _stock_n_1 [label=BV]
+	udef_q -> _top_n_1 [label=BV]
+	_fixed_a_1 -> _income_n_1 [label=ARG1]
+	_international_a_1 -> "_invest_v_1-fn.NF" [label=ARG1]
+	_be_v_id -> _fund_n_1 [label=ARG2]
+	compound -> _perform_v_1 [label=ARG1]
+	_perform_v_1 -> _fund_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_the_q -> _fund_n_1 [label=BV]
+	udef_q -> _fund_n_1 [label=BV]
+	compound -> _fund_n_1 [label=ARG1]
+	udef_q -> _income_n_1 [label=BV]
+	"_invest_v_1-fn.NF" -> _fund_n_1 [label="ARG1-fn.Agent"]
+}

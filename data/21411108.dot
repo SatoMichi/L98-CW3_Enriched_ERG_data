@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _in_p [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> _in_p [label="ARG2-fn.Means"]
+	_in_p -> _seat_n_1 [label=ARG2]
+	_this_q_dem -> _job_n_of [label=BV]
+	focus_d -> _in_p [label=ARG2]
+	loc_nonsp -> _in_p [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _seat_n_1 [label=BV]
+	_every_q -> _day_n_of [label=BV]
+	"_catbird/jj_u_unknown" -> _seat_n_1 [label=ARG1]
+	_in_p -> pron [label=ARG1]
+	_in_p -> _job_n_of [label=ARG2]
+	loc_nonsp -> _day_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

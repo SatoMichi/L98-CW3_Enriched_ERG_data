@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_wide_a_1 -> _margin_n_1 [label=ARG1]
+	def_explicit_q -> _predecessor_n_1 [label=BV]
+	udef_q -> _margin_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_all_q -> _model_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_new_a_1 -> _model_n_of [label=ARG1]
+	"card(3)" -> _model_n_of [label=ARG1]
+	"_outselling/vbg_u_unknown" -> _model_n_of [label=ARG1]
+	_by_p -> "_outselling/vbg_u_unknown" [label=ARG1]
+	poss -> _predecessor_n_1 [label=ARG1]
+	_by_p -> _margin_n_1 [label=ARG2]
+	"_outselling/vbg_u_unknown" -> _predecessor_n_1 [label=ARG2]
+}

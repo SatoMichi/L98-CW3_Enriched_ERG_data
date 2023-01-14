@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> "_thing_n_of-about" [label=BV]
+	udef_q -> _bird_n_1 [label=BV]
+	neg -> "_feel_v_1-fn.Perception_experience" [label=ARG1]
+	"_notice_v_1-fn.Becoming_aware" -> _behavior_n_1 [label="ARG2-fn.Stimulus"]
+	_some_q_indiv -> _behavior_n_1 [label=BV]
+	"_feel_v_1-fn.Perception_experience" -> "_thing_n_of-about" [label="ARG2-fn.Theme"]
+	compound -> _bird_n_1 [label=ARG2]
+	_strange_a_to -> _behavior_n_1 [label=ARG1]
+	compound -> _behavior_n_1 [label=ARG1]
+}

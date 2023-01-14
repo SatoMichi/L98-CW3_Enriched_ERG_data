@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Vogelstein)" [label=BV]
+	comp_equal -> "named(p53)" [label=ARG2]
+	compound -> _doctor_n_1 [label=ARG2]
+	comp_equal -> _same_a_as [label=ARG1]
+	proper_q -> "named(p53)" [label=BV]
+	_in_p -> _spot_n_of [label=ARG2]
+	_same_a_as -> _spot_n_of [label=ARG1]
+	udef_q -> _doctor_n_1 [label=BV]
+	"_find_v_1-fn.IN" -> _deletion_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(Vogelstein)" [label=ARG1]
+	"_find_v_1-fn.IN" -> "named(Vogelstein)" [label="ARG1-fn.Agent"]
+	_in_p -> _deletion_n_1 [label=ARG1]
+	_exactly_x_deg -> _the_q [label=ARG1]
+	_the_q -> _spot_n_of [label=BV]
+	_the_q -> _deletion_n_1 [label=BV]
+}

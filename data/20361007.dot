@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.Surpassing" -> "_should_v_modal-fn.Amounting_to" [label="ARG2-fn.Profiled_item"]
+	udef_q -> _mister_n_1 [label=BV]
+	_end_n_of -> "mofy(Nov)" [label=ARG1]
+	proper_q -> "mofy(Nov)" [label=BV]
+	_by_p -> _end_n_of [label=ARG2]
+	compound -> "named(Rifenburgh)" [label=ARG1]
+	proper_q -> "named(Rifenburgh)" [label=BV]
+	_the_q -> _end_n_of [label=BV]
+	"_say_v_to-fn.Surpassing" -> "named(Rifenburgh)" [label="ARG1-fn.Standard_item"]
+	_such_q -> _statement_n_of [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> _ready_a_1 [label="ARG1-fn.Value"]
+	_by_p -> _ready_a_1 [label=ARG1]
+	_ready_a_1 -> _statement_n_of [label=ARG1]
+}

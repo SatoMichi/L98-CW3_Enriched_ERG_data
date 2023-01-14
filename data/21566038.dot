@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _step_n_1 [label=ARG2]
+	_every_q -> _step_n_1 [label=BV]
+	focus_d -> _with_p [label=ARG2]
+	_with_p -> "_build_v_1-fn.Activity_stop" [label=ARG1]
+	focus_d -> "_build_v_1-fn.Activity_stop" [label=ARG1]
+	"_build_v_1-fn.Activity_stop" -> _wealth_n_of [label="ARG2-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	"_build_v_1-fn.Activity_stop" -> pron [label="ARG1-fn.Purpose"]
+	"_take_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	"_take_v_1-fn.Commerce_buy" -> _step_n_1 [label="ARG2-fn.Goods"]
+	udef_q -> _wealth_n_of [label=BV]
+}

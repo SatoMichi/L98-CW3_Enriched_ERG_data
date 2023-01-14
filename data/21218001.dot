@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_spot_v_1-fn.Becoming_aware" -> _defect_n_1 [label="ARG2-fn.Stimulus"]
+	_genetic_a_1 -> _defect_n_1 [label=ARG1]
+	_old_a_1 -> "_embryo/nn_u_unknown" [label=ARG1]
+	udef_q -> _day_n_of [label=BV]
+	parg_d -> "_spot_v_1-fn.Becoming_aware" [label=ARG1]
+	udef_q -> "_embryo/nn_u_unknown" [label=BV]
+	_in_p -> "_spot_v_1-fn.Becoming_aware" [label=ARG1]
+	udef_q -> _defect_n_1 [label=BV]
+	_in_p -> "_embryo/nn_u_unknown" [label=ARG2]
+	parg_d -> _defect_n_1 [label=ARG2]
+	measure -> _day_n_of [label=ARG2]
+	measure -> _old_a_1 [label=ARG1]
+	"card(3-)" -> _day_n_of [label=ARG1]
+	unknown -> _defect_n_1 [label=ARG]
+}

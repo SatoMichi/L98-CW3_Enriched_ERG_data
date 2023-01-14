@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_finish_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(London)" [label=BV]
+	subord -> _high_a_1 [label=ARG2]
+	comp -> _high_a_1 [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	_moderate_a_1 -> _high_a_1 [label=ARG1]
+	compound -> _share_n_of [label=ARG1]
+	compound -> "named(London)" [label=ARG2]
+	"_finish_v_1-fn.Halt" -> _share_n_of [label="ARG1-fn.Purpose"]
+}

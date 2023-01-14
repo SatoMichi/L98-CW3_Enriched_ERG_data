@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_mis-_a_error" -> _guide_v_to [label=ARG1]
+	_this_q_dem -> "_policy_n_of-on" [label=BV]
+	udef_q -> _trade_n_of [label=BV]
+	_a_q -> _deficit_n_of [label=BV]
+	_british_a_1 -> _deficit_n_of [label=ARG1]
+	parg_d -> _guide_v_to [label=ARG1]
+	parg_d -> "_policy_n_of-on" [label=ARG2]
+	compound -> _trade_n_of [label=ARG2]
+	compound -> _deficit_n_of [label=ARG1]
+	"_prevent_v_from-fn.Preventing" -> "_policy_n_of-on" [label="ARG1-fn.Agent"]
+	"_prevent_v_from-fn.Preventing" -> _deficit_n_of [label="ARG2-fn.Theme"]
+	neg -> _can_v_modal [label=ARG1]
+	_can_v_modal -> "_prevent_v_from-fn.Preventing" [label=ARG1]
+	_guide_v_to -> "_policy_n_of-on" [label=ARG2]
+}

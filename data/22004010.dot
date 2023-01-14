@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.Competition" -> "named(Wolf)" [label="ARG1-fn.Participant_1"]
+	compound -> "named(Wolf)" [label=ARG1]
+	"_of+course_a_1" -> "_have_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Wolf)" [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"card(48)" -> _year_n_1 [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	measure -> _old_a_1 [label=ARG1]
+	_old_a_1 -> "named(Wolf)" [label=ARG1]
+	"_have_v_1-fn.Competition" -> _savings_n_1 [label="ARG2-fn.Participant_2"]
+	_some_q -> _savings_n_1 [label=BV]
+	measure -> _year_n_1 [label=ARG2]
+}

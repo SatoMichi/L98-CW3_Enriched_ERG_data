@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _minister_n_of [label=ARG2]
+	compound -> _mail_n_1 [label=ARG2]
+	udef_q -> _mail_n_1 [label=BV]
+	compound -> _order_n_of [label=ARG1]
+	compound -> _minister_n_of [label=ARG1]
+	udef_q -> _order_n_of [label=BV]
+	parg_d -> "_squelched/vbn_u_unknown" [label=ARG1]
+	"_squelched/vbn_u_unknown" -> _minister_n_of [label=ARG2]
+	udef_q -> _minister_n_of [label=BV]
+}

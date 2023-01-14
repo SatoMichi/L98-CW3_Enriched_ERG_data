@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_a_p_per -> _year_n_1 [label=ARG2]
+	"_cost_v_1-fn.Change_of_quantity_of_possession" -> _place_n_of [label="ARG1-fn.Owner"]
+	udef_q -> _year_n_1 [label=BV]
+	_the_q -> _place_n_of [label=BV]
+	"_in+order+to_x" -> "_maintain_v_1-fn.Competition" [label=ARG2]
+	_nearly_x_deg -> udef_q [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_in+order+to_x" -> "_cost_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	"_cost_v_1-fn.Change_of_quantity_of_possession" -> _dollar_n_1 [label="ARG2-fn.Possession"]
+	"_maintain_v_1-fn.Competition" -> _place_n_of [label="ARG1-fn.Participant_1"]
+	_a_p_per -> _dollar_n_1 [label=ARG1]
+	times -> "card(2)" [label=ARG2]
+}

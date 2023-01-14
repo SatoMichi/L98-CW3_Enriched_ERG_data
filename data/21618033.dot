@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_remain_v_1-fn.State_continue" -> _crowd_n_of [label="ARG1-fn.NotExist"]
+	compound -> _nature_n_1 [label=ARG2]
+	"_good_a_at-for-of" -> _nature_n_1 [label=ARG1]
+	_the_q -> _crowd_n_of [label=BV]
+	"_bemused/jj_u_unknown" -> _crowd_n_of [label=ARG1]
+	"_remain_v_1-fn.State_continue" -> _even_c [label="ARG2-fn.Theme"]
+	udef_q -> _nature_n_1 [label=BV]
+	compound -> _crowd_n_of [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _investment_n_1 [label=ARG1]
+	proper_q -> "named(Panda)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(Motors)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Motors)" [label=BV]
+	udef_q -> _investment_n_1 [label=BV]
+	_such_a_1 -> _investment_n_1 [label=ARG1]
+	compound -> "named(Motors)" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _investment_n_1 [label="ARG2-fn.Means"]
+	compound -> "named(Panda)" [label=ARG2]
+}

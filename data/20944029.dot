@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_would_v_modal-fn.Cotheme" -> "_in+order+to_x" [label="ARG1-fn.Theme"]
+	_indeed_a_1 -> "_would_v_modal-fn.Cotheme" [label=ARG1]
+	"_ignore_v_1-fn.Competition" -> _source_n_of [label="ARG2-fn.Participant_2"]
+	"_ignore_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_in+order+to_x" -> "_irresponsible/jj_u_unknown" [label=ARG1]
+	_such_q -> _source_n_of [label=BV]
+	udef_q -> "_information_n_on-about" [label=BV]
+	_source_n_of -> "_information_n_on-about" [label=ARG1]
+	"_irresponsible/jj_u_unknown" -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_in+order+to_x" -> "_ignore_v_1-fn.Competition" [label=ARG2]
+}

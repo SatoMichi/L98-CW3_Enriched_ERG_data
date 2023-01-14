@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_most_q -> part_of [label=BV]
+	nominalization -> _buy_v_1 [label=ARG1]
+	_the_q -> nominalization [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> _institutional_a_1 [label="ARG2-fn.Means"]
+	focus_d -> _institutional_a_1 [label=ARG2]
+	focus_d -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	part_of -> nominalization [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_institutional_a_1 -> part_of [label=ARG1]
+}

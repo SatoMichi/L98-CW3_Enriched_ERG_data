@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_after_p -> _end_n_of [label=ARG2]
+	_the_q -> _share_n_of [label=BV]
+	_after_p -> "_redeemable/jj_u_unknown" [label=ARG1]
+	"_redeemable/jj_u_unknown" -> _share_n_of [label=ARG1]
+	proper_q -> "yofc(1994)" [label=BV]
+	_the_q -> _end_n_of [label=BV]
+	_end_n_of -> "yofc(1994)" [label=ARG1]
+}

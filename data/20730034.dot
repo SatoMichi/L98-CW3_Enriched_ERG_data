@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _attendant_n_1 [label=ARG1]
+	_lag_v_1 -> _attendant_n_1 [label=ARG1]
+	_before_x_h -> _lag_v_1 [label=ARG1]
+	udef_q -> _attendant_n_1 [label=BV]
+	_even_a_1 -> "_land_v_1-fn.NF" [label=ARG1]
+	_before_x_h -> "_land_v_1-fn.NF" [label=ARG2]
+	"_land_v_1-fn.NF" -> _jet_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _flight_n_1 [label=ARG2]
+	udef_q -> _flight_n_1 [label=BV]
+	udef_q -> _jet_n_1 [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _course_n_of [label=ARG1]
+	"_could_v_modal-fn.Cause_to_end" -> "_describe_v_as-fn.Communication_means" [label="ARG1-fn.Process"]
+	"_describe_v_as-fn.Communication_means" -> pron [label="ARG2-fn.Addressee"]
+	parg_d -> pron [label=ARG2]
+	udef_q -> _pap_n_1 [label=BV]
+	_fair_a_1 -> "_describe_v_as-fn.Communication_means" [label=ARG1]
+	_all_a_1 -> "_describe_v_as-fn.Communication_means" [label=ARG1]
+	udef_q -> _course_n_of [label=BV]
+	parg_d -> "_describe_v_as-fn.Communication_means" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_describe_v_as-fn.Communication_means" -> _course_n_of [label="ARG3-fn.Message"]
+	compound -> _pap_n_1 [label=ARG2]
+}

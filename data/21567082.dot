@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	_anymore_a_1 -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_financial_a_1 -> _planner_n_1 [label=ARG1]
+	_also_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> _planner_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(Peterson)" [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Peterson)" [label="ARG1-fn.Agent"]
+	neg -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> pron [label="ARG3-fn.NotExist"]
+	_a_q -> _planner_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Peterson)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

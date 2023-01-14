@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_soften_v_1-fn.Attempt_suasion" -> "_talk_n_of-on" [label="ARG2-fn.Addressee"]
+	_the_q -> "_talk_n_of-on" [label=BV]
+	_a_q -> _recession_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_about_p -> "_talk_n_of-on" [label=ARG1]
+	_about_p -> _recession_n_1 [label=ARG2]
+	"_soften_v_1-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+}

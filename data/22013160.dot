@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> pron [label=ARG1]
+	compound -> _president_n_of [label=ARG2]
+	"_swear_v_1-fn.Attempt" -> "named(Bush)" [label="ARG1-fn.Agent"]
+	udef_q -> _justice_n_1 [label=BV]
+	"_bring_v_1-fn.Rite" -> "named(Bush)" [label="ARG1-fn.Leader"]
+	udef_q -> _president_n_of [label=BV]
+	"_bring_v_1-fn.Rite" -> _to_p [label="ARG3-fn.Organization"]
+	pronoun_q -> pron [label=BV]
+	"_swear_v_1-fn.Attempt" -> "_bring_v_1-fn.Rite" [label="ARG2-fn.Goal"]
+	compound -> "named(Bush)" [label=ARG1]
+	proper_q -> "named(Bush)" [label=BV]
+	"_bring_v_1-fn.Rite" -> pron [label="ARG2-fn.Member"]
+	_to_p -> _justice_n_1 [label=ARG2]
+}

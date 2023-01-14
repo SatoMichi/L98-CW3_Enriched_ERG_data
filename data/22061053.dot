@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Goodrich)" [label=ARG1]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> "named(Goodrich)" [label="ARG1-fn.Attribute"]
+	_to_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Goodrich)" [label=BV]
+	plus -> "card(49)" [label=ARG2]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	plus -> "fraction(3/8)" [label=ARG3]
+	plus -> "card(1)" [label=ARG2]
+	_to_p -> "card(49)" [label=ARG2]
+	number_q -> "card(49)" [label=BV]
+	proper_q -> "named(B.F.)" [label=BV]
+	compound -> "named(B.F.)" [label=ARG2]
+	loc_nonsp -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "fraction(1/8)" [label=ARG3]
+}

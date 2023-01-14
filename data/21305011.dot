@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> neg [label="ARG2-fn.Requirement"]
+	_for_p -> time_n [label=ARG2]
+	_the_q -> _board_n_of [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _board_n_of [label="ARG1-fn.Dependent"]
+	_for_p -> _interested_a_in [label=ARG1]
+	_now_a_1 -> time_n [label=ARG1]
+	neg -> _interested_a_in [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_interested_a_in -> pron [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_watch_v_out-fn.Change_posture" -> pron [label="ARG1-fn.Manner"]
+	focus_d -> "_have_v_qmodal-fn.Cause_to_end" [label=ARG2]
+	focus_d -> "_say_v_to-fn.Surpassing" [label=ARG1]
+	"card(1)" -> _analyst_n_1 [label=ARG1]
+	_for_p -> _counterbid_n_1 [label=ARG2]
+	udef_q -> _analyst_n_1 [label=BV]
+	udef_q -> _counterbid_n_1 [label=BV]
+	"_say_v_to-fn.Surpassing" -> _analyst_n_1 [label="ARG1-fn.Standard_item"]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_watch_v_out-fn.Change_posture" [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Surpassing" -> "_have_v_qmodal-fn.Cause_to_end" [label="ARG2-fn.Profiled_item"]
+}

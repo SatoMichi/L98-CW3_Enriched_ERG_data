@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> implicit_conj [label=ARG]
+	_no_q -> _standard_n_1 [label=BV]
+	_thus_a_1 -> unknown [label=ARG1]
+	_no_q -> _value_n_1 [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _and_c [label=BV]
+	_no_q -> _judgment_n_1 [label=BV]
+}

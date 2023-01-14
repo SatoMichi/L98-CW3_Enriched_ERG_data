@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ask_v_1-fn.Questioning" -> _advocate_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _abortion_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_ask_v_1-fn.Questioning" -> _question_n_about [label="ARG2-fn.Topic"]
+	_this_q_dem -> _question_n_about [label=BV]
+	_some_q -> _advocate_n_1 [label=BV]
+	compound -> _abortion_n_of [label=ARG2]
+	_very_a_1 -> _question_n_about [label=ARG1]
+	compound -> _advocate_n_1 [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> pron [label="ARG3-fn.Recipient"]
+}

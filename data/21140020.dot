@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_through_p -> nominalization [label=ARG2]
+	_through_p -> "_replace_v_with-fn.IN" [label=ARG1]
+	_short_v_cause -> _share_n_of [label=ARG2]
+	nominalization -> _buy_v_1 [label=ARG1]
+	parg_d -> _short_v_cause [label=ARG1]
+	parg_d -> "_replace_v_with-fn.IN" [label=ARG1]
+	parg_d -> _share_n_of [label=ARG2]
+	"_replace_v_with-fn.IN" -> _share_n_of [label="ARG2-fn.Theme"]
+	_eventual_a_1 -> "_replace_v_with-fn.IN" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _share_n_of [label=BV]
+	_must_v_modal -> "_replace_v_with-fn.IN" [label=ARG1]
+}

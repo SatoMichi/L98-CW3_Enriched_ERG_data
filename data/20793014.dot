@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_closed_a_1 -> pron [label=ARG1]
+	_to_p -> _closed_a_1 [label=ARG1]
+	parg_d -> "_take_v_1-fn.Commerce_buy" [label=ARG1]
+	_the_q -> _public_n_1 [label=BV]
+	_no_q -> _minute_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_often_a_1 -> _closed_a_1 [label=ARG1]
+	parg_d -> _minute_n_1 [label=ARG2]
+	"_take_v_1-fn.Commerce_buy" -> _minute_n_1 [label="ARG2-fn.Goods"]
+	_to_p -> _public_n_1 [label=ARG2]
+}

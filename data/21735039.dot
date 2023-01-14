@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(CompuServe)" [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	"_provide_v_1-fn.Competition" -> "named(CompuServe)" [label="ARG1-fn.Participant_1"]
+	udef_q -> _earnings_n_1 [label=BV]
+	udef_q -> _sale_n_of [label=BV]
+	_of_p -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	_of_p -> _percent_n_of [label=ARG1]
+	"card(20)" -> _percent_n_of [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	"_provide_v_1-fn.Competition" -> _percent_n_of [label="ARG2-fn.Participant_2"]
+}

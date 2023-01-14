@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_severe_a_1 -> pron [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_certain_a_1 -> _can_v_modal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.IN" -> "_going+to_v_qmodal" [label="ARG2-fn.NotExist"]
+	_extremely_x_deg -> _severe_a_1 [label=ARG1]
+	"_going+to_v_qmodal" -> _severe_a_1 [label=ARG1]
+	_can_v_modal -> "_say_v_to-fn.IN" [label=ARG1]
+}

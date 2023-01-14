@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_teach_v_1-fn.Education_teaching" -> pron [label="ARG2-fn.Topic"]
+	unspec_manner -> _play_v_1 [label=ARG1]
+	_joke_v_1 -> "_teach_v_1-fn.Education_teaching" [label=ARG2]
+	_the_q -> _musician_n_1 [label=BV]
+	which_q -> manner [label=BV]
+	_like_p -> _gypsy_n_1 [label=ARG2]
+	"_teach_v_1-fn.Education_teaching" -> _play_v_1 [label="ARG3-fn.Recipient"]
+	unspec_manner -> manner [label=ARG2]
+	_a_q -> _gypsy_n_1 [label=BV]
+	_joke_v_1 -> _musician_n_1 [label=ARG1]
+	focus_d -> _joke_v_1 [label=ARG1]
+	focus_d -> "_teach_v_1-fn.Education_teaching" [label=ARG2]
+	_like_p -> _play_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

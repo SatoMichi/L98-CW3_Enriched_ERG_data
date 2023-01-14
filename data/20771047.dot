@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Boren)" [label=BV]
+	_if_x_then -> unknown [label=ARG1]
+	"_share_v_1-fn.Activity_prepare" -> _principle_n_of [label="ARG2-fn.Activity"]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_if_x_then -> "_share_v_1-fn.Activity_prepare" [label=ARG2]
+	_every_q -> _senator_n_1 [label=BV]
+	_the_q -> _principle_n_of [label=BV]
+	_of_p -> _principle_n_of [label=ARG1]
+	_of_p -> "named(Boren)" [label=ARG2]
+	compound -> "named(Boren)" [label=ARG1]
+	"_share_v_1-fn.Activity_prepare" -> _senator_n_1 [label="ARG1-fn.Agent"]
+}

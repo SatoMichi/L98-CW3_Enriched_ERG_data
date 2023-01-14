@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sag_v_1-fn.NF" -> _sale_n_of [label="ARG1-fn.NotExist"]
+	"_say_v_to-fn.IN" -> _insufficient_a_for [label="ARG2-fn.Topic"]
+	_during_p -> _year_n_1 [label=ARG2]
+	proper_q -> "named(Eagle)" [label=BV]
+	"_say_v_to-fn.IN" -> "named(Eagle)" [label="ARG1-fn.Agent"]
+	nominalization -> _finance_v_1 [label=ARG1]
+	_fiscal_a_1 -> _year_n_1 [label=ARG1]
+	_during_p -> _sale_n_of [label=ARG1]
+	_past_a_1 -> _year_n_1 [label=ARG1]
+	_the_q -> _year_n_1 [label=BV]
+	_the_q -> nominalization [label=BV]
+	udef_q -> _sale_n_of [label=BV]
+	_insufficient_a_for -> nominalization [label=ARG1]
+}

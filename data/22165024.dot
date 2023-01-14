@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Quotron)" [label=ARG2]
+	_the_q -> _problem_n_of [label=BV]
+	compound -> _problem_n_of [label=ARG1]
+	"_be_v_itcleft-fn.Quitting" -> "_have_v_1-fn.Competition" [label="ARG2-fn.Employer"]
+	"_have_v_1-fn.Competition" -> _problem_n_of [label="ARG1-fn.Participant_1"]
+	"_have_v_1-fn.Competition" -> _effect_n_1 [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Quotron)" [label=BV]
+	"_be_v_itcleft-fn.Quitting" -> _problem_n_of [label="ARG1-fn.Employee"]
+	udef_q -> _effect_n_1 [label=BV]
+	"_linger_v_1-fn.Halt" -> _effect_n_1 [label="ARG1-fn.Purpose"]
+}

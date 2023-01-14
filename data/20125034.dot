@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Svenska)" [label=ARG2]
+	proper_q -> "named(Svenska)" [label=BV]
+	compound -> "named(Handelsbanken)" [label=ARG1]
+	proper_q -> "named(Handelsbanken)" [label=BV]
+	parg_d -> "_guarantee_v_1-fn.Getting" [label=ARG1]
+	"_guarantee_v_1-fn.Getting" -> "named(Handelsbanken)" [label="ARG1-fn.Recipient"]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_waste_v_1-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	_private_a_1 -> _farmer_n_1 [label=ARG1]
+	_never_a_1 -> "_waste_v_1-fn.Cause_to_end" [label=ARG1]
+	"_waste_v_1-fn.Cause_to_end" -> _farmer_n_1 [label="ARG1-fn.Process"]
+	_any_q -> thing [label=BV]
+	_a_q -> _farmer_n_1 [label=BV]
+}

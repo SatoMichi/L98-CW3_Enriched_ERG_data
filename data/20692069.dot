@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_express_v_to-fn.Cause_to_end" [label=ARG1]
+	proper_q -> "named(Defense)" [label=BV]
+	"_policy_n_of-on" -> "named(Department)" [label=ARG1]
+	"_express_v_to-fn.Cause_to_end" -> _view_n_of [label="ARG2-fn.Means"]
+	_of_p -> "named(Defense)" [label=ARG2]
+	_official_a_1 -> "_policy_n_of-on" [label=ARG1]
+	parg_d -> _view_n_of [label=ARG2]
+	_the_q -> "_policy_n_of-on" [label=BV]
+	"_reflect_v_1-fn.Competition" -> _view_n_of [label="ARG1-fn.Participant_1"]
+	_the_q -> _view_n_of [label=BV]
+	"_reflect_v_1-fn.Competition" -> "_policy_n_of-on" [label="ARG2-fn.Participant_2"]
+	neg -> "_reflect_v_1-fn.Competition" [label=ARG1]
+	_of_p -> "named(Department)" [label=ARG1]
+	_the_q -> "named(Department)" [label=BV]
+}

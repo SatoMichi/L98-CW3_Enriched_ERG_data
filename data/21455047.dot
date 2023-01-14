@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _daylight_n_1 [label=BV]
+	udef_q -> _office_n_of [label=BV]
+	_in_p_state -> _office_n_of [label=ARG2]
+	"_triphosphorous/jj_u_unknown" -> _bulb_n_1 [label=ARG1]
+	udef_q -> _bulb_n_1 [label=BV]
+	focus_d -> _in_p_state [label=ARG2]
+	"_simulate_v_1-fn.Feigning" -> _bulb_n_1 [label="ARG1-fn.Agent"]
+	"_simulate_v_1-fn.Feigning" -> _daylight_n_1 [label="ARG2-fn.Theme"]
+	_in_p_state -> "_simulate_v_1-fn.Feigning" [label=ARG1]
+	focus_d -> "_simulate_v_1-fn.Feigning" [label=ARG1]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_begin_v_1-fn.Activity_start" -> "_trade_v_1-fn.Exchange" [label="ARG1-fn.Agent"]
+	_over_p -> "_trade_v_1-fn.Exchange" [label=ARG1]
+	_the_q -> _counter_n_1 [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	_over_p -> _counter_n_1 [label=ARG2]
+	"card(3)" -> _company_n_of [label=ARG1]
+	"_trade_v_1-fn.Exchange" -> _company_n_of [label="ARG1-fn.Agent"]
+}

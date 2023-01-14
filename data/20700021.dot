@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_swallow_v_1-fn.NF" -> _crisis_n_1 [label="ARG1-fn.Agent"]
+	"_swallow_v_1-fn.NF" -> _exchange_n_1 [label="ARG2-fn.Patient"]
+	_the_q -> _crisis_n_1 [label=BV]
+	_sponsor_v_1 -> "_bailout/nn_u_unknown" [label=ARG2]
+	parg_d -> "_bailout/nn_u_unknown" [label=ARG2]
+	compound -> _sponsor_v_1 [label=ARG1]
+	"_keep_v_from-fn.Cause_to_continue" -> _crisis_n_1 [label="ARG2-fn.Theme"]
+	"_keep_v_from-fn.Cause_to_continue" -> "_bailout/nn_u_unknown" [label="ARG1-fn.Agent"]
+	compound -> _government_n_of [label=ARG2]
+	udef_q -> _government_n_of [label=BV]
+	_only_x_deg -> _a_q [label=ARG1]
+	_the_q -> _exchange_n_1 [label=BV]
+	_a_q -> "_bailout/nn_u_unknown" [label=BV]
+	parg_d -> _sponsor_v_1 [label=ARG1]
+	"_keep_v_from-fn.Cause_to_continue" -> "_swallow_v_1-fn.NF" [label="ARG3-fn.NotExist"]
+}

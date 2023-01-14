@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Fuji)" [label=BV]
+	compound -> "named(Bank)" [label=ARG1]
+	compound -> "named(Fuji)" [label=ARG2]
+	"_guarantee_v_1-fn.State_continue" -> "named(Bank)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Bank)" [label=BV]
+	parg_d -> "_guarantee_v_1-fn.State_continue" [label=ARG1]
+}

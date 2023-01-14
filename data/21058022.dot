@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p -> _individual_n_1 [label=ARG2]
+	udef_q -> _individual_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_measure_v_1-fn.Dimension" -> nominalization [label="ARG2-fn.Theme"]
+	nominalization -> _eavesdrop_v_1 [label=ARG1]
+	_by_p -> _eavesdrop_v_1 [label=ARG1]
+	_harder_a_for -> "_measure_v_1-fn.Dimension" [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _house_n_of [label=BV]
+	_in_p -> _house_n_of [label=ARG2]
+	compound -> _house_n_of [label=ARG1]
+	proper_q -> "named(Glass)" [label=BV]
+	compound -> "named(Glass)" [label=ARG2]
+	"_tend_v_1-fn.Cause_to_end" -> "_look_v_1-fn.Appearance" [label="ARG1-fn.NotExist"]
+	parg_d -> _stone_v_1 [label=ARG1]
+	_in_p -> _people_n_of [label=ARG1]
+	"_look_v_1-fn.Appearance" -> _stone_v_1 [label="ARG2-fn.NotExist"]
+	parg_d -> _people_n_of [label=ARG2]
+	"_look_v_1-fn.Appearance" -> _people_n_of [label="ARG1-fn.Stimulus"]
+	_stone_v_1 -> _people_n_of [label=ARG2]
+	udef_q -> _people_n_of [label=BV]
+}

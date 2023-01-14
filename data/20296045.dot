@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_normal_a_1 -> _relationship_n_of [label=ARG1]
+	_adult_a_1 -> _relationship_n_of [label=ARG1]
+	"_mean_v_to-fn.NF" -> _be_v_id [label="ARG2-fn.Theme"]
+	_be_v_id -> pron [label=ARG1]
+	_be_v_id -> _relationship_n_of [label=ARG2]
+	_a_q -> _relationship_n_of [label=BV]
+	"_mean_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

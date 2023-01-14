@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_near_a_to -> "_jubilant/jj_u_unknown" [label=ARG1]
+	udef_q -> _economist_n_1 [label=BV]
+	comp_equal -> "_jubilant/jj_u_unknown" [label=ARG1]
+	neg -> "_jubilant/jj_u_unknown" [label=ARG1]
+	"much-many_a" -> _economist_n_1 [label=ARG1]
+	"_jubilant/jj_u_unknown" -> _economist_n_1 [label=ARG1]
+}

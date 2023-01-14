@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _condition_n_1 [label=ARG1]
+	unknown -> _condition_n_1 [label=ARG]
+	_for_p -> _part_n_1 [label=ARG2]
+	"_indentical/jj_u_unknown" -> _condition_n_1 [label=ARG1]
+	"card(2)" -> _part_n_1 [label=ARG1]
+	_the_q -> _part_n_1 [label=BV]
+	udef_q -> _condition_n_1 [label=BV]
+}

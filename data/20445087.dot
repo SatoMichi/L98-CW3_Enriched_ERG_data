@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _business_n_1 [label=BV]
+	"_compete_v_1-fn.Competition" -> _maker_n_of [label="ARG1-fn.Agent"]
+	compound -> _maker_n_of [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	_for_p -> "_compete_v_1-fn.Competition" [label=ARG1]
+	focus_d -> _meanwhile_p [label=ARG2]
+	"much-many_a" -> _maker_n_of [label=ARG1]
+	udef_q -> _maker_n_of [label=BV]
+	udef_q -> _computer_n_1 [label=BV]
+	_new_a_1 -> _business_n_1 [label=ARG1]
+	compound -> _computer_n_1 [label=ARG2]
+	_for_p -> _business_n_1 [label=ARG2]
+	_now_a_1 -> "_compete_v_1-fn.Competition" [label=ARG1]
+	_meanwhile_p -> "_compete_v_1-fn.Competition" [label=ARG1]
+	focus_d -> "_compete_v_1-fn.Competition" [label=ARG1]
+}

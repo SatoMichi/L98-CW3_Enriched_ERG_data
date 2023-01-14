@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"ord(1)" -> generic_entity [label=ARG1]
+	compound -> _pop_n_1 [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	unknown -> generic_entity [label=ARG]
+	compound -> _quiz_n_1 [label=ARG1]
+	udef_q -> _pop_n_1 [label=BV]
+	appos -> generic_entity [label=ARG1]
+	_a_q -> _quiz_n_1 [label=BV]
+	appos -> _quiz_n_1 [label=ARG2]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_over_x_deg -> _well_x_deg [label=ARG1]
+	_well_x_deg -> _over_x_deg [label=ARG1]
+	udef_q -> _money_n_1 [label=BV]
+	"_yield_v_1-fn.Commerce_buy" -> _percent_n_of [label="ARG2-fn.Goods"]
+	_the_q -> _fund_n_1 [label=BV]
+	compound -> _money_n_1 [label=ARG2]
+	_current_a_1 -> "_yield_v_1-fn.Commerce_buy" [label=ARG1]
+	compound -> _fund_n_1 [label=ARG1]
+	_top_a_1 -> _fund_n_1 [label=ARG1]
+	"card(9)" -> _percent_n_of [label=ARG1]
+	"_yield_v_1-fn.Commerce_buy" -> _fund_n_1 [label="ARG1-fn.Buyer"]
+	udef_q -> _percent_n_of [label=BV]
+}

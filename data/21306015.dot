@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_most_q -> _participant_n_1 [label=BV]
+	focus_d -> "_decide_v_1-fn.Rite" [label=ARG1]
+	_far_a_1 -> "_decide_v_1-fn.Rite" [label=ARG1]
+	"_decide_v_1-fn.Rite" -> _participant_n_1 [label="ARG1-fn.Leader"]
+	_potential_a_1 -> _participant_n_1 [label=ARG1]
+	comp_so -> _far_a_1 [label=ARG1]
+	neg -> "_decide_v_1-fn.Rite" [label=ARG1]
+}

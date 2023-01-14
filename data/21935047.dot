@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _recovery_n_1 [label=BV]
+	_of_p -> _neighbor_n_1 [label=ARG2]
+	_with_p -> "_come_v_1-fn.Impact" [label=ARG1]
+	_with_p -> _help_n_1 [label=ARG2]
+	poss -> _recovery_n_1 [label=ARG1]
+	"_come_v_1-fn.Impact" -> _recovery_n_1 [label="ARG1-fn.Place"]
+	_the_q -> _help_n_1 [label=BV]
+	_fast_a_1 -> "_come_v_1-fn.Impact" [label=ARG1]
+	_always_a_1 -> _with_p [label=ARG1]
+	_surprisingly_x_deg -> _fast_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _neighbor_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_of_p -> _help_n_1 [label=ARG1]
+}

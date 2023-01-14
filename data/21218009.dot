@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_embryo/nn_u_unknown" [label=BV]
+	_to_p -> _clump_n_of [label=ARG2]
+	_only_x_deg -> _to_p [label=ARG1]
+	"_progress_v_1-fn.Competition" -> "_embryo/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	"card(8)" -> _cell_n_1 [label=ARG1]
+	_clump_n_of -> _cell_n_1 [label=ARG1]
+	_identical_a_to -> _cell_n_1 [label=ARG1]
+	udef_q -> _cell_n_1 [label=BV]
+	_a_q -> _clump_n_of [label=BV]
+	_to_p -> "_progress_v_1-fn.Competition" [label=ARG1]
+}

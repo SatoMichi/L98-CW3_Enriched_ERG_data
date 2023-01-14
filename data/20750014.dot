@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> "named(Harvard)" [label=ARG2]
+	_at_p -> "_find_v_1-fn.Competition" [label=ARG1]
+	"_find_v_1-fn.Competition" -> _isolated_a_1 [label="ARG3-fn.Participants"]
+	udef_q -> _and_c [label=BV]
+	"_find_v_1-fn.Competition" -> _and_c [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Harvard)" [label=BV]
+	_isolated_a_1 -> pron [label=ARG1]
+	"_find_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	udef_q -> _geek_n_1 [label=BV]
+	udef_q -> "_nerds/nns_u_unknown" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_a+bit_x_deg" -> _isolated_a_1 [label=ARG1]
+	_sometimes_a_1 -> "_find_v_1-fn.Competition" [label=ARG1]
+}

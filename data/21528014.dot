@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _director_n_of [label=BV]
+	_each_q -> _company_n_of [label=BV]
+	compound -> _company_n_of [label=ARG1]
+	compound -> _holding_n_1 [label=ARG2]
+	parg_d -> "_make_v_up-of-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _board_n_of [label=BV]
+	"_make_v_up-of-fn.Cause_to_end" -> _director_n_of [label="ARG3-fn.Place"]
+	udef_q -> _holding_n_1 [label=BV]
+	"_make_v_up-of-fn.Cause_to_end" -> _board_n_of [label="ARG2-fn.Means"]
+	_director_n_of -> _company_n_of [label=ARG1]
+	parg_d -> _board_n_of [label=ARG2]
+	"card(7)" -> _director_n_of [label=ARG1]
+}

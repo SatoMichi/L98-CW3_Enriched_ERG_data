@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _reduction_n_of [label=ARG1]
+	poss -> _share_n_of [label=ARG1]
+	_a_q -> _reduction_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	_that_q_dem -> generic_entity [label=BV]
+	_though_x -> _tiny_a_1 [label=ARG2]
+	_in_p -> _share_n_of [label=ARG2]
+	_though_x -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _reduction_n_of [label="ARG2-fn.Means"]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _share_n_of [label=BV]
+}

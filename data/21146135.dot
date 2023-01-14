@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_subsidize_v_1-fn.Amounting_to" -> person [label="ARG2-fn.Attribute"]
+	pronoun_q -> pron [label=BV]
+	"_subsidize_v_1-fn.Amounting_to" -> pron [label="ARG1-fn.Value"]
+	_any_q -> person [label=BV]
+	neg -> "_subsidize_v_1-fn.Amounting_to" [label=ARG1]
+}

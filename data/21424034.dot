@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_military_a_1 -> _aid_n_1 [label=ARG1]
+	times -> "card(1)" [label=ARG2]
+	times -> "card(2.5)" [label=ARG2]
+	"_suspend_v_1-fn.Bail_decision" -> _and_c [label="ARG2-fn.Judge"]
+	_economic_a_1 -> _aid_n_1 [label=ARG1]
+	_in_p -> _aid_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	"_suspend_v_1-fn.Bail_decision" -> "named_n(US)" [label="ARG1-fn.Accused"]
+	_the_q -> "named_n(US)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_what+s+more_a_1" -> "_suspend_v_1-fn.Bail_decision" [label=ARG1]
+	udef_q -> _aid_n_1 [label=BV]
+	_in_p -> _dollar_n_1 [label=ARG1]
+}

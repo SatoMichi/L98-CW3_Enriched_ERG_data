@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(DSP)" [label=BV]
+	compound -> _and_c [label=ARG2]
+	_electronic_a_1 -> _instrumentation_n_1 [label=ARG1]
+	udef_q -> _data_n_1 [label=BV]
+	udef_q -> _instrumentation_n_1 [label=BV]
+	udef_q -> _system_n_of [label=BV]
+	udef_q -> _acquisition_n_of [label=BV]
+	"_make_v_1-fn.Manufacturing" -> _system_n_of [label="ARG2-fn.Product"]
+	udef_q -> _and_c [label=BV]
+	compound -> _system_n_of [label=ARG1]
+	compound -> _acquisition_n_of [label=ARG1]
+	compound -> _data_n_1 [label=ARG2]
+	"_make_v_1-fn.Manufacturing" -> "named(DSP)" [label="ARG1-fn.Agent"]
+}

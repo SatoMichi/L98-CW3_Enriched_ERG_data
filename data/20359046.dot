@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_because_x -> _go_v_1 [label=ARG1]
+	"_move_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.NotExist"]
+	_into_p -> pron [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	_general_a_1 -> _market_n_1 [label=ARG1]
+	_because_x -> "_move_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	"_counter+to_p" -> "_move_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_into_p -> _go_v_1 [label=ARG1]
+	"_counter+to_p" -> _market_n_1 [label=ARG2]
+	_go_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

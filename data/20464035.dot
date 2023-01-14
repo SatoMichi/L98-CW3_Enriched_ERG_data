@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fall_v_1-fn.Halt" -> "named(Stone)" [label="ARG1-fn.Purpose"]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	compound -> "named(Old)" [label=ARG2]
+	proper_q -> "named(Stone)" [label=BV]
+	_to_p -> "card(13)" [label=ARG2]
+	compound -> "named(Stone)" [label=ARG1]
+	number_q -> "card(13)" [label=BV]
+	proper_q -> "named(Old)" [label=BV]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	plus -> "card(13)" [label=ARG2]
+	plus -> "fraction(5/8)" [label=ARG3]
+	plus -> "fraction(1/2)" [label=ARG3]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+}

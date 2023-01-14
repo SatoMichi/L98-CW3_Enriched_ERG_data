@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _nagging_n_1 [label=ARG1]
+	_a_q -> _imperative_n_1 [label=BV]
+	"_feel_v_1-fn.Perception_experience" -> _nagging_n_1 [label="ARG2-fn.Stimulus"]
+	subord -> "_sign_v_up-fn.NF" [label=ARG1]
+	compound -> _imperative_n_1 [label=ARG1]
+	compound -> _culture_n_1 [label=ARG2]
+	"_sign_v_up-fn.NF" -> pron [label="ARG1-fn.NotExist"]
+	_of_p -> _imperative_n_1 [label=ARG2]
+	udef_q -> _culture_n_1 [label=BV]
+	subord -> "_feel_v_1-fn.Perception_experience" [label=ARG2]
+	_the_q -> _nagging_n_1 [label=BV]
+	_prompt_a_1 -> "_sign_v_up-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

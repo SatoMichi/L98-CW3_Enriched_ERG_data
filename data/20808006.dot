@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_any_q -> _concern_n_1 [label=BV]
+	_usual_a_1 -> "_meet_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Scott)" [label=ARG1]
+	compound -> "named(Hart)" [label=ARG2]
+	parg_d -> "_review_v_1-fn.Competition" [label=ARG1]
+	compound -> _filing_n_1 [label=ARG1]
+	_then_a_1 -> "_review_v_1-fn.Competition" [label=ARG1]
+	"_review_v_1-fn.Competition" -> _filing_n_1 [label="ARG2-fn.Participant_2"]
+	"_meet_v_1-fn.Competition" -> _concern_n_1 [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Scott)" [label=BV]
+	proper_q -> "named(Hart)" [label=BV]
+	"_antitrust/jj_u_unknown" -> _concern_n_1 [label=ARG1]
+	_the_q -> _filing_n_1 [label=BV]
+	parg_d -> _filing_n_1 [label=ARG2]
+}

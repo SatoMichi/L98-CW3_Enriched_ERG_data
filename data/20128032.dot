@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _worried_a_about [label=ARG1]
+	compound -> _spokesman_n_1 [label=ARG1]
+	compound -> "named(Shearson)" [label=ARG2]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_worried_a_about -> _firm_n_1 [label=ARG1]
+	_a_q -> _spokesman_n_1 [label=BV]
+	proper_q -> "named(Shearson)" [label=BV]
+	"_say_v_to-fn.IN" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _firm_n_1 [label=BV]
+}

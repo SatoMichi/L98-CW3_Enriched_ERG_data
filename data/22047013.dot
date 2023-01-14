@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_fat_a_1 -> pron [label=ARG1]
+	_all_a_1 -> _fat_a_1 [label=ARG1]
+	neg -> _fat_a_1 [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	neg -> _fair_a_1 [label=ARG1]
+	_fair_a_1 -> generic_entity [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

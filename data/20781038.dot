@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_fast_a_1 -> generic_entity [label=ARG1]
+	_as_p -> _fast_a_1 [label=ARG1]
+	comp_equal -> _fast_a_1 [label=ARG1]
+	_as_p -> "card(386)" [label=ARG2]
+	measure -> comp_equal [label=ARG1]
+	_the_q -> "card(386)" [label=BV]
+	udef_q -> _time_n_of [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	"card(4)" -> _time_n_of [label=ARG1]
+	measure -> _time_n_of [label=ARG2]
+}

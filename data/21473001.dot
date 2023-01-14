@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "_idealism/nn_u_unknown" [label=ARG1]
+	proper_q -> "named(First)" [label=BV]
+	_the_q -> "year_range(1960s)" [label=BV]
+	appos -> "named(First)" [label=ARG1]
+	"_affect_v_1-fn.Competition" -> "_idealism/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	parg_d -> "_affect_v_1-fn.Competition" [label=ARG1]
+	parg_d -> "_idealism/nn_u_unknown" [label=ARG2]
+	unknown -> "named(First)" [label=ARG]
+	_of_p -> "year_range(1960s)" [label=ARG2]
+	_the_q -> "_idealism/nn_u_unknown" [label=BV]
+	_somewhat_x_deg -> "_affect_v_1-fn.Competition" [label=ARG1]
+	appos -> "_idealism/nn_u_unknown" [label=ARG2]
+}

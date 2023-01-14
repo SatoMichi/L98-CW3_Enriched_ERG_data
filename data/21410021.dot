@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_face_v_1-fn.Attempt_suasion" -> _fight_n_1 [label="ARG2-fn.Addressee"]
+	_for_p -> _fight_n_1 [label=ARG1]
+	proper_q -> "named(Ford)" [label=BV]
+	proper_q -> "named(Jaguar)" [label=BV]
+	_for_p -> "named(Jaguar)" [label=ARG2]
+	"_face_v_1-fn.Attempt_suasion" -> "named(Ford)" [label="ARG1-fn.Content"]
+	_uphill_a_1 -> _fight_n_1 [label=ARG1]
+	_a_q -> _fight_n_1 [label=BV]
+}

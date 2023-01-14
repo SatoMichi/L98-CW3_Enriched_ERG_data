@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> reason [label=ARG2]
+	udef_q -> "_containment/nn_u_unknown" [label=BV]
+	comp_so -> _successful_a_1 [label=ARG1]
+	_successful_a_1 -> "_containment/nn_u_unknown" [label=ARG1]
+	_for_p -> _successful_a_1 [label=ARG1]
+	which_q -> reason [label=BV]
+}

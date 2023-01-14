@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fail_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_heavy_a_1 -> "_rely_v_on-fn.Reliance" [label=ARG1]
+	"_in+order+to_x" -> _find_v_1 [label=ARG1]
+	"_rely_v_on-fn.Reliance" -> _grid_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _grid_n_1 [label=BV]
+	_find_v_1 -> pron [label=ARG2]
+	_never_a_1 -> "_in+order+to_x" [label=ARG1]
+	"_in+order+to_x" -> "_fail_v_1-fn.IN" [label=ARG2]
+	_always_a_1 -> "_rely_v_on-fn.Reliance" [label=ARG1]
+	"_rely_v_on-fn.Reliance" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

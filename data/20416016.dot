@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _debt_n_1 [label=BV]
+	compound -> "_burden_v_1-fn.Rite" [label=ARG1]
+	udef_q -> _security_n_1 [label=BV]
+	"_seek_v_1-fn.State_continue" -> _doctor_n_1 [label="ARG1-fn.Entity"]
+	parg_d -> _doctor_n_1 [label=ARG2]
+	_financial_a_1 -> _security_n_1 [label=ARG1]
+	"_burden_v_1-fn.Rite" -> _doctor_n_1 [label="ARG2-fn.Member"]
+	"_seek_v_1-fn.State_continue" -> _security_n_1 [label="ARG2-fn.State"]
+	udef_q -> _doctor_n_1 [label=BV]
+	parg_d -> "_burden_v_1-fn.Rite" [label=ARG1]
+	compound -> _debt_n_1 [label=ARG2]
+}

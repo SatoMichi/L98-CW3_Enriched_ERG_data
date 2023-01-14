@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _hypocrite_n_1 [label=BV]
+	"_care_v_about-fn.Needing" -> _or_c [label="ARG2-fn.Requirement"]
+	proper_q -> "named(Said)" [label=BV]
+	udef_q -> _or_c [label=BV]
+	_never_a_1 -> "_care_v_about-fn.Needing" [label=ARG1]
+	"_hunt_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	"_hunt_v_1-fn.Competition" -> _hypocrite_n_1 [label="ARG2-fn.Participant_2"]
+	"_care_v_about-fn.Needing" -> pron [label="ARG1-fn.Cognizer"]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _generous_a_1 [label=ARG1]
+	comp -> _generous_a_1 [label=ARG1]
+	_close_a_to -> place_n [label=ARG2]
+	comp -> _close_a_to [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	subord -> _close_a_to [label=ARG2]
+	_generous_a_1 -> "_negotiators/nns_u_unknown" [label=ARG1]
+	_home_p -> place_n [label=ARG1]
+	_the_q -> "_negotiators/nns_u_unknown" [label=BV]
+}

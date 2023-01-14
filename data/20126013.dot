@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(San)" [label=ARG2]
+	udef_q -> _year_n_1 [label=BV]
+	"_reject_v_as-fn.Amounting_to" -> _ballpark_n_1 [label="ARG2-fn.Attribute"]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	proper_q -> "named(San)" [label=BV]
+	proper_q -> "named(Francisco)" [label=BV]
+	compound -> "named(Francisco)" [label=ARG1]
+	_a_q -> _ballpark_n_1 [label=BV]
+	compound -> _voter_n_1 [label=ARG1]
+	"_reject_v_as-fn.Amounting_to" -> _voter_n_1 [label="ARG1-fn.Value"]
+	_ago_p -> "_reject_v_as-fn.Amounting_to" [label=ARG1]
+	udef_q -> _voter_n_1 [label=BV]
+	_new_a_1 -> _ballpark_n_1 [label=ARG1]
+	_ago_p -> _year_n_1 [label=ARG2]
+}

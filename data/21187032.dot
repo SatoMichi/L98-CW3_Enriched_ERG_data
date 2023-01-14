@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(130)" [label=BV]
+	_to_p -> _down_p [label=ARG1]
+	number_q -> "card(8,590)" [label=BV]
+	_down_p -> "named(Sony)" [label=ARG1]
+	proper_q -> "named(Sony)" [label=BV]
+	_down_p -> "card(130)" [label=ARG2]
+	_to_p -> "card(8,590)" [label=ARG2]
+}

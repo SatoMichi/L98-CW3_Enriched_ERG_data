@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	poss -> _property_n_1 [label=ARG1]
+	comp -> _property_n_1 [label=ARG2]
+	"_want_v_1-fn.Desiring" -> "_recover_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	comp -> "much-many_a" [label=ARG1]
+	_just_x_deg -> def_explicit_q [label=ARG1]
+	"_recover_v_1-fn.NF" -> generic_entity [label="ARG2-fn.Theme"]
+	"_recover_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> generic_entity [label=BV]
+	poss -> pron [label=ARG2]
+	"much-many_a" -> generic_entity [label=ARG1]
+	def_explicit_q -> _property_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

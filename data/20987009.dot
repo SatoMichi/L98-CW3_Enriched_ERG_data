@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	_the_q -> _proposal_n_1 [label=BV]
+	"_reject_v_as-fn.Amounting_to" -> "named(Breeden)" [label="ARG1-fn.Value"]
+	neg -> "_reject_v_as-fn.Amounting_to" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(Breeden)" [label=BV]
+	"_reject_v_as-fn.Amounting_to" -> _proposal_n_1 [label="ARG2-fn.Attribute"]
+	compound -> "named(Breeden)" [label=ARG1]
+}

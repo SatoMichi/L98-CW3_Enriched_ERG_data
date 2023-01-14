@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _interest_n_in [label=ARG1]
+	"_protect_v_1-fn.Assemble" -> _interest_n_in [label="ARG2-fn.Group"]
+	"_protect_v_1-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	def_explicit_q -> _interest_n_in [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

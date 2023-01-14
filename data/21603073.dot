@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_despite_p -> "_capitalistic/jj_u_unknown" [label=ARG1]
+	"_capitalistic/jj_u_unknown" -> _instinct_n_1 [label=ARG1]
+	def_explicit_q -> _instinct_n_1 [label=BV]
+	_despite_p -> _background_n_1 [label=ARG2]
+	def_explicit_q -> _background_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	poss -> _background_n_1 [label=ARG1]
+	poss -> _instinct_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _pickup_n_1 [label=ARG1]
+	_a_q -> _pickup_n_1 [label=BV]
+	compound -> _retail_n_1 [label=ARG2]
+	"_be_v_there-fn.Cause_to_end" -> _pickup_n_1 [label="ARG1-fn.Process"]
+	udef_q -> _activity_n_1 [label=BV]
+	"_seem_v_to-fn.Desiring" -> "_be_v_there-fn.Cause_to_end" [label="ARG2-fn.Event"]
+	udef_q -> _retail_n_1 [label=BV]
+	compound -> _activity_n_1 [label=ARG1]
+}

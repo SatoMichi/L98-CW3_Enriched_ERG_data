@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_real_a_1 -> _good_n_1 [label=ARG1]
+	"_do_v_1-fn.Piracy" -> _good_n_1 [label="ARG2-fn.Vehicle"]
+	compound -> _breaker_n_1 [label=ARG1]
+	_doubtful_a_1 -> "_do_v_1-fn.Piracy" [label=ARG1]
+	_any_q -> _good_n_1 [label=BV]
+	udef_q -> _breaker_n_1 [label=BV]
+	udef_q -> _circuit_n_1 [label=BV]
+	"_do_v_1-fn.Piracy" -> _breaker_n_1 [label="ARG1-fn.Perpetrator"]
+	compound -> _circuit_n_1 [label=ARG2]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "mofy(Aug)" [label=BV]
+	udef_q -> _month_n_1 [label=BV]
+	compound -> "mofy(Aug)" [label=ARG2]
+	"ord(4)" -> _decline_n_1 [label=ARG1]
+	_the_q -> _drop_n_of [label=BV]
+	_in_p -> _month_n_1 [label=ARG2]
+	_the_q -> _decline_n_1 [label=BV]
+	"card(5)" -> _month_n_1 [label=ARG1]
+	_in_p -> _decline_n_1 [label=ARG1]
+	compound -> _drop_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _decline_n_1 [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> _drop_n_of [label="ARG1-fn.Process"]
+}

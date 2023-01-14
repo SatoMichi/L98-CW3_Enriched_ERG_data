@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_under_p -> _symbol_n_of [label=ARG2]
+	_over_p -> "_trade_v_1-fn.Exchange" [label=ARG1]
+	_the_q -> _counter_n_1 [label=BV]
+	proper_q -> "named(CRAY)" [label=BV]
+	_under_p -> "_trade_v_1-fn.Exchange" [label=ARG1]
+	_over_p -> _counter_n_1 [label=ARG2]
+	_the_q -> _symbol_n_of [label=BV]
+	appos -> "named(CRAY)" [label=ARG2]
+	"_trade_v_1-fn.Exchange" -> pron [label="ARG1-fn.NotExist"]
+	appos -> _symbol_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

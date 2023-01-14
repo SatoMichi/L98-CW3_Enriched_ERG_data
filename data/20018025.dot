@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_up+to_p" -> _marketplace_n_of [label=ARG2]
+	focus_d -> _instead_p [label=ARG2]
+	"_up+to_p" -> "_leave_v_1-fn.Competition" [label=ARG1]
+	"_leave_v_1-fn.Competition" -> _instead_p [label="ARG3-fn.Participants"]
+	"_in+order+to_x" -> "_leave_v_1-fn.Competition" [label=ARG1]
+	focus_d -> "_leave_v_1-fn.Competition" [label=ARG1]
+	"_decide_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	_instead_p -> pron [label=ARG1]
+	"_leave_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	_the_q -> _marketplace_n_of [label=BV]
+	"_in+order+to_x" -> "_decide_v_1-fn.Competition" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	"_leave_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_average_a_1 -> _american_n_1 [label=ARG1]
+	_the_q -> _american_n_1 [label=BV]
+	"_watch_v_1-fn.Perception_active" -> _american_n_1 [label="ARG1-fn.Experiencer"]
+	"_watch_v_1-fn.Perception_active" -> _hour_n_1 [label="ARG2-fn.Stimulus"]
+	udef_q -> _day_n_of [label=BV]
+	"card(7)" -> _hour_n_1 [label=ARG1]
+	loc_nonsp -> "_watch_v_1-fn.Perception_active" [label=ARG1]
+	_of_p -> _hour_n_1 [label=ARG1]
+	"card(1)" -> _day_n_of [label=ARG1]
+	udef_q -> _tv_n_1 [label=BV]
+	_of_p -> _tv_n_1 [label=ARG2]
+	loc_nonsp -> _day_n_of [label=ARG2]
+	udef_q -> _hour_n_1 [label=BV]
+}

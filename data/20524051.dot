@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _place_n_of [label=BV]
+	compound -> "named(Hong)" [label=ARG2]
+	_become_v_id -> "named(Kong)" [label=ARG1]
+	_would_v_modal -> _become_v_id [label=ARG1]
+	_just_a_1 -> "_mean_v_to-fn.NF" [label=ARG1]
+	_become_v_id -> _place_n_of [label=ARG2]
+	"_mean_v_to-fn.NF" -> _would_v_modal [label="ARG2-fn.Theme"]
+	proper_q -> "named(Kong)" [label=BV]
+	_exciting_a_1 -> _place_n_of [label=ARG1]
+	proper_q -> "named(Hong)" [label=BV]
+	compound -> "named(Kong)" [label=ARG1]
+	"_mean_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	comp_less -> _exciting_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

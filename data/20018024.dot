@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _price_n_of [label=ARG2]
+	_the_q -> _share_n_of [label=BV]
+	_no_q -> _price_n_of [label=BV]
+	_for_p -> _price_n_of [label=ARG1]
+	_for_p -> _share_n_of [label=ARG2]
+	parg_d -> "_set_v_1-fn.Relative_time" [label=ARG1]
+	_new_a_1 -> _share_n_of [label=ARG1]
+	"_set_v_1-fn.Relative_time" -> _price_n_of [label="ARG2-fn.Landmark_occasion"]
+}

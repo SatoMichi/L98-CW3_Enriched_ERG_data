@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_middlemen/nns_u_unknown" [label=ARG2]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_admit_v_to-fn.IN" -> _payment_n_of [label="ARG2-fn.Theme"]
+	times -> "card(1000000)" [label=ARG3]
+	proper_q -> "named(Bofors)" [label=BV]
+	times -> "card(41)" [label=ARG2]
+	udef_q -> "_middlemen/nns_u_unknown" [label=BV]
+	udef_q -> _payment_n_of [label=BV]
+	_payment_n_of -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_admit_v_to-fn.IN" -> "named(Bofors)" [label="ARG1-fn.Agent"]
+	_to_p -> _payment_n_of [label=ARG1]
+}

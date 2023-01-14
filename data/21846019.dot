@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "named(Turkey)" [label=ARG1]
+	_past_p -> time_n [label=ARG1]
+	proper_q -> "named(Turkey)" [label=BV]
+	_past_p -> pron [label=ARG2]
+	_in_p -> "named(Turkey)" [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	_in_p -> _event_n_item [label=ARG2]
+	_any_q -> _event_n_item [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	_long_a_1 -> time_n [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> _time_n_of [label=ARG2]
+	_the_q -> _time_n_of [label=BV]
+	_natural_a_for -> _time_n_of [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	_seem_v_to -> _like_p [label=ARG2]
+	_seem_v_to -> generic_entity [label=ARG1]
+	_a_q -> _agenda_n_1 [label=BV]
+	_like_p -> generic_entity [label=ARG1]
+	"_have_v_1-fn.IN" -> _agenda_n_1 [label="ARG2-fn.Theme"]
+	proper_q -> "named(Bob)" [label=BV]
+	"_have_v_1-fn.IN" -> "named(Bob)" [label="ARG1-fn.Pivot"]
+}

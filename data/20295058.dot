@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Brewing)" [label=BV]
+	proper_q -> "named(Miller)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _client_n_1 [label=BV]
+	compound -> "named(Miller)" [label=ARG2]
+	proper_q -> "named(General)" [label=BV]
+	"_include_v_1-fn.Cause_to_end" -> _client_n_1 [label="ARG1-fn.Process"]
+	"_include_v_1-fn.Cause_to_end" -> _and_c [label="ARG2-fn.Means"]
+	compound -> _company_n_1 [label=ARG2]
+	proper_q -> "named(Motors)" [label=BV]
+	udef_q -> _company_n_1 [label=BV]
+	compound -> "named(Motors)" [label=ARG1]
+	compound -> "named(General)" [label=ARG2]
+	compound -> "named(Brewing)" [label=ARG1]
+}

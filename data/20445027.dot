@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _office_n_of [label=BV]
+	ellipsis_ref -> _office_n_of [label=ARG1]
+	comp_less -> ellipsis_ref [label=ARG2]
+	_japanese_a_1 -> _office_n_of [label=ARG1]
+	_efficient_a_1 -> "_use_v_1-fn.IN" [label=ARG1]
+	_tend_v_1 -> "_use_v_1-fn.IN" [label=ARG1]
+	_american_a_1 -> _office_n_of [label=ARG1]
+	"_use_v_1-fn.IN" -> _office_n_of [label="ARG1-fn.NotExist"]
+	_moreover_a_1 -> _tend_v_1 [label=ARG1]
+	udef_q -> _computer_n_1 [label=BV]
+	comp_less -> _efficient_a_1 [label=ARG1]
+	"_use_v_1-fn.IN" -> _computer_n_1 [label="ARG2-fn.NotExist"]
+}

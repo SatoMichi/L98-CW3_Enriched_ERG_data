@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _induce_v_1 [label=ARG1]
+	_do_v_1 -> pron [label=ARG1]
+	_to_p -> _immunity_n_1 [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	"_say_v_to-fn.IN" -> _researcher_n_of [label="ARG1-fn.Agent"]
+	_induce_v_1 -> _immunity_n_1 [label=ARG2]
+	udef_q -> _immunity_n_1 [label=BV]
+	_do_v_1 -> generic_entity [label=ARG2]
+	_the_q -> _researcher_n_of [label=BV]
+	udef_q -> "_whooping+cough_n_1" [label=BV]
+	_induce_v_1 -> _toxin_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _but_c [label="ARG2-fn.Topic"]
+	_the_q -> _toxin_n_1 [label=BV]
+	_to_p -> "_whooping+cough_n_1" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

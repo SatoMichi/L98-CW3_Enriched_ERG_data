@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _nightmare_n_1 [label=BV]
+	_to_p -> _nightmare_n_1 [label=ARG2]
+	_then_a_1 -> "_wake_v_up-fn.Cause_to_continue" [label=ARG1]
+	_to_p -> "_wake_v_up-fn.Cause_to_continue" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_wake_v_up-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+}

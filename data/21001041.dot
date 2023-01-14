@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Industrial)" [label=BV]
+	compound -> "named(Bank)" [label=ARG1]
+	unknown -> _guarantee_n_of [label=ARG]
+	udef_q -> _guarantee_n_of [label=BV]
+	_of_p -> "named(Bank)" [label=ARG1]
+	_of_p -> "named(Japan)" [label=ARG2]
+	_by_p -> _guarantee_n_of [label=ARG1]
+	proper_q -> "named(Japan)" [label=BV]
+	_by_p -> "named(Bank)" [label=ARG2]
+	proper_q -> "named(Bank)" [label=BV]
+	compound -> "named(Industrial)" [label=ARG2]
+}

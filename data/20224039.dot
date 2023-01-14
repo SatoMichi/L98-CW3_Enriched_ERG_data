@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_calculate_v_1-fn.Process_start" [label=ARG1]
+	_a_q -> _risk_n_of [label=BV]
+	"_calculate_v_1-fn.Process_start" -> _risk_n_of [label="ARG2-fn.Place"]
+	parg_d -> _risk_n_of [label=ARG2]
+	"_take_v_1-fn.Commerce_buy" -> _risk_n_of [label="ARG2-fn.Goods"]
+	"_take_v_1-fn.Commerce_buy" -> _government_n_of [label="ARG1-fn.Buyer"]
+	_indeed_a_1 -> "_take_v_1-fn.Commerce_buy" [label=ARG1]
+	_the_q -> _government_n_of [label=BV]
+}

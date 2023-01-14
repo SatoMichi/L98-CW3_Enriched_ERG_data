@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_combine_v_cause-fn.Cause_to_amalgamate" -> _and_c [label="ARG2-fn.Patient"]
+	_also_a_1 -> _would_v_modal [label=ARG1]
+	"_combine_v_cause-fn.Cause_to_amalgamate" -> _transaction_n_1 [label="ARG1-fn.Agent"]
+	_would_v_modal -> "_combine_v_cause-fn.Cause_to_amalgamate" [label=ARG1]
+	udef_q -> _usa_n_1 [label=BV]
+	_the_q -> _transaction_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Fresenius)" [label=BV]
+	compound -> _usa_n_1 [label=ARG2]
+	proper_q -> "named(Delmed)" [label=BV]
+	compound -> "named(Fresenius)" [label=ARG1]
+}

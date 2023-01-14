@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _sticky_a_1 [label=ARG1]
+	comp -> "_seem_v_to-fn.Desiring" [label=ARG2]
+	_sticky_a_1 -> _issue_n_1 [label=ARG1]
+	"_seem_v_to-fn.Desiring" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _issue_n_1 [label=BV]
+}

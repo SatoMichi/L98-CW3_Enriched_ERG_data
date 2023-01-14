@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_leverage_v_1-fn.Competition" [label=ARG1]
+	_in_p -> _rule_n_of [label=ARG1]
+	"_leverage_v_1-fn.Competition" -> "_buy+out_n_1" [label="ARG2-fn.Participant_2"]
+	"card(2)" -> _rule_n_of [label=ARG1]
+	"_curb_v_1-fn.Piracy" -> "_buy+out_n_1" [label="ARG2-fn.Vehicle"]
+	udef_q -> "_buy+out_n_1" [label=BV]
+	parg_d -> "_curb_v_1-fn.Piracy" [label=ARG1]
+	parg_d -> "_buy+out_n_1" [label=ARG2]
+	_congressional_a_1 -> _legislation_n_1 [label=ARG1]
+	udef_q -> _rule_n_of [label=BV]
+	_pending_a_1 -> _legislation_n_1 [label=ARG1]
+	"_curb_v_1-fn.Piracy" -> _rule_n_of [label="ARG1-fn.Perpetrator"]
+	udef_q -> _legislation_n_1 [label=BV]
+	_in_p -> _legislation_n_1 [label=ARG2]
+	"_may_v_modal-fn.Communication_manner" -> "_curb_v_1-fn.Piracy" [label="ARG1-fn.Speaker"]
+}

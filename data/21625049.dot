@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_comment_v_on-fn.Judgment_direct_address" -> _official_n_1 [label="ARG1-fn.Communicator"]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> "_comment_v_on-fn.Judgment_direct_address" [label="ARG2-fn.Item"]
+	"_deny_v_to-fn.State_continue" -> _allegation_n_1 [label="ARG2-fn.State"]
+	udef_q -> _official_n_1 [label=BV]
+	"_deny_v_to-fn.State_continue" -> _and_c [label="ARG1-fn.Entity"]
+	_in_p -> _court_n_of [label=ARG2]
+	proper_q -> "named(Watson)" [label=BV]
+	proper_q -> "named(Hughey)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	_in_p -> "_deny_v_to-fn.State_continue" [label=ARG1]
+	_the_q -> _allegation_n_1 [label=BV]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _official_n_1 [label="ARG1-fn.Attribute"]
+	_further_a_1 -> "_comment_v_on-fn.Judgment_direct_address" [label=ARG1]
+	udef_q -> _court_n_of [label=BV]
+}

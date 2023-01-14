@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Haag)" [label=ARG1]
+	"_play_v_1-fn.Competition" -> "named(Elianti)" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Elianti)" [label=BV]
+	proper_q -> "named(Haag)" [label=BV]
+	compound -> _ms_n_1 [label=ARG2]
+	udef_q -> _ms_n_1 [label=BV]
+	"_play_v_1-fn.Competition" -> "named(Haag)" [label="ARG1-fn.Participant_1"]
+}

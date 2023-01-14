@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "_ethos/nn_u_unknown" [label=ARG1]
+	_the_q -> "_ethos/nn_u_unknown" [label=BV]
+	_no_q -> _defense_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _defense_n_1 [label="ARG1-fn.Process"]
+	_for_p -> "_ethos/nn_u_unknown" [label=ARG2]
+	"_at+all_a_1" -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_of_p -> "year_range(1980s)" [label=ARG2]
+	_the_q -> "year_range(1980s)" [label=BV]
+	_for_p -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+}

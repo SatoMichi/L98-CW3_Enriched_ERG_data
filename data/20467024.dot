@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_read_v_1-fn.Required_event" -> pron [label="ARG1-fn.Required_situation"]
+	focus_d -> "_answer_v_1-fn.Attempt" [label=ARG1]
+	"_answer_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	"_answer_v_1-fn.Attempt" -> "_read_v_1-fn.Required_event" [label="ARG3-fn.Outcome"]
+	udef_q -> _critic_n_of [label=BV]
+	proper_q -> "named(Balzac)" [label=BV]
+	"_answer_v_1-fn.Attempt" -> _critic_n_of [label="ARG2-fn.Goal"]
+	"_read_v_1-fn.Required_event" -> "named(Balzac)" [label="ARG2-fn.Negative_consequences"]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_read_v_1-fn.Required_event" [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _facility_n_1 [label=ARG2]
+	"_remain_v_1-fn.Left_to_do" -> _detail_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _facility_n_1 [label=BV]
+	_restructure_v_cause -> _facility_n_1 [label=ARG2]
+	parg_d -> _facility_n_1 [label=ARG2]
+	"_remain_v_1-fn.Left_to_do" -> eventuality [label="ARG2-fn.Theme"]
+	eventuality -> "_negotiate_v_1-fn.NF" [label=ARG1]
+	parg_d -> _detail_n_1 [label=ARG2]
+	udef_q -> _detail_n_1 [label=BV]
+	parg_d -> _restructure_v_cause [label=ARG1]
+	"_negotiate_v_1-fn.NF" -> _detail_n_1 [label="ARG2-fn.NotExist"]
+	_of_p -> _detail_n_1 [label=ARG1]
+	parg_d -> "_negotiate_v_1-fn.NF" [label=ARG1]
+	_certain_a_of -> _detail_n_1 [label=ARG1]
+}

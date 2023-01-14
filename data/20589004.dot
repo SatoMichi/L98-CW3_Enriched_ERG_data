@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_may_v_modal-fn.Communication_manner" -> "_have_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+	def_implicit_q -> time_n [label=BV]
+	_long_a_1 -> time_n [label=ARG1]
+	focus_d -> _half_n_of [label=ARG2]
+	_other_a_1 -> _half_n_of [label=ARG1]
+	_the_q -> _half_n_of [label=BV]
+	_before_p -> "_have_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_may_v_modal-fn.Communication_manner" [label=ARG1]
+	_before_p -> time_n [label=ARG2]
+	"_have_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_have_v_1-fn.Competition" -> _half_n_of [label="ARG2-fn.Participant_2"]
+}

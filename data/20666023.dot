@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	"_expect_v_1-fn.IN" -> subord [label="ARG2-fn.Theme"]
+	subord -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> _price_n_of [label=BV]
+	comp -> _even_a_1 [label=ARG1]
+	_for_p -> _price_n_of [label=ARG1]
+	loc_nonsp -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	def_implicit_q -> _year_n_1 [label=BV]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _price_n_of [label="ARG1-fn.NotExist"]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	subord -> _even_a_1 [label=ARG2]
+	_that_q_dem -> _product_n_1 [label=BV]
+	_next_a_1 -> _year_n_1 [label=ARG1]
+	_for_p -> _product_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

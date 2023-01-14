@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> implicit_conj [label=ARG]
+	proper_q -> "named(RAND)" [label=BV]
+	udef_q -> _company_n_1 [label=BV]
+	proper_q -> "named(Lake)" [label=BV]
+	compound -> "named(RAND)" [label=ARG1]
+	compound -> "named(Woodcliff)" [label=ARG2]
+	udef_q -> implicit_conj [label=BV]
+	unknown -> "named(RAND)" [label=ARG]
+	proper_q -> "named(INGERSOLL-)" [label=BV]
+	compound -> "named(Lake)" [label=ARG1]
+	compound -> "named(INGERSOLL-)" [label=ARG2]
+	proper_q -> "named(Woodcliff)" [label=BV]
+	compound -> _company_n_1 [label=ARG2]
+	proper_q -> "named(New+Jersey)" [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _buyer_n_of [label="ARG1-fn.Process"]
+	udef_q -> _chip_n_1 [label=BV]
+	subord -> _high_a_1 [label=ARG2]
+	udef_q -> _buyer_n_of [label=BV]
+	comp -> _high_a_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _force_n_1 [label="ARG2-fn.Means"]
+	_institutional_a_1 -> _buyer_n_of [label=ARG1]
+	"_push_v_1-fn.Attempt_suasion" -> _chip_n_1 [label="ARG2-fn.Addressee"]
+	subord -> "_push_v_1-fn.Attempt_suasion" [label=ARG1]
+	_main_a_1 -> _force_n_1 [label=ARG1]
+	_blue_a_1 -> _chip_n_1 [label=ARG1]
+	"_push_v_1-fn.Attempt_suasion" -> _force_n_1 [label="ARG1-fn.Content"]
+	_the_q -> _force_n_1 [label=BV]
+}

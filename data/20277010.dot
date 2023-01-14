@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_have_v_qmodal -> "_choose_v_from-fn.Choosing" [label=ARG1]
+	_particular_a_1 -> _moment_n_1 [label=ARG1]
+	"_choose_v_from-fn.Choosing" -> _moment_n_1 [label="ARG2-fn.Theme"]
+	_this_q_dem -> _moment_n_1 [label=BV]
+	"_choose_v_from-fn.Choosing" -> pron [label="ARG1-fn.Agent"]
+	neg -> _have_v_qmodal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

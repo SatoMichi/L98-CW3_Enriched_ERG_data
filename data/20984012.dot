@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _building_n_1 [label=BV]
+	"_view_v_as-fn.Amounting_to" -> generic_entity [label="ARG2-fn.Attribute"]
+	"_view_v_as-fn.Amounting_to" -> _building_n_1 [label="ARG3-fn.Time_span"]
+	"_view_v_as-fn.Amounting_to" -> pron [label="ARG1-fn.Value"]
+	pronoun_q -> pron [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

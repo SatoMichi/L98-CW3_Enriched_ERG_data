@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_around_p_dir -> _move_v_1 [label=ARG1]
+	udef_q -> _air_n_1 [label=BV]
+	measure -> abstr_deg [label=ARG2]
+	_look_v_1 -> _move_v_1 [label=ARG2]
+	focus_d -> _look_v_1 [label=ARG2]
+	measure -> "much-many_a" [label=ARG1]
+	_move_v_1 -> _air_n_1 [label=ARG1]
+	which_q -> abstr_deg [label=BV]
+	_look_v_1 -> pron [label=ARG1]
+	"_say_v_to-fn.IN" -> _look_v_1 [label="ARG2-fn.NotExist"]
+	"much-many_a" -> _air_n_1 [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

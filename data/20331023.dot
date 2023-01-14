@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _so_a_true [label=ARG1]
+	_for_p -> reason [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	which_q -> reason [label=BV]
+	_clear_a_of -> "_should_v_modal-fn.Amounting_to" [label=ARG1]
+	_so_a_true -> generic_entity [label=ARG1]
+	neg -> _clear_a_of [label=ARG1]
+	"_should_v_modal-fn.Amounting_to" -> _so_a_true [label="ARG1-fn.Value"]
+}

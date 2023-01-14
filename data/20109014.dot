@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_require_v_of-fn.State_continue" -> _skill_n_1 [label="ARG2-fn.State"]
+	_such_q -> _problem_n_of [label=BV]
+	"_require_v_of-fn.State_continue" -> _problem_n_of [label="ARG1-fn.Entity"]
+	_considerable_a_1 -> _skill_n_1 [label=ARG1]
+	"_in+order+to_x" -> "_require_v_of-fn.State_continue" [label=ARG1]
+	"_resolve_v_1-fn.Competition" -> _problem_n_of [label="ARG1-fn.Participant_1"]
+	"_in+order+to_x" -> "_resolve_v_1-fn.Competition" [label=ARG2]
+	udef_q -> _skill_n_1 [label=BV]
+}

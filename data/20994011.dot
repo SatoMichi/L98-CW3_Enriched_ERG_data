@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_see_v_1-fn.Perception_experience" -> "named(Vegas)" [label="ARG1-fn.Experiencer"]
+	proper_q -> "named(Vegas)" [label=BV]
+	"_see_v_1-fn.Perception_experience" -> thing [label="ARG2-fn.Stimulus"]
+	compound -> "named(LA)" [label=ARG2]
+	_no_q -> thing [label=BV]
+	_like_p -> thing [label=ARG1]
+	_quite_a_1 -> _like_p [label=ARG1]
+	_before_p -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	compound -> "named(Vegas)" [label=ARG1]
+	_like_p -> pron [label=ARG2]
+	udef_q -> "named(LA)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

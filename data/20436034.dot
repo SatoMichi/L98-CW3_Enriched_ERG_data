@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _effort_n_1 [label=ARG2]
+	_in_p -> _middle_n_of [label=ARG2]
+	_effort_n_1 -> "_steal_v_from-fn.Theft" [label=ARG1]
+	_in_p -> "_steal_v_from-fn.Theft" [label=ARG1]
+	neg -> _be_v_id [label=ARG1]
+	"_steal_v_from-fn.Theft" -> _company_n_of [label="ARG2-fn.Theme"]
+	_middle_n_of -> _night_n_of [label=ARG1]
+	_the_q -> _middle_n_of [label=BV]
+	_be_v_id -> pron [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_a_q -> _effort_n_1 [label=BV]
+	_the_q -> _night_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

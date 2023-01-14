@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Cray)" [label=BV]
+	parg_d -> pron [label=ARG2]
+	focus_d -> _at_p [label=ARG2]
+	focus_d -> "_pay_v_for-fn.Commerce_buy" [label=ARG1]
+	"card(240,000)" -> _dollar_n_1 [label=ARG1]
+	parg_d -> "_pay_v_for-fn.Commerce_buy" [label=ARG1]
+	proper_q -> "named(Computer)" [label=BV]
+	compound -> "named(Cray)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	_at_p -> "_pay_v_for-fn.Commerce_buy" [label=ARG1]
+	_at_p -> "named(Computer)" [label=ARG2]
+	"_pay_v_for-fn.Commerce_buy" -> pron [label="ARG3-fn.Means"]
+	compound -> "named(Computer)" [label=ARG1]
+	"_pay_v_for-fn.Commerce_buy" -> _dollar_n_1 [label="ARG2-fn.Goods"]
+}

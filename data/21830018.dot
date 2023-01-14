@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _egg_n_1 [label=ARG2]
+	compound -> _breaker_n_1 [label=ARG1]
+	_centrifugal_a_1 -> _breaker_n_1 [label=ARG1]
+	_since_p -> "year_range(1890s)" [label=ARG2]
+	_around_p -> ellipsis_ref [label=ARG1]
+	udef_q -> _egg_n_1 [label=BV]
+	_such_q -> _breaker_n_1 [label=BV]
+	_the_q -> "year_range(1890s)" [label=BV]
+	ellipsis_ref -> _breaker_n_1 [label=ARG1]
+	_since_p -> ellipsis_ref [label=ARG1]
+}

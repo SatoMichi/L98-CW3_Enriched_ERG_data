@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _spokesman_n_1 [label=ARG1]
+	neg -> _would_v_modal [label=ARG1]
+	"_comment_v_on-fn.Statement" -> _dismissal_n_1 [label="ARG2-fn.Topic"]
+	_would_v_modal -> "_comment_v_on-fn.Statement" [label=ARG1]
+	_can_v_modal -> _reach_v_1 [label=ARG1]
+	compound -> _company_n_of [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_reach_v_1 -> pron [label=ARG2]
+	udef_q -> _company_n_of [label=BV]
+	parg_d -> _reach_v_1 [label=ARG1]
+	_the_q -> _dismissal_n_1 [label=BV]
+	"_comment_v_on-fn.Statement" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	parg_d -> pron [label=ARG2]
+	neg -> _can_v_modal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

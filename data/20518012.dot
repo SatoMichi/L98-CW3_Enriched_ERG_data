@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_seek_v_1 -> "_lawmakers/nns_u_unknown" [label=ARG1]
+	udef_q -> _legislation_n_1 [label=BV]
+	_overly_x -> _restrictive_a_1 [label=ARG1]
+	compound -> "_policy_n_of-on" [label=ARG1]
+	_may_v_modal -> "_in+order+to_x" [label=ARG1]
+	"_in+order+to_x" -> "_limit_v_1-fn.NF" [label=ARG2]
+	compound -> _insurance_n_1 [label=ARG2]
+	_some_q -> "_lawmakers/nns_u_unknown" [label=BV]
+	_restrictive_a_1 -> "_policy_n_of-on" [label=ARG1]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	"_limit_v_1-fn.NF" -> "_policy_n_of-on" [label="ARG2-fn.Patient"]
+	udef_q -> _insurance_n_1 [label=BV]
+	"_in+order+to_x" -> _seek_v_1 [label=ARG1]
+	_seek_v_1 -> _legislation_n_1 [label=ARG2]
+	"_limit_v_1-fn.NF" -> "_lawmakers/nns_u_unknown" [label="ARG1-fn.Cause"]
+}

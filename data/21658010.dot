@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(1.21)" [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	times -> "card(1.23)" [label=ARG2]
+	_to_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(1000000000)" [label=ARG3]
+	"card(1.6)" -> _percent_n_of [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> _revenue_n_1 [label=BV]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> _revenue_n_1 [label="ARG1-fn.Attribute"]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	loc_nonsp -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _maker_n_of [label=ARG1]
+	"_couch_v_in-fn.Change_posture" -> nominalization [label="ARG3-fn.Depictive"]
+	_pretty_a_1 -> nominalization [label=ARG1]
+	_the_q -> _maker_n_of [label=BV]
+	nominalization -> _package_v_1 [label=ARG1]
+	udef_q -> _film_n_1 [label=BV]
+	"_couch_v_in-fn.Change_posture" -> _idea_n_of [label="ARG2-fn.Protagonist"]
+	_this_q_dem -> _idea_n_of [label=BV]
+	_offensive_a_1 -> _idea_n_of [label=ARG1]
+	compound -> _film_n_1 [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	"_couch_v_in-fn.Change_posture" -> _maker_n_of [label="ARG1-fn.Manner"]
+}

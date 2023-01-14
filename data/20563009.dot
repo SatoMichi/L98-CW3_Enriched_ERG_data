@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tape_v_1-fn.NF" -> generic_entity [label="ARG2-fn.Theme"]
+	"_buy_v_1-fn.Commerce_buy" -> _people_n_of [label="ARG1-fn.Agent"]
+	"_tape_v_1-fn.NF" -> _people_n_of [label="ARG1-fn.Agent"]
+	"_buy_v_1-fn.Commerce_buy" -> generic_entity [label="ARG2-fn.Theme"]
+	_the_q -> _people_n_of [label=BV]
+	"_the+most_q" -> generic_entity [label=BV]
+}

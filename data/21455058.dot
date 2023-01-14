@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Sasha)" [label=ARG2]
+	_a_q -> "named(Muniak)" [label=BV]
+	"_be_v_id-fn.Residence" -> _developer_n_of [label="ARG1-fn.Resident"]
+	def_explicit_q -> _developer_n_of [label=BV]
+	compound -> "named(Muniak)" [label=ARG1]
+	_polish_a_1 -> "named(Muniak)" [label=ARG1]
+	poss -> _developer_n_of [label=ARG1]
+	proper_q -> "named(Sasha)" [label=BV]
+	"_be_v_id-fn.Residence" -> "named(Muniak)" [label="ARG2-fn.Location"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	_american_a_1 -> "named(Muniak)" [label=ARG1]
+}

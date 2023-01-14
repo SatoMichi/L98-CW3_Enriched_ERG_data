@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _rule_n_of [label=BV]
+	_among_p -> unknown [label=ARG1]
+	_among_p -> _rule_n_of [label=ARG2]
+	_colon_p_namely -> _among_p [label=ARG1]
+}

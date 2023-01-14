@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _part_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _sale_n_of [label="ARG1-fn.Process"]
+	_the_q -> _sale_n_of [label=BV]
+	_of_p -> _part_n_1 [label=ARG1]
+	_the_q -> _program_n_of [label=BV]
+	_of_p -> _program_n_of [label=ARG2]
+	compound -> "named(Southern)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _part_n_1 [label="ARG2-fn.Means"]
+	_sale_n_of -> "named(Optical)" [label=ARG1]
+	proper_q -> "named(Optical)" [label=BV]
+	proper_q -> "named(Southern)" [label=BV]
+	compound -> "named(Optical)" [label=ARG1]
+}

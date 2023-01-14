@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _product_n_1 [label=BV]
+	_among_p -> _shot_n_of [label=ARG1]
+	_for_p -> _horse_n_1 [label=ARG2]
+	udef_q -> _flu_n_1 [label=BV]
+	udef_q -> _horse_n_1 [label=BV]
+	_a_q -> _shot_n_of [label=BV]
+	compound -> _shot_n_of [label=ARG1]
+	"_lead_v_1-fn.Cotheme" -> _product_n_1 [label="ARG1-fn.Agent"]
+	_among_p -> _product_n_1 [label=ARG2]
+	_for_p -> _shot_n_of [label=ARG1]
+	compound -> _flu_n_1 [label=ARG2]
+}

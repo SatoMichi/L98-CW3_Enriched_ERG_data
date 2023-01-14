@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p -> "_own_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Express)" [label=BV]
+	compound -> "named(American)" [label=ARG2]
+	parg_d -> "named(Shearson)" [label=ARG2]
+	compound -> "named(Express)" [label=ARG1]
+	proper_q -> "named(Shearson)" [label=BV]
+	proper_q -> "named(American)" [label=BV]
+	parg_d -> "_own_v_1-fn.Competition" [label=ARG1]
+	compound -> "_own_v_1-fn.Competition" [label=ARG1]
+	compound -> "_62%-/nn_u_unknown" [label=ARG2]
+	udef_q -> "_62%-/nn_u_unknown" [label=BV]
+	_by_p -> "named(Express)" [label=ARG2]
+	udef_q -> _company_n_1 [label=BV]
+	compound -> _company_n_1 [label=ARG2]
+	"_own_v_1-fn.Competition" -> "named(Shearson)" [label="ARG2-fn.Participant_2"]
+}

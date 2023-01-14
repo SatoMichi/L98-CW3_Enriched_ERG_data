@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_can_v_modal -> _move_v_1 [label=ARG1]
+	"_depend_v_on-upon-fn.Reliance" -> generic_entity [label="ARG1-fn.Agent"]
+	measure -> abstr_deg [label=ARG2]
+	proper_q -> "named(IBM)" [label=BV]
+	udef_q -> generic_entity [label=BV]
+	nominalization -> _can_v_modal [label=ARG1]
+	"_depend_v_on-upon-fn.Reliance" -> nominalization [label="ARG2-fn.Theme"]
+	"much-many_a" -> generic_entity [label=ARG1]
+	which_q -> abstr_deg [label=BV]
+	_move_v_1 -> "named(IBM)" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	measure -> _quick_a_1 [label=ARG1]
+	_quick_a_1 -> _move_v_1 [label=ARG1]
+}

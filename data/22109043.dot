@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_disclose_v_to-fn.Reveal_secret" [label=ARG1]
+	udef_q -> _billing_n_1 [label=BV]
+	parg_d -> _billing_n_1 [label=ARG2]
+	"_disclose_v_to-fn.Reveal_secret" -> _billing_n_1 [label="ARG2-fn.Topic"]
+	parg_d -> "_disclose_v_to-fn.Reveal_secret" [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _colleague_n_1 [label=BV]
+	compound -> _missus_n_1 [label=ARG2]
+	compound -> "named(Yeargin)" [label=ARG1]
+	proper_q -> "named(Yeargin)" [label=BV]
+	udef_q -> _missus_n_1 [label=BV]
+	_angry_a_at -> "named(Yeargin)" [label=ARG2]
+	"much-many_a" -> _colleague_n_1 [label=ARG1]
+	_angry_a_at -> _colleague_n_1 [label=ARG1]
+}

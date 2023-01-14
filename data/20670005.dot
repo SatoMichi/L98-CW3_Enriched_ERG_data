@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(778.6)" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _revenue_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _dollar_n_1 [label="ARG2-fn.Name"]
+}

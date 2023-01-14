@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(E)" [label=BV]
+	parg_d -> _estimate_v_at [label=ARG1]
+	unknown -> "named(E)" [label=ARG]
+}

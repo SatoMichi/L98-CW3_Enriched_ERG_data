@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _investor_n_1 [label=ARG1]
+	_the_q -> "_sidelines/nns_u_unknown" [label=BV]
+	"_remain_v_1-fn.State_continue" -> _on_p [label="ARG2-fn.Theme"]
+	_on_p -> "_sidelines/nns_u_unknown" [label=ARG2]
+	_as_x_subord -> "_remain_v_1-fn.State_continue" [label=ARG2]
+	_exceptional_a_1 -> _thin_a_1 [label=ARG1]
+	"_remain_v_1-fn.State_continue" -> _investor_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _investor_n_1 [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _thin_a_1 [label="ARG2-fn.Topic"]
+	udef_q -> _trader_n_1 [label=BV]
+	_small_a_1 -> _investor_n_1 [label=ARG1]
+	_as_x_subord -> "_say_v_to-fn.IN" [label=ARG1]
+	_thin_a_1 -> _market_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _trader_n_1 [label="ARG1-fn.Agent"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_weigh_v_on-fn.Change_posture" -> _price_n_of [label="ARG2-fn.Protagonist"]
+	"_weigh_v_on-fn.Change_posture" -> nominalization [label="ARG1-fn.Manner"]
+	_also_a_1 -> "_weigh_v_on-fn.Change_posture" [label=ARG1]
+	compound -> _farmer_n_1 [label=ARG2]
+	_over_p -> nominalization [label=ARG1]
+	_over_p -> _weekend_n_of [label=ARG2]
+	udef_q -> _farmer_n_1 [label=BV]
+	_strong_a_1 -> nominalization [label=ARG1]
+	_the_q -> _weekend_n_of [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	compound -> nominalization [label=ARG1]
+	nominalization -> _sell_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _necklace_n_1 [label=BV]
+	udef_q -> _diamond_n_1 [label=BV]
+	"_buy_v_1-fn.Commerce_buy" -> _necklace_n_1 [label="ARG2-fn.Theme"]
+	compound -> _diamond_n_1 [label=ARG2]
+	compound -> _necklace_n_1 [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	number_q -> "card(4.)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

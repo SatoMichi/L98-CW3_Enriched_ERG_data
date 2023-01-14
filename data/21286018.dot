@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_complex_a_1 -> _reason_n_for [label=ARG1]
+	"_ought_v_qmodal-fn.Cause_to_end" -> "_underestimate_v_1-fn.Change_of_quantity_of_possession" [label="ARG1-fn.Process"]
+	_simple_a_for -> _reason_n_for [label=ARG1]
+	"card(1)" -> _reason_n_for [label=ARG1]
+	neg -> "_ought_v_qmodal-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _reason_n_for [label=BV]
+	udef_q -> _reason_n_for [label=BV]
+	parg_d -> "_underestimate_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	"_underestimate_v_1-fn.Change_of_quantity_of_possession" -> _reason_n_for [label="ARG2-fn.Possession"]
+	parg_d -> _reason_n_for [label=ARG2]
+}

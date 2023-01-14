@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> "named(Gillespie)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "named(Gillespie)" [label="ARG1-fn.Agent"]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _rating_n_1 [label="ARG1-fn.NotExist"]
+	compound -> "named(Gillespie)" [label=ARG1]
+	_at_p -> "named(Viacom)" [label=ARG2]
+	"_say_v_to-fn.IN" -> "_rise_v_1-fn.Change_position_on_a_scale" [label="ARG2-fn.Topic"]
+	proper_q -> "named(Viacom)" [label=BV]
+	_the_q -> _rating_n_1 [label=BV]
+	proper_q -> "named(Gillespie)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+}

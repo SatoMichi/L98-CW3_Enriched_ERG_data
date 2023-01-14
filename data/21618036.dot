@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _jam_n_1 [label=BV]
+	"_out+of_p" -> _jam_n_1 [label=ARG1]
+	udef_q -> _traffic_n_1 [label=BV]
+	"_out+of_p" -> _park_n_1 [label=ARG2]
+	compound -> _traffic_n_1 [label=ARG2]
+	compound -> _jam_n_1 [label=ARG1]
+	_monumental_a_1 -> _jam_n_1 [label=ARG1]
+	_the_q -> _park_n_1 [label=BV]
+}

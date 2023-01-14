@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Gramm-)" [label=BV]
+	compound -> "named(Rudman)" [label=ARG1]
+	_relatively_x_deg -> _small_a_1 [label=ARG1]
+	focus_d -> _small_a_1 [label=ARG1]
+	proper_q -> "named(Rudman)" [label=BV]
+	_of_p -> "named(Rudman)" [label=ARG2]
+	_small_a_1 -> _impact_n_1 [label=ARG1]
+	"_because+of_p" -> _small_a_1 [label=ARG1]
+	_the_q -> _impact_n_1 [label=BV]
+	focus_d -> "_because+of_p" [label=ARG2]
+	_of_p -> "_vagaries/nns_u_unknown" [label=ARG1]
+	compound -> "named(Gramm-)" [label=ARG2]
+	"_because+of_p" -> "_vagaries/nns_u_unknown" [label=ARG2]
+	_immediate_a_1 -> _impact_n_1 [label=ARG1]
+	_the_q -> "_vagaries/nns_u_unknown" [label=BV]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lead_v_1-fn.Competition" -> _simplicity_n_1 [label="ARG1-fn.Participant_1"]
+	"_mis-_a_error" -> "_lead_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _simplicity_n_1 [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> "_lead_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+}

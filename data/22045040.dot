@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _year_n_1 [label=BV]
+	_in_p_temp -> "_defer_v_1-fn.Bail_decision" [label=ARG1]
+	"_defer_v_1-fn.Bail_decision" -> "named(Cuba)" [label="ARG1-fn.Accused"]
+	"_note_v_to-fn.Surpassing" -> "_defer_v_1-fn.Bail_decision" [label="ARG2-fn.Profiled_item"]
+	proper_q -> "named(Cuba)" [label=BV]
+	_in_p_temp -> _year_n_1 [label=ARG2]
+	_another_q -> _analyst_n_1 [label=BV]
+	"_note_v_to-fn.Surpassing" -> _analyst_n_1 [label="ARG1-fn.Standard_item"]
+	"_defer_v_1-fn.Bail_decision" -> "_shipment_n_of-to" [label="ARG2-fn.Judge"]
+	_recent_a_1 -> _year_n_1 [label=ARG1]
+	udef_q -> "_shipment_n_of-to" [label=BV]
+}

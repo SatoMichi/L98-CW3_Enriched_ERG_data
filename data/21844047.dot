@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _damage_n_to [label=ARG1]
+	def_explicit_q -> _damage_n_to [label=BV]
+	unknown -> _damage_n_to [label=ARG]
+	proper_q -> "named(Earthquake)" [label=BV]
+	poss -> "named(Earthquake)" [label=ARG2]
+}

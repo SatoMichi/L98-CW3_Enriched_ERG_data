@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _crisis_n_1 [label=BV]
+	_since_p -> _crisis_n_1 [label=ARG2]
+	"_grow_v_to-fn.NF" -> _quiet_a_1 [label="ARG2-fn.Theme"]
+	_since_p -> "_grow_v_to-fn.NF" [label=ARG1]
+	compound -> _crisis_n_1 [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	compound -> "named(China)" [label=ARG2]
+	_quiet_a_1 -> _market_n_1 [label=ARG1]
+	"_grow_v_to-fn.NF" -> _market_n_1 [label="ARG1-fn.NotExist"]
+	_relatively_x_deg -> _quiet_a_1 [label=ARG1]
+	proper_q -> "named(China)" [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "_hate_v_1-fn.Experiencer_obj" [label="ARG2-fn.Topic"]
+	focus_d -> "_hate_v_1-fn.Experiencer_obj" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_hate_v_1-fn.Experiencer_obj" -> _people_n_of [label="ARG1-fn.Experiencer"]
+	"_hate_v_1-fn.Experiencer_obj" -> "_write_v_to-fn.Contacting" [label="ARG2-fn.Attribute"]
+	"_write_v_to-fn.Contacting" -> _people_n_of [label="ARG1-fn.Agent"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _people_n_of [label=BV]
+}

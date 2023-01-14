@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_impose_v_on-fn.NF" -> _administration_n_of [label="ARG1-fn.Agent"]
+	_ideological_a_1 -> _test_n_of [label=ARG1]
+	"_impose_v_on-fn.NF" -> _test_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _test_n_of [label=BV]
+	_for_p -> _post_n_of [label=ARG2]
+	_charge_v_1 -> "_impose_v_on-fn.NF" [label=ARG2]
+	_charge_v_1 -> _researcher_n_of [label=ARG1]
+	_scientific_a_1 -> _post_n_of [label=ARG1]
+	_top_a_1 -> _post_n_of [label=ARG1]
+	udef_q -> _post_n_of [label=BV]
+	_the_q -> _administration_n_of [label=BV]
+	_some_q -> _researcher_n_of [label=BV]
+	_new_a_1 -> _test_n_of [label=ARG1]
+	_for_p -> _test_n_of [label=ARG1]
+}

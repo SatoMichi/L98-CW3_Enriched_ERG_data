@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _quarter_n_temp [label=ARG2]
+	udef_q -> _earnings_n_1 [label=BV]
+	compound -> _earnings_n_1 [label=ARG1]
+	"_post_v_1-fn.Social_event" -> _earnings_n_1 [label="ARG2-fn.Social_event"]
+	"ord(3)" -> _quarter_n_temp [label=ARG1]
+	_also_a_1 -> "_post_v_1-fn.Social_event" [label=ARG1]
+	"_post_v_1-fn.Social_event" -> _company_n_of [label="ARG1-fn.Duration"]
+	_the_q -> _company_n_of [label=BV]
+	parg_d -> "_improve_v_cause-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _earnings_n_1 [label=ARG2]
+	udef_q -> _quarter_n_temp [label=BV]
+	"_improve_v_cause-fn.Cause_to_end" -> _earnings_n_1 [label="ARG2-fn.Means"]
+}

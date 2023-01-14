@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _percent_n_of [label="ARG2-fn.Name"]
+	_initial_a_1 -> _coupon_n_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> _rate_n_of [label=ARG1]
+	udef_q -> _rate_n_of [label=BV]
+	nominalization -> _float_v_1 [label=ARG1]
+	compound -> _note_n_1 [label=ARG1]
+	_on_p -> _coupon_n_1 [label=ARG1]
+	_the_q -> _coupon_n_1 [label=BV]
+	compound -> nominalization [label=ARG2]
+	_the_q -> _note_n_1 [label=BV]
+	_on_p -> _note_n_1 [label=ARG2]
+	"card(12.9375)" -> _percent_n_of [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _coupon_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> nominalization [label=BV]
+}

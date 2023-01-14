@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Acadia)" [label=ARG2]
+	"_comment_v_on-fn.Statement" -> _and_c [label="ARG1-fn.Agent"]
+	proper_q -> "named(Bass)" [label=BV]
+	proper_q -> "named(Partners)" [label=BV]
+	_the_q -> "named(Group)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	_decline_v_1 -> _and_c [label=ARG1]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	compound -> "named(Bass)" [label=ARG2]
+	compound -> "named(Group)" [label=ARG1]
+	compound -> "named(Partners)" [label=ARG1]
+	proper_q -> "named(Acadia)" [label=BV]
+}

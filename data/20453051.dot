@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> _alcohol_n_1 [label=BV]
+	unknown -> _alcohol_n_1 [label=ARG]
+}

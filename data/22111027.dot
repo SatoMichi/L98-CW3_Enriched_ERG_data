@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _successful_a_1 [label=ARG1]
+	_successful_a_1 -> _device_n_1 [label=ARG1]
+	_in_p -> _way_n_of [label=ARG2]
+	_nevertheless_a_1 -> _successful_a_1 [label=ARG1]
+	_the_q -> _device_n_1 [label=BV]
+	_other_a_1 -> _way_n_of [label=ARG1]
+	udef_q -> _way_n_of [label=BV]
+}

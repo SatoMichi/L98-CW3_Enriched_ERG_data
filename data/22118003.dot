@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> _delivery_n_of [label=ARG1]
+	_in_p_temp -> "yofc(1991)" [label=ARG2]
+	udef_q -> _delivery_n_of [label=BV]
+	parg_d -> "_schedule_v_1-fn.Social_event" [label=ARG1]
+	proper_q -> "yofc(1991)" [label=BV]
+	_late_a_for -> "yofc(1991)" [label=ARG1]
+	"_schedule_v_1-fn.Social_event" -> pron [label="ARG2-fn.Social_event"]
+	pronoun_q -> pron [label=BV]
+	_for_p -> "_schedule_v_1-fn.Social_event" [label=ARG1]
+	_for_p -> _delivery_n_of [label=ARG2]
+	parg_d -> pron [label=ARG2]
+}

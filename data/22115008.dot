@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _climate_n_1 [label=BV]
+	_for_p -> _right_a_1 [label=ARG1]
+	_right_a_1 -> _climate_n_1 [label=ARG1]
+	_new_a_1 -> "named(FASB)" [label=ARG1]
+	_for_p -> "named(FASB)" [label=ARG2]
+	_the_q -> "named(FASB)" [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	def_explicit_q -> _constituent_n_1 [label=BV]
+	"_feel_v_seem-about-fn.Feeling" -> _guilty_a_of [label="ARG2-fn.Stimulus"]
+	_represent_v_1 -> _constituent_n_1 [label=ARG2]
+	poss -> _constituent_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_feel_v_seem-about-fn.Feeling" -> pron [label="ARG1-fn.Experiencer"]
+	subord -> "_feel_v_seem-about-fn.Feeling" [label=ARG1]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	subord -> _represent_v_1 [label=ARG2]
+	"_want_v_1-fn.Desiring" -> subord [label="ARG2-fn.Theme"]
+	_guilty_a_of -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

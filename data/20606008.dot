@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _plastics_n_1 [label=BV]
+	"_make_v_1-fn.Manufacturing" -> _plastics_n_1 [label="ARG2-fn.Product"]
+	_be_v_id -> _material_n_1 [label=ARG2]
+	_these_q_dem -> generic_entity [label=BV]
+	"_use_v_1-fn.IN" -> _material_n_1 [label="ARG2-fn.NotExist"]
+	nominalization -> "_make_v_1-fn.Manufacturing" [label=ARG1]
+	_the_q -> _material_n_1 [label=BV]
+	_be_v_id -> generic_entity [label=ARG1]
+	parg_d -> "_use_v_1-fn.IN" [label=ARG1]
+	_in_p -> nominalization [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	_raw_a_1 -> _material_n_1 [label=ARG1]
+	_in_p -> "_use_v_1-fn.IN" [label=ARG1]
+	parg_d -> _material_n_1 [label=ARG2]
+}

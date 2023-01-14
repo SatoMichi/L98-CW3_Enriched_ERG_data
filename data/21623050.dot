@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_down_p -> _come_v_1 [label=ARG1]
+	_come_v_1 -> pron [label=ARG1]
+	_to_p -> _question_n_about [label=ARG2]
+	_time_v_1 -> _market_n_1 [label=ARG2]
+	_of_p -> nominalization [label=ARG2]
+	nominalization -> "_try_v_1-fn.Attempt" [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	_to_p -> _come_v_1 [label=ARG1]
+	_a_q -> _question_n_about [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_try_v_1-fn.Attempt" -> _time_v_1 [label="ARG2-fn.Theme"]
+	_of_p -> _question_n_about [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

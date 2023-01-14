@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_at+first_a_1" -> _unfazed_a_1 [label=ARG1]
+	_unfazed_a_1 -> pron [label=ARG1]
+	focus_d -> _unfazed_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

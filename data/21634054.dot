@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _problem_n_of [label=BV]
+	focus_d -> "_show_v_up-fn.Activity_prepare" [label=ARG1]
+	_if_x_then -> "_be_v_there-fn.Cause_to_end" [label=ARG2]
+	_if_x_then -> _and_c [label=ARG1]
+	"_disappear_v_1-fn.Competition" -> "named(Peter)" [label="ARG1-fn.Participant_1"]
+	"_be_v_there-fn.Cause_to_end" -> _problem_n_of [label="ARG1-fn.Process"]
+	"_show_v_up-fn.Activity_prepare" -> "named(Jon)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Peter)" [label=BV]
+	"_all+of+a+sudden_a_1" -> "_show_v_up-fn.Activity_prepare" [label=ARG1]
+	proper_q -> "named(Jon)" [label=BV]
+}

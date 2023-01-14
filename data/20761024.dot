@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_penalize_v_1-fn.NF" -> _government_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _government_n_of [label=BV]
+	"_confiscate_v_1-fn.Removing" -> _property_n_1 [label="ARG2-fn.Theme"]
+	neg -> "_confiscate_v_1-fn.Removing" [label=ARG1]
+	"_confiscate_v_1-fn.Removing" -> _government_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _property_n_1 [label=BV]
+	"_penalize_v_1-fn.NF" -> _offender_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _offender_n_1 [label=BV]
+}

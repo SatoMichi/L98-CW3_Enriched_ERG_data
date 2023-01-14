@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	id -> pron [label=ARG1]
+	appos -> _heart_n_1 [label=ARG2]
+	id -> generic_entity [label=ARG2]
+	"_be_v_there-fn.Cause_to_end" -> _casino_n_1 [label="ARG1-fn.Process"]
+	_all_q -> generic_entity [label=BV]
+	_of_p -> _heart_n_1 [label=ARG1]
+	_financial_a_1 -> _heart_n_1 [label=ARG1]
+	_of_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _casino_n_1 [label=BV]
+	_the_q -> _heart_n_1 [label=BV]
+	appos -> _casino_n_1 [label=ARG1]
+}

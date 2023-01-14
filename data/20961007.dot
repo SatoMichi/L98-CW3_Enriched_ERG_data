@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_elaborate_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	neg -> "_elaborate_v_1-fn.Rite" [label=ARG1]
+}

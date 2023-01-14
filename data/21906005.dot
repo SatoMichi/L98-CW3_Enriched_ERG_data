@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _would_v_modal [label="ARG2-fn.Topic"]
+	_as_x_prd -> "_write_v_to-fn.Text_creation" [label=ARG1]
+	_as_x_prd -> _order_v_1 [label=ARG2]
+	"_write_v_to-fn.Text_creation" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(Bates)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_would_v_modal -> _as_x_prd [label=ARG1]
+	_the_q -> _letter_n_of [label=BV]
+	"_say_v_to-fn.IN" -> "named(Bates)" [label="ARG1-fn.Agent"]
+	parg_d -> _order_v_1 [label=ARG1]
+	compound -> "named(Bates)" [label=ARG1]
+	udef_q -> _representative_n_1 [label=BV]
+	"_write_v_to-fn.Text_creation" -> _letter_n_of [label="ARG2-fn.Theme"]
+	compound -> _representative_n_1 [label=ARG2]
+}

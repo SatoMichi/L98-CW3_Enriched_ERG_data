@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _bathe_v_1 [label=ARG1]
+	udef_q -> "_lifeguards/nns_u_unknown" [label=BV]
+	"_pose_v_as-fn.Posing_as" -> _and_c [label="ARG1-fn.Agent"]
+	compound -> nominalization [label=ARG2]
+	compound -> _suit_n_of [label=ARG1]
+	"_lovable/jj_u_unknown" -> "_lifeguards/nns_u_unknown" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _tan_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_pose_v_as-fn.Posing_as" -> "_lifeguards/nns_u_unknown" [label="ARG2-fn.Attribute"]
+	unknown -> _bunch_n_of [label=ARG]
+	_a_q -> _bunch_n_of [label=BV]
+	_bunch_n_of -> _and_c [label=ARG1]
+	udef_q -> _suit_n_of [label=BV]
+}

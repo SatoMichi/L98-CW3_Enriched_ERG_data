@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_today_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	focus_d -> loc_nonsp [label=ARG2]
+	parg_d -> "_oversold/vbn_u_unknown" [label=ARG1]
+	loc_nonsp -> "_bounce_v_back-fn.Attempt_suasion" [label=ARG1]
+	"_oversold/vbn_u_unknown" -> pron [label=ARG2]
+	focus_d -> "_bounce_v_back-fn.Attempt_suasion" [label=ARG1]
+	"_bounce_v_back-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	parg_d -> pron [label=ARG2]
+}

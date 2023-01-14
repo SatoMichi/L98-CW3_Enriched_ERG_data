@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_state_v_to-fn.Cause_to_end" -> _increase_n_1 [label="ARG2-fn.Means"]
+	poss -> _edition_n_1 [label=ARG1]
+	poss -> time_n [label=ARG2]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	compound -> _increase_n_1 [label=ARG1]
+	def_explicit_q -> _edition_n_1 [label=BV]
+	compound -> _percentage_n_of [label=ARG2]
+	_the_q -> _increase_n_1 [label=BV]
+	"_state_v_to-fn.Cause_to_end" -> _edition_n_1 [label="ARG1-fn.Process"]
+	"_mis-_a_error" -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	udef_q -> _percentage_n_of [label=BV]
+}

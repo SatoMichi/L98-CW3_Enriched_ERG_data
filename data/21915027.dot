@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _ship_v_cause [label=ARG1]
+	neg -> "_expect_v_1-fn.IN" [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	_any_q -> _delay_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	"_expect_v_1-fn.IN" -> _company_n_of [label="ARG1-fn.Experiencer"]
+	compound -> _delay_n_1 [label=ARG1]
+	"_expect_v_1-fn.IN" -> _delay_n_1 [label="ARG2-fn.Theme"]
+}

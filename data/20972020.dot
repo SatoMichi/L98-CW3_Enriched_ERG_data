@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _movie_n_of [label=ARG2]
+	_for_p -> reason [label=ARG2]
+	_in_p -> _for_p [label=ARG1]
+	_from_p -> _woman_n_1 [label=ARG1]
+	proper_q -> "named(Ohio)" [label=BV]
+	_the_q -> _woman_n_1 [label=BV]
+	_pregnant_a_with -> _woman_n_1 [label=ARG1]
+	_always_a_1 -> _from_p [label=ARG1]
+	_these_q_dem -> _movie_n_of [label=BV]
+	_unwed_a_1 -> _woman_n_1 [label=ARG1]
+	_for_p -> _from_p [label=ARG1]
+	which_q -> reason [label=BV]
+	_from_p -> "named(Ohio)" [label=ARG2]
+}

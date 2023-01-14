@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_gone_a_1 -> _day_n_of [label=ARG1]
+	_those_q_dem -> _day_n_of [label=BV]
+}

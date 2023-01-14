@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_nv-fn.Cause_to_end" -> "_get_v_state-fn.State_continue" [label="ARG2-fn.Means"]
+	_the_q -> _situation_n_1 [label=BV]
+	udef_q -> _bankruptcy_n_1 [label=BV]
+	compound -> _court_n_of [label=ARG1]
+	compound -> _bankruptcy_n_1 [label=ARG2]
+	compound -> _business_n_1 [label=ARG1]
+	"_be_v_nv-fn.Cause_to_end" -> _situation_n_1 [label="ARG1-fn.Process"]
+	compound -> _shipbuilding_n_1 [label=ARG2]
+	udef_q -> _shipbuilding_n_1 [label=BV]
+	"_get_v_state-fn.State_continue" -> _court_n_of [label="ARG1-fn.Entity"]
+	"_out+of_p" -> _business_n_1 [label=ARG2]
+	"_get_v_state-fn.State_continue" -> "_out+of_p" [label="ARG2-fn.State"]
+	_the_q -> _court_n_of [label=BV]
+	"_out+of_p" -> _court_n_of [label=ARG1]
+	_the_q -> _business_n_1 [label=BV]
+}

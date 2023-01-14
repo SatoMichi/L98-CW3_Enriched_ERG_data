@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_translate_v_into-fn.IN" -> _step_n_1 [label="ARG1-fn.Agent"]
+	"card(2)" -> _step_n_1 [label=ARG1]
+	"_translate_v_into-fn.IN" -> _action_n_1 [label="ARG3-fn.Result"]
+	udef_q -> _action_n_1 [label=BV]
+	"_in+order+to_x" -> _necessary_a_for [label=ARG1]
+	_necessary_a_for -> _step_n_1 [label=ARG1]
+	"_translate_v_into-fn.IN" -> _idea_n_of [label="ARG2-fn.Patient"]
+	udef_q -> _step_n_1 [label=BV]
+	_this_q_dem -> _idea_n_of [label=BV]
+	"_in+order+to_x" -> "_translate_v_into-fn.IN" [label=ARG2]
+}

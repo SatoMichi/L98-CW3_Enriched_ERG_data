@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "_become_v_id-fn.Cause_to_end" [label=ARG1]
+	_political_a_1 -> _issue_n_1 [label=ARG1]
+	focus_d -> _for_p [label=ARG2]
+	_volatile_a_1 -> _issue_n_1 [label=ARG1]
+	"_become_v_id-fn.Cause_to_end" -> _issue_n_1 [label="ARG2-fn.Means"]
+	focus_d -> "_become_v_id-fn.Cause_to_end" [label=ARG1]
+	_high_a_1 -> _volatile_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _government_n_of [label=BV]
+	_for_p -> _government_n_of [label=ARG2]
+	"_become_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_a_q -> _issue_n_1 [label=BV]
+}

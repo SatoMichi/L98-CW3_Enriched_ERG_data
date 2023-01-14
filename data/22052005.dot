@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_would_v_modal-fn.Cause_to_end" -> "_walk_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_a_q -> _government_n_of [label=BV]
+	"_walk_v_1-fn.Competition" -> _government_n_of [label="ARG1-fn.Participant_1"]
+	_into_p -> "named(Kabul)" [label=ARG2]
+	udef_q -> _resistance_n_to [label=BV]
+	compound -> _government_n_of [label=ARG1]
+	proper_q -> "named(Kabul)" [label=BV]
+	_into_p -> "_walk_v_1-fn.Competition" [label=ARG1]
+	compound -> _resistance_n_to [label=ARG2]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_heat_v_1-fn.Competition" [label=ARG1]
+	focus_d -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	_the_q -> "_talk_n_of-on" [label=BV]
+	_up_p -> "_heat_v_1-fn.Competition" [label=ARG1]
+	_with_p -> _client_n_1 [label=ARG2]
+	focus_d -> _with_p [label=ARG2]
+	"_heat_v_1-fn.Competition" -> "_talk_n_of-on" [label="ARG1-fn.Participant_1"]
+	"card(1)" -> _bit_n_1 [label=ARG1]
+	udef_q -> _bit_n_1 [label=BV]
+	_some_q -> _client_n_1 [label=BV]
+	"_can_v_modal-fn.Reliance" -> "_heat_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	_with_p -> "_heat_v_1-fn.Competition" [label=ARG1]
+	loc_nonsp -> _bit_n_1 [label=ARG2]
+}

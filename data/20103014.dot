@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _safety_n_1 [label=ARG2]
+	parg_d -> _correct_v_1 [label=ARG1]
+	compound -> _problem_n_of [label=ARG1]
+	"_if+and+when_x" -> _identify_v_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "_if+and+when_x" [label="ARG2-fn.Topic"]
+	udef_q -> _problem_n_of [label=BV]
+	parg_d -> _problem_n_of [label=ARG2]
+	_correct_v_1 -> pron [label=ARG2]
+	"_if+and+when_x" -> _correct_v_1 [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	udef_q -> _safety_n_1 [label=BV]
+	parg_d -> _identify_v_1 [label=ARG1]
+	_identify_v_1 -> _problem_n_of [label=ARG2]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

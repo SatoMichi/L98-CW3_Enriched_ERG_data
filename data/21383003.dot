@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_term_n_of -> _transaction_n_1 [label=ARG1]
+	"_release_v_1-fn.Releasing" -> pron [label="ARG1-fn.Cause"]
+	_the_q -> _transaction_n_1 [label=BV]
+	udef_q -> _term_n_of [label=BV]
+	"_release_v_1-fn.Releasing" -> _term_n_of [label="ARG2-fn.Theme"]
+	neg -> "_release_v_1-fn.Releasing" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

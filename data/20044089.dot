@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> part_of [label=BV]
+	_only_x_deg -> udef_q [label=ARG1]
+	compound -> _geography_n_1 [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _question_n_about [label="ARG2-fn.Name"]
+	part_of -> _question_n_about [label=ARG1]
+	"card(40)" -> _question_n_about [label=ARG1]
+	udef_q -> _geography_n_1 [label=BV]
+	_the_q -> _question_n_about [label=BV]
+	compound -> _question_n_about [label=ARG1]
+	udef_q -> _question_n_about [label=BV]
+	"_be_v_id-fn.Name_conferral" -> part_of [label="ARG1-fn.Entity"]
+	"card(5)" -> part_of [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q -> person [label=BV]
+	"_come_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	focus_d -> pron [label=ARG2]
+	"_get_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG2-fn.Item"]
+	"_come_v_1-fn.Halt" -> "_get_v_1-fn.Change_position_on_a_scale" [label="ARG2-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> person [label="ARG1-fn.Dependent"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "_come_v_1-fn.Halt" [label="ARG2-fn.Requirement"]
+}

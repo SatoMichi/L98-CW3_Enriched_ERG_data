@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Daiwa)" [label="ARG1-fn.NotExist"]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(50)" [label="ARG2-fn.Patient"]
+	number_q -> "card(50)" [label=BV]
+	_to_p -> "card(2,660)" [label=ARG2]
+	compound -> "named(Daiwa)" [label=ARG1]
+	number_q -> "card(2,660)" [label=BV]
+	udef_q -> _house_n_1 [label=BV]
+	compound -> _house_n_1 [label=ARG2]
+	proper_q -> "named(Daiwa)" [label=BV]
+}

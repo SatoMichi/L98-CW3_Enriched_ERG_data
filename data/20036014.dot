@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_draw_v_1-fn.Cause_motion" -> _blank_n_1 [label="ARG2-fn.Theme"]
+	_a_q -> _blank_n_1 [label=BV]
+	"_draw_v_1-fn.Cause_motion" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

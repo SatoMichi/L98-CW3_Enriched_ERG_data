@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _life_n_of [label=ARG2]
+	"_opulent/jj_u_unknown" -> _style_n_of [label=ARG1]
+	compound -> _style_n_of [label=ARG1]
+	_also_a_1 -> "_lead_v_1-fn.Competition" [label=ARG1]
+	"_lead_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	udef_q -> _life_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_lead_v_1-fn.Competition" -> _style_n_of [label="ARG2-fn.Participant_2"]
+	_a_q -> _style_n_of [label=BV]
+}

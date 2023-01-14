@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_specific_a_to -> "_mean_v_1-fn.NF" [label=ARG1]
+	"_mean_v_1-fn.NF" -> thing [label="ARG2-fn.Theme"]
+	_by_p -> _creativity_n_1 [label=ARG2]
+	udef_q -> _creativity_n_1 [label=BV]
+	"_mean_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_by_p -> "_mean_v_1-fn.NF" [label=ARG1]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

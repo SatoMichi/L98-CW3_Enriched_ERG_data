@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _strategy_n_of [label=BV]
+	loc_nonsp -> _time_n_of [label=ARG2]
+	_much_a_1 -> "_help_v_1-fn.Assistance" [label=ARG1]
+	neg -> "_help_v_1-fn.Assistance" [label=ARG1]
+	_this_q_dem -> _time_n_of [label=BV]
+	loc_nonsp -> "_help_v_1-fn.Assistance" [label=ARG1]
+	"_help_v_1-fn.Assistance" -> _strategy_n_of [label="ARG1-fn.Agent"]
+}

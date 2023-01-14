@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_sudden_a_1 -> "_be_v_id-fn.Residence" [label=ARG1]
+	_a_q -> "_thing_n_of-about" [label=BV]
+	_not_x_deg -> _that_q_dem [label=ARG1]
+	"_be_v_id-fn.Residence" -> _oil_n_1 [label="ARG1-fn.Resident"]
+	_again_a_1 -> "_be_v_id-fn.Residence" [label=ARG1]
+	_that_q_dem -> _oil_n_1 [label=BV]
+	_sure_a_of -> "_thing_n_of-about" [label=ARG1]
+	"_be_v_id-fn.Residence" -> "_thing_n_of-about" [label="ARG2-fn.Location"]
+}

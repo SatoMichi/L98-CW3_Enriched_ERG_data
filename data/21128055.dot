@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_eat_v_1-fn.Ingestion" -> person [label="ARG1-fn.Agent"]
+	"card(1)" -> generic_entity [label=ARG1]
+	"_get_v_state-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	parg_d -> _hook_v_1 [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	"_eat_v_1-fn.Ingestion" -> generic_entity [label="ARG2-fn.Patient"]
+	_some_q -> person [label=BV]
+	pronoun_q -> pron [label=BV]
+	_hook_v_1 -> pron [label=ARG2]
+	parg_d -> pron [label=ARG2]
+	_once_x_subord -> "_get_v_state-fn.IN" [label=ARG1]
+	"_get_v_state-fn.IN" -> _hook_v_1 [label="ARG2-fn.Patient"]
+	_once_x_subord -> "_eat_v_1-fn.Ingestion" [label=ARG2]
+}

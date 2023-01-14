@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_rare_a_1 -> pron [label=ARG1]
+	"_in+order+to_x" -> "_see_v_1-fn.Perception_experience" [label=ARG2]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+	_in_p -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	"_see_v_1-fn.Perception_experience" -> _function_n_1 [label="ARG2-fn.Stimulus"]
+	udef_q -> _case_n_of [label=BV]
+	"card(2)" -> _function_n_1 [label=ARG1]
+	_in_p -> _case_n_of [label=ARG2]
+	"card(1)" -> _case_n_of [label=ARG1]
+	_both_q -> _function_n_1 [label=BV]
+	"_in+order+to_x" -> _rare_a_1 [label=ARG1]
+}

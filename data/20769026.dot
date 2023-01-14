@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Lawson)" [label=ARG1]
+	proper_q -> "named(Lawson)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_close_v_1-fn.Halt" -> _market_n_1 [label="ARG1-fn.Purpose"]
+	udef_q -> _mister_n_1 [label=BV]
+	poss -> "named(Lawson)" [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	def_explicit_q -> _announcement_n_of [label=BV]
+	"_prior+to_p" -> "_close_v_1-fn.Halt" [label=ARG1]
+	"_prior+to_p" -> _announcement_n_of [label=ARG2]
+	poss -> _announcement_n_of [label=ARG1]
+}

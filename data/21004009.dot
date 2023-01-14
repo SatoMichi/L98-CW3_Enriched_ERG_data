@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _semiconductor_n_1 [label=ARG2]
+	"card(1)" -> _effort_n_1 [label=ARG1]
+	proper_q -> "named(IBM)" [label=BV]
+	"_participate_v_in-fn.Participation" -> "named(IBM)" [label="ARG1-fn.Agent"]
+	udef_q -> _technique_n_1 [label=BV]
+	"_industrywide/jj_u_unknown" -> _effort_n_1 [label=ARG1]
+	_improve_v_cause -> _technique_n_1 [label=ARG2]
+	with_p -> _improve_v_cause [label=ARG1]
+	with_p -> _effort_n_1 [label=ARG2]
+	compound -> _manufacture_v_1 [label=ARG1]
+	_already_a_1 -> "_participate_v_in-fn.Participation" [label=ARG1]
+	udef_q -> _semiconductor_n_1 [label=BV]
+	"_participate_v_in-fn.Participation" -> _effort_n_1 [label="ARG2-fn.Theme"]
+	_manufacture_v_1 -> _technique_n_1 [label=ARG1]
+	udef_q -> _effort_n_1 [label=BV]
+}

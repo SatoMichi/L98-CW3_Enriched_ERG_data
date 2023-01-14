@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _allegation_n_1 [label=ARG1]
+	proper_q -> "named(Time)" [label=BV]
+	def_explicit_q -> _allegation_n_1 [label=BV]
+	proper_q -> "named(Warner)" [label=BV]
+	compound -> "named(Time)" [label=ARG2]
+	_all_q -> part_of [label=BV]
+	proper_q -> "named(Viacom)" [label=BV]
+	"_deny_v_to-fn.Statement" -> part_of [label="ARG2-fn.Predicate"]
+	_vigorous_a_1 -> "_deny_v_to-fn.Statement" [label=ARG1]
+	compound -> "named(Warner)" [label=ARG1]
+	poss -> "named(Viacom)" [label=ARG2]
+	part_of -> _allegation_n_1 [label=ARG1]
+	"_deny_v_to-fn.Statement" -> "named(Warner)" [label="ARG1-fn.Agent"]
+}

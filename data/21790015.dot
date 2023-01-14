@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_strong_a_1 -> _power_n_1 [label=ARG1]
+	unknown -> _power_n_1 [label=ARG]
+	_of_p -> _power_n_1 [label=ARG1]
+	proper_q -> "named(Japan)" [label=BV]
+	udef_q -> _power_n_1 [label=BV]
+	_in_p -> "named(Japan)" [label=ARG2]
+	_in_p -> _strong_a_1 [label=ARG1]
+	comp -> _strong_a_1 [label=ARG1]
+	proper_q -> "named(Suggestion)" [label=BV]
+	_of_p -> "named(Suggestion)" [label=ARG2]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stay_v_prd-fn.IN" -> _angry_a_at [label="ARG2-fn.Theme"]
+	"_stay_v_prd-fn.IN" -> _farmer_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _farmer_n_1 [label=BV]
+	_angry_a_at -> _farmer_n_1 [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_expensive_a_1 -> part_of [label=ARG1]
+	part_of -> _stock_n_1 [label=ARG1]
+	"much-many_a" -> part_of [label=ARG1]
+	"_become_v_id-fn.Cause_to_end" -> _expensive_a_1 [label="ARG2-fn.Means"]
+	_these_q_dem -> _stock_n_1 [label=BV]
+	udef_q -> part_of [label=BV]
+	"_become_v_id-fn.Cause_to_end" -> part_of [label="ARG1-fn.Process"]
+	_now_a_1 -> "_become_v_id-fn.Cause_to_end" [label=ARG1]
+}

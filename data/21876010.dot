@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(9)" -> _percent_n_of [label=ARG1]
+	udef_q -> _money_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	"fraction(3/4)" -> _percent_n_of [label=ARG1]
+	_to_p -> _percent_n_of [label=ARG2]
+	plus -> "fraction(3/4)" [label=ARG3]
+	plus -> "card(9)" [label=ARG2]
+	"_colon_v_id-fn.Perception_body" -> _money_n_1 [label="ARG1-fn.Experiencer"]
+	"card(10)" -> _percent_n_of [label=ARG1]
+	compound -> _call_n_1 [label=ARG2]
+	udef_q -> _call_n_1 [label=BV]
+	"_colon_v_id-fn.Perception_body" -> _percent_n_of [label="ARG2-fn.Body_part"]
+	plus -> _percent_n_of [label=ARG1]
+	compound -> _money_n_1 [label=ARG1]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_continue_v_2-fn.Activity_ongoing" -> "_try_v_1-fn.Attempt" [label="ARG1-fn.NotExist"]
+	"_try_v_1-fn.Attempt" -> _couple_n_1 [label="ARG1-fn.Agent"]
+	_some_q -> _couple_n_1 [label=BV]
+}

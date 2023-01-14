@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ogling/vbg_u_unknown" -> _curtain_n_1 [label=ARG2]
+	_above_p -> _duct_n_1 [label=ARG2]
+	_above_p -> "_ripple_v_1-fn.NF" [label=ARG1]
+	_the_q -> _duct_n_1 [label=BV]
+	udef_q -> _ventilation_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> _duct_n_1 [label=ARG1]
+	_the_q -> _curtain_n_1 [label=BV]
+	compound -> _ventilation_n_of [label=ARG2]
+	"_ogling/vbg_u_unknown" -> pron [label=ARG1]
+	"_ripple_v_1-fn.NF" -> _curtain_n_1 [label="ARG1-fn.NotExist"]
+}

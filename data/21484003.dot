@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _filing_n_1 [label=ARG1]
+	_no_q -> _reason_n_for [label=BV]
+	"_give_v_1-fn.State_continue" -> _reason_n_for [label="ARG2-fn.State"]
+	_in_p -> _filing_n_1 [label=ARG2]
+	_in_p -> "_give_v_1-fn.State_continue" [label=ARG1]
+	_the_q -> _sale_n_of [label=BV]
+	_the_q -> _filing_n_1 [label=BV]
+	_for_p -> _sale_n_of [label=ARG2]
+	parg_d -> "_give_v_1-fn.State_continue" [label=ARG1]
+	parg_d -> _reason_n_for [label=ARG2]
+}

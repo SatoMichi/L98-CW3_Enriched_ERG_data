@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_shakeup/nn_u_unknown" [label=BV]
+	parg_d -> "_cite_v_for-fn.Name_conferral" [label=ARG1]
+	"_cite_v_for-fn.Name_conferral" -> "_shakeup/nn_u_unknown" [label="ARG2-fn.Name"]
+	_the_q -> _decline_n_1 [label=BV]
+	_wide_a_1 -> "_cite_v_for-fn.Name_conferral" [label=ARG1]
+	parg_d -> "_shakeup/nn_u_unknown" [label=ARG2]
+	_british_a_1 -> "_shakeup/nn_u_unknown" [label=ARG1]
+	"_cite_v_for-fn.Name_conferral" -> _decline_n_1 [label="ARG3-fn.Speaker"]
+}

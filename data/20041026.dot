@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _and_c [label=ARG]
+	udef_q -> _and_c [label=BV]
+	every_q -> person [label=BV]
+	_no_q -> person [label=BV]
+}

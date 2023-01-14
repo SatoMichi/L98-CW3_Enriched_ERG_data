@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	part_of -> _property_n_1 [label=ARG1]
+	compound -> _property_n_1 [label=ARG1]
+	_the_q -> _property_n_1 [label=BV]
+	compound -> _care_n_1 [label=ARG1]
+	udef_q -> part_of [label=BV]
+	_operate_v_1 -> "named(Healthcare)" [label=ARG1]
+	compound -> _health_n_1 [label=ARG2]
+	"_own_v_1-fn.NF" -> "named(HealthVest)" [label="ARG1-fn.Pivot"]
+	proper_q -> "named(Healthcare)" [label=BV]
+	udef_q -> _health_n_1 [label=BV]
+	"much-many_a" -> part_of [label=ARG1]
+	proper_q -> "named(HealthVest)" [label=BV]
+	_operate_v_1 -> part_of [label=ARG2]
+	udef_q -> _care_n_1 [label=BV]
+	"_own_v_1-fn.NF" -> _property_n_1 [label="ARG2-fn.Theme"]
+}

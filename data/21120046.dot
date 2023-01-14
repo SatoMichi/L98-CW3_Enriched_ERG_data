@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _yen_n_2 [label=ARG1]
+	compound -> _coin_n_1 [label=ARG1]
+	udef_q -> _coin_n_1 [label=BV]
+	udef_q -> _pocket_n_1 [label=BV]
+	_with_p -> "_explode_v_1-fn.Impact" [label=ARG1]
+	"_explode_v_1-fn.Impact" -> _pocket_n_1 [label="ARG1-fn.Place"]
+	_with_p -> _coin_n_1 [label=ARG2]
+	compound -> _yen_n_2 [label=ARG2]
+	udef_q -> _yen_n_2 [label=BV]
+}

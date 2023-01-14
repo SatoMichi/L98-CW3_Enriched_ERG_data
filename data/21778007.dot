@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_electronic_a_1 -> _traffic_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> _excerpt_n_1 [label="ARG2-fn.Location"]
+	udef_q -> _excerpt_n_1 [label=BV]
+	_the_q -> _traffic_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _following_n_1 [label="ARG1-fn.Resident"]
+	_that_q_dem -> _night_n_of [label=BV]
+	appos -> _traffic_n_1 [label=ARG1]
+	udef_q -> _following_n_1 [label=BV]
+	appos -> _night_n_of [label=ARG2]
+	_from_p -> _traffic_n_1 [label=ARG2]
+	_from_p -> _excerpt_n_1 [label=ARG1]
+}

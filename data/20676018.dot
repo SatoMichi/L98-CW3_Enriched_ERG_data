@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _wide_a_1 [label=ARG1]
+	udef_q -> _world_n_of [label=BV]
+	"_lead_v_1-fn.Cotheme" -> _charge_n_of [label="ARG2-fn.Theme"]
+	_the_q -> "named(Pentagon)" [label=BV]
+	"_lead_v_1-fn.Cotheme" -> "named(Pentagon)" [label="ARG1-fn.Agent"]
+	udef_q -> _alliance_n_1 [label=BV]
+	_particularly_x_deg -> _as_x_subord [label=ARG1]
+	"_spread_v_1-fn.Dispersal" -> _alliance_n_1 [label="ARG1-fn.NotExist"]
+	_military_a_1 -> _alliance_n_1 [label=ARG1]
+	subord -> "_spread_v_1-fn.Dispersal" [label=ARG1]
+	_the_q -> _charge_n_of [label=BV]
+	_as_x_subord -> subord [label=ARG2]
+	subord -> _wide_a_1 [label=ARG2]
+	compound -> _world_n_of [label=ARG2]
+	_as_x_subord -> "_lead_v_1-fn.Cotheme" [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_must_v_modal -> "_compete_v_1-fn.Competition" [label=ARG1]
+	"_frumpy/jj_u_unknown" -> "named(Fuji)" [label=ARG1]
+	_increasing_a_1 -> "_dolledup/jj_u_unknown" [label=ARG1]
+	"_compete_v_1-fn.Competition" -> "named(Fuji)" [label="ARG1-fn.Agent"]
+	_with_p -> "_compete_v_1-fn.Competition" [label=ARG1]
+	_with_p -> "named(Delicious)" [label=ARG2]
+	_the_q -> "named(Fuji)" [label=BV]
+	_moreover_a_1 -> _must_v_modal [label=ARG1]
+	_a_q -> "named(Delicious)" [label=BV]
+	"_dolledup/jj_u_unknown" -> "named(Delicious)" [label=ARG1]
+}

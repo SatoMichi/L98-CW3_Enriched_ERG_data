@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _guarantee_n_of [label=ARG]
+	udef_q -> _guarantee_n_of [label=BV]
+	compound -> "named(Suisse)" [label=ARG1]
+	_by_p -> "named(Suisse)" [label=ARG2]
+	_by_p -> _guarantee_n_of [label=ARG1]
+	compound -> "named(Credit)" [label=ARG2]
+	proper_q -> "named(Suisse)" [label=BV]
+	proper_q -> "named(Credit)" [label=BV]
+}

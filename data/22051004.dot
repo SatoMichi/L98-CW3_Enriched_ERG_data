@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_seek_v_1 -> _comment_n_1 [label=ARG2]
+	neg -> "_return_v_1-fn.NF" [label=ARG1]
+	compound -> _spokesman_n_1 [label=ARG1]
+	"_return_v_1-fn.NF" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_seek_v_1 -> _call_n_1 [label=ARG1]
+	compound -> "named(Beatrice)" [label=ARG2]
+	proper_q -> "named(Beatrice)" [label=BV]
+	"_return_v_1-fn.NF" -> _call_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _comment_n_1 [label=BV]
+	udef_q -> _call_n_1 [label=BV]
+}

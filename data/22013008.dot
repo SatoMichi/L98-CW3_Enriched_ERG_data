@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"much-many_a" -> _enemy_n_1 [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	"_deal_v_with-fn.Resolve_problem" -> _enemy_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _enemy_n_1 [label=BV]
+	unknown -> _enemy_n_1 [label=ARG]
+	parg_d -> _enemy_n_1 [label=ARG2]
+	eventuality -> "_deal_v_with-fn.Resolve_problem" [label=ARG1]
+	parg_d -> "_deal_v_with-fn.Resolve_problem" [label=ARG1]
+}

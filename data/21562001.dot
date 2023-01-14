@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_right_a_1 -> _easy_a_for [label=ARG1]
+	"_make_v_up-fn.Apply_heat" -> _mind_n_1 [label="ARG2-fn.Heating_instrument"]
+	_once_x_subord -> _right_a_1 [label=ARG1]
+	_about_p -> "_make_v_up-fn.Apply_heat" [label=ARG1]
+	_the_q -> _rest_n_1 [label=BV]
+	"_make_v_up-fn.Apply_heat" -> pron [label="ARG1-fn.Cook"]
+	_a_q -> _investment_n_1 [label=BV]
+	poss -> _mind_n_1 [label=ARG1]
+	def_explicit_q -> _mind_n_1 [label=BV]
+	_easy_a_for -> _rest_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_about_p -> _investment_n_1 [label=ARG2]
+	_once_x_subord -> "_make_v_up-fn.Apply_heat" [label=ARG2]
+	poss -> pron [label=ARG2]
+}

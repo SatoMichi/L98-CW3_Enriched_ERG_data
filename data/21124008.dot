@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> _analyst_n_1 [label="ARG1-fn.Dependent"]
+	_the_q -> _corner_n_of [label=BV]
+	"_turn_v_1-fn.Undergo_change" -> "named(Salomon)" [label="ARG1-fn.Entity"]
+	"_say_v_to-fn.Have_as_requirement" -> "_turn_v_1-fn.Undergo_change" [label="ARG2-fn.Requirement"]
+	_some_q -> _analyst_n_1 [label=BV]
+	proper_q -> "named(Salomon)" [label=BV]
+	"_turn_v_1-fn.Undergo_change" -> _corner_n_of [label="ARG2-fn.Final_category"]
+}

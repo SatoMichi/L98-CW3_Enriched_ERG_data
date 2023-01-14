@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> "_surface_v_1-fn.Motion_directional" [label=ARG1]
+	"_surface_v_1-fn.Motion_directional" -> _evidence_n_of [label="ARG1-fn.Area"]
+	udef_q -> _evidence_n_of [label=BV]
+	nominalization -> _cheat_v_1 [label=ARG1]
+	_the_q -> _year_n_1 [label=BV]
+	_widespread_a_1 -> nominalization [label=ARG1]
+	udef_q -> _state_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+	_several_a_1 -> _state_n_of [label=ARG1]
+	_evidence_n_of -> nominalization [label=ARG1]
+	_in_p -> "_surface_v_1-fn.Motion_directional" [label=ARG1]
+	_in_p -> _state_n_of [label=ARG2]
+	_in_p_temp -> _year_n_1 [label=ARG2]
+	_last_a_1 -> _year_n_1 [label=ARG1]
+}

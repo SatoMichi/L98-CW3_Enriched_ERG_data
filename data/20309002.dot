@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _way_n_of [label=ARG]
+	_no_q -> _way_n_of [label=BV]
+}

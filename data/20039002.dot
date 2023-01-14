@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lay_v_1-fn.Placing" -> "named(Martin)" [label="ARG1-fn.Agent"]
+	poss -> _claim_n_of [label=ARG1]
+	"_lay_v_1-fn.Placing" -> _claim_n_of [label="ARG2-fn.Theme"]
+	poss -> pron [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	def_explicit_q -> _claim_n_of [label=BV]
+	_already_a_1 -> "_lay_v_1-fn.Placing" [label=ARG1]
+	compound -> "named(Steve)" [label=ARG2]
+	_to_p -> _claim_n_of [label=ARG1]
+	_to_p -> generic_entity [label=ARG2]
+	proper_q -> "named(Steve)" [label=BV]
+	proper_q -> "named(Martin)" [label=BV]
+	compound -> "named(Martin)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

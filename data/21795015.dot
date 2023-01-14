@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_responsive_a_1 -> pron [label=ARG1]
+	_to_p -> _responsive_a_1 [label=ARG1]
+	_public_a_1 -> _interest_n_in [label=ARG1]
+	_on_p_state -> _responsive_a_1 [label=ARG1]
+	focus_d -> _responsive_a_1 [label=ARG1]
+	_on_p_state -> _contrary_n_1 [label=ARG2]
+	_the_q -> _contrary_n_1 [label=BV]
+	comp_too -> _responsive_a_1 [label=ARG1]
+	_incorrect_a_1 -> _view_n_of [label=ARG1]
+	_view_n_of -> _interest_n_in [label=ARG1]
+	_to_p -> _view_n_of [label=ARG2]
+	focus_d -> _on_p_state [label=ARG2]
+	_the_q -> _interest_n_in [label=BV]
+	_a_q -> _view_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

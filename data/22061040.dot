@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _average_n_of [label=BV]
+	comp -> _broad_a_1 [label=ARG1]
+	"_fall_v_1-fn.Halt" -> _average_n_of [label="ARG1-fn.Purpose"]
+	_also_a_1 -> "_fall_v_1-fn.Halt" [label=ARG1]
+	_broad_a_1 -> _average_n_of [label=ARG1]
+}

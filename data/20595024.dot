@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hold_v_1-fn.Change_position_on_a_scale" -> "named(Young)" [label="ARG1-fn.Attribute"]
+	proper_q -> "named(Reagan)" [label=BV]
+	proper_q -> "named(Era)" [label=BV]
+	compound -> "named(Reagan)" [label=ARG2]
+	udef_q -> "named(Young)" [label=BV]
+	_liberal_a_1 -> _view_n_of [label=ARG1]
+	compound -> "named(Young)" [label=ARG1]
+	compound -> "named(Era)" [label=ARG1]
+	udef_q -> _view_n_of [label=BV]
+	"_hold_v_1-fn.Change_position_on_a_scale" -> _view_n_of [label="ARG2-fn.Item"]
+}

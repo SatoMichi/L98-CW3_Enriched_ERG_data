@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Nucor)" [label=ARG2]
+	focus_d -> _on_p_temp [label=ARG2]
+	_some_q -> _day_n_of [label=BV]
+	proper_q -> "named(Nucor)" [label=BV]
+	focus_d -> "_produce_v_1-fn.Commerce_sell" [label=ARG1]
+	"_produce_v_1-fn.Commerce_sell" -> thing [label="ARG2-fn.Goods"]
+	_on_p_temp -> "_produce_v_1-fn.Commerce_sell" [label=ARG1]
+	"_produce_v_1-fn.Commerce_sell" -> _plant_n_1 [label="ARG1-fn.Buyer"]
+	_on_p_temp -> _day_n_of [label=ARG2]
+	_any_q -> thing [label=BV]
+	neg -> "_produce_v_1-fn.Commerce_sell" [label=ARG1]
+	_the_q -> _plant_n_1 [label=BV]
+	compound -> _plant_n_1 [label=ARG1]
+}

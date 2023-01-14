@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	_foreign_a_1 -> _editor_n_1 [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_the_q -> "named(Journal)" [label=BV]
+	_of_p -> "named(Journal)" [label=ARG2]
+	_of_p -> _editor_n_1 [label=ARG1]
+	proper_q -> "named(Lescaze)" [label=BV]
+	compound -> "named(Lescaze)" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> "named(Lescaze)" [label="ARG1-fn.Entity"]
+	"_be_v_id-fn.Name_conferral" -> _editor_n_1 [label="ARG2-fn.Name"]
+	udef_q -> _editor_n_1 [label=BV]
+}

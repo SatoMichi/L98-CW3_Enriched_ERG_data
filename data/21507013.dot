@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _dollar_n_1 [label=ARG1]
+	"_keep_v_prd-fn.Experiencer_obj" -> _at_p [label="ARG3-fn.Degree"]
+	parg_d -> _price_n_of [label=ARG2]
+	_primarily_x_deg -> _a_q [label=ARG1]
+	_at_p -> _price_n_of [label=ARG1]
+	"_keep_v_prd-fn.Experiencer_obj" -> _convenience_n_1 [label="ARG1-fn.Experiencer"]
+	"_keep_v_prd-fn.Experiencer_obj" -> _price_n_of [label="ARG2-fn.Stimulus"]
+	udef_q -> _dollar_n_1 [label=BV]
+	_the_q -> _price_n_of [label=BV]
+	parg_d -> "_list_v_1-fn.Social_event" [label=ARG1]
+	"_list_v_1-fn.Social_event" -> _price_n_of [label="ARG2-fn.Social_event"]
+	_a_q -> _convenience_n_1 [label=BV]
+	_at_p -> _dollar_n_1 [label=ARG2]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_nervous_a_about -> pron [label=ARG1]
+	_just_x_deg -> comp_too [label=ARG1]
+	comp_too -> _nervous_a_about [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

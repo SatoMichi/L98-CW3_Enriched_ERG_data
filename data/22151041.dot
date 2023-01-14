@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_all_a_1 -> "_start_v_1-fn.Process_start" [label=ARG1]
+	"_start_v_1-fn.Process_start" -> pron [label="ARG1-fn.NotExist"]
+	_with_p -> "_start_v_1-fn.Process_start" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _geography_n_1 [label=BV]
+	_with_p -> _geography_n_1 [label=ARG2]
+}

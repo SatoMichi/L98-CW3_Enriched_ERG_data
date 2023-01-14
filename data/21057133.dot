@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	proper_q -> "named(CBS)" [label=BV]
+	"_earn_v_1-fn.Halt" -> "named(Sports)" [label="ARG1-fn.Purpose"]
+	times -> "card(50)" [label=ARG2]
+	_last_a_1 -> _year_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_earn_v_1-fn.Halt" -> _dollar_n_1 [label="ARG2-fn.Place"]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	loc_nonsp -> "_earn_v_1-fn.Halt" [label=ARG1]
+	def_implicit_q -> _year_n_1 [label=BV]
+	compound -> "named(Sports)" [label=ARG1]
+	proper_q -> "named(Sports)" [label=BV]
+	compound -> "named(CBS)" [label=ARG2]
+}

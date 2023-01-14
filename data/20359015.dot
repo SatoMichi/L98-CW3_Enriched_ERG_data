@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	of_p -> "dofm(13)" [label=ARG1]
+	compound -> "_sell-off_n_1" [label=ARG1]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	neg -> "_settle_v_1-fn.Colonization" [label=ARG1]
+	_any_q -> _stomach_n_1 [label=BV]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	def_explicit_q -> "dofm(13)" [label=BV]
+	compound -> "dofm(13)" [label=ARG2]
+	"_settle_v_1-fn.Colonization" -> "_sell-off_n_1" [label="ARG1-fn.NotExist"]
+	"_settle_v_1-fn.Colonization" -> _stomach_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> "_sell-off_n_1" [label=BV]
+	_certain_a_1 -> neg [label=ARG1]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "card(17)" [label=ARG1]
+	"_focus_v_on-fn.Place_weight_on" -> "card(17)" [label="ARG2-fn.NotExist"]
+	number_q -> "card(17)" [label=BV]
+	compound -> _chromosome_n_1 [label=ARG2]
+	udef_q -> _chromosome_n_1 [label=BV]
+	"_focus_v_on-fn.Place_weight_on" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+}

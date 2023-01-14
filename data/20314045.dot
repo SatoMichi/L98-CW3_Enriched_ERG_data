@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(CIO)" [label=ARG1]
+	"_embrace_v_1-fn.Competition" -> "named(CIO)" [label="ARG1-fn.Participant_1"]
+	udef_q -> _guideline_n_1 [label=BV]
+	udef_q -> _treatment_n_of [label=BV]
+	compound -> _guideline_n_1 [label=ARG1]
+	"_embrace_v_1-fn.Competition" -> _guideline_n_1 [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(AFL-)" [label=BV]
+	_also_a_1 -> "_embrace_v_1-fn.Competition" [label=ARG1]
+	_the_q -> "named(CIO)" [label=BV]
+	compound -> "named(AFL-)" [label=ARG2]
+	compound -> _treatment_n_of [label=ARG2]
+}

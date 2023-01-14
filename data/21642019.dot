@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _week_n_1 [label=BV]
+	_at_p -> "card(69)" [label=ARG2]
+	_the_q -> _stock_n_1 [label=BV]
+	"card(2)" -> _week_n_1 [label=ARG1]
+	_at_p -> "_trade_v_1-fn.Social_event" [label=ARG1]
+	"_trade_v_1-fn.Social_event" -> _stock_n_1 [label="ARG1-fn.Duration"]
+	number_q -> "card(69)" [label=BV]
+	_ago_p -> _week_n_1 [label=ARG2]
+	_ago_p -> "_trade_v_1-fn.Social_event" [label=ARG1]
+	_just_x_deg -> udef_q [label=ARG1]
+}

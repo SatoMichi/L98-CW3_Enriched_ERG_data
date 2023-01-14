@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Reagan)" [label=ARG2]
+	proper_q -> "named(Reagan)" [label=BV]
+	neg -> _be_v_id [label=ARG1]
+	_always_a_1 -> _be_v_id [label=ARG1]
+	_such_q -> _matter_n_of [label=BV]
+	_be_v_id -> generic_entity [label=ARG1]
+	"_handle_v_1-fn.NF" -> _matter_n_of [label="ARG2-fn.Theme"]
+	_be_v_id -> _way_n_of [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	_the_q -> _administration_n_of [label=BV]
+	_way_n_of -> "_handle_v_1-fn.NF" [label=ARG1]
+	"_handle_v_1-fn.NF" -> _administration_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _way_n_of [label=BV]
+	compound -> _administration_n_of [label=ARG1]
+}

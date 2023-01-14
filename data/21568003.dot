@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "_encased/jj_u_unknown" [label=ARG1]
+	"_stroll_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	_through_p_dir -> _corridor_n_1 [label=ARG2]
+	_through_p_dir -> "_stroll_v_1-fn.Halt" [label=ARG1]
+	compound -> _marble_n_1 [label=ARG2]
+	compound -> "named(Court)" [label=ARG1]
+	_the_q -> "named(Court)" [label=BV]
+	compound -> "named(Atrium)" [label=ARG2]
+	_the_q -> _corridor_n_1 [label=BV]
+	proper_q -> "named(Atrium)" [label=BV]
+	_of_p -> _corridor_n_1 [label=ARG1]
+	_of_p -> "named(Court)" [label=ARG2]
+	udef_q -> _marble_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_encased/jj_u_unknown" -> _corridor_n_1 [label=ARG1]
+}

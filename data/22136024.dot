@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _conference_n_of [label=BV]
+	udef_q -> _nation_n_of [label=BV]
+	_environmental_a_1 -> _conference_n_of [label=ARG1]
+	compound -> _conference_n_of [label=ARG1]
+	_in_p -> "named(Bulgaria)" [label=ARG2]
+	proper_q -> "named(Bulgaria)" [label=BV]
+	compound -> "named(Sofia)" [label=ARG2]
+	compound -> "named(Bulgaria)" [label=ARG1]
+	proper_q -> "named(Sofia)" [label=BV]
+	"card(35-)" -> _nation_n_of [label=ARG1]
+	compound -> _nation_n_of [label=ARG2]
+	_in_p -> "_open_v_1-fn.Perception_active" [label=ARG1]
+	"_open_v_1-fn.Perception_active" -> _conference_n_of [label="ARG1-fn.Perceiver_agentive"]
+}

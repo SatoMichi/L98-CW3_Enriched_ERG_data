@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _percent_n_of [label=BV]
+	_percent_n_of -> _school_n_1 [label=ARG1]
+	"_reject_v_as-fn.Amounting_to" -> _percent_n_of [label="ARG1-fn.Value"]
+	udef_q -> _district_n_of [label=BV]
+	"_approach_v_1-fn.Activity_prepare" -> _school_n_1 [label="ARG2-fn.Activity"]
+	"_reject_v_as-fn.Amounting_to" -> _network_n_of [label="ARG2-fn.Attribute"]
+	"card(10)" -> _percent_n_of [label=ARG1]
+	_the_q -> _school_n_1 [label=BV]
+	_about_x_deg -> "card(10)" [label=ARG1]
+	"_approach_v_1-fn.Activity_prepare" -> _district_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _network_n_of [label=BV]
+}

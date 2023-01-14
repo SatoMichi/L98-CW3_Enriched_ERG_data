@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _ceiling_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _gold_n_1 [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	compound -> _gold_n_1 [label=ARG2]
+	compound -> _ceiling_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.Requirement"]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _ceiling_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	neg -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "_etiquette/nn_u_unknown" [label=ARG]
+	_a_q -> "_etiquette/nn_u_unknown" [label=BV]
+	_a_q -> _protocol_n_1 [label=BV]
+	_be_v_there -> _protocol_n_1 [label=ARG1]
+	_for_x_cause -> _be_v_there [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_emerge_v_1-fn.IN" -> _protocol_n_1 [label="ARG1-fn.Theme"]
+	_to_p -> pron [label=ARG2]
+	_to_p -> "_etiquette/nn_u_unknown" [label=ARG1]
+	_for_x_cause -> unknown [label=ARG1]
+	_indeed_a_1 -> unknown [label=ARG1]
+}

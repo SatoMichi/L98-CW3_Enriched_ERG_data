@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bolster_v_1-fn.Undergo_change" -> _business_n_1 [label="ARG2-fn.Final_category"]
+	"_take_v_1-fn.Competition" -> "named(Cathay)" [label="ARG1-fn.Participant_1"]
+	udef_q -> _business_n_1 [label=BV]
+	"_take_v_1-fn.Competition" -> _step_n_1 [label="ARG2-fn.Participant_2"]
+	_step_n_1 -> "_bolster_v_1-fn.Undergo_change" [label=ARG1]
+	proper_q -> "named(Cathay)" [label=BV]
+	udef_q -> _step_n_1 [label=BV]
+	_several_a_1 -> _step_n_1 [label=ARG1]
+}

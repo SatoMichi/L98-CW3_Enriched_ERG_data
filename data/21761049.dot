@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_change_v_1 -> thing [label=ARG1]
+	"_examine_v_1-fn.Scrutiny" -> _change_v_1 [label="ARG2-fn.NotExist"]
+	"_examine_v_1-fn.Scrutiny" -> pron [label="ARG1-fn.NotExist"]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

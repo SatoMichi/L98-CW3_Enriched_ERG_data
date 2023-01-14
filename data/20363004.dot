@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_similar_a_to -> _application_n_of [label=ARG1]
+	comp -> _similar_a_to [label=ARG1]
+	"_have_v_prd-fn.IN" -> _application_n_of [label="ARG2-fn.Theme"]
+	_other_a_1 -> _bank_n_of [label=ARG1]
+	_pending_a_1 -> _application_n_of [label=ARG1]
+	"_have_v_prd-fn.IN" -> _bank_n_of [label="ARG1-fn.Pivot"]
+	"_have_v_prd-fn.IN" -> _pending_a_1 [label="ARG3-fn.NotExist"]
+	udef_q -> _application_n_of [label=BV]
+	_several_a_1 -> _bank_n_of [label=ARG1]
+	udef_q -> _bank_n_of [label=BV]
+}

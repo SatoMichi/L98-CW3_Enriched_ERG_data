@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	measure -> _interesting_a_for [label=ARG1]
+	which_q -> abstr_deg [label=BV]
+	measure -> abstr_deg [label=ARG2]
+}

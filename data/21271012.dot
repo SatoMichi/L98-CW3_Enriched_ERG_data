@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_easy_a_for -> nominalization [label=ARG1]
+	"_get_v_state-fn.IN" -> _into_p [label="ARG2-fn.Patient"]
+	"_not+that_x" -> _easy_a_for [label=ARG2]
+	"_not+that_x" -> unknown [label=ARG1]
+	nominalization -> "_get_v_state-fn.IN" [label=ARG1]
+	_into_p -> _town_n_1 [label=ARG2]
+	idiom_q_i -> _town_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_after_p -> _age_n_1 [label=ARG2]
+	_cut_v_1 -> pron [label=ARG2]
+	_can_v_modal -> _cut_v_1 [label=ARG1]
+	_cut_v_1 -> _player_n_of [label=ARG1]
+	_certain_a_of -> _age_n_1 [label=ARG1]
+	"_mean_v_1-fn.NF" -> _rule_n_of [label="ARG2-fn.Theme"]
+	"_mean_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_rule_n_of -> neg [label=ARG1]
+	_a_q -> _age_n_1 [label=BV]
+	_after_p -> _cut_v_1 [label=ARG1]
+	_a_q -> _player_n_of [label=BV]
+	neg -> _can_v_modal [label=ARG1]
+	_the_q -> _rule_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

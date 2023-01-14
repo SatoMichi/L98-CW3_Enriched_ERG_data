@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _governor_n_1 [label=BV]
+	_special_a_1 -> _guest_n_of [label=ARG1]
+	_so_x -> neg [label=ARG1]
+	udef_q -> _lieutenant_n_1 [label=BV]
+	compound -> _lieutenant_n_1 [label=ARG2]
+	compound -> _governor_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_so_x -> "_welcome_v_1-fn.NF" [label=ARG2]
+	"_welcome_v_1-fn.NF" -> _guest_n_of [label="ARG2-fn.Theme"]
+	_can_v_modal -> _make_v_1 [label=ARG1]
+	"_welcome_v_1-fn.NF" -> _governor_n_1 [label="ARG1-fn.Agent"]
+	neg -> _can_v_modal [label=ARG1]
+	_the_q -> _guest_n_of [label=BV]
+	_make_v_1 -> _governor_n_1 [label=ARG1]
+	_make_v_1 -> pron [label=ARG2]
+}

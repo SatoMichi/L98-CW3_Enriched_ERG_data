@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _winner_n_of [label=BV]
+	udef_q -> _index_n_1 [label=BV]
+	udef_q -> _art_n_1 [label=BV]
+	"_track_v_1-fn.Competition" -> _index_n_1 [label="ARG1-fn.Participant_1"]
+	compound -> _art_n_1 [label=ARG2]
+	udef_q -> "_losers/nns_u_unknown" [label=BV]
+	"_track_v_1-fn.Competition" -> _not_c [label="ARG2-fn.Participant_2"]
+	compound -> _index_n_1 [label=ARG1]
+	udef_q -> _not_c [label=BV]
+}

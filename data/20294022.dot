@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _pay_n_1 [label=BV]
+	_for_p -> pron [label=ARG2]
+	compound -> _raise_n_1 [label=ARG1]
+	_for_p -> _raise_n_1 [label=ARG1]
+	_a_q -> _raise_n_1 [label=BV]
+	"_argue_v_with-fn.Avoiding" -> _pilot_n_of [label="ARG1-fn.Agent"]
+	"_argue_v_with-fn.Avoiding" -> "_trigger_v_1-fn.Attack" [label="ARG2-fn.Place"]
+	"_trigger_v_1-fn.Attack" -> generic_entity [label="ARG1-fn.Victim"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _pilot_n_of [label=BV]
+	compound -> _pay_n_1 [label=ARG2]
+	_this_q_dem -> generic_entity [label=BV]
+	"_trigger_v_1-fn.Attack" -> _raise_n_1 [label="ARG2-fn.Weapon"]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _story_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "_spokewoman/nn_u_unknown" [label="ARG1-fn.Agent"]
+	compound -> "named(Lorillard)" [label=ARG2]
+	_this_q_dem -> generic_entity [label=BV]
+	_be_v_id -> generic_entity [label=ARG1]
+	_old_a_1 -> _story_n_1 [label=ARG1]
+	compound -> "_spokewoman/nn_u_unknown" [label=ARG1]
+	_a_q -> _story_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	proper_q -> "named(Lorillard)" [label=BV]
+	_a_q -> "_spokewoman/nn_u_unknown" [label=BV]
+}

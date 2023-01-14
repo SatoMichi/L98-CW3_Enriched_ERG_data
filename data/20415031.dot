@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_a_q -> _shortage_n_of [label=BV]
+	neg -> _might_v_modal [label=ARG1]
+	_also_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	compound -> _shortage_n_of [label=ARG1]
+	udef_q -> _official_n_1 [label=BV]
+	udef_q -> _electricity_n_1 [label=BV]
+	_might_v_modal -> _off_p [label=ARG1]
+	_far_x_deg -> _off_p [label=ARG1]
+	_off_p -> _shortage_n_of [label=ARG1]
+	_national_a_1 -> _shortage_n_of [label=ARG1]
+	compound -> _electricity_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+}

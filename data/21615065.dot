@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _rate_n_of [label=ARG1]
+	compound -> _insurance_n_1 [label=ARG1]
+	udef_q -> _rate_n_of [label=BV]
+	compound -> _automobile_n_1 [label=ARG2]
+	"_soar_v_1-fn.Change_position_on_a_scale" -> _rate_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _insurance_n_1 [label=BV]
+	udef_q -> _automobile_n_1 [label=BV]
+}

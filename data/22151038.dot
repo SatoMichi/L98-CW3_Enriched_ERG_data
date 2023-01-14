@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(504)" -> _punt_n_1 [label=ARG1]
+	udef_q -> _punt_n_1 [label=BV]
+	proper_q -> "named(Jamaica)" [label=BV]
+	"_cost_v_1-fn.Expensiveness" -> _punt_n_1 [label="ARG2-fn.Theme"]
+	"_cost_v_1-fn.Expensiveness" -> "named(Jamaica)" [label="ARG1-fn.NotExist"]
+}

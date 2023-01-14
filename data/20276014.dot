@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "named(Toronto)" [label=ARG2]
+	_all_q -> part_of [label=BV]
+	_the_q -> _concern_n_1 [label=BV]
+	proper_q -> "named(Toronto)" [label=BV]
+	part_of -> _concern_n_1 [label=ARG1]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	parg_d -> part_of [label=ARG2]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	_in_p -> part_of [label=ARG1]
+	"_base_v_1-fn.Change_position_on_a_scale" -> part_of [label="ARG2-fn.Item"]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.Commerce_buy" -> _analyst_n_1 [label="ARG1-fn.Buyer"]
+	_a_q -> _revival_n_of [label=BV]
+	neg -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	_by_p -> _pilot_n_of [label=ARG2]
+	"_expect_v_1-fn.Commerce_buy" -> _revival_n_of [label="ARG2-fn.Goods"]
+	_some_q -> _analyst_n_1 [label=BV]
+	_revival_n_of -> _takeover_n_of [label=ARG1]
+	_quick_a_1 -> _revival_n_of [label=ARG1]
+	_any_q -> _takeover_n_of [label=BV]
+	_the_q -> _pilot_n_of [label=BV]
+	_by_p -> _revival_n_of [label=ARG1]
+}

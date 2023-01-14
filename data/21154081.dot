@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_half_q -> part_of [label=BV]
+	"_hope_v_1-fn.Competition" -> _agent_n_of [label="ARG1-fn.Participant_1"]
+	"_hope_v_1-fn.Competition" -> "_recover_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	udef_q -> _agent_n_of [label=BV]
+	_federal_a_1 -> _agent_n_of [label=ARG1]
+	_that_q_dem -> _amount_n_of [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> "_hope_v_1-fn.Competition" [label="ARG2-fn.Means"]
+	"_recover_v_1-fn.Competition" -> part_of [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	part_of -> _amount_n_of [label=ARG1]
+	"_at+least_x_deg" -> _half_q [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_recover_v_1-fn.Competition" -> _agent_n_of [label="ARG1-fn.Participant_1"]
+}

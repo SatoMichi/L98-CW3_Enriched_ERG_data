@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_number_n_of -> _worker_n_1 [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	_a_q -> _number_n_of [label=BV]
+	parg_d -> "_injure_v_1-fn.Experience_bodily_harm" [label=ARG1]
+	_miss_v_1 -> _number_n_of [label=ARG1]
+	"much-many_a" -> generic_entity [label=ARG1]
+	comp -> _people_n_of [label=ARG2]
+	"_injure_v_1-fn.Experience_bodily_harm" -> generic_entity [label="ARG2-fn.Patient"]
+	parg_d -> generic_entity [label=ARG2]
+	"card(100)" -> _people_n_of [label=ARG1]
+	udef_q -> _worker_n_1 [label=BV]
+	udef_q -> _people_n_of [label=BV]
+}

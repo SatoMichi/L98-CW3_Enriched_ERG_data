@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _bill_n_of [label=ARG1]
+	"_even+so_a_1" -> "_give_v_1-fn.Giving" [label=ARG1]
+	"little-few_a" -> _chance_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	udef_q -> _chance_n_of [label=BV]
+	_chance_n_of -> _passage_n_of [label=ARG1]
+	"_give_v_1-fn.Giving" -> _chance_n_of [label="ARG2-fn.Theme"]
+	parg_d -> _bill_n_of [label=ARG2]
+	"_give_v_1-fn.Giving" -> _bill_n_of [label="ARG3-fn.Recipient"]
+	udef_q -> _passage_n_of [label=BV]
+	def_explicit_q -> _bill_n_of [label=BV]
+	parg_d -> "_give_v_1-fn.Giving" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

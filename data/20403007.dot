@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _humility_n_1 [label=ARG2]
+	compound -> _helper_n_1 [label=ARG1]
+	unknown -> _helper_n_1 [label=ARG]
+	udef_q -> _humility_n_1 [label=BV]
+	udef_q -> _helper_n_1 [label=BV]
+}

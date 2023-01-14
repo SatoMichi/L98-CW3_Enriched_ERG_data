@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _husband_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_sometimes_a_1 -> "_call_v_name-fn.IN" [label=ARG1]
+	poss -> _husband_n_1 [label=ARG1]
+	"_call_v_name-fn.IN" -> _husband_n_1 [label="ARG1-fn.Agent"]
+	"_call_v_name-fn.IN" -> "named(Ducky)" [label="ARG2-fn.Theme"]
+	"_call_v_name-fn.IN" -> pron [label="ARG3-fn.Result"]
+	proper_q -> "named(Ducky)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

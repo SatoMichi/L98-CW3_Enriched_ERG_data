@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_since_p -> "_move_v_1-fn.Attack" [label=ARG1]
+	"_move_v_1-fn.Attack" -> _civilization_n_1 [label="ARG1-fn.Victim"]
+	_then_p_temp -> time_n [label=ARG1]
+	_forward_p_dir -> "_move_v_1-fn.Attack" [label=ARG1]
+	udef_q -> _civilization_n_1 [label=BV]
+	_since_p -> time_n [label=ARG2]
+	def_implicit_q -> time_n [label=BV]
+}

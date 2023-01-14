@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _market_n_1 [label=ARG2]
+	_colon_p_namely -> _in_p [label=ARG1]
+	_in_p -> unknown [label=ARG1]
+	udef_q -> _market_n_1 [label=BV]
+	compound -> _activity_n_1 [label=ARG1]
+	udef_q -> _activity_n_1 [label=BV]
+	_major_a_1 -> _activity_n_1 [label=ARG1]
+	_in_p -> _activity_n_1 [label=ARG2]
+}

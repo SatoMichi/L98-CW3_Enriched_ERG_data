@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_through_p -> _equity_n_1 [label=ARG2]
+	"_raise_v_cause-fn.Cause_to_end" -> pron [label="ARG2-fn.Means"]
+	_new_a_1 -> _equity_n_1 [label=ARG1]
+	_through_p -> "_raise_v_cause-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _equity_n_1 [label=BV]
+}

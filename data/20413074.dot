@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _and_c [label=ARG1]
+	_a_q -> "_half-hour_n_1" [label=BV]
+	loc_nonsp -> "_half-hour_n_1" [label=ARG1]
+	focus_d -> loc_nonsp [label=ARG2]
+	_late_a_for -> time_n [label=ARG1]
+	comp -> _late_a_for [label=ARG1]
+	_go_v_1 -> "_demon/nn_u_unknown" [label=ARG1]
+	"_smile_v_1-fn.Making_faces" -> _woman_n_1 [label="ARG1-fn.Agent"]
+	"_chat_v_1-fn.Chatting" -> _woman_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> "_demon/nn_u_unknown" [label=BV]
+	_the_q -> _woman_n_1 [label=BV]
+	def_explicit_q -> time_n [label=BV]
+	_seem_v_to -> _go_v_1 [label=ARG2]
+	focus_d -> _and_c [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+}

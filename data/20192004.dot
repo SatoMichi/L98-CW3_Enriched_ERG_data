@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_sudden_a_1 -> "_windfall/nn_u_unknown" [label=ARG1]
+	_of_p -> "_windfall/nn_u_unknown" [label=ARG1]
+	compound -> _railroad_n_1 [label=ARG2]
+	udef_q -> _business_n_1 [label=BV]
+	"_reap_v_1-fn.NF" -> "_windfall/nn_u_unknown" [label="ARG2-fn.Theme"]
+	udef_q -> _company_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _railroad_n_1 [label=BV]
+	"_reap_v_1-fn.NF" -> _and_c [label="ARG1-fn.Agent"]
+	_a_q -> "_windfall/nn_u_unknown" [label=BV]
+	_of_p -> _business_n_1 [label=ARG2]
+	compound -> _company_n_of [label=ARG1]
+	_some_q -> _port_n_of [label=BV]
+}

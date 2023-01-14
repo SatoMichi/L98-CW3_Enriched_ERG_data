@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _threat_n_1 [label=ARG1]
+	_the_q -> _system_n_of [label=BV]
+	nominalization -> _warn_v_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	udef_q -> _threat_n_1 [label=BV]
+	"_provide_v_1-fn.Supply" -> _and_c [label="ARG2-fn.Theme"]
+	compound -> _capability_n_to [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _radar_n_1 [label=BV]
+	nominalization -> _jam_v_1 [label=ARG1]
+	compound -> _radar_n_1 [label=ARG2]
+	_electronic_a_1 -> nominalization [label=ARG1]
+	"_provide_v_1-fn.Supply" -> _system_n_of [label="ARG1-fn.Agent"]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _capability_n_to [label=BV]
+}

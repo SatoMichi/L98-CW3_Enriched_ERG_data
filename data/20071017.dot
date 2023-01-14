@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "card(’82)" [label=BV]
+	proper_q -> "named(Salon)" [label=BV]
+	appos -> "card(’82)" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> "card(’82)" [label="ARG1-fn.Process"]
+	appos -> "named(Salon)" [label=ARG2]
+	"card(115)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _dollar_n_1 [label="ARG2-fn.Means"]
+}

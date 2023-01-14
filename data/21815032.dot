@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _income_n_1 [label=ARG1]
+	"card(32,191)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_down_p -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_down_p -> _percent_n_of [label=ARG2]
+	compound -> _median_n_1 [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> _median_n_1 [label=BV]
+	"card(0.2)" -> _percent_n_of [label=ARG1]
+	udef_q -> _income_n_1 [label=BV]
+	compound -> _family_n_of [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _income_n_1 [label="ARG1-fn.Process"]
+	udef_q -> _family_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _dollar_n_1 [label="ARG2-fn.Means"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _share_n_of [label=ARG1]
+	_to_p -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	plus -> "fraction(3/4)" [label=ARG3]
+	_to_p -> "card(30)" [label=ARG2]
+	plus -> "card(30)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	number_q -> "card(30)" [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> _share_n_of [label="ARG1-fn.Process"]
+	def_explicit_q -> _share_n_of [label=BV]
+}

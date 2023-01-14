@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_must_v_modal-fn.Commitment" -> "_clear_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+	_tough_a_for -> "_hurdles/nns_u_unknown" [label=ARG1]
+	"_clear_v_1-fn.Competition" -> "_hurdles/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+	"_clear_v_1-fn.Competition" -> "named(Trelleborg)" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Trelleborg)" [label=BV]
+	_still_a_1 -> "_must_v_modal-fn.Commitment" [label=ARG1]
+	_some_q -> "_hurdles/nns_u_unknown" [label=BV]
+}

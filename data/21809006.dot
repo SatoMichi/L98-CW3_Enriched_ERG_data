@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	_as_p -> _compliment_n_1 [label=ARG2]
+	_maybe_a_1 -> "_should_v_modal-fn.Amounting_to" [label=ARG1]
+	_as_p -> "_take_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> "_take_v_1-fn.Competition" [label="ARG1-fn.Value"]
+	_a_q -> _compliment_n_1 [label=BV]
+}

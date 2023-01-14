@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_turn_v_1-fn.Undergo_change" [label=ARG1]
+	_a_q -> _profit_n_1 [label=BV]
+	_the_q -> _carrier_n_of [label=BV]
+	_yet_a_1 -> "_turn_v_1-fn.Undergo_change" [label=ARG1]
+	"_turn_v_1-fn.Undergo_change" -> _profit_n_1 [label="ARG2-fn.Final_category"]
+	"_turn_v_1-fn.Undergo_change" -> _carrier_n_of [label="ARG1-fn.Entity"]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_go_v_1-fn.Motion" -> _interest_n_in [label="ARG1-fn.NotExist"]
+	_beyond_p_dir -> "_go_v_1-fn.Motion" [label=ARG1]
+	udef_q -> _word_n_of [label=BV]
+	_interest_n_in -> _word_n_of [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> "_playfulness/nn_u_unknown" [label=BV]
+	udef_q -> _pun_n_1 [label=BV]
+	_this_q_dem -> _interest_n_in [label=BV]
+	_beyond_p_dir -> _and_c [label=ARG2]
+}

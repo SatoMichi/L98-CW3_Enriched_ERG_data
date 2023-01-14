@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_under_p -> _discussion_n_1 [label=ARG1]
+	_under_p -> _way_n_i [label=ARG2]
+	"_such+a_q" -> _sale_n_of [label=BV]
+	"_add_v_to-fn.NF" -> _under_p [label="ARG2-fn.Topic"]
+	idiom_q_i -> _way_n_i [label=BV]
+	_no_q -> _discussion_n_1 [label=BV]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_about_p -> _discussion_n_1 [label=ARG1]
+	_about_p -> _sale_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

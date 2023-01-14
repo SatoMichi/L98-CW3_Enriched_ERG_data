@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _creativity_n_1 [label=ARG2]
+	poss -> _creativity_n_1 [label=ARG1]
+	udef_q -> _demand_n_1 [label=BV]
+	"_grow_v_1-fn.Undergo_change" -> _demand_n_1 [label="ARG1-fn.Entity"]
+	_certain_a_of -> "_grow_v_1-fn.Undergo_change" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	_on_p -> _demand_n_1 [label=ARG1]
+	poss -> _company_n_of [label=ARG2]
+	_certain_a_of -> _demand_n_1 [label=ARG1]
+	def_explicit_q -> _creativity_n_1 [label=BV]
+}

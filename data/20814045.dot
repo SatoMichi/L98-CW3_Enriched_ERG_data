@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _red_a_1 [label=BV]
+	loc_nonsp -> _in_p [label=ARG1]
+	def_implicit_q -> _year_n_1 [label=BV]
+	_in_p -> "named(Vatican)" [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	_in_p -> _red_a_1 [label=ARG2]
+	_last_a_1 -> _year_n_1 [label=ARG1]
+	_the_q -> "named(Vatican)" [label=BV]
+}

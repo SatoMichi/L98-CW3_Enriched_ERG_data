@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_each_q -> _side_n_1 [label=BV]
+	"_allow_v_1-fn.IN" -> _side_n_1 [label="ARG3-fn.NotExist"]
+	_such_a_1 -> _challenge_n_1 [label=ARG1]
+	focus_d -> "_allow_v_1-fn.IN" [label=ARG1]
+	_in_p_state -> _case_n_of [label=ARG2]
+	_most_q -> _case_n_of [label=BV]
+	"_allow_v_1-fn.IN" -> _challenge_n_1 [label="ARG2-fn.NotExist"]
+	"card(3)" -> _challenge_n_1 [label=ARG1]
+	_in_p_state -> "_allow_v_1-fn.IN" [label=ARG1]
+	udef_q -> _challenge_n_1 [label=BV]
+	udef_q -> _judge_n_of [label=BV]
+	_civil_a_1 -> _case_n_of [label=ARG1]
+	"_allow_v_1-fn.IN" -> _judge_n_of [label="ARG1-fn.NotExist"]
+	focus_d -> _in_p_state [label=ARG2]
+}

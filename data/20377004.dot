@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _stake_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _partner_n_1 [label="ARG1-fn.Pivot"]
+	"_have_v_1-fn.IN" -> _concern_n_1 [label="ARG1-fn.Pivot"]
+	_while_x -> "_have_v_1-fn.IN" [label=ARG2]
+	_japanese_a_1 -> _concern_n_1 [label=ARG1]
+	_local_a_1 -> _partner_n_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_the_q -> _partner_n_1 [label=BV]
+	compound -> _percent_n_of [label=ARG2]
+	"card(60)" -> _percent_n_of [label=ARG1]
+	"card(40)" -> _percent_n_of [label=ARG1]
+	_the_q -> _concern_n_1 [label=BV]
+	compound -> _stake_n_1 [label=ARG1]
+	"_have_v_1-fn.IN" -> _stake_n_1 [label="ARG2-fn.Theme"]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	plus -> "card(44)" [label=ARG2]
+	_to_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "fraction(7/8)" [label=ARG3]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	proper_q -> "named(General)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	proper_q -> "named(Motors)" [label=BV]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> "named(Motors)" [label="ARG1-fn.Attribute"]
+	compound -> "named(Motors)" [label=ARG1]
+	number_q -> "card(44)" [label=BV]
+	loc_nonsp -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> "named(General)" [label=ARG2]
+	_to_p -> "card(44)" [label=ARG2]
+}

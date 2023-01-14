@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_can_v_modal-fn.Existence" -> _delicious_a_1 [label="ARG1-fn.Entity"]
+	_delicious_a_1 -> "named(Delicious)" [label=ARG1]
+	"_good_a_at-for-of" -> "named(Delicious)" [label=ARG1]
+	_indeed_a_1 -> _delicious_a_1 [label=ARG1]
+	_a_q -> "named(Delicious)" [label=BV]
+}

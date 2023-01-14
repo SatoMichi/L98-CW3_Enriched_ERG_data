@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(GAF)" [label=ARG2]
+	parg_d -> "named(III)" [label=ARG2]
+	"_begin_v_1-fn.Process_start" -> "named(III)" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Part)" [label=BV]
+	_schedule_v_1 -> "named(III)" [label=ARG2]
+	_today_a_1 -> time_n [label=ARG1]
+	parg_d -> _schedule_v_1 [label=ARG1]
+	proper_q -> "named(III)" [label=BV]
+	_schedule_v_1 -> "_begin_v_1-fn.Process_start" [label=ARG3]
+	loc_nonsp -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	compound -> "named(III)" [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	compound -> "named(Part)" [label=ARG2]
+	proper_q -> "named(GAF)" [label=BV]
+	def_implicit_q -> time_n [label=BV]
+}

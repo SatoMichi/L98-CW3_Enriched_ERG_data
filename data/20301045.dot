@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _risk_n_of [label=BV]
+	_the_q -> _currency_n_1 [label=BV]
+	"_remain_v_1-fn.State_continue" -> _currency_n_1 [label="ARG1-fn.NotExist"]
+	"_remain_v_1-fn.State_continue" -> _at_p [label="ARG2-fn.Theme"]
+	"_warn_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_warn_v_1-fn.NF" -> "_remain_v_1-fn.State_continue" [label="ARG2-fn.NotExist"]
+	_at_p -> _currency_n_1 [label=ARG1]
+	_at_p -> _risk_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

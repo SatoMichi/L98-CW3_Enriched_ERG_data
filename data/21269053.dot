@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_be_v_there-fn.Needing" [label=ARG1]
+	parg_d -> _involve_v_1 [label=ARG1]
+	subord -> _involve_v_1 [label=ARG2]
+	_a_q -> _element_n_1 [label=BV]
+	"_be_v_there-fn.Needing" -> _element_n_1 [label="ARG1-fn.Cognizer"]
+	_of_p -> _element_n_1 [label=ARG1]
+	_of_p -> "_make-work_n_1" [label=ARG2]
+	udef_q -> "_make-work_n_1" [label=BV]
+}

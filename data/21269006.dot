@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "_cut_v_1-fn.Piracy" [label=ARG1]
+	proper_q -> "yofc(1998)" [label=BV]
+	parg_d -> "_cut_v_1-fn.Piracy" [label=ARG1]
+	compound -> _world_n_of [label=ARG2]
+	_half_q -> generic_entity [label=BV]
+	_wide_a_1 -> _production_n_of [label=ARG1]
+	_by_p_temp -> "_cut_v_1-fn.Piracy" [label=ARG1]
+	parg_d -> _production_n_of [label=ARG2]
+	_by_p_temp -> "yofc(1998)" [label=ARG2]
+	"_cut_v_1-fn.Piracy" -> _production_n_of [label="ARG2-fn.Vehicle"]
+	udef_q -> _world_n_of [label=BV]
+	"_would_v_modal-fn.Cause_to_end" -> "_cut_v_1-fn.Piracy" [label="ARG1-fn.Process"]
+	compound -> _wide_a_1 [label=ARG1]
+	_in_p -> generic_entity [label=ARG2]
+	udef_q -> _production_n_of [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	udef_q -> "_steelmakers/nns_u_unknown" [label=BV]
+	comp -> _involved_a_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> "_see_v_1-fn.Causation" [label="ARG2-fn.Theme"]
+	_in_p -> _involved_a_1 [label=ARG1]
+	_involved_a_1 -> "_steelmakers/nns_u_unknown" [label=ARG1]
+	udef_q -> _intelligence_n_1 [label=BV]
+	_artificial_a_1 -> _intelligence_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _computer_n_1 [label=BV]
+	_in_p -> _and_c [label=ARG2]
+	"_see_v_1-fn.Causation" -> pron [label="ARG1-fn.Experiencer"]
+	"_see_v_1-fn.Causation" -> "_steelmakers/nns_u_unknown" [label="ARG2-fn.Stimulus"]
+	"_see_v_1-fn.Causation" -> _involved_a_1 [label="ARG3-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

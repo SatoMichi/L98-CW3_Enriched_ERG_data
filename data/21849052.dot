@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.IN" -> _limit_n_of [label="ARG2-fn.Theme"]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _limit_n_of [label=BV]
+	poss -> _limit_n_of [label=ARG1]
+	"_have_v_1-fn.IN" -> _sophistication_n_1 [label="ARG1-fn.Pivot"]
+	udef_q -> _sophistication_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

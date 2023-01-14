@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_often_a_1 -> _funny_a_1 [label=ARG1]
+	_imaginative_a_1 -> pron [label=ARG1]
+	_funny_a_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

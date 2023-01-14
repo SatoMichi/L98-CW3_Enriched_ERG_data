@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _cost_n_1 [label=BV]
+	_vast_a_1 -> "_exceed_v_1-fn.Rite" [label=ARG1]
+	_a_q -> _market_n_1 [label=BV]
+	loc_nonsp -> "_exceed_v_1-fn.Rite" [label=ARG1]
+	_the_q -> _price_n_of [label=BV]
+	"_wind_v_up-fn.Undergo_change" -> _effort_n_1 [label="ARG1-fn.Entity"]
+	"_wind_v_up-fn.Undergo_change" -> "_create_v_1-fn.Cause_to_end" [label="ARG2-fn.Final_category"]
+	"_exceed_v_1-fn.Rite" -> _cost_n_1 [label="ARG2-fn.Member"]
+	"_create_v_1-fn.Cause_to_end" -> _effort_n_1 [label="ARG1-fn.Process"]
+	_these_q_dem -> _effort_n_1 [label=BV]
+	"_create_v_1-fn.Cause_to_end" -> _market_n_1 [label="ARG2-fn.Means"]
+	loc_nonsp -> _market_n_1 [label=ARG2]
+	"_exceed_v_1-fn.Rite" -> _price_n_of [label="ARG1-fn.Leader"]
+}

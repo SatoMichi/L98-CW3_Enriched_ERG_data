@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _skirt_n_1 [label=ARG]
+	_in_p -> _court_n_of [label=ARG2]
+	compound -> "named(Texas)" [label=ARG2]
+	_short_a_of -> _skirt_n_1 [label=ARG1]
+	proper_q -> "named(Texas)" [label=BV]
+	_welcome_a_1 -> _skirt_n_1 [label=ARG1]
+	compound -> _court_n_of [label=ARG1]
+	udef_q -> _skirt_n_1 [label=BV]
+	udef_q -> _court_n_of [label=BV]
+	_in_p -> _welcome_a_1 [label=ARG1]
+	neg -> _welcome_a_1 [label=ARG1]
+}

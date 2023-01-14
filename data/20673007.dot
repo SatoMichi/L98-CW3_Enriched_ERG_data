@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_great_a_for -> _pain_n_of [label=ARG1]
+	comp_too -> _great_a_for [label=ARG1]
+	_the_q -> _pain_n_of [label=BV]
+}

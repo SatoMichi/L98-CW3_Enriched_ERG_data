@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_important_a_for -> _factor_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _teacher_n_of [label="ARG1-fn.Process"]
+	_in_p -> _crisis_n_1 [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _factor_n_1 [label="ARG2-fn.Means"]
+	_educational_a_1 -> _crisis_n_1 [label=ARG1]
+	poss -> _crisis_n_1 [label=ARG1]
+	_a_q -> _factor_n_1 [label=BV]
+	_in_p -> _factor_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _crisis_n_1 [label=BV]
+	def_explicit_q -> _teacher_n_of [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	poss -> pron [label=ARG2]
+	poss -> _teacher_n_of [label=ARG1]
+}

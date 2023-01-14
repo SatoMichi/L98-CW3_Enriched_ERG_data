@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(75)" -> _cent_n_1 [label=ARG1]
+	udef_q -> _cent_n_1 [label=BV]
+	"_fall_v_1-fn.Halt" -> _stock_n_1 [label="ARG1-fn.Purpose"]
+	loc_nonsp -> _cent_n_1 [label=ARG2]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	_the_q -> _stock_n_1 [label=BV]
+}

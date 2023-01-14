@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_raise_v_cause-fn.NF" -> _news_n_of [label="ARG1-fn.Agent"]
+	compound -> _rate_n_of [label=ARG1]
+	_for_p -> _hope_n_1 [label=ARG1]
+	udef_q -> _rate_n_of [label=BV]
+	compound -> _cut_n_1 [label=ARG1]
+	comp -> _further_a_1 [label=ARG1]
+	udef_q -> _interest_n_in [label=BV]
+	_this_q_dem -> _news_n_of [label=BV]
+	udef_q -> _cut_n_1 [label=BV]
+	compound -> _interest_n_in [label=ARG2]
+	"_raise_v_cause-fn.NF" -> _hope_n_1 [label="ARG2-fn.Theme"]
+	_for_p -> _cut_n_1 [label=ARG2]
+	udef_q -> _hope_n_1 [label=BV]
+	_further_a_1 -> _cut_n_1 [label=ARG1]
+}

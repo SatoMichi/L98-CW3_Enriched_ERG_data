@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _market_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "_have_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	udef_q -> _attraction_n_of [label=BV]
+	"_say_v_to-fn.IN" -> _professional_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _market_n_1 [label=BV]
+	udef_q -> _professional_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> "named(London)" [label="ARG1-fn.Pivot"]
+	_several_a_1 -> _attraction_n_of [label=ARG1]
+	"_have_v_1-fn.IN" -> _attraction_n_of [label="ARG2-fn.Theme"]
+	proper_q -> "named(London)" [label=BV]
+	compound -> _professional_n_1 [label=ARG1]
+}

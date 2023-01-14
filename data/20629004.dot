@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _capital_n_1 [label=ARG2]
+	udef_q -> _capital_n_1 [label=BV]
+	compound -> _market_n_1 [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	"_boom_v_1-fn.Halt" -> _market_n_1 [label="ARG1-fn.Purpose"]
+}

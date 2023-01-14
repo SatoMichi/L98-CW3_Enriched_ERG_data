@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _activity_n_1 [label=ARG1]
+	_up_p -> _activity_n_1 [label=ARG1]
+	udef_q -> _activity_n_1 [label=BV]
+	compound -> nominalization [label=ARG2]
+	compound -> _construction_n_of [label=ARG2]
+	udef_q -> _construction_n_of [label=BV]
+	udef_q -> _government_n_of [label=BV]
+	_down_p -> nominalization [label=ARG1]
+	nominalization -> _build_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_private_a_1 -> nominalization [label=ARG1]
+	nominalization -> _spend_v_1 [label=ARG1]
+	compound -> _government_n_of [label=ARG2]
+}

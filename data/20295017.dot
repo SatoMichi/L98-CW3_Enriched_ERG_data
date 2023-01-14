@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _business_n_1 [label=BV]
+	_into_p -> _business_n_1 [label=ARG2]
+	_too_a_also -> "named(Achenbaum)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	poss -> _business_n_1 [label=ARG1]
+	_into_p -> "_delve_v_1-fn.Undergo_change" [label=ARG1]
+	proper_q -> "named(Achenbaum)" [label=BV]
+	compound -> "named(Achenbaum)" [label=ARG1]
+	def_explicit_q -> _client_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> _client_n_1 [label=ARG2]
+	poss -> pron [label=ARG2]
+	"_delve_v_1-fn.Undergo_change" -> "named(Achenbaum)" [label="ARG1-fn.Entity"]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Rite" -> "named(Integrated)" [label="ARG1-fn.Leader"]
+	proper_q -> "named(Integrated)" [label=BV]
+	"_close_v_1-fn.Halt" -> _market_n_1 [label="ARG1-fn.Purpose"]
+	_after_x_h -> "_make_v_1-fn.Rite" [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	"_make_v_1-fn.Rite" -> _announcement_n_of [label="ARG2-fn.Member"]
+	def_explicit_q -> _announcement_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	_after_x_h -> "_close_v_1-fn.Halt" [label=ARG2]
+	poss -> _announcement_n_of [label=ARG1]
+}

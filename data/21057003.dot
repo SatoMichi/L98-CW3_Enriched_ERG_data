@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _official_n_1 [label=ARG1]
+	_that_q_dem -> _price_n_of [label=BV]
+	compound -> "named(CBS)" [label=ARG2]
+	"_sound_v_seem-to-fn.Appearance" -> _price_n_of [label="ARG1-fn.NotExist"]
+	"_sound_v_seem-to-fn.Appearance" -> _fine_a_for [label="ARG2-fn.Stimulus"]
+	"_say_v_to-fn.IN" -> "_sound_v_seem-to-fn.Appearance" [label="ARG2-fn.Topic"]
+	_the_q -> _official_n_1 [label=BV]
+	_fine_a_for -> _price_n_of [label=ARG1]
+	proper_q -> "named(CBS)" [label=BV]
+	"_say_v_to-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _material_n_1 [label=ARG2]
+	_that_q_dem -> _material_n_1 [label=BV]
+	_a_q -> _law_n_1 [label=BV]
+	"_bar_v_from-fn.NF" -> "_dissemination/nn_u_unknown" [label="ARG2-fn.Theme"]
+	compound -> _law_n_1 [label=ARG1]
+	proper_q -> "yofc(1948)" [label=BV]
+	compound -> "yofc(1948)" [label=ARG2]
+	_in_p -> "named_n(US)" [label=ARG2]
+	_the_q -> "named_n(US)" [label=BV]
+	_in_p -> "_dissemination/nn_u_unknown" [label=ARG1]
+	_the_q -> "_dissemination/nn_u_unknown" [label=BV]
+	"_bar_v_from-fn.NF" -> _law_n_1 [label="ARG1-fn.Agent"]
+	_of_p -> "_dissemination/nn_u_unknown" [label=ARG1]
+}

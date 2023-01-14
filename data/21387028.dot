@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pursue_v_1-fn.Cotheme" -> _issue_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _opposition_n_1 [label=BV]
+	"_at+first_a_1" -> "_want_v_1-fn.Desiring" [label=ARG1]
+	"_want_v_1-fn.Desiring" -> "_pursue_v_1-fn.Cotheme" [label="ARG2-fn.Theme"]
+	"_want_v_1-fn.Desiring" -> _nor_c [label="ARG1-fn.Pivot"]
+	_the_q -> "named(LDP)" [label=BV]
+	_the_q -> _issue_n_1 [label=BV]
+	"_pursue_v_1-fn.Cotheme" -> _nor_c [label="ARG1-fn.Agent"]
+	focus_d -> "_want_v_1-fn.Desiring" [label=ARG1]
+	udef_q -> _nor_c [label=BV]
+}

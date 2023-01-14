@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_guide_v_to-fn.Cotheme" -> pron [label="ARG2-fn.Theme"]
+	poss -> _vision_n_1 [label=ARG1]
+	proper_q -> "named(Madison)" [label=BV]
+	"_guide_v_to-fn.Cotheme" -> _vision_n_1 [label="ARG1-fn.Agent"]
+	_noble_a_1 -> _vision_n_1 [label=ARG1]
+	_of_p -> _representative_n_of [label=ARG2]
+	_unify_v_cause -> _vision_n_1 [label=ARG1]
+	_still_a_1 -> _can_v_modal [label=ARG1]
+	_of_p -> _vision_n_1 [label=ARG1]
+	_can_v_modal -> "_guide_v_to-fn.Cotheme" [label=ARG1]
+	_the_q -> _representative_n_of [label=BV]
+	poss -> "named(Madison)" [label=ARG2]
+	def_explicit_q -> _vision_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

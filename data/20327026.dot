@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _unit_n_of [label=ARG2]
+	_cohesive_a_1 -> _unit_n_of [label=ARG1]
+	proper_q -> "named(OTC)" [label=BV]
+	compound -> "named(OTC)" [label=ARG2]
+	_far_x_deg -> _from_p [label=ARG1]
+	_the_q -> _sector_n_1 [label=BV]
+	compound -> _technology_n_1 [label=ARG1]
+	_a_q -> _unit_n_of [label=BV]
+	compound -> _sector_n_1 [label=ARG1]
+	_from_p -> _sector_n_1 [label=ARG1]
+	udef_q -> _technology_n_1 [label=BV]
+}

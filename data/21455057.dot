@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p -> _approval_n_of [label=ARG1]
+	udef_q -> _official_n_1 [label=BV]
+	compound -> _project_n_1 [label=ARG1]
+	_the_q -> _project_n_1 [label=BV]
+	"_await_v_1-fn.Attempt_suasion" -> _approval_n_of [label="ARG2-fn.Addressee"]
+	_ambitious_a_1 -> _project_n_1 [label=ARG1]
+	udef_q -> _approval_n_of [label=BV]
+	compound -> _official_n_1 [label=ARG1]
+	compound -> "named(Warsaw)" [label=ARG2]
+	compound -> _city_n_1 [label=ARG2]
+	proper_q -> "named(Warsaw)" [label=BV]
+	udef_q -> _city_n_1 [label=BV]
+	"_await_v_1-fn.Attempt_suasion" -> _project_n_1 [label="ARG1-fn.Content"]
+	_still_a_1 -> "_await_v_1-fn.Attempt_suasion" [label=ARG1]
+	_by_p -> _official_n_1 [label=ARG2]
+}

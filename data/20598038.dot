@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_think_v_1-fn.IN" -> _have_v_qmodal [label="ARG2-fn.NotExist"]
+	"_give_v_1-fn.Giving" -> "named(Greenspan)" [label="ARG3-fn.Recipient"]
+	_have_v_qmodal -> "_give_v_1-fn.Giving" [label=ARG1]
+	"_give_v_1-fn.Giving" -> _rating_n_1 [label="ARG2-fn.Theme"]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Greenspan)" [label=BV]
+	"_give_v_1-fn.Giving" -> pron [label="ARG1-fn.Agent"]
+	"_good_a_at-for-of" -> _rating_n_1 [label=ARG1]
+	_a_q -> _rating_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

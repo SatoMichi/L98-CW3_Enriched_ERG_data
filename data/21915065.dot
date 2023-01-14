@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	"_expect_v_1-fn.IN" -> _slight_a_1 [label="ARG2-fn.Theme"]
+	_any_q -> _impact_n_1 [label=BV]
+	def_explicit_q -> _business_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_slight_a_1 -> _impact_n_1 [label=ARG1]
+	_on_p -> _business_n_1 [label=ARG2]
+	poss -> _business_n_1 [label=ARG1]
+	_on_p -> _impact_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

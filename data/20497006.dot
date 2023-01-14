@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_throughout_p -> _strong_a_1 [label=ARG1]
+	udef_q -> _order_n_of [label=BV]
+	_of_p -> _order_n_of [label=ARG2]
+	focus_d -> _strong_a_1 [label=ARG2]
+	_of_p -> "_backlog/nn_u_unknown" [label=ARG1]
+	_the_q -> "_backlog/nn_u_unknown" [label=BV]
+	_current_a_1 -> "_backlog/nn_u_unknown" [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_say_v_to-fn.Cause_to_end" -> _strong_a_1 [label="ARG2-fn.Means"]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _corporation_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_strong_a_1 -> "_backlog/nn_u_unknown" [label=ARG1]
+	_throughout_p -> _corporation_n_1 [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _department_n_1 [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	compound -> _department_n_1 [label=ARG1]
+	proper_q -> "named(State)" [label=BV]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Experiencer"]
+	"_see_v_1-fn.Perception_experience" -> _copy_n_of [label="ARG2-fn.Stimulus"]
+	udef_q -> _copy_n_of [label=BV]
+	_those_q_dem -> _paper_n_1 [label=BV]
+	_the_q -> _department_n_1 [label=BV]
+	_yet_a_1 -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	neg -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	_copy_n_of -> _paper_n_1 [label=ARG1]
+	compound -> "named(State)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

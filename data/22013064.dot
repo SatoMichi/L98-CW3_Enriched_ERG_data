@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _expert_n_1 [label=ARG2]
+	"_blackmailing/vbg_u_unknown" -> _people_n_of [label=ARG2]
+	_at_p -> _expert_n_1 [label=ARG1]
+	"_bribe_v_1-fn.NF" -> _people_n_of [label="ARG2-fn.Patient"]
+	udef_q -> _people_n_of [label=BV]
+	proper_q -> "named(Noriega)" [label=BV]
+	nominalization -> _and_c [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_at_p -> nominalization [label=ARG2]
+	_be_v_id -> "named(Noriega)" [label=ARG1]
+	_a_q -> _expert_n_1 [label=BV]
+}

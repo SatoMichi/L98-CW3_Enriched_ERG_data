@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Denver)" [label=BV]
+	"_for+instance_a_1" -> "_reduce_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG1]
+	parg_d -> _employment_n_1 [label=ARG2]
+	_from_p -> "card(430)" [label=ARG2]
+	_in_p -> "named(Denver)" [label=ARG2]
+	_in_p -> _employment_n_1 [label=ARG1]
+	_from_p -> "_reduce_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG1]
+	udef_q -> _employment_n_1 [label=BV]
+	number_q -> "card(430)" [label=BV]
+	parg_d -> "_reduce_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG1]
+	number_q -> "card(105)" [label=BV]
+	_to_p -> "card(105)" [label=ARG2]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> _employment_n_1 [label="ARG2-fn.Patient"]
+	_to_p -> "_reduce_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG1]
+}

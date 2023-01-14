@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _telephone_n_1 [label=ARG2]
+	udef_q -> _telephone_n_1 [label=BV]
+	compound -> _subsidiary_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _subsidiary_n_1 [label="ARG2-fn.Means"]
+	"ord(1)" -> _subsidiary_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> "named(Urban)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Wisconsin)" [label=BV]
+	def_explicit_q -> _subsidiary_n_1 [label=BV]
+	_in_p -> _subsidiary_n_1 [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	proper_q -> "named(Urban)" [label=BV]
+	poss -> _subsidiary_n_1 [label=ARG1]
+	_in_p -> "named(Wisconsin)" [label=ARG2]
+	poss -> _company_n_of [label=ARG2]
+}

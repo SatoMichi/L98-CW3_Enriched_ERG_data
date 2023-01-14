@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p_time -> "_vary_v_1-fn.NF" [label=ARG1]
+	udef_q -> _location_n_1 [label=BV]
+	"_vary_v_1-fn.NF" -> _practice_n_of [label="ARG1-fn.NotExist"]
+	_within_p -> "_vary_v_1-fn.NF" [label=ARG1]
+	_to_p -> "_vary_v_1-fn.NF" [label=ARG1]
+	_the_q -> _practice_n_of [label=BV]
+	_often_a_1 -> "_vary_v_1-fn.NF" [label=ARG1]
+	_within_p -> _company_n_of [label=ARG2]
+	_to_p -> _location_n_1 [label=ARG2]
+	_even_x_deg -> _within_p [label=ARG1]
+	_a_q -> _company_n_of [label=BV]
+	_from_p_time -> _location_n_1 [label=ARG2]
+}

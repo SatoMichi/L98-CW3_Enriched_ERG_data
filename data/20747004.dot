@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"_stand_v_out-fn.IN" -> "named(Redford)" [label="ARG1-fn.NotExist"]
+	compound -> "named(Redford)" [label=ARG1]
+	"_no+longer_a_1" -> "_stand_v_out-fn.IN" [label=ARG1]
+	proper_q -> "named(Redford)" [label=BV]
+	_as_p -> "_extremist/nn_u_unknown" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	_a_q -> "_extremist/nn_u_unknown" [label=BV]
+	_as_p -> "_stand_v_out-fn.IN" [label=ARG1]
+}

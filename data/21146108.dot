@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _land_n_of [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "named(Pyszkiewicz)" [label="ARG1-fn.Agent"]
+	compound -> "named(Pyszkiewicz)" [label=ARG1]
+	poss -> pron [label=ARG2]
+	proper_q -> "named(Pyszkiewicz)" [label=BV]
+	"_say_v_to-fn.IN" -> _on_p [label="ARG2-fn.Topic"]
+	_on_p -> pron [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_own_a_1 -> _land_n_of [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	def_explicit_q -> _land_n_of [label=BV]
+	focus_d -> _on_p [label=ARG2]
+	_on_p -> _land_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

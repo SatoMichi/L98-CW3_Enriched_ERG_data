@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_survive_v_1 -> "named(TV)" [label=ARG1]
+	"_think_v_1-fn.IN" -> "_in+order+to_x" [label="ARG2-fn.NotExist"]
+	"_need_v_1-fn.Needing" -> _equity_n_1 [label="ARG2-fn.Theme"]
+	"_in+order+to_x" -> _survive_v_1 [label=ARG2]
+	_new_a_1 -> _equity_n_1 [label=ARG1]
+	"_need_v_1-fn.Needing" -> "named(TV)" [label="ARG1-fn.Pivot"]
+	proper_q -> "named(TV)" [label=BV]
+	proper_q -> "named(SCI)" [label=BV]
+	compound -> "named(SCI)" [label=ARG2]
+	udef_q -> _equity_n_1 [label=BV]
+	compound -> "named(TV)" [label=ARG1]
+	_those_q_dem -> _investor_n_1 [label=BV]
+	"_in+order+to_x" -> "_need_v_1-fn.Needing" [label=ARG1]
+	"_think_v_1-fn.IN" -> _investor_n_1 [label="ARG1-fn.NotExist"]
+}

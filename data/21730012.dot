@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _vote_n_1 [label=BV]
+	udef_q -> num_seq [label=BV]
+	number_q -> "card(345)" [label=BV]
+	_the_q -> _measure_n_1 [label=BV]
+	"_send_v_1-fn.Sending" -> _vote_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> "named_n(Senate)" [label=BV]
+	_of_p -> _vote_n_1 [label=ARG1]
+	_of_p -> num_seq [label=ARG2]
+	number_q -> "card(47)" [label=BV]
+	_to_p -> "_send_v_1-fn.Sending" [label=ARG1]
+	"_send_v_1-fn.Sending" -> _measure_n_1 [label="ARG2-fn.Theme"]
+	_to_p -> "named_n(Senate)" [label=ARG2]
+}

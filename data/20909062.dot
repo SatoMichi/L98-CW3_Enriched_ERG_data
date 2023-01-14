@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _survive_v_1 [label="ARG2-fn.Topic"]
+	neg -> _easy_a_for [label=ARG1]
+	_survive_v_1 -> pron [label=ARG1]
+	_easy_a_for -> pron [label=ARG1]
+	_on_p -> pron [label=ARG2]
+	_could_v_modal -> "_say_v_to-fn.IN" [label=ARG1]
+	_on_p -> _easy_a_for [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

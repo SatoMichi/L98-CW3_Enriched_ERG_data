@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _expense_n_1 [label=BV]
+	compound -> _and_c [label=ARG2]
+	udef_q -> _travel_n_1 [label=BV]
+	_for_p -> "_use_v_1-fn.IN" [label=ARG1]
+	udef_q -> _entertainment_n_1 [label=BV]
+	parg_d -> "_use_v_1-fn.IN" [label=ARG1]
+	focus_d -> "_use_v_1-fn.IN" [label=ARG1]
+	compound -> _expense_n_1 [label=ARG1]
+	_traditional_a_1 -> "_use_v_1-fn.IN" [label=ARG1]
+	parg_d -> _card_n_1 [label=ARG2]
+	_for_p -> _expense_n_1 [label=ARG2]
+	_the_q -> _card_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_use_v_1-fn.IN" -> _card_n_1 [label="ARG2-fn.NotExist"]
+	_main_a_1 -> "_use_v_1-fn.IN" [label=ARG1]
+}

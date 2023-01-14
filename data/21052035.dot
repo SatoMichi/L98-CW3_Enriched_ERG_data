@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_eat_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	_necessary_a_1 -> "_eat_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	def_explicit_q -> generic_entity [label=BV]
+	proper_q -> "named(Denny)" [label=BV]
+	poss -> generic_entity [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	neg -> _necessary_a_1 [label=ARG1]
+	_at_p -> generic_entity [label=ARG2]
+	poss -> "named(Denny)" [label=ARG2]
+	_at_p -> "_eat_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

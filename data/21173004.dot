@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> "mofy(Jul)" [label=ARG2]
+	"_redeem_v_for-fn.Cause_to_continue" -> _note_n_1 [label="ARG2-fn.Process"]
+	subord -> _start_v_1 [label=ARG2]
+	proper_q -> "mofy(Jul)" [label=BV]
+	parg_d -> "_redeem_v_for-fn.Cause_to_continue" [label=ARG1]
+	proper_q -> "yofc(1991)" [label=BV]
+	loc_nonsp -> "mofy(Jul)" [label=ARG1]
+	loc_nonsp -> "yofc(1991)" [label=ARG2]
+	subord -> "_redeem_v_for-fn.Cause_to_continue" [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> subord [label="ARG1-fn.Protagonist"]
+	_the_q -> _note_n_1 [label=BV]
+	parg_d -> _note_n_1 [label=ARG2]
+	_in_p_temp -> _start_v_1 [label=ARG1]
+}

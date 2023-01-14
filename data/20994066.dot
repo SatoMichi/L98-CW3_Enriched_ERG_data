@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _discriminate_v_1 [label=ARG1]
+	_discriminate_v_1 -> _tourist_n_1 [label=ARG1]
+	"_hurt_v_1-fn.Cause_harm" -> _and_c [label="ARG1-fn.Stimulus"]
+	_a_q -> _influx_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _hotel_n_1 [label=BV]
+	compound -> _hotel_n_1 [label=ARG2]
+	udef_q -> _expansion_n_1 [label=BV]
+	_of_p -> _tourist_n_1 [label=ARG2]
+	udef_q -> _motel_n_1 [label=BV]
+	"_hurt_v_1-fn.Cause_harm" -> _motel_n_1 [label="ARG2-fn.Experiencer"]
+	udef_q -> _tourist_n_1 [label=BV]
+	_of_p -> _influx_n_1 [label=ARG1]
+	compound -> _expansion_n_1 [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_most_q -> part_of [label=BV]
+	part_of -> _equipment_n_1 [label=ARG1]
+	compound -> _equipment_n_1 [label=ARG1]
+	compound -> _telecommunications_n_1 [label=ARG2]
+	_also_a_1 -> _out_p [label=ARG1]
+	_the_q -> _equipment_n_1 [label=BV]
+	udef_q -> _telecommunications_n_1 [label=BV]
+	_out_p -> part_of [label=ARG1]
+}

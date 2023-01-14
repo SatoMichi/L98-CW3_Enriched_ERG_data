@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _bond_n_1 [label=BV]
+	_balance_v_1 -> _fund_n_1 [label=ARG2]
+	udef_q -> _stock_n_1 [label=BV]
+	"_mix_v_1-fn.Cause_to_amalgamate" -> _fund_n_1 [label="ARG1-fn.Agent"]
+	"_mix_v_1-fn.Cause_to_amalgamate" -> _and_c [label="ARG2-fn.Patient"]
+	udef_q -> _or_c [label=BV]
+	parg_d -> _fund_n_1 [label=ARG2]
+	"_favor_v_1-fn.Preference" -> _or_c [label="ARG2-fn.Attribute"]
+	"_favor_v_1-fn.Preference" -> pron [label="ARG1-fn.Experiencer"]
+	udef_q -> _and_c [label=BV]
+	"_all-stock_a_1" -> _fund_n_1 [label=ARG1]
+	parg_d -> _balance_v_1 [label=ARG1]
+	_a_q -> _fund_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

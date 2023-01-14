@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _corporation_n_1 [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+	proper_q -> "named(ERC)" [label=BV]
+	_to_p -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	compound -> "named(ERC)" [label=ARG1]
+	"_rise_v_1-fn.Experiencer_obj" -> "named(ERC)" [label="ARG1-fn.Experiencer"]
+	number_q -> "card(12)" [label=BV]
+	loc_nonsp -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	_to_p -> "card(12)" [label=ARG2]
+}

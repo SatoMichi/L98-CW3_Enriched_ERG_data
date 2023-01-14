@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _ad_n_1 [label=BV]
+	_a_q -> _weekend_n_of [label=BV]
+	"_create_v_1-fn.Competition" -> _ad_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _quake_n_1 [label=BV]
+	compound -> _quake_n_1 [label=ARG2]
+	"_create_v_1-fn.Competition" -> "named(Nissan)" [label="ARG1-fn.Participant_1"]
+	_in_p_temp -> _weekend_n_of [label=ARG2]
+	compound -> _ad_n_1 [label=ARG1]
+	proper_q -> "named(Nissan)" [label=BV]
+	_in_p_temp -> "_create_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> _ad_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Oranjemund)" [label=BV]
+	udef_q -> _attraction_n_of [label=BV]
+	_besides_p -> _diamond_n_1 [label=ARG2]
+	"_boast_v_to-fn.IN" -> "named(Oranjemund)" [label="ARG1-fn.Agent"]
+	_besides_p -> _attraction_n_of [label=ARG1]
+	udef_q -> _diamond_n_1 [label=BV]
+	"_boast_v_to-fn.IN" -> _attraction_n_of [label="ARG2-fn.Topic"]
+}

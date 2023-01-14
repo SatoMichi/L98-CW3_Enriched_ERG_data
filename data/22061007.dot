@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _share_n_of [label="ARG2-fn.Location"]
+	"card(224,070,000)" -> _share_n_of [label=ARG1]
+	compound -> _volume_n_of [label=ARG1]
+	_heavy_a_1 -> _share_n_of [label=ARG1]
+	_a_q -> _share_n_of [label=BV]
+	compound -> _stock_n_1 [label=ARG2]
+	compound -> "named(York)" [label=ARG1]
+	udef_q -> _volume_n_of [label=BV]
+	compound -> _exchange_n_1 [label=ARG1]
+	proper_q -> "named(York)" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	proper_q -> "named(New)" [label=BV]
+	udef_q -> _exchange_n_1 [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _volume_n_of [label="ARG1-fn.Resident"]
+}

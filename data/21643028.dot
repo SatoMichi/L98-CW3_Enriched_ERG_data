@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	which_q -> thing [label=BV]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	pronoun_q -> pron [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> "_do_v_1-fn.Piracy" [label="ARG1-fn.Value"]
+	"_do_v_1-fn.Piracy" -> thing [label="ARG2-fn.Vehicle"]
+}

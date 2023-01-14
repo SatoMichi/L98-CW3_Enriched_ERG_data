@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_simplify_v_1-fn.Activity_start" [label=ARG1]
+	_the_q -> _tax_n_1 [label=BV]
+	_of_p -> _hope_n_1 [label=ARG1]
+	"_simplify_v_1-fn.Activity_start" -> _tax_n_1 [label="ARG2-fn.Purpose"]
+	_corporate_a_1 -> _tax_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	proper_q -> "yofc(1990)" [label=BV]
+	_before_p -> "yofc(1990)" [label=ARG2]
+	_before_p -> "_simplify_v_1-fn.Activity_start" [label=ARG1]
+	udef_q -> _hope_n_1 [label=BV]
+	_of_p -> nominalization [label=ARG2]
+	"_weaken_v_1-fn.Competition" -> _hope_n_1 [label="ARG1-fn.Participant_1"]
+	_minimum_a_1 -> _tax_n_1 [label=ARG1]
+}

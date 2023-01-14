@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Bank)" [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	compound -> _loan_n_1 [label=ARG1]
+	"_make_v_1-fn.Rite" -> "named(Bank)" [label="ARG1-fn.Leader"]
+	_for_p -> _year_n_1 [label=ARG2]
+	_for_p -> "_make_v_1-fn.Rite" [label=ARG1]
+	compound -> _adjustment_n_1 [label=ARG2]
+	"_make_v_1-fn.Rite" -> _loan_n_1 [label="ARG2-fn.Member"]
+	udef_q -> _loan_n_1 [label=BV]
+	udef_q -> _adjustment_n_1 [label=BV]
+	"card(10)" -> _year_n_1 [label=ARG1]
+}

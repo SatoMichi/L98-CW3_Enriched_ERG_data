@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named(R)" [label=BV]
+	compound -> _revise_v_1 [label=ARG1]
+	parg_d -> _revise_v_1 [label=ARG1]
+	compound -> "named(R)" [label=ARG2]
+}

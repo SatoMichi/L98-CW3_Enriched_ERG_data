@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_build_v_1-fn.Activity_stop" -> _cloud_n_of [label="ARG1-fn.Purpose"]
+	_pale_a_1 -> _water_n_1 [label=ARG1]
+	_on_p -> _cloud_n_of [label=ARG1]
+	_silver_a_1 -> _cloud_n_of [label=ARG1]
+	_the_q -> _horizon_n_1 [label=BV]
+	"_build_v_1-fn.Activity_stop" -> pron [label="ARG2-fn.Place"]
+	_on_p -> "_build_v_1-fn.Activity_stop" [label=ARG1]
+	_the_q -> _water_n_1 [label=BV]
+	_the_q -> _cloud_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_on_p -> _horizon_n_1 [label=ARG2]
+	_on_p -> _water_n_1 [label=ARG2]
+	_great_a_for -> _cloud_n_of [label=ARG1]
+}

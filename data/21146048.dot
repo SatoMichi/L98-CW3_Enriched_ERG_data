@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_crumble_v_1-fn.Relative_time" -> _hulk_n_1 [label="ARG1-fn.Focal_occasion"]
+	_of_p -> _hulk_n_1 [label=ARG1]
+	focus_d -> _hulk_n_1 [label=ARG2]
+	_away_p_dir -> "_crumble_v_1-fn.Relative_time" [label=ARG1]
+	neg -> "_crumble_v_1-fn.Relative_time" [label=ARG1]
+	focus_d -> "_seem_v_to-fn.Needing" [label=ARG1]
+	"_seem_v_to-fn.Needing" -> neg [label="ARG1-fn.Cognizer"]
+	_the_q -> _hulk_n_1 [label=BV]
+	proper_q -> "named(Stalinism)" [label=BV]
+	_of_p -> "named(Stalinism)" [label=ARG2]
+	_quick_a_1 -> "_crumble_v_1-fn.Relative_time" [label=ARG1]
+}

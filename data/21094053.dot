@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_enact_v_1 -> _session_n_1 [label=ARG1]
+	_the_q -> _session_n_1 [label=BV]
+	_enact_v_1 -> _curb_n_1 [label=ARG2]
+	_any_q -> _curb_n_1 [label=BV]
+	"_fail_v_1-fn.NF" -> _enact_v_1 [label="ARG1-fn.NotExist"]
+	_new_a_1 -> _curb_n_1 [label=ARG1]
+}

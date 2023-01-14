@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_result_n_of -> "_unfamiliarity/nn_u_unknown" [label=ARG1]
+	_mexican_a_1 -> _official_n_1 [label=ARG1]
+	_a_q -> _result_n_of [label=BV]
+	_the_q -> _reserve_n_1 [label=BV]
+	udef_q -> _official_n_1 [label=BV]
+	"_maintain_v_1-fn.Statement" -> _official_n_1 [label="ARG1-fn.Agent"]
+	_be_v_id -> _result_n_of [label=ARG2]
+	_be_v_id -> _reserve_n_1 [label=ARG1]
+	udef_q -> "_unfamiliarity/nn_u_unknown" [label=BV]
+	_japanese_a_1 -> _reserve_n_1 [label=ARG1]
+	_only_x_deg -> _a_q [label=ARG1]
+	"_maintain_v_1-fn.Statement" -> _be_v_id [label="ARG2-fn.Theme"]
+}

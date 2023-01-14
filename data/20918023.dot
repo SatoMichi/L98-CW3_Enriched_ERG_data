@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _quarter_n_temp [label=ARG2]
+	udef_q -> _earnings_n_1 [label=BV]
+	udef_q -> _segment_n_1 [label=BV]
+	_for_p -> _earnings_n_1 [label=ARG1]
+	comp -> _low_a_1 [label=ARG1]
+	"_post_v_1-fn.Social_event" -> _earnings_n_1 [label="ARG2-fn.Social_event"]
+	_low_a_1 -> _earnings_n_1 [label=ARG1]
+	"card(2)" -> _segment_n_1 [label=ARG1]
+	_the_q -> _quarter_n_temp [label=BV]
+	"_post_v_1-fn.Social_event" -> _segment_n_1 [label="ARG1-fn.Duration"]
+}

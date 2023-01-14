@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hold_v_back-fn.Taking_time" -> pron [label="ARG1-fn.Activity"]
+	_about_p -> _government_n_of [label=ARG2]
+	_about_p -> _angry_a_at [label=ARG1]
+	_so_x -> "_hold_v_back-fn.Taking_time" [label=ARG2]
+	"_hold_v_back-fn.Taking_time" -> _goods_n_1 [label="ARG2-fn.Attribute"]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_so_x -> _angry_a_at [label=ARG1]
+	focus_d -> _angry_a_at [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _government_n_of [label=BV]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	_angry_a_at -> pron [label=ARG1]
+	_the_q -> _goods_n_1 [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _so_x [label="ARG2-fn.Requirement"]
+}

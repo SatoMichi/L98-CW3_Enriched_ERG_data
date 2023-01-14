@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _drive_n_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_of_p -> _magic_n_1 [label=ARG1]
+	def_explicit_q -> _drive_n_1 [label=BV]
+	_the_q -> _magic_n_1 [label=BV]
+	"_lose_v_1-fn.NF" -> _magic_n_1 [label="ARG2-fn.Theme"]
+	poss -> _company_n_of [label=ARG2]
+	_of_p -> _drive_n_1 [label=ARG2]
+	_creative_a_1 -> _drive_n_1 [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	"_lose_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_want_v_1-fn.Desiring" -> "_lose_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"much-many_a" -> _issue_n_1 [label=ARG1]
+	_knotty_a_1 -> _issue_n_1 [label=ARG1]
+	"_raise_v_cause-fn.NF" -> _problem_n_of [label="ARG1-fn.Agent"]
+	compound -> _problem_n_of [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	udef_q -> _problem_n_of [label=BV]
+	udef_q -> _accounting_n_1 [label=BV]
+	"_raise_v_cause-fn.NF" -> _issue_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _issue_n_1 [label=BV]
+	compound -> _accounting_n_1 [label=ARG2]
+}

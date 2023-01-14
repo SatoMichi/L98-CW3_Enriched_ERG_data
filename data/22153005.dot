@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	every_q -> person [label=BV]
+	_in_p -> person [label=ARG1]
+	"_watch_v_1-fn.Perception_active" -> pron [label="ARG2-fn.Stimulus"]
+	_in_p -> _world_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_very_x_deg -> _close_a_to [label=ARG1]
+	_the_q -> _world_n_of [label=BV]
+	_close_a_to -> "_watch_v_1-fn.Perception_active" [label=ARG1]
+	"_watch_v_1-fn.Perception_active" -> person [label="ARG1-fn.Experiencer"]
+}

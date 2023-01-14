@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "mofy(Aug)" [label=BV]
+	_in_p_temp -> "mofy(Aug)" [label=ARG2]
+	_in_p_temp -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	"_be_v_id-fn.Name_conferral" -> _deficit_n_of [label="ARG1-fn.Entity"]
+	"_be_v_id-fn.Name_conferral" -> _lire_n_1 [label="ARG2-fn.Name"]
+	_the_q -> _deficit_n_of [label=BV]
+	"card(1000000000)" -> _lire_n_1 [label=ARG1]
+	udef_q -> _lire_n_1 [label=BV]
+	times -> "card(466)" [label=ARG2]
+}

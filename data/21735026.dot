@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sell_v_1-fn.Commerce_buy" -> pron [label="ARG2-fn.Goods"]
+	with_p -> _say_n_1 [label=ARG2]
+	_no_q -> generic_entity [label=BV]
+	"_dare_v_1-fn.Rite" -> _say_n_1 [label="ARG2-fn.Member"]
+	udef_q -> _say_n_1 [label=BV]
+	with_p -> "_sell_v_1-fn.Commerce_buy" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_dare_v_1-fn.Rite" -> generic_entity [label="ARG1-fn.Leader"]
+}

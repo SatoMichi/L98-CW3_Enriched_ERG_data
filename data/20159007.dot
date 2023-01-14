@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_complete_v_2-fn.Activity_ongoing" -> _process_n_of [label="ARG2-fn.Activity"]
+	proper_q -> "named(Acquisition)" [label=BV]
+	compound -> "named(DD)" [label=ARG2]
+	eventuality -> "_allow_v_1-fn.State_continue" [label=ARG1]
+	compound -> "named(Acquisition)" [label=ARG1]
+	proper_q -> "named(DD)" [label=BV]
+	"_allow_v_1-fn.State_continue" -> _process_n_of [label="ARG2-fn.State"]
+	"_allow_v_1-fn.State_continue" -> _extension_n_of [label="ARG1-fn.Entity"]
+	_the_q -> _extension_n_of [label=BV]
+	"_allow_v_1-fn.State_continue" -> "_complete_v_2-fn.Activity_ongoing" [label="ARG3-fn.Time"]
+	parg_d -> "_complete_v_2-fn.Activity_ongoing" [label=ARG1]
+	_this_q_dem -> _process_n_of [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> eventuality [label="ARG2-fn.Requirement"]
+	"_say_v_to-fn.Have_as_requirement" -> "named(Acquisition)" [label="ARG1-fn.Dependent"]
+	parg_d -> _process_n_of [label=ARG2]
+}

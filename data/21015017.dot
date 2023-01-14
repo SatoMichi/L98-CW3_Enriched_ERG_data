@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(Motor)" [label=BV]
+	"_fall_v_1-fn.Halt" -> "named(Motor)" [label="ARG1-fn.Purpose"]
+	number_q -> "card(40)" [label=BV]
+	proper_q -> "named(Toyota)" [label=BV]
+	number_q -> "card(2,680)" [label=BV]
+	compound -> "named(Toyota)" [label=ARG2]
+	compound -> "named(Motor)" [label=ARG1]
+	loc_nonsp -> "card(40)" [label=ARG2]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	_to_p -> "card(2,680)" [label=ARG2]
+}

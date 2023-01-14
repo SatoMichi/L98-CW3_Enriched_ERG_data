@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_contribute_v_to-fn.Cause_to_end" -> "named(Yoshihashi)" [label="ARG1-fn.Process"]
+	compound -> "named(Yoshihashi)" [label=ARG1]
+	_in_p -> "named(Yoshihashi)" [label=ARG1]
+	"_contribute_v_to-fn.Cause_to_end" -> _article_n_of [label="ARG3-fn.Place"]
+	compound -> "named(Pauline)" [label=ARG2]
+	compound -> "named(Angeles)" [label=ARG1]
+	proper_q -> "named(Pauline)" [label=BV]
+	compound -> "named(Los)" [label=ARG2]
+	proper_q -> "named(Yoshihashi)" [label=BV]
+	proper_q -> "named(Los)" [label=BV]
+	_in_p -> "named(Angeles)" [label=ARG2]
+	proper_q -> "named(Angeles)" [label=BV]
+	_this_q_dem -> _article_n_of [label=BV]
+}

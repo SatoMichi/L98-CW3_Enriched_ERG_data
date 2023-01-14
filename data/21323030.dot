@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _place_n_of [label=BV]
+	compound -> _conscious_a_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	neg -> _apt_a_1 [label=ARG1]
+	udef_q -> _or_c [label=BV]
+	_about_p -> _or_c [label=ARG2]
+	udef_q -> _self_n_1 [label=BV]
+	_about_p -> _conscious_a_of [label=ARG1]
+	_apt_a_1 -> _conscious_a_of [label=ARG2]
+	_conscious_a_of -> _people_n_of [label=ARG1]
+	compound -> _self_n_1 [label=ARG2]
+	_apt_a_1 -> _people_n_of [label=ARG1]
+	udef_q -> _people_n_of [label=BV]
+}

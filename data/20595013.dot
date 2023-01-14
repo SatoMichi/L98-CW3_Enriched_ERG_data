@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _patient_n_1 [label="ARG1-fn.Resident"]
+	nominalization -> _nurse_v_1 [label=ARG1]
+	_apt_a_1 -> _patient_n_1 [label=ARG1]
+	udef_q -> _patient_n_1 [label=BV]
+	udef_q -> "_home_n_of-n" [label=BV]
+	udef_q -> "named(Payers)" [label=BV]
+	compound -> _patient_n_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	_apt_a_1 -> "_be_v_id-fn.Residence" [label=ARG2]
+	_private_a_1 -> "named(Payers)" [label=ARG1]
+	"_be_v_id-fn.Residence" -> "named(Payers)" [label="ARG2-fn.Location"]
+	compound -> "_home_n_of-n" [label=ARG1]
+	unknown -> _patient_n_1 [label=ARG]
+	udef_q -> nominalization [label=BV]
+}

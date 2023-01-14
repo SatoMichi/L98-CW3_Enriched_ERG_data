@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_all_a_1 -> "_price_v_1-fn.Commerce_buy" [label=ARG1]
+	_at_p -> _par_n_1 [label=ARG2]
+	_at_p -> "_price_v_1-fn.Commerce_buy" [label=ARG1]
+	udef_q -> _par_n_1 [label=BV]
+	parg_d -> "_price_v_1-fn.Commerce_buy" [label=ARG1]
+	"_price_v_1-fn.Commerce_buy" -> pron [label="ARG2-fn.Goods"]
+	pronoun_q -> pron [label=BV]
+	parg_d -> pron [label=ARG2]
+}

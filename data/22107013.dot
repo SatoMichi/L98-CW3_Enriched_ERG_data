@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	_slight_a_1 -> "_decline_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(1000000000)" [label=ARG3]
+	times -> "card(5.17)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _sale_n_of [label="ARG1-fn.Attribute"]
+	_to_p -> "_decline_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

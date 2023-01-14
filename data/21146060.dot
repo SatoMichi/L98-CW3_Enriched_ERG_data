@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _ownership_n_of [label=ARG2]
+	superl -> "_good_a_at-for-of" [label=ARG1]
+	focus_d -> "_seem_v_to-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> _ownership_n_of [label="ARG1-fn.Individuals"]
+	"_good_a_at-for-of" -> _fertilizer_n_1 [label=ARG1]
+	udef_q -> _ownership_n_of [label=BV]
+	_the_q -> _fertilizer_n_1 [label=BV]
+	"_be_v_id-fn.Assemble" -> _fertilizer_n_1 [label="ARG2-fn.Group"]
+	"_seem_v_to-fn.Cause_to_end" -> "_be_v_id-fn.Assemble" [label="ARG1-fn.Process"]
+}

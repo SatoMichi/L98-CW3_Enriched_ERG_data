@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_give_v_1-fn.Giving" -> _and_c [label="ARG1-fn.Agent"]
+	_a_q -> _appearance_n_of [label=BV]
+	_like_a_1 -> _fortress_n_1 [label=ARG2]
+	"_give_v_1-fn.Giving" -> _appearance_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _shrub_n_1 [label=BV]
+	udef_q -> _fortress_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _flower_n_1 [label=BV]
+	_pleasing_a_to -> _appearance_n_of [label=ARG1]
+	neg -> _like_a_1 [label=ARG1]
+	_like_a_1 -> _appearance_n_of [label=ARG1]
+	"_give_v_1-fn.Giving" -> pron [label="ARG3-fn.Recipient"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _year_n_1 [label=ARG1]
+	poss -> "named(Kellogg)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _year_n_1 [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	compound -> _company_n_1 [label=ARG2]
+	def_explicit_q -> _year_n_1 [label=BV]
+	udef_q -> _company_n_1 [label=BV]
+	compound -> "named(Kellogg)" [label=ARG1]
+	proper_q -> "named(Kellogg)" [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+}

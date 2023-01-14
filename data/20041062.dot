@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	which_q -> person [label=BV]
+	focus_d -> _lie_v_mental [label=ARG2]
+	"_ask_v_1-fn.Questioning" -> _voice_n_1 [label="ARG1-fn.Agent"]
+	_female_a_1 -> _voice_n_1 [label=ARG1]
+	_a_q -> _voice_n_1 [label=BV]
+	_lie_v_mental -> person [label=ARG1]
+	_really_a_1 -> _lie_v_mental [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> _really_a_1 [label="ARG2-fn.Topic"]
+	focus_d -> "_ask_v_1-fn.Questioning" [label=ARG1]
+}

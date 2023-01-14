@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_retractable/jj_u_unknown" [label=ARG1]
+	_the_q -> _holder_n_of [label=BV]
+	_by_p -> "_retractable/jj_u_unknown" [label=ARG1]
+	parg_d -> _share_n_of [label=ARG2]
+	_perpetual_a_1 -> _share_n_of [label=ARG1]
+	focus_d -> "_retractable/jj_u_unknown" [label=ARG2]
+	"_say_v_to-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+	udef_q -> _share_n_of [label=BV]
+	parg_d -> "_prefer_v_to-fn.Cause_to_end" [label=ARG1]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	"_retractable/jj_u_unknown" -> _share_n_of [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> neg [label="ARG2-fn.Means"]
+	_by_p -> _holder_n_of [label=ARG2]
+	"_prefer_v_to-fn.Cause_to_end" -> _share_n_of [label="ARG2-fn.Means"]
+}

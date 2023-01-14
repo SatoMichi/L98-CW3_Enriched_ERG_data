@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_pleased_a_with -> pron [label=ARG1]
+	_new_a_1 -> _deal_n_1 [label=ARG1]
+	_very_x_deg -> _pleased_a_with [label=ARG1]
+	_the_q -> _deal_n_1 [label=BV]
+	_pleased_a_with -> _deal_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

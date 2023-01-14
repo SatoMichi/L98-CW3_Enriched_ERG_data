@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+	compound -> "_talk_n_of-on" [label=ARG1]
+	compound -> _merger_n_1 [label=ARG2]
+	_the_q -> "_talk_n_of-on" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_quick_a_1 -> "_move_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_insist_v_1-fn.Competition" -> "_move_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	"_say_v_to-fn.Surpassing" -> "_insist_v_1-fn.Competition" [label="ARG2-fn.Profiled_item"]
+	udef_q -> _merger_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Steinberg)" [label=BV]
+	"_insist_v_1-fn.Competition" -> "named(Steinberg)" [label="ARG1-fn.Participant_1"]
+	"_move_v_1-fn.Competition" -> "_talk_n_of-on" [label="ARG1-fn.Participant_1"]
+	compound -> "named(Steinberg)" [label=ARG1]
+}

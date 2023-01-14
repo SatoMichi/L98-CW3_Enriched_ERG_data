@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _bill_n_of [label=BV]
+	compound -> _industry_n_1 [label=ARG1]
+	compound -> _electronics_n_1 [label=ARG2]
+	_close_a_to -> "_follow_v_1-fn.Cotheme" [label=ARG1]
+	"_follow_v_1-fn.Cotheme" -> _industry_n_1 [label="ARG1-fn.Agent"]
+	compound -> _bill_n_of [label=ARG1]
+	_the_q -> _industry_n_1 [label=BV]
+	proper_q -> "named(Dellums)" [label=BV]
+	"_follow_v_1-fn.Cotheme" -> _bill_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _electronics_n_1 [label=BV]
+	compound -> "named(Dellums)" [label=ARG2]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(U.S.S.R.)" [label=BV]
+	_neither_q -> _organization_n_1 [label=BV]
+	"_belong_v_to-fn.Cause_to_end" -> _organization_n_1 [label="ARG2-fn.Means"]
+	"_belong_v_to-fn.Cause_to_end" -> "named(U.S.S.R.)" [label="ARG1-fn.Process"]
+}

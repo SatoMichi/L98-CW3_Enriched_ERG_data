@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	def_explicit_q -> _cause_n_of [label=BV]
+	"_want_v_1-fn.Desiring" -> "_spotlight/nn_u_unknown" [label="ARG2-fn.Theme"]
+	poss -> _cause_n_of [label=ARG1]
+	_the_q -> "_spotlight/nn_u_unknown" [label=BV]
+	_for_p -> pron [label=ARG2]
+	poss -> pron [label=ARG2]
+	_for_p -> "_want_v_1-fn.Desiring" [label=ARG1]
+	_for_p -> _cause_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

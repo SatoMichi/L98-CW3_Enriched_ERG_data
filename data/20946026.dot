@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_ask_v_1-fn.Questioning" [label=ARG1]
+	_answer_v_1 -> pron [label=ARG2]
+	eventuality -> _answer_v_1 [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> _question_n_about [label="ARG2-fn.Topic"]
+	_answer_v_1 -> nominalization [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_those_q_dem -> _question_n_about [label=BV]
+	pronoun_q -> pron [label=BV]
+}

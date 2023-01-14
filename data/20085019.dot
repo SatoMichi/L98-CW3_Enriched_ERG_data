@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _effort_n_1 [label=ARG2]
+	"_step_v_up-fn.Undergo_change" -> _effort_n_1 [label="ARG2-fn.Final_category"]
+	_those_q_dem -> _effort_n_1 [label=BV]
+	parg_d -> "_step_v_up-fn.Undergo_change" [label=ARG1]
+}

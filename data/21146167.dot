@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_turn_v_prd-fn.Undergo_change" -> thing [label="ARG2-fn.Final_category"]
+	"card(1)" -> _week_n_1 [label=ARG1]
+	_in_p -> "_turn_v_prd-fn.Undergo_change" [label=ARG1]
+	"_turn_v_prd-fn.Undergo_change" -> "_upside+down_a_1" [label="ARG3-fn.Initial_category"]
+	"_upside+down_a_1" -> thing [label=ARG1]
+	"_want_v_1-fn.Competition" -> "_turn_v_prd-fn.Undergo_change" [label="ARG2-fn.Participant_2"]
+	_in_p -> _week_n_1 [label=ARG2]
+	"_turn_v_prd-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+	pronoun_q -> pron [label=BV]
+	every_q -> thing [label=BV]
+	udef_q -> _week_n_1 [label=BV]
+	"_want_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

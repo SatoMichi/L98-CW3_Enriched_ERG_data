@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Portugal)" [label=BV]
+	_recent_a_1 -> "_range_v_1-fn.NF" [label=ARG1]
+	_from_p -> "named(Chile)" [label=ARG2]
+	_to_p -> "_range_v_1-fn.NF" [label=ARG1]
+	proper_q -> "named(Chile)" [label=BV]
+	"_range_v_1-fn.NF" -> _turf_n_1 [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Austria)" [label=BV]
+	_from_p -> "_range_v_1-fn.NF" [label=ARG1]
+	_to_p -> "named(Portugal)" [label=ARG2]
+	_the_q -> _turf_n_1 [label=BV]
+	_to_p -> "named(Austria)" [label=ARG2]
+}

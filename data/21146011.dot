@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _shop_n_of [label=BV]
+	_from_p_dir -> "_disappear_v_1-fn.Departing" [label=ARG1]
+	"_disappear_v_1-fn.Departing" -> _meat_n_1 [label="ARG1-fn.NotExist"]
+	_a_q -> _boycott_n_1 [label=BV]
+	_run_v_1 -> _farmer_n_1 [label=ARG1]
+	udef_q -> _meat_n_1 [label=BV]
+	_run_v_1 -> _boycott_n_1 [label=ARG2]
+	_from_p_dir -> _shop_n_of [label=ARG2]
+	_the_q -> _farmer_n_1 [label=BV]
+}

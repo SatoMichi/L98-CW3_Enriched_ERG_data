@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	_a_q -> _veto_n_1 [label=BV]
+	_previously_p -> "_threaten_v_1-fn.NF" [label=ARG1]
+	"_threaten_v_1-fn.NF" -> "named(Bush)" [label="ARG1-fn.Stimulus"]
+	proper_q -> "named(Bush)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_threaten_v_1-fn.NF" -> _veto_n_1 [label="ARG2-fn.Experiencer"]
+	compound -> "named(Bush)" [label=ARG1]
+}

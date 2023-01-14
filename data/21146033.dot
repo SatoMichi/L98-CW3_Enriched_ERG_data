@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _farmer_n_1 [label=ARG1]
+	_next_a_1 -> _truck_n_1 [label=ARG1]
+	_the_q -> _truck_n_1 [label=BV]
+	"_shout_v_1-fn.Communication_manner" -> _farmer_n_1 [label="ARG1-fn.Agent"]
+	_at_p -> _truck_n_1 [label=ARG2]
+	udef_q -> _wheat_n_1 [label=BV]
+	"_shout_v_1-fn.Communication_manner" -> _wheat_n_1 [label="ARG2-fn.Topic"]
+	_the_q -> _farmer_n_1 [label=BV]
+}

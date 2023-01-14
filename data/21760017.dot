@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _city_n_1 [label=BV]
+	_entire_a_1 -> _nation_n_of [label=ARG1]
+	poss -> _idea_n_of [label=ARG1]
+	"_create_v_1-fn.Cause_to_end" -> _city_n_1 [label="ARG2-fn.Means"]
+	_a_q -> _nation_n_of [label=BV]
+	_without_p -> _black_n_1 [label=ARG2]
+	unknown -> "_and+then_c" [label=ARG]
+	poss -> pron [label=ARG2]
+	udef_q -> _black_n_1 [label=BV]
+	_first_a_1 -> "_create_v_1-fn.Cause_to_end" [label=ARG1]
+	"_create_v_1-fn.Cause_to_end" -> _idea_n_of [label="ARG1-fn.Process"]
+	_without_p -> _nation_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _idea_n_of [label=BV]
+	eventuality -> "_create_v_1-fn.Cause_to_end" [label=ARG1]
+}

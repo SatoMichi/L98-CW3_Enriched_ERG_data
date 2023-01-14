@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Baker)" [label=ARG1]
+	_return_v_1 -> "named(Baker)" [label=ARG1]
+	_if_x_then -> "_continue_v_1-fn.Process_continue" [label=ARG2]
+	nominalization -> _haunt_v_1 [label=ARG1]
+	"_continue_v_1-fn.Process_continue" -> nominalization [label="ARG1-fn.NotExist"]
+	_if_x_then -> _return_v_1 [label=ARG1]
+	"_promise_v_1-fn.Commitment" -> "named(Baker)" [label="ARG1-fn.Agent"]
+	"_promise_v_1-fn.Commitment" -> _if_x_then [label="ARG3-fn.Theme"]
+	compound -> _mister_n_1 [label=ARG2]
+	_the_q -> nominalization [label=BV]
+	proper_q -> "named(Baker)" [label=BV]
+}

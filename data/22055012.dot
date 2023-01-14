@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_bite_v_1-fn.NF" [label=ARG1]
+	"_bite_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

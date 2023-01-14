@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _pilot_n_of [label=ARG1]
+	_neither_a_1 -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	def_explicit_q -> _pilot_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_can_v_modal-fn.Reliance" -> ellipsis_ref [label="ARG1-fn.Protagonist"]
+	poss -> pron [label=ARG2]
+	ellipsis_ref -> _pilot_n_of [label=ARG1]
+}

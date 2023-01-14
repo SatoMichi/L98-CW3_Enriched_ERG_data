@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _can_v_modal [label=ARG1]
+	udef_q -> _machine_n_1 [label=BV]
+	"_good_a_at-for-of" -> _farm_n_1 [label=ARG1]
+	"_get_v_state-fn.IN" -> _farm_n_1 [label="ARG1-fn.NotExist"]
+	"_get_v_state-fn.IN" -> _big_a_1 [label="ARG2-fn.Patient"]
+	focus_d -> _can_v_modal [label=ARG1]
+	focus_d -> _without_p [label=ARG2]
+	comp -> _big_a_1 [label=ARG1]
+	udef_q -> _farm_n_1 [label=BV]
+	_big_a_1 -> _farm_n_1 [label=ARG1]
+	_without_p -> _machine_n_1 [label=ARG2]
+	_can_v_modal -> "_get_v_state-fn.IN" [label=ARG1]
+	_without_p -> "_get_v_state-fn.IN" [label=ARG1]
+}

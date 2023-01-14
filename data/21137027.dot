@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "named(Alabama)" [label=ARG]
+	proper_q -> "named(Birmingham)" [label=BV]
+	proper_q -> "named(Alabama)" [label=BV]
+	compound -> "named(Alabama)" [label=ARG1]
+	_colon_p_namely -> "named(Alabama)" [label=ARG1]
+	compound -> "named(Birmingham)" [label=ARG2]
+}

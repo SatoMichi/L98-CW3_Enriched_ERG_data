@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.State_continue" -> "named(Ashland)" [label="ARG1-fn.Entity"]
+	_a_q -> _loss_n_of [label=BV]
+	"_have_v_1-fn.State_continue" -> _loss_n_of [label="ARG2-fn.State"]
+	proper_q -> "named(Ashland)" [label=BV]
+}

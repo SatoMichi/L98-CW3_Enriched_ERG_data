@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cotheme" -> pron [label="ARG1-fn.Theme"]
+	"_ungentlemanly/jj_u_unknown" -> _merger_n_1 [label=ARG1]
+	_of_p -> _boom_n_1 [label=ARG2]
+	_of_p -> _start_n_1 [label=ARG1]
+	_unfriendly_a_1 -> _merger_n_1 [label=ARG1]
+	_in_p -> _merger_n_1 [label=ARG2]
+	_a_q -> _boom_n_1 [label=BV]
+	udef_q -> _merger_n_1 [label=BV]
+	_in_p -> _boom_n_1 [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> _start_n_1 [label="ARG2-fn.Cotheme"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _start_n_1 [label=BV]
+}

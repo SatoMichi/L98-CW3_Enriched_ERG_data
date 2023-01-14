@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.IN" -> nominalization [label="ARG2-fn.Patient"]
+	neg -> "_get_v_state-fn.IN" [label=ARG1]
+	def_explicit_q -> nominalization [label=BV]
+	parg_d -> _do_v_1 [label=ARG1]
+	"_get_v_state-fn.IN" -> _do_v_1 [label="ARG3-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	parg_d -> nominalization [label=ARG2]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	nominalization -> _practice_v_1 [label=ARG1]
+	poss -> nominalization [label=ARG1]
+	_do_v_1 -> nominalization [label=ARG2]
+	"_get_v_state-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_think_v_1-fn.IN" -> neg [label="ARG2-fn.NotExist"]
+}

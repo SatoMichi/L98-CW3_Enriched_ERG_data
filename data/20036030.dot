@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_level_a_1 -> "_shipment_n_of-to" [label=ARG1]
+	proper_q -> "mofy(Jan)" [label=BV]
+	proper_q -> "named(Commerce)" [label=BV]
+	"_note_v_to-fn.Surpassing" -> "named(Department)" [label="ARG1-fn.Standard_item"]
+	_the_q -> "named(Department)" [label=BV]
+	focus_d -> _level_a_1 [label=ARG2]
+	_since_p -> _level_a_1 [label=ARG1]
+	focus_d -> "_note_v_to-fn.Surpassing" [label=ARG1]
+	_relatively_x_deg -> _level_a_1 [label=ARG1]
+	compound -> "named(Department)" [label=ARG1]
+	_since_p -> "mofy(Jan)" [label=ARG2]
+	compound -> "named(Commerce)" [label=ARG2]
+	"_note_v_to-fn.Surpassing" -> _level_a_1 [label="ARG2-fn.Profiled_item"]
+	udef_q -> "_shipment_n_of-to" [label=BV]
+}

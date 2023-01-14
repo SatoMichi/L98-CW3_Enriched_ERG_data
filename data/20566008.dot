@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_meet_v_1-fn.IN" [label=ARG1]
+	"card(2)" -> _side_n_1 [label=ARG1]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	_since_p -> "dofm(18)" [label=ARG2]
+	_since_p -> "_meet_v_1-fn.IN" [label=ARG1]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	def_explicit_q -> "dofm(18)" [label=BV]
+	_the_q -> _side_n_1 [label=BV]
+	"_meet_v_1-fn.IN" -> _side_n_1 [label="ARG1-fn.Agent"]
+	of_p -> "dofm(18)" [label=ARG1]
+}

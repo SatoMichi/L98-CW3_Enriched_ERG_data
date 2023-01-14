@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _economist_n_1 [label=BV]
+	"_expect_v_1-fn.IN" -> "_continue_v_1-fn.Process_continue" [label="ARG2-fn.Theme"]
+	_the_q -> _weakness_n_1 [label=BV]
+	"_continue_v_1-fn.Process_continue" -> _weakness_n_1 [label="ARG1-fn.NotExist"]
+	"_expect_v_1-fn.IN" -> _economist_n_1 [label="ARG1-fn.Experiencer"]
+	"much-many_a" -> _economist_n_1 [label=ARG1]
+}

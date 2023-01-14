@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _yield_n_1 [label=ARG1]
+	compound -> _month_n_1 [label=ARG2]
+	_unchanged_a_1 -> _yield_n_1 [label=ARG1]
+	"_oneyear/jj_u_unknown" -> _yield_n_1 [label=ARG1]
+	"card(6)" -> _month_n_1 [label=ARG1]
+	idiom_q_i -> _average_n_of [label=BV]
+	udef_q -> _month_n_1 [label=BV]
+	_on_p -> _unchanged_a_1 [label=ARG1]
+	udef_q -> _yield_n_1 [label=BV]
+	_on_p -> _average_n_of [label=ARG2]
+}

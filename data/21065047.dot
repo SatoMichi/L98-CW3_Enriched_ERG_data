@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Competition" -> _appointment_n_1 [label="ARG2-fn.Participant_2"]
+	"_make_v_1-fn.Competition" -> "named(Merhige)" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Merhige)" [label=BV]
+	compound -> "named(Merhige)" [label=ARG1]
+	udef_q -> _judge_n_of [label=BV]
+	_the_q -> _appointment_n_1 [label=BV]
+	compound -> _judge_n_of [label=ARG2]
+}

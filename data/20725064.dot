@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_1-fn.IN" -> "named(Mitchell)" [label="ARG1-fn.Agent"]
+	_the_q -> _oil_n_1 [label=BV]
+	_a_q -> _interest_n_in [label=BV]
+	udef_q -> _half_n_of [label=BV]
+	"_get_v_1-fn.IN" -> _interest_n_in [label="ARG2-fn.Theme"]
+	_in_p -> _oil_n_1 [label=ARG2]
+	compound -> _interest_n_in [label=ARG1]
+	compound -> _half_n_of [label=ARG2]
+	proper_q -> "named(Mitchell)" [label=BV]
+	_in_p -> _interest_n_in [label=ARG1]
+}

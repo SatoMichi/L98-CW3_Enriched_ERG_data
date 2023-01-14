@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_party_n_of-to" -> _rejection_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_want_v_1-fn.Competition" -> "_be_v_id-fn.Residence" [label="ARG2-fn.Participant_2"]
+	neg -> "_want_v_1-fn.Competition" [label=ARG1]
+	_a_q -> _rejection_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> "_party_n_of-to" [label="ARG2-fn.Location"]
+	udef_q -> "_party_n_of-to" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"ord(2)" -> _rejection_n_1 [label=ARG1]
+	"_want_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

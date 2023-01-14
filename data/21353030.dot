@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _formula_n_1 [label=BV]
+	compound -> _formula_n_1 [label=ARG1]
+	neg -> _reject_v_as [label=ARG1]
+	"card(5)" -> _point_n_of [label=ARG1]
+	"_stress_v_to-fn.NF" -> _official_n_1 [label="ARG1-fn.Agent"]
+	compound -> _point_n_of [label=ARG2]
+	_the_q -> _official_n_1 [label=BV]
+	_reject_v_as -> _formula_n_1 [label=ARG2]
+	"_stress_v_to-fn.NF" -> neg [label="ARG2-fn.Destination"]
+	udef_q -> _point_n_of [label=BV]
+	_reject_v_as -> "named_n(PLO)" [label=ARG1]
+	_the_q -> "named_n(PLO)" [label=BV]
+}

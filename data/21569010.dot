@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_now_a_1 -> "_go_v_for-fn.Cause_to_end" [label=ARG1]
+	_at_p -> "named(Harvard)" [label=ARG2]
+	_a_q -> _year_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	proper_q -> "named(Harvard)" [label=BV]
+	"card(19,395)" -> _dollar_n_1 [label=ARG1]
+	"_go_v_for-fn.Cause_to_end" -> _year_n_1 [label="ARG1-fn.Process"]
+	"_go_v_for-fn.Cause_to_end" -> _dollar_n_1 [label="ARG2-fn.Means"]
+	_at_p -> _year_n_1 [label=ARG1]
+}

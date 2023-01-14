@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _transportation_n_1 [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _percent_n_of [label="ARG2-fn.Patient"]
+	_only_x_deg -> udef_q [label=ARG1]
+	"card(1)" -> _percent_n_of [label=ARG1]
+	compound -> _housing_n_1 [label=ARG2]
+	loc_nonsp -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _transportation_n_1 [label=BV]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+	udef_q -> _cost_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> _cost_n_1 [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _cost_n_1 [label="ARG1-fn.NotExist"]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _cost_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _housing_n_1 [label=BV]
+	_actual_a_1 -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+}

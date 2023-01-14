@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_educate_v_1-fn.Commerce_collect" [label=ARG1]
+	_high_a_1 -> "_educate_v_1-fn.Commerce_collect" [label=ARG1]
+	_among_p -> _couple_n_1 [label=ARG2]
+	_this_q_dem -> _pattern_n_1 [label=BV]
+	comp -> _high_a_1 [label=ARG1]
+	"_educate_v_1-fn.Commerce_collect" -> _couple_n_1 [label="ARG2-fn.Goods"]
+	_evident_a_to -> _pattern_n_1 [label=ARG1]
+	_among_p -> _evident_a_to [label=ARG1]
+	parg_d -> _couple_n_1 [label=ARG2]
+	_particular_a_1 -> _evident_a_to [label=ARG1]
+	udef_q -> _couple_n_1 [label=BV]
+}

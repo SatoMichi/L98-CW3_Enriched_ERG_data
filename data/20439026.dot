@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _efficiency_n_1 [label=ARG1]
+	_with_p -> _and_c [label=ARG2]
+	"_promise_v_1-fn.Commitment" -> "_combine_v_cause-fn.Cause_to_amalgamate" [label="ARG3-fn.Theme"]
+	"_combine_v_cause-fn.Cause_to_amalgamate" -> _efficiency_n_1 [label="ARG2-fn.Patient"]
+	"_combine_v_cause-fn.Cause_to_amalgamate" -> _with_p [label="ARG3-fn.Co-Patient"]
+	_economic_a_1 -> _efficiency_n_1 [label=ARG1]
+	udef_q -> _order_n_of [label=BV]
+	_too_a_also -> "_promise_v_1-fn.Commitment" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _efficiency_n_1 [label=BV]
+	udef_q -> _discipline_n_1 [label=BV]
+	"_combine_v_cause-fn.Cause_to_amalgamate" -> pron [label="ARG1-fn.Agent"]
+	"_promise_v_1-fn.Commitment" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

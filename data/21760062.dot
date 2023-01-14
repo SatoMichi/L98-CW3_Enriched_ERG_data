@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _white_n_1 [label=BV]
+	"_hire_v_1-fn.Hiring" -> _white_n_1 [label="ARG2-fn.Theme"]
+	"_hire_v_1-fn.Hiring" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	_afford_v_1 -> "_hire_v_1-fn.Hiring" [label=ARG2]
+	neg -> _can_v_modal [label=ARG1]
+	"card(16)" -> _white_n_1 [label=ARG1]
+	_afford_v_1 -> pron [label=ARG1]
+	_can_v_modal -> _afford_v_1 [label=ARG1]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_vacant_a_1 -> _post_n_of [label=ARG1]
+	"card(2)" -> _post_n_of [label=ARG1]
+	_both_q -> _post_n_of [label=BV]
+}

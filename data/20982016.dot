@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _fund_n_1 [label=ARG1]
+	"card(9)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_above_p -> _fund_n_1 [label=ARG1]
+	_the_q -> _fund_n_1 [label=BV]
+	_above_p -> _percent_n_of [label=ARG2]
+	nominalization -> _yield_v_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	superl -> _high_a_1 [label=ARG1]
+	_high_a_1 -> nominalization [label=ARG1]
+	_still_a_1 -> _above_p [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

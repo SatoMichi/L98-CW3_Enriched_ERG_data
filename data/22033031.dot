@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> "_breadbox/nn_u_unknown" [label=ARG2]
+	compound -> _cash_n_1 [label=ARG2]
+	compound -> "_hoarder/nn_u_unknown" [label=ARG1]
+	comp -> _big_a_1 [label=ARG1]
+	poss -> _reputation_n_1 [label=ARG1]
+	_for_p -> _reputation_n_1 [label=ARG1]
+	_for_p -> _honesty_n_1 [label=ARG2]
+	_this_q_dem -> "_hoarder/nn_u_unknown" [label=BV]
+	_big_a_1 -> _reputation_n_1 [label=ARG1]
+	udef_q -> _cash_n_1 [label=BV]
+	_a_q -> "_breadbox/nn_u_unknown" [label=BV]
+	def_explicit_q -> _reputation_n_1 [label=BV]
+	udef_q -> _honesty_n_1 [label=BV]
+	poss -> "_hoarder/nn_u_unknown" [label=ARG2]
+}

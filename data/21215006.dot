@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"_comment_v_on-fn.Statement" -> _and_c [label="ARG1-fn.Agent"]
+	_the_q -> _announcement_n_of [label=BV]
+	"_comment_v_on-fn.Statement" -> _announcement_n_of [label="ARG2-fn.Topic"]
+	proper_q -> "named(Wolf)" [label=BV]
+	_the_q -> _board_n_of [label=BV]
+	_other_a_1 -> _member_n_of [label=ARG1]
+	udef_q -> _member_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	_decline_v_1 -> _and_c [label=ARG1]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	compound -> "named(Wolf)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_member_n_of -> _board_n_of [label=ARG1]
+}

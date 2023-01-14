@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _property_n_1 [label=ARG2]
+	_often_a_1 -> "_stay_v_1-fn.Halt" [label=ARG1]
+	_as_p_nbar -> "_stay_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _property_n_1 [label=BV]
+	_on_p_dir -> "_stay_v_1-fn.Halt" [label=ARG1]
+	_as_p_nbar -> _manager_n_of [label=ARG2]
+	compound -> _manager_n_of [label=ARG1]
+	"_stay_v_1-fn.Halt" -> _developer_n_of [label="ARG1-fn.Purpose"]
+	udef_q -> _manager_n_of [label=BV]
+	focus_d -> "_stay_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _developer_n_of [label=BV]
+}

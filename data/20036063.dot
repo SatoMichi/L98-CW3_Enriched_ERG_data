@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Sebastian)" [label=ARG1]
+	compound -> "named(York)" [label=ARG1]
+	compound -> "named(Pamela)" [label=ARG2]
+	_this_q_dem -> _article_n_of [label=BV]
+	proper_q -> "named(Pamela)" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	"_contribute_v_to-fn.NF" -> _article_n_of [label="ARG3-fn.Recipient"]
+	_in_p -> "named(Sebastian)" [label=ARG1]
+	proper_q -> "named(Sebastian)" [label=BV]
+	proper_q -> "named(York)" [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	"_contribute_v_to-fn.NF" -> "named(Sebastian)" [label="ARG1-fn.Agent"]
+	_in_p -> "named(York)" [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_disparage_v_1-fn.Judgment_communication" [label=ARG1]
+	neg -> "_disparage_v_1-fn.Judgment_communication" [label=ARG1]
+	poss -> _audience_n_1 [label=ARG1]
+	poss -> _act_n_of [label=ARG1]
+	"_disparage_v_1-fn.Judgment_communication" -> _audience_n_1 [label="ARG2-fn.Theme"]
+	_by_p_means -> nominalization [label=ARG2]
+	poss -> pron [label=ARG2]
+	"_disparage_v_1-fn.Judgment_communication" -> pron [label="ARG1-fn.Agent"]
+	"_disparage_v_1-fn.Judgment_communication" -> _act_n_of [label="ARG2-fn.Theme"]
+	def_explicit_q -> _audience_n_1 [label=BV]
+	_by_p_means -> "_disparage_v_1-fn.Judgment_communication" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	def_explicit_q -> _act_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

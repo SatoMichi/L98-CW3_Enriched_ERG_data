@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _eyebrow_n_1 [label=BV]
+	"_raise_v_cause-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	"_raise_v_cause-fn.NF" -> _eyebrow_n_1 [label="ARG2-fn.Patient"]
+	_this_q_dem -> generic_entity [label=BV]
+}

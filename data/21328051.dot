@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1.29)" [label=ARG2]
+	_extraordinary_a_to -> _charge_n_of [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	compound -> _charge_n_of [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _charge_n_of [label=BV]
+	compound -> _dollar_n_1 [label=ARG2]
+	times -> "card(1000000000)" [label=ARG3]
+	"_include_v_1-fn.NF" -> _charge_n_of [label="ARG2-fn.NotExist"]
+}

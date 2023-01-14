@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _calm_n_1 [label=ARG2]
+	_if_x_then -> "_plunge_v_into-fn.Attack" [label=ARG2]
+	_again_a_1 -> "_plunge_v_into-fn.Attack" [label=ARG1]
+	"_plunge_v_into-fn.Attack" -> _market_n_1 [label="ARG1-fn.Victim"]
+	_the_q -> _market_n_1 [label=BV]
+	_relative_a_to -> _calm_n_1 [label=ARG1]
+	_if_x_then -> "_could_v_modal-fn.Cause_to_end" [label=ARG1]
+	"_could_v_modal-fn.Cause_to_end" -> "_jolt_v_1-fn.Impact" [label="ARG1-fn.Process"]
+	"_of+course_a_1" -> _if_x_then [label=ARG1]
+	_the_q -> _calm_n_1 [label=BV]
+	"_jolt_v_1-fn.Impact" -> _calm_n_1 [label="ARG2-fn.Result"]
+	parg_d -> "_jolt_v_1-fn.Impact" [label=ARG1]
+}

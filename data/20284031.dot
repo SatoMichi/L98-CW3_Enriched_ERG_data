@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Ashurst)" [label=BV]
+	_to_p -> _new_a_1 [label=ARG1]
+	proper_q -> "named(Far)" [label=BV]
+	compound -> "named(Far)" [label=ARG2]
+	_new_a_1 -> "named(Ashurst)" [label=ARG1]
+	_the_q -> "named(East)" [label=BV]
+	compound -> "named(East)" [label=ARG1]
+	_to_p -> "named(East)" [label=ARG2]
+}

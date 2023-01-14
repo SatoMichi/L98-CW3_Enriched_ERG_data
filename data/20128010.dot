@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sweep_v_1-fn.Competition" -> nominalization [label="ARG1-fn.Participant_1"]
+	_of_p -> _industry_n_1 [label=ARG2]
+	_possible_a_for -> nominalization [label=ARG1]
+	_a_q -> nominalization [label=BV]
+	_of_p -> nominalization [label=ARG1]
+	_the_q -> _industry_n_1 [label=BV]
+	nominalization -> _restructure_v_1 [label=ARG1]
+}

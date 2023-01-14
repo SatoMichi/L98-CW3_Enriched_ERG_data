@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_watch_v_1-fn.Perception_active" -> _for_p [label="ARG3-fn.NotExist"]
+	_such_q -> _clue_n_1 [label=BV]
+	_for_p -> _clue_n_1 [label=ARG2]
+	_close_a_to -> "_watch_v_1-fn.Perception_active" [label=ARG1]
+	parg_d -> _inventory_n_1 [label=ARG2]
+	parg_d -> "_watch_v_1-fn.Perception_active" [label=ARG1]
+	udef_q -> _inventory_n_1 [label=BV]
+	_for_p -> _inventory_n_1 [label=ARG1]
+	"_watch_v_1-fn.Perception_active" -> _inventory_n_1 [label="ARG2-fn.Stimulus"]
+}

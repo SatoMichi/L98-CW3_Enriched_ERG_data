@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _number_n_of [label="ARG1-fn.Agent"]
+	compound -> _employment_n_1 [label=ARG2]
+	compound -> _condition_n_1 [label=ARG1]
+	"_good_a_at-for-of" -> _condition_n_1 [label=ARG1]
+	_a_q -> _number_n_of [label=BV]
+	_each_q -> _month_n_1 [label=BV]
+	udef_q -> _employment_n_1 [label=BV]
+	_equal_a_to -> _number_n_of [label=ARG1]
+	_in_p_temp -> _number_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> "_good_a_at-for-of" [label="ARG2-fn.Topic"]
+	_in_p_temp -> _month_n_1 [label=ARG2]
+	udef_q -> _condition_n_1 [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_leave_v_1-fn.NF" [label=ARG1]
+	nominalization -> "_leave_v_1-fn.NF" [label=ARG1]
+	_this_q_dem -> _decision_n_1 [label=BV]
+	_to_p -> _agency_n_1 [label=ARG2]
+	_independent_a_of -> _agency_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_leave_v_1-fn.NF" -> _decision_n_1 [label="ARG2-fn.Theme"]
+	_undemocratic_a_1 -> nominalization [label=ARG1]
+	_a_q -> _agency_n_1 [label=BV]
+	"_not+only_a_1" -> _undemocratic_a_1 [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _offer_n_1 [label=BV]
+	comp -> _high_a_1 [label=ARG1]
+	"_indicate_v_1-fn.Competition" -> "_bet_v_on-fn.Undergo_change" [label="ARG2-fn.Participant_2"]
+	_that_q_dem -> generic_entity [label=BV]
+	"_bet_v_on-fn.Undergo_change" -> "_speculators/nns_u_unknown" [label="ARG1-fn.Entity"]
+	"_bet_v_on-fn.Undergo_change" -> _in_p [label="ARG4-fn.Time"]
+	udef_q -> "_speculators/nns_u_unknown" [label=BV]
+	_in_p -> _wing_n_1 [label=ARG2]
+	_the_q -> _wing_n_1 [label=BV]
+	"_indicate_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Participant_1"]
+	_high_a_1 -> _offer_n_1 [label=ARG1]
+	_in_p -> _offer_n_1 [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _close_a_to [label=ARG1]
+	_to_p -> _case_n_of [label=ARG2]
+	_unprecedented_a_1 -> _ruling_n_1 [label=ARG1]
+	"_believe_v_1-fn.Awareness" -> _unprecedented_a_1 [label="ARG2-fn.NotExist"]
+	udef_q -> _lawyer_n_1 [label=BV]
+	_the_q -> _ruling_n_1 [label=BV]
+	"_believe_v_1-fn.Awareness" -> pron [label="ARG1-fn.NotExist"]
+	"_say_v_to-fn.IN" -> _lawyer_n_1 [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> "_believe_v_1-fn.Awareness" [label="ARG2-fn.Topic"]
+	_the_q -> _case_n_of [label=BV]
+	_close_a_to -> _lawyer_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

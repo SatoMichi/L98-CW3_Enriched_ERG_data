@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _arm_n_1 [label=BV]
+	compound -> nominalization [label=ARG1]
+	_to_p -> _challenge_n_1 [label=ARG1]
+	proper_q -> "named(Congress)" [label=BV]
+	_real_a_1 -> _challenge_n_1 [label=ARG1]
+	"_face+to+face_a_1" -> _challenge_n_1 [label=ARG1]
+	_to_p -> "named(Congress)" [label=ARG2]
+	nominalization -> _wrestle_v_1 [label=ARG1]
+	compound -> _challenge_n_1 [label=ARG1]
+	compound -> _arm_n_1 [label=ARG2]
+	"_be_v_id-fn.Assemble" -> _challenge_n_1 [label="ARG2-fn.Group"]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _challenge_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _risk_n_of [label=BV]
+	compound -> _credit_n_1 [label=ARG2]
+	"_stem_v_from-fn.Cause_to_end" -> _risk_n_of [label="ARG2-fn.Means"]
+	compound -> nominalization [label=ARG2]
+	udef_q -> _credit_n_1 [label=BV]
+	nominalization -> _trade_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	compound -> _risk_n_of [label=ARG1]
+}

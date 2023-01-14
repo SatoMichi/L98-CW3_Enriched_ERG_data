@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_other_a_1 -> _promotion_n_of [label=ARG1]
+	compound -> _promotion_n_of [label=ARG1]
+	"_backfired/vbn_u_unknown" -> _promotion_n_of [label=ARG1]
+	_some_q -> _promotion_n_of [label=BV]
+	udef_q -> _fare_n_1 [label=BV]
+	compound -> _fare_n_1 [label=ARG2]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Getting" -> "named(Ford)" [label="ARG1-fn.Recipient"]
+	"_want_v_1-fn.Getting" -> "named(Jaguar)" [label="ARG2-fn.Theme"]
+	_much_a_1 -> "_want_v_1-fn.Getting" [label=ARG1]
+	proper_q -> "named(Ford)" [label=BV]
+	proper_q -> "named(Jaguar)" [label=BV]
+	_very_x_deg -> _much_a_1 [label=ARG1]
+}

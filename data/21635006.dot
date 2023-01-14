@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _rating_n_1 [label=ARG1]
+	compound -> _agency_n_1 [label=ARG1]
+	"_earn_v_1-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	_high_a_1 -> _rating_n_1 [label=ARG1]
+	udef_q -> _rating_n_1 [label=BV]
+	udef_q -> _credit_n_1 [label=BV]
+	compound -> _credit_n_1 [label=ARG2]
+	"_earn_v_1-fn.NF" -> _rating_n_1 [label="ARG2-fn.Theme"]
+	_most_q -> generic_entity [label=BV]
+	udef_q -> _agency_n_1 [label=BV]
+	_from_p -> _agency_n_1 [label=ARG2]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _corporation_n_1 [label=BV]
+	proper_q -> "named(2-for-1)" [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+	"_declare_v_to-fn.Receiving" -> "named(UNIFIRST)" [label="ARG1-fn.Recipient"]
+	compound -> _split_n_1 [label=ARG1]
+	proper_q -> "named(UNIFIRST)" [label=BV]
+	_a_q -> _split_n_1 [label=BV]
+	compound -> _stock_n_1 [label=ARG2]
+	"_declare_v_to-fn.Receiving" -> _split_n_1 [label="ARG2-fn.Donor"]
+	compound -> "named(2-for-1)" [label=ARG2]
+	compound -> "named(UNIFIRST)" [label=ARG1]
+	udef_q -> _stock_n_1 [label=BV]
+}

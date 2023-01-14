@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	neg -> "_overreact_v_1-fn.Relative_time" [label=ARG1]
+	_no_a_1 -> neg [label=ARG1]
+	"_overreact_v_1-fn.Relative_time" -> pron [label="ARG1-fn.Focal_occasion"]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG2-fn.Topic"]
+	proper_q -> "named(Gonzalez)" [label=BV]
+	"_receive_v_1-fn.Receiving" -> _subpoena_n_1 [label="ARG2-fn.Theme"]
+	compound -> _representative_n_1 [label=ARG2]
+	_formal_a_1 -> _subpoena_n_1 [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> _witness_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _subpoena_n_1 [label=BV]
+	focus_d -> "_receive_v_1-fn.Receiving" [label=ARG2]
+	"_tell_v_1-fn.Telling" -> "_receive_v_1-fn.Receiving" [label="ARG3-fn.Recipient"]
+	pronoun_q -> pron [label=BV]
+	"_tell_v_1-fn.Telling" -> "named(Gonzalez)" [label="ARG1-fn.Agent"]
+	compound -> "named(Gonzalez)" [label=ARG1]
+	udef_q -> _representative_n_1 [label=BV]
+	focus_d -> "_tell_v_1-fn.Telling" [label=ARG1]
+	_every_q -> _witness_n_1 [label=BV]
+}

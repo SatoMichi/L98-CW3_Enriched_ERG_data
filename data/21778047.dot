@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _crack_n_1 [label=ARG1]
+	udef_q -> _crack_n_1 [label=BV]
+	udef_q -> _hairline_n_1 [label=BV]
+	compound -> _crack_n_1 [label=ARG1]
+	_the_q -> _slab_n_1 [label=BV]
+	unknown -> _crack_n_1 [label=ARG]
+	_concrete_a_1 -> _slab_n_1 [label=ARG1]
+	"much-many_a" -> _crack_n_1 [label=ARG1]
+	compound -> _hairline_n_1 [label=ARG2]
+	_in_p -> _slab_n_1 [label=ARG2]
+}

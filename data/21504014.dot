@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "named(Angeles)" [label=ARG2]
+	proper_q -> "named(Angeles)" [label=BV]
+	"_happen_v_1-fn.Event" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+	_in_p -> "named(Northrop)" [label=ARG1]
+	compound -> "named(Northrop)" [label=ARG1]
+	compound -> "named(Angeles)" [label=ARG1]
+	compound -> "named(Los)" [label=ARG2]
+	_at_p -> "_happen_v_1-fn.Event" [label=ARG1]
+	proper_q -> "named(Los)" [label=BV]
+	_at_p -> "named(Northrop)" [label=ARG2]
+	udef_q -> _corporation_n_1 [label=BV]
+	proper_q -> "named(Northrop)" [label=BV]
+}

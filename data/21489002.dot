@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _pay_v_for [label="ARG2-fn.Topic"]
+	_pay_v_for -> _cash_n_1 [label=ARG2]
+	_pay_v_for -> pron [label=ARG1]
+	"_disclose_v_to-fn.Reveal_secret" -> _price_n_of [label="ARG2-fn.Topic"]
+	_the_q -> _price_n_of [label=BV]
+	_decline_v_1 -> "_disclose_v_to-fn.Reveal_secret" [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Comair)" [label="ARG1-fn.Agent"]
+	udef_q -> _cash_n_1 [label=BV]
+	proper_q -> "named(Comair)" [label=BV]
+	"_disclose_v_to-fn.Reveal_secret" -> "named(Comair)" [label="ARG1-fn.Agent"]
+	_decline_v_1 -> "named(Comair)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

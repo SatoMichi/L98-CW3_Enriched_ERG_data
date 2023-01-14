@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_obvious_a_to -> neg [label=ARG1]
+	neg -> ellipsis [label=ARG1]
+}

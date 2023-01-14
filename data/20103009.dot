@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "mofy(Apr)" [label=BV]
+	_that_q_dem -> _settlement_n_of [label=BV]
+	_in_p_temp -> _settlement_n_of [label=ARG1]
+	_in_p_temp -> "mofy(Apr)" [label=ARG2]
+	loc_nonsp -> "yofc(1987)" [label=ARG2]
+	loc_nonsp -> "mofy(Apr)" [label=ARG1]
+	proper_q -> "yofc(1987)" [label=BV]
+}

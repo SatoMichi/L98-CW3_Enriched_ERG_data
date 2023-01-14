@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(GTE)" [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> "named(GTE)" [label="ARG1-fn.Process"]
+	plus -> "fraction(1/4)" [label=ARG3]
+	_to_p -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	number_q -> "card(1)" [label=BV]
+	plus -> "fraction(3/8)" [label=ARG3]
+	number_q -> "card(65)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	"_add_v_to-fn.Cause_to_end" -> "card(1)" [label="ARG2-fn.Means"]
+	plus -> "card(65)" [label=ARG2]
+	_to_p -> "card(65)" [label=ARG2]
+}

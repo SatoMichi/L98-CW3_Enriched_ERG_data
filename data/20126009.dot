@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Pepperdine)" [label=ARG2]
+	compound -> "named(Dean)" [label=ARG2]
+	proper_q -> "named(Pepperdine)" [label=BV]
+	proper_q -> "named(Dean)" [label=BV]
+	"_scoff_v_at-fn.Judgment_communication" -> "named(Baim)" [label="ARG1-fn.Agent"]
+	udef_q -> _economist_n_1 [label=BV]
+	proper_q -> "named(Baim)" [label=BV]
+	compound -> "named(Baim)" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	compound -> "named(University)" [label=ARG1]
+	compound -> _economist_n_1 [label=ARG1]
+	"_scoff_v_at-fn.Judgment_communication" -> generic_entity [label="ARG2-fn.Recipient"]
+	proper_q -> "named(University)" [label=BV]
+}

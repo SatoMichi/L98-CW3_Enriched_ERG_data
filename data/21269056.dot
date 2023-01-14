@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_can_v_modal -> "_get_v_to-fn.IN" [label=ARG1]
+	_if_x_then -> _be_v_there [label=ARG2]
+	_if_x_then -> _can_v_modal [label=ARG1]
+	_be_v_there -> _threat_n_1 [label=ARG1]
+	_impending_a_1 -> _threat_n_1 [label=ARG1]
+	_no_q -> _threat_n_1 [label=BV]
+	"_get_v_to-fn.IN" -> _expensive_a_1 [label="ARG1-fn.NotExist"]
+	_very_x_deg -> _expensive_a_1 [label=ARG1]
+	_expensive_a_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_count_v_on-fn.Halt" -> "_naczelnik/fw_u_unknown" [label="ARG1-fn.Purpose"]
+	which_q -> thing [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	nominalization -> "_count_v_on-fn.Halt" [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> nominalization [label="ARG2-fn.Cotheme"]
+	"_be_v_id-fn.Cotheme" -> generic_entity [label="ARG1-fn.Theme"]
+	"_count_v_on-fn.Halt" -> thing [label="ARG2-fn.Place"]
+	_the_q -> "_naczelnik/fw_u_unknown" [label=BV]
+	udef_q -> nominalization [label=BV]
+}

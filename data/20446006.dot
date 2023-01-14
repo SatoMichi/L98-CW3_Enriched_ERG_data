@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_common_a_for -> _effect_n_1 [label=ARG1]
+	compound -> _side_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	compound -> _effect_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _effect_n_1 [label="ARG2-fn.Means"]
+	nominalization -> _vomit_v_1 [label=ARG1]
+	udef_q -> _effect_n_1 [label=BV]
+	udef_q -> _side_n_1 [label=BV]
+	_other_a_1 -> _effect_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _and_c [label="ARG1-fn.Process"]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _nausea_n_1 [label=BV]
+}

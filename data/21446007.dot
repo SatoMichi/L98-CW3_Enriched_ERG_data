@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_deal_v_with-fn.Resolve_problem" -> _client_n_1 [label="ARG2-fn.Theme"]
+	_on_p -> _phone_n_1 [label=ARG2]
+	"_deal_v_with-fn.Resolve_problem" -> pron [label="ARG1-fn.Agent"]
+	_on_p -> "_deal_v_with-fn.Resolve_problem" [label=ARG1]
+	udef_q -> _client_n_1 [label=BV]
+	_only_a_1 -> "_deal_v_with-fn.Resolve_problem" [label=ARG1]
+	focus_d -> "_deal_v_with-fn.Resolve_problem" [label=ARG2]
+	"_say_v_to-fn.IN" -> _only_a_1 [label="ARG2-fn.Topic"]
+	_the_q -> _phone_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

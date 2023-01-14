@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _fare_n_1 [label=BV]
+	_cheap_a_1 -> _fare_n_1 [label=ARG1]
+	udef_q -> _air_n_1 [label=BV]
+	"_receive_v_1-fn.Receiving" -> _citizen_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _citizen_n_1 [label=BV]
+	_long_a_1 -> "_receive_v_1-fn.Receiving" [label=ARG1]
+	compound -> _fare_n_1 [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> _fare_n_1 [label="ARG2-fn.Theme"]
+	compound -> _air_n_1 [label=ARG2]
+	_senior_a_1 -> _citizen_n_1 [label=ARG1]
+}

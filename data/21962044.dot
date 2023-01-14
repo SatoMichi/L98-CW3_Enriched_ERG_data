@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_major_a_1 -> _hit_n_1 [label=ARG1]
+	_cheap_a_1 -> pron [label=ARG1]
+	comp -> "_take_v_1-fn.Competition" [label=ARG2]
+	"_might_v_modal-fn.Cause_to_end" -> _cheap_a_1 [label="ARG1-fn.Process"]
+	_a_q -> _hit_n_1 [label=BV]
+	"_take_v_1-fn.Competition" -> _hit_n_1 [label="ARG2-fn.Participant_2"]
+	_still_a_1 -> "_might_v_modal-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	comp -> _cheap_a_1 [label=ARG1]
+}

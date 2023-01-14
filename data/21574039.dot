@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> nominalization [label="ARG2-fn.Location"]
+	_that_q_dem -> generic_entity [label=BV]
+	_the_q -> _lily_n_1 [label=BV]
+	nominalization -> "_gild_v_1-fn.Activity_stop" [label=ARG1]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	"_gild_v_1-fn.Activity_stop" -> _lily_n_1 [label="ARG2-fn.Place"]
+	udef_q -> nominalization [label=BV]
+}

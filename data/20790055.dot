@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _food_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _corruption_n_1 [label=BV]
+	udef_q -> _character_n_1 [label=BV]
+	udef_q -> _food_n_1 [label=BV]
+	udef_q -> _queue_n_1 [label=BV]
+	"_complain_v_to-about-fn.Needing" -> _character_n_1 [label="ARG1-fn.Cognizer"]
+	_about_p -> implicit_conj [label=ARG2]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	_about_p -> "_complain_v_to-about-fn.Needing" [label=ARG1]
+	"_ceaselessly/rb_u_unknown" -> "_complain_v_to-about-fn.Needing" [label=ARG1]
+	compound -> _queue_n_1 [label=ARG1]
+}

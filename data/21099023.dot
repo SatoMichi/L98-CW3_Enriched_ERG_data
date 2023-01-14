@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Corry)" [label=ARG1]
+	_the_q -> "named(Corry)" [label=BV]
+	_no_q -> "_pushover/nn_u_unknown" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_competitive_a_1 -> "named(Corry)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_show_v_1-fn.Competition" -> "_be_v_id-fn.Assemble" [label="ARG2-fn.Participant_2"]
+	"_show_v_1-fn.Competition" -> "named(Corry)" [label="ARG1-fn.Participant_1"]
+	_quick_a_1 -> "_show_v_1-fn.Competition" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Assemble" -> "_pushover/nn_u_unknown" [label="ARG2-fn.Group"]
+	_fierce_a_1 -> _competitive_a_1 [label=ARG1]
+}

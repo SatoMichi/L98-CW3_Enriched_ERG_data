@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_there-fn.Cause_to_end" -> _first_n_of [label="ARG1-fn.Process"]
+	_never_a_1 -> "_do_v_1-fn.State_continue" [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	_a_q -> _first_n_of [label=BV]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	parg_d -> "_do_v_1-fn.State_continue" [label=ARG1]
+	_before_p -> "_do_v_1-fn.State_continue" [label=ARG1]
+	_always_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+}

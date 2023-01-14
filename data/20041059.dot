@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _face_n_1 [label=ARG1]
+	_on_p -> _nose_n_1 [label=ARG1]
+	def_explicit_q -> _face_n_1 [label=BV]
+	compound -> "named(Courter)" [label=ARG1]
+	"_grow_v_1-fn.Getting" -> _nose_n_1 [label="ARG1-fn.Recipient"]
+	_the_q -> _nose_n_1 [label=BV]
+	poss -> "named(Courter)" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Courter)" [label=BV]
+	_on_p -> _face_n_1 [label=ARG2]
+}

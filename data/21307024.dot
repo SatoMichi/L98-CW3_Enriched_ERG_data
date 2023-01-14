@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_witness_v_1-fn.NF" -> pron [label="ARG1-fn.Experiencer"]
+	compound -> "named(Walsh)" [label=ARG2]
+	proper_q -> "named(North)" [label=BV]
+	_the_q -> _prosecution_n_of [label=BV]
+	proper_q -> "named(Walsh)" [label=BV]
+	"_witness_v_1-fn.NF" -> _prosecution_n_of [label="ARG2-fn.Stimulus"]
+	compound -> "named(North)" [label=ARG1]
+	proper_q -> "named(Ollie)" [label=BV]
+	compound -> _prosecution_n_of [label=ARG1]
+	_prosecution_n_of -> "named(North)" [label=ARG1]
+	compound -> "named(Ollie)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

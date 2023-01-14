@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _heavy_a_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	udef_q -> _price_n_of [label=BV]
+	nominalization -> _trade_v_1 [label=ARG1]
+	compound -> _price_n_of [label=ARG1]
+	compound -> _future_n_1 [label=ARG2]
+	_very_x_deg -> _heavy_a_1 [label=ARG1]
+	_modest_a_1 -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_heavy_a_1 -> _volume_n_of [label=ARG1]
+	udef_q -> _future_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	compound -> _volume_n_of [label=ARG1]
+	udef_q -> _volume_n_of [label=BV]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _price_n_of [label="ARG1-fn.NotExist"]
+}

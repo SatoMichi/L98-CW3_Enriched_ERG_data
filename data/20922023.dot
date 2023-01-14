@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_operational_a_1 -> _conclusion_n_of [label=ARG1]
+	compound -> "_policy_n_of-on" [label=ARG2]
+	neg -> "_draw_v_1-fn.Competition" [label=ARG1]
+	"_draw_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_the_q -> _conclusion_n_of [label=BV]
+	_yet_a_1 -> "_draw_v_1-fn.Competition" [label=ARG1]
+	"_draw_v_1-fn.Competition" -> _conclusion_n_of [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	compound -> _conclusion_n_of [label=ARG1]
+}

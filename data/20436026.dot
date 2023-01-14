@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_meet_v_1-fn.IN" [label=ARG1]
+	_from_p -> "named(Acadia)" [label=ARG2]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_with_p -> "_meet_v_1-fn.IN" [label=ARG1]
+	_with_p -> _representative_n_of [label=ARG2]
+	"_meet_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _representative_n_of [label=BV]
+	_from_p -> _representative_n_of [label=ARG1]
+	proper_q -> "named(Acadia)" [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

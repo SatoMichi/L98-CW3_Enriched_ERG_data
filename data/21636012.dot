@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _people_n_of [label=ARG]
+	"_reply_v_to-fn.Communication_response" -> generic_entity [label="ARG1-fn.Agent"]
+	_a_q -> _questionnaire_n_1 [label=BV]
+	udef_q -> generic_entity [label=BV]
+	"card(1,500)" -> _people_n_of [label=ARG1]
+	parg_d -> "_send_v_1-fn.Sending" [label=ARG1]
+	_of_x_subord -> "_reply_v_to-fn.Communication_response" [label=ARG1]
+	"card(951)" -> generic_entity [label=ARG1]
+	"_send_v_1-fn.Sending" -> _people_n_of [label="ARG3-fn.Destination"]
+	parg_d -> _people_n_of [label=ARG2]
+	_of_x_subord -> unknown [label=ARG2]
+	"_send_v_1-fn.Sending" -> _questionnaire_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _people_n_of [label=BV]
+}

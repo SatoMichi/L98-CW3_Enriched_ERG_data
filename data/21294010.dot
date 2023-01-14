@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_increase_v_1 -> _bias_n_1 [label=ARG1]
+	"_reveal_v_to-fn.Evidence" -> _study_n_of [label="ARG1-fn.NotExist"]
+	comp -> _further_a_1 [label=ARG1]
+	"_reveal_v_to-fn.Evidence" -> _bias_n_1 [label="ARG2-fn.NotExist"]
+	udef_q -> _bias_n_1 [label=BV]
+	udef_q -> _study_n_of [label=BV]
+	_however_a_1 -> _possible_a_for [label=ARG1]
+	_possible_a_for -> "_reveal_v_to-fn.Evidence" [label=ARG1]
+	_further_a_1 -> _study_n_of [label=ARG1]
+}

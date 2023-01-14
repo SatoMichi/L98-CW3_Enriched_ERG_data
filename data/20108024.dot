@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_there-fn.Cause_to_end" -> "_dissemination/nn_u_unknown" [label="ARG1-fn.Process"]
+	udef_q -> _word_n_of [label=BV]
+	compound -> _word_n_of [label=ARG2]
+	_that_q_dem -> "_dissemination/nn_u_unknown" [label=BV]
+	compound -> "_dissemination/nn_u_unknown" [label=ARG1]
+	"_of+course_a_1" -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+}

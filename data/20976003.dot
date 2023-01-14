@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _music_n_1 [label=BV]
+	_although_x -> subord [label=ARG2]
+	subord -> "_last_v_1-fn.NF" [label=ARG1]
+	unknown -> _worth_a_1 [label=ARG]
+	_worth_a_1 -> _watch_v_1 [label=ARG2]
+	udef_q -> _or_c [label=BV]
+	comp -> _or_c [label=ARG2]
+	_the_q -> _humor_n_1 [label=BV]
+	subord -> "_good_a_at-for-of" [label=ARG2]
+	comp -> "_good_a_at-for-of" [label=ARG1]
+	_the_q -> _plot_n_of [label=BV]
+	_although_x -> _worth_a_1 [label=ARG1]
+	"_last_v_1-fn.NF" -> _music_n_1 [label="ARG1-fn.NotExist"]
+}

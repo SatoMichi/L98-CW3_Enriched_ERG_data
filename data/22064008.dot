@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_insist_v_on-fn.State_continue" -> _capital_n_1 [label="ARG2-fn.State"]
+	_other_a_1 -> _factor_n_1 [label=ARG1]
+	_the_q -> "named_n(_IMF)" [label=BV]
+	"card(3)" -> _factor_n_1 [label=ARG1]
+	"_insist_v_on-fn.State_continue" -> "named_n(_IMF)" [label="ARG1-fn.Entity"]
+	parg_d -> "_increase_v_cause-fn.Cause_harm" [label=ARG1]
+	udef_q -> _factor_n_1 [label=BV]
+	"_encourage_v_1-fn.Competition" -> "named_n(_IMF)" [label="ARG2-fn.Participant_2"]
+	"_increase_v_cause-fn.Cause_harm" -> _capital_n_1 [label="ARG2-fn.Victim"]
+	"_at+least_x_deg" -> "card(3)" [label=ARG1]
+	udef_q -> _capital_n_1 [label=BV]
+	"_encourage_v_1-fn.Competition" -> "_insist_v_on-fn.State_continue" [label="ARG3-fn.Participants"]
+	parg_d -> _capital_n_1 [label=ARG2]
+	"_encourage_v_1-fn.Competition" -> _factor_n_1 [label="ARG1-fn.Participant_1"]
+}

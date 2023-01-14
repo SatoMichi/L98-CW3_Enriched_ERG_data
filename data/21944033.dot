@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Cause_to_end" -> _spokesman_n_1 [label="ARG1-fn.Process"]
+	def_explicit_q -> "_bullishness/nn_u_unknown" [label=BV]
+	poss -> "_bullishness/nn_u_unknown" [label=ARG1]
+	compound -> _spokesman_n_1 [label=ARG1]
+	udef_q -> _company_n_of [label=BV]
+	"_explain_v_to-fn.Cause_to_end" -> "_bullishness/nn_u_unknown" [label="ARG2-fn.Means"]
+	neg -> "_can_v_modal-fn.Communication_manner" [label=ARG1]
+	compound -> _company_n_of [label=ARG2]
+	"_explain_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_sudden_a_1 -> "_bullishness/nn_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _spokesman_n_1 [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> neg [label="ARG2-fn.Means"]
+	"_can_v_modal-fn.Communication_manner" -> "_explain_v_to-fn.Cause_to_end" [label="ARG1-fn.Speaker"]
+	poss -> pron [label=ARG2]
+}

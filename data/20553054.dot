@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Lawson)" [label=ARG1]
+	proper_q -> "named(Lawson)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_resign_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_resign_v_1-fn.Competition" -> "named(Lawson)" [label="ARG1-fn.Participant_1"]
+	_so_a_thus -> "_have_v_qmodal-fn.Cause_to_end" [label=ARG1]
+}

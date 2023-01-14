@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _price_n_of [label=BV]
+	with_p -> _sell_v_1 [label=ARG1]
+	compound -> _limit_n_of [label=ARG2]
+	compound -> _order_n_of [label=ARG1]
+	with_p -> _order_n_of [label=ARG2]
+	_a_q -> _order_n_of [label=BV]
+	parg_d -> "_enter_v_1-fn.Competition" [label=ARG1]
+	parg_d -> _order_n_of [label=ARG2]
+	_at_p -> _price_n_of [label=ARG2]
+	_at_p -> "_enter_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _limit_n_of [label=BV]
+	"_enter_v_1-fn.Competition" -> _order_n_of [label="ARG2-fn.Participant_2"]
+	"_could_v_modal-fn.Cause_to_end" -> "_enter_v_1-fn.Competition" [label="ARG1-fn.Process"]
+}

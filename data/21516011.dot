@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _margin_n_1 [label=BV]
+	focus_d -> "_subside_v_1-fn.Relative_time" [label=ARG2]
+	compound -> "named(Sculley)" [label=ARG1]
+	"_say_v_to-fn.Taking" -> "named(Sculley)" [label="ARG1-fn.Agent"]
+	_on_p -> _margin_n_1 [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	udef_q -> _pressure_n_1 [label=BV]
+	"_subside_v_1-fn.Relative_time" -> _pressure_n_1 [label="ARG1-fn.Focal_occasion"]
+	_on_p -> _pressure_n_1 [label=ARG1]
+	_adverse_a_1 -> _pressure_n_1 [label=ARG1]
+	_gross_a_1 -> _margin_n_1 [label=ARG1]
+	proper_q -> "named(Sculley)" [label=BV]
+	"_say_v_to-fn.Taking" -> "_subside_v_1-fn.Relative_time" [label="ARG2-fn.Theme"]
+}

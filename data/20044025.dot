@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _effort_n_1 [label=ARG1]
+	"_beat_v_to-fn.Left_to_do" -> _test_n_of [label="ARG2-fn.Remainder"]
+	_the_q -> _rise_n_1 [label=BV]
+	_on_p -> _rise_n_1 [label=ARG2]
+	_also_a_1 -> _on_p [label=ARG1]
+	_the_q -> _test_n_of [label=BV]
+	_so_a_thus -> _also_a_1 [label=ARG1]
+	udef_q -> _effort_n_1 [label=BV]
+	_effort_n_1 -> "_beat_v_to-fn.Left_to_do" [label=ARG1]
+}

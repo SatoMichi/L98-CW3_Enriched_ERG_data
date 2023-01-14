@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_any_q -> _buyer_n_of [label=BV]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_financial_a_1 -> _figure_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	_prospective_a_1 -> _buyer_n_of [label=ARG1]
+	_to_p -> "_pass_v_1-fn.Giving" [label=ARG1]
+	"_pass_v_1-fn.Giving" -> _figure_n_1 [label="ARG2-fn.Theme"]
+	parg_d -> "_pass_v_1-fn.Giving" [label=ARG1]
+	parg_d -> _figure_n_1 [label=ARG2]
+	_to_p -> _buyer_n_of [label=ARG2]
+	neg -> "_pass_v_1-fn.Giving" [label=ARG1]
+	_yet_a_1 -> "_pass_v_1-fn.Giving" [label=ARG1]
+	udef_q -> _figure_n_1 [label=BV]
+	_detailed_a_1 -> _figure_n_1 [label=ARG1]
+}

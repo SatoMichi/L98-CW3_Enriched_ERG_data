@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> nominalization [label=ARG2]
+	compound -> _bullet_n_1 [label=ARG1]
+	nominalization -> "_ban_v_from-fn.Prohibiting" [label=ARG1]
+	udef_q -> _killer_n_1 [label=BV]
+	udef_q -> _cop_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _for_p [label="ARG2-fn.Topic"]
+	compound -> _killer_n_1 [label=ARG1]
+	compound -> _cop_n_1 [label=ARG2]
+	_for_p -> pron [label=ARG1]
+	udef_q -> _bullet_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _one_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> nominalization [label=BV]
+	pronoun_q -> _one_n_1 [label=BV]
+	"_ban_v_from-fn.Prohibiting" -> _bullet_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

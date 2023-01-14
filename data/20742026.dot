@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.IN" -> _plenty_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _support_n_of [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	udef_q -> _plenty_n_of [label=BV]
+	_plenty_n_of -> _support_n_of [label=ARG1]
+	compound -> _future_n_1 [label=ARG1]
+	udef_q -> _index_n_1 [label=BV]
+	udef_q -> _future_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _future_n_1 [label="ARG1-fn.Pivot"]
+	compound -> _stock_n_1 [label=ARG2]
+	compound -> _index_n_1 [label=ARG1]
+}

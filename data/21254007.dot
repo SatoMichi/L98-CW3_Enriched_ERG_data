@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_criticize_v_for-as-fn.Judgment_communication" -> _example_n_of [label="ARG3-fn.Attribute"]
+	_example_n_of -> _waste_n_of [label=ARG1]
+	_long_a_1 -> "_criticize_v_for-as-fn.Judgment_communication" [label=ARG1]
+	udef_q -> _business_n_1 [label=BV]
+	_the_q -> _agency_n_1 [label=BV]
+	compound -> _leader_n_of [label=ARG1]
+	_a_q -> _example_n_of [label=BV]
+	"_criticize_v_for-as-fn.Judgment_communication" -> _agency_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _waste_n_of [label=BV]
+	"_bureacratic/jj_u_unknown" -> _waste_n_of [label=ARG1]
+	"_lead_v_1-fn.Cotheme" -> _example_n_of [label="ARG1-fn.Agent"]
+	"_criticize_v_for-as-fn.Judgment_communication" -> _leader_n_of [label="ARG1-fn.Agent"]
+	compound -> _business_n_1 [label=ARG2]
+	udef_q -> _leader_n_of [label=BV]
+}

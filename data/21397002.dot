@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(FBI)" [label=BV]
+	_crusty_a_1 -> _agent_n_of [label=ARG1]
+	_of_p -> _heart_n_1 [label=ARG1]
+	_the_q -> _agent_n_of [label=BV]
+	_of_p -> _gold_n_1 [label=ARG2]
+	compound -> _agent_n_of [label=ARG1]
+	udef_q -> _gold_n_1 [label=BV]
+	_which_q -> _next_n_1 [label=BV]
+	_with_p -> _agent_n_of [label=ARG1]
+	unknown -> _next_n_1 [label=ARG]
+	compound -> "named(FBI)" [label=ARG2]
+	_for_p -> _next_n_1 [label=ARG1]
+	_for_p -> _agent_n_of [label=ARG2]
+	_with_p -> _heart_n_1 [label=ARG2]
+	_the_q -> _heart_n_1 [label=BV]
+}

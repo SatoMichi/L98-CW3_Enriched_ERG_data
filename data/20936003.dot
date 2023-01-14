@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_regional_a_1 -> _setup_n_1 [label=ARG1]
+	compound -> "named(Reserve)" [label=ARG1]
+	compound -> "named(Federal)" [label=ARG2]
+	_the_q -> _setup_n_1 [label=BV]
+	compound -> "named(Bank)" [label=ARG1]
+	compound -> _setup_n_1 [label=ARG1]
+	proper_q -> "named(Federal)" [label=BV]
+	"_out+of+date_a_1" -> _setup_n_1 [label=ARG1]
+	proper_q -> "named(Reserve)" [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> "_out+of+date_a_1" [label="ARG1-fn.Speaker"]
+	proper_q -> "named(Bank)" [label=BV]
+}

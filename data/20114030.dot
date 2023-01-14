@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_long_a_1 -> "_tenured/jj_u_unknown" [label=ARG1]
+	"_say_v_to-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> "_receive_v_1-fn.Receiving" [label="ARG2-fn.Topic"]
+	"_tenured/jj_u_unknown" -> _employee_n_of [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> _employee_n_of [label="ARG1-fn.Agent"]
+	focus_d -> "_receive_v_1-fn.Receiving" [label=ARG2]
+	_some_q -> _employee_n_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	udef_q -> _benefit_n_of [label=BV]
+	_additional_a_1 -> _benefit_n_of [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> _benefit_n_of [label="ARG2-fn.Theme"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

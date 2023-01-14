@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_cause-fn.Cause_change" -> _ownership_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _ownership_n_of [label=BV]
+	_would_v_modal -> _necessary_a_1 [label=ARG1]
+	compound -> _cross_n_1 [label=ARG2]
+	compound -> _ownership_n_of [label=ARG1]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	_smooth_a_1 -> "_thing_n_of-about" [label=ARG1]
+	_necessary_a_1 -> "_make_v_cause-fn.Cause_change" [label=ARG1]
+	_sure_a_of -> pron [label=ARG1]
+	comp -> _smooth_a_1 [label=ARG1]
+	"_make_v_cause-fn.Cause_change" -> _smooth_a_1 [label="ARG2-fn.Theme"]
+	neg -> _sure_a_of [label=ARG1]
+	_sure_a_of -> _would_v_modal [label=ARG2]
+	udef_q -> _cross_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

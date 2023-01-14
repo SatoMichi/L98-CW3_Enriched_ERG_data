@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_step_v_up-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+	_to_p -> "_step_v_up-fn.Undergo_change" [label=ARG1]
+	_the_q -> _plate_n_of [label=BV]
+	_big_a_1 -> _swing_n_1 [label=ARG1]
+	"_take_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	_to_p -> _plate_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _swing_n_1 [label=BV]
+	"_take_v_1-fn.Commerce_buy" -> _swing_n_1 [label="ARG2-fn.Goods"]
+}

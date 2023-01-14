@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Manufacturing" -> "named(Tracer)" [label="ARG2-fn.Product"]
+	_for_p -> "_make_v_1-fn.Manufacturing" [label=ARG1]
+	_the_q -> "named(Tracer)" [label=BV]
+	proper_q -> "named(Ford)" [label=BV]
+	_for_p -> "named(Ford)" [label=ARG2]
+	proper_q -> "named(Mazda)" [label=BV]
+	"_make_v_1-fn.Manufacturing" -> "named(Mazda)" [label="ARG1-fn.Agent"]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _true_a_of [label=ARG2]
+	_just_x_deg -> _true_a_of [label=ARG1]
+	"_say_v_to-fn.Taking" -> neg [label="ARG2-fn.Theme"]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	neg -> _true_a_of [label=ARG1]
+	"_say_v_to-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	_true_a_of -> pron [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _pile_n_of [label=BV]
+	_on_p -> "_build_v_1-fn.Building" [label=ARG1]
+	_can_v_modal -> _and_c [label=ARG1]
+	_on_p -> "_drive_v_1-fn.Cause_motion" [label=ARG1]
+	"_drive_v_1-fn.Cause_motion" -> _pile_n_of [label="ARG2-fn.Theme"]
+	_on_p -> pron [label=ARG2]
+	"_drive_v_1-fn.Cause_motion" -> pron [label="ARG1-fn.Agent"]
+	"_build_v_1-fn.Building" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

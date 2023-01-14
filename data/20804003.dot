@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_speak_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_only_x_deg -> _in_p [label=ARG1]
+	_in_p -> "_speak_v_to-fn.Have_as_requirement" [label=ARG1]
+	proper_q -> "named(Filipino)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_in_p -> "named(Filipino)" [label=ARG2]
+}

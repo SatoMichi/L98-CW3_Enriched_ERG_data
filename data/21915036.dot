@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_early_a_1 -> time_n [label=ARG1]
+	"_expect_v_1-fn.Attempt" -> _operational_a_1 [label="ARG2-fn.Goal"]
+	_fully_x_deg -> _operational_a_1 [label=ARG1]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	loc_nonsp -> _operational_a_1 [label=ARG1]
+	def_implicit_q -> _week_n_1 [label=BV]
+	loc_nonsp -> time_n [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	_next_a_1 -> _week_n_1 [label=ARG1]
+}

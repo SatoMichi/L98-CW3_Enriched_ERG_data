@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fix_v_to-fn.Bail_decision" -> pron [label="ARG1-fn.NotExist"]
+	_for_p -> "_fix_v_to-fn.Bail_decision" [label=ARG1]
+	_that_q_dem -> _matter_n_of [label=BV]
+	_wrong_a_with -> _currency_n_1 [label=ARG1]
+	_the_q -> _currency_n_1 [label=BV]
+	_perhaps_a_1 -> "_fix_v_to-fn.Bail_decision" [label=ARG1]
+	"_fix_v_to-fn.Bail_decision" -> _currency_n_1 [label="ARG2-fn.NotExist"]
+	focus_d -> _for_p [label=ARG2]
+	_for_p -> _matter_n_of [label=ARG2]
+	focus_d -> "_fix_v_to-fn.Bail_decision" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

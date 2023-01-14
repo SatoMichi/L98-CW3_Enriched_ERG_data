@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _reason_n_for [label=BV]
+	_simple_a_for -> _reason_n_for [label=ARG1]
+}

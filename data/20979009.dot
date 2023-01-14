@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Qintex)" [label=ARG2]
+	compound -> "named(Australia)" [label=ARG1]
+	"_arrange_v_1-fn.NF" -> nominalization [label="ARG2-fn.NotExist"]
+	"_depend_v_on-upon-fn.Reliance" -> "named(Australia)" [label="ARG2-fn.Theme"]
+	nominalization -> _finance_v_1 [label=ARG1]
+	compound -> "named(Entertainment)" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_in+order+to_x" -> "_arrange_v_1-fn.NF" [label=ARG2]
+	proper_q -> "named(Qintex)" [label=BV]
+	proper_q -> "named(Entertainment)" [label=BV]
+	"_in+order+to_x" -> "_depend_v_on-upon-fn.Reliance" [label=ARG1]
+	proper_q -> "named(Australia)" [label=BV]
+	"_depend_v_on-upon-fn.Reliance" -> "named(Entertainment)" [label="ARG1-fn.Agent"]
+	"_arrange_v_1-fn.NF" -> "named(Entertainment)" [label="ARG1-fn.NotExist"]
+}

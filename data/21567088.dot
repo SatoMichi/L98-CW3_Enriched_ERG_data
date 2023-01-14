@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Assemble" -> "_losers/nns_u_unknown" [label="ARG2-fn.Group"]
+	compound -> "named(County)" [label=ARG1]
+	_now_a_1 -> _and_c [label=ARG1]
+	_in_p -> _in_p [label=ARG1]
+	compound -> "named(Mobile)" [label=ARG2]
+	udef_q -> "_losers/nns_u_unknown" [label=BV]
+	proper_q -> "named(Mobile)" [label=BV]
+	udef_q -> _jail_n_1 [label=BV]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	proper_q -> "named(County)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_in_p -> pron [label=ARG1]
+	_in_p -> _jail_n_1 [label=ARG2]
+	_in_p -> "named(County)" [label=ARG2]
+}

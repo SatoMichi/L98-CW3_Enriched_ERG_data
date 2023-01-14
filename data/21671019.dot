@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _vote_n_1 [label=ARG1]
+	"_defect_v_1-fn.Cause_to_end" -> _republican_n_1 [label="ARG1-fn.Process"]
+	"card(41)" -> _republican_n_1 [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	_last_a_1 -> _week_n_1 [label=ARG1]
+	compound -> "named_n(House)" [label=ARG2]
+	_in_p_state -> _vote_n_1 [label=ARG2]
+	poss -> _week_n_1 [label=ARG2]
+	def_explicit_q -> _vote_n_1 [label=BV]
+	def_implicit_q -> _week_n_1 [label=BV]
+	_in_p_state -> "_defect_v_1-fn.Cause_to_end" [label=ARG1]
+	udef_q -> "named_n(House)" [label=BV]
+	poss -> _vote_n_1 [label=ARG1]
+	focus_d -> "_defect_v_1-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _republican_n_1 [label=BV]
+}

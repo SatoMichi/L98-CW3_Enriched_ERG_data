@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _country_n_of [label=BV]
+	_inside_p -> _competition_n_1 [label=ARG1]
+	_inside_p -> _country_n_of [label=ARG2]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	focus_d -> "_mind_v_1-fn.NF" [label=ARG2]
+	_the_q -> _competition_n_1 [label=BV]
+	"_mind_v_1-fn.NF" -> pron [label="ARG1-fn.Experiencer"]
+	"_mind_v_1-fn.NF" -> _competition_n_1 [label="ARG2-fn.Stimulus"]
+	neg -> "_mind_v_1-fn.NF" [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

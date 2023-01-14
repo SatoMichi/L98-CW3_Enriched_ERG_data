@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _pound_n_cur [label=ARG1]
+	compound -> _pound_n_cur [label=ARG2]
+	udef_q -> _pound_n_cur [label=BV]
+	_the_q -> _year_n_1 [label=BV]
+	_for_p -> _year_n_1 [label=ARG2]
+	"_project_v_1-fn.Activity_stop" -> _government_n_of [label="ARG1-fn.Purpose"]
+	times -> "card(1000000000)" [label=ARG3]
+	_for_p -> _surplus_n_of [label=ARG1]
+	_a_q -> _surplus_n_of [label=BV]
+	"_project_v_1-fn.Activity_stop" -> _surplus_n_of [label="ARG2-fn.Place"]
+	_fiscal_a_1 -> _year_n_1 [label=ARG1]
+	compound -> _surplus_n_of [label=ARG1]
+	_the_q -> _government_n_of [label=BV]
+	times -> "card(14)" [label=ARG2]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _fashion_n_1 [label=BV]
+	parg_d -> _item_n_of [label=ARG2]
+	compound -> _fashion_n_1 [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _item_n_of [label="ARG2-fn.Means"]
+	_in_p -> _jar_n_1 [label=ARG2]
+	udef_q -> _item_n_of [label=BV]
+	"_wrap_v_up-fn.Perception_active" -> _item_n_of [label="ARG2-fn.Phenomenon"]
+	parg_d -> "_wrap_v_up-fn.Perception_active" [label=ARG1]
+	_really_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	compound -> _item_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_little_a_1 -> _jar_n_1 [label=ARG1]
+	_in_p -> "_wrap_v_up-fn.Perception_active" [label=ARG1]
+	udef_q -> _jar_n_1 [label=BV]
+}

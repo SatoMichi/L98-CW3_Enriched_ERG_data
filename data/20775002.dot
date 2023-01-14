@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_affect_v_1-fn.NF" -> nominalization [label="ARG1-fn.Stimulus"]
+	"_eliminate_v_from-fn.Removing" -> _production_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _production_n_of [label=BV]
+	udef_q -> _car_n_1 [label=BV]
+	udef_q -> _worker_n_1 [label=BV]
+	nominalization -> _close_v_1 [label=ARG1]
+	"card(3,000)" -> _worker_n_1 [label=ARG1]
+	"card(700)" -> _car_n_1 [label=ARG1]
+	_of_p -> _production_n_of [label=ARG1]
+	_about_x_deg -> "card(3,000)" [label=ARG1]
+	"_eliminate_v_from-fn.Removing" -> nominalization [label="ARG1-fn.Agent"]
+	_of_p -> _car_n_1 [label=ARG2]
+	_the_q -> nominalization [label=BV]
+	"_affect_v_1-fn.NF" -> _worker_n_1 [label="ARG2-fn.Experiencer"]
+}

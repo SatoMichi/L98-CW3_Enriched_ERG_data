@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	comp_less -> _inspiring_a_1 [label=ARG1]
+	compound -> "named(Secord)" [label=ARG1]
+	proper_q -> "named(Secord)" [label=BV]
+	def_explicit_q -> _performance_n_1 [label=BV]
+	poss -> _performance_n_1 [label=ARG1]
+	_decided_a_1 -> _inspiring_a_1 [label=ARG1]
+	_inspiring_a_1 -> _performance_n_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	poss -> "named(Secord)" [label=ARG2]
+}

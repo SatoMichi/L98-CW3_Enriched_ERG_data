@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+kind_a_1" -> "_respond_v_to-fn.Communication_response" [label=ARG1]
+	_the_q -> _senator_n_1 [label=BV]
+	"_respond_v_to-fn.Communication_response" -> _senator_n_1 [label="ARG1-fn.Agent"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_destructive_a_1 -> _circle_n_of [label=ARG1]
+	compound -> _circle_n_of [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_lead_v_1-fn.Cotheme" -> pron [label="ARG2-fn.Theme"]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	"_fruitless/jj_u_unknown" -> _circle_n_of [label=ARG1]
+	compound -> "_policy_n_of-on" [label=ARG2]
+	_a_q -> _circle_n_of [label=BV]
+	_in_p -> "_lead_v_1-fn.Cotheme" [label=ARG1]
+	_in_p -> _circle_n_of [label=ARG2]
+	"_lead_v_1-fn.Cotheme" -> generic_entity [label="ARG1-fn.Agent"]
+}

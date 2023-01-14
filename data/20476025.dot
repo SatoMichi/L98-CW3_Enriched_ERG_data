@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Treasury)" [label=BV]
+	compound -> "named(South)" [label=ARG2]
+	compound -> "named(Treasury)" [label=ARG1]
+	parg_d -> "_guarantee_v_1-fn.NF" [label=ARG1]
+	compound -> "named(Australian)" [label=ARG1]
+	proper_q -> "named(South)" [label=BV]
+	"_guarantee_v_1-fn.NF" -> "named(Treasury)" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Australian)" [label=BV]
+}

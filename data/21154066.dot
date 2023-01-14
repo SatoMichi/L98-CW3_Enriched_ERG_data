@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _book_n_of [label=BV]
+	"_open_v_cause-fn.Cause_motion" -> _book_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _bank_n_of [label=BV]
+	_colon_p_namely -> "_must_v_modal-fn.Cause_to_end" [label=ARG1]
+	"_add_v_to-fn.Fining" -> _colon_p_namely [label="ARG2-fn.Instrument"]
+	"_must_v_modal-fn.Cause_to_end" -> "_open_v_cause-fn.Cause_motion" [label="ARG1-fn.Process"]
+	"_open_v_cause-fn.Cause_motion" -> _bank_n_of [label="ARG1-fn.Agent"]
+	poss -> _book_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	"_add_v_to-fn.Fining" -> pron [label="ARG1-fn.Speaker"]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_hope_v_1-fn.Desiring" [label=ARG1]
+	"_follow_v_1-fn.Cotheme" -> _japanese_n_1 [label="ARG1-fn.NotExist"]
+	"_follow_v_1-fn.Cotheme" -> _leader_n_of [label="ARG2-fn.Theme"]
+	_would_v_modal -> "_follow_v_1-fn.Cotheme" [label=ARG1]
+	_other_a_1 -> _japanese_n_1 [label=ARG1]
+	"_hope_v_1-fn.Desiring" -> _would_v_modal [label="ARG2-fn.Theme"]
+	udef_q -> _japanese_n_1 [label=BV]
+	_then_a_1 -> "_follow_v_1-fn.Cotheme" [label=ARG1]
+	_the_q -> _leader_n_of [label=BV]
+}

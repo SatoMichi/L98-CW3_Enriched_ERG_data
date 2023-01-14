@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_to_p -> "card(252.5)" [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(1)" [label="ARG2-fn.Patient"]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Commerzbank)" [label="ARG1-fn.NotExist"]
+	number_q -> "card(252.5)" [label=BV]
+	number_q -> "card(1)" [label=BV]
+	proper_q -> "named(Commerzbank)" [label=BV]
+}

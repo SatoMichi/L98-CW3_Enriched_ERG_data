@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Institute)" [label=BV]
+	compound -> "named(Crandall)" [label=ARG1]
+	compound -> "named(Brookings)" [label=ARG2]
+	proper_q -> "named(Robert)" [label=BV]
+	_with_p -> "named(Crandall)" [label=ARG1]
+	proper_q -> "named(Crandall)" [label=BV]
+	_with_p -> "named(Institute)" [label=ARG2]
+	proper_q -> "named(Brookings)" [label=BV]
+	compound -> "named(Institute)" [label=ARG1]
+	"_agree_v_on-fn.IN" -> "named(Crandall)" [label="ARG1-fn.Agent"]
+	compound -> "named(Robert)" [label=ARG2]
+}

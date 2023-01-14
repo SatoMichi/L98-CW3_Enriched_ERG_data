@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _person_n_1 [label=ARG2]
+	udef_q -> _person_n_1 [label=BV]
+	poss -> _account_n_of [label=ARG1]
+	def_explicit_q -> _account_n_of [label=BV]
+	"_give_v_1-fn.Giving" -> _authenticity_n_1 [label="ARG2-fn.Theme"]
+	"_take_v_1-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _authenticity_n_1 [label=BV]
+	"_take_v_1-fn.Taking" -> _account_n_of [label="ARG2-fn.Theme"]
+	"_give_v_1-fn.Giving" -> pron [label="ARG3-fn.Recipient"]
+	"card(1)" -> _person_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

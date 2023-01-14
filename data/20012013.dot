@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_big_a_1 -> _weekly_n_1 [label=ARG1]
+	part_of -> _weekly_n_1 [label=ARG1]
+	"card(3)" -> _weekly_n_1 [label=ARG1]
+	compound -> _gain_n_1 [label=ARG1]
+	udef_q -> _circulation_n_of [label=BV]
+	"_record_v_1-fn.Recording" -> _gain_n_1 [label="ARG2-fn.Theme"]
+	_recent_a_1 -> "_record_v_1-fn.Recording" [label=ARG1]
+	compound -> _circulation_n_of [label=ARG2]
+	_the_q -> _weekly_n_1 [label=BV]
+	"_record_v_1-fn.Recording" -> part_of [label="ARG1-fn.Agent"]
+	udef_q -> _gain_n_1 [label=BV]
+	_no_q -> part_of [label=BV]
+	_however_a_1 -> "_record_v_1-fn.Recording" [label=ARG1]
+}

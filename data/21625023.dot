@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_1-fn.Commerce_buy" -> _lot_n_of [label="ARG2-fn.Goods"]
+	parg_d -> _lot_n_of [label=ARG2]
+	parg_d -> "_take_v_1-fn.Commerce_buy" [label=ARG1]
+	_just_a_1 -> "_get_v_state-fn.Cause_to_end" [label=ARG1]
+	_lot_n_of -> _donor_n_1 [label=ARG1]
+	"_get_v_state-fn.Cause_to_end" -> "_take_v_1-fn.Commerce_buy" [label="ARG2-fn.Means"]
+	udef_q -> _donor_n_1 [label=BV]
+	_a_q -> _lot_n_of [label=BV]
+	"_get_v_state-fn.Cause_to_end" -> _lot_n_of [label="ARG1-fn.Process"]
+}

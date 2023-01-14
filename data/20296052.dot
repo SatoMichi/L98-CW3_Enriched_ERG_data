@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _chinese_n_1 [label=ARG]
+	_the_q -> _chinese_n_1 [label=BV]
+	_even_x_deg -> _maybe_x_deg [label=ARG1]
+	_maybe_x_deg -> _even_x_deg [label=ARG1]
+	appos -> _chinese_n_1 [label=ARG1]
+	_maybe_x_deg -> _the_q [label=ARG1]
+	appos -> _indian_n_1 [label=ARG2]
+	_the_q -> _indian_n_1 [label=BV]
+}

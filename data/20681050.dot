@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_depend_v_on-upon-fn.Cause_to_continue" -> nominalization [label="ARG2-fn.Process"]
+	which_q -> thing [label=BV]
+	"_depend_v_on-upon-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	"_happen_v_1-fn.Impact" -> thing [label="ARG1-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	nominalization -> "_happen_v_1-fn.Impact" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

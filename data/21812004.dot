@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _stumble_n_1 [label=BV]
+	neg -> "_bode/vb_u_unknown" [label=ARG1]
+	"_bode/vb_u_unknown" -> _stumble_n_1 [label=ARG1]
+	poss -> "named(AMR)" [label=ARG2]
+	_the_q -> _industry_n_1 [label=BV]
+	poss -> _stumble_n_1 [label=ARG1]
+	_rest_n_of -> _industry_n_1 [label=ARG1]
+	_still_a_disc -> neg [label=ARG1]
+	_the_q -> _rest_n_of [label=BV]
+	_for_p -> _rest_n_of [label=ARG2]
+	_for_p -> "_bode/vb_u_unknown" [label=ARG1]
+	proper_q -> "named(AMR)" [label=BV]
+	_well_a_1 -> "_bode/vb_u_unknown" [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _further_a_1 [label=ARG1]
+	_the_q -> _group_n_of [label=BV]
+	_a_q -> _step_n_1 [label=BV]
+	"card(2)" -> _group_n_of [label=ARG1]
+	_in_p -> "_defensiveness/nn_u_unknown" [label=ARG2]
+	"_represent_v_1-fn.Competition" -> _group_n_of [label="ARG1-fn.Participant_1"]
+	_in_p -> _step_n_1 [label=ARG1]
+	udef_q -> "_defensiveness/nn_u_unknown" [label=BV]
+	_further_a_1 -> _step_n_1 [label=ARG1]
+	"_represent_v_1-fn.Competition" -> _step_n_1 [label="ARG2-fn.Participant_2"]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "named(Impasse)" [label=ARG]
+	compound -> "named(Impasse)" [label=ARG1]
+	proper_q -> "named(Impasse)" [label=BV]
+	proper_q -> "named(Due)" [label=BV]
+	compound -> "named(Due)" [label=ARG1]
+	proper_q -> "named(Past)" [label=BV]
+	compound -> "named(Past)" [label=ARG2]
+}

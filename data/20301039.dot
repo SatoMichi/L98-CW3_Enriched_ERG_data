@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_far_x_deg -> _below_p [label=ARG1]
+	udef_q -> _mark_n_cur [label=BV]
+	"card(1.80)" -> _mark_n_cur [label=ARG1]
+	_can_v_modal -> _really_a_1 [label=ARG1]
+	_really_a_1 -> "_see_v_1-fn.IN" [label=ARG1]
+	"_see_v_1-fn.IN" -> pron [label="ARG2-fn.NotExist"]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.NotExist"]
+	"_see_v_1-fn.IN" -> "_drop_v_1-fn.Change_position_on_a_scale" [label="ARG3-fn.NotExist"]
+	_below_p -> _mark_n_cur [label=ARG2]
+	_below_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	neg -> _can_v_modal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

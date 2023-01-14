@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_once_x_subord -> neg [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_suffer_v_from-fn.Catastrophe" -> _hesitation_n_1 [label="ARG2-fn.Stimulus"]
+	_any_q -> _hesitation_n_1 [label=BV]
+	"_suffer_v_from-fn.Catastrophe" -> "named(Noriega)" [label="ARG1-fn.Experiencer"]
+	compound -> "named(Noriega)" [label=ARG1]
+	_the_q -> _pistol_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _pistol_n_1 [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	proper_q -> "named(Noriega)" [label=BV]
+	_once_x_subord -> "_have_v_1-fn.IN" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	neg -> "_suffer_v_from-fn.Catastrophe" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

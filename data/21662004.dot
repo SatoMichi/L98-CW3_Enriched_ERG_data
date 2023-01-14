@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(PLC)" [label=ARG1]
+	_the_q -> _license_n_1 [label=BV]
+	"_win_v_1-fn.NF" -> _license_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(Wireless)" [label=ARG2]
+	proper_q -> "named(Wireless)" [label=BV]
+	proper_q -> "named(Britain)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(PLC)" [label=BV]
+	"_win_v_1-fn.NF" -> _and_c [label="ARG1-fn.Agent"]
+	_other_a_1 -> _license_n_1 [label=ARG1]
+	_of_p -> _and_c [label=ARG1]
+	_of_p -> "named(Britain)" [label=ARG2]
+	udef_q -> _cable_n_1 [label=BV]
+}

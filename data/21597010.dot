@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _company_n_of [label=ARG2]
+	_in_p -> _priority_n_1 [label=ARG1]
+	_of_p -> _profitability_n_1 [label=ARG1]
+	_extremely_x_deg -> _high_a_1 [label=ARG1]
+	_of_p -> _operation_n_of [label=ARG2]
+	_a_q -> _priority_n_1 [label=BV]
+	compound -> _operation_n_of [label=ARG1]
+	udef_q -> _profitability_n_1 [label=BV]
+	udef_q -> _operation_n_of [label=BV]
+	"_improve_v_cause-fn.Cause_to_end" -> _priority_n_1 [label="ARG1-fn.Process"]
+	_high_a_1 -> _priority_n_1 [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	udef_q -> "named_n(US)" [label=BV]
+	"_improve_v_cause-fn.Cause_to_end" -> _profitability_n_1 [label="ARG2-fn.Means"]
+}

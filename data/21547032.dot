@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	of_p -> _night_n_of [label=ARG1]
+	loc_nonsp -> _night_n_of [label=ARG2]
+	loc_nonsp -> "_occur_v_to-fn.Event" [label=ARG1]
+	of_p -> "dofw(Sat)" [label=ARG2]
+	"_occur_v_to-fn.Event" -> _incident_n_1 [label="ARG1-fn.NotExist"]
+	def_explicit_q -> _night_n_of [label=BV]
+	def_implicit_q -> "dofw(Sat)" [label=BV]
+	_the_q -> _incident_n_1 [label=BV]
+}

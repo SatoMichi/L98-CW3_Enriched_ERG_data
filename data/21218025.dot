@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_genetically/rb_u_unknown" -> _engineer_v_1 [label=ARG1]
+	"_adapt_v_to-fn.Adjusting" -> "_yeast/nn_u_unknown" [label="ARG2-fn.Patient"]
+	"_adapt_v_to-fn.Adjusting" -> nominalization [label="ARG3-fn.Goal"]
+	parg_d -> _drug_n_1 [label=ARG2]
+	_the_q -> "_yeast/nn_u_unknown" [label=BV]
+	nominalization -> "_make_v_1-fn.Intentionally_create" [label=ARG1]
+	_now_a_1 -> "_adapt_v_to-fn.Adjusting" [label=ARG1]
+	parg_d -> _engineer_v_1 [label=ARG1]
+	_engineer_v_1 -> _drug_n_1 [label=ARG2]
+	udef_q -> _drug_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_adapt_v_to-fn.Adjusting" -> pron [label="ARG1-fn.Agent"]
+	"_make_v_1-fn.Intentionally_create" -> _drug_n_1 [label="ARG2-fn.Product"]
+	pronoun_q -> pron [label=BV]
+}

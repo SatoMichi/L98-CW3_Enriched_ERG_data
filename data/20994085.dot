@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_appeal_v_to-fn.NF" -> "named(Excalibur)" [label="ARG1-fn.Stimulus"]
+	"_appeal_v_to-fn.NF" -> _family_n_of [label="ARG2-fn.Experiencer"]
+	poss -> _company_n_of [label=ARG2]
+	poss -> "named(Excalibur)" [label=ARG1]
+	"_of+course_a_1" -> _also_a_1 [label=ARG1]
+	udef_q -> _family_n_of [label=BV]
+	_also_a_1 -> "_appeal_v_to-fn.NF" [label=ARG1]
+	def_explicit_q -> "named(Excalibur)" [label=BV]
+	_the_q -> _company_n_of [label=BV]
+}

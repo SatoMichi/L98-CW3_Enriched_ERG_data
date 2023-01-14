@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_pure_a_1 -> _bet_n_1 [label=ARG1]
+	_on_p -> _market_n_1 [label=ARG2]
+	"_make_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	"_make_v_1-fn.Rite" -> _bet_n_1 [label="ARG2-fn.Member"]
+	_a_q -> _bet_n_1 [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_on_p -> _bet_n_1 [label=ARG1]
+}

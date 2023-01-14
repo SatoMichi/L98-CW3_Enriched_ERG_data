@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cite_v_for-fn.Cause_to_end" -> "named(Ortega)" [label="ARG1-fn.Process"]
+	_renewed_a_1 -> _attack_n_1 [label=ARG1]
+	"_cite_v_for-fn.Cause_to_end" -> _attack_n_1 [label="ARG2-fn.Means"]
+	_by_p -> _attack_n_1 [label=ARG1]
+	_the_q -> _rebel_n_1 [label=BV]
+	udef_q -> _attack_n_1 [label=BV]
+	_by_p -> _rebel_n_1 [label=ARG2]
+	"_u.s.backed/jj_u_unknown" -> _rebel_n_1 [label=ARG1]
+	proper_q -> "named(Ortega)" [label=BV]
+}

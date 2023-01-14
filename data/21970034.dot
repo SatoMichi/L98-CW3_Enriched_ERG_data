@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _purchase_n_of [label=ARG2]
+	_purchase_n_of -> _goods_n_1 [label=ARG1]
+	"_stem_v_from-fn.NF" -> _jump_n_1 [label="ARG1-fn.NotExist"]
+	_in_p -> _jump_n_1 [label=ARG1]
+	_foreign_a_1 -> _goods_n_1 [label=ARG1]
+	udef_q -> _goods_n_1 [label=BV]
+	udef_q -> _increase_n_1 [label=BV]
+	"_stem_v_from-fn.NF" -> _increase_n_1 [label="ARG2-fn.Theme"]
+	"_across-the-board_p_1" -> _increase_n_1 [label=ARG1]
+	_in_p -> _increase_n_1 [label=ARG1]
+	udef_q -> _import_n_of [label=BV]
+	udef_q -> _purchase_n_of [label=BV]
+	_in_p -> _import_n_of [label=ARG2]
+	_the_q -> _jump_n_1 [label=BV]
+}

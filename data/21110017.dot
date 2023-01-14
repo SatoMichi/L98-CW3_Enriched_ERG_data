@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_keep_v_prd-fn.Cause_to_continue" -> _bread_n_1 [label="ARG1-fn.Agent"]
+	"_keep_v_prd-fn.Cause_to_continue" -> _go_v_1 [label="ARG3-fn.NotExist"]
+	_into_p -> "_eat_v_1-fn.Ingestion" [label=ARG1]
+	"_keep_v_prd-fn.Cause_to_continue" -> pron [label="ARG2-fn.NotExist"]
+	_the_q -> _bread_n_1 [label=BV]
+	"_mean_v_to-fn.NF" -> "_eat_v_1-fn.Ingestion" [label="ARG2-fn.Theme"]
+	_go_v_1 -> pron [label=ARG1]
+	_into_p -> _bread_n_1 [label=ARG2]
+	"_mean_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_eat_v_1-fn.Ingestion" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

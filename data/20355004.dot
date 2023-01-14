@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_invite_v_to-fn.Request" -> pron [label="ARG1-fn.NotExist"]
+	udef_q -> _purchaser_n_1 [label=BV]
+	proper_q -> "named(Clarcor)" [label=BV]
+	_other_a_1 -> _purchaser_n_1 [label=ARG1]
+	_of_p -> _unit_n_of [label=ARG2]
+	"_invite_v_to-fn.Request" -> _proposal_n_1 [label="ARG2-fn.NotExist"]
+	_prospective_a_1 -> _purchaser_n_1 [label=ARG1]
+	_from_p -> _proposal_n_1 [label=ARG1]
+	_the_q -> _unit_n_of [label=BV]
+	_from_p -> _purchaser_n_1 [label=ARG2]
+	_of_p -> _purchaser_n_1 [label=ARG1]
+	udef_q -> _proposal_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_invite_v_to-fn.Request" [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> "named(Clarcor)" [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	focus_d -> _like_p [label=ARG2]
+	udef_q -> _grey_a_1 [label=BV]
+	_like_p -> time_n [label=ARG2]
+	_now_a_1 -> time_n [label=ARG1]
+	_like_p -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_sometimes_a_1 -> _like_p [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _grey_a_1 [label="ARG2-fn.Means"]
+}

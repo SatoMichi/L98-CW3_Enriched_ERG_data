@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Surpassing" -> "named(Zipper)" [label="ARG1-fn.Standard_item"]
+	proper_q -> "named(Zipper)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_still_a_1 -> "_settle_v_down-fn.Attempt_suasion" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_to-fn.Surpassing" -> "_settle_v_down-fn.Attempt_suasion" [label="ARG2-fn.Profiled_item"]
+	_recent_a_1 -> "_correction_n_of-to" [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	compound -> "named(Zipper)" [label=ARG1]
+	_after_p -> "_correction_n_of-to" [label=ARG2]
+	"_settle_v_down-fn.Attempt_suasion" -> _market_n_1 [label="ARG1-fn.Content"]
+	_the_q -> "_correction_n_of-to" [label=BV]
+	_after_p -> "_settle_v_down-fn.Attempt_suasion" [label=ARG1]
+}

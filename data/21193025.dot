@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_re-_a_again" -> "_join_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(Group)" [label=BV]
+	"_join_v_1-fn.Halt" -> "named(Berry)" [label="ARG1-fn.Purpose"]
+	proper_q -> "named(WPP)" [label=BV]
+	"_join_v_1-fn.Halt" -> "named(Group)" [label="ARG2-fn.Place"]
+	compound -> "named(Group)" [label=ARG1]
+	compound -> "named(WPP)" [label=ARG2]
+	proper_q -> "named(Berry)" [label=BV]
+}

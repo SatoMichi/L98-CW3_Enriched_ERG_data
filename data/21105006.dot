@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _store_n_1 [label=ARG2]
+	_at_p -> _sale_n_of [label=ARG1]
+	"_estimate_v_at-fn.Activity_start" -> _analyst_n_1 [label="ARG1-fn.Place"]
+	_in_p_temp -> "_decline_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_in_p_temp -> _quarter_n_temp [label=ARG2]
+	"_estimate_v_at-fn.Activity_start" -> _too_a_also [label="ARG2-fn.Purpose"]
+	_too_a_also -> "_decline_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	udef_q -> _analyst_n_1 [label=BV]
+	compound -> _store_n_1 [label=ARG1]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _sale_n_of [label="ARG1-fn.Attribute"]
+	compound -> "named_n(US)" [label=ARG2]
+	udef_q -> "named_n(US)" [label=BV]
+	_the_q -> _quarter_n_temp [label=BV]
+	udef_q -> _store_n_1 [label=BV]
+}

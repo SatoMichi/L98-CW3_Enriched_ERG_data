@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_insist_v_1-fn.Statement" -> _analyst_n_1 [label="ARG1-fn.Agent"]
+	_behind_p -> part_of [label=ARG1]
+	_the_q -> _inflation_n_of [label=BV]
+	_some_q -> _analyst_n_1 [label=BV]
+	superl -> _bad_a_1 [label=ARG1]
+	_the_q -> part_of [label=BV]
+	part_of -> _inflation_n_of [label=ARG1]
+	_bad_a_1 -> part_of [label=ARG1]
+	"_insist_v_1-fn.Statement" -> _behind_p [label="ARG2-fn.Topic"]
+	_still_a_disc -> "_insist_v_1-fn.Statement" [label=ARG1]
+}

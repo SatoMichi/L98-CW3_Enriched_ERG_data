@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_good_a_at-for-of" -> "_fastball/nn_u_unknown" [label=ARG1]
+	poss -> pron [label=ARG2]
+	poss -> "_fastball/nn_u_unknown" [label=ARG1]
+	def_explicit_q -> "_fastball/nn_u_unknown" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

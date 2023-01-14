@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(9)" -> _percent_n_of [label=ARG1]
+	udef_q -> _profit_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> _percent_n_of [label=ARG2]
+	proper_q -> "named(Citicorp)" [label=BV]
+	"_post_v_1-fn.Social_event" -> _drop_n_of [label="ARG2-fn.Social_event"]
+	_a_q -> _drop_n_of [label=BV]
+	_in_p -> _profit_n_1 [label=ARG2]
+	compound -> _drop_n_of [label=ARG1]
+	"_post_v_1-fn.Social_event" -> "named(Citicorp)" [label="ARG1-fn.Duration"]
+	_in_p -> _drop_n_of [label=ARG1]
+	_quarterly_a_1 -> _profit_n_1 [label=ARG1]
+}

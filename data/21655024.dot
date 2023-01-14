@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _fairness_n_1 [label=BV]
+	"_rest_v_1-fn.State_continue" -> pron [label="ARG1-fn.NotExist"]
+	_exemplary_a_1 -> _fairness_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_proceed_v_with-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	parg_d -> _assure_v_of [label=ARG1]
+	"_proceed_v_with-fn.NF" -> _fairness_n_1 [label="ARG2-fn.NotExist"]
+	subord -> "_rest_v_1-fn.State_continue" [label=ARG1]
+	subord -> _assure_v_of [label=ARG2]
+}

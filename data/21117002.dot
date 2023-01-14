@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _seat_n_1 [label=BV]
+	_the_q -> _board_n_of [label=BV]
+	_to_p -> "_expand_v_1-fn.Experiencer_obj" [label=ARG1]
+	"card(17)" -> _seat_n_1 [label=ARG1]
+	_to_p -> _seat_n_1 [label=ARG2]
+	"_expand_v_1-fn.Experiencer_obj" -> _board_n_of [label="ARG1-fn.Experiencer"]
+}

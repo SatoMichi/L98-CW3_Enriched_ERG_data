@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_bizarre_a_1 -> part_of [label=ARG1]
+	_simple_a_1 -> _bizarre_a_1 [label=ARG1]
+	_the_q -> _allegation_n_1 [label=BV]
+	part_of -> _allegation_n_1 [label=ARG1]
+	_some_q -> part_of [label=BV]
+}

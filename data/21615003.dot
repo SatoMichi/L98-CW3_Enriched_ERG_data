@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_kind+of_x_deg" -> _safe_a_for [label=ARG1]
+	"_feel_v_seem-about-fn.Feeling" -> _safe_a_for [label="ARG2-fn.Stimulus"]
+	focus_d -> "_feel_v_seem-about-fn.Feeling" [label=ARG2]
+	_safe_a_for -> pron [label=ARG1]
+	"_feel_v_seem-about-fn.Feeling" -> pron [label="ARG1-fn.Experiencer"]
+	"_say_v_to-fn.IN" -> "_feel_v_seem-about-fn.Feeling" [label="ARG2-fn.Topic"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

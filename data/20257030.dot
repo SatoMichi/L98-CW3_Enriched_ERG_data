@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tell_v_1-fn.Telling" -> "named_n(CIA)" [label="ARG1-fn.NotExist"]
+	_do_v_1 -> pron [label=ARG1]
+	_do_v_1 -> "_counterespionage/nn_u_unknown" [label=ARG2]
+	"_tell_v_1-fn.Telling" -> neg [label="ARG3-fn.NotExist"]
+	neg -> _do_v_1 [label=ARG1]
+	udef_q -> "_counterespionage/nn_u_unknown" [label=BV]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG2-fn.NotExist"]
+	_domestic_a_1 -> "_counterespionage/nn_u_unknown" [label=ARG1]
+	_the_q -> "named_n(CIA)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

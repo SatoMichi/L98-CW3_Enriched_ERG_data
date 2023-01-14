@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_show_v_up-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	"_at+least_a_1" -> "_show_v_up-fn.Halt" [label=ARG1]
+	focus_d -> "_show_v_up-fn.Halt" [label=ARG1]
+}

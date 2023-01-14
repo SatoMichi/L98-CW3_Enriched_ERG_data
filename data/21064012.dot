@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_predict_v_1-fn.Predicting" -> "named(ATT)" [label="ARG1-fn.Cause"]
+	proper_q -> "named(ATT)" [label=BV]
+	"_predict_v_1-fn.Predicting" -> _growth_n_of [label="ARG2-fn.Topic"]
+	udef_q -> _demand_n_1 [label=BV]
+	_for_p -> _demand_n_1 [label=ARG1]
+	udef_q -> _growth_n_of [label=BV]
+	_in_p -> _demand_n_1 [label=ARG2]
+	_such_q -> _product_n_1 [label=BV]
+	_strong_a_1 -> _growth_n_of [label=ARG1]
+	_in_p -> _growth_n_of [label=ARG1]
+	_for_p -> _product_n_1 [label=ARG2]
+}

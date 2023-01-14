@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named_n(United_States)" [label=BV]
+	_remaining_a_1 -> _member_n_of [label=ARG1]
+	"_re-_a_again" -> "_join_v_1-fn.Competition" [label=ARG1]
+	"_ever+since_a_1" -> _desperate_a_for [label=ARG1]
+	_desperate_a_for -> _member_n_of [label=ARG1]
+	"_join_v_1-fn.Competition" -> _group_n_of [label="ARG2-fn.Participant_2"]
+	_desperate_a_for -> "_join_v_1-fn.Competition" [label=ARG2]
+	_dreadful_a_to -> _group_n_of [label=ARG1]
+	_the_q -> _member_n_of [label=BV]
+	_this_q_dem -> _group_n_of [label=BV]
+	focus_d -> _desperate_a_for [label=ARG1]
+	"_join_v_1-fn.Competition" -> "named_n(United_States)" [label="ARG1-fn.Participant_1"]
+}

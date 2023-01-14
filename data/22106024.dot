@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pianistic/jj_u_unknown" -> _music_n_1 [label=ARG1]
+	_the_q -> _music_n_1 [label=BV]
+	_of_p -> _performance_n_1 [label=ARG1]
+	_a_q -> _performance_n_1 [label=BV]
+	neg -> "_pianistic/jj_u_unknown" [label=ARG1]
+	_of_p -> pron [label=ARG2]
+	_bad_a_at -> _performance_n_1 [label=ARG1]
+	_indeed_a_1 -> _hard_a_for [label=ARG1]
+	_hard_a_for -> "_imagine_v_1-fn.Awareness" [label=ARG1]
+	_especially_a_1 -> "_pianistic/jj_u_unknown" [label=ARG1]
+	"_imagine_v_1-fn.Awareness" -> _performance_n_1 [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

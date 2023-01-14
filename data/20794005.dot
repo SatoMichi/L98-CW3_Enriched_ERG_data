@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_any_q -> _estimate_n_of [label=BV]
+	"_credible/jj_u_unknown" -> _estimate_n_of [label=ARG1]
+	_no_q -> person [label=BV]
+	"_have_v_1-fn.Competition" -> person [label="ARG1-fn.Participant_1"]
+	"_have_v_1-fn.Competition" -> _estimate_n_of [label="ARG2-fn.Participant_2"]
+}

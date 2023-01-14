@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "_end_v_1-fn.Process_start" [label=ARG1]
+	subord -> "_end_v_1-fn.Process_start" [label=ARG1]
+	subord -> _high_a_1 [label=ARG2]
+	compound -> "named(Treasury)" [label=ARG2]
+	comp -> _high_a_1 [label=ARG1]
+	"_end_v_1-fn.Process_start" -> _bond_n_1 [label="ARG1-fn.Event"]
+	udef_q -> _bond_n_1 [label=BV]
+	_light_a_of -> nominalization [label=ARG1]
+	_in_p -> nominalization [label=ARG2]
+	_slight_a_1 -> _high_a_1 [label=ARG1]
+	nominalization -> _trade_v_1 [label=ARG1]
+	proper_q -> "named(Treasury)" [label=BV]
+	udef_q -> nominalization [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+}

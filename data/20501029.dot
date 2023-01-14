@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _company_n_of [label=ARG2]
+	_the_q -> _project_n_1 [label=BV]
+	neg -> _be_v_id [label=ARG1]
+	_on_p -> _profit_n_1 [label=ARG1]
+	_only_a_1 -> _company_n_of [label=ARG1]
+	_on_p -> _project_n_1 [label=ARG2]
+	udef_q -> _profit_n_1 [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_willing_a_1 -> "_sacrifice_v_1-fn.NF" [label=ARG2]
+	"_sacrifice_v_1-fn.NF" -> _company_n_of [label="ARG1-fn.Agent"]
+	_willing_a_1 -> _company_n_of [label=ARG1]
+	_be_v_id -> "named(Fujitsu)" [label=ARG1]
+	proper_q -> "named(Fujitsu)" [label=BV]
+	"_sacrifice_v_1-fn.NF" -> _profit_n_1 [label="ARG2-fn.Theme"]
+}

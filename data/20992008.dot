@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_call_v_1-fn.IN" -> "_anecdotal/jj_u_unknown" [label="ARG3-fn.Result"]
+	"_call_v_1-fn.IN" -> pron [label="ARG2-fn.Theme"]
+	"_anecdotal/jj_u_unknown" -> pron [label=ARG1]
+	ellipsis_ref -> pron [label=ARG1]
+	_if_x_then -> ellipsis_ref [label=ARG2]
+	_if_x_then -> "_call_v_1-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

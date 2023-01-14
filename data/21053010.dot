@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _sin_n_1 [label="ARG1-fn.Agent"]
+	"_as+usual_a_1" -> "_say_v_to-fn.IN" [label=ARG1]
+	def_explicit_q -> _sin_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	"_say_v_to-fn.IN" -> "_think_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	poss -> _sin_n_1 [label=ARG1]
+	"_think_v_1-fn.IN" -> thing [label="ARG2-fn.NotExist"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _night_n_of [label=ARG2]
+	def_implicit_q -> "dofw(Sat)" [label=BV]
+	compound -> "named(Bush)" [label=ARG1]
+	def_explicit_q -> _night_n_of [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	of_p -> "dofw(Sat)" [label=ARG2]
+	of_p -> _night_n_of [label=ARG1]
+	loc_nonsp -> "_return_v_1-fn.State_continue" [label=ARG1]
+	"_return_v_1-fn.State_continue" -> "named(Bush)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Washington)" [label=BV]
+	_to_p -> "named(Washington)" [label=ARG2]
+	proper_q -> "named(Bush)" [label=BV]
+	_to_p -> "_return_v_1-fn.State_continue" [label=ARG1]
+}

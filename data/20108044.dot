@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	"_disagree_v_1-fn.NF" -> _court_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _court_n_of [label=BV]
+}

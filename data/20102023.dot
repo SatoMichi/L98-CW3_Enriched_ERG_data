@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q -> _problem_n_of [label=BV]
+	"_acknowledge_v_to-fn.Statement" -> _problem_n_of [label="ARG2-fn.Topic"]
+	"_acknowledge_v_to-fn.Statement" -> _company_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _company_n_of [label=BV]
+}

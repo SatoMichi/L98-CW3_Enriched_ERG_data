@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tell_v_1-fn.Telling" -> _unless_x [label="ARG3-fn.Recipient"]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG2-fn.Topic"]
+	_enter_v_1 -> pron [label=ARG1]
+	_unless_x -> "_accompany_v_1-fn.Cotheme" [label=ARG2]
+	"_accompany_v_1-fn.Cotheme" -> _inspector_n_1 [label="ARG1-fn.Agent"]
+	parg_d -> "_accompany_v_1-fn.Cotheme" [label=ARG1]
+	parg_d -> "_tell_v_1-fn.Telling" [label=ARG1]
+	_a_q -> _inspector_n_1 [label=BV]
+	_unless_x -> neg [label=ARG1]
+	"_accompany_v_1-fn.Cotheme" -> pron [label="ARG2-fn.Theme"]
+	parg_d -> pron [label=ARG2]
+	neg -> _can_v_modal [label=ARG1]
+	_can_v_modal -> _enter_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

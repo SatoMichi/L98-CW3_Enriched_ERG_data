@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> "dofm(9)" [label=BV]
+	def_implicit_q -> "mofy(Nov)" [label=BV]
+	compound -> _record_n_of [label=ARG2]
+	_the_q -> _date_n_of [label=BV]
+	udef_q -> _record_n_of [label=BV]
+	of_p -> "mofy(Nov)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _date_n_of [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> "dofm(9)" [label="ARG2-fn.Means"]
+	compound -> _date_n_of [label=ARG1]
+	of_p -> "dofm(9)" [label=ARG1]
+}

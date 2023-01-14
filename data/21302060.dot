@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> "named(Lloyds)" [label=ARG2]
+	udef_q -> "_dictator/nn_u_unknown" [label=BV]
+	_at_p -> "_be_v_id-fn.Residence" [label=ARG1]
+	"_be_v_id-fn.Residence" -> _tradition_n_1 [label="ARG1-fn.Resident"]
+	udef_q -> _tradition_n_1 [label=BV]
+	proper_q -> "named(Lloyds)" [label=BV]
+	"_be_v_id-fn.Residence" -> "_dictator/nn_u_unknown" [label="ARG2-fn.Location"]
+}

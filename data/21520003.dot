@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_only_x_deg -> udef_q [label=ARG1]
+	udef_q -> _site_n_1 [label=BV]
+	compound -> _priority_n_1 [label=ARG2]
+	"_decontaminated/vbn_u_unknown" -> generic_entity [label=ARG2]
+	compound -> _cleanup_n_1 [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	udef_q -> _priority_n_1 [label=BV]
+	"card(36)" -> generic_entity [label=ARG1]
+	compound -> _site_n_1 [label=ARG1]
+	"card(1,200)" -> _site_n_1 [label=ARG1]
+	udef_q -> _cleanup_n_1 [label=BV]
+	parg_d -> generic_entity [label=ARG2]
+	parg_d -> "_decontaminated/vbn_u_unknown" [label=ARG1]
+	_of_p -> generic_entity [label=ARG1]
+	_of_p -> _site_n_1 [label=ARG2]
+}

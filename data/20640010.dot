@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"_predict_v_1-fn.Predicting" -> "named(Lagnado)" [label="ARG1-fn.Cause"]
+	_the_q -> _trend_n_1 [label=BV]
+	_regional_a_1 -> _trend_n_1 [label=ARG1]
+	"_predict_v_1-fn.Predicting" -> _would_v_modal [label="ARG2-fn.Topic"]
+	proper_q -> "named(Lagnado)" [label=BV]
+	"_continue_v_1-fn.Process_continue" -> _trend_n_1 [label="ARG1-fn.NotExist"]
+	_through_p -> "holiday(Christmas)" [label=ARG2]
+	udef_q -> "holiday(Christmas)" [label=BV]
+	compound -> "named(Lagnado)" [label=ARG1]
+	_would_v_modal -> "_continue_v_1-fn.Process_continue" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_through_p -> "_continue_v_1-fn.Process_continue" [label=ARG1]
+}

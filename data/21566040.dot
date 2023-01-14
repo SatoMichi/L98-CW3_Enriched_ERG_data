@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_so_a_thus -> _and_c [label=ARG1]
+	_that_q_dem -> _debt_n_1 [label=BV]
+	def_implicit_q -> place_n [label=BV]
+	"_eat_v_1-fn.Ingestion" -> pron [label="ARG1-fn.Agent"]
+	"_eat_v_1-fn.Ingestion" -> _debt_n_1 [label="ARG2-fn.Patient"]
+	_out_p_dir -> place_n [label=ARG2]
+	_there_a_1 -> place_n [label=ARG1]
+	_out_p_dir -> _go_v_1 [label=ARG1]
+	_go_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

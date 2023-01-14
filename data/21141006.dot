@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_re-_a_again" -> "_make_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Israel)" [label=BV]
+	"_like_v_1-fn.Cure" -> pron [label="ARG1-fn.Healer"]
+	parg_d -> "named(Israel)" [label=ARG2]
+	"_make_v_1-fn.Competition" -> "_demography/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	parg_d -> "_make_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Lebanon)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_like_v_1-fn.Cure" -> "named(Lebanon)" [label="ARG2-fn.Patient"]
+	"_make_v_1-fn.Competition" -> "named(Israel)" [label="ARG2-fn.Participant_2"]
+	udef_q -> "_demography/nn_u_unknown" [label=BV]
+}

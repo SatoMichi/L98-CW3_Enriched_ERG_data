@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _manufacture_v_1 [label=ARG1]
+	compound -> _export_n_of [label=ARG1]
+	compound -> _goods_n_1 [label=ARG2]
+	udef_q -> _goods_n_1 [label=BV]
+	parg_d -> _goods_n_1 [label=ARG2]
+	_still_a_1 -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _export_n_of [label="ARG1-fn.NotExist"]
+	_manufacture_v_1 -> _goods_n_1 [label=ARG2]
+	"_add_v_to-fn.NF" -> "_rise_v_1-fn.Change_position_on_a_scale" [label="ARG2-fn.Topic"]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _export_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

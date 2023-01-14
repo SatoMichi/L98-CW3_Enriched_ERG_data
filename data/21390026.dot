@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	focus_d -> _fun_a_for [label=ARG2]
+	_as_p -> _compete_v_1 [label=ARG1]
+	proper_q -> "named(Brawer)" [label=BV]
+	compound -> "named(Brawer)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Brawer)" [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> _fun_a_for [label="ARG2-fn.Topic"]
+	_as_p -> _company_n_of [label=ARG2]
+	_private_a_1 -> _company_n_of [label=ARG1]
+	_a_q -> _company_n_of [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_fun_a_for -> _compete_v_1 [label=ARG1]
+}

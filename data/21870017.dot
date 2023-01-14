@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _strain_n_1 [label=ARG2]
+	_the_q -> _slack_n_1 [label=BV]
+	_absorb_v_1 -> _slack_n_1 [label=ARG1]
+	"_pull_v_1-fn.IN" -> _strain_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _strain_n_1 [label=BV]
+	"_generate_v_1-fn.IN" -> _earthquake_n_1 [label="ARG1-fn.NotExist"]
+	_absorb_v_1 -> _strain_n_1 [label=ARG2]
+	"_generate_v_1-fn.IN" -> _strain_n_1 [label="ARG2-fn.Theme"]
+	parg_d -> "_generate_v_1-fn.IN" [label=ARG1]
+	_a_q -> _earthquake_n_1 [label=BV]
+}

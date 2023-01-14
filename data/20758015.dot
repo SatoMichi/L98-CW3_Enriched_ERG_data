@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_playoff/nn_u_unknown" [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	compound -> _fan_n_1 [label=ARG1]
+	compound -> _series_n_of [label=ARG1]
+	compound -> "named(Giants)" [label=ARG2]
+	"card(12-)" -> _year_n_1 [label=ARG1]
+	compound -> "_playoff/nn_u_unknown" [label=ARG2]
+	"_rivet_v_1-fn.Change_position_on_a_scale" -> _series_n_of [label="ARG1-fn.Attribute"]
+	measure -> _old_a_1 [label=ARG1]
+	proper_q -> "named(Giants)" [label=BV]
+	_the_q -> _fan_n_1 [label=BV]
+	_the_q -> _series_n_of [label=BV]
+	"_rivet_v_1-fn.Change_position_on_a_scale" -> _fan_n_1 [label="ARG2-fn.Item"]
+	measure -> _year_n_1 [label=ARG2]
+	_old_a_1 -> _fan_n_1 [label=ARG1]
+}

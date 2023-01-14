@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _or_c [label="ARG2-fn.Means"]
+	number_q -> "card(206)" [label=BV]
+	number_q -> "card(103)" [label=BV]
+	udef_q -> _or_c [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

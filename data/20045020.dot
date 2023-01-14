@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _material_n_1 [label=BV]
+	_about_x_deg -> "card(90)" [label=ARG1]
+	"card(90)" -> _student_n_of [label=ARG1]
+	_each_q -> _set_n_of [label=BV]
+	"_reach_v_1-fn.NF" -> _student_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> _student_n_of [label=BV]
+	"_reach_v_1-fn.NF" -> _material_n_1 [label="ARG1-fn.NotExist"]
+	_in_p -> _material_n_1 [label=ARG1]
+	_in_p -> _set_n_of [label=ARG2]
+}

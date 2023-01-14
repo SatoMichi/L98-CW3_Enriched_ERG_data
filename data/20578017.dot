@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _matter_n_of [label=BV]
+	parg_d -> _matter_n_of [label=ARG2]
+	_in_p -> _court_n_of [label=ARG2]
+	parg_d -> "_try_v_1-fn.Competition" [label=ARG1]
+	_never_a_1 -> "_try_v_1-fn.Competition" [label=ARG1]
+	idiom_q_i -> _court_n_of [label=BV]
+	"_try_v_1-fn.Competition" -> _matter_n_of [label="ARG2-fn.Participant_2"]
+	_even_a_1 -> "_try_v_1-fn.Competition" [label=ARG1]
+	_in_p -> "_try_v_1-fn.Competition" [label=ARG1]
+	"_may_v_modal-fn.Communication_manner" -> _never_a_1 [label="ARG1-fn.Speaker"]
+}

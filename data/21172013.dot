@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_start_v_1-fn.Activity_start" -> "_predict_v_1-fn.Predicting" [label="ARG1-fn.NotExist"]
+	udef_q -> _economist_n_1 [label=BV]
+	"_predict_v_1-fn.Predicting" -> _economist_n_1 [label="ARG1-fn.Cause"]
+	_next_a_1 -> _year_n_1 [label=ARG1]
+	def_implicit_q -> _year_n_1 [label=BV]
+	_mild_a_1 -> _recession_n_1 [label=ARG1]
+	loc_nonsp -> "_predict_v_1-fn.Predicting" [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	"much-many_a" -> _economist_n_1 [label=ARG1]
+	_a_q -> _recession_n_1 [label=BV]
+	"_predict_v_1-fn.Predicting" -> _recession_n_1 [label="ARG2-fn.Topic"]
+}

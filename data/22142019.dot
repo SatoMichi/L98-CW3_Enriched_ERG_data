@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _pace_n_1 [label=ARG1]
+	_the_q -> "_half-hour_n_1" [label=BV]
+	_horrendous_a_to -> _pace_n_1 [label=ARG1]
+	"ord(1)" -> "_half-hour_n_1" [label=ARG1]
+	compound -> _volume_n_of [label=ARG1]
+	_considerable_a_1 -> "_slow_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _pace_n_1 [label=BV]
+	udef_q -> _volume_n_of [label=BV]
+	compound -> _call_n_1 [label=ARG2]
+	udef_q -> _call_n_1 [label=BV]
+	_in_p_temp -> "_half-hour_n_1" [label=ARG2]
+	_in_p_temp -> _volume_n_of [label=ARG1]
+	"_slow_v_1-fn.Competition" -> _pace_n_1 [label="ARG1-fn.Participant_1"]
+	_of_p -> _volume_n_of [label=ARG2]
+}

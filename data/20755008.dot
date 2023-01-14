@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_future_a_1 -> _supply_n_1 [label=ARG1]
+	"_try_v_1-fn.Attempt" -> _lock_v_in [label="ARG2-fn.Theme"]
+	_some_q -> _company_n_of [label=BV]
+	"_try_v_1-fn.Attempt" -> _company_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _supply_n_1 [label=BV]
+	_lock_v_in -> _company_n_of [label=ARG1]
+	_lock_v_in -> _supply_n_1 [label=ARG2]
+	udef_q -> _oil_n_1 [label=BV]
+	compound -> _company_n_of [label=ARG1]
+	compound -> _oil_n_1 [label=ARG2]
+}

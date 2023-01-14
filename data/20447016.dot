@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_these_q_dem -> _figure_n_1 [label=BV]
+	_the_q -> _dollar_n_1 [label=BV]
+	part_of -> _strength_n_1 [label=ARG1]
+	_of_p -> _strength_n_1 [label=ARG1]
+	_of_p -> _dollar_n_1 [label=ARG2]
+	parg_d -> _revise_v_1 [label=ARG1]
+	_revise_v_1 -> _figure_n_1 [label=ARG2]
+	_also_a_1 -> _may_v_modal [label=ARG1]
+	_may_v_modal -> "_explain_v_to-fn.Explaining_the_facts" [label=ARG1]
+	"_explain_v_to-fn.Explaining_the_facts" -> part_of [label="ARG2-fn.Topic"]
+	parg_d -> _figure_n_1 [label=ARG2]
+	_the_q -> _strength_n_1 [label=BV]
+	_some_q -> part_of [label=BV]
+	"_explain_v_to-fn.Explaining_the_facts" -> _figure_n_1 [label="ARG1-fn.Agent"]
+	_recent_a_1 -> _strength_n_1 [label=ARG1]
+}

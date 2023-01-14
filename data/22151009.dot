@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Ovcharenko)" [label=ARG1]
+	_to_p -> _head_n_of [label=ARG2]
+	proper_q -> "named(Ovcharenko)" [label=BV]
+	def_explicit_q -> _head_n_of [label=BV]
+	poss -> _head_n_of [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_of_p -> _freedom_n_1 [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_the_q -> _freedom_n_1 [label=BV]
+	"_go_v_1-fn.Competition" -> _freedom_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> "_glasnost/fw_u_unknown" [label=BV]
+	_to_p -> "_go_v_1-fn.Competition" [label=ARG1]
+	_of_p -> "_glasnost/fw_u_unknown" [label=ARG2]
+	poss -> "named(Ovcharenko)" [label=ARG2]
+}

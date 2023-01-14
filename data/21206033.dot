@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(TV)" [label=ARG2]
+	poss -> _equity_n_1 [label=ARG1]
+	"_contend_v_1-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	_now_a_1 -> _worthless_a_to [label=ARG1]
+	proper_q -> "named(TV)" [label=BV]
+	compound -> "named(SCI)" [label=ARG2]
+	def_explicit_q -> _equity_n_1 [label=BV]
+	_worthless_a_to -> _equity_n_1 [label=ARG1]
+	compound -> "named(TV)" [label=ARG1]
+	"_contend_v_1-fn.Statement" -> _worthless_a_to [label="ARG2-fn.Theme"]
+	proper_q -> "named(SCI)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _people_n_of [label=BV]
+	"_wonder_v_1-fn.Competition" -> "_going+to_v_qmodal" [label="ARG2-fn.Participant_2"]
+	"_wonder_v_1-fn.Competition" -> _people_n_of [label="ARG1-fn.Participant_1"]
+	_next_a_1 -> "_happen_v_1-fn.Competition" [label=ARG1]
+	which_q -> thing [label=BV]
+	"_happen_v_1-fn.Competition" -> thing [label="ARG1-fn.Participant_1"]
+	"_going+to_v_qmodal" -> "_happen_v_1-fn.Competition" [label="ARG1-fn.Process"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _agency_n_1 [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	compound -> _agency_n_1 [label=ARG1]
+	_of_p -> _hand_n_1 [label=ARG1]
+	_right_a_1 -> generic_entity [label=ARG1]
+	_of_p -> _agency_n_1 [label=ARG2]
+	compound -> _advertising_n_1 [label=ARG2]
+	_into_p -> _hand_n_1 [label=ARG2]
+	_into_p -> _right_a_1 [label=ARG1]
+	_the_q -> _hand_n_1 [label=BV]
+	"_play_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Agent"]
+	udef_q -> _advertising_n_1 [label=BV]
+	"_play_v_1-fn.Competition" -> _right_a_1 [label="ARG2-fn.NotExist"]
+}

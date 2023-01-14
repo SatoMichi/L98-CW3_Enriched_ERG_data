@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _brush_n_1 [label=BV]
+	"_have_v_1-fn.State_continue" -> _brush_n_1 [label="ARG2-fn.State"]
+	_the_q -> _law_n_1 [label=BV]
+	_with_p -> _brush_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_other_a_1 -> _brush_n_1 [label=ARG1]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	_with_p -> _law_n_1 [label=ARG2]
+}

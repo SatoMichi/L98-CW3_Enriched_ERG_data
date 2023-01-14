@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _way_n_of [label=ARG2]
+	_a_q -> _way_n_of [label=BV]
+	loc_nonsp -> "_go_v_1-fn.Competition" [label=ARG1]
+	"_in+order+to_x" -> "_go_v_1-fn.Competition" [label=ARG1]
+	_long_a_1 -> _way_n_of [label=ARG1]
+	"_catch_v_up-fn.Impact" -> _japanese_n_1 [label="ARG1-fn.Place"]
+	"_in+order+to_x" -> "_catch_v_up-fn.Impact" [label=ARG2]
+	"_go_v_1-fn.Competition" -> _japanese_n_1 [label="ARG1-fn.Participant_1"]
+	_the_q -> _japanese_n_1 [label=BV]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_in+order+to_x" [label="ARG1-fn.Process"]
+}

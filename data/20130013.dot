@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tumble_v_1-fn.NF" -> _court_n_of [label="ARG1-fn.NotExist"]
+	_quick_a_1 -> "_tumble_v_1-fn.NF" [label=ARG1]
+	_a_q -> _slope_n_1 [label=BV]
+	_down_p -> "_tumble_v_1-fn.NF" [label=ARG1]
+	_slippery_a_1 -> _slope_n_1 [label=ARG1]
+	_down_p -> _slope_n_1 [label=ARG2]
+	udef_q -> _court_n_of [label=BV]
+}

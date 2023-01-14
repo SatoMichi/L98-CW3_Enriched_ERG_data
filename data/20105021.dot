@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _homeless_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _or_c [label="ARG2-fn.Theme"]
+	udef_q -> _illness_n_1 [label=BV]
+	"_pre-_a_ante" -> _exist_v_1 [label=ARG1]
+	_mental_a_1 -> _illness_n_1 [label=ARG1]
+	udef_q -> _or_c [label=BV]
+	udef_q -> _addiction_n_to [label=BV]
+	_exist_v_1 -> _or_c [label=ARG1]
+	"_have_v_1-fn.IN" -> part_of [label="ARG1-fn.Pivot"]
+	part_of -> _homeless_n_1 [label=ARG1]
+	_some_q -> part_of [label=BV]
+	_obvious_a_to -> "_have_v_1-fn.IN" [label=ARG1]
+}

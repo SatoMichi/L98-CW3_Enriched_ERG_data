@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> nominalization [label=ARG2]
+	comp_enough -> _bad_a_at [label=ARG1]
+	"_in+order+to_x" -> "_kill_v_1-fn.Killing" [label=ARG2]
+	_the_q -> _demand_n_1 [label=BV]
+	_financial_a_1 -> nominalization [label=ARG1]
+	"_kill_v_1-fn.Killing" -> _news_n_of [label="ARG1-fn.Agent"]
+	_bad_a_at -> _news_n_of [label=ARG1]
+	_for_p -> _demand_n_1 [label=ARG1]
+	nominalization -> _plan_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_grow_v_1 -> _demand_n_1 [label=ARG1]
+	"_kill_v_1-fn.Killing" -> _demand_n_1 [label="ARG2-fn.Patient"]
+	"_in+order+to_x" -> _bad_a_at [label=ARG1]
+	_the_q -> _news_n_of [label=BV]
+	neg -> "_in+order+to_x" [label=ARG1]
+}

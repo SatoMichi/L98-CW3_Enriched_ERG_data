@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _crazy_a_1 [label=ARG2]
+	_maybe_a_1 -> _crazy_a_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	_crazy_a_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _maybe_a_1 [label="ARG2-fn.Requirement"]
+}

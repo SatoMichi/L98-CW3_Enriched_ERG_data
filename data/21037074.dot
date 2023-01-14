@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q -> time_n [label=BV]
+	generic_verb -> "_weaken_v_1-fn.Rite" [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	loc_nonsp -> "_weaken_v_1-fn.Rite" [label=ARG1]
+	"_weaken_v_1-fn.Rite" -> _sale_n_of [label="ARG1-fn.Leader"]
+	pronoun_q -> pron [label=BV]
+	"_how+about_x" -> generic_verb [label=ARG1]
+	poss -> _sale_n_of [label=ARG1]
+	def_explicit_q -> _sale_n_of [label=BV]
+	poss -> pron [label=ARG2]
+}

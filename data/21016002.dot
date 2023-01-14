@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(40.6)" -> _percent_n_of [label=ARG1]
+	compound -> _state_n_of [label=ARG2]
+	_of_p -> _percent_n_of [label=ARG1]
+	proper_q -> "named(Orkem)" [label=BV]
+	parg_d -> _control_v_1 [label=ARG1]
+	"_own_v_1-fn.NF" -> "named(Orkem)" [label="ARG1-fn.Pivot"]
+	proper_q -> "named(Coates)" [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	parg_d -> "named(Orkem)" [label=ARG2]
+	_already_a_1 -> "_own_v_1-fn.NF" [label=ARG1]
+	"_own_v_1-fn.NF" -> _percent_n_of [label="ARG2-fn.Theme"]
+	compound -> _control_v_1 [label=ARG1]
+	udef_q -> _state_n_of [label=BV]
+	_control_v_1 -> "named(Orkem)" [label=ARG2]
+	_of_p -> "named(Coates)" [label=ARG2]
+}

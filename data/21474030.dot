@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _give_v_up [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _give_v_up [label="ARG2-fn.Topic"]
+	_american_a_1 -> _investor_n_1 [label=ARG1]
+	_just_a_1 -> _give_v_up [label=ARG1]
+	proper_q -> "named(Brody)" [label=BV]
+	compound -> "named(Brody)" [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Brody)" [label="ARG1-fn.Agent"]
+	_most_q -> _investor_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_give_v_up -> _investor_n_1 [label=ARG1]
+}

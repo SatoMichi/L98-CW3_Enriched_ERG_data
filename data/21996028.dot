@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_present_a_1 -> _condition_n_1 [label=ARG1]
+	_the_q -> _condition_n_1 [label=BV]
+	"_ignore_v_1-fn.Process_resume" -> pron [label="ARG1-fn.Duration"]
+	pronoun_q -> pron [label=BV]
+	"_ignore_v_1-fn.Process_resume" -> _condition_n_1 [label="ARG2-fn.Process"]
+}

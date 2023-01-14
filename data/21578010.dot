@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Surpassing" -> _trader_n_1 [label="ARG1-fn.Standard_item"]
+	udef_q -> _factor_n_1 [label=BV]
+	"_trigger_v_1-fn.Competition" -> _rally_n_1 [label="ARG2-fn.Participant_2"]
+	"_say_v_to-fn.Surpassing" -> "_trigger_v_1-fn.Competition" [label="ARG2-fn.Profiled_item"]
+	"_variety_n_of-n" -> _factor_n_1 [label=ARG1]
+	_a_q -> "_variety_n_of-n" [label=BV]
+	"_trigger_v_1-fn.Competition" -> "_variety_n_of-n" [label="ARG1-fn.Participant_1"]
+	_the_q -> _rally_n_1 [label=BV]
+	udef_q -> _trader_n_1 [label=BV]
+}

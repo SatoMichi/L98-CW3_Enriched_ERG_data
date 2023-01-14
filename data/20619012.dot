@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _official_n_1 [label=ARG1]
+	neg -> "_could_v_modal-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _official_n_1 [label=BV]
+	parg_d -> _official_n_1 [label=ARG2]
+	udef_q -> _comment_n_1 [label=BV]
+	_at_p -> "named(Power)" [label=ARG2]
+	proper_q -> "named(Gulf)" [label=BV]
+	_for_p -> "_reach_v_1-fn.Competition" [label=ARG1]
+	"_reach_v_1-fn.Competition" -> _official_n_1 [label="ARG2-fn.Participant_2"]
+	compound -> "named(Gulf)" [label=ARG2]
+	parg_d -> "_reach_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Power)" [label=BV]
+	"_could_v_modal-fn.Cause_to_end" -> "_reach_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_for_p -> _comment_n_1 [label=ARG2]
+	compound -> "named(Power)" [label=ARG1]
+}

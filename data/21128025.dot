@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _change_n_of [label=ARG2]
+	_ripe_a_1 -> _industry_n_1 [label=ARG1]
+	compound -> _apple_n_1 [label=ARG2]
+	compound -> _industry_n_1 [label=ARG1]
+	udef_q -> _change_n_of [label=BV]
+	_the_q -> _industry_n_1 [label=BV]
+	_for_p -> _ripe_a_1 [label=ARG1]
+	udef_q -> _apple_n_1 [label=BV]
+}

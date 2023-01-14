@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_way_n_of -> "_promote_v_1-fn.NF" [label=ARG1]
+	_be_v_there -> _way_n_of [label=ARG1]
+	"_promote_v_1-fn.NF" -> _cause_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _cause_n_of [label=BV]
+	"_good_a_at-for-of" -> _way_n_of [label=ARG1]
+	comp -> "_good_a_at-for-of" [label=ARG1]
+	udef_q -> _way_n_of [label=BV]
+}

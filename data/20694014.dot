@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Council)" [label=BV]
+	unknown -> "named(Council)" [label=ARG]
+	proper_q -> "named(National)" [label=BV]
+	_the_q -> "named(Handicapped)" [label=BV]
+	compound -> "named(Council)" [label=ARG1]
+	_on_p -> "named(Handicapped)" [label=ARG2]
+	compound -> "named(National)" [label=ARG2]
+	_on_p -> "named(Council)" [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_type_v_1-fn.Text_creation" [label=ARG1]
+	"_type_v_1-fn.Text_creation" -> generic_entity [label="ARG2-fn.Theme"]
+	_a_q -> _position_n_of [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	parg_d -> "_type_v_1-fn.Text_creation" [label=ARG1]
+	_in_p -> "_type_v_1-fn.Text_creation" [label=ARG1]
+	unknown -> nominalization [label=ARG]
+	_in_p -> _position_n_of [label=ARG2]
+	_stand_v_1 -> _position_n_of [label=ARG1]
+	parg_d -> generic_entity [label=ARG2]
+	udef_q -> nominalization [label=BV]
+}

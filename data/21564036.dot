@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fall_v_1-fn.Motion_directional" -> _result_n_of [label="ARG1-fn.NotExist"]
+	_a_q -> _probability_n_of [label=BV]
+	def_explicit_q -> _result_n_of [label=BV]
+	compound -> _probability_n_of [label=ARG1]
+	poss -> _year_n_1 [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	_any_q -> _year_n_1 [label=BV]
+	compound -> _percent_n_of [label=ARG2]
+	_in_p -> _range_n_of [label=ARG2]
+	_the_q -> _range_n_of [label=BV]
+	_be_v_there -> _probability_n_of [label=ARG1]
+	_probability_n_of -> "_fall_v_1-fn.Motion_directional" [label=ARG1]
+	poss -> _result_n_of [label=ARG1]
+	_in_p -> "_fall_v_1-fn.Motion_directional" [label=ARG1]
+	"card(95)" -> _percent_n_of [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_flunk_v_1-fn.Change_position_on_a_scale" -> _test_n_of [label="ARG2-fn.Item"]
+	_the_q -> _charity_n_1 [label=BV]
+	parg_d -> _charity_n_1 [label=ARG2]
+	_a_q -> _third_n_of [label=BV]
+	_the_q -> _test_n_of [label=BV]
+	_third_n_of -> _charity_n_1 [label=ARG1]
+	parg_d -> "_review_v_1-fn.Activity_prepare" [label=ARG1]
+	_roughly_x_deg -> _a_q [label=ARG1]
+	"_review_v_1-fn.Activity_prepare" -> _charity_n_1 [label="ARG2-fn.Activity"]
+	"_flunk_v_1-fn.Change_position_on_a_scale" -> _third_n_of [label="ARG1-fn.Attribute"]
+}

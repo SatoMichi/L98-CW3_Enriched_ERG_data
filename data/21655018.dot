@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _drop_n_of [label=BV]
+	udef_q -> _water_n_1 [label=BV]
+	"_mind_v_1-fn.NF" -> pron [label="ARG1-fn.Experiencer"]
+	"_pour_v_1-fn.Mass_motion" -> _drop_n_of [label="ARG2-fn.Theme"]
+	_drop_n_of -> _water_n_1 [label=ARG1]
+	_if_x_then -> "_pour_v_1-fn.Mass_motion" [label=ARG1]
+	neg -> "_mind_v_1-fn.NF" [label=ARG1]
+	_if_x_then -> neg [label=ARG2]
+	"_pour_v_1-fn.Mass_motion" -> pron [label="ARG3-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

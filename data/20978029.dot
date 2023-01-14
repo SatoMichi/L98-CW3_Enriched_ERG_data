@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "_switch_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	_the_q -> _computer_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _computer_n_1 [label="ARG1-fn.Agent"]
+	"_switch_v_1-fn.IN" -> "named(Renaissance)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Renaissance)" [label=BV]
+	"_switch_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_when_x_subord -> "_say_v_to-fn.IN" [label=ARG2]
+	_when_x_subord -> "_switch_v_1-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

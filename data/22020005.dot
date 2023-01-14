@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(John)" [label=ARG2]
+	"_resign_v_1-fn.Competition" -> "named(Wilpers)" [label="ARG1-fn.Participant_1"]
+	_as_p_nbar -> "_editor+in+chief_n_1" [label=ARG2]
+	udef_q -> "_editor+in+chief_n_1" [label=BV]
+	proper_q -> "named(Wilpers)" [label=BV]
+	_as_p_nbar -> "_resign_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Wilpers)" [label=ARG1]
+	proper_q -> "named(John)" [label=BV]
+}

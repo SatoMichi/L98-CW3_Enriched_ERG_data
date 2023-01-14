@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.State_continue" -> _share_n_of [label="ARG2-fn.State"]
+	compound -> "named(SEC)" [label=ARG2]
+	"card(1,143)" -> _share_n_of [label=ARG1]
+	"_according+to_p" -> "_have_v_1-fn.State_continue" [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	udef_q -> _file_n_of [label=BV]
+	"_according+to_p" -> _file_n_of [label=ARG2]
+	_still_a_1 -> "_have_v_1-fn.State_continue" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(SEC)" [label=BV]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	compound -> _file_n_of [label=ARG1]
+}

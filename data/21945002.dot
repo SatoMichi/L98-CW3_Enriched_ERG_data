@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> "_vote_v_1-fn.NF" [label=ARG1]
+	udef_q -> _stockholder_n_1 [label=BV]
+	of_p -> "dofm(13)" [label=ARG1]
+	"_vote_v_1-fn.NF" -> _stockholder_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _proposal_n_1 [label=BV]
+	_at_p -> _meeting_n_of [label=ARG2]
+	loc_nonsp -> "dofm(13)" [label=ARG2]
+	of_p -> "mofy(Dec)" [label=ARG2]
+	_a_q -> _meeting_n_of [label=BV]
+	def_explicit_q -> "dofm(13)" [label=BV]
+	def_implicit_q -> "mofy(Dec)" [label=BV]
+	loc_nonsp -> _meeting_n_of [label=ARG1]
+	_on_p -> _proposal_n_1 [label=ARG2]
+	_at_p -> "_vote_v_1-fn.NF" [label=ARG1]
+}

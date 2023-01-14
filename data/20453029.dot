@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_consider_v_1-fn.Categorization" -> pron [label="ARG1-fn.Agent"]
+	"_consider_v_1-fn.Categorization" -> generic_entity [label="ARG3-fn.NotExist"]
+	compound -> _ambulance_n_1 [label=ARG2]
+	neg -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _ambulance_n_1 [label=BV]
+	compound -> nominalization [label=ARG1]
+	nominalization -> _chase_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_consider_v_1-fn.Categorization" -> nominalization [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(10)" -> _percent_n_of [label=ARG1]
+	"_create_v_1-fn.Creating" -> _ceiling_n_1 [label="ARG1-fn.Cause"]
+	focus_d -> "_create_v_1-fn.Creating" [label=ARG1]
+	_some_q -> _bank_n_of [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	"_create_v_1-fn.Creating" -> _problem_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _problem_n_of [label=BV]
+	_for_p -> "_create_v_1-fn.Creating" [label=ARG1]
+	compound -> _percent_n_of [label=ARG2]
+	focus_d -> _for_p [label=ARG2]
+	_for_p -> _bank_n_of [label=ARG2]
+	_that_q_dem -> _ceiling_n_1 [label=BV]
+	compound -> _ceiling_n_1 [label=ARG1]
+}

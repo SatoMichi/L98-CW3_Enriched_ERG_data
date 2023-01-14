@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _billionaire_n_1 [label=BV]
+	"_call_v_name-fn.IN" -> _people_n_of [label="ARG1-fn.Agent"]
+	"_tell_v_1-fn.Telling" -> "_call_v_name-fn.IN" [label="ARG3-fn.Recipient"]
+	udef_q -> _visitor_n_of [label=BV]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG1-fn.Agent"]
+	"_tell_v_1-fn.Telling" -> _visitor_n_of [label="ARG2-fn.Topic"]
+	_communist_a_1 -> _billionaire_n_1 [label=ARG1]
+	focus_d -> "_call_v_name-fn.IN" [label=ARG2]
+	"_call_v_name-fn.IN" -> pron [label="ARG3-fn.Result"]
+	_some_q -> _people_n_of [label=BV]
+	"_call_v_name-fn.IN" -> _billionaire_n_1 [label="ARG2-fn.Theme"]
+	focus_d -> "_tell_v_1-fn.Telling" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

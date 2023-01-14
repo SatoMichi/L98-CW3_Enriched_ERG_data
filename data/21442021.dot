@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"ord(2)" -> _quarter_n_temp [label=ARG1]
+	_a_q -> _loss_n_of [label=BV]
+	"_have_v_1-fn.Commerce_collect" -> pron [label="ARG1-fn.Buyer"]
+	compound -> _dollar_n_1 [label=ARG2]
+	_in_p_temp -> _quarter_n_temp [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	_in_p_temp -> "_have_v_1-fn.Commerce_collect" [label=ARG1]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_have_v_1-fn.Commerce_collect" -> _loss_n_of [label="ARG2-fn.Goods"]
+	times -> "card(258.9)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _quarter_n_temp [label=BV]
+	compound -> _loss_n_of [label=ARG1]
+}

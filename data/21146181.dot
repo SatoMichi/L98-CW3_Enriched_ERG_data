@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_build_v_1-fn.Activity_stop" -> _center_n_of [label="ARG2-fn.Place"]
+	udef_q -> _shop_n_of [label=BV]
+	parg_d -> _center_n_of [label=ARG2]
+	_a_q -> _center_n_of [label=BV]
+	parg_d -> "_build_v_1-fn.Activity_stop" [label=ARG1]
+	unknown -> _shop_n_of [label=ARG]
+	_cultural_a_1 -> _center_n_of [label=ARG1]
+}

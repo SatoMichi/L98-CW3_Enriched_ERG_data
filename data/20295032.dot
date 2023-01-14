@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _job_n_of [label=BV]
+	proper_q -> "named(Spielvogel)" [label=BV]
+	compound -> "named(Spielvogel)" [label=ARG1]
+	"_be_v_id-fn.Residence" -> _reason_n_for [label="ARG2-fn.Location"]
+	compound -> "named(Backer)" [label=ARG2]
+	proper_q -> "named(Backer)" [label=BV]
+	_another_q -> _reason_n_for [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	_for_p -> _job_n_of [label=ARG2]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	_for_p -> _reason_n_for [label=ARG1]
+	compound -> _job_n_of [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_since_p -> _scarce_a_1 [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	_back_p -> place_n [label=ARG1]
+	number_q -> "card(’86)" [label=BV]
+	def_implicit_q -> place_n [label=BV]
+	_outside_a_1 -> _investor_n_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	"_edge_v_1-fn.Change_position_on_a_scale" -> _investor_n_1 [label="ARG1-fn.Attribute"]
+	loc_nonsp -> "_edge_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_since_p -> "card(’86)" [label=ARG2]
+	_scarce_a_1 -> _investor_n_1 [label=ARG1]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_sale_n_of -> "named(Unit)" [label=ARG1]
+	compound -> "named(Saatchi)" [label=ARG2]
+	unknown -> _sale_n_of [label=ARG]
+	compound -> "named(Unit)" [label=ARG1]
+	proper_q -> "named(Saatchi)" [label=BV]
+	proper_q -> "named(Unit)" [label=BV]
+	udef_q -> _sale_n_of [label=BV]
+}

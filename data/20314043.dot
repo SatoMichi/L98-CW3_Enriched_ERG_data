@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_require_v_of-fn.NF" -> generic_entity [label="ARG1-fn.Pivot"]
+	_define_v_1 -> thing [label=ARG2]
+	"_re-_a_again" -> _define_v_1 [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	_be_v_id -> _care_n_1 [label=ARG2]
+	free_relative_q -> thing [label=BV]
+	"_require_v_of-fn.NF" -> _and_c [label="ARG3-fn.Source"]
+	_be_v_id -> thing [label=ARG1]
+	_necessary_a_for -> _care_n_1 [label=ARG1]
+	_define_v_1 -> pron [label=ARG1]
+	_appropriate_a_to -> _care_n_1 [label=ARG1]
+	udef_q -> _care_n_1 [label=BV]
+	"_require_v_of-fn.NF" -> pron [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

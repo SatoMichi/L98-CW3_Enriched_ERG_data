@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _chance_n_of [label=BV]
+	_the_q -> _bidder_n_1 [label=BV]
+	"_could_v_modal-fn.Cause_to_end" -> "_cost_v_1-fn.Change_of_quantity_of_possession" [label="ARG1-fn.Process"]
+	_the_q -> _outcome_n_1 [label=BV]
+	"_cost_v_1-fn.Change_of_quantity_of_possession" -> _chance_n_of [label="ARG2-fn.Possession"]
+	_chance_n_of -> _and_c [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	"_cost_v_1-fn.Change_of_quantity_of_possession" -> generic_entity [label="ARG1-fn.Owner"]
+	"_win_v_1-fn.Competition" -> _bidder_n_1 [label="ARG1-fn.Participant_1"]
+	"_cost_v_1-fn.Change_of_quantity_of_possession" -> pron [label="ARG3-fn.Time"]
+	pronoun_q -> pron [label=BV]
+	"_join_v_1-fn.Competition" -> _bidder_n_1 [label="ARG2-fn.Participant_2"]
+	"_influence_v_1-fn.Social_event" -> _outcome_n_1 [label="ARG2-fn.Social_event"]
+}

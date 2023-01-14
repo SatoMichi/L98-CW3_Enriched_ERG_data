@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Life)" [label=BV]
+	proper_q -> "named(Metropolitan)" [label=BV]
+	_bad_a_at -> _ad_n_1 [label=ARG1]
+	comp_enough -> _bad_a_at [label=ARG1]
+	_those_q_dem -> _ad_n_1 [label=BV]
+	compound -> "named(Metropolitan)" [label=ARG2]
+	compound -> "named(Life)" [label=ARG1]
+	compound -> _ad_n_1 [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _art_n_1 [label=ARG2]
+	_rare_a_1 -> "_put_v_up-fn.Amounting_to" [label=ARG1]
+	_sharp_a_1 -> "_fall_v_1-fn.Halt" [label=ARG1]
+	"_fall_v_1-fn.Halt" -> _art_n_1 [label="ARG1-fn.Purpose"]
+	"_put_v_up-fn.Amounting_to" -> _art_n_1 [label="ARG2-fn.Attribute"]
+	udef_q -> _art_n_1 [label=BV]
+	udef_q -> _sale_n_of [label=BV]
+	_in_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	_in_p -> _value_n_1 [label=ARG2]
+	_for_p -> "_put_v_up-fn.Amounting_to" [label=ARG1]
+	parg_d -> "_put_v_up-fn.Amounting_to" [label=ARG1]
+	_for_p -> _sale_n_of [label=ARG2]
+	udef_q -> _value_n_1 [label=BV]
+}

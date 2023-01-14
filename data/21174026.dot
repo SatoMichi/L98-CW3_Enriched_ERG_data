@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_x_deg -> _simple_a_for [label=ARG1]
+	neg -> _simple_a_for [label=ARG1]
+	_simple_a_for -> pron [label=ARG1]
+	_maybe_a_1 -> neg [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

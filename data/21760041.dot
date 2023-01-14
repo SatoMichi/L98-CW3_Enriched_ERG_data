@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_honest_a_1 -> _integrate_v_into [label=ARG1]
+	_must_v_modal -> _or_c [label=ARG1]
+	_integrate_v_into -> pron [label=ARG1]
+	_honest_a_1 -> "_segregate_v_1-fn.Separating" [label=ARG1]
+	"_segregate_v_1-fn.Separating" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

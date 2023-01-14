@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	parg_d -> "_justify_v_to-fn.Have_as_requirement" [label=ARG1]
+	_here_a_1 -> place_n [label=ARG1]
+	which_q -> thing [label=BV]
+	_the_q -> _fundamental_n_1 [label=BV]
+	def_implicit_q -> place_n [label=BV]
+	neg -> "_justify_v_to-fn.Have_as_requirement" [label=ARG1]
+	"_justify_v_to-fn.Have_as_requirement" -> nominalization [label="ARG2-fn.Requirement"]
+	loc_nonsp -> "_happen_v_1-fn.Impact" [label=ARG1]
+	"_happen_v_1-fn.Impact" -> thing [label="ARG1-fn.Place"]
+	"_justify_v_to-fn.Have_as_requirement" -> _fundamental_n_1 [label="ARG1-fn.Dependent"]
+	nominalization -> "_happen_v_1-fn.Impact" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	parg_d -> nominalization [label=ARG2]
+}

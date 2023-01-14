@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_change_v_1-fn.Relative_time" [label=ARG1]
+	proper_q -> "named(Alan)" [label=BV]
+	compound -> "named(Alan)" [label=ARG2]
+	_under_p_state -> "named(Greenspan)" [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	proper_q -> "named(Greenspan)" [label=BV]
+	"_change_v_1-fn.Relative_time" -> generic_entity [label="ARG1-fn.Focal_occasion"]
+	compound -> "named(Greenspan)" [label=ARG1]
+	_under_p_state -> "_change_v_1-fn.Relative_time" [label=ARG1]
+	focus_d -> _under_p_state [label=ARG2]
+}

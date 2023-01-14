@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_big_a_1 -> "_liquidation/nn_u_unknown" [label=ARG1]
+	focus_d -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> _then_a_1 [label="ARG2-fn.Means"]
+	_across_p -> "_liquidation/nn_u_unknown" [label=ARG1]
+	_the_q -> _board_n_of [label=BV]
+	focus_d -> "_be_v_there-fn.Cause_to_end" [label=ARG2]
+	_across_p -> _board_n_of [label=ARG2]
+	_then_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_of_p -> _stock_n_1 [label=ARG2]
+	_of_p -> "_liquidation/nn_u_unknown" [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	udef_q -> _stock_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> "_liquidation/nn_u_unknown" [label="ARG1-fn.Process"]
+	_a_q -> "_liquidation/nn_u_unknown" [label=BV]
+}

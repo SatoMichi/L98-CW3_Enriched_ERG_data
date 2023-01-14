@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_add_v_to-fn.Fining" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	loc_nonsp -> _cluttered_a_1 [label=ARG1]
+	_now_a_1 -> time_n [label=ARG1]
+	focus_d -> loc_nonsp [label=ARG2]
+	focus_d -> _cluttered_a_1 [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	"_add_v_to-fn.Fining" -> pron [label="ARG1-fn.Speaker"]
+	comp_less -> _cluttered_a_1 [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	_cluttered_a_1 -> "named(Field)" [label=ARG1]
+	_the_q -> "named(Field)" [label=BV]
+	"_add_v_to-fn.Fining" -> _cluttered_a_1 [label="ARG2-fn.Instrument"]
+}

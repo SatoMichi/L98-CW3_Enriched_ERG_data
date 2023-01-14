@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_at+best_a_1" -> _insubstantial_a_1 [label=ARG1]
+	_trendy_a_1 -> _latter_n_1 [label=ARG1]
+	_silly_a_1 -> _latter_n_1 [label=ARG1]
+	_insubstantial_a_1 -> _latter_n_1 [label=ARG1]
+	_the_q -> _latter_n_1 [label=BV]
+	_often_a_1 -> _silly_a_1 [label=ARG1]
+	_modish_a_1 -> _latter_n_1 [label=ARG1]
+	_downright_x_deg -> _silly_a_1 [label=ARG1]
+}

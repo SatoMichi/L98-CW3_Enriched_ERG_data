@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_p -> "_listen_v_to-fn.Needing" [label=ARG1]
+	_as_p -> _child_n_1 [label=ARG2]
+	_about_p -> "_hear_v_1-fn.Rite" [label=ARG1]
+	focus_d -> _as_p [label=ARG2]
+	_about_p -> _earthquake_n_1 [label=ARG2]
+	neg -> "_listen_v_to-fn.Needing" [label=ARG1]
+	"_listen_v_to-fn.Needing" -> pron [label="ARG1-fn.Cognizer"]
+	_always_a_1 -> "_hear_v_1-fn.Rite" [label=ARG1]
+	focus_d -> "_listen_v_to-fn.Needing" [label=ARG1]
+	"_hear_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	_always_a_1 -> "_listen_v_to-fn.Needing" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _earthquake_n_1 [label=BV]
+	udef_q -> _child_n_1 [label=BV]
+}

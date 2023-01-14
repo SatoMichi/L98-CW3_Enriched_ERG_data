@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _consumer_n_of [label=ARG2]
+	udef_q -> _retail_n_1 [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	_still_a_1 -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> _price_n_of [label=ARG1]
+	"_plummet_v_1-fn.Change_position_on_a_scale" -> _sale_n_of [label="ARG1-fn.NotExist"]
+	_while_x -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	udef_q -> _consumer_n_of [label=BV]
+	compound -> _sale_n_of [label=ARG1]
+	_while_x -> "_plummet_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	compound -> _retail_n_1 [label=ARG2]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _price_n_of [label="ARG1-fn.NotExist"]
+}

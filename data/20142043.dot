@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _bond_n_1 [label=BV]
+	_again_a_1 -> "_trail_v_1-fn.Cotheme" [label=ARG1]
+	compound -> _junk_n_1 [label=ARG2]
+	_the_q -> _group_n_of [label=BV]
+	"_trail_v_1-fn.Cotheme" -> _group_n_of [label="ARG2-fn.Theme"]
+	"_trail_v_1-fn.Cotheme" -> _bond_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _junk_n_1 [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+}

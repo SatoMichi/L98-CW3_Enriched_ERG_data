@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_become_v_id-fn.Assemble" [label=ARG1]
+	_then_p_temp -> time_n [label=ARG1]
+	focus_d -> _since_p [label=ARG2]
+	"_become_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	_wealthy_a_1 -> pron [label=ARG1]
+	"_become_v_id-fn.Assemble" -> _wealthy_a_1 [label="ARG2-fn.Group"]
+	_since_p -> time_n [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_since_p -> "_become_v_id-fn.Assemble" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+}

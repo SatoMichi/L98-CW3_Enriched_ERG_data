@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Edelmann)" [label=BV]
+	_the_q -> _division_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _division_n_of [label="ARG2-fn.Means"]
+	proper_q -> "named(Ideal)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _unit_n_of [label="ARG1-fn.Process"]
+	_the_q -> _unit_n_of [label=BV]
+	compound -> implicit_conj [label=ARG2]
+	compound -> _division_n_of [label=ARG1]
+	udef_q -> implicit_conj [label=BV]
+	proper_q -> "named(Plews)" [label=BV]
+}

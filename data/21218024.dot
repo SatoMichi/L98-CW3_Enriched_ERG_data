@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _institute_n_of [label=ARG2]
+	_call_v_in -> _scientist_n_1 [label=ARG2]
+	proper_q -> "named(Salk)" [label=BV]
+	"_persist_v_1-fn.Process_continue" -> "named(Phillips)" [label="ARG1-fn.NotExist"]
+	udef_q -> _scientist_n_1 [label=BV]
+	compound -> "named(Salk)" [label=ARG2]
+	_the_q -> _institute_n_of [label=BV]
+	_from_p -> _scientist_n_1 [label=ARG1]
+	subord -> _call_v_in [label=ARG2]
+	subord -> "_persist_v_1-fn.Process_continue" [label=ARG1]
+	compound -> _institute_n_of [label=ARG1]
+	proper_q -> "named(Phillips)" [label=BV]
+}

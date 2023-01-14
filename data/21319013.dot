@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "named(Mixte)" [label=ARG2]
+	_loose_a_1 -> "_hold_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> "named(Navigation)" [label=ARG2]
+	"_hold_v_1-fn.Change_position_on_a_scale" -> "named(Mixte)" [label="ARG2-fn.Item"]
+	"_defend_v_from-fn.State_continue" -> "named(Mixte)" [label="ARG2-fn.State"]
+	proper_q -> "named(Mixte)" [label=BV]
+	_hard_a_for -> "_defend_v_from-fn.State_continue" [label=ARG1]
+	parg_d -> "_hold_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> "named(Mixte)" [label=ARG1]
+	proper_q -> "named(Navigation)" [label=BV]
+}

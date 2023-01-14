@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_talk_v_about-fn.Needing" [label=ARG1]
+	compound -> "named(Buffett)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(USAir)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_about_p -> "named(Steinhardt)" [label=ARG2]
+	proper_q -> "named(Buffett)" [label=BV]
+	proper_q -> "named(Steinhardt)" [label=BV]
+	compound -> "named(Steinhardt)" [label=ARG1]
+	"_at+all_a_1" -> "_talk_v_about-fn.Needing" [label=ARG1]
+	_about_p -> "_talk_v_about-fn.Needing" [label=ARG1]
+	"_talk_v_about-fn.Needing" -> _and_c [label="ARG1-fn.Cognizer"]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_sidelines/nns_u_unknown" [label=BV]
+	_on_p -> "_sidelines/nns_u_unknown" [label=ARG2]
+	loc_nonsp -> "dofw(Tue)" [label=ARG2]
+	udef_q -> _investor_n_1 [label=BV]
+	_mostly_a_1 -> "_remain_v_1-fn.Competition" [label=ARG1]
+	_institutional_a_1 -> _investor_n_1 [label=ARG1]
+	loc_nonsp -> "_remain_v_1-fn.Competition" [label=ARG1]
+	"_remain_v_1-fn.Competition" -> _investor_n_1 [label="ARG1-fn.Participant_1"]
+	"_remain_v_1-fn.Competition" -> _on_p [label="ARG2-fn.Participant_2"]
+	proper_q -> "dofw(Tue)" [label=BV]
+	_on_p -> _investor_n_1 [label=ARG1]
+}

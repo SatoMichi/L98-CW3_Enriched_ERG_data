@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_scapegoat/nn_u_unknown" [label=BV]
+	_the_q -> generic_entity [label=BV]
+	"_know_v_1-fn.IN" -> "_choose_v_from-fn.Choosing" [label="ARG2-fn.NotExist"]
+	parg_d -> "_choose_v_from-fn.Choosing" [label=ARG1]
+	"card(1)" -> generic_entity [label=ARG1]
+	_never_a_1 -> "_know_v_1-fn.IN" [label=ARG1]
+	udef_q -> _or_c [label=BV]
+	_be_v_id -> pron [label=ARG1]
+	_be_v_id -> _or_c [label=ARG2]
+	parg_d -> pron [label=ARG2]
+	"_choose_v_from-fn.Choosing" -> pron [label="ARG2-fn.Theme"]
+	"_choose_v_from-fn.Choosing" -> _be_v_id [label="ARG3-fn.NotExist"]
+	"_know_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_lucky_a_1 -> generic_entity [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

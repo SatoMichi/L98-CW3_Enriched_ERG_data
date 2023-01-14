@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _can_v_modal [label=ARG1]
+	"_react_v_to-fn.NF" -> _competition_n_1 [label="ARG2-fn.Stimulus"]
+	"_assert_v_to-fn.Statement" -> neg [label="ARG2-fn.NotExist"]
+	udef_q -> _competition_n_1 [label=BV]
+	_can_v_modal -> "_react_v_to-fn.NF" [label=ARG1]
+	_quick_a_1 -> "_react_v_to-fn.NF" [label=ARG1]
+	proper_q -> "named(Lloyds)" [label=BV]
+	"_assert_v_to-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	_thus_a_1 -> "_assert_v_to-fn.Statement" [label=ARG1]
+	"_react_v_to-fn.NF" -> "named(Lloyds)" [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+}

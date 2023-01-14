@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_ashamed_a_of -> pron [label=ARG1]
+	"_own_v_1-fn.NF" -> "_thing_n_of-about" [label="ARG2-fn.Theme"]
+	"_own_v_1-fn.NF" -> pron [label="ARG1-fn.Pivot"]
+	_stupid_a_1 -> "_thing_n_of-about" [label=ARG1]
+	_the_q -> "_thing_n_of-about" [label=BV]
+	_ashamed_a_of -> "_own_v_1-fn.NF" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

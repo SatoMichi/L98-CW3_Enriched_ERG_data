@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_good_a_at-for-of" -> generic_entity [label=ARG1]
+	neg -> "_good_a_at-for-of" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	_near_a_to -> "_good_a_at-for-of" [label=ARG1]
+	comp_enough -> "_good_a_at-for-of" [label=ARG1]
+}

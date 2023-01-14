@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _fault_n_1 [label=BV]
+	proper_q -> "named(Bolinas)" [label=BV]
+	compound -> _fault_n_1 [label=ARG1]
+	proper_q -> "named(Andreas)" [label=BV]
+	proper_q -> "named(San)" [label=BV]
+	compound -> "named(San)" [label=ARG2]
+	compound -> "named(Andreas)" [label=ARG1]
+	_astride_p -> "named(Bolinas)" [label=ARG1]
+	_astride_p -> _fault_n_1 [label=ARG2]
+	unknown -> "named(Bolinas)" [label=ARG]
+}

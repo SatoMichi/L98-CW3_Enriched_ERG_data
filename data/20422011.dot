@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _group_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _net_n_1 [label=BV]
+	compound -> _buyer_n_of [label=ARG1]
+	_actual_a_1 -> _become_v_id [label=ARG1]
+	compound -> _net_n_1 [label=ARG2]
+	_some_q -> _group_n_of [label=BV]
+	compound -> _fund_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _actual_a_1 [label="ARG2-fn.Topic"]
+	udef_q -> _investor_n_1 [label=BV]
+	udef_q -> _buyer_n_of [label=BV]
+	_become_v_id -> _buyer_n_of [label=ARG2]
+	compound -> _group_n_of [label=ARG1]
+	udef_q -> _fund_n_1 [label=BV]
+	_become_v_id -> _investor_n_1 [label=ARG1]
+}

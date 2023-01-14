@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _cash_n_1 [label=BV]
+	_of_p -> _position_n_of [label=ARG1]
+	_now_a_1 -> "_hold_v_1-fn.Halt" [label=ARG1]
+	"_hold_v_1-fn.Halt" -> _position_n_of [label="ARG2-fn.Place"]
+	compound -> _cash_n_1 [label=ARG2]
+	_the_q -> _fund_n_1 [label=BV]
+	compound -> _position_n_of [label=ARG1]
+	"card(15)" -> _percent_n_of [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	"_hold_v_1-fn.Halt" -> _fund_n_1 [label="ARG1-fn.Purpose"]
+	_of_p -> _percent_n_of [label=ARG2]
+	_a_q -> _position_n_of [label=BV]
+}

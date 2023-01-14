@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(NO)" [label=BV]
+	_a_q -> _crusade_n_1 [label=BV]
+	_to_p -> _consumption_n_1 [label=ARG2]
+	_to_p -> "named(NO)" [label=ARG1]
+	_of_p -> _drug_n_1 [label=ARG2]
+	udef_q -> _drug_n_1 [label=BV]
+	_the_q -> _consumption_n_1 [label=BV]
+	_of_p -> "named(NO)" [label=ARG2]
+	_of_p -> _crusade_n_1 [label=ARG1]
+	_imperative_a_to -> _crusade_n_1 [label=ARG1]
+	_of_p -> _consumption_n_1 [label=ARG1]
+}

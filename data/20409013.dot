@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_go_v_state -> "_craze/nn_u_unknown" [label=ARG1]
+	_the_q -> "_craze/nn_u_unknown" [label=BV]
+	appos -> pron [label=ARG2]
+	appos -> "_craze/nn_u_unknown" [label=ARG1]
+	compound -> _fitness_n_1 [label=ARG2]
+	compound -> "_craze/nn_u_unknown" [label=ARG1]
+	_soft_a_1 -> "_craze/nn_u_unknown" [label=ARG1]
+	focus_d -> _go_v_state [label=ARG2]
+	"_find_v_1-fn.IN" -> _survey_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _fitness_n_1 [label=BV]
+	"_find_v_1-fn.IN" -> _go_v_state [label="ARG2-fn.NotExist"]
+	_go_v_state -> _soft_a_1 [label=ARG2]
+	focus_d -> "_find_v_1-fn.IN" [label=ARG1]
+	_the_q -> _survey_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

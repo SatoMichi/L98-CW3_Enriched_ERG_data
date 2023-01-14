@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_previous_a_1 -> _trial_n_1 [label=ARG1]
+	_at_p -> _trial_n_1 [label=ARG2]
+	_at_p -> "_testify_v_to-fn.Evidence" [label=ARG1]
+	"_testify_v_to-fn.Evidence" -> generic_entity [label="ARG1-fn.Agent"]
+	_the_q -> _trial_n_1 [label=BV]
+	_neither_q -> generic_entity [label=BV]
+}

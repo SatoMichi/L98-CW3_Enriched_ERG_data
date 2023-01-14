@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_long-term_a_1" -> _attractive_a_1 [label=ARG1]
+	_attractive_a_1 -> "named(Manville)" [label=ARG1]
+	"_seem_v_to-fn.Needing" -> _attractive_a_1 [label="ARG2-fn.Requirement"]
+	"_be_v_there-fn.Needing" -> nominalization [label="ARG1-fn.Cognizer"]
+	_even_x_deg -> _if_x_then [label=ARG1]
+	proper_q -> "named(Manville)" [label=BV]
+	_no_q -> nominalization [label=BV]
+	_if_x_then -> "_seem_v_to-fn.Needing" [label=ARG1]
+	_if_x_then -> "_be_v_there-fn.Needing" [label=ARG2]
+	nominalization -> _restructure_v_1 [label=ARG1]
+}

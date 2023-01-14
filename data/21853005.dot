@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(IBM)" [label=BV]
+	_by_p -> _move_n_1 [label=ARG1]
+	_by_p -> "named(IBM)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _move_n_1 [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _surprise_n_1 [label="ARG2-fn.Means"]
+	_a_q -> _surprise_n_1 [label=BV]
+	_the_q -> _move_n_1 [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_exact_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

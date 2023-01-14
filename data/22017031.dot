@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_black_a_1 -> _female_n_1 [label=ARG1]
+	udef_q -> _female_n_1 [label=BV]
+	unknown -> _female_n_1 [label=ARG]
+}

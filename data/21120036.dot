@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _example_n_of [label=BV]
+	_all_q -> _activity_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	_recent_a_1 -> _example_n_of [label=ARG1]
+	_the_q -> _tax_n_1 [label=BV]
+	compound -> _percent_n_of [label=ARG2]
+	_on_p -> _activity_n_1 [label=ARG2]
+	compound -> _tax_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _example_n_of [label="ARG1-fn.Process"]
+	_on_p -> _tax_n_1 [label=ARG1]
+	udef_q -> _consumption_n_1 [label=BV]
+	compound -> _consumption_n_1 [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _tax_n_1 [label="ARG2-fn.Means"]
+	_commercial_a_1 -> _activity_n_1 [label=ARG1]
+	"card(3)" -> _percent_n_of [label=ARG1]
+}

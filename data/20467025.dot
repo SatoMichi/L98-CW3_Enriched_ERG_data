@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _news_n_of [label=ARG1]
+	udef_q -> _news_n_of [label=BV]
+	_from_p -> "named(A+to+Z)" [label=ARG2]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> _news_n_of [label="ARG2-fn.Location"]
+	udef_q -> _tabloid_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> _tabloid_n_1 [label=ARG2]
+	proper_q -> "named(A+to+Z)" [label=BV]
+	compound -> _news_n_of [label=ARG1]
+}

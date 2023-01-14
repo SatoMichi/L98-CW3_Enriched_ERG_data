@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Bank)" [label=ARG1]
+	parg_d -> "_guarantee_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Mitsubishi)" [label=BV]
+	compound -> "named(Mitsubishi)" [label=ARG2]
+	udef_q -> _ltd_n_1 [label=BV]
+	"_guarantee_v_1-fn.Competition" -> "named(Bank)" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Bank)" [label=BV]
+	compound -> _ltd_n_1 [label=ARG2]
+}

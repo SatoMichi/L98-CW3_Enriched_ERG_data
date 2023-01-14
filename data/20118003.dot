@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Kidder)" [label=ARG2]
+	def_explicit_q -> _employer_n_1 [label=BV]
+	appos -> "named(Peabody)" [label=ARG2]
+	proper_q -> "named(Peabody)" [label=BV]
+	compound -> "named(Peabody)" [label=ARG1]
+	appos -> _employer_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Kidder)" [label=BV]
+	unknown -> _employer_n_1 [label=ARG]
+	_own_a_1 -> _employer_n_1 [label=ARG1]
+	poss -> _employer_n_1 [label=ARG1]
+}

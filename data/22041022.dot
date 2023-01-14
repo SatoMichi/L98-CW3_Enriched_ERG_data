@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fueled/vbn_u_unknown" -> _panic_n_1 [label=ARG1]
+	parg_d -> "_fueled/vbn_u_unknown" [label=ARG1]
+	udef_q -> _panic_n_1 [label=BV]
+	_at_p_temp -> _time_n_of [label=ARG2]
+	_in_p -> "_prevail_v_1-fn.NF" [label=ARG1]
+	_the_q -> _time_n_of [label=BV]
+	_the_q -> _landslide_n_1 [label=BV]
+	_in_p -> "named(India)" [label=ARG2]
+	parg_d -> _landslide_n_1 [label=ARG2]
+	_at_p_temp -> "_prevail_v_1-fn.NF" [label=ARG1]
+	"_prevail_v_1-fn.NF" -> _panic_n_1 [label="ARG1-fn.NotExist"]
+	"_fueled/vbn_u_unknown" -> _landslide_n_1 [label=ARG2]
+	proper_q -> "named(India)" [label=BV]
+}

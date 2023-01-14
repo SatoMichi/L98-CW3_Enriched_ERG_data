@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Drabinsky)" [label=ARG2]
+	_strong_a_1 -> "_oppose_v_1-fn.State_continue" [label=ARG1]
+	"_oppose_v_1-fn.State_continue" -> "named(MCA)" [label="ARG1-fn.Entity"]
+	poss -> _group_n_of [label=ARG2]
+	"_oppose_v_1-fn.State_continue" -> _move_n_1 [label="ARG2-fn.State"]
+	poss -> _move_n_1 [label=ARG1]
+	proper_q -> "named(MCA)" [label=BV]
+	_the_q -> _group_n_of [label=BV]
+	proper_q -> "named(Drabinsky)" [label=BV]
+	compound -> _group_n_of [label=ARG1]
+	def_explicit_q -> _move_n_1 [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_nor_x_subord -> "_advise_v_1-fn.IN" [label=ARG1]
+	_free_a_1 -> pron [label=ARG1]
+	parg_d -> "_advise_v_1-fn.IN" [label=ARG1]
+	_print_v_cause -> _material_n_1 [label=ARG2]
+	"_advise_v_1-fn.IN" -> pron [label="ARG2-fn.Recipient"]
+	_nor_x_subord -> _free_a_1 [label=ARG2]
+	"_re-_a_again" -> _print_v_cause [label=ARG1]
+	_such_q -> _material_n_1 [label=BV]
+	parg_d -> pron [label=ARG2]
+	_free_a_1 -> _print_v_cause [label=ARG2]
+	_print_v_cause -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _delivery_n_of [label=ARG2]
+	"_support_v_1-fn.Competition" -> _schedule_n_1 [label="ARG2-fn.Participant_2"]
+	parg_d -> _pressure_n_1 [label=ARG2]
+	udef_q -> _delivery_n_of [label=BV]
+	udef_q -> "_subcontractors/nns_u_unknown" [label=BV]
+	udef_q -> _and_c [label=BV]
+	_pressure_n_1 -> "_support_v_1-fn.Competition" [label=ARG1]
+	compound -> _schedule_n_1 [label=ARG1]
+	udef_q -> _pressure_n_1 [label=BV]
+	"_experience_v_1-fn.Competition" -> _pressure_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _supplier_n_of [label=BV]
+	parg_d -> "_heighten_v_cause-fn.Cause_to_end" [label=ARG1]
+	"_heighten_v_cause-fn.Cause_to_end" -> _pressure_n_1 [label="ARG2-fn.Means"]
+	"_experience_v_1-fn.Competition" -> _and_c [label="ARG1-fn.Participant_1"]
+	udef_q -> _schedule_n_1 [label=BV]
+}

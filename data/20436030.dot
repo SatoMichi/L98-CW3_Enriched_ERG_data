@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	udef_q -> _creditor_n_1 [label=BV]
+	_a_q -> "named(Revco)" [label=BV]
+	"_want_v_1-fn.Desiring" -> _plan_n_1 [label="ARG2-fn.Theme"]
+	"_leave_v_transfer-fn.Causation" -> _plan_n_1 [label="ARG1-fn.Agent"]
+	"_satisfy_v_1-fn.Experiencer_obj" -> _creditor_n_1 [label="ARG2-fn.Experiencer"]
+	"_leave_v_transfer-fn.Causation" -> "named(Revco)" [label="ARG3-fn.NotExist"]
+	_at_p -> _end_n_of [label=ARG2]
+	_at_p -> "_leave_v_transfer-fn.Causation" [label=ARG1]
+	_healthy_a_1 -> "named(Revco)" [label=ARG1]
+	_the_q -> _end_n_of [label=BV]
+	_just_a_1 -> "_want_v_1-fn.Desiring" [label=ARG1]
+	_a_q -> _plan_n_1 [label=BV]
+	"_satisfy_v_1-fn.Experiencer_obj" -> _plan_n_1 [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

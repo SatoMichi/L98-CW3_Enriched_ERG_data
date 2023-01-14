@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_going+to_v_qmodal" -> "_lose_v_1-fn.NF" [label=ARG1]
+	"card(60,000)" -> _dollar_n_1 [label=ARG1]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	"_lose_v_1-fn.NF" -> _dollar_n_1 [label="ARG2-fn.Theme"]
+	_on_p -> pron [label=ARG2]
+	"card(50,000)" -> _dollar_n_1 [label=ARG1]
+	"_lose_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _dollar_n_1 [label=BV]
+	_on_p -> "_lose_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

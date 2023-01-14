@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_id [label=ARG2]
+	_be_v_id -> "_breed_n_of-n" [label=ARG2]
+	_a_q -> "_breed_n_of-n" [label=BV]
+	"_vanish_v_1-fn.Departing" -> "_breed_n_of-n" [label="ARG1-fn.NotExist"]
+	focus_d -> _muse_v_1 [label=ARG1]
+	_be_v_id -> pron [label=ARG1]
+	_muse_v_1 -> pron [label=ARG1]
+	_muse_v_1 -> _be_v_id [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

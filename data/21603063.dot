@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_reflect_v_1-fn.Cause_to_end" -> _paper_n_1 [label="ARG1-fn.Process"]
+	_the_q -> _truth_n_1 [label=BV]
+	_the_q -> _paper_n_1 [label=BV]
+	"_reflect_v_1-fn.Cause_to_end" -> _truth_n_1 [label="ARG2-fn.Means"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _show_n_of [label=ARG1]
+	udef_q -> _entertainment_n_1 [label=BV]
+	"_cost_v_1-fn.Expensiveness" -> _show_n_of [label="ARG1-fn.NotExist"]
+	compound -> _entertainment_n_1 [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	_twice_q -> part_of [label=BV]
+	udef_q -> _show_n_of [label=BV]
+	part_of -> generic_entity [label=ARG1]
+	_tend_v_1 -> "_cost_v_1-fn.Expensiveness" [label=ARG1]
+	"_cost_v_1-fn.Expensiveness" -> part_of [label="ARG2-fn.Theme"]
+}

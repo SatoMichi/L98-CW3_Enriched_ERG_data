@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+order+to_x" -> "_be_v_id-fn.Residence" [label=ARG1]
+	"_beat_v_to-fn.Exclude_member" -> _guy_n_1 [label="ARG2-fn.Group"]
+	_enough_q -> generic_entity [label=BV]
+	_down_p -> _guy_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	_down_p -> _street_n_1 [label=ARG2]
+	"_beat_v_to-fn.Exclude_member" -> pron [label="ARG1-fn.Member"]
+	"_no+longer_a_1" -> "_be_v_id-fn.Residence" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _guy_n_1 [label=BV]
+	"_in+order+to_x" -> "_beat_v_to-fn.Exclude_member" [label=ARG2]
+	_the_q -> _street_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG2-fn.Location"]
+}

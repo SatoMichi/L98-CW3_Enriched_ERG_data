@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _brick_n_1 [label=ARG1]
+	_the_q -> _lawn_n_1 [label=BV]
+	_a_q -> _pile_n_of [label=BV]
+	udef_q -> _front_n_1 [label=BV]
+	udef_q -> _brick_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _pile_n_of [label="ARG2-fn.Means"]
+	_the_q -> _chimney_n_1 [label=BV]
+	_on_p -> _lawn_n_1 [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _chimney_n_1 [label="ARG1-fn.Process"]
+	compound -> _lawn_n_1 [label=ARG1]
+	compound -> _front_n_1 [label=ARG2]
+	_pile_n_of -> _brick_n_1 [label=ARG1]
+}

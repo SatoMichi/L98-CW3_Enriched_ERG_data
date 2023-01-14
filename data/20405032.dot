@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_major_a_1 -> _target_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> "named(Japan)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Japan)" [label=BV]
+	_for_p -> _target_n_of [label=ARG1]
+	_for_p -> "named(Soviets)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _target_n_of [label="ARG2-fn.Means"]
+	_the_q -> "named(Soviets)" [label=BV]
+	_a_q -> _target_n_of [label=BV]
+}

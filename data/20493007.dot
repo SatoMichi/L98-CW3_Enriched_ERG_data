@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_review_v_1-fn.State_continue" [label=ARG1]
+	compound -> _insurance_n_1 [label=ARG1]
+	udef_q -> _insurance_n_1 [label=BV]
+	compound -> _case_n_of [label=ARG1]
+	"_review_v_1-fn.State_continue" -> "named(Court)" [label="ARG1-fn.Entity"]
+	compound -> "named(Court)" [label=ARG1]
+	_a_q -> _case_n_of [label=BV]
+	_the_q -> "named(Court)" [label=BV]
+	proper_q -> "named(Supreme)" [label=BV]
+	_big_a_1 -> _case_n_of [label=ARG1]
+	compound -> "named(Supreme)" [label=ARG2]
+	udef_q -> _pension_n_1 [label=BV]
+	compound -> _pension_n_1 [label=ARG2]
+	"_review_v_1-fn.State_continue" -> _case_n_of [label="ARG2-fn.State"]
+	parg_d -> _case_n_of [label=ARG2]
+}

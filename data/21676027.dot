@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Societe)" [label=ARG2]
+	parg_d -> "_guarantee_v_1-fn.NF" [label=ARG1]
+	"_guarantee_v_1-fn.NF" -> "named(Generale)" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Generale)" [label=BV]
+	proper_q -> "named(Societe)" [label=BV]
+	compound -> "named(Generale)" [label=ARG1]
+}

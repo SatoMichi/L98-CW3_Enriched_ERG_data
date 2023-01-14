@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_austerity/nn_u_unknown" [label=ARG2]
+	"_call_v_for-fn.IN" -> _meeting_n_of [label="ARG1-fn.Agent"]
+	udef_q -> "_austerity/nn_u_unknown" [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	"_call_v_for-fn.IN" -> "_austerity/nn_u_unknown" [label="ARG2-fn.Topic"]
+	parg_d -> _heighten_v_cause [label=ARG1]
+	_for_p -> _year_n_1 [label=ARG2]
+	parg_d -> "_expect_v_1-fn.IN" [label=ARG1]
+	parg_d -> _meeting_n_of [label=ARG2]
+	"_expect_v_1-fn.IN" -> "_call_v_for-fn.IN" [label="ARG2-fn.Theme"]
+	_heighten_v_cause -> "_austerity/nn_u_unknown" [label=ARG2]
+	_for_p -> "_austerity/nn_u_unknown" [label=ARG1]
+	_the_q -> _meeting_n_of [label=BV]
+}

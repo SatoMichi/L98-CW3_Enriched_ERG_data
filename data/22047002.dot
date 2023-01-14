@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(North)" [label=ARG2]
+	_nation_n_of -> _and_c [label=ARG1]
+	_decide_v_1 -> "_know_v_1-fn.IN" [label=ARG2]
+	"_know_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _nation_n_of [label=BV]
+	_decide_v_1 -> _nation_n_of [label=ARG1]
+	proper_q -> "named(North)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_better_a_1 -> "_know_v_1-fn.IN" [label=ARG1]
+	proper_q -> "named(Europe)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(America)" [label=BV]
+	compound -> "named(America)" [label=ARG1]
+}

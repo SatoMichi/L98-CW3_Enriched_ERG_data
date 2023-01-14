@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_so_a_thus -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> _catch_n_1 [label="ARG1-fn.Process"]
+	_the_q -> _catch_n_1 [label=BV]
+	which_q -> thing [label=BV]
+}

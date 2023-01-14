@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "named(Pfizer)" [label=ARG]
+	proper_q -> "named(Pfizer)" [label=BV]
+}

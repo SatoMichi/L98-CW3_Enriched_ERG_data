@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Tokyu)" [label=BV]
+	proper_q -> "named(Construction)" [label=BV]
+	number_q -> "card(170)" [label=BV]
+	compound -> "named(Construction)" [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(170)" [label="ARG2-fn.Patient"]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Construction)" [label="ARG1-fn.NotExist"]
+	_to_p -> "card(1610)" [label=ARG2]
+	compound -> "named(Tokyu)" [label=ARG2]
+	number_q -> "card(1610)" [label=BV]
+}

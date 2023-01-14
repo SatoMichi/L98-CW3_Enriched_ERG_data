@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _loss_n_of [label="ARG1-fn.Process"]
+	udef_q -> _share_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	_per_a_1 -> _share_n_of [label=ARG1]
+	"card(5.32)" -> _dollar_n_1 [label=ARG1]
+	compound -> _share_n_of [label=ARG2]
+	_the_q -> _loss_n_of [label=BV]
+	compound -> _loss_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _dollar_n_1 [label="ARG2-fn.Means"]
+}

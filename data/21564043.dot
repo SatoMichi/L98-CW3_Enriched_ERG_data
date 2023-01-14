@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _past_n_1 [label=BV]
+	nominalization -> _look_v_1 [label=ARG1]
+	_to_p -> _look_v_1 [label=ARG1]
+	_to_p -> _past_n_1 [label=ARG2]
+	"_provide_v_1-fn.Supply" -> nominalization [label="ARG1-fn.Agent"]
+	udef_q -> nominalization [label=BV]
+	_can_v_modal -> "_provide_v_1-fn.Supply" [label=ARG1]
+	_some_q -> _clue_n_1 [label=BV]
+	"_provide_v_1-fn.Supply" -> _clue_n_1 [label="ARG2-fn.Theme"]
+}

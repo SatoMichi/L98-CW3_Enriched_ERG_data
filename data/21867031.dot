@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _margin_n_1 [label=ARG2]
+	udef_q -> _margin_n_1 [label=BV]
+	parg_d -> "_set_v_1-fn.Relative_time" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	unknown -> _margin_n_1 [label=ARG]
+	_subsequent_a_1 -> _margin_n_1 [label=ARG1]
+	proper_q -> "named(Merrill)" [label=BV]
+	"_set_v_1-fn.Relative_time" -> _agreement_n_1 [label="ARG1-fn.Focal_occasion"]
+	_between_p -> _agreement_n_1 [label=ARG1]
+	proper_q -> "named(NatWest)" [label=BV]
+	udef_q -> _agreement_n_1 [label=BV]
+	"_set_v_1-fn.Relative_time" -> _margin_n_1 [label="ARG2-fn.Landmark_occasion"]
+	_between_p -> _and_c [label=ARG2]
+}

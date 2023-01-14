@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _stuff_n_1 [label=ARG1]
+	_the_q -> _stuff_n_1 [label=BV]
+	_of_p -> _dream_n_1 [label=ARG2]
+	_of_p -> "_traumas/nns_u_unknown" [label=ARG2]
+	udef_q -> _dream_n_1 [label=BV]
+	udef_q -> "_traumas/nns_u_unknown" [label=BV]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	"_be_v_id-fn.Assemble" -> _stuff_n_1 [label="ARG2-fn.Group"]
+	pronoun_q -> pron [label=BV]
+}

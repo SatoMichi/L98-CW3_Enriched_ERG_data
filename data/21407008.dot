@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_ultimate_a_1 -> "_eliminate_v_from-fn.Removing" [label=ARG1]
+	_the_q -> _competition_n_1 [label=BV]
+	"_eliminate_v_from-fn.Removing" -> _competition_n_1 [label="ARG3-fn.Source"]
+	parg_d -> "named(Sperry)" [label=ARG2]
+	"_eliminate_v_from-fn.Removing" -> "named(Sperry)" [label="ARG2-fn.Theme"]
+	proper_q -> "named(Sperry)" [label=BV]
+	parg_d -> "_eliminate_v_from-fn.Removing" [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> _work_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> nominalization [label=BV]
+	nominalization -> "_receive_v_1-fn.Receiving" [label=ARG1]
+	_without_p -> "_eliminate_v_from-fn.Removing" [label=ARG1]
+	_without_p -> nominalization [label=ARG2]
+	_the_q -> _work_n_1 [label=BV]
+}

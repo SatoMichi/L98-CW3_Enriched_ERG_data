@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_use_v_1-fn.IN" -> _announce_v_to [label="ARG3-fn.NotExist"]
+	"_use_v_1-fn.IN" -> _chancellor_n_of [label="ARG1-fn.NotExist"]
+	_sometimes_a_1 -> "_use_v_1-fn.IN" [label=ARG1]
+	udef_q -> _change_n_of [label=BV]
+	_the_q -> _occasion_n_of [label=BV]
+	"_use_v_1-fn.IN" -> _occasion_n_of [label="ARG2-fn.NotExist"]
+	_announce_v_to -> _chancellor_n_of [label=ARG1]
+	compound -> _change_n_of [label=ARG1]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	compound -> "_policy_n_of-on" [label=ARG2]
+	_the_q -> _chancellor_n_of [label=BV]
+	_announce_v_to -> _change_n_of [label=ARG2]
+	_major_a_1 -> _change_n_of [label=ARG1]
+	_economic_a_1 -> "_policy_n_of-on" [label=ARG1]
+}

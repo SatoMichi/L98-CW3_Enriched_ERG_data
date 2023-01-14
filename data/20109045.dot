@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_win_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_in+order+to_x" -> "_win_v_1-fn.Competition" [label=ARG2]
+	"_in+order+to_x" -> "_play_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_play_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

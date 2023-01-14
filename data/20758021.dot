@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_recount_v_to-fn.Statement" -> "named(Engelken)" [label="ARG1-fn.Agent"]
+	focus_d -> _take_v_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	parg_d -> _strike_n_1 [label=ARG2]
+	compound -> "named(Engelken)" [label=ARG1]
+	"_call_v_1-fn.IN" -> _strike_n_1 [label="ARG2-fn.Theme"]
+	"_recount_v_to-fn.Statement" -> _take_v_1 [label="ARG2-fn.Topic"]
+	_a_q -> _strike_n_1 [label=BV]
+	proper_q -> "named(Thomson)" [label=BV]
+	proper_q -> "named(Engelken)" [label=BV]
+	parg_d -> "_call_v_1-fn.IN" [label=ARG1]
+	focus_d -> "_recount_v_to-fn.Statement" [label=ARG1]
+	_take_v_1 -> "named(Thomson)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_take_v_1 -> _strike_n_1 [label=ARG2]
+}

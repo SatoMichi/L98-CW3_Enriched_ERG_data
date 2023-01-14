@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _pressure_n_1 [label=BV]
+	"_keep_v_up-fn.Cause_to_continue" -> _pressure_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _government_n_of [label=BV]
+	"_keep_v_up-fn.Cause_to_continue" -> "named(ANC)" [label="ARG1-fn.Agent"]
+	_vow_v_to -> "_keep_v_up-fn.Cause_to_continue" [label=ARG2]
+	_on_p -> _government_n_of [label=ARG2]
+	_the_q -> "named(ANC)" [label=BV]
+	_on_p -> _pressure_n_1 [label=ARG1]
+	_vow_v_to -> "named(ANC)" [label=ARG1]
+}

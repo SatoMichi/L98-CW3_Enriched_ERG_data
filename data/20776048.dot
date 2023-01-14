@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_do_v_1-fn.State_continue" -> thing [label="ARG2-fn.State"]
+	_in_p -> "_do_v_1-fn.State_continue" [label=ARG1]
+	_in_p -> "named(Hole)" [label=ARG2]
+	compound -> "named(Hole)" [label=ARG1]
+	compound -> "named(Jackson)" [label=ARG2]
+	proper_q -> "named(Hole)" [label=BV]
+	proper_q -> "named(Jackson)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	which_q -> thing [label=BV]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+}

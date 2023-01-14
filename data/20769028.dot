@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	of_p -> "dofm(3)" [label=ARG1]
+	_the_q -> _close_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG2-fn.Means"]
+	_the_q -> generic_entity [label=BV]
+	def_implicit_q -> "mofy(Aug)" [label=BV]
+	superl -> _high_a_1 [label=ARG1]
+	_since_p -> generic_entity [label=ARG1]
+	_since_p -> "dofm(3)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _close_n_of [label="ARG1-fn.Process"]
+	_high_a_1 -> generic_entity [label=ARG1]
+	of_p -> "mofy(Aug)" [label=ARG2]
+	def_explicit_q -> "dofm(3)" [label=BV]
+}

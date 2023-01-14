@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Depression)" [label=BV]
+	neg -> _change_v_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"card(18)" -> _percent_n_of [label=ARG1]
+	_during_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_to_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_change_v_1 -> generic_entity [label=ARG1]
+	_much_a_1 -> _change_v_1 [label=ARG1]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> generic_entity [label="ARG1-fn.NotExist"]
+	_nearly_x_deg -> udef_q [label=ARG1]
+	_since_p -> _change_v_1 [label=ARG1]
+	_during_p -> "named(Depression)" [label=ARG2]
+	_to_p -> _percent_n_of [label=ARG2]
+}

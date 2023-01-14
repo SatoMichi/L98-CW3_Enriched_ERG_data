@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_as_p -> _person_n_1 [label=ARG2]
+	_as_p -> pron [label=ARG1]
+	_a_q -> _person_n_1 [label=BV]
+	parg_d -> "_build_v_1-fn.Building" [label=ARG1]
+	_around_p -> pron [label=ARG2]
+	udef_q -> _company_n_of [label=BV]
+	parg_d -> _company_n_of [label=ARG2]
+	_around_p -> "_build_v_1-fn.Building" [label=ARG1]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	"_build_v_1-fn.Building" -> _company_n_of [label="ARG2-fn.Product"]
+	"_want_v_1-fn.Desiring" -> "_build_v_1-fn.Building" [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

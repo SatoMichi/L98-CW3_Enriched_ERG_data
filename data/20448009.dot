@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_available_a_1 -> _spokesman_n_1 [label=ARG1]
+	_for_p -> _group_n_of [label=ARG2]
+	_for_p -> _spokesman_n_1 [label=ARG1]
+	_for_p -> _comment_n_1 [label=ARG2]
+	compound -> "_buy+out_n_1" [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_the_q -> _group_n_of [label=BV]
+	_immediate_a_1 -> _available_a_1 [label=ARG1]
+	neg -> _available_a_1 [label=ARG1]
+	udef_q -> "_buy+out_n_1" [label=BV]
+	compound -> _group_n_of [label=ARG1]
+	_for_p -> _available_a_1 [label=ARG1]
+	udef_q -> _comment_n_1 [label=BV]
+}

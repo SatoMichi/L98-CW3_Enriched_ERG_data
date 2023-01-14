@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _fruit_n_1 [label=BV]
+	focus_d -> "_bear_v_1-fn.Competition" [label=ARG1]
+	"_bear_v_1-fn.Competition" -> _fruit_n_1 [label="ARG2-fn.Participant_2"]
+	"_bear_v_1-fn.Competition" -> _effort_n_1 [label="ARG1-fn.Participant_1"]
+	_these_q_dem -> _effort_n_1 [label=BV]
+	"_by+and+large_a_1" -> "_bear_v_1-fn.Competition" [label=ARG1]
+}

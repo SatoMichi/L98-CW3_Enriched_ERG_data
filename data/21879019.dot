@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_late_a_for -> _quarter_n_temp [label=ARG1]
+	compound -> _dollar_n_1 [label=ARG2]
+	"_include_v_1-fn.Amounting_to" -> _writedown_n_1 [label="ARG2-fn.Attribute"]
+	_of_p -> _investment_n_1 [label=ARG2]
+	times -> "card(6.6)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	compound -> _writedown_n_1 [label=ARG1]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _investment_n_1 [label=BV]
+	_a_q -> _writedown_n_1 [label=BV]
+	_of_p -> _writedown_n_1 [label=ARG1]
+	_the_q -> _quarter_n_temp [label=BV]
+	superl -> _late_a_for [label=ARG1]
+	"_include_v_1-fn.Amounting_to" -> _quarter_n_temp [label="ARG1-fn.Value"]
+}

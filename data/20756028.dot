@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _system_n_of [label=BV]
+	_rapid_a_1 -> "_introduce_v_to-fn.NF" [label=ARG1]
+	parg_d -> _unify_v_cause [label=ARG1]
+	_unify_v_cause -> _system_n_of [label=ARG2]
+	_should_v_modal -> "_introduce_v_to-fn.NF" [label=ARG1]
+	parg_d -> "_introduce_v_to-fn.NF" [label=ARG1]
+	parg_d -> _system_n_of [label=ARG2]
+	"_introduce_v_to-fn.NF" -> _system_n_of [label="ARG2-fn.Patient"]
+	_system_n_of -> _taxation_n_of [label=ARG1]
+	udef_q -> _taxation_n_of [label=BV]
+}

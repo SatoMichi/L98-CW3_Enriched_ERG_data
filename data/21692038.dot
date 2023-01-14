@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Richmond)" [label=ARG2]
+	proper_q -> "named(Richmond)" [label=BV]
+	unknown -> _resignation_n_1 [label=ARG]
+	compound -> _resignation_n_1 [label=ARG1]
+	_colon_p_namely -> _resignation_n_1 [label=ARG1]
+	udef_q -> _resignation_n_1 [label=BV]
+}

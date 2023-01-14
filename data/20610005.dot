@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_because+of_p" -> "_delay_v_1-fn.Attack" [label=ARG1]
+	"_because+of_p" -> _condition_n_1 [label=ARG2]
+	udef_q -> _market_n_1 [label=BV]
+	udef_q -> _construction_n_of [label=BV]
+	"_delay_v_1-fn.Attack" -> pron [label="ARG1-fn.Victim"]
+	compound -> _condition_n_1 [label=ARG1]
+	compound -> _market_n_1 [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> "_delay_v_1-fn.Attack" [label="ARG2-fn.Requirement"]
+	_the_q -> _company_n_of [label=BV]
+	_current_a_1 -> _condition_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> _company_n_of [label="ARG1-fn.Dependent"]
+	udef_q -> _condition_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_delay_v_1-fn.Attack" -> _construction_n_of [label="ARG2-fn.Weapon"]
+}

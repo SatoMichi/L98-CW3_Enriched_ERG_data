@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Allianz)" [label=ARG2]
+	"_lead_v_to-fn.Causation" -> _speculation_n_about [label="ARG3-fn.Result"]
+	_eventual_a_1 -> _could_v_modal [label=ARG1]
+	compound -> _statement_n_of [label=ARG1]
+	proper_q -> "named(Allianz)" [label=BV]
+	"_sell_v_1-fn.Commerce_sell" -> "named(Allianz)" [label="ARG1-fn.Agent"]
+	_speculation_n_about -> _could_v_modal [label=ARG1]
+	"_lead_v_to-fn.Causation" -> _statement_n_of [label="ARG1-fn.Agent"]
+	_could_v_modal -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	_to_p -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	_the_q -> _statement_n_of [label=BV]
+	_to_p -> "named(Paribas)" [label=ARG2]
+	udef_q -> _speculation_n_about [label=BV]
+	proper_q -> "named(Paribas)" [label=BV]
+}

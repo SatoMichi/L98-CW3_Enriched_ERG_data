@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_feel_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Agent"]
+	"_feel_v_1-fn.Perception_experience" -> _aftershock_n_1 [label="ARG2-fn.Theme"]
+	"_a+few_a_1" -> _second_n_1 [label=ARG1]
+	udef_q -> _second_n_1 [label=BV]
+	_ago_p -> _second_n_1 [label=ARG2]
+	_just_a_1 -> "_feel_v_1-fn.Perception_experience" [label=ARG1]
+	_another_q -> _aftershock_n_1 [label=BV]
+	_ago_p -> "_feel_v_1-fn.Perception_experience" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

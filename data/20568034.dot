@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_high_a_1 -> pron [label=ARG1]
+	"_to+begin+with_a_1" -> _high_a_1 [label=ARG1]
+	"_feel_v_1-fn.Competition" -> _high_a_1 [label="ARG2-fn.Participant_2"]
+	"_feel_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_say_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	comp_too -> _high_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> "_feel_v_1-fn.Competition" [label="ARG2-fn.Means"]
+	focus_d -> "_feel_v_1-fn.Competition" [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_can_v_modal -> "_take_v_1-fn.Bringing" [label=ARG1]
+	"_take_v_1-fn.Bringing" -> pron [label="ARG2-fn.NotExist"]
+	_with_p -> pron [label=ARG2]
+	_with_p -> "_take_v_1-fn.Bringing" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

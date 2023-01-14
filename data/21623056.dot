@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Katz)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	_note_v_to -> "named(Katz)" [label=ARG1]
+	"_predict_v_1-fn.Predicting" -> _recession_n_1 [label="ARG2-fn.Topic"]
+	"_predict_v_1-fn.Predicting" -> _economist_n_1 [label="ARG1-fn.Cause"]
+	_for_p -> _year_n_1 [label=ARG2]
+	_some_q -> _economist_n_1 [label=BV]
+	_for_p -> "_predict_v_1-fn.Predicting" [label=ARG1]
+	"_at+least_x_deg" -> udef_q [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_note_v_to -> "_predict_v_1-fn.Predicting" [label=ARG2]
+	_a_q -> _recession_n_1 [label=BV]
+	compound -> "named(Katz)" [label=ARG1]
+}

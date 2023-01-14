@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _vote_n_1 [label=ARG2]
+	compound -> _vote_n_1 [label=ARG1]
+	compound -> _union_n_of [label=ARG2]
+	_in_p -> "_prove_v_to-fn.Cause_to_end" [label=ARG1]
+	"_could_v_modal-fn.Cotheme" -> "_prove_v_to-fn.Cause_to_end" [label="ARG1-fn.Theme"]
+	udef_q -> _union_n_of [label=BV]
+	"_prove_v_to-fn.Cause_to_end" -> _pivotal_a_1 [label="ARG2-fn.Means"]
+	_pivotal_a_1 -> "_animosity/nn_u_unknown" [label=ARG1]
+	_such_q -> "_animosity/nn_u_unknown" [label=BV]
+	"_prove_v_to-fn.Cause_to_end" -> "_animosity/nn_u_unknown" [label="ARG1-fn.Process"]
+	_the_q -> _vote_n_1 [label=BV]
+}

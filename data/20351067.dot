@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_a+bit_a_1" -> "_lighten_v_1-fn.Impact" [label=ARG1]
+	compound -> _sell_n_1 [label=ARG2]
+	compound -> _list_n_of [label=ARG1]
+	"_be_v_there-fn.Needing" -> _list_n_of [label="ARG1-fn.Cognizer"]
+	_no_q -> _list_n_of [label=BV]
+	udef_q -> _sell_n_1 [label=BV]
+	"_lighten_v_1-fn.Impact" -> _calendar_n_1 [label="ARG1-fn.Place"]
+	_up_p -> "_lighten_v_1-fn.Impact" [label=ARG1]
+	_the_q -> _calendar_n_1 [label=BV]
+}

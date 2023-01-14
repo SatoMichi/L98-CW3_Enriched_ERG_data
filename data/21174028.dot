@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _nag_n_1 [label=BV]
+	_for_p -> _champion_n_of [label=ARG2]
+	_plenty_n_of -> _nag_n_1 [label=ARG1]
+	focus_d -> "_be_v_there-fn.Needing" [label=ARG1]
+	focus_d -> _for_p [label=ARG2]
+	_every_q -> _champion_n_of [label=BV]
+	udef_q -> _plenty_n_of [label=BV]
+	"_be_v_there-fn.Needing" -> _plenty_n_of [label="ARG1-fn.Cognizer"]
+	_for_p -> "_be_v_there-fn.Needing" [label=ARG1]
+}

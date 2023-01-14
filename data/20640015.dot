@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_monthly_a_1 -> _lease_v_1 [label=ARG1]
+	"_plan_v_1-fn.Purpose" -> _council_n_of [label="ARG1-fn.Experiencer"]
+	_lease_v_1 -> _report_n_of [label=ARG2]
+	_lease_v_1 -> _council_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_plan_v_1-fn.Purpose" -> _lease_v_1 [label="ARG2-fn.NotExist"]
+	poss -> _report_n_of [label=ARG1]
+	"_re-_a_again" -> _lease_v_1 [label=ARG1]
+	_regional_a_1 -> _report_n_of [label=ARG1]
+	def_explicit_q -> _report_n_of [label=BV]
+	_the_q -> _council_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

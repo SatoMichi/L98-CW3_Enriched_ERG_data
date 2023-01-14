@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _official_n_1 [label=ARG1]
+	"_comment_v_on-fn.Judgment_direct_address" -> _official_n_1 [label="ARG1-fn.Communicator"]
+	udef_q -> _official_n_1 [label=BV]
+	proper_q -> "named(Carnival)" [label=BV]
+	_at_p -> "named(Carnival)" [label=ARG2]
+	"_decline_v_1-fn.Experiencer_obj" -> _official_n_1 [label="ARG1-fn.Experiencer"]
+	"_decline_v_1-fn.Experiencer_obj" -> "_comment_v_on-fn.Judgment_direct_address" [label="ARG2-fn.Stimulus"]
+}

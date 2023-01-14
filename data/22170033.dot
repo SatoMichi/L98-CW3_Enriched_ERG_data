@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _stock_n_1 [label=BV]
+	unknown -> nominalization [label=ARG]
+	superl -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> _way_n_of [label=ARG1]
+	_be_v_id -> _way_n_of [label=ARG2]
+	nominalization -> _be_v_id [label=ARG1]
+	_be_v_id -> thing [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> _stock_n_1 [label="ARG2-fn.Theme"]
+	_so_a_thus -> unknown [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _way_n_of [label=BV]
+	which_q -> thing [label=BV]
+	_way_n_of -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_smuggle_v_out-fn.NF" -> _or_c [label="ARG2-fn.Theme"]
+	"_smuggle_v_out-fn.NF" -> _employee_n_of [label="ARG1-fn.Agent"]
+	"_try_v_1-fn.Attempt" -> _employee_n_of [label="ARG1-fn.Agent"]
+	udef_q -> generic_entity [label=BV]
+	udef_q -> _or_c [label=BV]
+	udef_q -> _employee_n_of [label=BV]
+	_still_a_disc -> "_try_v_1-fn.Attempt" [label=ARG1]
+	"_try_v_1-fn.Attempt" -> "_smuggle_v_out-fn.NF" [label="ARG2-fn.Theme"]
+	"card(2)" -> generic_entity [label=ARG1]
+	_a_q -> _gem_n_1 [label=BV]
+	_occasional_a_1 -> "_try_v_1-fn.Attempt" [label=ARG1]
+}

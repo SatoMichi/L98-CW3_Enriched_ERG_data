@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_off_p -> "card(1.40)" [label=ARG2]
+	_at_p -> "card(448.49)" [label=ARG2]
+	_off_p -> "_settle_v_1-fn.Competition" [label=ARG1]
+	superl -> _big_a_1 [label=ARG1]
+	"_settle_v_1-fn.Competition" -> "_barometer/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	number_q -> "card(1.40)" [label=BV]
+	_the_q -> _stock_n_1 [label=BV]
+	_the_q -> "_barometer/nn_u_unknown" [label=BV]
+	number_q -> "card(448.49)" [label=BV]
+	_of_p -> "_barometer/nn_u_unknown" [label=ARG1]
+	_big_a_1 -> _stock_n_1 [label=ARG1]
+	_of_p -> _stock_n_1 [label=ARG2]
+	"_nonfinancial/jj_u_unknown" -> _stock_n_1 [label=ARG1]
+	_at_p -> "_settle_v_1-fn.Competition" [label=ARG1]
+}

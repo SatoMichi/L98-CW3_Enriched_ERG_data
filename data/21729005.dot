@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_x_prd -> "_direct_v_to-fn.Behind_the_scenes" [label=ARG2]
+	_again_a_1 -> "_choose_v_from-fn.Choosing" [label=ARG1]
+	"_choose_v_from-fn.Choosing" -> "named(CSC)" [label="ARG2-fn.Theme"]
+	proper_q -> "named(NASA)" [label=BV]
+	proper_q -> "named(CSC)" [label=BV]
+	_the_q -> _board_n_of [label=BV]
+	"_direct_v_to-fn.Behind_the_scenes" -> _board_n_of [label="ARG1-fn.Agent"]
+	parg_d -> "_direct_v_to-fn.Behind_the_scenes" [label=ARG1]
+	"_choose_v_from-fn.Choosing" -> "named(NASA)" [label="ARG1-fn.Agent"]
+	"_complete_v_2-fn.Activity_finish" -> _evaluation_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _evaluation_n_of [label=BV]
+	_as_x_prd -> _and_c [label=ARG1]
+	"_complete_v_2-fn.Activity_finish" -> "named(NASA)" [label="ARG1-fn.Agent"]
+}

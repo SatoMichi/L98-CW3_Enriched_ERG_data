@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_advance_v_1-fn.Cause_to_end" -> "named(Manville)" [label="ARG1-fn.Process"]
+	number_q -> "card(10)" [label=BV]
+	proper_q -> "named(Manville)" [label=BV]
+	_to_p -> "card(10)" [label=ARG2]
+	loc_nonsp -> "_advance_v_1-fn.Cause_to_end" [label=ARG1]
+	_to_p -> "_advance_v_1-fn.Cause_to_end" [label=ARG1]
+}

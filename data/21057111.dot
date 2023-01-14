@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> "_end_v_1-fn.Competition" [label=ARG2]
+	_in_p -> "_end_v_1-fn.Competition" [label=ARG1]
+	_the_q -> "_playoffs/nns_u_unknown" [label=BV]
+	compound -> _game_n_1 [label=ARG2]
+	udef_q -> _loss_n_of [label=BV]
+	"_end_v_1-fn.Competition" -> "_playoffs/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	_in_p -> _sweep_n_1 [label=ARG2]
+	"_could_v_modal-fn.Cause_to_end" -> "_soar_v_1-fn.Piracy" [label="ARG1-fn.Process"]
+	compound -> _sweep_n_1 [label=ARG1]
+	"_soar_v_1-fn.Piracy" -> _loss_n_of [label="ARG1-fn.Perpetrator"]
+	_if_x_then -> "_could_v_modal-fn.Cause_to_end" [label=ARG1]
+	"card(4)" -> _game_n_1 [label=ARG1]
+	udef_q -> _game_n_1 [label=BV]
+	udef_q -> _sweep_n_1 [label=BV]
+}

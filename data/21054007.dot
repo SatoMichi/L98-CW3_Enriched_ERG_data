@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_read_v_1-fn.NF" -> "named(Left)" [label="ARG2-fn.Theme"]
+	_should_v_modal -> "_read_v_1-fn.NF" [label=ARG1]
+	proper_q -> "named(Have)" [label=BV]
+	compound -> "named(Anything)" [label=ARG1]
+	compound -> "named(Left)" [label=ARG1]
+	proper_q -> "named(Left)" [label=BV]
+	"_read_v_1-fn.NF" -> pron [label="ARG1-fn.NotExist"]
+	compound -> "named(You)" [label=ARG1]
+	compound -> "named(Have)" [label=ARG2]
+	proper_q -> "named(Anything)" [label=BV]
+	proper_q -> "named(You)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

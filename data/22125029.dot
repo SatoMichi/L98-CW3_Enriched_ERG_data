@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "_hurdle/nn_u_unknown" [label=ARG1]
+	nominalization -> _finance_v_1 [label=ARG1]
+	"_resolve_v_1-fn.Competition" -> "_hurdle/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	parg_d -> "_resolve_v_1-fn.Competition" [label=ARG1]
+	parg_d -> "_hurdle/nn_u_unknown" [label=ARG2]
+	"_have_v_qmodal-fn.Cotheme" -> "_resolve_v_1-fn.Competition" [label="ARG1-fn.Theme"]
+	_of_p -> nominalization [label=ARG2]
+	_still_a_1 -> "_have_v_qmodal-fn.Cotheme" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_the_q -> "_hurdle/nn_u_unknown" [label=BV]
+}

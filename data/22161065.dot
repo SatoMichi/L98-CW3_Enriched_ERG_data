@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_touch_v_1-fn.Manipulation" -> pron [label="ARG2-fn.Experiencer"]
+	_afraid_a_of -> pron [label=ARG1]
+	comp -> _old_a_1 [label=ARG1]
+	_the_q -> _woman_n_1 [label=BV]
+	_afraid_a_of -> "_touch_v_1-fn.Manipulation" [label=ARG2]
+	_old_a_1 -> _woman_n_1 [label=ARG1]
+	_next_a_1 -> _woman_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

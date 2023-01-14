@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> _mine_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _and_c [label="ARG1-fn.Process"]
+	udef_q -> _factory_n_1 [label=BV]
+	"little-few_a" -> _factory_n_1 [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lead_v_to-fn.Causation" -> _controversy_n_1 [label="ARG1-fn.Agent"]
+	_about_p -> _outcome_n_1 [label=ARG2]
+	_of_p -> "_election_n_of-for" [label=ARG2]
+	_the_q -> "_election_n_of-for" [label=BV]
+	udef_q -> _uncertainty_n_1 [label=BV]
+	_about_p -> _uncertainty_n_1 [label=ARG1]
+	"_lead_v_to-fn.Causation" -> _uncertainty_n_1 [label="ARG3-fn.Result"]
+	_the_q -> _controversy_n_1 [label=BV]
+	_of_p -> _outcome_n_1 [label=ARG1]
+	_the_q -> _outcome_n_1 [label=BV]
+}

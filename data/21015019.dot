@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _firm_a_1 [label=ARG1]
+	subord -> "_end_v_1-fn.Process_start" [label=ARG1]
+	"_end_v_1-fn.Process_start" -> "named(Daiwa)" [label="ARG1-fn.Event"]
+	compound -> "named(Daiwa)" [label=ARG1]
+	proper_q -> "named(Misawa)" [label=BV]
+	proper_q -> "named(Daiwa)" [label=BV]
+	udef_q -> _house_n_1 [label=BV]
+	compound -> _house_n_1 [label=ARG2]
+	compound -> "named(Misawa)" [label=ARG2]
+	_firm_a_1 -> "named(Home)" [label=ARG1]
+	comp -> _easy_a_for [label=ARG1]
+	_also_a_1 -> subord [label=ARG1]
+	proper_q -> "named(Home)" [label=BV]
+	compound -> "named(Home)" [label=ARG1]
+	subord -> _easy_a_for [label=ARG2]
+}

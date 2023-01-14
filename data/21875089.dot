@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _gingerly_a_1 [label=ARG2]
+	"_begin_v_1-fn.Activity_start" -> "_blame_v_for-fn.IN" [label="ARG1-fn.Agent"]
+	"_blame_v_for-fn.IN" -> nominalization [label="ARG2-fn.Theme"]
+	subord -> "_begin_v_1-fn.Activity_start" [label=ARG1]
+	_some_q -> _economist_n_1 [label=BV]
+	_central_a_1 -> nominalization [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_blame_v_for-fn.IN" -> _economist_n_1 [label="ARG1-fn.Agent"]
+	nominalization -> _plan_v_1 [label=ARG1]
+}

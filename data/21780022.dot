@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _opponent_n_1 [label=BV]
+	_of_p -> _opponent_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _opponent_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _legislation_n_1 [label=BV]
+	_adequate_a_1 -> _authority_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _adequate_a_1 [label="ARG2-fn.Topic"]
+	_of_p -> _legislation_n_1 [label=ARG2]
+	_such_q -> _authority_n_1 [label=BV]
+	focus_d -> _adequate_a_1 [label=ARG2]
+	"_more+than_x" -> _adequate_a_1 [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

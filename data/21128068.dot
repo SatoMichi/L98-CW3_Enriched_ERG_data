@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_too_a_also -> "_have_v_1-fn.IN" [label=ARG1]
+	"_have_v_1-fn.IN" -> _blemish_n_1 [label="ARG2-fn.Theme"]
+	eventuality -> _sure_a_of [label=ARG1]
+	udef_q -> _blemish_n_1 [label=BV]
+	_the_q -> "named(Fuji)" [label=BV]
+	"_have_v_1-fn.IN" -> "named(Fuji)" [label="ARG1-fn.Pivot"]
+	_sure_a_of -> "named(Fuji)" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(42)" [label=BV]
+	proper_q -> "named(ABC)" [label=BV]
+	loc_nonsp -> "_surge_v_1-fn.Experiencer_obj" [label=ARG1]
+	compound -> "named(ABC)" [label=ARG1]
+	proper_q -> "named(Cities-)" [label=BV]
+	number_q -> "card(560)" [label=BV]
+	loc_nonsp -> "card(42)" [label=ARG2]
+	plus -> "card(42)" [label=ARG2]
+	compound -> "named(Cities-)" [label=ARG1]
+	compound -> "named(Capital)" [label=ARG2]
+	"_surge_v_1-fn.Experiencer_obj" -> "named(ABC)" [label="ARG1-fn.Experiencer"]
+	_to_p -> "card(560)" [label=ARG2]
+	plus -> "fraction(5/8)" [label=ARG3]
+	proper_q -> "named(Capital)" [label=BV]
+	_to_p -> "_surge_v_1-fn.Experiencer_obj" [label=ARG1]
+}

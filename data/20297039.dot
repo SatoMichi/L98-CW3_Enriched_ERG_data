@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _brain_n_1 [label=BV]
+	superl -> _remarkable_a_to [label=ARG1]
+	poss -> _possibility_n_of [label=ARG1]
+	def_explicit_q -> _possibility_n_of [label=BV]
+	"_involve_v_1-fn.NF" -> _possibility_n_of [label="ARG1-fn.NotExist"]
+	"_involve_v_1-fn.NF" -> _brain_n_1 [label="ARG2-fn.NotExist"]
+	_the_q -> _device_n_1 [label=BV]
+	_remarkable_a_to -> _possibility_n_of [label=ARG1]
+	poss -> _device_n_1 [label=ARG2]
+}

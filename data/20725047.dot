@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_below_p -> _hold_v_1 [label=ARG1]
+	nominalization -> _hold_v_1 [label=ARG1]
+	"_lead_v_to-fn.Causation" -> nominalization [label="ARG3-fn.Result"]
+	"_irritate_v_1-fn.Experiencer_obj" -> pron [label="ARG2-fn.Experiencer"]
+	_widespread_a_1 -> nominalization [label=ARG1]
+	_great_a_1 -> "_irritate_v_1-fn.Experiencer_obj" [label=ARG1]
+	"_irritate_v_1-fn.Experiencer_obj" -> nominalization [label="ARG1-fn.Stimulus"]
+	nominalization -> _cheat_v_1 [label=ARG1]
+	parg_d -> _hold_v_1 [label=ARG1]
+	_below_p -> _capacity_n_1 [label=ARG2]
+	_well_x_deg -> _below_p [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _capacity_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_over_p_state -> _year_n_1 [label=ARG2]
+	"_advise_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_advise_v_1-fn.IN" -> _caution_n_1 [label="ARG2-fn.NotExist"]
+	_would_v_modal -> "_advise_v_1-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"little-few_a" -> _year_n_1 [label=ARG1]
+	focus_d -> _over_p_state [label=ARG2]
+	udef_q -> _caution_n_1 [label=BV]
+	_the_q -> _year_n_1 [label=BV]
+	focus_d -> _would_v_modal [label=ARG1]
+	_next_x_deg -> "little-few_a" [label=ARG1]
+	_over_p_state -> "_advise_v_1-fn.IN" [label=ARG1]
+}

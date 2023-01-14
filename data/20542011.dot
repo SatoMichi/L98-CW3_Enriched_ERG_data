@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Telerate)" [label=BV]
+	udef_q -> _market_n_1 [label=BV]
+	_about_p -> _market_n_1 [label=ARG2]
+	_about_p -> "_information_n_on-about" [label=ARG1]
+	"_provide_v_1-fn.Competition" -> "_information_n_on-about" [label="ARG2-fn.Participant_2"]
+	_electronic_a_1 -> _network_n_of [label=ARG1]
+	udef_q -> "_information_n_on-about" [label=BV]
+	_financial_a_1 -> _market_n_1 [label=ARG1]
+	_through_p -> "_provide_v_1-fn.Competition" [label=ARG1]
+	"_provide_v_1-fn.Competition" -> "named(Telerate)" [label="ARG1-fn.Participant_1"]
+	_through_p -> _network_n_of [label=ARG2]
+	_a_q -> _network_n_of [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_frequent_a_1 -> "_drinker/nn_u_unknown" [label=ARG1]
+	_spirited_a_1 -> _debate_n_1 [label=ARG1]
+	compound -> "_drinker/nn_u_unknown" [label=ARG2]
+	udef_q -> _debate_n_1 [label=BV]
+	"_stir_v_up-fn.Attempt_suasion" -> "named(Offer)" [label="ARG1-fn.Content"]
+	"_stir_v_up-fn.Attempt_suasion" -> _debate_n_1 [label="ARG2-fn.Addressee"]
+	proper_q -> "named(Offer)" [label=BV]
+	compound -> "named(Offer)" [label=ARG1]
+	udef_q -> "_drinker/nn_u_unknown" [label=BV]
+}

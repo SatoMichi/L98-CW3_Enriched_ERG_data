@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _and_c [label=ARG1]
+	udef_q -> _detail_n_1 [label=BV]
+	udef_q -> _size_n_1 [label=BV]
+	neg -> "_determine_v_1-fn.Competition" [label=ARG1]
+	_yet_a_1 -> "_determine_v_1-fn.Competition" [label=ARG1]
+	parg_d -> "_determine_v_1-fn.Competition" [label=ARG1]
+	_about_p -> _detail_n_1 [label=ARG1]
+	parg_d -> _detail_n_1 [label=ARG2]
+	_about_p -> _and_c [label=ARG2]
+	"_determine_v_1-fn.Competition" -> _detail_n_1 [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _and_c [label=BV]
+	poss -> pron [label=ARG2]
+	udef_q -> _cost_n_1 [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _package_v_1 [label=ARG1]
+	"_try_v_1-fn.Attempt" -> _bank_n_of [label="ARG1-fn.Agent"]
+	_before_p -> "_try_v_1-fn.Attempt" [label=ARG1]
+	"_try_v_1-fn.Attempt" -> nominalization [label="ARG2-fn.Theme"]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _bank_n_of [label=BV]
+}

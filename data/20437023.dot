@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_total_n_of -> _ton_n_1 [label=ARG1]
+	_the_q -> _mine_n_of [label=BV]
+	"_produce_v_1-fn.Commerce_sell" -> _total_n_of [label="ARG2-fn.Goods"]
+	_of_p -> _ton_n_1 [label=ARG1]
+	"_produce_v_1-fn.Commerce_sell" -> _mine_n_of [label="ARG1-fn.Buyer"]
+	_in_p_temp -> "_produce_v_1-fn.Commerce_sell" [label=ARG1]
+	_a_q -> _total_n_of [label=BV]
+	udef_q -> _copper_n_1 [label=BV]
+	udef_q -> _ton_n_1 [label=BV]
+	"card(110,000)" -> _ton_n_1 [label=ARG1]
+	proper_q -> "yofc(1988)" [label=BV]
+	_of_p -> _copper_n_1 [label=ARG2]
+	_in_p_temp -> "yofc(1988)" [label=ARG2]
+}

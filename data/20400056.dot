@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> "card(35)" [label=ARG2]
+	"card(10)" -> _percent_n_of [label=ARG1]
+	plus -> _percent_n_of [label=ARG1]
+	number_q -> "card(35)" [label=BV]
+	_the_q -> "_debentures/nns_u_unknown" [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> "_debentures/nns_u_unknown" [label=ARG1]
+	_last_a_1 -> "_trade_v_1-fn.Exchange" [label=ARG1]
+	"fraction(3/4)" -> _percent_n_of [label=ARG1]
+	compound -> _percent_n_of [label=ARG2]
+	_at_p -> "_trade_v_1-fn.Exchange" [label=ARG1]
+	"_trade_v_1-fn.Exchange" -> "_debentures/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	plus -> "card(10)" [label=ARG2]
+	plus -> "fraction(3/4)" [label=ARG3]
+}

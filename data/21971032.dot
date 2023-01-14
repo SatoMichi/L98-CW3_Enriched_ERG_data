@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_offer_v_1-fn.NF" -> _maker_n_of [label="ARG1-fn.Agent"]
+	compound -> _display_n_of [label=ARG1]
+	udef_q -> _color_n_1 [label=BV]
+	_major_a_1 -> _maker_n_of [label=ARG1]
+	compound -> _color_n_1 [label=ARG2]
+	"_offer_v_1-fn.NF" -> _computer_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _display_n_of [label=BV]
+	_every_q -> _maker_n_of [label=BV]
+	udef_q -> _computer_n_1 [label=BV]
+	_with_p -> _computer_n_1 [label=ARG1]
+	_with_p -> _display_n_of [label=ARG2]
+}

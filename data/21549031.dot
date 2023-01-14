@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Krenz)" [label=ARG1]
+	"_be_v_there-fn.Needing" -> _side_n_1 [label="ARG1-fn.Cognizer"]
+	proper_q -> "named(Krenz)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_to_p -> "named(Krenz)" [label=ARG2]
+	_to_p -> "_be_v_there-fn.Needing" [label=ARG1]
+	_another_q -> _side_n_1 [label=BV]
+}

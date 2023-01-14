@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "_lease_v_1-fn.Renting" [label="ARG2-fn.Topic"]
+	_the_q -> _site_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+	_of_p -> _refinery_n_1 [label=ARG2]
+	"_lease_v_1-fn.Renting" -> _site_n_1 [label="ARG2-fn.Theme"]
+	"_lease_v_1-fn.Renting" -> pron [label="ARG1-fn.Agent"]
+	_from_p -> "_lease_v_1-fn.Renting" [label=ARG1]
+	_from_p -> "named(Aruba)" [label=ARG2]
+	proper_q -> "named(Aruba)" [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_the_q -> _refinery_n_1 [label=BV]
+	_of_p -> _site_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

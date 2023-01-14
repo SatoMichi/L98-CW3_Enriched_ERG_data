@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_the_q -> _venture_n_1 [label=BV]
+	"_stick_v_with-fn.Firing" -> "named(Peladeau)" [label="ARG1-fn.Employee"]
+	compound -> "named(Peladeau)" [label=ARG1]
+	"_stick_v_with-fn.Firing" -> _venture_n_1 [label="ARG2-fn.Employer"]
+	proper_q -> "named(Peladeau)" [label=BV]
+	_still_a_disc -> "_stick_v_with-fn.Firing" [label=ARG1]
+}

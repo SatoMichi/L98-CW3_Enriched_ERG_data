@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_play_v_down-fn.Cause_to_continue" -> _possibility_n_of [label="ARG2-fn.Process"]
+	_the_q -> _possibility_n_of [label=BV]
+	compound -> _hotel_n_1 [label=ARG2]
+	"_play_v_down-fn.Cause_to_continue" -> _operator_n_of [label="ARG1-fn.Agent"]
+	compound -> _shortage_n_of [label=ARG1]
+	_possibility_n_of -> _shortage_n_of [label=ARG1]
+	udef_q -> _casino_n_1 [label=BV]
+	_a_q -> _shortage_n_of [label=BV]
+	udef_q -> _operator_n_of [label=BV]
+	udef_q -> _hotel_n_1 [label=BV]
+	compound -> _operator_n_of [label=ARG1]
+	compound -> _labor_n_1 [label=ARG2]
+	compound -> _casino_n_1 [label=ARG1]
+	udef_q -> _labor_n_1 [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _newspaper_n_of [label=BV]
+	_text_n_of -> _broadcast_n_1 [label=ARG1]
+	_the_q -> _text_n_of [label=BV]
+	poss -> _newspaper_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_print_v_cause-fn.Text_creation" -> _text_n_of [label="ARG2-fn.Theme"]
+	_those_q_dem -> _broadcast_n_1 [label=BV]
+	_can_v_modal -> "_print_v_cause-fn.Text_creation" [label=ARG1]
+	"_print_v_cause-fn.Text_creation" -> _newspaper_n_of [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

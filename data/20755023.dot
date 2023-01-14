@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _push_n_1 [label=BV]
+	_of_p -> _gas_n_1 [label=ARG2]
+	comp -> _clean_a_of [label=ARG1]
+	_of_p -> "_attractiveness/nn_u_unknown" [label=ARG1]
+	"_increase_v_cause-fn.Cause_to_end" -> _push_n_1 [label="ARG1-fn.Process"]
+	_clean_a_of -> _fuel_n_1 [label=ARG1]
+	udef_q -> _fuel_n_1 [label=BV]
+	"_increase_v_cause-fn.Cause_to_end" -> "_attractiveness/nn_u_unknown" [label="ARG2-fn.Means"]
+	_for_p -> _fuel_n_1 [label=ARG2]
+	udef_q -> _gas_n_1 [label=BV]
+	_for_p -> _push_n_1 [label=ARG1]
+	_the_q -> "_attractiveness/nn_u_unknown" [label=BV]
+	_natural_a_for -> _gas_n_1 [label=ARG1]
+}

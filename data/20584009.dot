@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_borrow_v_from-fn.Verdict" [label=ARG1]
+	parg_d -> _money_n_1 [label=ARG2]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_borrow_v_from-fn.Verdict" [label="ARG1-fn.Process"]
+	_that_q_dem -> _money_n_1 [label=BV]
+	"_would_v_modal-fn.Cause_to_end" -> "_have_v_qmodal-fn.Cause_to_end" [label="ARG1-fn.Process"]
+	"_borrow_v_from-fn.Verdict" -> _money_n_1 [label="ARG2-fn.Finding"]
+	_also_a_1 -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+}

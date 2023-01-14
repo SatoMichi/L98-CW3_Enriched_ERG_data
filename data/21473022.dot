@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _pang_n_of [label=ARG1]
+	udef_q -> _reader_n_of [label=BV]
+	_well_a_1 -> "_feel_v_1-fn.Perception_experience" [label=ARG1]
+	_may_v_modal -> "_feel_v_1-fn.Perception_experience" [label=ARG1]
+	_of_p -> _recognition_n_1 [label=ARG2]
+	"_feel_v_1-fn.Perception_experience" -> _reader_n_of [label="ARG1-fn.Experiencer"]
+	udef_q -> _recognition_n_1 [label=BV]
+	"_feel_v_1-fn.Perception_experience" -> _pang_n_of [label="ARG2-fn.Stimulus"]
+	_the_q -> _pang_n_of [label=BV]
+}

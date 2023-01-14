@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_add_v_to-fn.NF" [label=ARG1]
+	_so_a_thus -> _do_v_over [label=ARG1]
+	"_add_v_to-fn.NF" -> _so_a_thus [label="ARG2-fn.Topic"]
+	_do_v_over -> pron [label=ARG2]
+	focus_d -> _do_v_over [label=ARG2]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

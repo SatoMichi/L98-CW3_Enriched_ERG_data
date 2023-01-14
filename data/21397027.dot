@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_drown_v_cause-fn.Cause_to_end" [label=ARG1]
+	compound -> "named(Williams)" [label=ARG1]
+	"_describe_v_as-fn.Have_as_requirement" -> _corpse_n_1 [label="ARG2-fn.Requirement"]
+	compound -> "named(Esther)" [label=ARG2]
+	proper_q -> "named(Esther)" [label=BV]
+	parg_d -> _corpse_n_1 [label=ARG2]
+	_a_q -> _corpse_n_1 [label=BV]
+	proper_q -> "named(Williams)" [label=BV]
+	"_describe_v_as-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	"_drown_v_cause-fn.Cause_to_end" -> _corpse_n_1 [label="ARG2-fn.Means"]
+	"_describe_v_as-fn.Have_as_requirement" -> "named(Williams)" [label="ARG3-fn.Degree"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(U)" [label=ARG1]
+	proper_q -> "named(U)" [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> "named(U)" [label="ARG1-fn.Process"]
+	proper_q -> "named(State)" [label=BV]
+	_then_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	compound -> "named(State)" [label=ARG2]
+	_always_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+}

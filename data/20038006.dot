@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	"_complete_v_2-fn.Activity_finish" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _month_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_expect_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> "named(Bramalea)" [label="ARG1-fn.Agent"]
+	_end_n_of -> _month_n_1 [label=ARG1]
+	"_expect_v_1-fn.IN" -> "_complete_v_2-fn.Activity_finish" [label="ARG2-fn.Theme"]
+	"_complete_v_2-fn.Activity_finish" -> _issue_n_1 [label="ARG2-fn.Theme"]
+	_by_p -> _end_n_of [label=ARG2]
+	_the_q -> _issue_n_1 [label=BV]
+	proper_q -> "named(Bramalea)" [label=BV]
+	_the_q -> _end_n_of [label=BV]
+	_by_p -> "_complete_v_2-fn.Activity_finish" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

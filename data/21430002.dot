@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _edition_n_1 [label=ARG1]
+	"_state_v_to-fn.Cause_to_end" -> _citation_n_1 [label="ARG2-fn.Means"]
+	def_explicit_q -> _edition_n_1 [label=BV]
+	proper_q -> "dofw(Fri)" [label=BV]
+	_in_p -> _edition_n_1 [label=ARG2]
+	"_mis-_a_error" -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _citation_n_1 [label=BV]
+	parg_d -> _citation_n_1 [label=ARG2]
+	parg_d -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	_in_p -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	poss -> "dofw(Fri)" [label=ARG2]
+}

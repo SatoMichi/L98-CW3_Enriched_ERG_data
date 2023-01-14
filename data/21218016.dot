@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> "_embryo/nn_u_unknown" [label=BV]
+	udef_q -> "_implantation/nn_u_unknown" [label=BV]
+	udef_q -> generic_entity [label=BV]
+	"card(2+)" -> generic_entity [label=ARG1]
+	parg_d -> "_embryo/nn_u_unknown" [label=ARG2]
+	_for_p -> "_pick_v_1-fn.Choosing" [label=ARG1]
+	_discard_v_1 -> generic_entity [label=ARG1]
+	_defective_a_1 -> generic_entity [label=ARG1]
+	parg_d -> "_pick_v_1-fn.Choosing" [label=ARG1]
+	_for_p -> "_implantation/nn_u_unknown" [label=ARG2]
+	_healthy_a_1 -> "_embryo/nn_u_unknown" [label=ARG1]
+	_can_v_modal -> "_pick_v_1-fn.Choosing" [label=ARG1]
+	"_pick_v_1-fn.Choosing" -> "_embryo/nn_u_unknown" [label="ARG2-fn.Theme"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> _motel_n_1 [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> _like_p [label="ARG2-fn.Requirement"]
+	focus_d -> _like_p [label=ARG2]
+	compound -> _motel_n_1 [label=ARG1]
+	_a_q -> _motel_n_1 [label=BV]
+	compound -> "named(Roach)" [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_like_p -> _deal_n_1 [label=ARG1]
+	_this_q_dem -> _deal_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Roach)" [label=BV]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+}

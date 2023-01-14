@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "card(2)" [label=ARG1]
+	appos -> "named(Article+I)" [label=ARG1]
+	appos -> "card(7)" [label=ARG2]
+	proper_q -> "named(Article+I)" [label=BV]
+	unknown -> "named(Article+I)" [label=ARG]
+	compound -> _section_n_of [label=ARG2]
+	loc_nonsp -> "card(2)" [label=ARG2]
+	compound -> "card(2)" [label=ARG1]
+	number_q -> "card(2)" [label=BV]
+	compound -> _clause_n_1 [label=ARG2]
+	compound -> "card(7)" [label=ARG1]
+	udef_q -> _section_n_of [label=BV]
+	udef_q -> _clause_n_1 [label=BV]
+	number_q -> "card(7)" [label=BV]
+}

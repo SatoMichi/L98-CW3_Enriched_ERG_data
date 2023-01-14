@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _resignation_n_1 [label=BV]
+	_as_p -> _surprise_n_1 [label=ARG2]
+	_great_a_for -> _surprise_n_1 [label=ARG1]
+	"_come_v_1-fn.Halt" -> _resignation_n_1 [label="ARG1-fn.Purpose"]
+	_as_p -> "_come_v_1-fn.Halt" [label=ARG1]
+	_a_q -> _surprise_n_1 [label=BV]
+}

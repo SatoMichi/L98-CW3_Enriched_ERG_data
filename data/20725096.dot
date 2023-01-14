@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _about_p [label=ARG1]
+	focus_d -> _about_p [label=ARG1]
+	compound -> _worker_n_1 [label=ARG1]
+	compound -> _field_n_of [label=ARG2]
+	_about_p -> pron [label=ARG1]
+	udef_q -> _time_n_of [label=BV]
+	focus_d -> _for_p [label=ARG2]
+	_most_q -> _worker_n_1 [label=BV]
+	udef_q -> _field_n_of [label=BV]
+	_for_p -> _worker_n_1 [label=ARG2]
+	_about_p -> _time_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

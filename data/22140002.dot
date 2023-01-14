@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_enjoy_v_1-fn.NF" -> _sale_n_of [label="ARG2-fn.Attribute"]
+	"_make_v_up-for-fn.Manufacturing" -> _sale_n_of [label="ARG1-fn.Agent"]
+	"_enjoy_v_1-fn.NF" -> pron [label="ARG1-fn.Experiencer"]
+	parg_d -> _sale_n_of [label=ARG2]
+	_overseas_a_1 -> _sale_n_of [label=ARG1]
+	"_lose_v_1-fn.NF" -> _sale_n_of [label="ARG2-fn.Theme"]
+	_domestic_a_1 -> _sale_n_of [label=ARG1]
+	parg_d -> "_lose_v_1-fn.NF" [label=ARG1]
+	_for_p -> _sale_n_of [label=ARG2]
+	"_more+than_a_1" -> "_make_v_up-for-fn.Manufacturing" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

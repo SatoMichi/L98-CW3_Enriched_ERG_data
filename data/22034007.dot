@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_find_v_1-fn.IN" -> _biker_n_1 [label="ARG2-fn.Theme"]
+	"_destroy_v_1-fn.Destroying" -> _animal_n_1 [label="ARG2-fn.Patient"]
+	parg_d -> _biker_n_1 [label=ARG2]
+	parg_d -> "_destroy_v_1-fn.Destroying" [label=ARG1]
+	_the_q -> _animal_n_1 [label=BV]
+	_have_v_qmodal -> "_destroy_v_1-fn.Destroying" [label=ARG1]
+	parg_d -> _animal_n_1 [label=ARG2]
+	_the_q -> _biker_n_1 [label=BV]
+	parg_d -> "_find_v_1-fn.IN" [label=ARG1]
+	_never_a_1 -> "_find_v_1-fn.IN" [label=ARG1]
+	_flee_v_from -> _biker_n_1 [label=ARG1]
+}

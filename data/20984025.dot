@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_easy_a_for -> _layout_n_of [label=ARG1]
+	focus_d -> _easy_a_for [label=ARG1]
+	_after_p -> generic_entity [label=ARG2]
+	focus_d -> _after_p [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	_the_q -> _layout_n_of [label=BV]
+	_after_p -> _easy_a_for [label=ARG1]
+}

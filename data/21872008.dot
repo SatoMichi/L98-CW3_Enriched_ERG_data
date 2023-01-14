@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_payable_a_to -> _payment_n_of [label=ARG1]
+	"_semiannually/rb_u_unknown" -> _payable_a_to [label=ARG1]
+	udef_q -> _interest_n_in [label=BV]
+	_on_p -> _payment_n_of [label=ARG1]
+	compound -> _payment_n_of [label=ARG1]
+	_the_q -> _bond_n_1 [label=BV]
+	_on_p -> _bond_n_1 [label=ARG2]
+	compound -> _interest_n_in [label=ARG2]
+	udef_q -> _payment_n_of [label=BV]
+}

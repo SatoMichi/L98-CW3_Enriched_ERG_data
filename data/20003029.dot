@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_ago_p -> _year_n_1 [label=ARG2]
+	"_take_v_of-i" -> _place_n_i [label=ARG2]
+	idiom_q_i -> _place_n_i [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	_these_q_dem -> _event_n_item [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_take_v_of-i" -> _event_n_item [label=ARG1]
+	_have_v_qmodal -> "_recognize_v_1-fn.Becoming_aware" [label=ARG1]
+	"_recognize_v_1-fn.Becoming_aware" -> pron [label="ARG1-fn.NotExist"]
+	_ago_p -> "_take_v_of-i" [label=ARG1]
+	"card(35)" -> _year_n_1 [label=ARG1]
+	"_recognize_v_1-fn.Becoming_aware" -> "_take_v_of-i" [label="ARG2-fn.NotExist"]
+}

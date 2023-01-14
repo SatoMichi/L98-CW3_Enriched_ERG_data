@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Taking" -> "_say_v_to-fn.Taking" [label="ARG2-fn.Theme"]
+	parg_d -> "_appoint_v_1-fn.Competition" [label=ARG1]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG2]
+	"_say_v_to-fn.Taking" -> "_appoint_v_1-fn.Competition" [label="ARG2-fn.Theme"]
+	parg_d -> _office_n_of [label=ARG2]
+	_just_a_1 -> "_say_v_to-fn.Taking" [label=ARG1]
+	"_say_v_to-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _office_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_tasteful_a_1 -> "_appoint_v_1-fn.Competition" [label=ARG1]
+	"_appoint_v_1-fn.Competition" -> _office_n_of [label="ARG2-fn.Participant_2"]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_1-fn.Competition" -> "_nothin/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	"_get_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	udef_q -> "_nothin/nn_u_unknown" [label=BV]
+	"_can_v_modal-fn.Existence" -> "_tell_v_1-fn.Competition" [label="ARG1-fn.Entity"]
+	pronoun_q -> pron [label=BV]
+	"_tell_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_tell_v_1-fn.Competition" -> "_get_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _use_n_of [label=BV]
+	superl -> _new_a_1 [label=ARG1]
+	_new_a_1 -> _use_n_of [label=ARG1]
+	_interactive_a_1 -> _technology_n_1 [label=ARG1]
+	_the_q -> _technology_n_1 [label=BV]
+	"_demonstrate_v_to-fn.Evidence" -> "_variety_n_of-n" [label="ARG2-fn.NotExist"]
+	compound -> _interactive_a_1 [label=ARG1]
+	udef_q -> "yofc(900-)" [label=BV]
+	"_demonstrate_v_to-fn.Evidence" -> _use_n_of [label="ARG1-fn.NotExist"]
+	_the_q -> "_variety_n_of-n" [label=BV]
+	_use_n_of -> _technology_n_1 [label=ARG1]
+	"_variety_n_of-n" -> _application_n_of [label=ARG1]
+	_grow_v_1 -> "_variety_n_of-n" [label=ARG1]
+	udef_q -> _application_n_of [label=BV]
+	compound -> "yofc(900-)" [label=ARG2]
+}

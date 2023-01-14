@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _way_n_of [label=ARG2]
+	loc_nonsp -> place_n [label=ARG2]
+	loc_nonsp -> _feeling_n_of [label=ARG1]
+	loc_nonsp -> _go_v_1 [label=ARG1]
+	_feeling_n_of -> "_be_v_id-fn.Residence" [label=ARG1]
+	_the_q -> _way_n_of [label=BV]
+	_here_a_1 -> place_n [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	_some_q_indiv -> _feeling_n_of [label=BV]
+	"_be_v_id-fn.Residence" -> _way_n_of [label="ARG2-fn.Location"]
+	"_be_v_there-fn.Needing" -> _feeling_n_of [label="ARG1-fn.Cognizer"]
+	_the_q -> _cut_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _cut_n_1 [label="ARG1-fn.Resident"]
+}

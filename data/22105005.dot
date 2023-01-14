@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Goldman)" [label=ARG2]
+	proper_q -> "named(Goldman)" [label=BV]
+	udef_q -> "_and+company_n_1" [label=BV]
+	_the_q -> _offering_n_of [label=BV]
+	"_manage_v_1-fn.Competition" -> "named(Sachs)" [label="ARG1-fn.Participant_1"]
+	"_manage_v_1-fn.Competition" -> _offering_n_of [label="ARG2-fn.Participant_2"]
+	compound -> "named(Sachs)" [label=ARG1]
+	proper_q -> "named(Sachs)" [label=BV]
+	compound -> "_and+company_n_1" [label=ARG2]
+}

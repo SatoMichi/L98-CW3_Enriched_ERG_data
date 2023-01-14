@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	eventuality -> "_keep_v_prd-fn.Cause_to_continue" [label=ARG1]
+	parg_d -> "_seat_v_cause-fn.NF" [label=ARG1]
+	_on_p_dir -> "_keep_v_unspec-fn.Cause_to_continue" [label=ARG1]
+	_the_q -> _idea_n_of [label=BV]
+	"_keep_v_prd-fn.Cause_to_continue" -> "_seat_v_cause-fn.NF" [label="ARG3-fn.NotExist"]
+	"_keep_v_unspec-fn.Cause_to_continue" -> _clothes_n_1 [label="ARG2-fn.Theme"]
+	"_keep_v_unspec-fn.Cause_to_continue" -> _idea_n_of [label="ARG1-fn.Agent"]
+	"_in+order+to_x" -> "_keep_v_unspec-fn.Cause_to_continue" [label=ARG2]
+	"_seat_v_cause-fn.NF" -> _people_n_of [label="ARG2-fn.Value"]
+	parg_d -> _people_n_of [label=ARG2]
+	_the_q -> _clothes_n_1 [label=BV]
+	"_keep_v_prd-fn.Cause_to_continue" -> _people_n_of [label="ARG2-fn.Theme"]
+	"_keep_v_prd-fn.Cause_to_continue" -> _idea_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _people_n_of [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_can_v_modal -> "_receive_v_1-fn.Receiving" [label=ARG1]
+	udef_q -> _telephone_n_1 [label=BV]
+	_out_p -> _dial_v_1 [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> pron [label="ARG1-fn.Agent"]
+	compound -> _call_n_1 [label=ARG1]
+	compound -> _telephone_n_1 [label=ARG2]
+	"_receive_v_1-fn.Receiving" -> _call_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _call_n_1 [label=BV]
+	neg -> _can_v_modal [label=ARG1]
+	_can_v_modal -> _dial_v_1 [label=ARG1]
+	_dial_v_1 -> _worker_n_1 [label=ARG1]
+	udef_q -> _worker_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

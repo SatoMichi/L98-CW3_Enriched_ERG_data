@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_of-i-fn.Taking" -> _interview_n_1 [label="ARG1-fn.Agent"]
+	_ago_p -> "_take_v_of-i-fn.Taking" [label=ARG1]
+	udef_q -> _year_n_1 [label=BV]
+	idiom_q_i -> _place_n_i [label=BV]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	_the_q -> _interview_n_1 [label=BV]
+	"_take_v_of-i-fn.Taking" -> _place_n_i [label="ARG2-fn.Theme"]
+	_ago_p -> _year_n_1 [label=ARG2]
+}

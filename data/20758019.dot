@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_x_subord -> unknown [label=ARG1]
+	_as_x_subord -> "_say_v_to-fn.IN" [label=ARG2]
+	_be_v_id -> _history_n_of [label=ARG2]
+	unknown -> _rest_n_of [label=ARG]
+	udef_q -> _history_n_of [label=BV]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	_the_q -> _rest_n_of [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

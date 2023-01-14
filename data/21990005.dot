@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _concern_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _concern_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	nominalization -> _mine_v_1 [label=ARG1]
+	compound -> _concern_n_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	_both_q -> generic_entity [label=BV]
+	"card(2)" -> generic_entity [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

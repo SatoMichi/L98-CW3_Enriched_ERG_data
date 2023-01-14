@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "_beware_v_1-fn.NF" [label=ARG2]
+	_colon_p_namely -> unknown [label=ARG1]
+	udef_q -> "_dishonesty/nn_u_unknown" [label=BV]
+	"_beware_v_1-fn.NF" -> "_dishonesty/nn_u_unknown" [label="ARG2-fn.Stimulus"]
+	"_beware_v_1-fn.NF" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _employee_n_of [label=BV]
+	compound -> _employee_n_of [label=ARG2]
+	proper_q -> "named(Fallout)" [label=BV]
+	udef_q -> _merger_n_1 [label=BV]
+	unknown -> "named(Fallout)" [label=ARG]
+	compound -> "_dishonesty/nn_u_unknown" [label=ARG1]
+	compound -> "named(Fallout)" [label=ARG1]
+	compound -> _merger_n_1 [label=ARG2]
+}

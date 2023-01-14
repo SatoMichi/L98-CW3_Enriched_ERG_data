@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_go_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	"_be_v_there-fn.Needing" -> generic_entity [label="ARG1-fn.Cognizer"]
+	"_learn_v_1-fn.Competition" -> generic_entity [label="ARG2-fn.Participant_2"]
+	"much-many_a" -> generic_entity [label=ARG1]
+	neg -> "_be_v_there-fn.Needing" [label=ARG1]
+	_when_x_subord -> neg [label=ARG1]
+	subord -> _when_x_subord [label=ARG1]
+	_that_x_deg -> "much-many_a" [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	_to_p -> "_go_v_1-fn.Halt" [label=ARG1]
+	_to_p -> _college_n_of [label=ARG2]
+	_when_x_subord -> "_go_v_1-fn.Halt" [label=ARG2]
+	udef_q -> _college_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	subord -> _true_a_of [label=ARG2]
+}

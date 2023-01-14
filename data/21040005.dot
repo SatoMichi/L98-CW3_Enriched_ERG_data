@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _share_n_of [label=BV]
+	times -> "card(8.8)" [label=ARG2]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	"_have_v_1-fn.Commerce_collect" -> _share_n_of [label="ARG2-fn.Goods"]
+	"_have_v_1-fn.Commerce_collect" -> _company_n_of [label="ARG1-fn.Buyer"]
+}

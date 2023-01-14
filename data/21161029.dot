@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_offer_v_1-fn.State_continue" [label=ARG1]
+	loc_nonsp -> _due_a_1 [label=ARG1]
+	"_offer_v_1-fn.State_continue" -> _bond_n_1 [label="ARG2-fn.State"]
+	loc_nonsp -> "card(2004)" [label=ARG2]
+	parg_d -> _bond_n_1 [label=ARG2]
+	parg_d -> "_offer_v_1-fn.State_continue" [label=ARG1]
+	udef_q -> _bond_n_1 [label=BV]
+	number_q -> "card(2015)" [label=BV]
+	loc_nonsp -> "card(2003)" [label=ARG2]
+	loc_nonsp -> "card(2015)" [label=ARG2]
+	number_q -> "card(2004)" [label=BV]
+	_formal_a_1 -> "_offer_v_1-fn.State_continue" [label=ARG1]
+	_due_a_1 -> _bond_n_1 [label=ARG1]
+	number_q -> "card(2003)" [label=BV]
+	"_re-_a_again" -> "_offer_v_1-fn.State_continue" [label=ARG1]
+}

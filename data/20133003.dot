@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_cloud_v_1-fn.Piracy" [label=ARG1]
+	_the_q -> _eye_n_1 [label=BV]
+	poss -> _eye_n_1 [label=ARG2]
+	def_explicit_q -> _lens_n_1 [label=BV]
+	"_cloud_v_1-fn.Piracy" -> _lens_n_1 [label="ARG2-fn.Vehicle"]
+	_natural_a_for -> _lens_n_1 [label=ARG1]
+	_a_q -> nominalization [label=BV]
+	udef_q -> _cataract_n_1 [label=BV]
+	"_refer_v_to-fn.Event" -> nominalization [label="ARG2-fn.Place"]
+	"_refer_v_to-fn.Event" -> _cataract_n_1 [label="ARG1-fn.Event"]
+	poss -> _lens_n_1 [label=ARG1]
+}

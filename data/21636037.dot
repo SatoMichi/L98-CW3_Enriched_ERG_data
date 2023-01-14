@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _poll_n_1 [label=BV]
+	poss -> _year_n_1 [label=ARG2]
+	_previous_a_1 -> _year_n_1 [label=ARG1]
+	"_change_v_1-fn.Relative_time" -> _percentage_n_of [label="ARG1-fn.Focal_occasion"]
+	_the_q -> _year_n_1 [label=BV]
+	_from_p -> "_change_v_1-fn.Relative_time" [label=ARG1]
+	_hardly_a_1 -> "_change_v_1-fn.Relative_time" [label=ARG1]
+	poss -> _poll_n_1 [label=ARG1]
+	_from_p -> _poll_n_1 [label=ARG2]
+	_those_q_dem -> _percentage_n_of [label=BV]
+}

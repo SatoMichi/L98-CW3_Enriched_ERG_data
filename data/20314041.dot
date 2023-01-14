@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_easy_a_for -> nominalization [label=ARG1]
+	_popular_a_for -> nominalization [label=ARG1]
+	"_limit_v_1-fn.NF" -> _care_n_1 [label="ARG2-fn.Patient"]
+	udef_q -> nominalization [label=BV]
+	nominalization -> "_limit_v_1-fn.NF" [label=ARG1]
+	udef_q -> _care_n_1 [label=BV]
+	neg -> _or_c [label=ARG1]
+}

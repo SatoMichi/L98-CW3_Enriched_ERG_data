@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	measure -> _strong_a_1 [label=ARG1]
+	"_wonder_v_1-fn.Rite" -> _analyst_n_1 [label="ARG1-fn.Leader"]
+	_some_q -> _analyst_n_1 [label=BV]
+	"_wonder_v_1-fn.Rite" -> _strong_a_1 [label="ARG2-fn.Member"]
+	_the_q -> _recovery_n_1 [label=BV]
+	which_q -> abstr_deg [label=BV]
+	measure -> abstr_deg [label=ARG2]
+	_strong_a_1 -> _recovery_n_1 [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> nominalization [label=ARG2]
+	_which_q -> generic_entity [label=BV]
+	ellipsis_ref -> generic_entity [label=ARG1]
+	_like_p -> unknown [label=ARG1]
+	nominalization -> _and_c [label=ARG1]
+	"_droppable/jj_u_unknown" -> generic_entity [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	neg -> ellipsis_ref [label=ARG1]
+}

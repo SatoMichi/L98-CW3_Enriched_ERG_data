@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Kravis)" [label=ARG1]
+	proper_q -> "named(Henry)" [label=BV]
+	"_watch_v_1-fn.Perception_active" -> "named(Kravis)" [label="ARG2-fn.NotExist"]
+	"_watch_v_1-fn.Perception_active" -> _out_p [label="ARG3-fn.NotExist"]
+	focus_d -> "_watch_v_1-fn.Perception_active" [label=ARG1]
+	"_watch_v_1-fn.Perception_active" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(Kravis)" [label=BV]
+	focus_d -> "named(Kravis)" [label=ARG2]
+	_out_p -> "named(Kravis)" [label=ARG1]
+	compound -> "named(Henry)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

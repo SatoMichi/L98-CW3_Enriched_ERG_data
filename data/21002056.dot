@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_should_v_modal-fn.Amounting_to" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Value"]
+	_for_p -> reason [label=ARG2]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> part_of [label="ARG2-fn.Location"]
+	_that_q_dem -> _problem_n_of [label=BV]
+	which_q -> reason [label=BV]
+	part_of -> _problem_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_for_p -> "_be_v_id-fn.Residence" [label=ARG1]
+	_part_q -> part_of [label=BV]
+}

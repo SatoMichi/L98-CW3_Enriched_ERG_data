@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_serve_v_as-fn.Assistance" -> "named(Viroqua)" [label="ARG1-fn.Agent"]
+	compound -> _line_n_of [label=ARG1]
+	proper_q -> "named(Wisconsin)" [label=BV]
+	_western_a_1 -> "named(Wisconsin)" [label=ARG1]
+	_in_p -> _line_n_of [label=ARG1]
+	"_serve_v_as-fn.Assistance" -> _line_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> _line_n_of [label=BV]
+	_in_p -> "named(Wisconsin)" [label=ARG2]
+	"card(3,000)" -> _line_n_of [label=ARG1]
+	proper_q -> "named(Viroqua)" [label=BV]
+	_about_x_deg -> "card(3,000)" [label=ARG1]
+	compound -> _access_n_1 [label=ARG2]
+	udef_q -> _access_n_1 [label=BV]
+}

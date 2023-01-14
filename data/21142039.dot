@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _unchanged_a_1 [label=ARG1]
+	_unchanged_a_1 -> "named(McCaw)" [label=ARG1]
+	proper_q -> "named(McCaw)" [label=BV]
+	number_q -> "card(40)" [label=BV]
+	_at_p -> "card(40)" [label=ARG2]
+}

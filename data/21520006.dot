@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _dump_n_1 [label=BV]
+	"card(1)" -> _dump_n_1 [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	udef_q -> _waste_n_of [label=BV]
+	"_know_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_know_v_1-fn.IN" -> loc_nonsp [label="ARG2-fn.Theme"]
+	_toxic_a_1 -> pron [label=ARG1]
+	_may_v_modal -> _toxic_a_1 [label=ARG1]
+	compound -> _waste_n_of [label=ARG2]
+	compound -> _dump_n_1 [label=ARG1]
+	loc_nonsp -> _dump_n_1 [label=ARG1]
+	which_q -> place_n [label=BV]
+	neg -> _may_v_modal [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(GDP)" [label=BV]
+	_up_p -> "named(GDP)" [label=ARG1]
+	"_year-earlier_a_1" -> _level_n_1 [label=ARG1]
+	udef_q -> "mofy(Aug)" [label=BV]
+	_from_p -> _up_p [label=ARG1]
+	_from_p -> _level_n_1 [label=ARG2]
+	def_explicit_q -> _level_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	compound -> "named(GDP)" [label=ARG1]
+	"card(2.4)" -> _percent_n_of [label=ARG1]
+	poss -> _level_n_1 [label=ARG1]
+	_up_p -> _percent_n_of [label=ARG2]
+	compound -> "mofy(Aug)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

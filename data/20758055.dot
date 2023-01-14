@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_home_n_of-n" [label=BV]
+	"_talk_v_of-fn.IN" -> _run_n_of [label="ARG2-fn.Topic"]
+	compound -> "_home_n_of-n" [label=ARG2]
+	"_talk_v_of-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	compound -> _run_n_of [label=ARG1]
+	_the_q -> _run_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

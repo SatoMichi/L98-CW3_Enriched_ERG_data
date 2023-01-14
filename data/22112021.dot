@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	superl -> _mean_a_1 [label=ARG1]
+	proper_q -> "named(Iran)" [label=BV]
+	_of_p -> "named(Iran)" [label=ARG2]
+	_the_q -> _shah_n_1 [label=BV]
+	_mean_a_1 -> _ghost_n_1 [label=ARG1]
+	_of_p -> generic_entity [label=ARG2]
+	appos -> _ghost_n_1 [label=ARG2]
+	_all_q -> generic_entity [label=BV]
+	_bad_a_1 -> _ghost_n_1 [label=ARG1]
+	_the_q -> _ghost_n_1 [label=BV]
+	superl -> _bad_a_1 [label=ARG1]
+	_of_p -> _shah_n_1 [label=ARG1]
+	_of_p -> _ghost_n_1 [label=ARG1]
+	"_bring_v_up-fn.Impact" -> _ghost_n_1 [label="ARG2-fn.Result"]
+}

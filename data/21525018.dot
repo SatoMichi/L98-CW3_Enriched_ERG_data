@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_add_v_to-fn.Cause_to_end" -> _list_n_of [label="ARG3-fn.Place"]
+	_a_q -> _lack_n_1 [label=BV]
+	superl -> _recent_a_1 [label=ARG1]
+	_recent_a_1 -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _buyer_n_of [label=BV]
+	_of_p -> _lack_n_1 [label=ARG1]
+	focus_d -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _list_n_of [label=BV]
+	parg_d -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _lack_n_1 [label=ARG2]
+	_of_p -> _buyer_n_of [label=ARG2]
+	"_add_v_to-fn.Cause_to_end" -> _lack_n_1 [label="ARG2-fn.Means"]
+}

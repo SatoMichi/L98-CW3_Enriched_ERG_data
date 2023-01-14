@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_still_x_deg -> comp [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	proper_q -> "named(IBM)" [label=BV]
+	udef_q -> _competition_n_1 [label=BV]
+	"much-many_a" -> _competition_n_1 [label=ARG1]
+	"_face_v_1-fn.Confronting_problem" -> _competition_n_1 [label="ARG2-fn.NotExist"]
+	udef_q -> _month_n_1 [label=BV]
+	"_face_v_1-fn.Confronting_problem" -> "named(IBM)" [label="ARG1-fn.NotExist"]
+	_in_p_temp -> "_face_v_1-fn.Confronting_problem" [label=ARG1]
+	_come_v_1 -> _month_n_1 [label=ARG1]
+	_in_p_temp -> _month_n_1 [label=ARG2]
+}

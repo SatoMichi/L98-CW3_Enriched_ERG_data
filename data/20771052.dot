@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_now_a_1 -> _in_p [label=ARG1]
+	_national_a_1 -> _security_n_1 [label=ARG1]
+	_the_q -> _lawyer_n_1 [label=BV]
+	poss -> _security_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	udef_q -> _charge_n_of [label=BV]
+	_in_p -> _lawyer_n_1 [label=ARG1]
+	_charge_n_of -> _security_n_1 [label=ARG1]
+	def_explicit_q -> _security_n_1 [label=BV]
+	_in_p -> _charge_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

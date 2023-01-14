@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(17)" [label=BV]
+	plus -> "fraction(1/4)" [label=ARG3]
+	_to_p -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> "named(Arrow)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Arrow)" [label=BV]
+	compound -> "named(Arrow)" [label=ARG1]
+	_to_p -> "card(17)" [label=ARG2]
+	proper_q -> "named(Blue)" [label=BV]
+	compound -> "named(Blue)" [label=ARG2]
+	plus -> "card(17)" [label=ARG2]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_go_v_after -> _investor_n_1 [label=ARG2]
+	compound -> _rate_n_of [label=ARG1]
+	udef_q -> _rate_n_of [label=BV]
+	_go_v_after -> _bank_n_of [label=ARG1]
+	_individual_a_1 -> _investor_n_1 [label=ARG1]
+	_despite_p -> _go_v_after [label=ARG1]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _rate_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _interest_n_in [label=BV]
+	"_continue_v_2-fn.Activity_ongoing" -> _go_v_after [label="ARG1-fn.NotExist"]
+	udef_q -> _investor_n_1 [label=BV]
+	compound -> _interest_n_in [label=ARG2]
+	udef_q -> _bank_n_of [label=BV]
+	_despite_p -> _rate_n_of [label=ARG2]
+}

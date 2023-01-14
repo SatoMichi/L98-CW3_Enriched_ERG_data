@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_likely_a_1 -> "_stop_v_from-fn.Preventing" [label=ARG1]
+	compound -> _show_n_of [label=ARG1]
+	neg -> _likely_a_1 [label=ARG1]
+	"_stop_v_from-fn.Preventing" -> _station_n_1 [label="ARG2-fn.Theme"]
+	"_stop_v_from-fn.Preventing" -> "_dump_v_1-fn.NF" [label="ARG3-fn.Theme"]
+	compound -> "named(CBS)" [label=ARG2]
+	"_dump_v_1-fn.NF" -> _station_n_1 [label="ARG1-fn.Agent"]
+	"_dump_v_1-fn.NF" -> _show_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _station_n_1 [label=BV]
+	udef_q -> _show_n_of [label=BV]
+	"_stop_v_from-fn.Preventing" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(CBS)" [label=BV]
+	_alone_p -> _likely_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

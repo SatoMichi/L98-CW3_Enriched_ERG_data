@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Krenz)" [label=BV]
+	_also_a_1 -> "_disappoint_v_1-fn.Experiencer_obj" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_selection_n_of -> "named(Krenz)" [label=ARG1]
+	proper_q -> "named(Moscow)" [label=BV]
+	"_disappoint_v_1-fn.Experiencer_obj" -> _selection_n_of [label="ARG1-fn.Stimulus"]
+	_the_q -> _selection_n_of [label=BV]
+	_may_v_modal -> _also_a_1 [label=ARG1]
+	"_disappoint_v_1-fn.Experiencer_obj" -> "named(Moscow)" [label="ARG2-fn.Experiencer"]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> "named(Krenz)" [label=ARG1]
+}

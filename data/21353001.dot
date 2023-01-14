@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Moscow)" [label=BV]
+	"_admit_v_to-fn.IN" -> _violate_v_1 [label="ARG2-fn.Theme"]
+	proper_q -> "named(ABM)" [label=BV]
+	compound -> _treaty_n_1 [label=ARG1]
+	_the_q -> _treaty_n_1 [label=BV]
+	proper_q -> "yofc(1972)" [label=BV]
+	compound -> "named(ABM)" [label=ARG2]
+	compound -> "yofc(1972)" [label=ARG2]
+	"_admit_v_to-fn.IN" -> "named(SHEVARDNADZE)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(SHEVARDNADZE)" [label=BV]
+	_violate_v_1 -> _treaty_n_1 [label=ARG2]
+	_violate_v_1 -> "named(Moscow)" [label=ARG1]
+}

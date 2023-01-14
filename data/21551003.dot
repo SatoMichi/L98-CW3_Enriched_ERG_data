@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_expand_v_cause -> _volume_n_of [label=ARG2]
+	_the_q -> _journal_n_1 [label=BV]
+	"_offer_v_1-fn.NF" -> _and_c [label="ARG2-fn.Theme"]
+	compound -> _frequency_n_1 [label=ARG2]
+	parg_d -> _expand_v_cause [label=ARG1]
+	udef_q -> _discount_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _frequency_n_1 [label=BV]
+	"_offer_v_1-fn.NF" -> _journal_n_1 [label="ARG1-fn.Agent"]
+	parg_d -> _volume_n_of [label=ARG2]
+	compound -> _discount_n_1 [label=ARG1]
+	_also_a_1 -> "_offer_v_1-fn.NF" [label=ARG1]
+	udef_q -> _volume_n_of [label=BV]
+}

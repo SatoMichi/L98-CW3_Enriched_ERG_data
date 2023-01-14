@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_year-earlier_a_1" -> _result_n_of [label=ARG1]
+	"_reflect_v_1-fn.Competition" -> _change_n_of [label="ARG2-fn.Participant_2"]
+	compound -> _accounting_n_1 [label=ARG2]
+	udef_q -> _accounting_n_1 [label=BV]
+	"_state_v_to-fn.Cause_to_end" -> _result_n_of [label="ARG2-fn.Means"]
+	_the_q -> _result_n_of [label=BV]
+	"_re-_a_again" -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _result_n_of [label=ARG2]
+	compound -> _change_n_of [label=ARG1]
+	"_in+order+to_x" -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	parg_d -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	"_in+order+to_x" -> "_reflect_v_1-fn.Competition" [label=ARG2]
+	_a_q -> _change_n_of [label=BV]
+	"_reflect_v_1-fn.Competition" -> _result_n_of [label="ARG1-fn.Participant_1"]
+}

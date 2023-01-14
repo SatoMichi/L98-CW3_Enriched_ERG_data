@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p -> "named(Acceptance)" [label=ARG2]
+	proper_q -> "named(Acceptance)" [label=BV]
+	unknown -> _guarantee_n_of [label=ARG]
+	udef_q -> _guarantee_n_of [label=BV]
+	compound -> "named(Acceptance)" [label=ARG1]
+	compound -> "named(General)" [label=ARG2]
+	compound -> _corporation_n_1 [label=ARG2]
+	_by_p -> _guarantee_n_of [label=ARG1]
+	proper_q -> "named(Motors)" [label=BV]
+	proper_q -> "named(General)" [label=BV]
+	compound -> "named(Motors)" [label=ARG1]
+	udef_q -> _corporation_n_1 [label=BV]
+}

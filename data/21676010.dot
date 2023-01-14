@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _coupon_n_1 [label=ARG1]
+	_a_q -> _coupon_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> _percent_n_of [label=ARG2]
+	"_carry_v_1-fn.Bringing" -> pron [label="ARG1-fn.NotExist"]
+	"card(7)" -> _percent_n_of [label=ARG1]
+	"_carry_v_1-fn.Bringing" -> _coupon_n_1 [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

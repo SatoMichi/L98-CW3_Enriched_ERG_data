@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_give_v_1-fn.Giving" -> "named(Constitution)" [label="ARG1-fn.Agent"]
+	_the_q -> "named(Constitution)" [label=BV]
+	"_give_v_1-fn.Giving" -> _president_n_of [label="ARG3-fn.Recipient"]
+	neg -> "_give_v_1-fn.Giving" [label=ARG1]
+	_express_a_1 -> "_give_v_1-fn.Giving" [label=ARG1]
+	_the_q -> _president_n_of [label=BV]
+	_such_q -> _power_n_1 [label=BV]
+	"_give_v_1-fn.Giving" -> _power_n_1 [label="ARG2-fn.Theme"]
+}

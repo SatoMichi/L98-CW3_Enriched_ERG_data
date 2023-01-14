@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_a+few_a_1" -> _year_n_1 [label=ARG1]
+	udef_q -> _year_n_1 [label=BV]
+	_during_p -> "_shakeout/nn_u_unknown" [label=ARG2]
+	"_restructure_v_cause-fn.Cause_to_fragment" -> _company_n_of [label="ARG2-fn.Instrument"]
+	_entire_a_1 -> _company_n_of [label=ARG1]
+	_ago_p -> "_restructure_v_cause-fn.Cause_to_fragment" [label=ARG1]
+	"_restructure_v_cause-fn.Cause_to_fragment" -> "named(Mobil)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Mobil)" [label=BV]
+	"_industrywide/jj_u_unknown" -> "_shakeout/nn_u_unknown" [label=ARG1]
+	focus_d -> "_restructure_v_cause-fn.Cause_to_fragment" [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	focus_d -> _ago_p [label=ARG2]
+	_a_q -> "_shakeout/nn_u_unknown" [label=BV]
+	_during_p -> "_restructure_v_cause-fn.Cause_to_fragment" [label=ARG1]
+	_ago_p -> _year_n_1 [label=ARG2]
+}

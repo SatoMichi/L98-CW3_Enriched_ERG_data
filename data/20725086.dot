@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Wall)" [label=ARG2]
+	"_like_v_1-fn.NF" -> _industry_n_1 [label="ARG2-fn.Attribute"]
+	_again_a_1 -> "_like_v_1-fn.NF" [label=ARG1]
+	_the_q -> _industry_n_1 [label=BV]
+	"_like_v_1-fn.NF" -> "named(Street)" [label="ARG1-fn.Experiencer"]
+	compound -> "named(Street)" [label=ARG1]
+	proper_q -> "named(Wall)" [label=BV]
+	_general_a_1 -> "_like_v_1-fn.NF" [label=ARG1]
+	proper_q -> "named(Street)" [label=BV]
+}

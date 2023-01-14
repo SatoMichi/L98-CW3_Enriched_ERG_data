@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_fall_v_1-fn.Halt" [label=ARG1]
+	_the_q -> "named(Stick)" [label=BV]
+	"_fall_v_1-fn.Halt" -> "named(Stick)" [label="ARG1-fn.Purpose"]
+}

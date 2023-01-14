@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _test_n_of [label=ARG2]
+	udef_q -> _honor_n_1 [label=BV]
+	compound -> _honor_n_1 [label=ARG2]
+	"_be_v_there-fn.Needing" -> "_enrollment/nn_u_unknown" [label="ARG1-fn.Cognizer"]
+	udef_q -> _program_n_of [label=BV]
+	_low_a_on -> _score_n_of [label=ARG1]
+	compound -> _program_n_of [label=ARG1]
+	_in_p -> "_enrollment/nn_u_unknown" [label=ARG1]
+	_no_q -> "_enrollment/nn_u_unknown" [label=BV]
+	udef_q -> _crime_n_1 [label=BV]
+	udef_q -> _score_n_of [label=BV]
+	_in_p -> _program_n_of [label=ARG2]
+	udef_q -> _test_n_of [label=BV]
+	compound -> _score_n_of [label=ARG1]
+	_awful_a_1 -> _crime_n_1 [label=ARG1]
+}

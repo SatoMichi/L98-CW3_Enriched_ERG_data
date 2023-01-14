@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _period_n_of [label=BV]
+	_over_p -> "_spread_v_out-fn.Left_to_do" [label=ARG1]
+	parg_d -> "_spread_v_out-fn.Left_to_do" [label=ARG1]
+	_of_p -> _time_n_of [label=ARG2]
+	"_spread_v_out-fn.Left_to_do" -> thing [label="ARG2-fn.Remainder"]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	udef_q -> _time_n_of [label=BV]
+	_some_q -> thing [label=BV]
+	parg_d -> thing [label=ARG2]
+	_of_p -> _period_n_of [label=ARG1]
+	_long_a_1 -> _period_n_of [label=ARG1]
+	_over_p -> _period_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_likely_a_1 -> "_spread_v_out-fn.Left_to_do" [label=ARG1]
+}

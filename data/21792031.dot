@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(220)" -> _pilot_n_of [label=ARG1]
+	_the_q -> _union_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _pilot_n_of [label="ARG1-fn.Process"]
+	udef_q -> _member_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _member_n_of [label="ARG2-fn.Means"]
+	_in_p -> _suit_n_of [label=ARG2]
+	_the_q -> _suit_n_of [label=BV]
+	_the_q -> _pilot_n_of [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_member_n_of -> _union_n_of [label=ARG1]
+	_in_p -> _involved_a_1 [label=ARG1]
+	_involved_a_1 -> _pilot_n_of [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_but_p_except -> "named(Union)" [label=ARG2]
+	_but_p_except -> "named_n(US)" [label=ARG1]
+	_now_a_1 -> _okay_a_for [label=ARG1]
+	compound -> "named(Union)" [label=ARG1]
+	"_deal_v_with-fn.Resolve_problem" -> "named_n(US)" [label="ARG2-fn.Theme"]
+	_okay_a_for -> "_deal_v_with-fn.Resolve_problem" [label=ARG1]
+	proper_q -> "named(Soviet)" [label=BV]
+	_not_x_deg -> _the_q [label=ARG1]
+	_the_q -> "named_n(US)" [label=BV]
+	compound -> "named(Soviet)" [label=ARG2]
+	_the_q -> "named(Union)" [label=BV]
+}

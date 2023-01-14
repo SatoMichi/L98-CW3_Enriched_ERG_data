@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_above_p -> nominalization [label=ARG2]
+	udef_q -> _bank_n_of [label=BV]
+	_above_p -> generic_entity [label=ARG1]
+	_well_x_deg -> _above_p [label=ARG1]
+	udef_q -> _certificate_n_of [label=BV]
+	which_q -> thing [label=BV]
+	udef_q -> _bond_n_1 [label=BV]
+	"_pay_v_for-fn.Receiving" -> thing [label="ARG2-fn.Donor"]
+	_that_q_dem -> generic_entity [label=BV]
+	compound -> _certificate_n_of [label=ARG1]
+	udef_q -> _or_c [label=BV]
+	nominalization -> "_pay_v_for-fn.Receiving" [label=ARG1]
+	compound -> _bank_n_of [label=ARG2]
+	"_pay_v_for-fn.Receiving" -> _or_c [label="ARG1-fn.Recipient"]
+	udef_q -> nominalization [label=BV]
+}

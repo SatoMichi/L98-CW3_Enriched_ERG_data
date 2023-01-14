@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> _idea_n_of [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	def_implicit_q -> place_n [label=BV]
+	_here_a_1 -> place_n [label=ARG1]
+	_some_q -> _idea_n_of [label=BV]
+	loc_nonsp -> _idea_n_of [label=ARG1]
+}

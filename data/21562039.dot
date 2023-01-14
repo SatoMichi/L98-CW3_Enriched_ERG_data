@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> "_like_v_1-fn.Cause_to_make_noise" [label="ARG2-fn.Requirement"]
+	"_like_v_1-fn.Cause_to_make_noise" -> pron [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	focus_d -> "_like_v_1-fn.Cause_to_make_noise" [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	_out_p -> "_feel_v_1-fn.Grasp" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_like_v_1-fn.Cause_to_make_noise" -> "_use_v_1-fn.Cause_to_end" [label="ARG2-fn.Sound_maker"]
+	"_feel_v_1-fn.Grasp" -> _market_n_1 [label="ARG2-fn.Phenomenon"]
+	"_use_v_1-fn.Cause_to_end" -> "_feel_v_1-fn.Grasp" [label="ARG3-fn.Place"]
+	"_use_v_1-fn.Cause_to_end" -> pron [label="ARG2-fn.Means"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	"_feel_v_1-fn.Grasp" -> pron [label="ARG1-fn.Cognizer"]
+}

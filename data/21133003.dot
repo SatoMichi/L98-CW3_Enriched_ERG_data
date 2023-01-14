@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rein_v_in-fn.Motion_directional" -> nominalization [label="ARG2-fn.Depictive"]
+	_necessary_a_for -> _power_n_1 [label=ARG1]
+	_such_q -> _power_n_1 [label=BV]
+	"_in+order+to_x" -> "_rein_v_in-fn.Motion_directional" [label=ARG2]
+	"_argue_v_with-fn.Avoiding" -> pron [label="ARG1-fn.Agent"]
+	"_argue_v_with-fn.Avoiding" -> "_in+order+to_x" [label="ARG2-fn.Place"]
+	_congressional_a_1 -> nominalization [label=ARG1]
+	"_rein_v_in-fn.Motion_directional" -> _power_n_1 [label="ARG1-fn.Area"]
+	nominalization -> _spend_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_in+order+to_x" -> _necessary_a_for [label=ARG1]
+	_presidential_a_1 -> _power_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

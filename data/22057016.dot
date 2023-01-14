@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_discover_v_1-fn.Competition" -> neg [label="ARG2-fn.Participant_2"]
+	udef_q -> _market_n_1 [label=BV]
+	_when_x_subord -> "_discover_v_1-fn.Competition" [label=ARG2]
+	comp_equal -> _liquid_a_1 [label=ARG1]
+	"_discover_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	neg -> _liquid_a_1 [label=ARG1]
+	_always_a_1 -> _liquid_a_1 [label=ARG1]
+	_when_x_subord -> "_jump_v_1-fn.Halt" [label=ARG1]
+	_liquid_a_1 -> _market_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_jump_v_1-fn.Halt" -> _market_n_1 [label="ARG1-fn.Purpose"]
+	comp_equal -> "_suppose_v_1-fn.Getting" [label=ARG2]
+	"_suppose_v_1-fn.Getting" -> pron [label="ARG1-fn.Recipient"]
+}

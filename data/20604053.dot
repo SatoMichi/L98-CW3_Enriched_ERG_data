@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_improve_v_cause-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	poss -> _procedure_n_1 [label=ARG1]
+	_the_q -> _firm_n_1 [label=BV]
+	compound -> _compliance_n_1 [label=ARG2]
+	_for_p -> _procedure_n_1 [label=ARG1]
+	_for_p -> nominalization [label=ARG2]
+	poss -> _firm_n_1 [label=ARG2]
+	def_explicit_q -> _procedure_n_1 [label=BV]
+	udef_q -> _compliance_n_1 [label=BV]
+	"_improve_v_cause-fn.Cause_to_end" -> _procedure_n_1 [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	_also_a_1 -> "_improve_v_cause-fn.Cause_to_end" [label=ARG1]
+	nominalization -> _trade_v_1 [label=ARG1]
+	compound -> _procedure_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

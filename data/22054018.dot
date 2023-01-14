@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	loc_nonsp -> "_go_v_on-fn.Cause_to_continue" [label=ARG1]
+	_here_a_1 -> place_n [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	_really_a_1 -> "_go_v_on-fn.Cause_to_continue" [label=ARG1]
+	"_go_v_on-fn.Cause_to_continue" -> thing [label="ARG1-fn.Agent"]
+	which_q -> thing [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_commitment_n_to -> _creativity_n_1 [label=ARG1]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	def_explicit_q -> _commitment_n_to [label=BV]
+	poss -> _commitment_n_to [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> "_survive_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	"_survive_v_1-fn.Competition" -> _commitment_n_to [label="ARG1-fn.Participant_1"]
+	udef_q -> _illiteracy_n_1 [label=BV]
+	udef_q -> _creativity_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_survive_v_1-fn.Competition" -> _illiteracy_n_1 [label="ARG2-fn.Participant_2"]
+	_adolescent_a_1 -> _illiteracy_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+}

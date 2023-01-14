@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_because+of_p" -> _concern_n_1 [label=ARG2]
+	udef_q -> _concern_n_1 [label=BV]
+	_for_p -> _demand_n_1 [label=ARG1]
+	"_come_v_1-fn.Impact" -> _decline_n_1 [label="ARG1-fn.Place"]
+	_for_p -> _copper_n_1 [label=ARG2]
+	"_may_v_modal-fn.Communication_manner" -> "_slow_v_down-fn.Undergo_change" [label="ARG1-fn.Speaker"]
+	_concern_n_1 -> "_may_v_modal-fn.Communication_manner" [label=ARG1]
+	udef_q -> _decline_n_1 [label=BV]
+	udef_q -> _demand_n_1 [label=BV]
+	udef_q -> _copper_n_1 [label=BV]
+	"_because+of_p" -> "_come_v_1-fn.Impact" [label=ARG1]
+	"_slow_v_down-fn.Undergo_change" -> _demand_n_1 [label="ARG1-fn.Entity"]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	_on_p_dir -> pron [label=ARG1]
+	_never_a_1 -> _on_p_dir [label=ARG1]
+	"_should_v_modal-fn.Amounting_to" -> _never_a_1 [label="ARG1-fn.Value"]
+}

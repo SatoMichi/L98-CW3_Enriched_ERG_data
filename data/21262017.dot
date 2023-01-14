@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_avoid_v_1-fn.Avoiding" [label=ARG1]
+	_easy_a_for -> nominalization [label=ARG1]
+	"_avoid_v_1-fn.Avoiding" -> _failure_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _failure_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

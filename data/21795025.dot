@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(2)" -> _reason_n_for [label=ARG1]
+	_past_a_1 -> _year_n_1 [label=ARG1]
+	_the_q -> _year_n_1 [label=BV]
+	_mistaken_a_1 -> "_policy_n_of-on" [label=ARG1]
+	"_be_v_there-fn.Needing" -> _reason_n_for [label="ARG1-fn.Cognizer"]
+	_the_q -> "_policy_n_of-on" [label=BV]
+	"card(30)" -> _year_n_1 [label=ARG1]
+	udef_q -> _reason_n_for [label=BV]
+	"_policy_n_of-on" -> _year_n_1 [label=ARG1]
+	_monetary_a_1 -> "_policy_n_of-on" [label=ARG1]
+	_general_a_1 -> _reason_n_for [label=ARG1]
+	_reason_n_for -> "_policy_n_of-on" [label=ARG1]
+	_colon_p_namely -> _reason_n_for [label=ARG1]
+}

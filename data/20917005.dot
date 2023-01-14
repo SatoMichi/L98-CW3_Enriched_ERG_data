@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_provide_v_1-fn.Supply" -> pron [label="ARG1-fn.Agent"]
+	"_provide_v_1-fn.Supply" -> _detail_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _setup_n_1 [label=BV]
+	udef_q -> _cost_n_1 [label=BV]
+	udef_q -> _detail_n_1 [label=BV]
+	neg -> "_provide_v_1-fn.Supply" [label=ARG1]
+	compound -> _cost_n_1 [label=ARG1]
+	_of_p -> _detail_n_1 [label=ARG1]
+	_of_p -> _cost_n_1 [label=ARG2]
+	compound -> _setup_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

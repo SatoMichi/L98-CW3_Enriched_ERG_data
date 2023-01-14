@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "_reserve_v_1-fn.NF" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> "_give_v_back-fn.Giving" [label="ARG2-fn.Topic"]
+	_for_p -> thing [label=ARG2]
+	nominalization -> "_reserve_v_1-fn.NF" [label=ARG1]
+	focus_d -> "_give_v_back-fn.Giving" [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_just_a_1 -> "_give_v_back-fn.Giving" [label=ARG1]
+	"_reserve_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> nominalization [label=BV]
+	"_give_v_back-fn.Giving" -> _company_n_of [label="ARG1-fn.Agent"]
+	"_give_v_back-fn.Giving" -> nominalization [label="ARG2-fn.Theme"]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> subord [label=ARG1]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	subord -> "_do_v_1-fn.Piracy" [label=ARG1]
+	subord -> _rash_a_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_any_q -> thing [label=BV]
+	"_do_v_1-fn.Piracy" -> thing [label="ARG2-fn.Vehicle"]
+}

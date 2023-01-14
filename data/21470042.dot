@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _firm_n_1 [label=ARG1]
+	compound -> _law_n_1 [label=ARG2]
+	compound -> _management_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> _management_n_1 [label="ARG1-fn.Resident"]
+	"_can_v_modal-fn.Reliance" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Protagonist"]
+	proper_q -> "named(Rewarding)" [label=BV]
+	udef_q -> _law_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> "named(Rewarding)" [label="ARG2-fn.Location"]
+	udef_q -> _firm_n_1 [label=BV]
+	_quite_x -> proper_q [label=ARG1]
+	udef_q -> _management_n_1 [label=BV]
+}

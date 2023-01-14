@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _and_c [label=ARG]
+	"_all+over_p" -> _room_n_1 [label=ARG2]
+	def_explicit_q -> _room_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	poss -> _room_n_1 [label=ARG1]
+	udef_q -> _book_n_of [label=BV]
+	udef_q -> _tape_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

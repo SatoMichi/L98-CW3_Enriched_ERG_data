@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	loc_nonsp -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_in_p -> _world_n_of [label=ARG2]
+	"_go_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	udef_q -> _banking_n_1 [label=BV]
+	_in_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_competitive_a_1 -> _world_n_of [label=ARG1]
+	udef_q -> _consumer_n_of [label=BV]
+	_the_q -> _world_n_of [label=BV]
+	compound -> _consumer_n_of [label=ARG2]
+	_world_n_of -> _banking_n_1 [label=ARG1]
+	_these_q_dem -> _day_n_of [label=BV]
+	compound -> _banking_n_1 [label=ARG1]
+	_so_a_thus -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	loc_nonsp -> _day_n_of [label=ARG2]
+}

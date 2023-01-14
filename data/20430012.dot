@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _table_n_1 [label=BV]
+	_the_q -> _lawyer_n_1 [label=BV]
+	"_climb_v_1-fn.Undergo_change" -> _lawyer_n_1 [label="ARG1-fn.Entity"]
+	_under_p -> _from_p [label=ARG1]
+	"card(4)" -> _lawyer_n_1 [label=ARG1]
+	_from_p -> "_climb_v_1-fn.Undergo_change" [label=ARG1]
+	_under_p -> _table_n_1 [label=ARG2]
+	_out_p_dir -> "_climb_v_1-fn.Undergo_change" [label=ARG1]
+}

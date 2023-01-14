@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG1-fn.Process"]
+	_of_p -> _mission_n_1 [label=ARG1]
+	_financial_a_1 -> _community_n_of [label=ARG1]
+	_the_q -> _community_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _mission_n_1 [label="ARG2-fn.Means"]
+	free_relative_q -> thing [label=BV]
+	_the_q -> _mission_n_1 [label=BV]
+	_of_p -> _community_n_of [label=ARG2]
+	unknown -> thing [label=ARG]
+}

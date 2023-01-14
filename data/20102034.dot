@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_more_a_1 -> _learn_v_about [label=ARG1]
+	udef_q -> _american_n_1 [label=BV]
+	_learn_v_about -> nominalization [label=ARG2]
+	udef_q -> _product_n_1 [label=BV]
+	"_make_v_1-fn.IN" -> _product_n_1 [label="ARG2-fn.Product"]
+	_for_p -> _product_n_1 [label=ARG1]
+	_for_p -> "named(Soviets)" [label=ARG2]
+	nominalization -> "_make_v_1-fn.IN" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_learn_v_about -> _american_n_1 [label=ARG1]
+	_the_q -> "named(Soviets)" [label=BV]
+}

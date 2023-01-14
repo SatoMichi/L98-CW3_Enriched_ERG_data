@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_watch_v_1-fn.Halt" -> _eye_n_1 [label="ARG1-fn.Purpose"]
+	_the_q -> _eye_n_1 [label=BV]
+	_the_q -> _world_n_of [label=BV]
+	"_watch_v_1-fn.Halt" -> pron [label="ARG2-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	_of_p -> _eye_n_1 [label=ARG1]
+	_of_p -> _world_n_of [label=ARG2]
+}

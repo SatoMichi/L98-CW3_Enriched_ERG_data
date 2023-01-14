@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Lee)" [label=ARG2]
+	"_sell_v_1-fn.Commerce_sell" -> "named(Dirks)" [label="ARG1-fn.Agent"]
+	eventuality -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> _chain_n_of [label="ARG2-fn.Theme"]
+	compound -> "named(Dirks)" [label=ARG1]
+	_the_q -> _chain_n_of [label=BV]
+	udef_q -> "_and+associates_n_1" [label=BV]
+	proper_q -> "named(Lee)" [label=BV]
+	compound -> "_and+associates_n_1" [label=ARG2]
+	proper_q -> "named(Dirks)" [label=BV]
+}

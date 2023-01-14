@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	ellipsis_ref -> pron [label=ARG1]
+	"_think_v_1-fn.IN" -> "named(Congress)" [label="ARG1-fn.NotExist"]
+	"_think_v_1-fn.IN" -> ellipsis_ref [label="ARG2-fn.NotExist"]
+	_close_v_cause -> _loophole_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> _year_n_1 [label=BV]
+	_this_q_dem -> _loophole_n_1 [label=BV]
+	loc_nonsp -> _close_v_cause [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	proper_q -> "named(Congress)" [label=BV]
+	_last_a_1 -> _year_n_1 [label=ARG1]
+	_close_v_cause -> "named(Congress)" [label=ARG1]
+}

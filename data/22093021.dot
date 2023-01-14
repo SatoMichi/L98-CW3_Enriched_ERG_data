@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_anger_v_1-fn.Attempt_suasion" -> _trader_n_1 [label="ARG2-fn.Addressee"]
+	"_anger_v_1-fn.Attempt_suasion" -> _move_n_1 [label="ARG1-fn.Content"]
+	_the_q -> _move_n_1 [label=BV]
+	_likely_a_1 -> "_anger_v_1-fn.Attempt_suasion" [label=ARG1]
+	udef_q -> _trader_n_1 [label=BV]
+}

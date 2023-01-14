@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+particular_p_1" -> "named(P&G)" [label=ARG1]
+	proper_q -> "named(P&G)" [label=BV]
+	"_roll_v_out-fn.Undergo_change" -> "named(P&G)" [label="ARG1-fn.Entity"]
+	compound -> _test_n_of [label=ARG2]
+	_before_p -> "_roll_v_out-fn.Undergo_change" [label=ARG1]
+	"_roll_v_out-fn.Undergo_change" -> _product_n_1 [label="ARG2-fn.Final_category"]
+	_before_p -> nominalization [label=ARG2]
+	udef_q -> _test_n_of [label=BV]
+	nominalization -> _market_v_1 [label=ARG1]
+	_a_q -> _product_n_1 [label=BV]
+	compound -> nominalization [label=ARG1]
+	_national_a_1 -> "_roll_v_out-fn.Undergo_change" [label=ARG1]
+	_extensive_a_1 -> nominalization [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_rare_a_1 -> "_roll_v_out-fn.Undergo_change" [label=ARG1]
+}

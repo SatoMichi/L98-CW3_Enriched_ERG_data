@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _side_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _distinction_n_1 [label="ARG2-fn.Means"]
+	_a_q -> _distinction_n_1 [label=BV]
+	"_satisfy_v_1-fn.Experiencer_obj" -> _distinction_n_1 [label="ARG1-fn.Experiencer"]
+	_the_q -> _debate_n_1 [label=BV]
+	_neither_q -> _side_n_1 [label=BV]
+	"_satisfy_v_1-fn.Experiencer_obj" -> _side_n_1 [label="ARG2-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_in_p -> _debate_n_1 [label=ARG2]
+}

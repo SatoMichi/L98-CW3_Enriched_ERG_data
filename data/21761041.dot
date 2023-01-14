@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_compare_v_with-fn.Evaluative_comparison" -> _prospect_n_1 [label="ARG3-fn.Co-Patient"]
+	compound -> _and_c [label=ARG2]
+	proper_q -> "named(P)" [label=BV]
+	proper_q -> "named(E)" [label=BV]
+	udef_q -> _ratio_n_of [label=BV]
+	"_compare_v_with-fn.Evaluative_comparison" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _prospect_n_1 [label=BV]
+	compound -> _ratio_n_of [label=ARG1]
+	"_compare_v_with-fn.Evaluative_comparison" -> _ratio_n_of [label="ARG2-fn.Patient"]
+	pronoun_q -> pron [label=BV]
+}

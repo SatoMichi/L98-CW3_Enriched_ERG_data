@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> ellipsis_ref [label=ARG1]
+	ellipsis_ref -> pron [label=ARG1]
+	_probable_a_1 -> neg [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

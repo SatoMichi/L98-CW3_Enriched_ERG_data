@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _obstacle_n_1 [label=BV]
+	_way_n_of -> _pay_v_for [label=ARG1]
+	"_find_v_1-fn.IN" -> _way_n_of [label="ARG2-fn.Theme"]
+	_for_p -> pron [label=ARG2]
+	_a_q -> _way_n_of [label=BV]
+	_main_a_1 -> _obstacle_n_1 [label=ARG1]
+	"_find_v_1-fn.IN" -> _obstacle_n_1 [label="ARG1-fn.NotExist"]
+	_for_p -> _pay_v_for [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

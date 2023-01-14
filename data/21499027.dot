@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _estimate_n_of [label=BV]
+	"_say_v_to-fn.IN" -> _low_a_on [label="ARG2-fn.Topic"]
+	udef_q -> _analyst_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _analyst_n_1 [label="ARG1-fn.Agent"]
+	_low_a_on -> _estimate_n_of [label=ARG1]
+	_other_a_1 -> _analyst_n_1 [label=ARG1]
+}

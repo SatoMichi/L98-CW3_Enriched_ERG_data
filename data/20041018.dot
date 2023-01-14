@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_unrecognizable/jj_u_unknown" -> _photograph_n_1 [label=ARG1]
+	_presumably_a_1 -> _of_p [label=ARG1]
+	udef_q -> _photograph_n_1 [label=BV]
+	"card(2)" -> _photograph_n_1 [label=ARG1]
+	"_show_v_1-fn.Competition" -> _photograph_n_1 [label="ARG2-fn.Participant_2"]
+	"_distort_v_cause-fn.Cause_to_fragment" -> _photograph_n_1 [label="ARG2-fn.Instrument"]
+	parg_d -> _photograph_n_1 [label=ARG2]
+	udef_q -> _politician_n_1 [label=BV]
+	_of_p -> _politician_n_1 [label=ARG2]
+	_the_q -> _screen_n_1 [label=BV]
+	"_show_v_1-fn.Competition" -> _screen_n_1 [label="ARG1-fn.Participant_1"]
+	"card(2)" -> _politician_n_1 [label=ARG1]
+	parg_d -> "_distort_v_cause-fn.Cause_to_fragment" [label=ARG1]
+	_of_p -> _photograph_n_1 [label=ARG1]
+}

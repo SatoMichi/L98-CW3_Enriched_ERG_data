@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_share_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _brand_n_of [label=BV]
+	"_attribute_v_to-fn.Cause_to_end" -> _loyalty_n_to [label="ARG2-fn.Means"]
+	"_strike_v_1-fn.Competition" -> _similarity_n_to [label="ARG1-fn.Participant_1"]
+	_among_p -> _similarity_n_to [label=ARG1]
+	parg_d -> _loyalty_n_to [label=ARG2]
+	"_attribute_v_to-fn.Cause_to_end" -> "_advertisers/nns_u_unknown" [label="ARG1-fn.Process"]
+	udef_q -> "_advertisers/nns_u_unknown" [label=BV]
+	"_attribute_v_to-fn.Cause_to_end" -> _similarity_n_to [label="ARG3-fn.Place"]
+	_this_q_dem -> _loyalty_n_to [label=BV]
+	_among_p -> _brand_n_of [label=ARG2]
+	_the_q -> _similarity_n_to [label=BV]
+	"_share_v_1-fn.Competition" -> _loyalty_n_to [label="ARG2-fn.Participant_2"]
+}

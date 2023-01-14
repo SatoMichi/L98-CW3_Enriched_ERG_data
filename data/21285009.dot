@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _retreat_n_1 [label="ARG2-fn.Name"]
+	"_say_v_to-fn.Taking" -> "_be_v_id-fn.Name_conferral" [label="ARG2-fn.Theme"]
+	udef_q -> _mister_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	_a_q -> _retreat_n_1 [label=BV]
+	proper_q -> "named(Howley)" [label=BV]
+	focus_d -> "_be_v_id-fn.Name_conferral" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> pron [label="ARG1-fn.Entity"]
+	_quiet_a_1 -> _retreat_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	compound -> "named(Howley)" [label=ARG1]
+	"_say_v_to-fn.Taking" -> "named(Howley)" [label="ARG1-fn.Agent"]
+}

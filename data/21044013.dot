@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_since_p -> "yofc(1987)" [label=ARG2]
+	proper_q -> "yofc(1987)" [label=BV]
+	_to_p -> _access_n_1 [label=ARG1]
+	_to_p -> _drug_n_1 [label=ARG2]
+	_the_q -> _drug_n_1 [label=BV]
+	parg_d -> _drug_n_1 [label=ARG2]
+	"_antiviral/jj_u_unknown" -> _drug_n_1 [label=ARG1]
+	_only_a_1 -> _drug_n_1 [label=ARG1]
+	"_have_v_1-fn.IN" -> _access_n_1 [label="ARG2-fn.Theme"]
+	parg_d -> _approve_v_1 [label=ARG1]
+	udef_q -> _adult_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> _adult_n_1 [label="ARG1-fn.Pivot"]
+	udef_q -> _access_n_1 [label=BV]
+	_approve_v_1 -> _drug_n_1 [label=ARG2]
+	_since_p -> "_have_v_1-fn.IN" [label=ARG1]
+}

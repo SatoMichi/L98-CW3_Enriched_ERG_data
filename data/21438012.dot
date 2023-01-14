@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Intentionally_create" -> "named(Seattle)" [label="ARG1-fn.Agent"]
+	udef_q -> _software_n_1 [label=BV]
+	udef_q -> _product_n_1 [label=BV]
+	compound -> _product_n_1 [label=ARG1]
+	compound -> "named(Seattle)" [label=ARG1]
+	proper_q -> "named(Seattle)" [label=BV]
+	compound -> "named(Aldus)" [label=ARG2]
+	"_make_v_1-fn.Intentionally_create" -> _product_n_1 [label="ARG2-fn.Product"]
+	compound -> _software_n_1 [label=ARG1]
+	udef_q -> _computer_n_1 [label=BV]
+	compound -> _computer_n_1 [label=ARG2]
+	proper_q -> "named(Aldus)" [label=BV]
+}

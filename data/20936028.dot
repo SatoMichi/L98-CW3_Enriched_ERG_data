@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _inflation_n_of [label=BV]
+	_some_q -> _economist_n_1 [label=BV]
+	"_deserve_v_1-fn.Competition" -> _inflation_n_of [label="ARG1-fn.Participant_1"]
+	"_argue_v_with-fn.Abounding_with" -> _economist_n_1 [label="ARG1-fn.Theme"]
+	"_of+course_a_1" -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _emphasis_n_on [label=BV]
+	_lot_n_of -> _emphasis_n_on [label=ARG1]
+	"_at+least_x_deg" -> _some_q [label=ARG1]
+	"_deserve_v_1-fn.Competition" -> _lot_n_of [label="ARG2-fn.Participant_2"]
+	"_argue_v_with-fn.Abounding_with" -> "_deserve_v_1-fn.Competition" [label="ARG2-fn.Location"]
+	"_would_v_modal-fn.Cause_to_end" -> "_argue_v_with-fn.Abounding_with" [label="ARG1-fn.Process"]
+	_a_q -> _lot_n_of [label=BV]
+}

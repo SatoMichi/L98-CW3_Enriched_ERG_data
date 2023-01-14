@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _business_n_1 [label=ARG]
+	udef_q -> _business_n_1 [label=BV]
+	proper_q -> "named(Airline)" [label=BV]
+	_colon_p_namely -> "named(Airline)" [label=ARG2]
+}

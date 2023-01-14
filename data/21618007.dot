@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_at+least_a_1" -> "_swing_v_1-fn.Competition" [label=ARG1]
+	"_should_v_modal-fn.Amounting_to" -> "_swing_v_1-fn.Competition" [label="ARG1-fn.Value"]
+	udef_q -> _average_n_of [label=BV]
+	_to_p -> _side_n_1 [label=ARG2]
+	"_swing_v_1-fn.Competition" -> _law_n_1 [label="ARG1-fn.Participant_1"]
+	focus_d -> "_should_v_modal-fn.Amounting_to" [label=ARG1]
+	_to_p -> "_swing_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _side_n_1 [label=BV]
+	_of_p -> _average_n_of [label=ARG2]
+	_favorable_a_1 -> _side_n_1 [label=ARG1]
+	_the_q -> _law_n_1 [label=BV]
+	_of_p -> _law_n_1 [label=ARG1]
+}

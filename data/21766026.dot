@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(IBM)" [label=ARG2]
+	_a_q -> _system_n_of [label=BV]
+	def_explicit_q -> generic_entity [label=BV]
+	"_such+as_p" -> generic_entity [label=ARG2]
+	_significant_a_for -> "_help_v_1-fn.Assistance" [label=ARG1]
+	proper_q -> "named(IBM)" [label=BV]
+	poss -> generic_entity [label=ARG1]
+	"_help_v_1-fn.Assistance" -> _system_n_of [label="ARG1-fn.Agent"]
+	"_such+as_p" -> _system_n_of [label=ARG1]
+	_should_v_modal -> "_help_v_1-fn.Assistance" [label=ARG1]
+	"_say_v_to-fn.IN" -> _should_v_modal [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

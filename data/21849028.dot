@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_mount_v_1-fn.NF" -> _risk_n_of [label="ARG1-fn.NotExist"]
+	_in_p -> "year_range(1980s)" [label=ARG2]
+	_mid_a_1 -> "year_range(1980s)" [label=ARG1]
+	subord -> _go_v_1 [label=ARG1]
+	_in_p -> _even_a_1 [label=ARG1]
+	parg_d -> _observe_v_to [label=ARG1]
+	neg -> subord [label=ARG1]
+	"_un-_a_rvrs" -> _observe_v_to [label=ARG1]
+	subord -> neg [label=ARG1]
+	subord -> _even_a_1 [label=ARG2]
+	_the_q -> _risk_n_of [label=BV]
+	_go_v_1 -> _risk_n_of [label=ARG1]
+	_the_q -> "year_range(1980s)" [label=BV]
+	subord -> _observe_v_to [label=ARG2]
+}

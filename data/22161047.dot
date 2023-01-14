@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_note_v_to -> pron [label=ARG1]
+	"_stress_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	poss -> pron [label=ARG2]
+	"_stress_v_to-fn.NF" -> _professionalism_n_1 [label="ARG2-fn.Destination"]
+	udef_q -> _professionalism_n_1 [label=BV]
+	_during_p -> _visit_n_to [label=ARG2]
+	poss -> _visit_n_to [label=ARG1]
+	_weekly_a_1 -> _visit_n_to [label=ARG1]
+	_during_p -> "_stress_v_to-fn.NF" [label=ARG1]
+	def_explicit_q -> _visit_n_to [label=BV]
+	_also_a_1 -> "_stress_v_to-fn.NF" [label=ARG1]
+	_note_v_to -> _also_a_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

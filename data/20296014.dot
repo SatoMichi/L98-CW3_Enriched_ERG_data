@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_to+begin+with_a_1" -> _industrialize_v_1 [label=ARG1]
+	which_q -> manner [label=BV]
+	"_be_v_id-fn.Assemble" -> nominalization [label="ARG2-fn.Group"]
+	unspec_manner -> manner [label=ARG2]
+	_chinese_a_1 -> _problem_n_of [label=ARG1]
+	comp -> _great_a_for [label=ARG1]
+	_much_x_deg -> comp [label=ARG1]
+	unspec_manner -> _industrialize_v_1 [label=ARG1]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	nominalization -> _industrialize_v_1 [label=ARG1]
+	_the_q -> _problem_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_great_a_for -> _problem_n_of [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> pron [label="ARG2-fn.Patient"]
+	nominalization -> _hoard_v_1 [label=ARG1]
+	"_rather+than_p" -> _and_c [label=ARG1]
+	"_encourage_v_1-fn.NF" -> nominalization [label="ARG2-fn.Experiencer"]
+	_also_a_1 -> "_rather+than_p" [label=ARG1]
+	udef_q -> _supply_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_encourage_v_1-fn.NF" -> pron [label="ARG1-fn.Stimulus"]
+	"_rather+than_p" -> _increase_v_cause [label=ARG2]
+	_increase_v_cause -> _supply_n_1 [label=ARG2]
+	_increase_v_cause -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

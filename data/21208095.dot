@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	plus -> "card(38)" [label=ARG2]
+	plus -> "fraction(1/8)" [label=ARG3]
+	number_q -> "card(38)" [label=BV]
+	compound -> "named(Freight)" [label=ARG1]
+	_to_p -> "card(38)" [label=ARG2]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	compound -> "named(Airborne)" [label=ARG2]
+	_to_p -> "_climb_v_1-fn.Undergo_change" [label=ARG1]
+	loc_nonsp -> "_climb_v_1-fn.Undergo_change" [label=ARG1]
+	proper_q -> "named(Freight)" [label=BV]
+	plus -> "fraction(1/2)" [label=ARG3]
+	"_climb_v_1-fn.Undergo_change" -> "named(Freight)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Airborne)" [label=BV]
+}

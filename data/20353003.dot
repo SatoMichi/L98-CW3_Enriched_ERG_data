@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _rule_n_of [label=BV]
+	"_apply_v_for-fn.Using" -> _rule_n_of [label="ARG1-fn.NotExist"]
+	_other_a_1 -> _unit_n_of [label=ARG1]
+	compound -> _government_n_of [label=ARG2]
+	"_apply_v_for-fn.Using" -> _unit_n_of [label="ARG2-fn.Theme"]
+	compound -> _unit_n_of [label=ARG1]
+	compound -> "named(GASB)" [label=ARG2]
+	udef_q -> _government_n_of [label=BV]
+	compound -> _rule_n_of [label=ARG1]
+	_still_a_1 -> "_apply_v_for-fn.Using" [label=ARG1]
+	udef_q -> _unit_n_of [label=BV]
+	proper_q -> "named(GASB)" [label=BV]
+}

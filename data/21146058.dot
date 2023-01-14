@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_popular_a_for -> _support_n_of [label=ARG1]
+	_to_p -> _support_n_of [label=ARG2]
+	_the_q -> "_reformer/nn_u_unknown" [label=BV]
+	udef_q -> _food_n_1 [label=BV]
+	appos -> _priority_n_1 [label=ARG1]
+	_top_a_1 -> _priority_n_1 [label=ARG1]
+	_the_q -> _key_n_1 [label=BV]
+	def_explicit_q -> _priority_n_1 [label=BV]
+	appos -> _key_n_1 [label=ARG2]
+	poss -> _priority_n_1 [label=ARG1]
+	_to_p -> _key_n_1 [label=ARG1]
+	"_be_v_id-fn.Assemble" -> _priority_n_1 [label="ARG2-fn.Group"]
+	"_be_v_id-fn.Assemble" -> _food_n_1 [label="ARG1-fn.Individuals"]
+	poss -> "_reformer/nn_u_unknown" [label=ARG2]
+	udef_q -> _support_n_of [label=BV]
+}

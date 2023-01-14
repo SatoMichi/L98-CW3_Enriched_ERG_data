@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_sorry_a_for -> person [label=ARG2]
+	"_say_v_to-fn.IN" -> _diplomat_n_1 [label="ARG1-fn.Agent"]
+	focus_d -> "_feel_v_seem-about-fn.Feeling" [label=ARG2]
+	_sorry_a_for -> pron [label=ARG1]
+	"_win_v_1-fn.NF" -> person [label="ARG1-fn.Agent"]
+	free_relative_ever_q -> person [label=BV]
+	"_feel_v_seem-about-fn.Feeling" -> pron [label="ARG1-fn.Experiencer"]
+	_a_q -> _diplomat_n_1 [label=BV]
+	_brazilian_a_1 -> _diplomat_n_1 [label=ARG1]
+	"_feel_v_seem-about-fn.Feeling" -> _sorry_a_for [label="ARG2-fn.Stimulus"]
+	"_say_v_to-fn.IN" -> "_feel_v_seem-about-fn.Feeling" [label="ARG2-fn.Topic"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _studio_n_1 [label=ARG1]
+	def_explicit_q -> _studio_n_1 [label=BV]
+	"_run_v_1-fn.Activity_start" -> _studio_n_1 [label="ARG2-fn.Purpose"]
+	"_run_v_1-fn.Activity_start" -> pron [label="ARG1-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	_own_a_1 -> _studio_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_practical_a_1 -> "_run_v_1-fn.Activity_start" [label=ARG1]
+}

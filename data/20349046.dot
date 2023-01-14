@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_wreck_v_1-fn.NF" -> pron [label="ARG2-fn.Patient"]
+	"_different_a_than-from" -> generic_entity [label=ARG1]
+	comp -> "_different_a_than-from" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	comp -> "_wreck_v_1-fn.NF" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

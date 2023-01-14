@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _exempt_a_from [label=ARG1]
+	udef_q -> _tax_n_1 [label=BV]
+	_municipal_a_1 -> _security_n_1 [label=ARG1]
+	"_invest_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	compound -> _tax_n_1 [label=ARG2]
+	_in_p -> _security_n_1 [label=ARG2]
+	_exempt_a_from -> _security_n_1 [label=ARG1]
+	_primary_a_1 -> _in_p [label=ARG1]
+	_in_p -> "_invest_v_1-fn.NF" [label=ARG1]
+	udef_q -> _security_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

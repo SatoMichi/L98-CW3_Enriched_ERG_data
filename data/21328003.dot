@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _investor_n_1 [label=ARG2]
+	poss -> _ownership_n_of [label=ARG1]
+	_of_p -> _eye_n_1 [label=ARG1]
+	"_catch_v_1-fn.NF" -> _eye_n_1 [label="ARG2-fn.Theme"]
+	_unusual_a_about -> _ownership_n_of [label=ARG1]
+	_some_q -> _investor_n_1 [label=BV]
+	proper_q -> "named(Manville)" [label=BV]
+	poss -> "named(Manville)" [label=ARG2]
+	"_catch_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _eye_n_1 [label=BV]
+	def_explicit_q -> _ownership_n_of [label=BV]
+	"_canny/jj_u_unknown" -> _investor_n_1 [label=ARG1]
+	_patient_a_1 -> _investor_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

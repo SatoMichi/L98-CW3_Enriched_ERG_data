@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_favor_v_1-fn.Preference" -> "named(Democrats)" [label="ARG1-fn.Experiencer"]
+	comp -> _pessimistic_a_1 [label=ARG1]
+	udef_q -> "named(Democrats)" [label=BV]
+	compound -> _cut_n_1 [label=ARG1]
+	_other_a_1 -> "named(Democrats)" [label=ARG1]
+	_a_q -> _cut_n_1 [label=BV]
+	compound -> _capital_n_1 [label=ARG2]
+	"_favor_v_1-fn.Preference" -> _cut_n_1 [label="ARG2-fn.Attribute"]
+	udef_q -> _gain_n_1 [label=BV]
+	_pessimistic_a_1 -> "named(Democrats)" [label=ARG1]
+	_even_x_deg -> comp [label=ARG1]
+	udef_q -> _capital_n_1 [label=BV]
+	compound -> _gain_n_1 [label=ARG1]
+}

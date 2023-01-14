@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"_reply_v_to-fn.Communication_response" -> _okay_a_accept [label="ARG2-fn.NotExist"]
+	focus_d -> "_reply_v_to-fn.Communication_response" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	focus_d -> _okay_a_accept [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Sagan)" [label=BV]
+	"_reply_v_to-fn.Communication_response" -> "named(Sagan)" [label="ARG1-fn.Agent"]
+	compound -> "named(Sagan)" [label=ARG1]
+	_okay_a_accept -> generic_entity [label=ARG1]
+}

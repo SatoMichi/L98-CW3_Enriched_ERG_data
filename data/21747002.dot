@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_state_v_to-fn.Cause_to_end" -> nominalization [label="ARG2-fn.Means"]
+	poss -> _edition_n_1 [label=ARG1]
+	_the_q -> nominalization [label=BV]
+	def_explicit_q -> _edition_n_1 [label=BV]
+	"_state_v_to-fn.Cause_to_end" -> _edition_n_1 [label="ARG1-fn.Process"]
+	"_mis-_a_error" -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	nominalization -> _narrow_v_1 [label=ARG1]
+	poss -> "dofw(Thu)" [label=ARG2]
+	proper_q -> "dofw(Thu)" [label=BV]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_inevitable_a_1 -> _would_v_modal [label=ARG1]
+	_individual_a_1 -> _prosperity_n_1 [label=ARG1]
+	udef_q -> _prosperity_n_1 [label=BV]
+	"_result_v_1-fn.NF" -> _prosperity_n_1 [label="ARG1-fn.NotExist"]
+	_would_v_modal -> "_result_v_1-fn.NF" [label=ARG1]
+}

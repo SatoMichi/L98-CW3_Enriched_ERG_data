@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _opposite_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _opposite_n_of [label="ARG2-fn.Name"]
+	"_prior+to_p" -> "yofc(1932)" [label=ARG2]
+	_the_q -> _pattern_n_1 [label=BV]
+	"_prior+to_p" -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	_nearly_x_deg -> _the_q [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _pattern_n_1 [label="ARG1-fn.Entity"]
+	focus_d -> "_prior+to_p" [label=ARG2]
+	focus_d -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	proper_q -> "yofc(1932)" [label=BV]
+}

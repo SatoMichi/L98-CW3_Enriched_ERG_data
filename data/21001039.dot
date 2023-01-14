@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> "card(88)" [label="ARG2-fn.Means"]
+	compound -> "named(Mae)" [label=ARG1]
+	compound -> _series_n_of [label=ARG2]
+	def_explicit_q -> "card(88)" [label=BV]
+	_the_q -> _offering_n_of [label=BV]
+	udef_q -> "yofc(1989)" [label=BV]
+	compound -> "named(Fannie)" [label=ARG2]
+	compound -> "yofc(1989)" [label=ARG2]
+	proper_q -> "named(Mae)" [label=BV]
+	proper_q -> "named(Fannie)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _offering_n_of [label="ARG1-fn.Process"]
+	udef_q -> _series_n_of [label=BV]
+	poss -> "named(Mae)" [label=ARG2]
+	poss -> "card(88)" [label=ARG1]
+	compound -> "card(88)" [label=ARG1]
+}

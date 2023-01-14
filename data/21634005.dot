@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "_be_v_there-fn.Needing" [label=ARG1]
+	_just_x_deg -> "card(1)" [label=ARG1]
+	"card(1)" -> _point_n_of [label=ARG1]
+	_prior_a_1 -> _commitment_n_to [label=ARG1]
+	_colon_p_namely -> "_have_v_1-fn.Commerce_collect" [label=ARG2]
+	"_be_v_there-fn.Needing" -> _point_n_of [label="ARG1-fn.Cognizer"]
+	_the_q -> "card(2)" [label=BV]
+	udef_q -> _point_n_of [label=BV]
+	"_stick_v_1-fn.Halt" -> _point_n_of [label="ARG1-fn.Purpose"]
+	_a_q -> _commitment_n_to [label=BV]
+	"_have_v_1-fn.Commerce_collect" -> _commitment_n_to [label="ARG2-fn.Goods"]
+	"_have_v_1-fn.Commerce_collect" -> "card(2)" [label="ARG1-fn.Buyer"]
+}

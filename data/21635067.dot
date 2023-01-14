@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cover_v_1-fn.Social_event" -> _portfolio_n_1 [label="ARG2-fn.Social_event"]
+	_nor_x_subord -> unknown [label=ARG1]
+	_the_q -> _portfolio_n_1 [label=BV]
+	"_cover_v_1-fn.Social_event" -> pron [label="ARG1-fn.Duration"]
+	pronoun_q -> pron [label=BV]
+	_entire_a_1 -> _portfolio_n_1 [label=ARG1]
+	_nor_x_subord -> "_cover_v_1-fn.Social_event" [label=ARG2]
+}

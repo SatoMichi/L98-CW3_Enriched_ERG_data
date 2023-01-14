@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_see_v_1-fn.Perception_experience" -> "_happen_v_1-fn.Event" [label="ARG2-fn.Stimulus"]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_again_a_1 -> "_happen_v_1-fn.Event" [label=ARG1]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Experiencer"]
+	"_happen_v_1-fn.Event" -> generic_entity [label="ARG1-fn.NotExist"]
+	_that_q_dem -> generic_entity [label=BV]
+	_really_a_1 -> "_want_v_1-fn.Desiring" [label=ARG1]
+	"_want_v_1-fn.Desiring" -> "_see_v_1-fn.Perception_experience" [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

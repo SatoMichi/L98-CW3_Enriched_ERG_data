@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_should_v_modal-fn.Amounting_to" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Value"]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> _scream_n_of [label="ARG2-fn.Location"]
+	_a_q -> _scream_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

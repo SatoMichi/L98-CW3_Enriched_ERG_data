@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _earthquake_n_1 [label=ARG2]
+	udef_q -> _market_n_1 [label=BV]
+	"_be_v_there-fn.Needing" -> _impact_n_1 [label="ARG1-fn.Cognizer"]
+	proper_q -> "named(California)" [label=BV]
+	compound -> _impact_n_1 [label=ARG1]
+	_no_q -> _impact_n_1 [label=BV]
+	_appreciable_a_1 -> _impact_n_1 [label=ARG1]
+	compound -> _market_n_1 [label=ARG2]
+	_the_q -> _earthquake_n_1 [label=BV]
+	compound -> _earthquake_n_1 [label=ARG1]
+	compound -> "named(California)" [label=ARG2]
+	_from_p -> _impact_n_1 [label=ARG1]
+}

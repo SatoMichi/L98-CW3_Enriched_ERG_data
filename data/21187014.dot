@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_finish_v_1-fn.Halt" -> "named(Jaguar)" [label="ARG1-fn.Purpose"]
+	_low_a_1 -> "card(4)" [label=ARG1]
+	loc_nonsp -> "card(4)" [label=ARG2]
+	comp -> _low_a_1 [label=ARG1]
+	loc_nonsp -> "_finish_v_1-fn.Halt" [label=ARG1]
+	number_q -> "card(694)" [label=BV]
+	proper_q -> "named(Jaguar)" [label=BV]
+	_at_p -> "card(694)" [label=ARG2]
+	_at_p -> _low_a_1 [label=ARG1]
+	number_q -> "card(4)" [label=BV]
+}

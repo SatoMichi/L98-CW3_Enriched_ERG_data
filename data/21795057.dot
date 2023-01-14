@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+order+to_x" -> _only_a_1 [label=ARG1]
+	_the_q -> "named_n(Fed)" [label=BV]
+	"_pursue_v_1-fn.Cotheme" -> _stability_n_1 [label="ARG2-fn.Theme"]
+	compound -> _price_n_of [label=ARG2]
+	udef_q -> _price_n_of [label=BV]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	compound -> _stability_n_1 [label=ARG1]
+	compound -> _level_n_1 [label=ARG1]
+	udef_q -> _level_n_1 [label=BV]
+	udef_q -> _stability_n_1 [label=BV]
+	_only_a_1 -> "_have_v_1-fn.IN" [label=ARG1]
+	"_in+order+to_x" -> "_pursue_v_1-fn.Cotheme" [label=ARG2]
+	"_have_v_1-fn.IN" -> "named_n(Fed)" [label="ARG2-fn.Theme"]
+	"_pursue_v_1-fn.Cotheme" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

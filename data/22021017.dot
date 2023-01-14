@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _method_n_of [label=BV]
+	proper_q -> "named(Old)" [label=BV]
+	"_oppose_v_1-fn.NF" -> "named(Environmentalists)" [label="ARG1-fn.Patient"]
+	focus_d -> _meanwhile_p [label=ARG2]
+	compound -> "named(New)" [label=ARG2]
+	_method_n_of -> "named(Environmentalists)" [label=ARG1]
+	_the_q -> "named(Environmentalists)" [label=BV]
+	compound -> "named(Old)" [label=ARG2]
+	proper_q -> "named(New)" [label=BV]
+	focus_d -> "_oppose_v_1-fn.NF" [label=ARG1]
+	_meanwhile_p -> "_oppose_v_1-fn.NF" [label=ARG1]
+	"_oppose_v_1-fn.NF" -> _method_n_of [label="ARG2-fn.Co-Patient"]
+	compound -> "named(Environmentalists)" [label=ARG1]
+	_systematical_a_1 -> "_oppose_v_1-fn.NF" [label=ARG1]
+}

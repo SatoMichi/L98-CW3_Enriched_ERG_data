@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(West)" [label=ARG2]
+	parg_d -> "_introduce_v_to-fn.State_continue" [label=ARG1]
+	parg_d -> _drug_n_1 [label=ARG2]
+	compound -> "named(Germany)" [label=ARG1]
+	_in_p -> "_introduce_v_to-fn.State_continue" [label=ARG1]
+	loc_nonsp -> "_introduce_v_to-fn.State_continue" [label=ARG1]
+	_in_p -> "named(Germany)" [label=ARG2]
+	proper_q -> "named(West)" [label=BV]
+	"_introduce_v_to-fn.State_continue" -> _drug_n_1 [label="ARG2-fn.State"]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	_this_q_dem -> _year_n_1 [label=BV]
+	_the_q -> _drug_n_1 [label=BV]
+	proper_q -> "named(Germany)" [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _core_n_1 [label=ARG2]
+	id -> pron [label=ARG1]
+	_a_q -> "_love_n_of-for" [label=BV]
+	_the_q -> _core_n_1 [label=BV]
+	_of_p -> _core_n_1 [label=ARG1]
+	"_love_n_of-for" -> _plant_n_1 [label=ARG1]
+	_of_p -> pron [label=ARG2]
+	id -> generic_entity [label=ARG2]
+	udef_q -> _plant_n_1 [label=BV]
+	_at_p -> "_love_n_of-for" [label=ARG1]
+	_all_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+}

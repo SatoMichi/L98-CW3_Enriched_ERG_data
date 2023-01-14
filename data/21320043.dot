@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_x_subord -> subord [label=ARG1]
+	subord -> _mix_v_1 [label=ARG2]
+	udef_q -> _news_n_of [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	subord -> _close_v_1 [label=ARG1]
+	_as_x_subord -> "_react_v_to-fn.NF" [label=ARG2]
+	_largely_a_1 -> _offset_v_1 [label=ARG1]
+	udef_q -> _contract_n_1 [label=BV]
+	_offset_v_1 -> _news_n_of [label=ARG1]
+	"_bearish/jj_u_unknown" -> _news_n_of [label=ARG1]
+	_close_v_1 -> _price_n_of [label=ARG1]
+	"_react_v_to-fn.NF" -> _contract_n_1 [label="ARG1-fn.Experiencer"]
+	"_bullish/jj_u_unknown" -> _news_n_of [label=ARG1]
+	"_react_v_to-fn.NF" -> _news_n_of [label="ARG2-fn.Stimulus"]
+	parg_d -> _mix_v_1 [label=ARG1]
+}

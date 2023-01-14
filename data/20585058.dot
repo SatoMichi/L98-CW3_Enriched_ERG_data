@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "card(15)" [label=ARG2]
+	loc_nonsp -> "card(4)" [label=ARG2]
+	proper_q -> "named(Medical)" [label=BV]
+	compound -> "named(Kirschner)" [label=ARG2]
+	number_q -> "card(4)" [label=BV]
+	number_q -> "card(15)" [label=BV]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	proper_q -> "named(Kirschner)" [label=BV]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	compound -> "named(Medical)" [label=ARG1]
+	"_fall_v_1-fn.Halt" -> "named(Medical)" [label="ARG1-fn.Purpose"]
+}

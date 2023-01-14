@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _time_n_of [label=ARG2]
+	_the_q -> _time_n_of [label=BV]
+	loc_nonsp -> "_shake_v_1-fn.Rite" [label=ARG1]
+	_whole_a_1 -> _time_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_shake_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+}

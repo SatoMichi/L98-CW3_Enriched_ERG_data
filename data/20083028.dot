@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"_comment_v_on-fn.Statement" -> "named(Bodner)" [label="ARG1-fn.Agent"]
+	_decline_v_1 -> "named(Bodner)" [label=ARG1]
+	"_comment_v_on-fn.Statement" -> _arrangement_n_1 [label="ARG2-fn.Topic"]
+	_the_q -> _arrangement_n_1 [label=BV]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	proper_q -> "named(Bodner)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> "named(Bodner)" [label=ARG1]
+}

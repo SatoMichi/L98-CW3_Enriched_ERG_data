@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	ellipsis_ref -> _sector_n_1 [label=ARG1]
+	_reluctant_a_1 -> _establishment_n_of [label=ARG1]
+	_the_q -> _establishment_n_of [label=BV]
+	_reluctant_a_1 -> "_forgive_v_for-fn.Forgiveness" [label=ARG2]
+	_sexual_a_1 -> "_misadventures/nns_u_unknown" [label=ARG1]
+	_sometimes_a_1 -> ellipsis_ref [label=ARG1]
+	_if_x_then -> ellipsis_ref [label=ARG1]
+	_political_a_1 -> _establishment_n_of [label=ARG1]
+	"_forgive_v_for-fn.Forgiveness" -> "_misadventures/nns_u_unknown" [label="ARG2-fn.NotExist"]
+	udef_q -> "_misadventures/nns_u_unknown" [label=BV]
+	_if_x_then -> _reluctant_a_1 [label=ARG2]
+	"_forgive_v_for-fn.Forgiveness" -> _establishment_n_of [label="ARG1-fn.Agent"]
+	_private_a_1 -> _sector_n_1 [label=ARG1]
+	_the_q -> _sector_n_1 [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _adviser_n_1 [label=ARG1]
+	compound -> "named(Drexel)" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> "named(Lambert)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Lambert)" [label=BV]
+	proper_q -> "named(Drexel)" [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _adviser_n_1 [label="ARG2-fn.Name"]
+	proper_q -> "named(Burnham)" [label=BV]
+	compound -> "named(Burnham)" [label=ARG1]
+	compound -> "named(Lambert)" [label=ARG1]
+	_the_q -> _transaction_n_1 [label=BV]
+	udef_q -> _inc_n_1 [label=BV]
+	_the_q -> _adviser_n_1 [label=BV]
+	compound -> _inc_n_1 [label=ARG2]
+	_on_p -> _transaction_n_1 [label=ARG2]
+}

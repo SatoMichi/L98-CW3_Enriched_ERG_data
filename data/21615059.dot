@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _and_c [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _and_c [label="ARG1-fn.Process"]
+	proper_q -> "named(Florio)" [label=BV]
+	proper_q -> "named(Camden)" [label=BV]
+	_essential_a_for -> "named(Florio)" [label=ARG1]
+	proper_q -> "named(Details)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(Florio)" [label="ARG2-fn.Means"]
+}

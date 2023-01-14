@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_minimize_v_1-fn.Cause_to_end" [label=ARG1]
+	_of_p -> _term_n_of [label=ARG2]
+	_the_q -> _challenge_n_1 [label=BV]
+	_of_p -> _challenge_n_1 [label=ARG1]
+	_near_a_to -> _term_n_of [label=ARG1]
+	_the_q -> _term_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_minimize_v_1-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_minimize_v_1-fn.Cause_to_end" -> _challenge_n_1 [label="ARG2-fn.Means"]
+}

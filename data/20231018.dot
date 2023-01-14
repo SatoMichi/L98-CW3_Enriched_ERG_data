@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decline_v_1-fn.Experiencer_obj" -> _price_n_of [label="ARG1-fn.Experiencer"]
+	_third_a_1 -> _although_x [label=ARG1]
+	"_increase_v_1-fn.Achieving_first" -> _supply_n_1 [label="ARG1-fn.Cognizer"]
+	udef_q -> _supply_n_1 [label=BV]
+	_although_x -> neg [label=ARG1]
+	neg -> "_decline_v_1-fn.Experiencer_obj" [label=ARG1]
+	compound -> _oil_n_1 [label=ARG2]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	udef_q -> _oil_n_1 [label=BV]
+	_although_x -> "_increase_v_1-fn.Achieving_first" [label=ARG2]
+}

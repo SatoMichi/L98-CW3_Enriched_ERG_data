@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_run_v_1-fn.Activity_start" -> _program_n_of [label="ARG2-fn.Purpose"]
+	udef_q -> _program_n_of [label=BV]
+	"_control_v_1-fn.Activity_start" -> _program_n_of [label="ARG2-fn.Purpose"]
+	compound -> _diagnostic_a_1 [label=ARG1]
+	parg_d -> "_control_v_1-fn.Activity_start" [label=ARG1]
+	_diagnostic_a_1 -> _program_n_of [label=ARG1]
+	_then_a_1 -> "_run_v_1-fn.Activity_start" [label=ARG1]
+	_remote_a_1 -> "_control_v_1-fn.Activity_start" [label=ARG1]
+	"_run_v_1-fn.Activity_start" -> pron [label="ARG1-fn.Place"]
+	udef_q -> _self_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> _self_n_1 [label=ARG2]
+	parg_d -> _program_n_of [label=ARG2]
+}

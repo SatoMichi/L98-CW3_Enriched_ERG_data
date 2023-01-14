@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _price_n_of [label=ARG2]
+	udef_q -> _movement_n_of [label=BV]
+	"_exacerbate_v_1-fn.Cause_change" -> _movement_n_of [label="ARG2-fn.Initial_category"]
+	"_exacerbate_v_1-fn.Cause_change" -> generic_entity [label="ARG1-fn.Agent"]
+	_that_q_dem -> generic_entity [label=BV]
+	compound -> _movement_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	_natural_a_for -> "_exacerbate_v_1-fn.Cause_change" [label=ARG1]
+}

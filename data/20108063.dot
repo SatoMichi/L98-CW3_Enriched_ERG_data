@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_democratic_a_1 -> _democracy_n_1 [label=ARG1]
+	"_a+little_x_deg" -> comp [label=ARG1]
+	_sudden_a_1 -> _democratic_a_1 [label=ARG1]
+	comp -> _democratic_a_1 [label=ARG1]
+	_this_q_dem -> _democracy_n_1 [label=BV]
+}

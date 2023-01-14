@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _quarter_n_temp [label=BV]
+	"ord(3)" -> _quarter_n_temp [label=ARG1]
+	poss -> _profit_n_1 [label=ARG1]
+	def_explicit_q -> _profit_n_1 [label=BV]
+	proper_q -> "named(BankAmerica)" [label=BV]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	"card(34)" -> _percent_n_of [label=ARG1]
+	_in_p_temp -> _quarter_n_temp [label=ARG2]
+	_in_p_temp -> "_jump_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_jump_v_1-fn.Change_position_on_a_scale" -> _profit_n_1 [label="ARG1-fn.NotExist"]
+	loc_nonsp -> "_jump_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	poss -> "named(BankAmerica)" [label=ARG2]
+}

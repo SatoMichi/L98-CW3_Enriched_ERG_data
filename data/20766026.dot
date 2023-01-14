@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _people_n_of [label=BV]
+	"_go_v_through-fn.Needing" -> _suffering_n_1 [label="ARG2-fn.Requirement"]
+	part_of -> _suffering_n_1 [label=ARG1]
+	"_have_v_qmodal-fn.Cause_to_end" -> ellipsis_ref [label="ARG1-fn.Process"]
+	_all_q -> part_of [label=BV]
+	_hard_a_for -> "_accept_v_1-fn.Competition" [label=ARG1]
+	ellipsis_ref -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_go_v_through-fn.Needing" -> _people_n_of [label="ARG1-fn.Cognizer"]
+	_the_q -> _suffering_n_1 [label=BV]
+	"_accept_v_1-fn.Competition" -> part_of [label="ARG2-fn.Participant_2"]
+}

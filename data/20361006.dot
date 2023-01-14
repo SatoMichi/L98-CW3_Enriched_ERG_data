@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_also_a_1 -> neg [label=ARG1]
+	proper_q -> "named(MiniScribe)" [label=BV]
+	_for_p -> "yofc(1989)" [label=ARG2]
+	_financial_a_1 -> _statement_n_of [label=ARG1]
+	_for_p -> _statement_n_of [label=ARG1]
+	_any_q -> _statement_n_of [label=BV]
+	"_file_v_1-fn.Activity_stop" -> _statement_n_of [label="ARG2-fn.Place"]
+	neg -> "_file_v_1-fn.Activity_stop" [label=ARG1]
+	proper_q -> "yofc(1989)" [label=BV]
+	"_file_v_1-fn.Activity_stop" -> "named(MiniScribe)" [label="ARG1-fn.Purpose"]
+}

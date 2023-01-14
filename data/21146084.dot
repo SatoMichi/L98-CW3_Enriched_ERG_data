@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _equipment_n_1 [label=ARG2]
+	_a_q -> _tractor_n_1 [label=BV]
+	appos -> _equipment_n_1 [label=ARG2]
+	"_in+front+of_p" -> "_pigsty/nn_u_unknown" [label=ARG2]
+	"_stand_v_1-fn.Posture" -> _tractor_n_1 [label="ARG1-fn.NotExist"]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _equipment_n_1 [label=BV]
+	_only_a_1 -> _equipment_n_1 [label=ARG1]
+	parg_d -> _mechanize_v_1 [label=ARG1]
+	_the_q -> "_pigsty/nn_u_unknown" [label=BV]
+	"_in+front+of_p" -> "_stand_v_1-fn.Posture" [label=ARG1]
+	poss -> _equipment_n_1 [label=ARG1]
+	appos -> _tractor_n_1 [label=ARG1]
+	_mechanize_v_1 -> _equipment_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

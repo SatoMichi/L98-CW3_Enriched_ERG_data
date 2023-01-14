@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _evaluation_n_of [label=BV]
+	ellipsis_ref -> pron [label=ARG1]
+	"_say_v_to-fn.IN" -> _once_x_subord [label="ARG2-fn.Topic"]
+	_the_q -> _spokesman_n_1 [label=BV]
+	focus_d -> "_receive_v_1-fn.Receiving" [label=ARG2]
+	_serious_a_1 -> _evaluation_n_of [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> _evaluation_n_of [label="ARG2-fn.Theme"]
+	_once_x_subord -> "_receive_v_1-fn.Receiving" [label=ARG1]
+	_very_x_deg -> _serious_a_1 [label=ARG1]
+	_once_x_subord -> ellipsis_ref [label=ARG2]
+	"_say_v_to-fn.IN" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	"_receive_v_1-fn.Receiving" -> pron [label="ARG1-fn.Agent"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

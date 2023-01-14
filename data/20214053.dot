@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _month_n_1 [label=ARG2]
+	_for_p -> "_train_v_1-fn.Education_teaching" [label=ARG1]
+	"_leave_v_1-fn.Quitting" -> _other_n_1 [label="ARG1-fn.Theme"]
+	"_train_v_1-fn.Education_teaching" -> generic_entity [label="ARG1-fn.NotExist"]
+	_only_x_deg -> _recent_a_1 [label=ARG1]
+	_active_a_1 -> "_status_n_of-as" [label=ARG1]
+	udef_q -> _month_n_1 [label=BV]
+	udef_q -> "_status_n_of-as" [label=BV]
+	"_leave_v_1-fn.Quitting" -> "_status_n_of-as" [label="ARG2-fn.Initial_Location"]
+	_some_q -> generic_entity [label=BV]
+	udef_q -> _other_n_1 [label=BV]
+	_recent_a_1 -> "_leave_v_1-fn.Quitting" [label=ARG1]
+}

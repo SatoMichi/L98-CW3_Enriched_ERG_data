@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _worried_a_about [label=ARG1]
+	_worried_a_about -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

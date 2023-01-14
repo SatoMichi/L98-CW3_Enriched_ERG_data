@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "named(Texan)" [label="ARG1-fn.Agent"]
+	"_know_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_honest_a_1 -> _man_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> implicit_conj [label="ARG2-fn.Topic"]
+	"_know_v_1-fn.IN" -> _be_v_id [label="ARG2-fn.Theme"]
+	_be_v_id -> pron [label=ARG1]
+	_a_q -> _man_n_1 [label=BV]
+	_the_q -> "named(Texan)" [label=BV]
+	focus_d -> implicit_conj [label=ARG2]
+	_be_v_id -> _man_n_1 [label=ARG2]
+	"_good_a_at-for-of" -> pron [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_wise_a_for -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

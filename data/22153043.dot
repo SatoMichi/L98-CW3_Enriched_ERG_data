@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Battelle)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	udef_q -> "_steelmakers/nns_u_unknown" [label=BV]
+	_more_a_1 -> "_concentrate_v_on-fn.NF" [label=ARG1]
+	"_think_v_1-fn.IN" -> "named(McCall)" [label="ARG1-fn.NotExist"]
+	poss -> "named(McCall)" [label=ARG1]
+	_should_v_modal -> "_concentrate_v_on-fn.NF" [label=ARG1]
+	"_think_v_1-fn.IN" -> _should_v_modal [label="ARG2-fn.NotExist"]
+	udef_q -> _construction_n_of [label=BV]
+	"_concentrate_v_on-fn.NF" -> "_steelmakers/nns_u_unknown" [label="ARG1-fn.Experiencer"]
+	poss -> "named(Battelle)" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	def_explicit_q -> "named(McCall)" [label=BV]
+	"_concentrate_v_on-fn.NF" -> _construction_n_of [label="ARG2-fn.Theme"]
+	compound -> "named(McCall)" [label=ARG1]
+}

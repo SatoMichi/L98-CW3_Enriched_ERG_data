@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_understand_v_by-fn.Grasp" -> pron [label="ARG2-fn.Theme"]
+	neg -> "_understand_v_by-fn.Grasp" [label=ARG1]
+	_just_a_1 -> "_understand_v_by-fn.Grasp" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

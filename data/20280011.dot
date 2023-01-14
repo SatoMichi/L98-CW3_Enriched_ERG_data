@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> "named(Class)" [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _promotion_n_of [label="ARG2-fn.Means"]
+	"ord(1)" -> _promotion_n_of [label=ARG1]
+	compound -> "named(Class)" [label=ARG1]
+	compound -> "named(Chivas)" [label=ARG2]
+	proper_q -> "named(Class)" [label=BV]
+	_the_q -> _promotion_n_of [label=BV]
+	proper_q -> "named(Chivas)" [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_such_a_1 -> _promotion_n_of [label=ARG1]
+}

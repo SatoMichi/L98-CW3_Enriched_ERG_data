@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _confidence_n_1 [label=ARG1]
+	_in_p -> _confidence_n_1 [label=ARG1]
+	_the_q -> _economy_n_1 [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	def_explicit_q -> _confidence_n_1 [label=BV]
+	poss -> _investor_n_1 [label=ARG2]
+	"_hurt_v_1-fn.Cause_harm" -> _confidence_n_1 [label="ARG2-fn.Experiencer"]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _investor_n_1 [label=BV]
+	"_hurt_v_1-fn.Cause_harm" -> generic_entity [label="ARG1-fn.Stimulus"]
+	udef_q -> _and_c [label=BV]
+	_in_p -> _and_c [label=ARG2]
+}

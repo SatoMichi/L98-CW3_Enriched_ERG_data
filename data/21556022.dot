@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_into_p -> _corner_n_of [label=ARG2]
+	_every_q -> _corner_n_of [label=BV]
+	"_manage_v_1-fn.IN" -> _squeeze_v_in [label="ARG2-fn.NotExist"]
+	compound -> _food_n_1 [label=ARG2]
+	_squeeze_v_in -> "_franchisers/nns_u_unknown" [label=ARG1]
+	_fast_a_1 -> _food_n_1 [label=ARG1]
+	_available_a_1 -> _corner_n_of [label=ARG1]
+	udef_q -> _food_n_1 [label=BV]
+	"_manage_v_1-fn.IN" -> "_franchisers/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	udef_q -> "_franchisers/nns_u_unknown" [label=BV]
+	_squeeze_v_in -> _store_n_1 [label=ARG2]
+	compound -> "_franchisers/nns_u_unknown" [label=ARG1]
+	udef_q -> _store_n_1 [label=BV]
+	_into_p -> _store_n_1 [label=ARG1]
+}

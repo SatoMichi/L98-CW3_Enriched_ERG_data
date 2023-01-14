@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_canadian_a_1 -> _dollar_n_1 [label=ARG1]
+	_in_p -> _dollar_n_1 [label=ARG2]
+	_in_p -> "named(E)" [label=ARG1]
+	proper_q -> "named(E)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	unknown -> "named(E)" [label=ARG]
+}

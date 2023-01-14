@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_downside/nn_u_unknown" [label=ARG2]
+	"_limit_v_1-fn.NF" -> "_downside/nn_u_unknown" [label="ARG2-fn.Patient"]
+	_the_q -> "_downside/nn_u_unknown" [label=BV]
+	parg_d -> "_limit_v_1-fn.NF" [label=ARG1]
+}

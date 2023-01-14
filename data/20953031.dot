@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _plan_n_1 [label=ARG1]
+	proper_q -> "named(Illuminating)" [label=BV]
+	_also_a_1 -> "_amend_v_1-fn.State_continue" [label=ARG1]
+	compound -> "named(Illuminating)" [label=ARG1]
+	compound -> _plan_n_1 [label=ARG1]
+	udef_q -> _rate_n_of [label=BV]
+	"_amend_v_1-fn.State_continue" -> _plan_n_1 [label="ARG2-fn.State"]
+	"_amend_v_1-fn.State_continue" -> "named(Illuminating)" [label="ARG1-fn.Entity"]
+	compound -> "named(United)" [label=ARG2]
+	proper_q -> "named(United)" [label=BV]
+	def_explicit_q -> _plan_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	compound -> _rate_n_of [label=ARG2]
+}

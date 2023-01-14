@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_comment_v_on-fn.Statement" -> _and_c [label="ARG1-fn.Agent"]
+	"_comment_v_on-fn.Statement" -> _move_n_1 [label="ARG2-fn.Topic"]
+	proper_q -> "named(Schroders)" [label=BV]
+	compound -> "named(Development)" [label=ARG1]
+	_the_q -> _move_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_decline_v_1 -> _and_c [label=ARG1]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	proper_q -> "named(Development)" [label=BV]
+	proper_q -> "named(Asia)" [label=BV]
+	compound -> "named(Asia)" [label=ARG2]
+}

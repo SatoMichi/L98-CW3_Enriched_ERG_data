@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_down_p -> "_settle_v_1-fn.Colonization" [label=ARG1]
+	_just_a_1 -> "_settle_v_1-fn.Colonization" [label=ARG1]
+	_the_q -> _house_n_of [label=BV]
+	"_settle_v_1-fn.Colonization" -> _house_n_of [label="ARG1-fn.NotExist"]
+	_into_p -> _down_p [label=ARG1]
+	_right_x_deg -> _down_p [label=ARG1]
+	_into_p -> _ground_n_1 [label=ARG2]
+	_the_q -> _ground_n_1 [label=BV]
+}

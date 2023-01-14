@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _library_n_of [label=BV]
+	compound -> "named(Berkeley)" [label=ARG2]
+	_in_p -> pron [label=ARG1]
+	compound -> _library_n_of [label=ARG1]
+	_when_x_subord -> "_hit_v_1-fn.Cause_harm" [label=ARG2]
+	_main_a_1 -> _library_n_of [label=ARG1]
+	_when_x_subord -> _in_p [label=ARG1]
+	"_hit_v_1-fn.Cause_harm" -> pron [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Berkeley)" [label=BV]
+	_in_p -> _library_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

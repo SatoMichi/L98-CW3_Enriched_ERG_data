@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _stuff_n_1 [label=ARG2]
+	udef_q -> _stuff_n_1 [label=BV]
+	_heady_a_1 -> _stuff_n_1 [label=ARG1]
+	neg -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> pron [label="ARG1-fn.Entity"]
+	"_be_v_id-fn.Name_conferral" -> _stuff_n_1 [label="ARG2-fn.Name"]
+}

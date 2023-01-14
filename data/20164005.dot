@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _dividend_n_1 [label=BV]
+	udef_q -> _interim_n_1 [label=BV]
+	compound -> _dividend_n_1 [label=ARG1]
+	subord -> "_schedule_v_1-fn.Social_event" [label=ARG1]
+	compound -> _payment_n_of [label=ARG1]
+	compound -> _interim_n_1 [label=ARG2]
+	subord -> _unchanged_a_1 [label=ARG2]
+	compound -> _yen_n_2 [label=ARG2]
+	proper_q -> "named(Nissan)" [label=BV]
+	_a_q -> _payment_n_of [label=BV]
+	"card(7)" -> _yen_n_2 [label=ARG1]
+	"_schedule_v_1-fn.Social_event" -> "named(Nissan)" [label="ARG1-fn.Duration"]
+	"_schedule_v_1-fn.Social_event" -> _payment_n_of [label="ARG2-fn.Social_event"]
+	udef_q -> _yen_n_2 [label=BV]
+}

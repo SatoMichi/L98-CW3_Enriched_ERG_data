@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(2.5)" [label=ARG2]
+	"_purchase_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_at_p -> "_purchase_v_1-fn.Competition" [label=ARG1]
+	"_say_v_to-fn.Surpassing" -> "named(B.A.T)" [label="ARG1-fn.Standard_item"]
+	number_q -> "card(785)" [label=BV]
+	udef_q -> _share_n_of [label=BV]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	"_say_v_to-fn.Surpassing" -> "_purchase_v_1-fn.Competition" [label="ARG2-fn.Profiled_item"]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(B.A.T)" [label=BV]
+	_at_p -> "card(785)" [label=ARG2]
+	"_purchase_v_1-fn.Competition" -> _share_n_of [label="ARG2-fn.Participant_2"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _minute_n_1 [label=ARG2]
+	loc_nonsp -> place_n [label=ARG2]
+	def_implicit_q -> place_n [label=BV]
+	"_abound_v_1-fn.NF" -> _relief_n_1 [label="ARG1-fn.NotExist"]
+	focus_d -> "_abound_v_1-fn.NF" [label=ARG1]
+	"_a+few_a_1" -> _minute_n_1 [label=ARG1]
+	focus_d -> _for_p [label=ARG2]
+	_there_a_1 -> place_n [label=ARG1]
+	udef_q -> _relief_n_1 [label=BV]
+	loc_nonsp -> _minute_n_1 [label=ARG1]
+	_for_p -> "_abound_v_1-fn.NF" [label=ARG1]
+	udef_q -> _minute_n_1 [label=BV]
+}

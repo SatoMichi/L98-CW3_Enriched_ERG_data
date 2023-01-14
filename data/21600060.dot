@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _fund_n_1 [label=ARG2]
+	"_specialize_v_1-fn.Cause_to_end" -> _fund_n_1 [label="ARG2-fn.Means"]
+	parg_d -> "_specialize_v_1-fn.Cause_to_end" [label=ARG1]
+	unknown -> _fund_n_1 [label=ARG]
+	udef_q -> _fund_n_1 [label=BV]
+}

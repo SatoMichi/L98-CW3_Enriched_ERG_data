@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.Commerce_buy" -> "named(Ashland)" [label="ARG1-fn.Buyer"]
+	_next_a_1 -> _year_n_1 [label=ARG1]
+	"_expect_v_1-fn.Commerce_buy" -> _complete_a_with [label="ARG2-fn.Goods"]
+	_that_q_dem -> _sale_n_of [label=BV]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	loc_nonsp -> _complete_a_with [label=ARG1]
+	def_implicit_q -> _year_n_1 [label=BV]
+	_complete_a_with -> _sale_n_of [label=ARG1]
+	proper_q -> "named(Ashland)" [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_finance_v_1-fn.Commerce_collect" -> _transaction_n_1 [label="ARG2-fn.Goods"]
+	udef_q -> _bank_n_of [label=BV]
+	"_remain_v_1-fn.State_continue" -> _bank_n_of [label="ARG1-fn.Entity"]
+	nominalization -> "_finance_v_1-fn.Commerce_collect" [label=ARG1]
+	_interested_a_in -> nominalization [label=ARG2]
+	_interested_a_in -> _bank_n_of [label=ARG1]
+	"_maintain_v_1-fn.Assemble" -> "_remain_v_1-fn.State_continue" [label="ARG2-fn.Group"]
+	"_remain_v_1-fn.State_continue" -> _interested_a_in [label="ARG2-fn.State"]
+	"_maintain_v_1-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	_the_q -> _transaction_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	udef_q -> nominalization [label=BV]
+}

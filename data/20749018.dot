@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> pron [label=ARG2]
+	"_lie_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	_to_p -> "_lie_v_1-fn.Rite" [label=ARG1]
+	_on_p -> "_lie_v_1-fn.Rite" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_on_p -> _trip_n_of [label=ARG2]
+	"_recruit_v_1-fn.Halt" -> _trip_n_of [label="ARG1-fn.Purpose"]
+	_the_q -> _trip_n_of [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	"_begin_v_1-fn.Process_start" -> _operate_v_1 [label="ARG1-fn.NotExist"]
+	"_say_v_to-fn.IN" -> "named(Manville)" [label="ARG1-fn.Agent"]
+	proper_q -> "yofc(1991)" [label=BV]
+	"_say_v_to-fn.IN" -> "_expect_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	_at_p -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	"_expect_v_1-fn.IN" -> "_begin_v_1-fn.Process_start" [label="ARG2-fn.Theme"]
+	proper_q -> "named(Manville)" [label=BV]
+	_the_q -> _plant_n_1 [label=BV]
+	_the_q -> _end_n_of [label=BV]
+	_operate_v_1 -> _plant_n_1 [label=ARG1]
+	_at_p -> _end_n_of [label=ARG2]
+	_end_n_of -> "yofc(1991)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

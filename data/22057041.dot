@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_also_a_1 -> "_result_v_from-fn.Event" [label=ARG1]
+	"_result_v_from-fn.Event" -> _reform_n_1 [label="ARG2-fn.Place"]
+	compound -> _reform_n_1 [label=ARG1]
+	udef_q -> _reform_n_1 [label=BV]
+	_of_p -> _lack_n_1 [label=ARG1]
+	udef_q -> _lack_n_1 [label=BV]
+	_of_p -> _liquidity_n_1 [label=ARG2]
+	compound -> _exchange_n_1 [label=ARG2]
+	"_result_v_from-fn.Event" -> _lack_n_1 [label="ARG1-fn.Event"]
+	udef_q -> _liquidity_n_1 [label=BV]
+	"_can_v_modal-fn.Reliance" -> _also_a_1 [label="ARG1-fn.Protagonist"]
+	udef_q -> _exchange_n_1 [label=BV]
+}

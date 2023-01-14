@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_cause-fn.Cure" -> "_work_v_1-fn.Piracy" [label="ARG2-fn.Patient"]
+	focus_d -> "_say_v_to-fn.Surpassing" [label=ARG1]
+	_the_q -> nominalization [label=BV]
+	compound -> "named(Baum)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_get_v_to-fn.Getting" -> "_make_v_cause-fn.Cure" [label="ARG1-fn.Recipient"]
+	"_make_v_cause-fn.Cure" -> pron [label="ARG1-fn.Healer"]
+	focus_d -> "_get_v_to-fn.Getting" [label=ARG2]
+	"_say_v_to-fn.Surpassing" -> "_get_v_to-fn.Getting" [label="ARG2-fn.Profiled_item"]
+	proper_q -> "named(Baum)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_work_v_1-fn.Piracy" -> nominalization [label="ARG1-fn.Perpetrator"]
+	"_say_v_to-fn.Surpassing" -> "named(Baum)" [label="ARG1-fn.Standard_item"]
+	nominalization -> _restructure_v_1 [label=ARG1]
+}

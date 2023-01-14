@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_x_prd -> _of_p [label=ARG2]
+	_of_p -> _close_n_of [label=ARG2]
+	unknown -> "named(B)" [label=ARG]
+	proper_q -> "named(B)" [label=BV]
+	_as_x_prd -> unknown [label=ARG1]
+	poss -> _close_n_of [label=ARG1]
+	poss -> "dofw(Thu)" [label=ARG2]
+	proper_q -> "dofw(Thu)" [label=BV]
+	def_explicit_q -> _close_n_of [label=BV]
+}

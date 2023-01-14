@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	proper_q -> "named(California)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	_in_p_state -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _reality_n_1 [label="ARG2-fn.Means"]
+	_the_q -> _reality_n_1 [label=BV]
+	_in_p_state -> "named(California)" [label=ARG2]
+	_this_q_dem -> generic_entity [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Ltd)" [label=ARG1]
+	compound -> "named(Ichi)" [label=ARG1]
+	compound -> "named(Bank)" [label=ARG1]
+	proper_q -> "named(Dai-)" [label=BV]
+	unknown -> _guarantee_n_of [label=ARG]
+	udef_q -> _guarantee_n_of [label=BV]
+	proper_q -> "named(Ichi)" [label=BV]
+	_by_p -> _guarantee_n_of [label=ARG1]
+	_by_p -> "named(Ltd)" [label=ARG2]
+	compound -> "named(Kangyo)" [label=ARG1]
+	proper_q -> "named(Kangyo)" [label=BV]
+	proper_q -> "named(Ltd)" [label=BV]
+	compound -> "named(Dai-)" [label=ARG2]
+	proper_q -> "named(Bank)" [label=BV]
+}

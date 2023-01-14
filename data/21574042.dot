@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_free_a_1 -> _lunch_n_1 [label=ARG1]
+	_no_q -> _lunch_n_1 [label=BV]
+	_again_a_1 -> unknown [label=ARG1]
+	unknown -> _lunch_n_1 [label=ARG]
+}

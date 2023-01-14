@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> "_ideologues/nns_u_unknown" [label=ARG1]
+	_other_a_1 -> _side_n_1 [label=ARG1]
+	_on_p -> _side_n_1 [label=ARG2]
+	_the_q -> _process_n_of [label=BV]
+	_of_p -> _side_n_1 [label=ARG1]
+	udef_q -> "_ideologues/nns_u_unknown" [label=BV]
+	"_slow_v_1-fn.Competition" -> "_ideologues/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	"_slow_v_1-fn.Competition" -> _process_n_of [label="ARG2-fn.Participant_2"]
+	_the_q -> _side_n_1 [label=BV]
+	_the_q -> _border_n_1 [label=BV]
+	"_can_v_modal-fn.Communication_manner" -> _also_a_1 [label="ARG1-fn.Speaker"]
+	_of_p -> _border_n_1 [label=ARG2]
+	_also_a_1 -> "_slow_v_1-fn.Competition" [label=ARG1]
+}

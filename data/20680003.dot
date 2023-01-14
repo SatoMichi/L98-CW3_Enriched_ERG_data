@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _bond_n_1 [label=ARG2]
+	udef_q -> _bond_n_1 [label=BV]
+	proper_q -> "named(End)" [label=BV]
+	_closed_a_1 -> "named(End)" [label=ARG1]
+	unknown -> _fund_n_1 [label=ARG]
+	compound -> "named(End)" [label=ARG2]
+	udef_q -> _fund_n_1 [label=BV]
+	compound -> _fund_n_1 [label=ARG1]
+}

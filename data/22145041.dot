@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_head_v_dir-fn.Assemble" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	compound -> "named(Zafris)" [label=ARG1]
+	udef_q -> _rate_n_of [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_think_v_1-fn.Attempt" -> "named(Zafris)" [label="ARG1-fn.Agent"]
+	"_think_v_1-fn.Attempt" -> subord [label="ARG2-fn.Goal"]
+	udef_q -> _company_n_of [label=BV]
+	"_head_v_dir-fn.Assemble" -> _rate_n_of [label="ARG1-fn.Individuals"]
+	"_help_v_1-fn.Activity_ongoing" -> _company_n_of [label="ARG2-fn.Activity"]
+	_small_a_1 -> _company_n_of [label=ARG1]
+	proper_q -> "named(Zafris)" [label=BV]
+	subord -> "_help_v_1-fn.Activity_ongoing" [label=ARG2]
+	_down_p -> "_head_v_dir-fn.Assemble" [label=ARG1]
+}

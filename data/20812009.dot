@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> _study_n_of [label="ARG1-fn.Dependent"]
+	compound -> _reform_n_1 [label=ARG1]
+	udef_q -> _reform_n_1 [label=BV]
+	compound -> _tax_n_1 [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> "_work_v_1-fn.Assemble" [label="ARG2-fn.Requirement"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	"_work_v_1-fn.Assemble" -> _reform_n_1 [label="ARG1-fn.Individuals"]
+	_the_q -> _study_n_of [label=BV]
+	focus_d -> "_work_v_1-fn.Assemble" [label=ARG2]
+	udef_q -> _tax_n_1 [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _director_n_of [label=ARG1]
+	proper_q -> "named(Telerate)" [label=BV]
+	subord -> _inadequate_a_1 [label=ARG2]
+	subord -> "_reject_v_as-fn.Amounting_to" [label=ARG1]
+	def_explicit_q -> _director_n_of [label=BV]
+	"card(2)" -> _director_n_of [label=ARG1]
+	poss -> "named(Telerate)" [label=ARG2]
+	_the_q -> _offer_n_1 [label=BV]
+	_independent_a_of -> _director_n_of [label=ARG1]
+	comp_equal -> _inadequate_a_1 [label=ARG1]
+	"_reject_v_as-fn.Amounting_to" -> _director_n_of [label="ARG1-fn.Value"]
+	"_reject_v_as-fn.Amounting_to" -> _offer_n_1 [label="ARG2-fn.Attribute"]
+}

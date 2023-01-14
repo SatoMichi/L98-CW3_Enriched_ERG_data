@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_think_v_1-fn.IN" -> generic_entity [label="ARG1-fn.NotExist"]
+	_overly_x -> _optimistic_a_1 [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG1]
+	nominalization -> _optimistic_a_1 [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_be_v_id -> nominalization [label=ARG2]
+	_some_q -> generic_entity [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_think_v_1-fn.IN" -> _be_v_id [label="ARG2-fn.NotExist"]
+}

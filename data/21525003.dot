@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_the_q -> _agency_n_1 [label=BV]
+	"much-many_a" -> generic_entity [label=ARG1]
+	"_expect_v_of-fn.Getting" -> _bid_n_1 [label="ARG2-fn.Theme"]
+	"_in+order+to_x" -> "_expect_v_of-fn.Getting" [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	comp -> _dollar_n_1 [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_in+order+to_x" -> _equivalent_a_to [label=ARG2]
+	"_expect_v_of-fn.Getting" -> _agency_n_1 [label="ARG1-fn.Recipient"]
+	times -> "card(80)" [label=ARG2]
+	"_expect_v_of-fn.Getting" -> generic_entity [label="ARG3-fn.Source"]
+	comp -> "much-many_a" [label=ARG1]
+	_the_q -> _bid_n_1 [label=BV]
+}

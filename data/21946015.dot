@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Beebes)" [label=BV]
+	"_decide_v_1-fn.Rite" -> "named(Beebes)" [label="ARG1-fn.Leader"]
+	_yet_a_1 -> "_decide_v_1-fn.Rite" [label=ARG1]
+	"_decide_v_1-fn.Rite" -> _appeal_v_1 [label="ARG2-fn.Member"]
+	neg -> "_decide_v_1-fn.Rite" [label=ARG1]
+}

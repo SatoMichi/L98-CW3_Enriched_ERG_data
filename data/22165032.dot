@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_today_a_1 -> time_n [label=ARG1]
+	_of_p -> time_n [label=ARG1]
+	focus_d -> time_n [label=ARG2]
+	def_implicit_q -> time_n [label=BV]
+	"_lament_v_to-fn.Have_as_requirement" -> time_n [label="ARG2-fn.Requirement"]
+	"_lament_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	pronoun_q -> pron [label=BV]
+	_of_p -> _day_n_of [label=ARG2]
+	focus_d -> "_lament_v_to-fn.Have_as_requirement" [label=ARG1]
+	_all_q -> _day_n_of [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Hutchinson)" [label=BV]
+	_in_p -> "named(Bishop)" [label=ARG1]
+	proper_q -> "named(Bishop)" [label=BV]
+	_in_p -> "named(Kansas)" [label=ARG2]
+	compound -> "named(Hutchinson)" [label=ARG2]
+	parg_d -> "named(Bishop)" [label=ARG2]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_base_v_1-fn.Change_position_on_a_scale" -> "named(Bishop)" [label="ARG2-fn.Item"]
+	proper_q -> "named(Kansas)" [label=BV]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	compound -> "named(Kansas)" [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "card(2170)" [label=ARG2]
+	_to_p -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	number_q -> "card(2170)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	compound -> "named(Sumitomo)" [label=ARG2]
+	number_q -> "card(40)" [label=BV]
+	loc_nonsp -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	proper_q -> "named(Development)" [label=BV]
+	proper_q -> "named(Realty)" [label=BV]
+	"_rise_v_1-fn.Experiencer_obj" -> _and_c [label="ARG1-fn.Experiencer"]
+	proper_q -> "named(Sumitomo)" [label=BV]
+	loc_nonsp -> "card(40)" [label=ARG2]
+	compound -> "named(Realty)" [label=ARG1]
+}

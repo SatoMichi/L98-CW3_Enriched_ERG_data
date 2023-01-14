@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "card(39)" [label=ARG2]
+	plus -> "card(39)" [label=ARG2]
+	_to_p -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> "named(Armstrong)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Armstrong)" [label=BV]
+	number_q -> "card(39)" [label=BV]
+	plus -> "fraction(1/8)" [label=ARG3]
+}

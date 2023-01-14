@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Detroit)" [label=BV]
+	"_reflect_v_1-fn.Competition" -> "_pessimism/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	_in_p -> "named(Detroit)" [label=ARG2]
+	_in_p -> _outlook_n_1 [label=ARG1]
+	def_explicit_q -> "_pessimism/nn_u_unknown" [label=BV]
+	_the_q -> _outlook_n_1 [label=BV]
+	poss -> "_pessimism/nn_u_unknown" [label=ARG1]
+	poss -> _market_n_1 [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	_gloomy_a_1 -> _outlook_n_1 [label=ARG1]
+	"_reflect_v_1-fn.Competition" -> _outlook_n_1 [label="ARG2-fn.Participant_2"]
+}

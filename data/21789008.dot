@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> "_erupt_v_to-fn.Process_start" [label=ARG1]
+	compound -> _union_n_of [label=ARG2]
+	udef_q -> _union_n_of [label=BV]
+	udef_q -> "_brawls/nns_u_unknown" [label=BV]
+	compound -> _faction_n_1 [label=ARG1]
+	_between_p -> "_brawls/nns_u_unknown" [label=ARG1]
+	_still_a_1 -> "_erupt_v_to-fn.Process_start" [label=ARG1]
+	proper_q -> "named(Pemex)" [label=BV]
+	compound -> "named(Pemex)" [label=ARG2]
+	_between_p -> _faction_n_1 [label=ARG2]
+	compound -> _installation_n_of [label=ARG1]
+	udef_q -> _installation_n_of [label=BV]
+	_at_p -> _installation_n_of [label=ARG2]
+	"_erupt_v_to-fn.Process_start" -> "_brawls/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	udef_q -> _faction_n_1 [label=BV]
+}

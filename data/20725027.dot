@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_too_a_also -> "_reach_v_1-fn.NF" [label=ARG1]
+	_the_q -> _change_n_of [label=BV]
+	_though_x -> _too_a_also [label=ARG1]
+	_though_x -> _modest_a_1 [label=ARG2]
+	_beyond_p -> _patch_n_1 [label=ARG2]
+	compound -> _patch_n_1 [label=ARG1]
+	"_reach_v_1-fn.NF" -> _change_n_of [label="ARG1-fn.Agent"]
+	_beyond_p -> "_reach_v_1-fn.NF" [label=ARG1]
+	_the_q -> _patch_n_1 [label=BV]
+	udef_q -> _oil_n_1 [label=BV]
+	compound -> _oil_n_1 [label=ARG2]
+}

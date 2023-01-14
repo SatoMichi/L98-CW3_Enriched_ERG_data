@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_should_v_modal-fn.Amounting_to" -> "_belong_v_to-fn.Renting" [label="ARG1-fn.Value"]
+	"_wonder_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	_the_q -> "named_n(EC)" [label=BV]
+	_why_a_1 -> "_wonder_v_1-fn.Impact" [label=ARG1]
+	"_belong_v_to-fn.Renting" -> "named_n(EC)" [label="ARG2-fn.Goods"]
+	pronoun_q -> pron [label=BV]
+	"_belong_v_to-fn.Renting" -> pron [label="ARG1-fn.Lessee"]
+}

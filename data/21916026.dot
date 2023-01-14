@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bring_v_in-fn.Bringing" -> _firm_n_1 [label="ARG2-fn.Theme"]
+	_strengthen_v_cause -> _structure_n_1 [label=ARG2]
+	_the_q -> _structure_n_1 [label=BV]
+	"_in+order+to_x" -> _strengthen_v_cause [label=ARG2]
+	_could_v_modal -> _liable_a_for [label=ARG1]
+	_liable_a_for -> _firm_n_1 [label=ARG1]
+	_strengthen_v_cause -> _firm_n_1 [label=ARG1]
+	parg_d -> _firm_n_1 [label=ARG2]
+	parg_d -> "_bring_v_in-fn.Bringing" [label=ARG1]
+	"_in+order+to_x" -> "_bring_v_in-fn.Bringing" [label=ARG1]
+	comp_equal -> _well_a_1 [label=ARG1]
+	_the_q -> _firm_n_1 [label=BV]
+	_well_a_1 -> _liable_a_for [label=ARG1]
+}

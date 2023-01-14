@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _new_a_1 [label=ARG1]
+	_new_a_1 -> "_kind_n_of-n" [label=ARG1]
+	_this_q_dem -> "_kind_n_of-n" [label=BV]
+	_to_p -> pron [label=ARG2]
+	udef_q -> _theater_n_1 [label=BV]
+	"_kind_n_of-n" -> _theater_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

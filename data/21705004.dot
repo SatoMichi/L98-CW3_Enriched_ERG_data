@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> "named(Star)" [label=ARG1]
+	_on_p -> _rise_n_1 [label=ARG2]
+	compound -> "named(Star)" [label=ARG1]
+	_again_a_1 -> _on_p [label=ARG1]
+	compound -> "named(Lone)" [label=ARG2]
+	_the_q -> "named(Star)" [label=BV]
+	proper_q -> "named(Lone)" [label=BV]
+	_the_q -> _rise_n_1 [label=BV]
+}

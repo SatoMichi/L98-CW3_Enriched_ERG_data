@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+order+to_x" -> "_hear_v_1-fn.IN" [label=ARG2]
+	_the_q -> _magazine_n_1 [label=BV]
+	"_tell_v_1-fn.Statement" -> pron [label="ARG2-fn.Topic"]
+	_the_q -> _time_n_of [label=BV]
+	_with_p -> _time_n_of [label=ARG2]
+	"_hear_v_1-fn.IN" -> "_tell_v_1-fn.Statement" [label="ARG2-fn.Stimulus"]
+	"_in+order+to_x" -> neg [label=ARG1]
+	_keep_v_up -> _magazine_n_1 [label=ARG1]
+	udef_q -> "_advertisers/nns_u_unknown" [label=BV]
+	_just_a_1 -> _keep_v_up [label=ARG1]
+	neg -> _keep_v_up [label=ARG1]
+	"_hear_v_1-fn.IN" -> _magazine_n_1 [label="ARG1-fn.Experiencer"]
+	"_tell_v_1-fn.Statement" -> "_advertisers/nns_u_unknown" [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

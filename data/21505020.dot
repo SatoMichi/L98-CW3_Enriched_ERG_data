@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _price_n_of [label=ARG2]
+	"_make_v_1-fn.Competition" -> "_comeback/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	_a_q -> "_comeback/nn_u_unknown" [label=BV]
+	proper_q -> "dofw(Fri)" [label=BV]
+	_high_a_1 -> _price_n_of [label=ARG1]
+	"_make_v_1-fn.Competition" -> _issue_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _price_n_of [label=BV]
+	loc_nonsp -> "dofw(Fri)" [label=ARG2]
+	loc_nonsp -> "_make_v_1-fn.Competition" [label=ARG1]
+	_some_q -> _issue_n_1 [label=BV]
+	compound -> _issue_n_1 [label=ARG1]
+}

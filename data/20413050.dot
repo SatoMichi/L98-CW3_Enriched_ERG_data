@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_untrustworthy/jj_u_unknown" -> "_eyewitnesses/nns_u_unknown" [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	udef_q -> "_eyewitnesses/nns_u_unknown" [label=BV]
+	"_say_v_to-fn.IN" -> "_untrustworthy/jj_u_unknown" [label="ARG2-fn.NotExist"]
+	_invariable_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

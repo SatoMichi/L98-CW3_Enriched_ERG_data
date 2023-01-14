@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	focus_d -> _change_v_1 [label=ARG2]
+	neg -> _change_v_1 [label=ARG1]
+	_in_p -> _hour_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_change_v_1 -> _fundamental_n_1 [label=ARG1]
+	_the_q -> _fundamental_n_1 [label=BV]
+	"card(1)" -> _hour_n_1 [label=ARG1]
+	_in_p -> _change_v_1 [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _hour_n_1 [label=BV]
+}

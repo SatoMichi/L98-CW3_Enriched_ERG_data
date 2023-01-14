@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_probable_a_1 -> _too_a_also [label=ARG1]
+	_new_a_1 -> _account_n_of [label=ARG1]
+	udef_q -> _account_n_of [label=BV]
+	"_open_v_cause-fn.Cause_to_fragment" -> _account_n_of [label="ARG2-fn.Instrument"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_open_v_cause-fn.Cause_to_fragment" -> "named(Jackson)" [label="ARG1-fn.Agent"]
+	udef_q -> _mister_n_1 [label=BV]
+	"_check_v_1-fn.Attempt_suasion" -> _account_n_of [label="ARG1-fn.Content"]
+	compound -> "named(Jackson)" [label=ARG1]
+	proper_q -> "named(Jackson)" [label=BV]
+	_too_a_also -> "_open_v_cause-fn.Cause_to_fragment" [label=ARG1]
+}

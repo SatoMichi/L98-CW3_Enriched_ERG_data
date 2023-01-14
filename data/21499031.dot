@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_roll_v_1 -> _suit_n_of [label=ARG1]
+	_the_q -> _bill_n_of [label=BV]
+	udef_q -> _suit_n_of [label=BV]
+	_as_x_subord -> _roll_v_1 [label=ARG2]
+	_through_p -> _court_n_of [label=ARG2]
+	"_write_v_to-fn.Text_creation" -> _bill_n_of [label="ARG2-fn.Theme"]
+	"_write_v_to-fn.Text_creation" -> _judge_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _judge_n_of [label=BV]
+	_as_x_subord -> "_write_v_to-fn.Text_creation" [label=ARG1]
+	_through_p -> _roll_v_1 [label=ARG1]
+	_real_a_1 -> _bill_n_of [label=ARG1]
+	_the_q -> _court_n_of [label=BV]
+}

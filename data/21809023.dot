@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(IBM)" [label=BV]
+	parg_d -> _competition_n_1 [label=ARG2]
+	_the_q -> _competition_n_1 [label=BV]
+	_at_p_temp -> "_hit_v_1-fn.Impact" [label=ARG1]
+	_at_p_temp -> _time_n_of [label=ARG2]
+	"_hit_v_1-fn.Impact" -> _competition_n_1 [label="ARG1-fn.Place"]
+	"_heighten_v_cause-fn.Cause_to_end" -> _competition_n_1 [label="ARG2-fn.Means"]
+	parg_d -> "_heighten_v_cause-fn.Cause_to_end" [label=ARG1]
+	_a_q -> _time_n_of [label=BV]
+	"_hit_v_1-fn.Impact" -> "named(IBM)" [label="ARG2-fn.Result"]
+	_difficult_a_for -> _time_n_of [label=ARG1]
+}

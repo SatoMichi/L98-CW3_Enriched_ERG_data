@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Surpassing" -> "_could_v_modal-fn.Cause_to_end" [label="ARG2-fn.Profiled_item"]
+	compound -> _corporation_n_1 [label=ARG2]
+	udef_q -> _corporation_n_1 [label=BV]
+	_that_q_dem -> _figure_n_1 [label=BV]
+	compound -> "named(Financial)" [label=ARG1]
+	parg_d -> "_revise_v_1-fn.Activity_prepare" [label=ARG1]
+	parg_d -> _figure_n_1 [label=ARG2]
+	focus_d -> "_say_v_to-fn.Surpassing" [label=ARG1]
+	_however_a_1 -> "_say_v_to-fn.Surpassing" [label=ARG1]
+	"_say_v_to-fn.Surpassing" -> "named(Financial)" [label="ARG1-fn.Standard_item"]
+	"_revise_v_1-fn.Activity_prepare" -> _figure_n_1 [label="ARG2-fn.Activity"]
+	"_could_v_modal-fn.Cause_to_end" -> "_revise_v_1-fn.Activity_prepare" [label="ARG1-fn.Process"]
+	proper_q -> "named(Financial)" [label=BV]
+	focus_d -> "_could_v_modal-fn.Cause_to_end" [label=ARG2]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> pron [label=ARG2]
+	poss -> _eye_n_1 [label=ARG1]
+	def_explicit_q -> _eye_n_1 [label=BV]
+	"_avert_v_from-fn.Process_start" -> "_naczelnik/fw_u_unknown" [label="ARG1-fn.Event"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> "_naczelnik/fw_u_unknown" [label=BV]
+	"_avert_v_from-fn.Process_start" -> _eye_n_1 [label="ARG2-fn.Place"]
+}

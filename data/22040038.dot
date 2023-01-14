@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_id [label=ARG2]
+	_be_v_id -> _dollar_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _spokesman_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _number_n_of [label=BV]
+	_be_v_id -> _number_n_of [label=ARG1]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.NotExist"]
+	times -> "card(56)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(1000000)" [label=ARG3]
+	_a_q -> _spokesman_n_1 [label=BV]
+	"_year-earlier_a_1" -> _number_n_of [label=ARG1]
+	_comparable_a_1 -> _number_n_of [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

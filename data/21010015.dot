@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_like_v_1-fn.Eclipse" -> pron [label="ARG1-fn.Obstruction"]
+	"_like_v_1-fn.Eclipse" -> _transaction_n_1 [label="ARG2-fn.Eclipsed"]
+	"_block_v_1-fn.Piracy" -> _transaction_n_1 [label="ARG2-fn.Vehicle"]
+	_clear_a_of -> "_intend_v_for-fn.State_continue" [label=ARG1]
+	"_intend_v_for-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _machinist_n_1 [label=BV]
+	"_block_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_make_v_cause-fn.Cure" -> _clear_a_of [label="ARG2-fn.Patient"]
+	pronoun_q -> pron [label=BV]
+	neg -> "_like_v_1-fn.Eclipse" [label=ARG1]
+	"_make_v_cause-fn.Cure" -> _and_c [label="ARG1-fn.Healer"]
+	_any_q -> _transaction_n_1 [label=BV]
+	"_intend_v_for-fn.State_continue" -> "_block_v_1-fn.Piracy" [label="ARG2-fn.State"]
+	_the_q -> _pilot_n_of [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _actor_n_1 [label="ARG2-fn.Means"]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_a_q -> _actor_n_1 [label=BV]
+	_excellent_a_1 -> _actor_n_1 [label=ARG1]
+	focus_d -> _actor_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_environmental_a_1 -> _actor_n_1 [label=ARG1]
+}

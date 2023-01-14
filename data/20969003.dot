@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "named(Pittston)" [label=ARG1]
+	proper_q -> "named(Greenwich)" [label=BV]
+	compound -> "named(Greenwich)" [label=ARG2]
+	_of_p -> "named(Connecticut)" [label=ARG2]
+	_sporadic_a_1 -> "_talk_n_of-on" [label=ARG1]
+	udef_q -> "_talk_n_of-on" [label=BV]
+	proper_q -> "named(Connecticut)" [label=BV]
+	_the_q -> _union_n_of [label=BV]
+	_unsuccessful_a_1 -> "_talk_n_of-on" [label=ARG1]
+	_between_p -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Pittston)" [label=BV]
+	_previous_a_1 -> "_talk_n_of-on" [label=ARG1]
+	compound -> "named(Connecticut)" [label=ARG1]
+	_between_p -> "_talk_n_of-on" [label=ARG1]
+}

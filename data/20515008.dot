@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _heart_n_1 [label=ARG2]
+	compound -> _disease_n_1 [label=ARG1]
+	unknown -> _disease_n_1 [label=ARG]
+	def_explicit_q -> _disease_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	poss -> _disease_n_1 [label=ARG1]
+	"_at+least_a_1" -> unknown [label=ARG1]
+	udef_q -> _heart_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

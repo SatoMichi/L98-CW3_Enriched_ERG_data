@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.Commerce_buy" -> _agreement_n_1 [label="ARG2-fn.Goods"]
+	proper_q -> "mofy(Jul)" [label=BV]
+	_a_q -> _agreement_n_1 [label=BV]
+	parg_d -> _agreement_n_1 [label=ARG2]
+	_by_p -> _end_n_of [label=ARG2]
+	_by_p -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	_definitive_a_1 -> _agreement_n_1 [label=ARG1]
+	parg_d -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	_the_q -> _end_n_of [label=BV]
+	_end_n_of -> "mofy(Jul)" [label=ARG1]
+}

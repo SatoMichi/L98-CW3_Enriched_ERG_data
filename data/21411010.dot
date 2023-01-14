@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _glamor_n_1 [label=BV]
+	_of_p -> _glamor_n_1 [label=ARG1]
+	udef_q -> _sports_n_1 [label=BV]
+	_of_p -> _sports_n_1 [label=ARG2]
+	unknown -> _glamor_n_1 [label=ARG]
+	_professional_a_1 -> _sports_n_1 [label=ARG1]
+}

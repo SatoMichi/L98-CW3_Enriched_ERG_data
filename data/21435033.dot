@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_defy_v_1 -> _resident_n_of [label=ARG1]
+	_some_q -> _resident_n_of [label=BV]
+	"_retrieve_v_1-fn.NF" -> _resident_n_of [label="ARG1-fn.Agent"]
+	_defy_v_1 -> _order_n_of [label=ARG2]
+	_to_p -> _return_v_1 [label=ARG1]
+	_to_p -> _building_n_1 [label=ARG2]
+	udef_q -> _order_n_of [label=BV]
+	udef_q -> _building_n_1 [label=BV]
+	"_in+order+to_x" -> "_retrieve_v_1-fn.NF" [label=ARG2]
+	"_retrieve_v_1-fn.NF" -> _goods_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _goods_n_1 [label=BV]
+	_return_v_1 -> _resident_n_of [label=ARG1]
+	"_in+order+to_x" -> _return_v_1 [label=ARG1]
+	_red_a_1 -> _building_n_1 [label=ARG1]
+}

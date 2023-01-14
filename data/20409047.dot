@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_prove_v_to-fn.Turning_out" -> _optimistic_a_1 [label="ARG2-fn.Theme"]
+	_that_q_dem -> _goal_n_1 [label=BV]
+	_optimistic_a_1 -> _goal_n_1 [label=ARG1]
+	_even_x_deg -> _that_q_dem [label=ARG1]
+	_may_v_modal -> "_prove_v_to-fn.Turning_out" [label=ARG1]
+	"_prove_v_to-fn.Turning_out" -> _goal_n_1 [label="ARG1-fn.NotExist"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Cetus)" [label=BV]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Cetus)" [label="ARG1-fn.NotExist"]
+	_to_p -> "card(27)" [label=ARG2]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "fraction(3/8)" [label=ARG3]
+	proper_q -> "named(Chiron)" [label=BV]
+	_to_p -> "card(16)" [label=ARG2]
+	_up_p -> "named(Chiron)" [label=ARG1]
+	loc_nonsp -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "card(16)" [label=ARG2]
+	_to_p -> _up_p [label=ARG1]
+	number_q -> "card(16)" [label=BV]
+	number_q -> "card(27)" [label=BV]
+}

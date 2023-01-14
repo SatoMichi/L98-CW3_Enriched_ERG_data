@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_after_p -> _indictment_n_1 [label=ARG2]
+	compound -> _general_n_1 [label=ARG2]
+	udef_q -> _general_n_1 [label=BV]
+	compound -> "named(Noriega)" [label=ARG1]
+	_even_a_1 -> _after_p [label=ARG1]
+	poss -> _indictment_n_1 [label=ARG1]
+	_after_p -> "_continue_v_1-fn.Process_continue" [label=ARG1]
+	proper_q -> "named(Noriega)" [label=BV]
+	poss -> "named(Noriega)" [label=ARG2]
+	_this_q_dem -> _problem_n_of [label=BV]
+	"_continue_v_1-fn.Process_continue" -> _problem_n_of [label="ARG1-fn.NotExist"]
+	def_explicit_q -> _indictment_n_1 [label=BV]
+	_unfortunate_a_1 -> "_continue_v_1-fn.Process_continue" [label=ARG1]
+}

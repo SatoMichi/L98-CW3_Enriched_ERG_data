@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_make_v_1-fn.Rite" [label=ARG1]
+	_a_q -> _announcement_n_of [label=BV]
+	proper_q -> "named(Moscow)" [label=BV]
+	_in_p -> "named(Moscow)" [label=ARG2]
+	_in_p -> "_make_v_1-fn.Rite" [label=ARG1]
+	"_make_v_1-fn.Rite" -> _announcement_n_of [label="ARG2-fn.Member"]
+	_simultaneous_a_1 -> _announcement_n_of [label=ARG1]
+	parg_d -> _announcement_n_of [label=ARG2]
+}

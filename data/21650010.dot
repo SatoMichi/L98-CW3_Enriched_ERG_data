@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _trade_n_of [label=ARG2]
+	_quiet_a_1 -> "_link_v_up-fn.Perception_active" [label=ARG1]
+	compound -> "_publish_v_1-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _group_n_of [label=BV]
+	"_publish_v_1-fn.Cause_to_end" -> _group_n_of [label="ARG1-fn.Process"]
+	"_link_v_up-fn.Perception_active" -> pron [label="ARG1-fn.Perceiver_agentive"]
+	compound -> _group_n_of [label=ARG1]
+	compound -> "named_n(US)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_with_p -> "_link_v_up-fn.Perception_active" [label=ARG1]
+	udef_q -> "named_n(US)" [label=BV]
+	_with_p -> _group_n_of [label=ARG2]
+	udef_q -> _trade_n_of [label=BV]
+}

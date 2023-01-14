@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_include_v_1-fn.NF" -> _company_n_of [label="ARG2-fn.Theme"]
+	compound -> _purchase_n_of [label=ARG2]
+	_the_q -> _price_n_of [label=BV]
+	"_include_v_1-fn.NF" -> _price_n_of [label="ARG1-fn.NotExist"]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _company_n_of [label=BV]
+	udef_q -> _purchase_n_of [label=BV]
+	_ancillary_a_1 -> _company_n_of [label=ARG1]
+	"card(2)" -> _company_n_of [label=ARG1]
+}

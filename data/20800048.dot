@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_recent_a_1 -> "_start_v_1-fn.Competition" [label=ARG1]
+	"_gruff/jj_u_unknown" -> "_financier/nn_u_unknown" [label=ARG1]
+	udef_q -> _class_n_of [label=BV]
+	_in_p -> "_socialize_v_1-fn.Competition" [label=ARG1]
+	"_socialize_v_1-fn.Competition" -> "_financier/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	_in_p -> _circle_n_of [label=ARG2]
+	"_start_v_1-fn.Competition" -> "_socialize_v_1-fn.Competition" [label="ARG1-fn.Participant_1"]
+	udef_q -> _circle_n_of [label=BV]
+	_the_q -> "_financier/nn_u_unknown" [label=BV]
+	compound -> _class_n_of [label=ARG2]
+	compound -> _circle_n_of [label=ARG1]
+	_upper_a_1 -> _class_n_of [label=ARG1]
+}

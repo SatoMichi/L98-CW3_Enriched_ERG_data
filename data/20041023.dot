@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_right_n_1 -> _choose_v_from [label=ARG1]
+	def_explicit_q -> _right_n_1 [label=BV]
+	_the_q -> _other_n_1 [label=BV]
+	poss -> _right_n_1 [label=ARG1]
+	poss -> _woman_n_1 [label=ARG2]
+	_a_q -> _woman_n_1 [label=BV]
+	"_oppose_v_1-fn.NF" -> _right_n_1 [label="ARG2-fn.Co-Patient"]
+	"_oppose_v_1-fn.NF" -> _other_n_1 [label="ARG1-fn.Patient"]
+}

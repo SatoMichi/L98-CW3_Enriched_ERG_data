@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _government_n_of [label=BV]
+	proper_q -> "named(Brooks)" [label=BV]
+	_with_p -> "_reach_v_1-fn.NF" [label=ARG1]
+	_a_q -> _agreement_n_1 [label=BV]
+	compound -> _cleaning_n_1 [label=ARG1]
+	_with_p -> _government_n_of [label=ARG2]
+	_unable_a_1 -> "_reach_v_1-fn.NF" [label=ARG2]
+	compound -> _agreement_n_1 [label=ARG1]
+	udef_q -> _coin_n_1 [label=BV]
+	"_reach_v_1-fn.NF" -> _agreement_n_1 [label="ARG2-fn.Theme"]
+	compound -> _coin_n_1 [label=ARG2]
+	"_reach_v_1-fn.NF" -> "named(Brooks)" [label="ARG1-fn.Agent"]
+	udef_q -> _cleaning_n_1 [label=BV]
+	_unable_a_1 -> "named(Brooks)" [label=ARG1]
+}

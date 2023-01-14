@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_force_v_1-fn.Halt" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _seller_n_of [label="ARG2-fn.Means"]
+	"_force_v_1-fn.Halt" -> _seller_n_of [label="ARG2-fn.Place"]
+	udef_q -> _seller_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _seller_n_of [label=ARG2]
+}

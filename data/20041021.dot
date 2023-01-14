@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _bullet_n_1 [label=ARG1]
+	"_oppose_v_1-fn.NF" -> _ban_n_1 [label="ARG2-fn.Co-Patient"]
+	_the_q -> _other_n_1 [label=BV]
+	udef_q -> _cop_n_1 [label=BV]
+	compound -> _killer_n_1 [label=ARG1]
+	udef_q -> _bullet_n_1 [label=BV]
+	udef_q -> _killer_n_1 [label=BV]
+	_a_q -> _ban_n_1 [label=BV]
+	compound -> _cop_n_1 [label=ARG2]
+	_on_p -> _bullet_n_1 [label=ARG2]
+	_on_p -> _ban_n_1 [label=ARG1]
+	"_oppose_v_1-fn.NF" -> _other_n_1 [label="ARG1-fn.Patient"]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"ord(6)" -> _decline_n_1 [label=ARG1]
+	_the_q -> _decline_n_1 [label=BV]
+	"_mark_v_1-fn.NF" -> _decline_n_1 [label="ARG2-fn.Theme"]
+	_monthly_a_1 -> _decline_n_1 [label=ARG1]
+	"_mark_v_1-fn.NF" -> _total_n_of [label="ARG1-fn.Agent"]
+	_consecutive_a_1 -> _decline_n_1 [label=ARG1]
+	_the_q -> _total_n_of [label=BV]
+}

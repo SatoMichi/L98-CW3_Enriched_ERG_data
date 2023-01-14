@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _venture_n_1 [label="ARG2-fn.Item"]
+	proper_q -> "named(Indianapolis)" [label=BV]
+	_the_q -> _venture_n_1 [label=BV]
+	_in_p -> _venture_n_1 [label=ARG1]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	_in_p -> "named(Indianapolis)" [label=ARG2]
+	parg_d -> _venture_n_1 [label=ARG2]
+}

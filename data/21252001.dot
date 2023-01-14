@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _reasoning_n_1 [label=ARG]
+	"_season_v_1-fn.Competition" -> _reasoning_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _reasoning_n_1 [label=BV]
+	parg_d -> _reasoning_n_1 [label=ARG2]
+	_well_x_deg -> "_season_v_1-fn.Competition" [label=ARG1]
+	parg_d -> "_season_v_1-fn.Competition" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Norfolk)" [label=ARG2]
+	number_q -> "card(37)" [label=BV]
+	plus -> "fraction(7/8)" [label=ARG3]
+	_to_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_up_p_dir -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	proper_q -> "named(Norfolk)" [label=BV]
+	number_q -> "card(1)" [label=BV]
+	proper_q -> "named(Southern)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	_to_p -> "card(37)" [label=ARG2]
+	plus -> "card(37)" [label=ARG2]
+	_up_p_dir -> "card(1)" [label=ARG2]
+	"_go_v_1-fn.Change_position_on_a_scale" -> "named(Southern)" [label="ARG1-fn.Attribute"]
+	compound -> "named(Southern)" [label=ARG1]
+	plus -> "fraction(1/8)" [label=ARG3]
+}

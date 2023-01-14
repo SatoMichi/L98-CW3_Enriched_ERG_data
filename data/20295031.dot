@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _matter_n_of [label=BV]
+	"_be_v_nv-fn.Halt" -> _fact_n_1 [label="ARG1-fn.Purpose"]
+	_the_q -> _fact_n_1 [label=BV]
+	"_be_v_nv-fn.Halt" -> "_be_v_id-fn.Assemble" [label="ARG2-fn.Place"]
+	_of_p -> _matter_n_of [label=ARG2]
+	"_be_v_id-fn.Assemble" -> "_marketer/nn_u_unknown" [label="ARG2-fn.Group"]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	pronoun_q -> pron [label=BV]
+	_of_p -> _fact_n_1 [label=ARG1]
+	_a_q -> "_marketer/nn_u_unknown" [label=BV]
+}

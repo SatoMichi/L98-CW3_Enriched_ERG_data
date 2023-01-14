@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "_monitor_v_1-fn.NF" [label=ARG1]
+	udef_q -> _purpose_n_1 [label=BV]
+	compound -> "named(Wall)" [label=ARG2]
+	udef_q -> "_recordkeeping/nn_u_unknown" [label=BV]
+	_some_q -> _firm_n_1 [label=BV]
+	"_monitor_v_1-fn.NF" -> _firm_n_1 [label="ARG1-fn.Agent"]
+	compound -> _purpose_n_1 [label=ARG1]
+	compound -> "_recordkeeping/nn_u_unknown" [label=ARG2]
+	compound -> "named(Street)" [label=ARG1]
+	proper_q -> "named(Wall)" [label=BV]
+	compound -> _firm_n_1 [label=ARG1]
+	proper_q -> "named(Street)" [label=BV]
+	_for_p -> _purpose_n_1 [label=ARG2]
+}

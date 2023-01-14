@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _concern_n_1 [label="ARG2-fn.Means"]
+	_a_q -> _concern_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(Manville)" [label="ARG1-fn.Process"]
+	udef_q -> _product_n_1 [label=BV]
+	compound -> _product_n_1 [label=ARG1]
+	proper_q -> "named(Manville)" [label=BV]
+	compound -> _forest_n_of [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	compound -> _and_c [label=ARG2]
+	compound -> _concern_n_1 [label=ARG1]
+	udef_q -> _forest_n_of [label=BV]
+	udef_q -> _building_n_1 [label=BV]
+}

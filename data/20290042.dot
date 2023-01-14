@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _network_n_of [label=BV]
+	_would_v_modal -> "_lose_v_1-fn.NF" [label=ARG1]
+	"_lose_v_1-fn.NF" -> _network_n_of [label="ARG1-fn.Agent"]
+	"_lose_v_1-fn.NF" -> thing [label="ARG2-fn.Theme"]
+	_no_q -> thing [label=BV]
+	compound -> _network_n_of [label=ARG1]
+	compound -> _tv_n_1 [label=ARG2]
+	udef_q -> _tv_n_1 [label=BV]
+	_maybe_a_1 -> _would_v_modal [label=ARG1]
+}

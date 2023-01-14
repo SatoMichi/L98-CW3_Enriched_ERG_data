@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _spokesman_n_1 [label=ARG1]
+	_the_q -> "named(Comex)" [label=BV]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_reach_v_1 -> _spokesman_n_1 [label=ARG2]
+	"_in+order+to_x" -> "_comment_v_on-fn.Statement" [label=ARG2]
+	parg_d -> _reach_v_1 [label=ARG1]
+	"_comment_v_on-fn.Statement" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_for_p -> "named(Comex)" [label=ARG2]
+	neg -> _can_v_modal [label=ARG1]
+	_can_v_modal -> "_in+order+to_x" [label=ARG1]
+	"_in+order+to_x" -> _reach_v_1 [label=ARG1]
+	parg_d -> _spokesman_n_1 [label=ARG2]
+}

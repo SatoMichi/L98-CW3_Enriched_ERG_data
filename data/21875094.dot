@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _pastor_n_1 [label=BV]
+	"_envision_v_1-fn.Competition" -> "_utopia/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	udef_q -> _socialism_n_1 [label=BV]
+	_of_p -> _socialism_n_1 [label=ARG2]
+	poss -> _pastor_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	"card(1)" -> part_of [label=ARG1]
+	_new_a_1 -> "_utopia/nn_u_unknown" [label=ARG1]
+	udef_q -> part_of [label=BV]
+	"_envision_v_1-fn.Competition" -> part_of [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	_of_p -> "_utopia/nn_u_unknown" [label=ARG1]
+	_creative_a_1 -> _socialism_n_1 [label=ARG1]
+	_a_q -> "_utopia/nn_u_unknown" [label=BV]
+	part_of -> _pastor_n_1 [label=ARG1]
+}

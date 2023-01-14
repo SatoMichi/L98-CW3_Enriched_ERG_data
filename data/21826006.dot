@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_figure_v_1-fn.Competition" -> "named(Pittsburgh)" [label="ARG1-fn.Participant_1"]
+	parg_d -> "_dethroned/vbn_u_unknown" [label=ARG1]
+	"_figure_v_1-fn.Competition" -> "_dethroned/vbn_u_unknown" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Pittsburgh)" [label=BV]
+	def_explicit_q -> "_ouster/nn_u_unknown" [label=BV]
+	poss -> "_ouster/nn_u_unknown" [label=ARG1]
+	"_plan_v_1-fn.Competition" -> "named(Pittsburgh)" [label="ARG1-fn.Participant_1"]
+	"_graciously/rb_u_unknown" -> "_accept_v_1-fn.Competition" [label=ARG1]
+	"_dethroned/vbn_u_unknown" -> pron [label=ARG2]
+	"_accept_v_1-fn.Competition" -> "named(Pittsburgh)" [label="ARG1-fn.Participant_1"]
+	"_accept_v_1-fn.Competition" -> "_ouster/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	"_plan_v_1-fn.Competition" -> "_accept_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	poss -> pron [label=ARG2]
+	parg_d -> pron [label=ARG2]
+}

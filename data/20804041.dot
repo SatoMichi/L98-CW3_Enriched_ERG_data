@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _creativity_n_1 [label=ARG1]
+	_technological_a_1 -> _deficiency_n_1 [label=ARG1]
+	_the_q -> _show_n_of [label=BV]
+	"_make_v_up-for-fn.Have_as_requirement" -> _creativity_n_1 [label="ARG1-fn.Dependent"]
+	poss -> _show_n_of [label=ARG2]
+	_for_p -> _deficiency_n_1 [label=ARG2]
+	def_explicit_q -> _creativity_n_1 [label=BV]
+	_any_q -> _deficiency_n_1 [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _crystal_n_1 [label=BV]
+	"_need_v_1-fn.Needing" -> _material_n_1 [label="ARG2-fn.Theme"]
+	_for_p -> "_need_v_1-fn.Needing" [label=ARG1]
+	parg_d -> "_need_v_1-fn.Needing" [label=ARG1]
+	_multi_a_1 -> _crystal_n_1 [label=ARG1]
+	udef_q -> _application_n_of [label=BV]
+	_commercial_a_1 -> _application_n_of [label=ARG1]
+	_probable_a_1 -> "_need_v_1-fn.Needing" [label=ARG1]
+	_for_p -> _application_n_of [label=ARG2]
+	_such_q -> _material_n_1 [label=BV]
+	parg_d -> _material_n_1 [label=ARG2]
+	compound -> _material_n_1 [label=ARG1]
+	compound -> _crystal_n_1 [label=ARG2]
+}

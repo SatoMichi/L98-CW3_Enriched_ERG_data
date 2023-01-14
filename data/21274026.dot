@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _and_c [label=ARG2]
+	_in_p -> _hand_n_1 [label=ARG2]
+	_in_p -> "_six-shooter_n_1" [label=ARG1]
+	_a_q -> "_six-shooter_n_1" [label=BV]
+	_in_p -> _bourbon_n_1 [label=ARG1]
+	_the_q -> _other_n_1 [label=BV]
+	_with_p -> unknown [label=ARG1]
+	udef_q -> _hand_n_1 [label=BV]
+	udef_q -> _bourbon_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_in_p -> _other_n_1 [label=ARG2]
+	"card(1)" -> _hand_n_1 [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "_charge_v_1-fn.Cause_to_end" [label=ARG1]
+	"_charge_v_1-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	_such_q -> _filing_n_1 [label=BV]
+	"_charge_v_1-fn.Cause_to_end" -> _government_n_of [label="ARG1-fn.Process"]
+	_no_q -> thing [label=BV]
+	_for_p -> _filing_n_1 [label=ARG2]
+	focus_d -> "_charge_v_1-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _government_n_of [label=BV]
+	_current_a_1 -> "_charge_v_1-fn.Cause_to_end" [label=ARG1]
+}

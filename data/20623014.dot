@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tell_v_about-fn.Speak_on_topic" -> pron [label="ARG2-fn.Topic"]
+	compound -> "named(HUD)" [label=ARG2]
+	"_tell_v_about-fn.Speak_on_topic" -> _scandal_n_1 [label="ARG3-fn.Recipient"]
+	compound -> _scandal_n_1 [label=ARG1]
+	proper_q -> "named(HUD)" [label=BV]
+	_the_q -> _scandal_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

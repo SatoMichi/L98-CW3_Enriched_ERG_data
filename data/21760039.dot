@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Orange)" [label=ARG2]
+	proper_q -> "named(Orange)" [label=BV]
+	compound -> "named(Workers)" [label=ARG1]
+	"_speak_v_to-fn.IN" -> "named(Workers)" [label="ARG1-fn.Agent"]
+	_the_q -> "named(Workers)" [label=BV]
+	_sincere_a_1 -> "_speak_v_to-fn.IN" [label=ARG1]
+}

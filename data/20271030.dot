@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "named(Funding)" [label=ARG]
+	compound -> "named(Funding)" [label=ARG1]
+	proper_q -> "named(Lomas)" [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+	compound -> "named(Mortgage)" [label=ARG1]
+	proper_q -> "named(Funding)" [label=BV]
+	compound -> "named(Lomas)" [label=ARG2]
+	proper_q -> "named(Mortgage)" [label=BV]
+	number_q -> "card(II)" [label=BV]
+	loc_nonsp -> "card(II)" [label=ARG2]
+	udef_q -> _corporation_n_1 [label=BV]
+}

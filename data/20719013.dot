@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _pick_v_up [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_pick_v_up -> _trader_n_1 [label=ARG1]
+	_some_q -> _dealer_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	"_say_v_to-fn.IN" -> _dealer_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _trader_n_1 [label=BV]
+	_pick_v_up -> _phone_n_1 [label=ARG2]
+	def_explicit_q -> _phone_n_1 [label=BV]
+	poss -> _phone_n_1 [label=ARG1]
+	_other_a_1 -> _trader_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _advocate_n_1 [label=BV]
+	_the_q -> _trend_n_1 [label=BV]
+	udef_q -> _success_n_1 [label=BV]
+	_the_q -> _cut_n_1 [label=BV]
+	"_make_v_cause-fn.Cause_change" -> _optimistic_a_1 [label="ARG2-fn.Theme"]
+	compound -> _cut_n_1 [label=ARG1]
+	_of_p -> _cut_n_1 [label=ARG2]
+	comp_less -> _optimistic_a_1 [label=ARG1]
+	compound -> _tax_n_1 [label=ARG2]
+	_about_p -> _optimistic_a_1 [label=ARG1]
+	_optimistic_a_1 -> _advocate_n_1 [label=ARG1]
+	"_make_v_cause-fn.Cause_change" -> _trend_n_1 [label="ARG1-fn.Agent"]
+	_about_p -> _success_n_1 [label=ARG2]
+	_of_p -> _advocate_n_1 [label=ARG1]
+	udef_q -> _tax_n_1 [label=BV]
+}

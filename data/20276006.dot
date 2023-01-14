@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _decision_n_1 [label=BV]
+	poss -> "named(Blair)" [label=ARG2]
+	poss -> _decision_n_1 [label=ARG1]
+	compound -> "named(Blair)" [label=ARG1]
+	proper_q -> "named(Blair)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_overturn_v_cause-fn.Cause_harm" -> _decision_n_1 [label="ARG2-fn.Victim"]
+	"_overturn_v_cause-fn.Cause_harm" -> "named(Court)" [label="ARG1-fn.Agent"]
+	compound -> "named(Ontario)" [label=ARG2]
+	_the_q -> "named(Court)" [label=BV]
+	proper_q -> "named(Ontario)" [label=BV]
+	proper_q -> "named(Supreme)" [label=BV]
+	compound -> "named(Court)" [label=ARG1]
+	compound -> "named(Supreme)" [label=ARG2]
+}

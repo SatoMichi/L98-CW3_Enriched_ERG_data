@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "_gainer/nn_u_unknown" [label=ARG1]
+	superl -> _big_a_1 [label=ARG1]
+	poss -> "named(Nasdaq)" [label=ARG2]
+	"_be_v_id-fn.Assemble" -> "_gainer/nn_u_unknown" [label="ARG2-fn.Group"]
+	compound -> "_gainer/nn_u_unknown" [label=ARG1]
+	compound -> _percentage_n_of [label=ARG2]
+	_big_a_1 -> "_gainer/nn_u_unknown" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	proper_q -> "named(Nasdaq)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> "_gainer/nn_u_unknown" [label=BV]
+	udef_q -> _percentage_n_of [label=BV]
+}

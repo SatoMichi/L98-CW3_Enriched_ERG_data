@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _legacy_n_1 [label=ARG1]
+	def_explicit_q -> _legacy_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_live_v_1-fn.Activity_stop" -> _legacy_n_1 [label="ARG1-fn.Purpose"]
+	_on_p_dir -> "_live_v_1-fn.Activity_stop" [label=ARG1]
+	poss -> pron [label=ARG2]
+}

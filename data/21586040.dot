@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Rosen)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_push_v_1-fn.Manipulation" -> "named(Rosen)" [label="ARG1-fn.Agent"]
+	udef_q -> _retail_n_1 [label=BV]
+	_also_a_1 -> "_push_v_1-fn.Manipulation" [label=ARG1]
+	compound -> _sale_n_of [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _sale_n_of [label=BV]
+	"_push_v_1-fn.Manipulation" -> _sale_n_of [label="ARG2-fn.Patient"]
+	compound -> _retail_n_1 [label=ARG2]
+	compound -> "named(Rosen)" [label=ARG1]
+}

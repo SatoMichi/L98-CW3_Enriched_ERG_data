@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_matter_v_1-fn.NF" -> pron [label="ARG1-fn.NotExist"]
+	_now_a_1 -> "_matter_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

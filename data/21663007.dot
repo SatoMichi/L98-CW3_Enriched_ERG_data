@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_underpin_v_1-fn.Achieving_first" -> _price_n_of [label="ARG2-fn.New_idea"]
+	"_underpin_v_1-fn.Achieving_first" -> _plan_n_1 [label="ARG1-fn.Cognizer"]
+	compound -> "_buy-back_n_1" [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	compound -> _plan_n_1 [label=ARG1]
+	_the_q -> _plan_n_1 [label=BV]
+	udef_q -> "_buy-back_n_1" [label=BV]
+	poss -> "named(B.A.T)" [label=ARG2]
+	proper_q -> "named(B.A.T)" [label=BV]
+	compound -> _price_n_of [label=ARG1]
+	_likely_a_1 -> "_underpin_v_1-fn.Achieving_first" [label=ARG1]
+	compound -> _share_n_of [label=ARG2]
+	poss -> _price_n_of [label=ARG1]
+	def_explicit_q -> _price_n_of [label=BV]
+}

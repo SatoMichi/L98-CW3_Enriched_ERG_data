@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(4,346)" -> _issue_n_1 [label=ARG1]
+	unknown -> _issue_n_1 [label=ARG]
+	udef_q -> _hand_n_1 [label=BV]
+	number_q -> "card(629)" [label=BV]
+	"_fall_v_1-fn.Halt" -> "card(629)" [label="ARG1-fn.Purpose"]
+	_of_x_subord -> _and_c [label=ARG1]
+	"_change_v_cause-fn.Cause_motion" -> _hand_n_1 [label="ARG2-fn.Theme"]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> "card(1,435)" [label="ARG1-fn.Attribute"]
+	number_q -> "card(1,435)" [label=BV]
+	_of_x_subord -> unknown [label=ARG2]
+	"_change_v_cause-fn.Cause_motion" -> _issue_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _issue_n_1 [label=BV]
+}

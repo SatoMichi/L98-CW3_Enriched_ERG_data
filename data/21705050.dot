@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _charge_n_of [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	"_plead_v_with-for-fn.Have_as_requirement" -> _and_c [label="ARG1-fn.Dependent"]
+	"_plead_v_with-for-fn.Have_as_requirement" -> _innocent_a_1 [label="ARG2-fn.Requirement"]
+	_to_p -> _innocent_a_1 [label=ARG1]
+	proper_q -> "named(Rubicam)" [label=BV]
+	_innocent_a_1 -> _and_c [label=ARG1]
+	_the_q -> _charge_n_of [label=BV]
+	proper_q -> "named(Young)" [label=BV]
+}

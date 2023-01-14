@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_extremely_x_deg -> _confused_a_about [label=ARG1]
+	"_above+all_a_1" -> _confused_a_about [label=ARG1]
+	_the_q -> _situation_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Oxnard)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_note_v_to-fn.Surpassing" -> _confused_a_about [label="ARG2-fn.Profiled_item"]
+	_confused_a_about -> _situation_n_1 [label=ARG1]
+	focus_d -> "_note_v_to-fn.Surpassing" [label=ARG1]
+	"_note_v_to-fn.Surpassing" -> "named(Oxnard)" [label="ARG1-fn.Standard_item"]
+	compound -> "named(Oxnard)" [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_reported_a_1 -> "_start_v_off-fn.Relative_time" [label=ARG1]
+	nominalization -> _buy_v_1 [label=ARG1]
+	_foreign_a_1 -> _investor_n_1 [label=ARG1]
+	_the_q -> nominalization [label=BV]
+	"_start_v_off-fn.Relative_time" -> _investor_n_1 [label="ARG1-fn.Focal_occasion"]
+	_in_p -> "_join_v_1-fn.Experiencer_obj" [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	_later_a_1 -> "_join_v_1-fn.Experiencer_obj" [label=ARG1]
+	_in_p -> nominalization [label=ARG2]
+	"_start_v_off-fn.Relative_time" -> nominalization [label="ARG2-fn.Landmark_occasion"]
+	"_join_v_1-fn.Experiencer_obj" -> _investor_n_1 [label="ARG1-fn.Experiencer"]
+	nominalization -> _sell_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_duck_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_evade_v_1-fn.Cause_to_start" -> pron [label="ARG1-fn.Cause"]
+}

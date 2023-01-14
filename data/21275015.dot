@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(4)" -> _show_n_of [label=ARG1]
+	_in_p -> "card(10)" [label=ARG2]
+	appos -> "named(Roseanne)" [label=ARG2]
+	proper_q -> "named(ABC)" [label=BV]
+	_the_q -> "card(10)" [label=BV]
+	_in_p -> _show_n_of [label=ARG1]
+	_top_a_1 -> _show_n_of [label=ARG1]
+	udef_q -> _show_n_of [label=BV]
+	_the_q -> _show_n_of [label=BV]
+	"_have_v_1-fn.State_continue" -> "named(ABC)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Roseanne)" [label=BV]
+	appos -> _show_n_of [label=ARG1]
+	"_have_v_1-fn.State_continue" -> _show_n_of [label="ARG2-fn.State"]
+	_top_a_1 -> "card(10)" [label=ARG1]
+	"_include_v_1-fn.Cause_to_end" -> _show_n_of [label="ARG2-fn.Means"]
+}

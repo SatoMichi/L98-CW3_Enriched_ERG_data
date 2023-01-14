@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+order+to_x" -> _create_v_1 [label=ARG1]
+	"_help_v_to-fn.Assistance" -> "named(Refcorp)" [label="ARG1-fn.Agent"]
+	"_in+order+to_x" -> "_help_v_to-fn.Assistance" [label=ARG2]
+	proper_q -> "named(Refcorp)" [label=BV]
+	compound -> "_thrift/nn_u_unknown" [label=ARG2]
+	_create_v_1 -> "named(Refcorp)" [label=ARG2]
+	udef_q -> "_thrift/nn_u_unknown" [label=BV]
+	compound -> "_bailout/nn_u_unknown" [label=ARG1]
+	_fund_v_1 -> "named(Refcorp)" [label=ARG1]
+	parg_d -> _create_v_1 [label=ARG1]
+	"_help_v_to-fn.Assistance" -> _fund_v_1 [label="ARG2-fn.Theme"]
+	_the_q -> "_bailout/nn_u_unknown" [label=BV]
+	_fund_v_1 -> "_bailout/nn_u_unknown" [label=ARG2]
+	parg_d -> "named(Refcorp)" [label=ARG2]
+}

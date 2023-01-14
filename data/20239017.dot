@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_look_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	neg -> "_look_v_1-fn.Impact" [label=ARG1]
+	_down_p -> "_look_v_1-fn.Impact" [label=ARG1]
+	_as_x_subord -> unknown [label=ARG1]
+	comp_so -> _long_a_1 [label=ARG1]
+	_as_x_subord -> neg [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

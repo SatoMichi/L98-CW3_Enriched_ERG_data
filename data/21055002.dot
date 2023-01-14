@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"much-many_a" -> _issue_n_1 [label=ARG1]
+	_while_x -> neg [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Composite)" [label="ARG1-fn.NotExist"]
+	"_participate_v_in-fn.Participation" -> _issue_n_1 [label="ARG1-fn.Agent"]
+	_to_p -> "card(462.89)" [label=ARG2]
+	number_q -> "card(1.19)" [label=BV]
+	number_q -> "card(462.89)" [label=BV]
+	udef_q -> _issue_n_1 [label=BV]
+	"_participate_v_in-fn.Participation" -> _advance_n_of [label="ARG2-fn.Theme"]
+	neg -> "_participate_v_in-fn.Participation" [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "card(1.19)" [label="ARG2-fn.Patient"]
+	_the_q -> _advance_n_of [label=BV]
+	_while_x -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	_the_q -> "named(Composite)" [label=BV]
+}

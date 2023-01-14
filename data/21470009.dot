@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _purpose_n_1 [label=BV]
+	_adequate_a_1 -> _relief_n_1 [label=ARG1]
+	"_provide_v_1-fn.Supply" -> _purpose_n_1 [label="ARG1-fn.Agent"]
+	"_provide_v_1-fn.Supply" -> _relief_n_1 [label="ARG2-fn.Theme"]
+	poss -> _purpose_n_1 [label=ARG1]
+	_the_q -> _fund_n_1 [label=BV]
+	_quick_a_1 -> _relief_n_1 [label=ARG1]
+	poss -> _fund_n_1 [label=ARG2]
+	udef_q -> _relief_n_1 [label=BV]
+	eventuality -> "_provide_v_1-fn.Supply" [label=ARG1]
+}

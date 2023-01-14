@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Ship)" [label=BV]
+	proper_q -> "named(Houston)" [label=BV]
+	_closed_a_1 -> _part_n_1 [label=ARG1]
+	_the_q -> "named(Channel)" [label=BV]
+	compound -> "named(Ship)" [label=ARG1]
+	_of_p -> _part_n_1 [label=ARG1]
+	_of_p -> "named(Channel)" [label=ARG2]
+	compound -> "named(Channel)" [label=ARG1]
+	compound -> "named(Houston)" [label=ARG2]
+	udef_q -> _part_n_1 [label=BV]
+}

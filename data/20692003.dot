@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_would_v_modal-fn.Cause_to_end" -> _and_c [label="ARG1-fn.Process"]
+	"_do_v_1-fn.Piracy" -> _budget_n_1 [label="ARG2-fn.Vehicle"]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_do_v_1-fn.Piracy" -> _strategy_n_of [label="ARG2-fn.Vehicle"]
+	_the_q -> _budget_n_1 [label=BV]
+	_around_p_dir -> "_come_v_1-fn.Impact" [label=ARG1]
+	_the_q -> _strategy_n_of [label=BV]
+	"_come_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	"_would_v_modal-fn.Cause_to_end" -> "_do_v_1-fn.Piracy" [label="ARG1-fn.Process"]
+}

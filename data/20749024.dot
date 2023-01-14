@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_expendable/jj_u_unknown" -> pron [label=ARG1]
+	"_become_v_id-fn.Cotheme" -> pron [label="ARG1-fn.Theme"]
+	"_become_v_id-fn.Cotheme" -> "_expendable/jj_u_unknown" [label="ARG2-fn.Cotheme"]
+}

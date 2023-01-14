@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _business_n_1 [label=BV]
+	"_add_v_to-fn.NF" -> _be_v_id [label="ARG2-fn.Topic"]
+	compound -> nominalization [label=ARG2]
+	_be_v_id -> generic_entity [label=ARG1]
+	_be_v_id -> _business_n_1 [label=ARG2]
+	compound -> _business_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	nominalization -> _forecast_v_1 [label=ARG1]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

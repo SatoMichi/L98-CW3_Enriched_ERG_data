@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Messiah)" [label=ARG1]
+	udef_q -> _face_n_1 [label=BV]
+	"_strike_v_1-fn.Change_position_on_a_scale" -> _blow_n_1 [label="ARG2-fn.Item"]
+	compound -> _face_n_1 [label=ARG2]
+	_whole_a_1 -> _enterprise_n_1 [label=ARG1]
+	proper_q -> "named(Messiah)" [label=BV]
+	_bare_a_of -> _face_n_1 [label=ARG1]
+	_the_q -> _decision_n_1 [label=BV]
+	_historical_a_1 -> _enterprise_n_1 [label=ARG1]
+	_against_p -> _blow_n_1 [label=ARG1]
+	_a_q -> _blow_n_1 [label=BV]
+	"_strike_v_1-fn.Change_position_on_a_scale" -> _decision_n_1 [label="ARG1-fn.Attribute"]
+	compound -> _decision_n_1 [label=ARG1]
+	_against_p -> _enterprise_n_1 [label=ARG2]
+	_the_q -> _enterprise_n_1 [label=BV]
+}

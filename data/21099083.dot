@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_close+to_p" -> _vest_n_1 [label=ARG2]
+	_the_q -> _vest_n_1 [label=BV]
+	compound -> "named(Corry)" [label=ARG1]
+	_when_x_subord -> "_play_v_1-fn.Competition" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	def_explicit_q -> _card_n_1 [label=BV]
+	_when_x_subord -> _negotiate_v_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_play_v_1-fn.Competition" -> _card_n_1 [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Corry)" [label=BV]
+	poss -> _card_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_close+to_p" -> "_play_v_1-fn.Competition" [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_play_v_1-fn.Competition" -> "named(Corry)" [label="ARG1-fn.Participant_1"]
+}

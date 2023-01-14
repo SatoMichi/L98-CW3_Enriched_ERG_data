@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_adjust_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_so_a_thus -> "_adjust_v_to-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

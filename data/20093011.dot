@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _chinese_n_1 [label=BV]
+	"_undiplomatic/jj_u_unknown" -> _fashion_n_1 [label=ARG1]
+	_in_p -> _fashion_n_1 [label=ARG2]
+	_equal_a_to -> "_undiplomatic/jj_u_unknown" [label=ARG1]
+	_a_q -> _fashion_n_1 [label=BV]
+	"_respond_v_to-fn.Communication_response" -> _chinese_n_1 [label="ARG1-fn.Agent"]
+	_in_p -> "_respond_v_to-fn.Communication_response" [label=ARG1]
+}

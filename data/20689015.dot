@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_short_a_of -> _term_n_of [label=ARG1]
+	compound -> "_municipals/nns_u_unknown" [label=ARG1]
+	compound -> _term_n_of [label=ARG2]
+	udef_q -> _term_n_of [label=BV]
+	unknown -> "_municipals/nns_u_unknown" [label=ARG]
+	udef_q -> "_municipals/nns_u_unknown" [label=BV]
+}

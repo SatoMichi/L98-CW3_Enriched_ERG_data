@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.Residence" -> _cheap_a_1 [label="ARG3-fn.Co_resident"]
+	udef_q -> _and_c [label=BV]
+	_cheap_a_1 -> _and_c [label=ARG1]
+	_a_q -> "_backhoe/nn_u_unknown" [label=BV]
+	"_get_v_state-fn.Residence" -> _and_c [label="ARG2-fn.Location"]
+	pronoun_q -> pron [label=BV]
+	"card(3)" -> _truck_n_1 [label=ARG1]
+	"_get_v_state-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	udef_q -> _truck_n_1 [label=BV]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _suitor_n_1 [label=BV]
+	"_appear_v_to-fn.Receiving" -> "_be_v_there-fn.Needing" [label="ARG2-fn.Donor"]
+	"_be_v_there-fn.Needing" -> _suitor_n_1 [label="ARG1-fn.Cognizer"]
+	"few+if+any_a" -> _suitor_n_1 [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _union_n_of [label=BV]
+	"_call_v_name-fn.State_continue" -> _offer_n_1 [label="ARG3-fn.Time"]
+	_the_q -> _offer_n_1 [label=BV]
+	"_call_v_name-fn.State_continue" -> _union_n_of [label="ARG1-fn.Entity"]
+	"_call_v_name-fn.State_continue" -> fw_seq [label="ARG2-fn.State"]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_can_v_modal-fn.Reliance" -> "_imagine_v_1-fn.Catastrophe" [label="ARG1-fn.Protagonist"]
+	"_imagine_v_1-fn.Catastrophe" -> pron [label="ARG1-fn.Undesirable_event"]
+}

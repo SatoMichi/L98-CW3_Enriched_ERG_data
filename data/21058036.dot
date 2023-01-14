@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _uncertain_a_of [label=ARG1]
+	proper_q -> "yofc(1987)" [label=BV]
+	compound -> _defeat_n_1 [label=ARG1]
+	subord -> "_remember_v_from-fn.Needing" [label=ARG2]
+	_the_q -> _outlook_n_1 [label=BV]
+	_especially_a_1 -> "_remember_v_from-fn.Needing" [label=ARG1]
+	_the_q -> _defeat_n_1 [label=BV]
+	"card(2)" -> _bill_n_of [label=ARG1]
+	_both_q -> _bill_n_of [label=BV]
+	_uncertain_a_of -> _outlook_n_1 [label=ARG1]
+	"_remember_v_from-fn.Needing" -> _defeat_n_1 [label="ARG2-fn.Requirement"]
+	_on_p -> _outlook_n_1 [label=ARG1]
+	_federal_a_1 -> _bill_n_of [label=ARG1]
+	compound -> "yofc(1987)" [label=ARG2]
+	_on_p -> _bill_n_of [label=ARG2]
+}

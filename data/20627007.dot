@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _count_n_1 [label=ARG1]
+	_on_p -> _sale_n_of [label=ARG2]
+	"_bring_v_1-fn.Bringing" -> _count_n_1 [label="ARG2-fn.Theme"]
+	compound -> "mofy(Oct)" [label=ARG2]
+	proper_q -> "dofw(Fri)" [label=BV]
+	proper_q -> "mofy(Oct)" [label=BV]
+	compound -> _automobile_n_1 [label=ARG2]
+	"_bring_v_1-fn.Bringing" -> "dofw(Fri)" [label="ARG1-fn.Instrument"]
+	_final_a_1 -> _count_n_1 [label=ARG1]
+	compound -> _sale_n_of [label=ARG1]
+	udef_q -> _automobile_n_1 [label=BV]
+	_the_q -> _count_n_1 [label=BV]
+	udef_q -> _sale_n_of [label=BV]
+}

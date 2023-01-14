@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> _stuff_n_1 [label=ARG1]
+	"_know_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _cowboy_n_1 [label=BV]
+	udef_q -> _armadillo_n_1 [label=BV]
+	"_stereotypical/jj_u_unknown" -> _stuff_n_1 [label=ARG1]
+	udef_q -> _football_n_1 [label=BV]
+	"_say_v_1-fn.IN" -> _stuff_n_1 [label="ARG2-fn.Topic"]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _stuff_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_like_p -> implicit_conj [label=ARG2]
+	"_say_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

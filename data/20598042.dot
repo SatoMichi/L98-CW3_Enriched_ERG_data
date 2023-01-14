@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_toy_v_with-fn.Amounting_to" -> _legislation_n_1 [label="ARG2-fn.Attribute"]
+	with_p -> _legislation_n_1 [label=ARG2]
+	proper_q -> "named(Congress)" [label=BV]
+	"_curb_v_1-fn.Rite" -> _independence_n_1 [label="ARG2-fn.Member"]
+	_the_q -> "named_n(Fed)" [label=BV]
+	poss -> "named_n(Fed)" [label=ARG2]
+	_already_a_1 -> "_toy_v_with-fn.Amounting_to" [label=ARG1]
+	"_toy_v_with-fn.Amounting_to" -> "named(Congress)" [label="ARG1-fn.Value"]
+	with_p -> "_curb_v_1-fn.Rite" [label=ARG1]
+	focus_d -> "_toy_v_with-fn.Amounting_to" [label=ARG1]
+	def_explicit_q -> _independence_n_1 [label=BV]
+	udef_q -> _legislation_n_1 [label=BV]
+	poss -> _independence_n_1 [label=ARG1]
+}

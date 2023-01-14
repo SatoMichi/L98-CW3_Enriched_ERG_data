@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_those_q_dem -> part_of [label=BV]
+	compound -> "named(Treasury)" [label=ARG1]
+	def_explicit_q -> _yield_n_1 [label=BV]
+	comp -> _high_a_1 [label=ARG1]
+	udef_q -> "named_n(US)" [label=BV]
+	poss -> pron [label=ARG2]
+	compound -> "named_n(US)" [label=ARG2]
+	poss -> _yield_n_1 [label=ARG1]
+	udef_q -> _issue_n_1 [label=BV]
+	compound -> _issue_n_1 [label=ARG1]
+	_high_a_1 -> _yield_n_1 [label=ARG1]
+	comp -> part_of [label=ARG2]
+	proper_q -> "named(Treasury)" [label=BV]
+	part_of -> _issue_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	_back_p -> place_n [label=ARG1]
+	_a_q -> _horse_n_1 [label=BV]
+	_off_p_dir -> _horse_n_1 [label=ARG2]
+	_like_p -> nominalization [label=ARG2]
+	_like_p -> pron [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	nominalization -> _and_c [label=ARG1]
+	"_get_v_state-fn.Cause_to_end" -> loc_nonsp [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	_on_p_dir -> "_get_v_state-fn.Cause_to_end" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_off_p_dir -> _fall_v_1 [label=ARG1]
+}

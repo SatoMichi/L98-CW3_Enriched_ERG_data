@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _tradition_n_1 [label=BV]
+	"_build_v_on-fn.Building" -> _tradition_n_1 [label="ARG2-fn.NotExist"]
+	_long_a_1 -> _tradition_n_1 [label=ARG1]
+	"_build_v_on-fn.Building" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

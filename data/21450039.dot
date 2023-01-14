@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _cost_n_1 [label=BV]
+	"_afford_v_1-fn.Competition" -> "_minimize_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	udef_q -> _crime_n_1 [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	comp -> _big_a_1 [label=ARG1]
+	_better_a_1 -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_minimize_v_1-fn.Competition" -> _business_n_1 [label="ARG1-fn.Participant_1"]
+	_of_p -> _crime_n_1 [label=ARG2]
+	"_afford_v_1-fn.Competition" -> _business_n_1 [label="ARG1-fn.Participant_1"]
+	_big_a_1 -> _business_n_1 [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> "_afford_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	_of_p -> _cost_n_1 [label=ARG1]
+	"_minimize_v_1-fn.Competition" -> _cost_n_1 [label="ARG2-fn.Participant_2"]
+	_often_a_1 -> "_can_v_modal-fn.Reliance" [label=ARG1]
+}

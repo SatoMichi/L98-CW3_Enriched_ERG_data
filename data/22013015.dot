@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _woman_n_1 [label=BV]
+	"_die_v_1-fn.Death" -> _woman_n_1 [label="ARG1-fn.NotExist"]
+	_near_a_to -> "_die_v_1-fn.Death" [label=ARG1]
+}

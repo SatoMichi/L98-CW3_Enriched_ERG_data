@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Wisconsin)" [label=BV]
+	times -> "card(1000000)" [label=ARG3]
+	proper_q -> "named(Toy)" [label=BV]
+	"_have_v_1-fn.IN" -> "named(Toy)" [label="ARG1-fn.Pivot"]
+	_about_x_deg -> udef_q [label=ARG1]
+	"_have_v_1-fn.IN" -> _share_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _share_n_of [label=BV]
+	times -> "card(4.7)" [label=ARG2]
+	compound -> "named(Toy)" [label=ARG1]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	compound -> "named(Wisconsin)" [label=ARG2]
+	_current_a_1 -> "_have_v_1-fn.IN" [label=ARG1]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _nv_n_1 [label=ARG2]
+	udef_q -> _nv_n_1 [label=BV]
+	udef_q -> "named_n(Netherlands)" [label=BV]
+	unknown -> "named(Aegon)" [label=ARG]
+	proper_q -> "named(Aegon)" [label=BV]
+	parenthetical -> "named(Aegon)" [label=ARG1]
+	compound -> "named(Aegon)" [label=ARG1]
+	parenthetical -> "named_n(Netherlands)" [label=ARG2]
+}

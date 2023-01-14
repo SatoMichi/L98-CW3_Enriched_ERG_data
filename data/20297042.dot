@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _machine_n_1 [label=ARG2]
+	_the_q -> _machine_n_1 [label=BV]
+	_new_a_1 -> _machine_n_1 [label=ARG1]
+	udef_q -> _perception_n_1 [label=BV]
+	udef_q -> _scientist_n_1 [label=BV]
+	"_explore_v_1-fn.NF" -> _and_c [label="ARG2-fn.Location"]
+	_with_p -> "_explore_v_1-fn.NF" [label=ARG1]
+	"_explore_v_1-fn.NF" -> _scientist_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _memory_n_of [label=BV]
+	_also_a_1 -> "_explore_v_1-fn.NF" [label=ARG1]
+}

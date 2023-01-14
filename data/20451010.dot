@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _cap_n_1 [label=BV]
+	_both_q -> _company_n_of [label=BV]
+	parg_d -> _ventilate_v_cause [label=ARG1]
+	"_replace_v_with-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+	_a_q -> _cap_n_1 [label=BV]
+	compound -> "_filler/nn_u_unknown" [label=ARG1]
+	parg_d -> _cap_n_1 [label=ARG2]
+	compound -> _cap_n_1 [label=ARG1]
+	"_replace_v_with-fn.IN" -> _cap_n_1 [label="ARG3-fn.Co-Theme"]
+	udef_q -> "_filler/nn_u_unknown" [label=BV]
+	_ventilate_v_cause -> _cap_n_1 [label=ARG2]
+	udef_q -> _oil_n_1 [label=BV]
+	"card(2)" -> _company_n_of [label=ARG1]
+	compound -> _oil_n_1 [label=ARG2]
+}

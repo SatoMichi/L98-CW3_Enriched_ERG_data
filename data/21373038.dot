@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _would_v_modal [label=ARG1]
+	"_deny_v_to-fn.Statement" -> "named(Motorola)" [label="ARG1-fn.Agent"]
+	_would_v_modal -> "_comment_v_on-fn.Statement" [label=ARG1]
+	_various_a_1 -> _charge_n_of [label=ARG1]
+	"_comment_v_on-fn.Statement" -> _charge_n_of [label="ARG2-fn.Topic"]
+	proper_q -> "named(Motorola)" [label=BV]
+	_the_q -> _charge_n_of [label=BV]
+	"_comment_v_on-fn.Statement" -> "named(Motorola)" [label="ARG1-fn.Agent"]
+	"_deny_v_to-fn.Statement" -> _charge_n_of [label="ARG2-fn.Predicate"]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(O’Boyle)" [label=ARG1]
+	proper_q -> "named(O’Boyle)" [label=BV]
+	compound -> "named(Thomas)" [label=ARG2]
+	"_contribute_v_to-fn.Cause_to_end" -> _article_n_of [label="ARG3-fn.Place"]
+	compound -> "named(F)" [label=ARG1]
+	"_contribute_v_to-fn.Cause_to_end" -> "named(O’Boyle)" [label="ARG1-fn.Process"]
+	proper_q -> "named(F)" [label=BV]
+	proper_q -> "named(Thomas)" [label=BV]
+	_this_q_dem -> _article_n_of [label=BV]
+}

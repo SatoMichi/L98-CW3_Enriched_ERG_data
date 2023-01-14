@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _invention_n_of [label=BV]
+	udef_q -> _censorship_n_of [label=BV]
+	neg -> "_be_v_id-fn.Residence" [label=ARG1]
+	"_be_v_id-fn.Residence" -> _censorship_n_of [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> _invention_n_of [label="ARG2-fn.Location"]
+	_marxist_a_1 -> _invention_n_of [label=ARG1]
+}

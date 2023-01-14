@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_drain_v_1 -> _aspect_n_1 [label=ARG1]
+	"_good_a_at-for-of" -> _workout_n_1 [label=ARG1]
+	_so_a_1 -> _drain_v_1 [label=ARG1]
+	"_need_v_1-fn.Needing" -> pron [label="ARG1-fn.Pivot"]
+	_the_q -> _aspect_n_1 [label=BV]
+	"_need_v_1-fn.Needing" -> _workout_n_1 [label="ARG2-fn.Theme"]
+	_a_q -> _workout_n_1 [label=BV]
+	_emotional_a_1 -> _aspect_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_limit_v_1-fn.Competition" [label=ARG1]
+	"_get_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	parg_d -> _production_n_of [label=ARG2]
+	"_limit_v_1-fn.Competition" -> _production_n_of [label="ARG2-fn.Participant_2"]
+	"_give_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	udef_q -> "_underperformers/nns_u_unknown" [label=BV]
+	neg -> "_can_v_modal-fn.Communication_manner" [label=ARG1]
+	"_get_v_1-fn.Competition" -> _production_n_of [label="ARG2-fn.Participant_2"]
+	"_give_v_1-fn.Competition" -> "_underperformers/nns_u_unknown" [label="ARG3-fn.Participants"]
+	pronoun_q -> pron [label=BV]
+	"_can_v_modal-fn.Communication_manner" -> "_give_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+	udef_q -> _production_n_of [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> _substitute_n_1 [label=BV]
+	_for_p -> _substitute_n_1 [label=ARG1]
+	_colon_p_namely -> "_last_v_1-fn.Halt" [label=ARG1]
+	_a_q -> _evening_n_of [label=BV]
+	"_last_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	"_be_v_id-fn.Name_conferral" -> _substitute_n_1 [label="ARG2-fn.Name"]
+	_light_a_of -> _entertainment_n_1 [label=ARG1]
+	_evening_n_of -> "named(Brahms)" [label=ARG1]
+	udef_q -> _entertainment_n_1 [label=BV]
+	unknown -> _entertainment_n_1 [label=ARG]
+	"_be_v_id-fn.Name_conferral" -> _entertainment_n_1 [label="ARG1-fn.Entity"]
+	_for_p -> _evening_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Brahms)" [label=BV]
+	_deep_a_1 -> pron [label=ARG1]
+}

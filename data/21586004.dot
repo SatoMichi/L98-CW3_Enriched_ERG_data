@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_blame_v_for-fn.IN" -> _import_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _import_n_of [label=BV]
+	"_blame_v_for-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_propel_v_1-fn.Competition" -> _issue_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> "_mega-/nn_u_unknown" [label=BV]
+	_these_q_dem -> _issue_n_1 [label=BV]
+	parg_d -> _issue_n_1 [label=ARG2]
+	udef_q -> _factor_n_1 [label=BV]
+	_political_a_1 -> _factor_n_1 [label=ARG1]
+	_economic_a_1 -> _factor_n_1 [label=ARG1]
+	"card(2)" -> _factor_n_1 [label=ARG1]
+	parg_d -> "_propel_v_1-fn.Competition" [label=ARG1]
+	"_propel_v_1-fn.Competition" -> _factor_n_1 [label="ARG1-fn.Participant_1"]
+	compound -> "_mega-/nn_u_unknown" [label=ARG2]
+	compound -> _issue_n_1 [label=ARG1]
+}

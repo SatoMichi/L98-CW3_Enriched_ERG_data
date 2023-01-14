@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _reason_n_for [label=ARG2]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_own_a_1 -> _business_n_1 [label=ARG1]
+	_for_p -> "_start_v_cause-fn.Activity_start" [label=ARG1]
+	udef_q -> _people_n_of [label=BV]
+	udef_q -> _reason_n_for [label=BV]
+	"much-many_a" -> _reason_n_for [label=ARG1]
+	"_start_v_cause-fn.Activity_start" -> _business_n_1 [label="ARG2-fn.Theme"]
+	def_explicit_q -> _business_n_1 [label=BV]
+	"_start_v_cause-fn.Activity_start" -> _people_n_of [label="ARG1-fn.Agent"]
+	poss -> _business_n_1 [label=ARG1]
+}

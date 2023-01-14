@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _note_n_1 [label=ARG2]
+	unknown -> _dollar_n_1 [label=ARG]
+	udef_q -> _year_n_1 [label=BV]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	compound -> _note_n_1 [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(10)" [label=ARG2]
+	times -> "card(1000000000)" [label=ARG3]
+	_of_p -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> _note_n_1 [label=BV]
+	compound -> _year_n_1 [label=ARG2]
+}

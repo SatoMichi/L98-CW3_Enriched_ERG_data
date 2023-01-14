@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _payroll_n_1 [label=BV]
+	_in_p -> _tax_n_1 [label=ARG2]
+	_in_p -> _dollar_n_1 [label=ARG1]
+	"_assess_v_1-fn.Assessing" -> _clinic_n_1 [label="ARG3-fn.NotExist"]
+	_the_q -> "named_n(IRS)" [label=BV]
+	"card(350,000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	compound -> _payroll_n_1 [label=ARG2]
+	compound -> _back_n_1 [label=ARG2]
+	"_assess_v_1-fn.Assessing" -> _dollar_n_1 [label="ARG2-fn.NotExist"]
+	_the_q -> _clinic_n_1 [label=BV]
+	compound -> _tax_n_1 [label=ARG1]
+	udef_q -> _back_n_1 [label=BV]
+	"_assess_v_1-fn.Assessing" -> "named_n(IRS)" [label="ARG1-fn.NotExist"]
+	udef_q -> _tax_n_1 [label=BV]
+}

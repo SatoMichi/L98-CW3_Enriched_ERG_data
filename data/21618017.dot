@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "_see_v_1-fn.Perception_experience" [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> _man_n_1 [label="ARG1-fn.Agent"]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Experiencer"]
+	_the_q -> _rim_n_1 [label=BV]
+	"_undulate_v_1-fn.NF" -> _rim_n_1 [label="ARG1-fn.NotExist"]
+	_upper_a_1 -> _rim_n_1 [label=ARG1]
+	_a_q -> _man_n_1 [label=BV]
+	"_see_v_1-fn.Perception_experience" -> "_undulate_v_1-fn.NF" [label="ARG2-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+}

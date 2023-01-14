@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_there -> _way_n_of [label=ARG1]
+	def_explicit_q -> _theory_n_of [label=BV]
+	_no_q -> _way_n_of [label=BV]
+	compound -> _doctor_n_1 [label=ARG2]
+	compound -> _hit_n_1 [label=ARG2]
+	udef_q -> _hit_n_1 [label=BV]
+	compound -> "named(Knudson)" [label=ARG1]
+	udef_q -> _doctor_n_1 [label=BV]
+	"_prove_v_to-fn.Reasoning" -> _theory_n_of [label="ARG2-fn.Theme"]
+	"card(2)" -> _hit_n_1 [label=ARG1]
+	proper_q -> "named(Knudson)" [label=BV]
+	poss -> "named(Knudson)" [label=ARG2]
+	poss -> _theory_n_of [label=ARG1]
+	compound -> _theory_n_of [label=ARG1]
+	_way_n_of -> "_prove_v_to-fn.Reasoning" [label=ARG1]
+}

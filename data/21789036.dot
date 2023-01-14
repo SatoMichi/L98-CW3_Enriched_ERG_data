@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_also_a_1 -> _pleased_a_with [label=ARG1]
+	def_explicit_q -> _spirit_n_1 [label=BV]
+	poss -> _company_n_of [label=ARG2]
+	poss -> _customer_n_of [label=ARG1]
+	_new_a_1 -> _spirit_n_1 [label=ARG1]
+	proper_q -> "named(Pemex)" [label=BV]
+	_pleased_a_with -> _customer_n_of [label=ARG1]
+	poss -> "named(Pemex)" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	poss -> _spirit_n_1 [label=ARG1]
+	def_explicit_q -> _customer_n_of [label=BV]
+	_pleased_a_with -> _spirit_n_1 [label=ARG2]
+}

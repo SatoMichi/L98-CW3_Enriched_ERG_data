@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_down_p -> generic_entity [label=ARG2]
+	"_a+little_q" -> generic_entity [label=BV]
+	_down_p -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

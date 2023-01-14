@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "dofw(Mon)" [label=ARG2]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _point_n_of [label="ARG2-fn.Patient"]
+	"card(99.14)" -> _point_n_of [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _index_n_1 [label="ARG1-fn.NotExist"]
+	proper_q -> "dofw(Mon)" [label=BV]
+	loc_nonsp -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _point_n_of [label=BV]
+	_the_q -> _index_n_1 [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_a+few_a_1" -> "named(Penny)" [label=ARG1]
+	_per_p -> _dollar_n_1 [label=ARG2]
+	parg_d -> _dollar_n_1 [label=ARG2]
+	_per_p -> "named(Penny)" [label=ARG1]
+	"card(100)" -> _dollar_n_1 [label=ARG1]
+	_the_q -> "_indexers/nns_u_unknown" [label=BV]
+	_only_x_deg -> udef_q [label=ARG1]
+	"_charge_v_1-fn.Competition" -> "_indexers/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	"_charge_v_1-fn.Competition" -> "named(Penny)" [label="ARG2-fn.Participant_2"]
+	"_manage_v_1-fn.Competition" -> _dollar_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> "named(Penny)" [label=BV]
+	parg_d -> "_manage_v_1-fn.Competition" [label=ARG1]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fly_v_1-fn.Operate_vehicle" -> pron [label="ARG1-fn.NotExist"]
+	_safe_a_for -> "_fly_v_1-fn.Operate_vehicle" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

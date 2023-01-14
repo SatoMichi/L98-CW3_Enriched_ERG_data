@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_record_v_1-fn.Recording" -> _sale_n_of [label="ARG2-fn.Theme"]
+	compound -> "named(O’Kicki)" [label=ARG1]
+	_the_q -> _sale_n_of [label=BV]
+	compound -> _judge_n_of [label=ARG2]
+	_the_q -> _name_n_of [label=BV]
+	_name_n_of -> "named(O’Kicki)" [label=ARG1]
+	_under_p -> _name_n_of [label=ARG2]
+	_the_q -> _dealership_n_1 [label=BV]
+	udef_q -> "named(O’Kicki)" [label=BV]
+	"_record_v_1-fn.Recording" -> _dealership_n_1 [label="ARG1-fn.Agent"]
+	_under_p -> "_record_v_1-fn.Recording" [label=ARG1]
+	udef_q -> _judge_n_of [label=BV]
+	"_dutifully/rb_u_unknown" -> "_record_v_1-fn.Recording" [label=ARG1]
+}

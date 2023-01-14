@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_raise_v_cause-fn.Cause_to_end" -> _administration_n_of [label="ARG1-fn.Process"]
+	poss -> _device_n_1 [label=ARG2]
+	udef_q -> _question_n_about [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _food_n_1 [label=BV]
+	compound -> _and_c [label=ARG2]
+	udef_q -> _drug_n_1 [label=BV]
+	_the_q -> _device_n_1 [label=BV]
+	def_explicit_q -> _design_n_of [label=BV]
+	_the_q -> _administration_n_of [label=BV]
+	compound -> _administration_n_of [label=ARG1]
+	"_raise_v_cause-fn.Cause_to_end" -> _question_n_about [label="ARG2-fn.Means"]
+	_question_n_about -> _design_n_of [label=ARG1]
+	poss -> _design_n_of [label=ARG1]
+}

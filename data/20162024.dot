@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(177)" [label=BV]
+	_to_p -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	loc_nonsp -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	_to_p -> "card(177)" [label=ARG2]
+	number_q -> "card(1)" [label=BV]
+	plus -> "card(1)" [label=ARG2]
+	proper_q -> "named(UAL)" [label=BV]
+	"_rise_v_1-fn.Experiencer_obj" -> "named(UAL)" [label="ARG1-fn.Experiencer"]
+	plus -> "fraction(1/2)" [label=ARG3]
+}

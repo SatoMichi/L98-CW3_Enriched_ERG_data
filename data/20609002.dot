@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG2-fn.Theme"]
+	_now_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> "_want_v_1-fn.Desiring" [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	def_implicit_q -> time_n [label=BV]
+	pronoun_q -> pron [label=BV]
+}

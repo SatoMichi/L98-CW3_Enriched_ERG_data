@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "yofc(1999)" [label=BV]
+	_in_p_temp -> "yofc(1999)" [label=ARG2]
+	_the_q -> _lease_n_1 [label=BV]
+	"_get_v_to-fn.Getting" -> "_change_v_cause-fn.Cause_motion" [label="ARG1-fn.Recipient"]
+	"_say_v_to-fn.Taking" -> "_get_v_to-fn.Getting" [label="ARG2-fn.Theme"]
+	_when_x_subord -> "_say_v_to-fn.Taking" [label=ARG1]
+	_when_x_subord -> "_expire_v_1-fn.State_continue" [label=ARG2]
+	"_change_v_cause-fn.Cause_motion" -> pron [label="ARG2-fn.Theme"]
+	_in_p_temp -> "_expire_v_1-fn.State_continue" [label=ARG1]
+	"_say_v_to-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	parg_d -> "_change_v_cause-fn.Cause_motion" [label=ARG1]
+	"_expire_v_1-fn.State_continue" -> _lease_n_1 [label="ARG1-fn.Entity"]
+	parg_d -> pron [label=ARG2]
+}

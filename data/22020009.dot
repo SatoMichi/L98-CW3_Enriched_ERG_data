@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _assistant_n_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> "named(Clifton)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Clifton)" [label=BV]
+	_financial_a_1 -> _assistant_n_1 [label=ARG1]
+	_the_q -> _chairman_n_of [label=BV]
+	compound -> _assistant_n_1 [label=ARG1]
+	compound -> _ms_n_1 [label=ARG2]
+	_to_p -> _chairman_n_of [label=ARG2]
+	compound -> "named(Clifton)" [label=ARG1]
+	udef_q -> _assistant_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _assistant_n_1 [label="ARG2-fn.Name"]
+	udef_q -> _ms_n_1 [label=BV]
+	udef_q -> _executive_n_1 [label=BV]
+	compound -> _executive_n_1 [label=ARG2]
+}

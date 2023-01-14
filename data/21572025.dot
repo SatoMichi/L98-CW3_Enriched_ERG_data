@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _people_n_of [label=BV]
+	_for_p -> _dream_n_1 [label=ARG2]
+	_for_p -> "_shoot_v_1-fn.Attack" [label=ARG1]
+	_a_q -> _dream_n_1 [label=BV]
+	"_shoot_v_1-fn.Attack" -> _people_n_of [label="ARG1-fn.Victim"]
+}

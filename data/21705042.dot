@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _support_v_1 [label=ARG1]
+	_declaration_n_of -> _independent_n_1 [label=ARG1]
+	compound -> "named(Texas)" [label=ARG2]
+	_a_q -> _declaration_n_of [label=BV]
+	udef_q -> _independent_n_1 [label=BV]
+	"_sign_v_1-fn.NF" -> _declaration_n_of [label="ARG2-fn.Theme"]
+	compound -> nominalization [label=ARG2]
+	"_sign_v_1-fn.NF" -> _bank_n_of [label="ARG1-fn.Agent"]
+	compound -> _declaration_n_of [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _bank_n_of [label=BV]
+	compound -> _bank_n_of [label=ARG1]
+	proper_q -> "named(Texas)" [label=BV]
+}

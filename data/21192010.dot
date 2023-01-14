@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _traveler_n_1 [label=BV]
+	_some_q -> _effect_n_1 [label=BV]
+	focus_d -> _for_p [label=ARG2]
+	_for_p -> _traveler_n_1 [label=ARG2]
+	poss -> _industry_n_1 [label=ARG2]
+	focus_d -> "_have_v_1-fn.Commerce_collect" [label=ARG1]
+	poss -> _problem_n_of [label=ARG1]
+	_for_p -> "_have_v_1-fn.Commerce_collect" [label=ARG1]
+	_the_q -> _industry_n_1 [label=BV]
+	_positive_a_1 -> _effect_n_1 [label=ARG1]
+	"_have_v_1-fn.Commerce_collect" -> _effect_n_1 [label="ARG2-fn.Goods"]
+	"_have_v_1-fn.Commerce_collect" -> _problem_n_of [label="ARG1-fn.Buyer"]
+	def_explicit_q -> _problem_n_of [label=BV]
+}

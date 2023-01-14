@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named(Texans)" [label=BV]
+	compound -> _insurance_n_1 [label=ARG1]
+	compound -> _rental_n_of [label=ARG1]
+	udef_q -> _rental_n_of [label=BV]
+	udef_q -> _car_n_1 [label=BV]
+	"_get_v_1-fn.IN" -> "named(Texans)" [label="ARG1-fn.Agent"]
+	compound -> _car_n_1 [label=ARG2]
+	udef_q -> _insurance_n_1 [label=BV]
+	_reasonable_a_for -> _insurance_n_1 [label=ARG1]
+	"_get_v_1-fn.IN" -> _insurance_n_1 [label="ARG2-fn.Theme"]
+}

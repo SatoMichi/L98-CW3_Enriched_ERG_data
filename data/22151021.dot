@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_have_v_qmodal -> "_study_v_1-fn.Scrutiny" [label=ARG1]
+	_well_a_1 -> "_study_v_1-fn.Scrutiny" [label=ARG1]
+	"_say_v_to-fn.IN" -> _have_v_qmodal [label="ARG2-fn.Topic"]
+	_very_x_deg -> _well_a_1 [label=ARG1]
+	poss -> _experience_n_with [label=ARG1]
+	"_study_v_1-fn.Scrutiny" -> pron [label="ARG1-fn.Agent"]
+	poss -> pron [label=ARG2]
+	focus_d -> _have_v_qmodal [label=ARG2]
+	def_explicit_q -> _experience_n_with [label=BV]
+	"_study_v_1-fn.Scrutiny" -> _experience_n_with [label="ARG2-fn.Topic"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

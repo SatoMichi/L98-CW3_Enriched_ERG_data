@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _operate_v_1 [label=ARG1]
+	_the_q -> _chief_n_1 [label=BV]
+	poss -> _post_n_of [label=ARG1]
+	def_explicit_q -> _post_n_of [label=BV]
+	compound -> _chief_n_1 [label=ARG1]
+	_new_a_1 -> _post_n_of [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	poss -> _chief_n_1 [label=ARG2]
+	udef_q -> nominalization [label=BV]
+}

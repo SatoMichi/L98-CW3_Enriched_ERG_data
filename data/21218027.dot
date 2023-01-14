@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _apparatus_n_1 [label=BV]
+	udef_q -> "_yeast/nn_u_unknown" [label=BV]
+	_of_p -> _animal_n_1 [label=ARG2]
+	_genetic_a_1 -> _apparatus_n_1 [label=ARG1]
+	_like_p -> "much-many_a" [label=ARG1]
+	udef_q -> _animal_n_1 [label=BV]
+	comp -> "much-many_a" [label=ARG1]
+	compound -> _apparatus_n_1 [label=ARG1]
+	compound -> "_yeast/nn_u_unknown" [label=ARG2]
+	_like_p -> generic_entity [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	"much-many_a" -> _apparatus_n_1 [label=ARG1]
+	_bacterial_a_1 -> _apparatus_n_1 [label=ARG1]
+	comp -> _apparatus_n_1 [label=ARG2]
+	_of_p -> generic_entity [label=ARG1]
+}

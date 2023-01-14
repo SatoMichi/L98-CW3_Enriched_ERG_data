@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(York)" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	"_of+course_a_1" -> "_lead_v_to-fn.Causation" [label=ARG1]
+	udef_q -> _disaster_n_1 [label=BV]
+	_in_p -> "_lead_v_to-fn.Causation" [label=ARG1]
+	_in_p -> "named(City)" [label=ARG2]
+	"_lead_v_to-fn.Causation" -> _disaster_n_1 [label="ARG3-fn.Result"]
+	compound -> "named(New)" [label=ARG2]
+	proper_q -> "named(City)" [label=BV]
+	proper_q -> "named(York)" [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	compound -> "named(City)" [label=ARG1]
+	"_lead_v_to-fn.Causation" -> generic_entity [label="ARG1-fn.Agent"]
+}

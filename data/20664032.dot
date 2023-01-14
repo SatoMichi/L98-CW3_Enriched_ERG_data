@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_recognize_v_1-fn.Becoming_aware" -> _problem_n_of [label="ARG2-fn.NotExist"]
+	"_take_v_of-i" -> pron [label=ARG3]
+	idiom_q_i -> _care_n_i [label=BV]
+	"_recognize_v_1-fn.Becoming_aware" -> pron [label="ARG1-fn.NotExist"]
+	"_take_v_of-i" -> _care_n_i [label=ARG2]
+	_the_q -> _problem_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

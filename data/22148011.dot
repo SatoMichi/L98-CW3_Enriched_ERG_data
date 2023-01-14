@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_also_a_1 -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	udef_q -> _production_n_of [label=BV]
+	proper_q -> "named(TRW)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	compound -> _production_n_of [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> "named(TRW)" [label="ARG1-fn.Dependent"]
+	compound -> _cost_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> _also_a_1 [label="ARG2-fn.Requirement"]
+	udef_q -> _material_n_1 [label=BV]
+	focus_d -> "_rise_v_1-fn.Experiencer_obj" [label=ARG2]
+	"_rise_v_1-fn.Experiencer_obj" -> _and_c [label="ARG1-fn.Experiencer"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	udef_q -> _cost_n_1 [label=BV]
+}

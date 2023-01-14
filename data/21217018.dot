@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _gain_n_1 [label=BV]
+	"_post_v_1-fn.Social_event" -> "named(Sun)" [label="ARG1-fn.Duration"]
+	"_post_v_1-fn.Social_event" -> _gain_n_1 [label="ARG2-fn.Social_event"]
+	proper_q -> "named(Sun)" [label=BV]
+}

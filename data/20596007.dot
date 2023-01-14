@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_x_subord -> "_report_v_to-fn.Statement" [label=ARG2]
+	_be_v_id -> generic_entity [label=ARG1]
+	_the_q -> _import_n_of [label=BV]
+	_later_a_1 -> "_report_v_to-fn.Statement" [label=ARG1]
+	_be_v_id -> _import_n_of [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	_of_p -> _import_n_of [label=ARG1]
+	"_report_v_to-fn.Statement" -> pron [label="ARG1-fn.NotExist"]
+	_indeed_a_1 -> _as_x_subord [label=ARG1]
+	_as_x_subord -> _be_v_id [label=ARG1]
+	_of_p -> _meeting_n_of [label=ARG2]
+	_the_q -> _meeting_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _storage_n_of [label=ARG2]
+	_commit_v_to -> pron [label=ARG2]
+	"_say_v_to-fn.IN" -> _commit_v_to [label="ARG2-fn.Topic"]
+	_optical_a_1 -> _storage_n_of [label=ARG1]
+	compound -> _technology_n_1 [label=ARG1]
+	parg_d -> _commit_v_to [label=ARG1]
+	_extreme_a_1 -> _commit_v_to [label=ARG1]
+	udef_q -> _storage_n_of [label=BV]
+	_commit_v_to -> _technology_n_1 [label=ARG3]
+	parg_d -> pron [label=ARG2]
+	focus_d -> _commit_v_to [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	udef_q -> _technology_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

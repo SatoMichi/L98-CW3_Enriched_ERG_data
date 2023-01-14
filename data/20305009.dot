@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_join_v_1-fn.Cause_to_amalgamate" -> pron [label="ARG1-fn.Agent"]
+	"_join_v_1-fn.Cause_to_amalgamate" -> _firm_n_1 [label="ARG2-fn.Patient"]
+	loc_nonsp -> "_buy_v_from-fn.Commerce_buy" [label=ARG1]
+	"_buy_v_from-fn.Commerce_buy" -> pron [label="ARG2-fn.Theme"]
+	_next_a_1 -> _year_n_1 [label=ARG1]
+	_the_q -> _owner_n_of [label=BV]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	"_buy_v_from-fn.Commerce_buy" -> _owner_n_of [label="ARG3-fn.Source"]
+	_the_q -> _year_n_1 [label=BV]
+	_in_p_temp -> "_join_v_1-fn.Cause_to_amalgamate" [label=ARG1]
+	_in_p_temp -> "yofc(1963)" [label=ARG2]
+	proper_q -> "yofc(1963)" [label=BV]
+	_the_q -> _firm_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

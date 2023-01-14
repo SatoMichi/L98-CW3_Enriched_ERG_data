@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_lot_n_of -> _waste_n_of [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> _lot_n_of [label="ARG1-fn.Process"]
+	_a_q -> _lot_n_of [label=BV]
+	udef_q -> _waste_n_of [label=BV]
+}

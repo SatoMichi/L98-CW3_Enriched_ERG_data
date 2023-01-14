@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_there -> _speculation_n_about [label=ARG1]
+	_speculation_n_about -> "_come_v_1-fn.NF" [label=ARG1]
+	poss -> _bank_n_of [label=ARG2]
+	_the_q -> _supply_n_1 [label=BV]
+	poss -> _portfolio_n_1 [label=ARG1]
+	def_explicit_q -> _portfolio_n_1 [label=BV]
+	_from_p_dir -> _portfolio_n_1 [label=ARG2]
+	_from_p_dir -> "_come_v_1-fn.NF" [label=ARG1]
+	_a_q -> _bank_n_of [label=BV]
+	_commercial_a_1 -> _bank_n_of [label=ARG1]
+	udef_q -> _speculation_n_about [label=BV]
+	"_come_v_1-fn.NF" -> _supply_n_1 [label="ARG1-fn.NotExist"]
+}

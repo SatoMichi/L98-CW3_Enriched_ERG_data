@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bear_v_2-fn.Experiencer_obj" -> _spy_n_1 [label="ARG2-fn.Stimulus"]
+	parg_d -> "_bear_v_2-fn.Experiencer_obj" [label=ARG1]
+	_a_q -> _spy_n_1 [label=BV]
+	parg_d -> _spy_n_1 [label=ARG2]
+}

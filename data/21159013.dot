@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_back_v_off -> _government_n_of [label=ARG1]
+	_the_q -> _government_n_of [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Runkel)" [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_on_p -> _back_v_off [label=ARG1]
+	udef_q -> _matter_n_of [label=BV]
+	proper_q -> "named(Runkel)" [label=BV]
+	"_kind_n_of-n" -> _matter_n_of [label=ARG1]
+	neg -> _back_v_off [label=ARG1]
+	"_at+all_a_1" -> _back_v_off [label=ARG1]
+	_on_p -> "_kind_n_of-n" [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Runkel)" [label="ARG1-fn.Agent"]
+	compound -> _mister_n_1 [label=ARG2]
+	_these_q_dem -> "_kind_n_of-n" [label=BV]
+}

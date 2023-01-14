@@ -1,0 +1,4 @@
+digraph {
+	node [shape=circle style=filled]
+	"_why+not_x" -> generic_verb [label=ARG1]
+}

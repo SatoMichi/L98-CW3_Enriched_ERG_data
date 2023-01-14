@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_about_p -> "_rainout/nn_u_unknown" [label=ARG2]
+	_a_q -> "_rainout/nn_u_unknown" [label=BV]
+	_about_p -> "_complain_v_to-about-fn.Statement" [label=ARG1]
+	_again_a_1 -> "_complain_v_to-about-fn.Statement" [label=ARG1]
+	_never_a_1 -> "_complain_v_to-about-fn.Statement" [label=ARG1]
+	"_complain_v_to-about-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

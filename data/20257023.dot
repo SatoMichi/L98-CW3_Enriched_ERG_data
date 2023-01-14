@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_under_p -> _desk_n_1 [label=ARG2]
+	loc_nonsp -> "_sleep_v_1-fn.Sleep" [label=ARG1]
+	_some_q -> _night_n_of [label=BV]
+	focus_d -> loc_nonsp [label=ARG2]
+	loc_nonsp -> _night_n_of [label=ARG2]
+	poss -> _desk_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	focus_d -> "_sleep_v_1-fn.Sleep" [label=ARG1]
+	"_sleep_v_1-fn.Sleep" -> pron [label="ARG1-fn.Agent"]
+	_under_p -> "_sleep_v_1-fn.Sleep" [label=ARG1]
+	def_explicit_q -> _desk_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

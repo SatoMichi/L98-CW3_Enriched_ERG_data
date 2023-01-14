@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_affect_v_1-fn.Activity_prepare" -> _issue_n_1 [label="ARG2-fn.Activity"]
+	proper_q -> "named(Moody)" [label=BV]
+	def_explicit_q -> _change_n_of [label=BV]
+	poss -> _change_n_of [label=ARG1]
+	poss -> "named(Moody)" [label=ARG2]
+	"_affect_v_1-fn.Activity_prepare" -> _change_n_of [label="ARG1-fn.Agent"]
+	_following_a_1 -> _issue_n_1 [label=ARG1]
+	_colon_p_namely -> "_affect_v_1-fn.Activity_prepare" [label=ARG1]
+	_the_q -> _issue_n_1 [label=BV]
+}

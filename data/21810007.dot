@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_hold_v_1-fn.Halt" [label=ARG1]
+	"_hold_v_1-fn.Halt" -> _stock_n_1 [label="ARG1-fn.Purpose"]
+	_later_a_1 -> "_retreat_v_1-fn.Halt" [label=ARG1]
+	compound -> "named(Treasury)" [label=ARG2]
+	"_retreat_v_1-fn.Halt" -> _bond_n_1 [label="ARG1-fn.Purpose"]
+	_when_x_subord -> subord [label=ARG2]
+	udef_q -> _bond_n_1 [label=BV]
+	_when_x_subord -> "_retreat_v_1-fn.Halt" [label=ARG1]
+	subord -> _steady_a_1 [label=ARG2]
+	proper_q -> "named(Treasury)" [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+}

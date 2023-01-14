@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_enticingly/rb_u_unknown" -> "_unsavory/jj_u_unknown" [label=ARG1]
+	"much-many_a" -> _japanese_n_1 [label=ARG1]
+	_to_x_subord -> unknown [label=ARG2]
+	_to_x_subord -> _or_c [label=ARG1]
+	_benign_a_1 -> "_pachinko/nn_u_unknown" [label=ARG1]
+	udef_q -> _japanese_n_1 [label=BV]
+	"_unsavory/jj_u_unknown" -> "_pachinko/nn_u_unknown" [label=ARG1]
+	udef_q -> "_pachinko/nn_u_unknown" [label=BV]
+	unknown -> _japanese_n_1 [label=ARG]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _impact_n_1 [label=ARG1]
+	poss -> _suit_n_of [label=ARG2]
+	compound -> "named(York)" [label=ARG1]
+	_narrow_a_1 -> _impact_n_1 [label=ARG1]
+	proper_q -> "named(York)" [label=BV]
+	_the_q -> _suit_n_of [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	_on_p -> _impact_n_1 [label=ARG1]
+	def_explicit_q -> _impact_n_1 [label=BV]
+	_on_p -> "named(York)" [label=ARG2]
+	proper_q -> "named(New)" [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> _narrow_a_1 [label="ARG1-fn.Speaker"]
+}

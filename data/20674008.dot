@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _happy_a_with [label=ARG2]
+	_positive_a_1 -> "_feel_v_1-fn.Grasp" [label=ARG1]
+	poss -> _company_n_of [label=ARG1]
+	_about_p -> _company_n_of [label=ARG2]
+	def_explicit_q -> _company_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_about_p -> "_feel_v_1-fn.Grasp" [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> _happy_a_with [label="ARG2-fn.Requirement"]
+	pronoun_q -> pron [label=BV]
+	_happy_a_with -> _positive_a_1 [label=ARG2]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	"_feel_v_1-fn.Grasp" -> pron [label="ARG1-fn.Cognizer"]
+	_happy_a_with -> pron [label=ARG1]
+}

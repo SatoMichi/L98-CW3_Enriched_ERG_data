@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Experiencer"]
+	_neither_q -> generic_entity [label=BV]
+	"_see_v_1-fn.Perception_experience" -> generic_entity [label="ARG2-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+}

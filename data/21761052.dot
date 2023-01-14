@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _product_n_1 [label=ARG2]
+	"_because+of_p" -> _difficulty_n_1 [label=ARG2]
+	_the_q -> _product_n_1 [label=BV]
+	focus_d -> "_scrap_v_1-fn.Piracy" [label=ARG1]
+	focus_d -> "_because+of_p" [label=ARG2]
+	udef_q -> _difficulty_n_1 [label=BV]
+	"_scrap_v_1-fn.Piracy" -> _product_n_1 [label="ARG2-fn.Vehicle"]
+	_various_a_1 -> _difficulty_n_1 [label=ARG1]
+	_now_a_1 -> "_scrap_v_1-fn.Piracy" [label=ARG1]
+	parg_d -> "_scrap_v_1-fn.Piracy" [label=ARG1]
+	"_because+of_p" -> "_scrap_v_1-fn.Piracy" [label=ARG1]
+}

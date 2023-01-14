@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "dofw(Mon)" [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	_before_x_h -> "_rally_v_1-fn.Halt" [label=ARG2]
+	_another_x_deg -> udef_q [label=ARG1]
+	"_add_v_to-fn.Cause_to_end" -> _percent_n_of [label="ARG2-fn.Means"]
+	"card(5)" -> _percent_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_rally_v_1-fn.Halt" -> _stock_n_1 [label="ARG1-fn.Purpose"]
+	udef_q -> _stock_n_1 [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_before_x_h -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	loc_nonsp -> "dofw(Mon)" [label=ARG2]
+	loc_nonsp -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+}

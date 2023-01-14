@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _dividend_n_1 [label=BV]
+	"_suspend_v_1-fn.State_continue" -> _dividend_n_1 [label="ARG2-fn.State"]
+	focus_d -> _as_p [label=ARG2]
+	focus_d -> "_suspend_v_1-fn.State_continue" [label=ARG1]
+	_quarterly_a_1 -> _dividend_n_1 [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_as_p -> "_suspend_v_1-fn.State_continue" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> _dividend_n_1 [label=ARG1]
+	_as_p -> _result_n_of [label=ARG2]
+	poss -> pron [label=ARG2]
+	_a_q -> _result_n_of [label=BV]
+	"_suspend_v_1-fn.State_continue" -> _company_n_of [label="ARG1-fn.Entity"]
+}

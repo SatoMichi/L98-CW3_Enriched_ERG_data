@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_after_p -> "_have_v_qmodal-fn.Cause_to_end" [label=ARG1]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_go_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_some_q -> person [label=BV]
+	_over_p_dir -> "_go_v_1-fn.Competition" [label=ARG1]
+	_after_p -> _awhile_n_1 [label=ARG2]
+	_the_q -> _side_n_1 [label=BV]
+	def_explicit_q -> _awhile_n_1 [label=BV]
+	"_go_v_1-fn.Competition" -> person [label="ARG1-fn.Participant_1"]
+	_over_p_dir -> _side_n_1 [label=ARG2]
+	focus_d -> "_have_v_qmodal-fn.Cause_to_end" [label=ARG1]
+	focus_d -> _after_p [label=ARG2]
+}

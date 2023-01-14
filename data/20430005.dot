@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_shake_v_1-fn.Rite" -> _wall_n_of [label="ARG1-fn.Leader"]
+	"_rock_v_1-fn.Motion_directional" -> _building_n_1 [label="ARG1-fn.Area"]
+	_the_q -> _wall_n_of [label=BV]
+	_the_q -> _building_n_1 [label=BV]
+}

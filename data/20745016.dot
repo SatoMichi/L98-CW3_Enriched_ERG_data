@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _restriction_n_of [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	_any_q -> _suitor_n_1 [label=BV]
+	compound -> _restriction_n_of [label=ARG1]
+	compound -> _percent_n_of [label=ARG2]
+	"card(15)" -> _percent_n_of [label=ARG1]
+	_foreign_a_1 -> _suitor_n_1 [label=ARG1]
+	"_cover_v_1-fn.Piracy" -> _restriction_n_of [label="ARG1-fn.Perpetrator"]
+	"_would-be_a_1" -> _suitor_n_1 [label=ARG1]
+	_british_a_1 -> _suitor_n_1 [label=ARG1]
+	"_cover_v_1-fn.Piracy" -> _suitor_n_1 [label="ARG2-fn.Vehicle"]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(NL)" [label=BV]
+	_the_q -> _offer_n_1 [label=BV]
+	"_make_v_1-fn.Rite" -> "named(NL)" [label="ARG1-fn.Leader"]
+	"_make_v_1-fn.Rite" -> _offer_n_1 [label="ARG2-fn.Member"]
+	_official_a_1 -> "_make_v_1-fn.Rite" [label=ARG1]
+}

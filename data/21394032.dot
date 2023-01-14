@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _package_n_of [label=BV]
+	"_hand_v_1-fn.Change_position_on_a_scale" -> _package_n_of [label="ARG2-fn.Item"]
+	"_hand_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	"_hand_v_1-fn.Change_position_on_a_scale" -> _customer_n_of [label="ARG3-fn.Difference"]
+	_the_q -> _customer_n_of [label=BV]
+	_just_a_1 -> "_hand_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	neg -> "_hand_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

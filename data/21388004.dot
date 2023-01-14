@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_once_x_subord -> neg [label=ARG1]
+	_once_x_subord -> "_start_v_1-fn.Activity_start" [label=ARG2]
+	"_play_v_1-fn.Cause_to_make_noise" -> "named(Perlman)" [label="ARG1-fn.Agent"]
+	_about_p -> "_give_v_1-fn.Giving" [label=ARG1]
+	_about_p -> _basketball_n_1 [label=ARG2]
+	neg -> "_give_v_1-fn.Giving" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Perlman)" [label=BV]
+	_a_q -> _damn_n_1 [label=BV]
+	"_give_v_1-fn.Giving" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _basketball_n_1 [label=BV]
+	"_give_v_1-fn.Giving" -> _damn_n_1 [label="ARG2-fn.Theme"]
+	"_start_v_1-fn.Activity_start" -> "_play_v_1-fn.Cause_to_make_noise" [label="ARG1-fn.Agent"]
+}

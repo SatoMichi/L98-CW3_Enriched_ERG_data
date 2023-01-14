@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_gross_a_1 -> _damage_n_to [label=ARG1]
+	compound -> _chromosome_n_1 [label=ARG2]
+	focus_d -> _visible_a_to [label=ARG1]
+	udef_q -> _damage_n_to [label=BV]
+	udef_q -> _chromosome_n_1 [label=BV]
+	_occasional_a_1 -> _visible_a_to [label=ARG1]
+	_visible_a_to -> _damage_n_to [label=ARG1]
+	compound -> _damage_n_to [label=ARG1]
+}

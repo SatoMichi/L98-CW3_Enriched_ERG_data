@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Tokyo)" [label=BV]
+	poss -> "named(Tokyo)" [label=ARG2]
+	"card(84.15)" -> _point_n_of [label=ARG1]
+	def_explicit_q -> _index_n_1 [label=BV]
+	"_fall_v_1-fn.Competition" -> _index_n_1 [label="ARG1-fn.Participant_1"]
+	number_q -> "card(35442.40)" [label=BV]
+	_to_p -> "_fall_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _point_n_of [label=BV]
+	compound -> "named(Nikkei)" [label=ARG2]
+	poss -> _index_n_1 [label=ARG1]
+	loc_nonsp -> _point_n_of [label=ARG2]
+	proper_q -> "named(Nikkei)" [label=BV]
+	compound -> _index_n_1 [label=ARG1]
+	loc_nonsp -> "_fall_v_1-fn.Competition" [label=ARG1]
+	_to_p -> "card(35442.40)" [label=ARG2]
+}

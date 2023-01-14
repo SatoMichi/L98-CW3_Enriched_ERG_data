@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_second-guess_v_1" -> thing [label=ARG2]
+	"_of+course_a_1" -> "_carry_v_1-fn.Bringing" [label=ARG1]
+	_do_v_1 -> thing [label=ARG2]
+	"_second-guess_v_1" -> "named(Congress)" [label=ARG1]
+	"_carry_v_1-fn.Bringing" -> _penalty_n_for [label="ARG2-fn.Value"]
+	udef_q -> _penalty_n_for [label=BV]
+	_heavy_a_1 -> _penalty_n_for [label=ARG1]
+	parg_d -> thing [label=ARG2]
+	parg_d -> "_second-guess_v_1" [label=ARG1]
+	proper_q -> "named(Congress)" [label=BV]
+	"_carry_v_1-fn.Bringing" -> nominalization [label="ARG1-fn.Location"]
+	_might_v_modal -> "_second-guess_v_1" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	nominalization -> _do_v_1 [label=ARG1]
+	_any_q -> thing [label=BV]
+}

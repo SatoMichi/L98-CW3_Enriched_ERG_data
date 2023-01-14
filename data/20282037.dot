@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(North)" [label=ARG2]
+	"_prove_v_to-fn.Turning_out" -> _hospitable_a_1 [label="ARG2-fn.NotExist"]
+	"_prove_v_to-fn.Turning_out" -> "named(Europe)" [label="ARG1-fn.NotExist"]
+	_even_x_deg -> comp_less [label=ARG1]
+	proper_q -> "named(North)" [label=BV]
+	proper_q -> "named(Europe)" [label=BV]
+	comp_less -> _hospitable_a_1 [label=ARG1]
+	comp_less -> "named(America)" [label=ARG2]
+	_hospitable_a_1 -> "named(Europe)" [label=ARG1]
+	proper_q -> "named(America)" [label=BV]
+	compound -> "named(America)" [label=ARG1]
+}

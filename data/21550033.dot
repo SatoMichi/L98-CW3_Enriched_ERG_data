@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_chemical_a_1 -> _reaction_n_1 [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	_produce_v_1 -> _reaction_n_1 [label=ARG1]
+	_the_q -> _heat_n_1 [label=BV]
+	_produce_v_1 -> _heat_n_1 [label=ARG2]
+	"_hint_v_to-fn.NF" -> _might_v_modal [label="ARG2-fn.Topic"]
+	_some_q -> _reaction_n_1 [label=BV]
+	udef_q -> _chemist_n_1 [label=BV]
+	"_suggest_v_to-fn.Statement" -> "_hint_v_to-fn.NF" [label="ARG2-fn.Topic"]
+	"card(1)" -> _chemist_n_1 [label=ARG1]
+	"_anomalous/jj_u_unknown" -> _reaction_n_1 [label=ARG1]
+	"_suggest_v_to-fn.Statement" -> _chemist_n_1 [label="ARG1-fn.Agent"]
+	_private_a_1 -> "_suggest_v_to-fn.Statement" [label=ARG1]
+	"_hint_v_to-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	_might_v_modal -> _produce_v_1 [label=ARG1]
+}

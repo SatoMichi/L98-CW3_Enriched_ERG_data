@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_in_p -> _cash_n_1 [label=ARG2]
+	_the_q -> _rest_n_1 [label=BV]
+	udef_q -> _cash_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_in_p -> _note_n_1 [label=ARG2]
+	udef_q -> _note_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_consist_v_of-fn.Cause_to_end" -> _offer_n_1 [label="ARG1-fn.Process"]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_the_q -> _offer_n_1 [label=BV]
+	_in_p -> _rest_n_1 [label=ARG1]
+	_in_p -> _dollar_n_1 [label=ARG1]
+	times -> "card(410.5)" [label=ARG2]
+	"_consist_v_of-fn.Cause_to_end" -> _and_c [label="ARG2-fn.Means"]
+}

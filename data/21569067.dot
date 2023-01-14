@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_other_a_1 -> _bond_n_1 [label=ARG1]
+	neg -> subord [label=ARG1]
+	_probable_a_1 -> neg [label=ARG1]
+	subord -> "_fare_v_1-fn.Renting" [label=ARG1]
+	subord -> "_good_a_at-for-of" [label=ARG2]
+	_much_x_deg -> comp [label=ARG1]
+	"_fare_v_1-fn.Renting" -> _bond_n_1 [label="ARG1-fn.Lessee"]
+	comp -> "_good_a_at-for-of" [label=ARG1]
+	"_would_v_modal-fn.Reliance" -> _probable_a_1 [label="ARG1-fn.Protagonist"]
+	_most_q -> _bond_n_1 [label=BV]
+}

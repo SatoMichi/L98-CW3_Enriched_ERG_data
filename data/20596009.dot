@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _government_n_of [label=BV]
+	_nervous_a_about -> _government_n_of [label=ARG1]
+}

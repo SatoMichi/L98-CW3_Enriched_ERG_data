@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "dofw(Mon)" [label=BV]
+	parg_d -> _shuttle_n_1 [label=ARG2]
+	loc_nonsp -> "_return_v_1-fn.Process_start" [label=ARG1]
+	_to_p -> "_return_v_1-fn.Process_start" [label=ARG1]
+	proper_q -> "named(California)" [label=BV]
+	_to_p -> "named(California)" [label=ARG2]
+	"_slate_v_1-fn.Rite" -> "_return_v_1-fn.Process_start" [label="ARG3-fn.Organization"]
+	_the_q -> _shuttle_n_1 [label=BV]
+	"_slate_v_1-fn.Rite" -> _shuttle_n_1 [label="ARG2-fn.Member"]
+	parg_d -> "_slate_v_1-fn.Rite" [label=ARG1]
+	"_return_v_1-fn.Process_start" -> _shuttle_n_1 [label="ARG1-fn.Event"]
+	loc_nonsp -> "dofw(Mon)" [label=ARG2]
+}

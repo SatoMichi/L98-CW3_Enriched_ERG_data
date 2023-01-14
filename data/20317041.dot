@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_also_a_1 -> "_advise_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Goldman)" [label=ARG2]
+	parg_d -> "_advise_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Goldman)" [label=BV]
+	udef_q -> "_and+company_n_1" [label=BV]
+	proper_q -> "named(Sachs)" [label=BV]
+	compound -> "named(Sachs)" [label=ARG1]
+	compound -> "_and+company_n_1" [label=ARG2]
+	"_advise_v_1-fn.Competition" -> "named(Nekoosa)" [label="ARG2-fn.Participant_2"]
+	parg_d -> "named(Nekoosa)" [label=ARG2]
+	proper_q -> "named(Nekoosa)" [label=BV]
+	"_advise_v_1-fn.Competition" -> "named(Sachs)" [label="ARG1-fn.Participant_1"]
+}

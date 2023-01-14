@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Vietnam)" [label=ARG2]
+	"_be_v_id-fn.Residence" -> "_entrepreneur/nn_u_unknown" [label="ARG2-fn.Location"]
+	poss -> "_entrepreneur/nn_u_unknown" [label=ARG1]
+	proper_q -> "named(Thi)" [label=BV]
+	proper_q -> "named(Vietnam)" [label=BV]
+	compound -> "named(Nguyen)" [label=ARG2]
+	compound -> "named(Thi)" [label=ARG2]
+	def_explicit_q -> "_entrepreneur/nn_u_unknown" [label=BV]
+	_of_p -> "year_range(1980s)" [label=ARG2]
+	proper_q -> "named(Nguyen)" [label=BV]
+	_the_q -> "year_range(1980s)" [label=BV]
+	"_be_v_id-fn.Residence" -> "named(Thi)" [label="ARG1-fn.Resident"]
+	_of_p -> "_entrepreneur/nn_u_unknown" [label=ARG1]
+}

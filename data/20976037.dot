@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _earthquake_n_1 [label=BV]
+	"_cause_v_1-fn.Causation" -> _forget_v_1 [label="ARG3-fn.NotExist"]
+	proper_q -> "named(San)" [label=BV]
+	proper_q -> "named(Hugo)" [label=BV]
+	proper_q -> "named(Francisco)" [label=BV]
+	"_cause_v_1-fn.Causation" -> pron [label="ARG2-fn.Theme"]
+	compound -> "named(San)" [label=ARG2]
+	compound -> _earthquake_n_1 [label=ARG1]
+	_forget_v_1 -> pron [label=ARG1]
+	compound -> "named(Francisco)" [label=ARG1]
+	_forget_v_1 -> "named(Hugo)" [label=ARG2]
+	"_cause_v_1-fn.Causation" -> _earthquake_n_1 [label="ARG1-fn.Cause"]
+	pronoun_q -> pron [label=BV]
+}

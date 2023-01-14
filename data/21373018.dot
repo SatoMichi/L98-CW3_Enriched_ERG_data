@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _travel_n_1 [label=BV]
+	udef_q -> _bill_n_of [label=BV]
+	compound -> _bill_n_of [label=ARG1]
+	compound -> _travel_n_1 [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	"_mean_v_1-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	"_mean_v_1-fn.NF" -> _bill_n_of [label="ARG2-fn.Theme"]
+	_huge_a_1 -> _bill_n_of [label=ARG1]
+}

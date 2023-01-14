@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _alliance_n_1 [label=ARG1]
+	_the_q -> "_talk_n_of-on" [label=BV]
+	_apparent_a_1 -> neg [label=ARG1]
+	"_go_v_1-fn.Competition" -> "_talk_n_of-on" [label="ARG1-fn.Participant_1"]
+	neg -> "_go_v_1-fn.Competition" [label=ARG1]
+	_heavy_a_1 -> _truck_n_1 [label=ARG1]
+	"_talk_n_of-on" -> _alliance_n_1 [label=ARG1]
+	_a_q -> _alliance_n_1 [label=BV]
+	compound -> _truck_n_1 [label=ARG2]
+	_far_a_1 -> "_go_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _truck_n_1 [label=BV]
+}

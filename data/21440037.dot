@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _st_n_1 [label=BV]
+	plus -> "card(44)" [label=ARG2]
+	compound -> "named(Jude)" [label=ARG1]
+	_on_p_temp -> "dofw(Fri)" [label=ARG2]
+	_to_p -> "_finish_v_1-fn.Competition" [label=ARG1]
+	_up_p -> "_finish_v_1-fn.Competition" [label=ARG1]
+	plus -> "fraction(1/2)" [label=ARG3]
+	proper_q -> "dofw(Fri)" [label=BV]
+	proper_q -> "named(Jude)" [label=BV]
+	"_finish_v_1-fn.Competition" -> "named(Jude)" [label="ARG1-fn.Participant_1"]
+	compound -> _st_n_1 [label=ARG2]
+	number_q -> "card(44)" [label=BV]
+	_on_p_temp -> "_finish_v_1-fn.Competition" [label=ARG1]
+	_to_p -> "card(44)" [label=ARG2]
+}

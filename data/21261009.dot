@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _direction_n_of [label=BV]
+	_in_p -> "_move_v_1-fn.Relative_time" [label=ARG1]
+	udef_q -> _magazine_n_1 [label=BV]
+	_in_p -> _direction_n_of [label=ARG2]
+	udef_q -> _company_n_of [label=BV]
+	"_move_v_1-fn.Relative_time" -> _company_n_of [label="ARG1-fn.Focal_occasion"]
+	_same_a_as -> _direction_n_of [label=ARG1]
+	comp_equal -> _same_a_as [label=ARG1]
+	"_publish_v_1-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+	compound -> "_publish_v_1-fn.Cause_to_end" [label=ARG1]
+	compound -> _magazine_n_1 [label=ARG2]
+	_other_a_1 -> _company_n_of [label=ARG1]
+}

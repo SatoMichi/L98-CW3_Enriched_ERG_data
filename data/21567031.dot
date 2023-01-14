@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_cause-fn.Causation" -> _number_n_of [label="ARG1-fn.Agent"]
+	_impossible_a_for -> _regulate_v_1 [label=ARG1]
+	_the_q -> _business_n_1 [label=BV]
+	_difficult_a_for -> _business_n_1 [label=ARG1]
+	_the_q -> _number_n_of [label=BV]
+	_extremely_x_deg -> _difficult_a_for [label=ARG1]
+	_sheer_a_1 -> _number_n_of [label=ARG1]
+	udef_q -> _planner_n_1 [label=BV]
+	_number_n_of -> _planner_n_1 [label=ARG1]
+	_regulate_v_1 -> _business_n_1 [label=ARG2]
+	"_make_v_cause-fn.Causation" -> "_if+not_c" [label="ARG2-fn.Theme"]
+}

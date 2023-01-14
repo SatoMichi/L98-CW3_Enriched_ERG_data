@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_useful_a_for -> "_information_n_on-about" [label=ARG1]
+	proper_q -> "named(Moscow)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_find_v_1-fn.Competition" -> _useful_a_for [label="ARG3-fn.Participants"]
+	"_find_v_1-fn.Competition" -> _and_c [label="ARG1-fn.Participant_1"]
+	"_must_v_modal-fn.Cause_to_end" -> "_find_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	proper_q -> "named(Kabul)" [label=BV]
+	"_find_v_1-fn.Competition" -> "_information_n_on-about" [label="ARG2-fn.Participant_2"]
+	_that_q_dem -> "_information_n_on-about" [label=BV]
+}

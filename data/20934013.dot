@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_even_x_deg -> _a_q [label=ARG1]
+	"_fetch_v_1-fn.Bringing" -> _or_c [label="ARG2-fn.Theme"]
+	udef_q -> _ruble_n_1 [label=BV]
+	udef_q -> _cigarette_n_1 [label=BV]
+	_western_a_1 -> _cigarette_n_1 [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	"card(20)" -> _cigarette_n_1 [label=ARG1]
+	_a_q -> _pack_n_of [label=BV]
+	_can_v_modal -> "_fetch_v_1-fn.Bringing" [label=ARG1]
+	udef_q -> _or_c [label=BV]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_pack_n_of -> _cigarette_n_1 [label=ARG1]
+	"card(20)" -> _ruble_n_1 [label=ARG1]
+	"_fetch_v_1-fn.Bringing" -> _pack_n_of [label="ARG1-fn.Agent"]
+}

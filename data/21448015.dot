@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _official_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _anticipate_v_1 [label="ARG2-fn.Topic"]
+	_anticipate_v_1 -> _crunch_n_1 [label=ARG2]
+	_anticipate_v_1 -> pron [label=ARG1]
+	udef_q -> _traffic_n_1 [label=BV]
+	compound -> _crunch_n_1 [label=ARG1]
+	udef_q -> _official_n_1 [label=BV]
+	compound -> _traffic_n_1 [label=ARG2]
+	_a_q -> _crunch_n_1 [label=BV]
+	focus_d -> _anticipate_v_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+	_quite_x -> _a_q [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

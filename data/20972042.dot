@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _cub_n_1 [label=ARG]
+	_a_q -> _cub_n_1 [label=BV]
+	udef_q -> _bear_n_1 [label=BV]
+	compound -> _bear_n_1 [label=ARG2]
+	compound -> _orphan_n_1 [label=ARG2]
+	compound -> _cub_n_1 [label=ARG1]
+	udef_q -> _orphan_n_1 [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_focus_v_on-fn.Place_weight_on" -> nominalization [label="ARG2-fn.NotExist"]
+	_a_q -> _differential_n_1 [label=BV]
+	compound -> _differential_n_1 [label=ARG1]
+	udef_q -> _senator_n_1 [label=BV]
+	compound -> _capital_n_1 [label=ARG2]
+	_permanent_a_1 -> _differential_n_1 [label=ARG1]
+	"_focus_v_on-fn.Place_weight_on" -> _senator_n_1 [label="ARG1-fn.Experiencer"]
+	udef_q -> _gain_n_1 [label=BV]
+	"_make_v_cause-fn.Causation" -> _permanent_a_1 [label="ARG2-fn.Theme"]
+	nominalization -> "_make_v_cause-fn.Causation" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _capital_n_1 [label=BV]
+	compound -> _gain_n_1 [label=ARG1]
+}

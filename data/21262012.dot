@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_give_v_1-fn.Giving" -> _humility_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _chance_n_of [label=BV]
+	_much_x_deg -> comp [label=ARG1]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _humility_n_1 [label=BV]
+	"_give_v_1-fn.Giving" -> _chance_n_of [label="ARG2-fn.Theme"]
+	poss -> _humility_n_1 [label=ARG1]
+	comp -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> _chance_n_of [label=ARG1]
+	"_give_v_1-fn.Giving" -> pron [label="ARG3-fn.Recipient"]
+	_chance_n_of -> _success_n_1 [label=ARG1]
+	udef_q -> _success_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

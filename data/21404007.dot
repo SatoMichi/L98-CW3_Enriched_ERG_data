@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_shape_v_1-fn.Competition" -> "_shake-up_n_1" [label="ARG1-fn.Participant_1"]
+	def_explicit_q -> _business_n_1 [label=BV]
+	_stately_a_1 -> _business_n_1 [label=ARG1]
+	udef_q -> _insurance_n_1 [label=BV]
+	"_shape_v_1-fn.Competition" -> _business_n_1 [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Europe)" [label=BV]
+	compound -> _business_n_1 [label=ARG1]
+	poss -> "named(Europe)" [label=ARG2]
+	_once_a_1 -> _stately_a_1 [label=ARG1]
+	poss -> _business_n_1 [label=ARG1]
+	_a_q -> "_shake-up_n_1" [label=BV]
+	"_re-_a_again" -> "_shape_v_1-fn.Competition" [label=ARG1]
+	compound -> _insurance_n_1 [label=ARG2]
+	_rambunctious_a_1 -> "_shake-up_n_1" [label=ARG1]
+	_quick_a_1 -> "_shape_v_1-fn.Competition" [label=ARG1]
+}

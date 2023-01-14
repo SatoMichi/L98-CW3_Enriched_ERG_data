@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_developer_n_of -> _tower_n_of [label=ARG1]
+	udef_q -> _office_n_of [label=BV]
+	_still_a_1 -> "_remain_v_1-fn.Remainder" [label=ARG1]
+	udef_q -> _tower_n_of [label=BV]
+	"_caution_v_1-fn.Statement" -> "_remain_v_1-fn.Remainder" [label="ARG2-fn.Topic"]
+	_plan_v_1 -> _tower_n_of [label=ARG2]
+	udef_q -> _developer_n_of [label=BV]
+	"_caution_v_1-fn.Statement" -> _developer_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _obstacle_n_1 [label=BV]
+	"card(4)" -> _tower_n_of [label=ARG1]
+	compound -> _tower_n_of [label=ARG1]
+	compound -> _office_n_of [label=ARG2]
+	"_remain_v_1-fn.Remainder" -> _obstacle_n_1 [label="ARG1-fn.NotExist"]
+	parg_d -> _plan_v_1 [label=ARG1]
+	parg_d -> _tower_n_of [label=ARG2]
+}

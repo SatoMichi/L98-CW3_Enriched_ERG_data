@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_become_v_id-fn.Assemble" [label=ARG1]
+	"_become_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	focus_d -> loc_nonsp [label=ARG2]
+	_recent_a_1 -> _day_n_of [label=ARG1]
+	loc_nonsp -> "_become_v_id-fn.Assemble" [label=ARG1]
+	comp -> _close_a_to [label=ARG1]
+	_close_a_to -> pron [label=ARG1]
+	_much_x_deg -> _close_a_to [label=ARG1]
+	loc_nonsp -> _day_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"card(1)" -> _day_n_of [label=ARG1]
+	udef_q -> _day_n_of [label=BV]
+	"_become_v_id-fn.Assemble" -> _close_a_to [label="ARG2-fn.Group"]
+}

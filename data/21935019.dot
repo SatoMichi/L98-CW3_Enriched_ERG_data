@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Economics)" [label=ARG1]
+	def_explicit_q -> "named(Class)" [label=BV]
+	compound -> "named(Douglas)" [label=ARG2]
+	compound -> "named(Honors)" [label=ARG2]
+	proper_q -> "named(Honors)" [label=BV]
+	unknown -> "named(Class)" [label=ARG]
+	proper_q -> "named(Woodward)" [label=BV]
+	poss -> "named(Woodward)" [label=ARG2]
+	_of_x_subord -> unknown [label=ARG2]
+	compound -> "named(Woodward)" [label=ARG1]
+	poss -> "named(Class)" [label=ARG1]
+	proper_q -> "named(Economics)" [label=BV]
+	compound -> "named(Class)" [label=ARG1]
+	proper_q -> "named(Douglas)" [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _investor_n_1 [label=ARG2]
+	udef_q -> _investor_n_1 [label=BV]
+	_lately_a -> "_fallout/nn_u_unknown" [label=ARG1]
+	_for_p -> "_fallout/nn_u_unknown" [label=ARG1]
+	_the_q -> "_fallout/nn_u_unknown" [label=BV]
+	_painful_a_to -> "_fallout/nn_u_unknown" [label=ARG1]
+}

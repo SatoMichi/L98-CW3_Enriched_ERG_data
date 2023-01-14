@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _stock_n_1 [label=BV]
+	_natural_a_for -> _buyer_n_of [label=ARG1]
+	compound -> _index_n_1 [label=ARG2]
+	udef_q -> "_arbitrage/nn_u_unknown" [label=BV]
+	_buyer_n_of -> _stock_n_1 [label=ARG1]
+	udef_q -> _index_n_1 [label=BV]
+	"_scare_v_1-fn.Experiencer_obj" -> _buyer_n_of [label="ARG2-fn.Experiencer"]
+	compound -> "_arbitrage/nn_u_unknown" [label=ARG1]
+	"_scare_v_1-fn.Experiencer_obj" -> pron [label="ARG1-fn.NotExist"]
+	udef_q -> _buyer_n_of [label=BV]
+	neg -> "_work_v_1-fn.IN" [label=ARG1]
+	"_work_v_1-fn.IN" -> "_arbitrage/nn_u_unknown" [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

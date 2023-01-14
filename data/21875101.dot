@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_matter_n_of -> _time_n_of [label=ARG1]
+	_only_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _time_n_of [label=BV]
+	_a_q -> _matter_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _matter_n_of [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

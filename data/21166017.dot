@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	"_fractional/jj_u_unknown" -> _change_n_of [label=ARG1]
+	udef_q -> _change_n_of [label=BV]
+	_down_p -> "_post_v_1-fn.Sending" [label=ARG1]
+	_in_p -> _change_n_of [label=ARG1]
+	_up_p -> "_post_v_1-fn.Sending" [label=ARG1]
+	_this_q_dem -> _week_n_1 [label=BV]
+	_in_p -> _yield_n_1 [label=ARG2]
+	loc_nonsp -> "_post_v_1-fn.Sending" [label=ARG1]
+	_some_q -> "_jumbos/nns_u_unknown" [label=BV]
+	"_post_v_1-fn.Sending" -> _change_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _yield_n_1 [label=BV]
+	"_post_v_1-fn.Sending" -> "_jumbos/nns_u_unknown" [label="ARG1-fn.Agent"]
+	_average_a_1 -> _yield_n_1 [label=ARG1]
+}

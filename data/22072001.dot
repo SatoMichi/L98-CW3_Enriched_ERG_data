@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cancel_v_1-fn.Cause_to_end" -> _streak_n_of [label="ARG2-fn.Means"]
+	parg_d -> "_cancel_v_1-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _streak_n_of [label=ARG2]
+	proper_q -> "named(NBC)" [label=BV]
+	poss -> _streak_n_of [label=ARG1]
+	poss -> "named(NBC)" [label=ARG2]
+	nominalization -> _win_v_1 [label=ARG1]
+	compound -> _streak_n_of [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	def_explicit_q -> _streak_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+}

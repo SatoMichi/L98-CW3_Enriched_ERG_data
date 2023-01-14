@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> "named(Vietnam)" [label="ARG2-fn.Means"]
+	poss -> "named(Soviets)" [label=ARG2]
+	_the_q -> "named(Soviets)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	poss -> "named(Vietnam)" [label=ARG1]
+	def_explicit_q -> "named(Vietnam)" [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_used+to_v_qmodal" -> ellipsis_ref [label="ARG1-fn.Process"]
+	poss -> _destiny_n_1 [label=ARG1]
+	neg -> "_control_v_1-fn.Competition" [label=ARG1]
+	_like_x_preph -> neg [label=ARG1]
+	poss -> pron [label=ARG2]
+	ellipsis_ref -> pron [label=ARG1]
+	_like_x_preph -> "_used+to_v_qmodal" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_control_v_1-fn.Competition" -> _destiny_n_1 [label="ARG2-fn.Participant_2"]
+	"_control_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	def_explicit_q -> _destiny_n_1 [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_die_v_1-fn.Death" -> pron [label="ARG1-fn.NotExist"]
+	_might_v_modal -> "_die_v_1-fn.Death" [label=ARG1]
+	"_think_v_1-fn.IN" -> _might_v_modal [label="ARG2-fn.NotExist"]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_actual_a_1 -> "_think_v_1-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

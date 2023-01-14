@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_2-fn.Taking_time" -> "_complete_v_1-fn.Activity_finish" [label="ARG2-fn.Value"]
+	"_take_v_2-fn.Taking_time" -> _process_n_of [label="ARG1-fn.Theme"]
+	comp_equal -> "much-many_a" [label=ARG1]
+	comp_equal -> _month_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+	"_complete_v_1-fn.Activity_finish" -> generic_entity [label="ARG1-fn.Agent"]
+	udef_q -> generic_entity [label=BV]
+	"card(6)" -> _month_n_1 [label=ARG1]
+	udef_q -> _month_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_take_v_2-fn.Taking_time" [label="ARG2-fn.Topic"]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	focus_d -> "_take_v_2-fn.Taking_time" [label=ARG2]
+	_the_q -> _process_n_of [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

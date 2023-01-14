@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rubber-neck_v_1-fn.Halt" -> person [label="ARG1-fn.Purpose"]
+	every_q -> person [label=BV]
+}

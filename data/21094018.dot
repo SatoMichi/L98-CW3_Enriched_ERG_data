@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _position_n_of [label=BV]
+	_total_a_1 -> "_gear_v_to-fn.NF" [label=ARG1]
+	parg_d -> "_gear_v_to-fn.NF" [label=ARG1]
+	"_punitive/jj_u_unknown" -> _position_n_of [label=ARG1]
+	"_gear_v_to-fn.NF" -> pron [label="ARG2-fn.Patient"]
+	parg_d -> pron [label=ARG2]
+	"_gear_v_to-fn.NF" -> _position_n_of [label="ARG3-fn.Goal"]
+	pronoun_q -> pron [label=BV]
+}

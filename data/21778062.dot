@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(GR8FLRED)" [label=BV]
+	unknown -> "named(GR8FLRED)" [label=ARG]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _cd_n_1 [label=ARG1]
+	focus_d -> _up_p [label=ARG1]
+	_for_p -> _cd_n_1 [label=ARG2]
+	udef_q -> _cd_n_1 [label=BV]
+	compound -> _term_n_of [label=ARG2]
+	focus_d -> _for_p [label=ARG2]
+	udef_q -> _term_n_of [label=BV]
+	udef_q -> _yield_n_1 [label=BV]
+	_for_p -> _up_p [label=ARG1]
+	_up_p -> _yield_n_1 [label=ARG1]
+	_long_a_1 -> _term_n_of [label=ARG1]
+	comp -> _long_a_1 [label=ARG1]
+}

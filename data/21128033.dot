@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_just_x_deg -> "_in+order+to_x" [label=ARG1]
+	"_in+order+to_x" -> "_eat_v_1-fn.Ingestion" [label=ARG2]
+	"_get_v_1-fn.IN" -> _job_n_of [label="ARG2-fn.Theme"]
+	"_going+to_v_qmodal" -> "_in+order+to_x" [label=ARG1]
+	_have_v_qmodal -> "_get_v_1-fn.IN" [label=ARG1]
+	"_get_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_eat_v_1-fn.Ingestion" -> pron [label="ARG1-fn.Agent"]
+	loc_nonsp -> "_get_v_1-fn.IN" [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	"_in+order+to_x" -> _have_v_qmodal [label=ARG1]
+	_this_q_dem -> _year_n_1 [label=BV]
+	_another_q -> _job_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

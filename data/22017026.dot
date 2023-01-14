@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "named(Hispanics)" [label=ARG2]
+	udef_q -> _white_n_1 [label=BV]
+	_native_a_1 -> _american_n_1 [label=ARG1]
+	"_study_v_1-fn.Scrutiny" -> _and_c [label="ARG2-fn.Topic"]
+	parg_d -> "_study_v_1-fn.Scrutiny" [label=ARG1]
+	neg -> "_study_v_1-fn.Scrutiny" [label=ARG1]
+	"_include_v_1-fn.NF" -> "named(Hispanics)" [label="ARG2-fn.Theme"]
+	_with_p -> "_include_v_1-fn.NF" [label=ARG1]
+	_with_p -> _white_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> "named(Hispanics)" [label=BV]
+	udef_q -> _asian_n_1 [label=BV]
+	parg_d -> _and_c [label=ARG2]
+	udef_q -> _american_n_1 [label=BV]
+	parg_d -> "_include_v_1-fn.NF" [label=ARG1]
+}

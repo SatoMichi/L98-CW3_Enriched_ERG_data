@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q_indiv -> _price_n_of [label=BV]
+	"_stop_v_prd-fn.Cause_to_end" -> "_bid_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_be_v_there-fn.Needing" -> _price_n_of [label="ARG1-fn.Cognizer"]
+	"_would_v_modal-fn.Cause_to_end" -> "_stop_v_prd-fn.Cause_to_end" [label="ARG1-fn.Process"]
+	_at_p -> _price_n_of [label=ARG2]
+	"_bid_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	_at_p -> "_stop_v_prd-fn.Cause_to_end" [label=ARG1]
+}

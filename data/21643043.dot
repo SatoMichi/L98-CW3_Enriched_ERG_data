@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _center_n_of [label=BV]
+	_behind_p -> pron [label=ARG2]
+	parg_d -> "_deform_v_cause-fn.Reshaping" [label=ARG1]
+	_hold_v_1 -> _center_n_of [label=ARG1]
+	_behind_p -> _wall_n_of [label=ARG1]
+	"_deform_v_cause-fn.Reshaping" -> _wall_n_of [label="ARG2-fn.Patient"]
+	_the_q -> _wall_n_of [label=BV]
+	parg_d -> _wall_n_of [label=ARG2]
+	_slight_a_1 -> "_deform_v_cause-fn.Reshaping" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

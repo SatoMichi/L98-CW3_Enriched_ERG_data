@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_wonder_v_1-fn.Impact" -> _one_n_1 [label="ARG1-fn.Place"]
+	_slow_a_1 -> _game_n_1 [label=ARG1]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_a+little+bit_x" -> comp [label=ARG1]
+	"_help_v_to-fn.Amounting_to" -> "_wonder_v_1-fn.Impact" [label="ARG2-fn.Attribute"]
+	_just_x_deg -> "_a+little+bit_x" [label=ARG1]
+	"_wonder_v_1-fn.Impact" -> _slow_a_1 [label="ARG2-fn.Result"]
+	"_can_v_modal-fn.Reliance" -> "_help_v_to-fn.Amounting_to" [label="ARG1-fn.Protagonist"]
+	_the_q -> _game_n_1 [label=BV]
+	comp -> _slow_a_1 [label=ARG1]
+	"_help_v_to-fn.Amounting_to" -> _one_n_1 [label="ARG1-fn.Value"]
+	_nonetheless_a_1 -> neg [label=ARG1]
+	pronoun_q -> _one_n_1 [label=BV]
+}

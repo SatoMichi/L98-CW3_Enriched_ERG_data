@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _bill_n_of [label=BV]
+	_national_a_1 -> _restriction_n_of [label=ARG1]
+	"card(2)" -> _bill_n_of [label=ARG1]
+	"_hope_v_1-fn.Desiring" -> "_make_v_cause-fn.Causation" [label="ARG2-fn.Theme"]
+	_such_q -> _restriction_n_of [label=BV]
+	_in_p -> "named(Congress)" [label=ARG2]
+	"_hope_v_1-fn.Desiring" -> _bill_n_of [label="ARG1-fn.Pivot"]
+	proper_q -> "named(Congress)" [label=BV]
+	"_make_v_cause-fn.Causation" -> _national_a_1 [label="ARG2-fn.Theme"]
+	"_make_v_cause-fn.Causation" -> _bill_n_of [label="ARG1-fn.Agent"]
+	_in_p -> _bill_n_of [label=ARG1]
+}

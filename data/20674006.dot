@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"card(1000000)" -> "_canadian+dollar_n_1" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> _revenue_n_1 [label="ARG1-fn.Individuals"]
+	_from_p -> _up_p [label=ARG1]
+	"_be_v_id-fn.Assemble" -> "_canadian+dollar_n_1" [label="ARG2-fn.Group"]
+	_in_p_temp -> "_canadian+dollar_n_1" [label=ARG1]
+	_from_p -> "_canadian+dollar_n_1" [label=ARG2]
+	times -> "card(252)" [label=ARG2]
+	udef_q -> _revenue_n_1 [label=BV]
+	times -> "card(291.6)" [label=ARG2]
+	udef_q -> "_canadian+dollar_n_1" [label=BV]
+	proper_q -> "yofc(1988)" [label=BV]
+	_up_p -> "_be_v_id-fn.Assemble" [label=ARG1]
+	_in_p_temp -> "yofc(1988)" [label=ARG2]
+}

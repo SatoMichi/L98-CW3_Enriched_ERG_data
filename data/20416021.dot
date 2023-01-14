@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_often_a_1 -> "_do_v_1-fn.Piracy" [label=ARG1]
+	_today_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	_very_x_deg -> _often_a_1 [label=ARG1]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_at+all_a_1" -> "_do_v_1-fn.Piracy" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	loc_nonsp -> "_do_v_1-fn.Piracy" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	neg -> "_do_v_1-fn.Piracy" [label=ARG1]
+	"_do_v_1-fn.Piracy" -> generic_entity [label="ARG2-fn.Vehicle"]
+}

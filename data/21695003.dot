@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_now_a_1 -> _and_c [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_twice_a_1 -> _above_p [label=ARG1]
+	"_equal_v_1-fn.Cause_to_end" -> _percentage_n_of [label="ARG1-fn.Process"]
+	"card(40)" -> _percent_n_of [label=ARG1]
+	_above_p -> _percent_n_of [label=ARG2]
+	_above_p -> _percentage_n_of [label=ARG1]
+	udef_q -> _third_n_of [label=BV]
+	"card(1)" -> _third_n_of [label=ARG1]
+	_that_q_dem -> _percentage_n_of [label=BV]
+	"_equal_v_1-fn.Cause_to_end" -> _third_n_of [label="ARG2-fn.Means"]
+	_routine_a_1 -> "_equal_v_1-fn.Cause_to_end" [label=ARG1]
+}

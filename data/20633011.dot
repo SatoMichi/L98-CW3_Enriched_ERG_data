@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_impassively/rb_u_unknown" -> "_listen_v_to-fn.Perception_active" [label=ARG1]
+	"_listen_v_to-fn.Perception_active" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+}

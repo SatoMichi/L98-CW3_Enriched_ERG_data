@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_disclose_v_to-fn.Reveal_secret" -> _detail_n_1 [label="ARG2-fn.Topic"]
+	"_disclose_v_to-fn.Reveal_secret" -> generic_entity [label="ARG1-fn.Agent"]
+	udef_q -> _board_n_of [label=BV]
+	def_implicit_q -> _month_n_1 [label=BV]
+	udef_q -> _meeting_n_of [label=BV]
+	subord -> "_disclose_v_to-fn.Reveal_secret" [label=ARG1]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	_next_a_1 -> _month_n_1 [label=ARG1]
+	udef_q -> _detail_n_1 [label=BV]
+	loc_nonsp -> _meeting_n_of [label=ARG1]
+	_pending_a_1 -> _meeting_n_of [label=ARG2]
+	subord -> _pending_a_1 [label=ARG2]
+	compound -> _meeting_n_of [label=ARG1]
+	compound -> _board_n_of [label=ARG2]
+	_neither_q -> generic_entity [label=BV]
+}

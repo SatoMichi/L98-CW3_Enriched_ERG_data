@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_accept_v_1-fn.State_continue" -> _and_c [label="ARG2-fn.State"]
+	_over_p_dir -> pron [label=ARG1]
+	_only_a_1 -> "_take_v_1-fn.Commerce_buy" [label=ARG1]
+	"_take_v_1-fn.Commerce_buy" -> _second_n_1 [label="ARG2-fn.Goods"]
+	"card(15)" -> _second_n_1 [label=ARG1]
+	udef_q -> _second_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_take_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	_hard_a_for -> "_accept_v_1-fn.State_continue" [label=ARG1]
+}

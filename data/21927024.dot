@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _opponent_n_1 [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	poss -> "named(Bork)" [label=ARG2]
+	"_choose_v_from-fn.Choosing" -> _battlefield_n_1 [label="ARG2-fn.Theme"]
+	"_hold_v_1-fn.Defend" -> pron [label="ARG2-fn.Theme"]
+	compound -> "named(Bork)" [label=ARG1]
+	proper_q -> "named(Bork)" [label=BV]
+	_the_q -> _battlefield_n_1 [label=BV]
+	"_hold_v_1-fn.Defend" -> _opponent_n_1 [label="ARG1-fn.Agent"]
+	"_keep_v_unspec-fn.Cause_to_continue" -> _opponent_n_1 [label="ARG1-fn.Agent"]
+	"_keep_v_unspec-fn.Cause_to_continue" -> pron [label="ARG2-fn.Theme"]
+	compound -> _mister_n_1 [label=ARG2]
+	def_explicit_q -> _opponent_n_1 [label=BV]
+	"_choose_v_from-fn.Choosing" -> _opponent_n_1 [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

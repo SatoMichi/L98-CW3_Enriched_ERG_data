@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _life_n_of [label=BV]
+	poss -> _life_n_of [label=ARG1]
+	_of_p -> _life_n_of [label=ARG2]
+	"_dog_v_1-fn.Cause_to_make_noise" -> _aspect_n_1 [label="ARG2-fn.Sound_maker"]
+	udef_q -> _uncertainty_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_dog_v_1-fn.Cause_to_make_noise" -> _uncertainty_n_1 [label="ARG1-fn.Agent"]
+	poss -> pron [label=ARG2]
+	_every_q -> _aspect_n_1 [label=BV]
+	_of_p -> _aspect_n_1 [label=ARG1]
+}

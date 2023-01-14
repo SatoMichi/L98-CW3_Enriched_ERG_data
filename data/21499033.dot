@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_foot_v_1-fn.Piracy" -> _and_c [label="ARG1-fn.Perpetrator"]
+	_huge_a_1 -> _bill_n_of [label=ARG1]
+	poss -> _customer_n_of [label=ARG1]
+	_private_a_1 -> _company_n_of [label=ARG1]
+	_ultimately_x_deg -> def_explicit_q [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	_the_q -> _bill_n_of [label=BV]
+	"_end_v_up-fn.Cause_to_continue" -> _and_c [label="ARG1-fn.Agent"]
+	def_explicit_q -> _customer_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_foot_v_1-fn.Piracy" -> _bill_n_of [label="ARG2-fn.Vehicle"]
+	poss -> pron [label=ARG2]
+	"_end_v_up-fn.Cause_to_continue" -> "_foot_v_1-fn.Piracy" [label="ARG2-fn.Process"]
+}

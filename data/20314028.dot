@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _care_n_1 [label=ARG1]
+	udef_q -> _health_n_1 [label=BV]
+	udef_q -> _care_n_1 [label=BV]
+	"_lack_v_1-fn.Piracy" -> _administration_n_of [label="ARG1-fn.Perpetrator"]
+	_a_q -> "_policy_n_of-on" [label=BV]
+	"_lack_v_1-fn.Piracy" -> "_policy_n_of-on" [label="ARG2-fn.Vehicle"]
+	compound -> _health_n_1 [label=ARG2]
+	_the_q -> _administration_n_of [label=BV]
+	compound -> "_policy_n_of-on" [label=ARG1]
+	_comprehensive_a_1 -> "_policy_n_of-on" [label=ARG1]
+}

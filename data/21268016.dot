@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pay_v_off-fn.Commerce_buy" -> _strategy_n_of [label="ARG1-fn.Buyer"]
+	poss -> "named(Graphics)" [label=ARG2]
+	compound -> "named(Silicon)" [label=ARG2]
+	poss -> _strategy_n_of [label=ARG1]
+	proper_q -> "named(Silicon)" [label=BV]
+	"_seem_v_to-fn.Desiring" -> "_pay_v_off-fn.Commerce_buy" [label="ARG2-fn.Event"]
+	proper_q -> "named(Graphics)" [label=BV]
+	compound -> "named(Graphics)" [label=ARG1]
+	def_explicit_q -> _strategy_n_of [label=BV]
+}

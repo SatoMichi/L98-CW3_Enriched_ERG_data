@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_even_x_deg -> proper_q [label=ARG1]
+	_some_q -> generic_entity [label=BV]
+	udef_q -> _envy_n_of [label=BV]
+	"_make_v_cause-fn.Cause_change" -> generic_entity [label="ARG1-fn.Agent"]
+	proper_q -> "named(Bond)" [label=BV]
+	_would_v_modal -> "_make_v_cause-fn.Cause_change" [label=ARG1]
+	_with_p -> _green_a_2 [label=ARG1]
+	_green_a_2 -> "named(Bond)" [label=ARG1]
+	_with_p -> _envy_n_of [label=ARG2]
+	proper_q -> "named(James)" [label=BV]
+	"_make_v_cause-fn.Cause_change" -> _green_a_2 [label="ARG2-fn.Theme"]
+	compound -> "named(Bond)" [label=ARG1]
+	compound -> "named(James)" [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> "_comment_v_on-fn.Judgment_direct_address" [label="ARG2-fn.Item"]
+	"_comment_v_on-fn.Judgment_direct_address" -> _insider_n_1 [label="ARG1-fn.Communicator"]
+	_both_q -> _insider_n_1 [label=BV]
+	"card(2)" -> _insider_n_1 [label=ARG1]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _insider_n_1 [label="ARG1-fn.Attribute"]
+}

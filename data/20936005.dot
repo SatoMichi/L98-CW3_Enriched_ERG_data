@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_maybe_a_1 -> "_be_v_id-fn.Residence" [label=ARG1]
+	_central_a_1 -> _bank_n_of [label=ARG1]
+	_a_q -> _bank_n_of [label=BV]
+	"_be_v_id-fn.Residence" -> "named_n(Fed)" [label="ARG1-fn.Resident"]
+	_the_q -> "named_n(Fed)" [label=BV]
+	_the_q -> _system_n_of [label=BV]
+	"_after+all_a_1" -> "_be_v_id-fn.Residence" [label=ARG1]
+	_national_a_1 -> _bank_n_of [label=ARG1]
+	"_be_v_id-fn.Residence" -> _anachronism_n_1 [label="ARG2-fn.Location"]
+	"_be_v_id-fn.Residence" -> _bank_n_of [label="ARG2-fn.Location"]
+	"_be_v_id-fn.Residence" -> _system_n_of [label="ARG1-fn.Resident"]
+	_whole_a_1 -> _system_n_of [label=ARG1]
+	_regional_a_1 -> _system_n_of [label=ARG1]
+	_a_q -> _anachronism_n_1 [label=BV]
+}

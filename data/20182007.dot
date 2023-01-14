@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_plan_v_1-fn.Purpose" -> _offering_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> _stock_n_1 [label=BV]
+	_the_q -> _sale_n_of [label=BV]
+	_public_a_1 -> _offering_n_of [label=ARG1]
+	compound -> _stock_n_1 [label=ARG1]
+	compound -> "named(Lentjes)" [label=ARG2]
+	proper_q -> "named(Lentjes)" [label=BV]
+	_come_v_1 -> _sale_n_of [label=ARG1]
+	_offering_n_of -> _stock_n_1 [label=ARG1]
+	_a_q -> _offering_n_of [label=BV]
+	"_in+place+of_p" -> _come_v_1 [label=ARG1]
+	_initial_a_1 -> _offering_n_of [label=ARG1]
+	parg_d -> "_plan_v_1-fn.Purpose" [label=ARG1]
+	parg_d -> _offering_n_of [label=ARG2]
+	"_in+place+of_p" -> _offering_n_of [label=ARG2]
+}

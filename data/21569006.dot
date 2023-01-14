@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_throw_v_away-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	"_go_v_for-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_the_q -> "_passbook/nn_u_unknown" [label=BV]
+	_the_q -> _glory_n_1 [label=BV]
+	focus_d -> "_throw_v_away-fn.Impact" [label=ARG1]
+	"_in+short_a_1" -> "_throw_v_away-fn.Impact" [label=ARG1]
+	"_go_v_for-fn.Cause_to_end" -> _glory_n_1 [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	"_throw_v_away-fn.Impact" -> "_passbook/nn_u_unknown" [label="ARG2-fn.Result"]
+}

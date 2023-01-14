@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _product_n_1 [label=BV]
+	udef_q -> _market_n_1 [label=BV]
+	udef_q -> _defense_n_1 [label=BV]
+	"_produce_v_1-fn.Cause_to_end" -> _product_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _construction_n_of [label=BV]
+	_for_p -> _product_n_1 [label=ARG1]
+	"_produce_v_1-fn.Cause_to_end" -> "named(Harsco)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Harsco)" [label=BV]
+	_for_p -> _defense_n_1 [label=ARG2]
+	appos -> _market_n_1 [label=ARG2]
+	appos -> _defense_n_1 [label=ARG1]
+	_industrial_a_1 -> _market_n_1 [label=ARG1]
+	compound -> _construction_n_of [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_may_v_modal -> "_include_v_1-fn.NF" [label=ARG1]
+	"_include_v_1-fn.NF" -> _piece_n_of [label="ARG2-fn.Theme"]
+	_that_q_dem -> _load_n_of [label=BV]
+	udef_q -> _period_n_of [label=BV]
+	focus_d -> _may_v_modal [label=ARG1]
+	compound -> _period_n_of [label=ARG1]
+	_in_p_state -> _period_n_of [label=ARG2]
+	_in_p_state -> "_include_v_1-fn.NF" [label=ARG1]
+	"_include_v_1-fn.NF" -> _load_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _piece_n_of [label=BV]
+	udef_q -> _peak_n_1 [label=BV]
+	compound -> _peak_n_1 [label=ARG2]
+	focus_d -> _in_p_state [label=ARG2]
+	"card(4,000)" -> _piece_n_of [label=ARG1]
+}

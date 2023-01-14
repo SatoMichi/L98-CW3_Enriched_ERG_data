@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_believe_v_1-fn.Awareness" -> _reflect_v_1 [label="ARG2-fn.NotExist"]
+	_that_q_dem -> _number_n_of [label=BV]
+	"_believe_v_1-fn.Awareness" -> pron [label="ARG1-fn.NotExist"]
+	_a_q -> _economy_n_1 [label=BV]
+	_reflect_v_1 -> _economy_n_1 [label=ARG2]
+	_reflect_v_1 -> _number_n_of [label=ARG1]
+	_slow_v_1 -> _economy_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

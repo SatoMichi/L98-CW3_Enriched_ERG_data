@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_chop_v_out-fn.Cutting" -> _and_c [label="ARG2-fn.Patient"]
+	"_chop_v_out-fn.Cutting" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _pork_n_1 [label=BV]
+	udef_q -> _provision_n_1 [label=BV]
+	compound -> _budget_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	compound -> _pork_n_1 [label=ARG1]
+	udef_q -> _budget_n_1 [label=BV]
+	"_unconstitutional/jj_u_unknown" -> _provision_n_1 [label=ARG1]
+	_should_v_modal -> "_chop_v_out-fn.Cutting" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> "much-many_a" [label=ARG1]
+	compound -> _smoke_n_1 [label=ARG1]
+	_free_a_of -> _corner_n_of [label=ARG1]
+	udef_q -> _corner_n_of [label=BV]
+	"_become_v_id-fn.Cause_to_end" -> _corner_n_of [label="ARG1-fn.Process"]
+	_free_a_of -> _smoke_n_1 [label=ARG2]
+	udef_q -> _tobacco_n_1 [label=BV]
+	_corner_n_of -> _globe_n_1 [label=ARG1]
+	udef_q -> _smoke_n_1 [label=BV]
+	compound -> _tobacco_n_1 [label=ARG2]
+	_the_q -> _globe_n_1 [label=BV]
+	"_become_v_id-fn.Cause_to_end" -> _free_a_of [label="ARG2-fn.Means"]
+	"much-many_a" -> _corner_n_of [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _ms_n_1 [label=BV]
+	udef_q -> _blandness_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "named(Smith)" [label="ARG1-fn.NotExist"]
+	focus_d -> "_believe_v_in-fn.Religious_belief" [label=ARG2]
+	proper_q -> "named(Anne)" [label=BV]
+	proper_q -> "named(Smith)" [label=BV]
+	"_believe_v_in-fn.Religious_belief" -> "named(Anne)" [label="ARG1-fn.NotExist"]
+	compound -> "named(Smith)" [label=ARG1]
+	compound -> _ms_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.NotExist"]
+	neg -> "_believe_v_in-fn.Religious_belief" [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_believe_v_in-fn.Religious_belief" -> _blandness_n_1 [label="ARG2-fn.NotExist"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _expiration_n_1 [label=ARG2]
+	of_p -> "dofm(3)" [label=ARG1]
+	def_implicit_q -> "mofy(Nov)" [label=BV]
+	_the_q -> _date_n_of [label=BV]
+	of_p -> "mofy(Nov)" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> "dofm(3)" [label="ARG2-fn.Name"]
+	udef_q -> _expiration_n_1 [label=BV]
+	compound -> _date_n_of [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _date_n_of [label="ARG1-fn.Entity"]
+	def_explicit_q -> "dofm(3)" [label=BV]
+}

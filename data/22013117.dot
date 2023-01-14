@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_find_v_1-fn.Competition" [label=ARG1]
+	_if_x_then -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> "_stop_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	"_stop_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	"_find_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	_if_x_then -> "_find_v_1-fn.Competition" [label=ARG2]
+	"_find_v_1-fn.Competition" -> _guilty_a_of [label="ARG3-fn.Participants"]
+	_guilty_a_of -> pron [label=ARG1]
+	parg_d -> pron [label=ARG2]
+}

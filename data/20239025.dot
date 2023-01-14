@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _pilot_n_of [label=BV]
+	_no_q -> "named(English)" [label=BV]
+	_with_p -> unknown [label=ARG1]
+	"_speak_v_to-fn.IN" -> _pilot_n_of [label="ARG1-fn.Agent"]
+	"_speak_v_to-fn.IN" -> "named(English)" [label="ARG2-fn.Topic"]
+	_with_p -> _pilot_n_of [label=ARG2]
+}

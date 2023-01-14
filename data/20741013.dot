@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _family_n_of [label=ARG2]
+	def_explicit_q -> _absence_n_1 [label=BV]
+	_the_q -> _family_n_of [label=BV]
+	_understandable_a_1 -> _absence_n_1 [label=ARG1]
+	_long_a_1 -> _absence_n_1 [label=ARG1]
+	poss -> _absence_n_1 [label=ARG1]
+}

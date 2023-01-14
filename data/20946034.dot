@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _lawyer_n_1 [label="ARG2-fn.Name"]
+	compound -> "named(WashingtonDC)" [label=ARG1]
+	proper_q -> "named(Rezneck)" [label=BV]
+	compound -> "named(Washington)" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(WashingtonDC)" [label=BV]
+	"_be_v_id-fn.Name_conferral" -> "named(Rezneck)" [label="ARG1-fn.Entity"]
+	_in_p -> "named(WashingtonDC)" [label=ARG2]
+	compound -> "named(Rezneck)" [label=ARG1]
+	proper_q -> "named(Washington)" [label=BV]
+	_in_p -> _lawyer_n_1 [label=ARG1]
+	_a_q -> _lawyer_n_1 [label=BV]
+}

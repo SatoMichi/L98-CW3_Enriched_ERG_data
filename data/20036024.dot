@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _be_v_id [label=ARG1]
+	udef_q -> _inventory_n_1 [label=BV]
+	"_see_v_1-fn.Grasp" -> pron [label="ARG1-fn.Experiencer"]
+	subord -> _excessive_a_1 [label=ARG2]
+	_any_q -> _sign_n_of [label=BV]
+	_be_v_id -> _inventory_n_1 [label=ARG1]
+	_be_v_id -> _sign_n_of [label=ARG2]
+	neg -> "_see_v_1-fn.Grasp" [label=ARG1]
+	"_see_v_1-fn.Grasp" -> _sign_n_of [label="ARG2-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+}

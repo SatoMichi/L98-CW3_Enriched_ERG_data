@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _few_a_1 [label=ARG1]
+	_few_a_1 -> _stock_n_1 [label=ARG1]
+	parg_d -> "_customize_v_1-fn.Amounting_to" [label=ARG1]
+	_of_p -> _basket_n_1 [label=ARG1]
+	_also_a_1 -> _available_a_1 [label=ARG1]
+	"_customize_v_1-fn.Amounting_to" -> _basket_n_1 [label="ARG2-fn.Attribute"]
+	_available_a_1 -> _basket_n_1 [label=ARG1]
+	_of_p -> _stock_n_1 [label=ARG2]
+	parg_d -> _basket_n_1 [label=ARG2]
+	udef_q -> _basket_n_1 [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+}

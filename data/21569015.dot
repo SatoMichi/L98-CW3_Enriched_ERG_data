@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _coupon_n_1 [label=ARG1]
+	udef_q -> _bond_n_1 [label=BV]
+	udef_q -> _zero_n_1 [label=BV]
+	_deep_a_1 -> _discount_n_1 [label=ARG1]
+	compound -> _discount_n_1 [label=ARG2]
+	"_prefer_v_to-fn.Preference" -> _bond_n_1 [label="ARG2-fn.NotExist"]
+	udef_q -> _discount_n_1 [label=BV]
+	"_prefer_v_to-fn.Preference" -> _other_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _zero_n_1 [label=ARG2]
+	udef_q -> _coupon_n_1 [label=BV]
+	udef_q -> _other_n_1 [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> "_be_v_there-fn.Cause_to_end" [label=ARG2]
+	_against_p -> _law_n_1 [label=ARG1]
+	_against_p -> pron [label=ARG2]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	_no_q -> _law_n_1 [label=BV]
+	_if_x_then -> "_do_v_1-fn.State_continue" [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> _law_n_1 [label="ARG1-fn.Process"]
+}

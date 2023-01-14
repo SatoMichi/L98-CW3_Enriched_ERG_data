@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> "named(White)" [label="ARG2-fn.Name"]
+	"_anti-_a_1" -> "named(White)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(White)" [label=BV]
+	"_be_v_id-fn.Name_conferral" -> pron [label="ARG1-fn.Entity"]
+}

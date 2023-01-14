@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _stock_n_1 [label=BV]
+	"_select_v_1-fn.Choosing" -> _price_n_of [label="ARG2-fn.Theme"]
+	parg_d -> _price_n_of [label=ARG2]
+	_display_v_to -> _price_n_of [label=ARG2]
+	_the_q -> _computer_n_1 [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	"_select_v_1-fn.Choosing" -> _user_n_of [label="ARG1-fn.Agent"]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _user_n_of [label=BV]
+	parg_d -> "_select_v_1-fn.Choosing" [label=ARG1]
+	_display_v_to -> _computer_n_1 [label=ARG1]
+	compound -> _stock_n_1 [label=ARG2]
+}

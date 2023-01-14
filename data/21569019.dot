@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_other_a_1 -> _word_n_of [label=ARG1]
+	udef_q -> _word_n_of [label=BV]
+	"_hurt_v_1-fn.Cause_harm" -> _volatility_n_1 [label="ARG1-fn.NotExist"]
+	_in_p_state -> "_hurt_v_1-fn.Cause_harm" [label=ARG1]
+	_in_p_state -> _word_n_of [label=ARG2]
+	_never_a_1 -> "_hurt_v_1-fn.Cause_harm" [label=ARG1]
+	"_a+little_q" -> _volatility_n_1 [label=BV]
+	focus_d -> _in_p_state [label=ARG2]
+	focus_d -> "_hurt_v_1-fn.Cause_harm" [label=ARG1]
+}

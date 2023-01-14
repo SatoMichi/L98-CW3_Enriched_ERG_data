@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _appall_v_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_pay_v_for -> _money_n_1 [label=ARG2]
+	"_testify_v_to-fn.Evidence" -> pron [label="ARG1-fn.Agent"]
+	compound -> "named(Green)" [label=ARG1]
+	_never_a_1 -> _pay_v_for [label=ARG1]
+	_the_q -> _money_n_1 [label=BV]
+	_pay_v_for -> "named(Green)" [label=ARG1]
+	parg_d -> _appall_v_1 [label=ARG1]
+	subord -> _never_a_1 [label=ARG1]
+	proper_q -> "named(Green)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

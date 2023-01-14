@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _job_n_of [label=BV]
+	_about_x_deg -> "card(3,600)" [label=ARG1]
+	"_call_v_for-fn.Assistance" -> nominalization [label="ARG2-fn.Helper"]
+	udef_q -> _plant_n_1 [label=BV]
+	"card(3,600)" -> _job_n_of [label=ARG1]
+	"_eliminate_v_from-fn.Closure" -> _job_n_of [label="ARG2-fn.Agent"]
+	"card(9)" -> _plant_n_1 [label=ARG1]
+	_the_q -> _plan_n_1 [label=BV]
+	nominalization -> _and_c [label=ARG1]
+	"_call_v_for-fn.Assistance" -> _plan_n_1 [label="ARG1-fn.Benefited_party"]
+	"_close_v_cause-fn.Cause_harm" -> _plant_n_1 [label="ARG2-fn.Victim"]
+	"_at+least_x_deg" -> "card(9)" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

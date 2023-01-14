@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_call_v_1-fn.IN" [label=ARG1]
+	_intensive_a_1 -> thing [label=ARG1]
+	udef_q -> _lawyer_n_1 [label=BV]
+	compound -> _fact_n_1 [label=ARG2]
+	_be_v_id -> pron [label=ARG1]
+	"_call_v_1-fn.IN" -> _intensive_a_1 [label="ARG3-fn.Result"]
+	_be_v_id -> nominalization [label=ARG2]
+	"_call_v_1-fn.IN" -> _lawyer_n_1 [label="ARG1-fn.Agent"]
+	"_call_v_1-fn.IN" -> thing [label="ARG2-fn.Theme"]
+	udef_q -> _fact_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	compound -> _intensive_a_1 [label=ARG1]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

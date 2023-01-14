@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _government_n_of [label=BV]
+	"_drain_v_cause-fn.Emptying" -> _union_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _union_n_of [label=BV]
+	"_drain_v_cause-fn.Emptying" -> pron [label="ARG2-fn.Location"]
+	proper_q -> "named(Pemex)" [label=BV]
+	_while_x -> "_drain_v_cause-fn.Emptying" [label=ARG2]
+	_from_p -> "_drain_v_cause-fn.Emptying" [label=ARG1]
+	"_drain_v_cause-fn.Emptying" -> _government_n_of [label="ARG1-fn.Agent"]
+	"_drain_v_cause-fn.Emptying" -> "named(Pemex)" [label="ARG2-fn.Location"]
+	_above_p -> _from_p [label=ARG1]
+	_below_p -> _from_p [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

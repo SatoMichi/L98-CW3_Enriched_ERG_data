@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Angelo)" [label=BV]
+	compound -> "named(Angelo)" [label=ARG1]
+	_to_p -> _consultant_n_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_a_q -> _consultant_n_1 [label=BV]
+	_to_p -> "named(Oasis)" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_in_p -> _filing_n_1 [label=ARG2]
+	"_describe_v_as-fn.Have_as_requirement" -> _consultant_n_1 [label="ARG3-fn.Degree"]
+	_the_q -> _filing_n_1 [label=BV]
+	proper_q -> "named(Oasis)" [label=BV]
+	_in_p -> "_describe_v_as-fn.Have_as_requirement" [label=ARG1]
+	parg_d -> "named(Angelo)" [label=ARG2]
+	parg_d -> "_describe_v_as-fn.Have_as_requirement" [label=ARG1]
+	"_describe_v_as-fn.Have_as_requirement" -> "named(Angelo)" [label="ARG2-fn.Requirement"]
+}

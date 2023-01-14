@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_since_x_subord -> _settle_v_1 [label=ARG2]
+	_over_p -> _time_n_of [label=ARG2]
+	_first_a_1 -> _settle_v_1 [label=ARG1]
+	_the_q -> _claim_n_of [label=BV]
+	_over_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> _average_n_of [label=BV]
+	superl -> _expensive_a_1 [label=ARG1]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> _average_n_of [label="ARG1-fn.NotExist"]
+	_settle_v_1 -> _claim_n_of [label=ARG2]
+	udef_q -> _time_n_of [label=BV]
+	_should_v_modal -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_expensive_a_1 -> _claim_n_of [label=ARG1]
+	_since_x_subord -> _should_v_modal [label=ARG1]
+	parg_d -> _settle_v_1 [label=ARG1]
+	parg_d -> _claim_n_of [label=ARG2]
+}

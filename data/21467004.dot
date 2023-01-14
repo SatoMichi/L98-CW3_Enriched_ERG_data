@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _syndicate_n_1 [label=BV]
+	compound -> "named(Morgan)" [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Morgan)" [label=BV]
+	proper_q -> "named(Toronto)" [label=BV]
+	proper_q -> "named(Provident)" [label=BV]
+	"_lead_v_1-fn.Competition" -> _syndicate_n_1 [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Dominion)" [label=BV]
+	compound -> "named(Toronto)" [label=ARG2]
+	"_lead_v_1-fn.Competition" -> _and_c [label="ARG1-fn.Participant_1"]
+	compound -> "named(Dominion)" [label=ARG1]
+}

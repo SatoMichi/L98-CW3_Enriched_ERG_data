@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_ill_a_1 -> _people_n_of [label=ARG1]
+	_mental_a_1 -> _ill_a_1 [label=ARG1]
+	"_become_v_id-fn.Cause_to_end" -> _and_c [label="ARG1-fn.Process"]
+	udef_q -> _and_c [label=BV]
+	"_become_v_id-fn.Cause_to_end" -> _homeless_a_1 [label="ARG2-fn.Means"]
+	_clear_a_of -> neg [label=ARG1]
+	_most_q -> _people_n_of [label=BV]
+	_most_q -> _alcoholic_n_1 [label=BV]
+	neg -> "_become_v_id-fn.Cause_to_end" [label=ARG1]
+	_homeless_a_1 -> _and_c [label=ARG1]
+}

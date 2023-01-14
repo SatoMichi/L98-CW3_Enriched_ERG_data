@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _angle_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> _angle_n_1 [label="ARG1-fn.Process"]
+	def_explicit_q -> _angle_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	which_q -> thing [label=BV]
+}

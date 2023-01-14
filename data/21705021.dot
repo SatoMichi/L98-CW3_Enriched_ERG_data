@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _tea_n_1 [label=ARG2]
+	udef_q -> "named(Texans)" [label=BV]
+	"_drink_v_1-fn.Ingestion" -> _tea_n_1 [label="ARG2-fn.Patient"]
+	compound -> _tea_n_1 [label=ARG1]
+	_ice_v_cause -> _tea_n_1 [label=ARG2]
+	compound -> "named(Lipton)" [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	_another_q -> "_thing_n_of-about" [label=BV]
+	udef_q -> _tea_n_1 [label=BV]
+	"_drink_v_1-fn.Ingestion" -> "named(Texans)" [label="ARG1-fn.Agent"]
+	parg_d -> _ice_v_cause [label=ARG1]
+	proper_q -> "named(Lipton)" [label=BV]
+	unknown -> generic_entity [label=ARG]
+	_real_a_1 -> "named(Texans)" [label=ARG1]
+}

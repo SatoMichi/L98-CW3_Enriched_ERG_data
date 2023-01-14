@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_1-fn.Competition" -> _investor_n_1 [label="ARG1-fn.Participant_1"]
+	_a_q -> _pass_n_1 [label=BV]
+	_for_p -> _investor_n_1 [label=ARG1]
+	"_take_v_1-fn.Competition" -> _pass_n_1 [label="ARG2-fn.Participant_2"]
+	_for_p -> time_n [label=ARG2]
+	udef_q -> _investor_n_1 [label=BV]
+	_now_a_1 -> time_n [label=ARG1]
+	"_at+least_x_deg" -> _for_p [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+}

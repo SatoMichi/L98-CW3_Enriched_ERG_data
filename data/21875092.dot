@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_stalwart_a_1 -> _socialist_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> _socialist_n_1 [label="ARG2-fn.Location"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _socialist_n_1 [label=BV]
+}

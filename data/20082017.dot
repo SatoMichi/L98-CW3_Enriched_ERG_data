@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fail_v_1-fn.IN" -> "_gain_v_1-fn.Getting" [label="ARG1-fn.NotExist"]
+	_at_p -> _company_n_of [label=ARG2]
+	_at_p -> "_gain_v_1-fn.Getting" [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	"_gain_v_1-fn.Getting" -> _influence_n_1 [label="ARG2-fn.Theme"]
+	_any_q -> _influence_n_1 [label=BV]
+	"_gain_v_1-fn.Getting" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

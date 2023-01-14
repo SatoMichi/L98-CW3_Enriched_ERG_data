@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _director_n_of [label=BV]
+	_as_p -> _director_n_of [label=ARG2]
+	"_continue_v_1-fn.Activity_ongoing" -> pron [label="ARG1-fn.NotExist"]
+	_as_p -> "_continue_v_1-fn.Activity_ongoing" [label=ARG1]
+}

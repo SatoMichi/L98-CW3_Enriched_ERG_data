@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_would_v_modal-fn.Cause_to_end" [label=ARG2]
+	"_like_v_1-fn.Eclipse" -> pron [label="ARG1-fn.Obstruction"]
+	focus_d -> "_say_v_to-fn.Surpassing" [label=ARG1]
+	proper_q -> "named(America)" [label=BV]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	udef_q -> _business_n_1 [label=BV]
+	"_do_v_1-fn.Piracy" -> _business_n_1 [label="ARG2-fn.Vehicle"]
+	_in_p -> "named(America)" [label=ARG2]
+	"_like_v_1-fn.Eclipse" -> "_do_v_1-fn.Piracy" [label="ARG2-fn.Eclipsed"]
+	"_would_v_modal-fn.Cause_to_end" -> "_like_v_1-fn.Eclipse" [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	_in_p -> "_do_v_1-fn.Piracy" [label=ARG1]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+	"_say_v_to-fn.Surpassing" -> "_would_v_modal-fn.Cause_to_end" [label="ARG2-fn.Profiled_item"]
+}

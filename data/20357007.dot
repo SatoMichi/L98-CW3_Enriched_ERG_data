@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _bid_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	compound -> _company_n_of [label=ARG2]
+	udef_q -> _company_n_of [label=BV]
+	_social_a_1 -> _acceptable_a_for [label=ARG1]
+	focus_d -> _acceptable_a_for [label=ARG2]
+	"_say_v_to-fn.IN" -> "_spokeswoman/nn_u_unknown" [label="ARG1-fn.Agent"]
+	compound -> "_spokeswoman/nn_u_unknown" [label=ARG1]
+	_a_q -> "_spokeswoman/nn_u_unknown" [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	neg -> _acceptable_a_for [label=ARG1]
+	_acceptable_a_for -> _bid_n_1 [label=ARG1]
+}

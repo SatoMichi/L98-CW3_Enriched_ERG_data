@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_just_a_1 -> _and_c [label=ARG1]
+	_back_p -> place_n [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	comp_equal -> _usual_a_1 [label=ARG1]
+	udef_q -> _business_n_1 [label=BV]
+	def_implicit_q -> place_n [label=BV]
+	_to_p -> place_n [label=ARG1]
+	_usual_a_1 -> _business_n_1 [label=ARG1]
+	"_get_v_state-fn.Cause_to_end" -> loc_nonsp [label="ARG2-fn.Means"]
+	"_get_v_state-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	loc_nonsp -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_to_p -> _business_n_1 [label=ARG2]
+	"_recover_v_1-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

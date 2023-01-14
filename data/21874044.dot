@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _low_a_1 [label=ARG2]
+	subord -> "_end_v_1-fn.Process_start" [label=ARG1]
+	compound -> _grade_n_1 [label=ARG1]
+	_corporate_a_1 -> _bond_n_1 [label=ARG1]
+	comp -> _low_a_1 [label=ARG1]
+	"_end_v_1-fn.Process_start" -> _bond_n_1 [label="ARG1-fn.Event"]
+	udef_q -> _bond_n_1 [label=BV]
+	measure -> _point_n_of [label=ARG2]
+	udef_q -> _point_n_of [label=BV]
+	"fraction(1/4)" -> _point_n_of [label=ARG1]
+	compound -> _investment_n_1 [label=ARG2]
+	udef_q -> _grade_n_1 [label=BV]
+	udef_q -> _investment_n_1 [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+	measure -> comp [label=ARG1]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _dividend_n_1 [label=ARG2]
+	udef_q -> _dividend_n_1 [label=BV]
+	"_re-_a_again" -> "_invest_v_1-fn.Competition" [label=ARG1]
+	_with_p -> _dividend_n_1 [label=ARG2]
+	parg_d -> "_invest_v_1-fn.Competition" [label=ARG1]
+	_with_p -> unknown [label=ARG1]
+	"_invest_v_1-fn.Competition" -> _dividend_n_1 [label="ARG2-fn.Participant_2"]
+}

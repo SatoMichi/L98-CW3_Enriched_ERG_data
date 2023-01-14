@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _place_n_of [label=BV]
+	"_no+doubt_a_1" -> "_believe_v_1-fn.Awareness" [label=ARG1]
+	_can_v_modal -> "_salvage_v_1-fn.NF" [label=ARG1]
+	"_salvage_v_1-fn.NF" -> _place_n_of [label="ARG2-fn.Theme"]
+	parg_d -> "_salvage_v_1-fn.NF" [label=ARG1]
+	"_believe_v_1-fn.Awareness" -> pron [label="ARG1-fn.NotExist"]
+	"_believe_v_1-fn.Awareness" -> _can_v_modal [label="ARG2-fn.NotExist"]
+	parg_d -> _place_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

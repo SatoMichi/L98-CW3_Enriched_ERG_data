@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _service_n_1 [label=BV]
+	udef_q -> _product_n_1 [label=BV]
+	compound -> _food_n_1 [label=ARG2]
+	"_market_v_1-fn.Commerce_buy" -> _product_n_1 [label="ARG2-fn.Goods"]
+	udef_q -> _food_n_1 [label=BV]
+	_for_p -> _product_n_1 [label=ARG1]
+	compound -> _service_n_1 [label=ARG1]
+	"_develop_v_cause-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+	"_market_v_1-fn.Commerce_buy" -> _company_n_of [label="ARG1-fn.Buyer"]
+	compound -> _industry_n_1 [label=ARG1]
+	_the_q -> _industry_n_1 [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_for_p -> _industry_n_1 [label=ARG2]
+	"_develop_v_cause-fn.Cause_to_end" -> _product_n_1 [label="ARG2-fn.Means"]
+}

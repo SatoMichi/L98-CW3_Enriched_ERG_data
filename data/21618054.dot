@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _edge_n_of [label=BV]
+	poss -> _edge_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	_lost_a_1 -> _edge_n_of [label=ARG1]
+	_still_a_1 -> _lost_a_1 [label=ARG1]
+	focus_d -> _lost_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

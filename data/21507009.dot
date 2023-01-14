@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_handle_v_1-fn.Rite" -> _regulator_n_1 [label="ARG1-fn.Leader"]
+	_such_q -> _operation_n_of [label=BV]
+	_just_x_deg -> _as_x_subord [label=ARG1]
+	_as_x_subord -> "_retire_v_1-fn.Competition" [label=ARG2]
+	"_handle_v_1-fn.Rite" -> _operation_n_of [label="ARG2-fn.Member"]
+	_as_x_subord -> "_arrive_v_1-fn.Competition" [label=ARG1]
+	"_retire_v_1-fn.Competition" -> _regulator_n_1 [label="ARG1-fn.Participant_1"]
+	"_arrive_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _regulator_n_1 [label=BV]
+}

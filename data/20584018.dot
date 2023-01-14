@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_continue_v_2-fn.State_continue" -> "_call_v_for-fn.State_continue" [label="ARG1-fn.Entity"]
+	_over_p_state -> _weekend_n_of [label=ARG2]
+	proper_q -> "named(McCaw)" [label=BV]
+	_a_q -> _auction_n_of [label=BV]
+	focus_d -> "_continue_v_2-fn.State_continue" [label=ARG1]
+	"_call_v_for-fn.State_continue" -> "named(McCaw)" [label="ARG1-fn.Entity"]
+	"_call_v_for-fn.State_continue" -> _auction_n_of [label="ARG2-fn.State"]
+	_the_q -> _weekend_n_of [label=BV]
+	_auction_n_of -> "named(Lin)" [label=ARG1]
+	_over_p_state -> "_continue_v_2-fn.State_continue" [label=ARG1]
+	proper_q -> "named(Lin)" [label=BV]
+	focus_d -> _over_p_state [label=ARG2]
+}

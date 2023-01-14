@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_automatic_a_1 -> "_expire_v_1-fn.Death" [label=ARG1]
+	parg_d -> "_continue_v_2-fn.Activity_ongoing" [label=ARG1]
+	_after_p -> _year_n_1 [label=ARG2]
+	_after_p -> "_expire_v_1-fn.Death" [label=ARG1]
+	udef_q -> _year_n_1 [label=BV]
+	_of_p -> _vote_n_1 [label=ARG1]
+	_this_q_dem -> _pill_n_1 [label=BV]
+	_unless_x -> "_continue_v_2-fn.Activity_ongoing" [label=ARG2]
+	_of_p -> _shareholder_n_1 [label=ARG2]
+	_the_q -> _shareholder_n_1 [label=BV]
+	"_continue_v_2-fn.Activity_ongoing" -> _vote_n_1 [label="ARG1-fn.NotExist"]
+	"card(3)" -> _year_n_1 [label=ARG1]
+	"_expire_v_1-fn.Death" -> _pill_n_1 [label="ARG1-fn.NotExist"]
+	_a_q -> _vote_n_1 [label=BV]
+	_unless_x -> "_expire_v_1-fn.Death" [label=ARG1]
+}

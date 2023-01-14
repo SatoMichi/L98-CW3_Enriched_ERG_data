@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_measure_v_1-fn.Dimension" [label=ARG1]
+	compound -> _flow_n_of [label=ARG1]
+	_now_a_1 -> _experiment_v_with [label=ARG1]
+	_experiment_v_with -> nominalization [label=ARG2]
+	_experiment_v_with -> pron [label=ARG1]
+	udef_q -> _flow_n_of [label=BV]
+	udef_q -> _blood_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	"_measure_v_1-fn.Dimension" -> _flow_n_of [label="ARG2-fn.Theme"]
+	compound -> _blood_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

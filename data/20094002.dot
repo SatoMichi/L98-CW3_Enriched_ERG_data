@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_japanese_a_1 -> _company_n_of [label=ARG1]
+	_should_v_modal -> "_know_v_1-fn.IN" [label=ARG1]
+	_better_a_1 -> "_know_v_1-fn.IN" [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_industrial_a_1 -> _company_n_of [label=ARG1]
+	"_know_v_1-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+}

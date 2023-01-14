@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _diversification_n_1 [label=ARG2]
+	compound -> "named(Bloch)" [label=ARG1]
+	"_concede_v_to-fn.Quitting" -> "_fall_v_1-fn.Halt" [label="ARG2-fn.Employer"]
+	_a_q -> _attempt_n_1 [label=BV]
+	"_concede_v_to-fn.Quitting" -> "named(Bloch)" [label="ARG1-fn.Employee"]
+	_through_p_dir -> "_fall_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _diversification_n_1 [label=BV]
+	proper_q -> "named(Bloch)" [label=BV]
+	"_fall_v_1-fn.Halt" -> _attempt_n_1 [label="ARG1-fn.Purpose"]
+	compound -> _attempt_n_1 [label=ARG1]
+	_recent_a_1 -> _attempt_n_1 [label=ARG1]
+}

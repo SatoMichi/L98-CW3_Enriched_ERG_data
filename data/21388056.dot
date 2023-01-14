@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_humble_v_1-fn.NF" -> pron [label="ARG2-fn.Experiencer"]
+	parg_d -> "_humble_v_1-fn.NF" [label=ARG1]
+	"_play_v_1-fn.Cause_to_make_noise" -> pron [label="ARG2-fn.Theme"]
+	parg_d -> "_play_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	_even_x_deg -> _when_x_subord [label=ARG1]
+	"_humble_v_1-fn.NF" -> _piece_n_of [label="ARG1-fn.Stimulus"]
+	_the_q -> _piece_n_of [label=BV]
+	_still_a_1 -> "_humble_v_1-fn.NF" [label=ARG1]
+	_when_x_subord -> "_hear_v_1-fn.IN" [label=ARG2]
+	_when_x_subord -> "_humble_v_1-fn.NF" [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	"_hear_v_1-fn.IN" -> pron [label="ARG2-fn.NotExist"]
+	_bad_a_1 -> "_play_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	"_hear_v_1-fn.IN" -> "_play_v_1-fn.Cause_to_make_noise" [label="ARG3-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

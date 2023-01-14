@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> "named(Trust)" [label="ARG2-fn.Means"]
+	_such_a_1 -> _company_n_of [label=ARG1]
+	proper_q -> "named(Trust)" [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	compound -> "named(Bankers)" [label=ARG2]
+	compound -> _company_n_1 [label=ARG2]
+	"card(1)" -> _company_n_of [label=ARG1]
+	compound -> "named(Trust)" [label=ARG1]
+	udef_q -> _company_n_1 [label=BV]
+	proper_q -> "named(Bankers)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+}

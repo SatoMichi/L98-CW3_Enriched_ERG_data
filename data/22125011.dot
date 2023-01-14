@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_harder_a_for -> "_do_v_1-fn.Competition" [label=ARG1]
+	_when_x_subord -> _harder_a_for [label=ARG1]
+	_when_x_subord -> _crazy_a_1 [label=ARG2]
+	_crazy_a_1 -> _price_n_of [label=ARG1]
+	_even_a_1 -> _harder_a_for [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	_a_q -> "_lbo/nn_u_unknown" [label=BV]
+	"_do_v_1-fn.Competition" -> "_lbo/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+}

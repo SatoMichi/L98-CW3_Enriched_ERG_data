@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_thus_a_1 -> "_bear_v_2-fn.Experiencer_obj" [label=ARG1]
+	_the_q -> _jury_n_1 [label=BV]
+	udef_q -> _shadow_n_1 [label=BV]
+	compound -> _jury_n_1 [label=ARG1]
+	compound -> _shadow_n_1 [label=ARG2]
+	parg_d -> "_bear_v_2-fn.Experiencer_obj" [label=ARG1]
+	"_bear_v_2-fn.Experiencer_obj" -> _jury_n_1 [label="ARG2-fn.Stimulus"]
+	parg_d -> _jury_n_1 [label=ARG2]
+}

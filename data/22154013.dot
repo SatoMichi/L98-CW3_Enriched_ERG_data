@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_could_v_modal-fn.Cause_to_end" -> "_triple_v_cause-fn.Cause_to_end" [label="ARG1-fn.Process"]
+	parg_d -> _damages_n_1 [label=ARG2]
+	parg_d -> "_triple_v_cause-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _damages_n_1 [label=BV]
+	"_triple_v_cause-fn.Cause_to_end" -> _damages_n_1 [label="ARG2-fn.Means"]
+	_if_x_then -> "_could_v_modal-fn.Cause_to_end" [label=ARG1]
+	_if_x_then -> ellipsis [label=ARG2]
+}

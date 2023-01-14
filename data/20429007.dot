@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _day_n_of [label=ARG2]
+	"_expire_v_1-fn.Death" -> _period_n_of [label="ARG1-fn.NotExist"]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	udef_q -> _day_n_of [label=BV]
+	"card(120-)" -> _day_n_of [label=ARG1]
+	compound -> _period_n_of [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	udef_q -> "_exclusivity/nn_u_unknown" [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	compound -> "_exclusivity/nn_u_unknown" [label=ARG2]
+	eventuality -> "_expire_v_1-fn.Death" [label=ARG1]
+	loc_nonsp -> "_expire_v_1-fn.Death" [label=ARG1]
+	_the_q -> _period_n_of [label=BV]
+}

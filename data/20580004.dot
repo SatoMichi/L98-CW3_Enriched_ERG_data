@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	proper_q -> "yofc(1987)" [label=BV]
+	_federal_a_1 -> _deficit_n_of [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	_in_p_temp -> _dollar_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	_in_p_temp -> "yofc(1987)" [label=ARG2]
+	times -> "card(155.15)" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _deficit_n_of [label="ARG1-fn.Entity"]
+	_the_q -> _deficit_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _and_c [label="ARG2-fn.Name"]
+	proper_q -> "yofc(1988)" [label=BV]
+	times -> "card(149.69)" [label=ARG2]
+	_in_p_temp -> "yofc(1988)" [label=ARG2]
+}

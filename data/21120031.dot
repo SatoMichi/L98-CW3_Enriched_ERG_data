@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_bureaucratic_a_1 -> _country_n_of [label=ARG1]
+	_a_q -> _country_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _country_n_of [label="ARG2-fn.Name"]
+	"_be_v_id-fn.Name_conferral" -> pron [label="ARG1-fn.Entity"]
+}

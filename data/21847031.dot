@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _gang_n_of [label=ARG1]
+	"_turn_v_into-fn.Cause_change" -> _gang_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _rival_n_1 [label=BV]
+	udef_q -> _zone_n_of [label=BV]
+	compound -> _combat_n_1 [label=ARG2]
+	"_turn_v_into-fn.Cause_change" -> _zone_n_of [label="ARG3-fn.Goal"]
+	udef_q -> _combat_n_1 [label=BV]
+	"_turn_v_into-fn.Cause_change" -> _city_n_1 [label="ARG2-fn.Patient"]
+	compound -> _zone_n_of [label=ARG1]
+	udef_q -> _city_n_1 [label=BV]
+	udef_q -> _gang_n_of [label=BV]
+	compound -> _rival_n_1 [label=ARG2]
+}

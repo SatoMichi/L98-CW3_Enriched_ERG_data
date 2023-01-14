@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_clear_a_of -> _title_n_of [label=ARG1]
+	_the_q -> _title_n_of [label=BV]
+	_not_x_deg -> _the_q [label=ARG1]
+	_very_x_deg -> _clear_a_of [label=ARG1]
+}

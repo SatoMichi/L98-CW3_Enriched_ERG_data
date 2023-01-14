@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_out+of_p" -> _program_n_of [label=ARG2]
+	_in_p_temp -> "mofy(Jul)" [label=ARG2]
+	proper_q -> "named(China)" [label=BV]
+	proper_q -> "mofy(Jul)" [label=BV]
+	"_pull_v_1-fn.Halt" -> "named(China)" [label="ARG1-fn.Purpose"]
+	_the_q -> _program_n_of [label=BV]
+	_in_p_temp -> _program_n_of [label=ARG1]
+	"_out+of_p" -> "_pull_v_1-fn.Halt" [label=ARG1]
+}

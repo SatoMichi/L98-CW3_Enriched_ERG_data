@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _would_v_modal [label="ARG2-fn.Topic"]
+	ellipsis_ref -> "named_n(US)" [label=ARG1]
+	"_say_v_to-fn.IN" -> "named_n(US)" [label="ARG1-fn.Agent"]
+	_full_a_of -> "_support_v_1-fn.Taking_sides" [label=ARG1]
+	"_support_v_1-fn.Taking_sides" -> pron [label="ARG1-fn.Experiencer"]
+	_the_q -> _resistance_n_to [label=BV]
+	_would_v_modal -> "_support_v_1-fn.Taking_sides" [label=ARG1]
+	_the_q -> "named_n(US)" [label=BV]
+	"_support_v_1-fn.Taking_sides" -> _resistance_n_to [label="ARG2-fn.Stimulus"]
+	neg -> ellipsis_ref [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_within_p -> _legendary_a_1 [label=ARG1]
+	"_become_v_id-fn.Cause_to_end" -> _caution_n_1 [label="ARG1-fn.Process"]
+	_legendary_a_1 -> _caution_n_1 [label=ARG1]
+	"_become_v_id-fn.Cause_to_end" -> _legendary_a_1 [label="ARG2-fn.Means"]
+	poss -> _caution_n_1 [label=ARG1]
+	def_explicit_q -> _caution_n_1 [label=BV]
+	_within_p -> _government_n_of [label=ARG2]
+	_indeed_a_1 -> "_become_v_id-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _government_n_of [label=BV]
+	poss -> pron [label=ARG2]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Mixte)" [label=ARG1]
+	compound -> "named(Navigation)" [label=ARG2]
+	"card(50)" -> _percent_n_of [label=ARG1]
+	proper_q -> "named(Navigation)" [label=BV]
+	"_hold_v_1-fn.Manipulation" -> _percent_n_of [label="ARG2-fn.Theme"]
+	_remaining_a_1 -> _percent_n_of [label=ARG1]
+	"_hold_v_1-fn.Manipulation" -> "named(Mixte)" [label="ARG1-fn.Agent"]
+	_the_q -> _percent_n_of [label=BV]
+	proper_q -> "named(Mixte)" [label=BV]
+}

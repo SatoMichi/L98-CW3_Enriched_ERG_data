@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Business)" [label=BV]
+	compound -> "named(Business)" [label=ARG1]
+	proper_q -> "named(International)" [label=BV]
+	_to_p -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "fraction(7/8)" [label=ARG3]
+	_to_p -> "card(99)" [label=ARG2]
+	number_q -> "card(99)" [label=BV]
+	"_drop_v_1-fn.Change_position_on_a_scale" -> "named(Machines)" [label="ARG1-fn.Attribute"]
+	compound -> "named(Machines)" [label=ARG1]
+	proper_q -> "named(Machines)" [label=BV]
+	plus -> "card(99)" [label=ARG2]
+	loc_nonsp -> "_drop_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> "named(International)" [label=ARG2]
+}

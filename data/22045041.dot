@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _professional_n_1 [label=ARG2]
+	_in_p -> _trade_n_of [label=ARG2]
+	"_cause_v_1-fn.Causation" -> _surprise_n_1 [label="ARG2-fn.Theme"]
+	focus_d -> "_cause_v_1-fn.Causation" [label=ARG1]
+	_the_q -> _trade_n_of [label=BV]
+	"much-many_a" -> _surprise_n_1 [label=ARG1]
+	"_cause_v_1-fn.Causation" -> pron [label="ARG1-fn.Cause"]
+	_the_q -> _professional_n_1 [label=BV]
+	"_cause_v_1-fn.Causation" -> _professional_n_1 [label="ARG3-fn.NotExist"]
+	udef_q -> _surprise_n_1 [label=BV]
+	neg -> "_cause_v_1-fn.Causation" [label=ARG1]
+	_in_p -> _professional_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

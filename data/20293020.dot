@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _law_n_1 [label=ARG1]
+	udef_q -> _right_n_1 [label=BV]
+	_a_q -> _law_n_1 [label=BV]
+	proper_q -> "named(California)" [label=BV]
+	_in_p_temp -> "_enact_v_1-fn.Activity_ongoing" [label=ARG1]
+	compound -> _right_n_1 [label=ARG2]
+	proper_q -> "yofc(1988)" [label=BV]
+	"_enact_v_1-fn.Activity_ongoing" -> _law_n_1 [label="ARG2-fn.Activity"]
+	"_enact_v_1-fn.Activity_ongoing" -> "named(California)" [label="ARG1-fn.Duration"]
+	_in_p_temp -> "yofc(1988)" [label=ARG2]
+}

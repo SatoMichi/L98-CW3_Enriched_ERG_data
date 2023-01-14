@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	"_expect_v_1-fn.IN" -> _and_c [label="ARG2-fn.Theme"]
+	"card(2)" -> _and_c [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	_both_q -> _and_c [label=BV]
+	"_in+order+to_x" -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	"_in+order+to_x" -> "_expect_v_1-fn.IN" [label=ARG1]
+	udef_q -> _profit_n_1 [label=BV]
+	loc_nonsp -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	_this_q_dem -> _year_n_1 [label=BV]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

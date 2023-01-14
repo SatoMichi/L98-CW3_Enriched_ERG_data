@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _spokesman_n_1 [label=ARG1]
+	proper_q -> "named(Wakeman)" [label=BV]
+	poss -> "named(Wakeman)" [label=ARG2]
+	compound -> "named(Wakeman)" [label=ARG1]
+	neg -> "_know_v_1-fn.IN" [label=ARG1]
+	compound -> _company_n_of [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+	poss -> _age_n_1 [label=ARG1]
+	udef_q -> _company_n_of [label=BV]
+	"_know_v_1-fn.IN" -> _age_n_1 [label="ARG2-fn.Theme"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_know_v_1-fn.IN" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	def_explicit_q -> _age_n_1 [label=BV]
+}

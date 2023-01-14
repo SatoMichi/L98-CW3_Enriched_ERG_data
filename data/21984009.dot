@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _theater_n_1 [label=ARG2]
+	_of_p -> _metaphor_n_1 [label=ARG1]
+	_entire_a_1 -> "_coincidental/jj_u_unknown" [label=ARG1]
+	_the_q -> _metaphor_n_1 [label=BV]
+	neg -> "_coincidental/jj_u_unknown" [label=ARG1]
+	"_coincidental/jj_u_unknown" -> _metaphor_n_1 [label=ARG1]
+	udef_q -> _theater_n_1 [label=BV]
+}

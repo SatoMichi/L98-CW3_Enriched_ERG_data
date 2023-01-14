@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lean_v_towards-fn.Posture" -> _remainder_n_of [label="ARG1-fn.NotExist"]
+	"_precariously/rb_u_unknown" -> "_lean_v_towards-fn.Posture" [label=ARG1]
+	_against_p_dir -> "_lean_v_towards-fn.Posture" [label=ARG1]
+	_the_q -> _house_n_of [label=BV]
+	compound -> _oak_n_1 [label=ARG2]
+	_sturdy_a_1 -> _tree_n_of [label=ARG1]
+	compound -> _tree_n_of [label=ARG1]
+	_a_q -> _tree_n_of [label=BV]
+	_against_p_dir -> _tree_n_of [label=ARG2]
+	_remainder_n_of -> _house_n_of [label=ARG1]
+	udef_q -> _oak_n_1 [label=BV]
+	_the_q -> _remainder_n_of [label=BV]
+}

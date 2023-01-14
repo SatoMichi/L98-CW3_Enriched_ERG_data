@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_all_q -> part_of [label=BV]
+	_black_a_1 -> "named(Africa)" [label=ARG1]
+	_in_p -> part_of [label=ARG2]
+	udef_q -> _politics_n_1 [label=BV]
+	part_of -> "named(Africa)" [label=ARG1]
+	proper_q -> "named(Africa)" [label=BV]
+	"_be_v_id-fn.Cotheme" -> _politics_n_1 [label="ARG1-fn.Theme"]
+	"_the+most_q" -> generic_entity [label=BV]
+	"_byzantine/jj_u_unknown" -> generic_entity [label=ARG1]
+	_sophisticated_a_1 -> generic_entity [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> generic_entity [label="ARG2-fn.Cotheme"]
+	"_secretive/jj_u_unknown" -> generic_entity [label=ARG1]
+	_in_p -> implicit_conj [label=ARG1]
+	"_ethiopian/jj_u_unknown" -> _politics_n_1 [label=ARG1]
+}

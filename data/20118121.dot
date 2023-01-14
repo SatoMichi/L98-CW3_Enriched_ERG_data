@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Jihad)" [label=ARG1]
+	proper_q -> "named(Jihad)" [label=BV]
+	udef_q -> "named(Fundamentalists)" [label=BV]
+	unknown -> "named(Jihad)" [label=ARG]
+	compound -> "named(Fundamentalists)" [label=ARG2]
+}

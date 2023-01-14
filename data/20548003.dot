@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Warren)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_remain_v_1-fn.State_continue" -> "named(Warren)" [label="ARG1-fn.NotExist"]
+	"_remain_v_1-fn.State_continue" -> _on_p [label="ARG2-fn.Theme"]
+	poss -> _board_n_of [label=ARG1]
+	def_explicit_q -> _board_n_of [label=BV]
+	poss -> _company_n_of [label=ARG2]
+	_on_p -> _board_n_of [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	proper_q -> "named(Warren)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_on_p -> "named(Warren)" [label=ARG1]
+}

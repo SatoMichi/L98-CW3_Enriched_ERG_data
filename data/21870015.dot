@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _telephone_n_1 [label=ARG2]
+	udef_q -> _telephone_n_1 [label=BV]
+	udef_q -> _line_n_of [label=BV]
+	"_snap_v_1-fn.Halt" -> _line_n_of [label="ARG1-fn.Purpose"]
+	compound -> _line_n_of [label=ARG1]
+	"little-few_a" -> _line_n_of [label=ARG1]
+}

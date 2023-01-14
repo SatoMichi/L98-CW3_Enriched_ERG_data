@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(3.45)" [label=BV]
+	_down_p -> "_finish_v_1-fn.Competition" [label=ARG1]
+	_at_p -> "_finish_v_1-fn.Competition" [label=ARG1]
+	_down_p -> "card(3.45)" [label=ARG2]
+	_at_p -> "card(467.22)" [label=ARG2]
+	"_finish_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	number_q -> "card(467.22)" [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _suspect_n_1 [label=BV]
+	"_find_v_mental-fn.Needing" -> _but_x [label="ARG2-fn.Requirement"]
+	"_different_a_than-from" -> _crime_n_1 [label=ARG1]
+	neg -> _guilty_a_of [label=ARG1]
+	_but_x -> _of_p [label=ARG2]
+	_usual_a_1 -> _suspect_n_1 [label=ARG1]
+	_but_x -> _then_c [label=ARG1]
+	parg_d -> "_find_v_mental-fn.Needing" [label=ARG1]
+	_of_p -> _crime_n_1 [label=ARG2]
+	comp -> "_different_a_than-from" [label=ARG1]
+	_guilty_a_of -> _suspect_n_1 [label=ARG1]
+	_a_q -> _crime_n_1 [label=BV]
+	parg_d -> _suspect_n_1 [label=ARG2]
+}

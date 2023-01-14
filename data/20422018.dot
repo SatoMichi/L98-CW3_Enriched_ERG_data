@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_this_q_dem -> _month_n_1 [label=BV]
+	"_continue_v_1-fn.Process_continue" -> _withdrawal_n_of [label="ARG1-fn.NotExist"]
+	_from_p -> _withdrawal_n_of [label=ARG1]
+	compound -> _junk_n_1 [label=ARG2]
+	udef_q -> _withdrawal_n_of [label=BV]
+	_big_a_1 -> _withdrawal_n_of [label=ARG1]
+	loc_nonsp -> "_continue_v_1-fn.Process_continue" [label=ARG1]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	_from_p -> _fund_n_1 [label=ARG2]
+	_the_q -> _fund_n_1 [label=BV]
+	compound -> _fund_n_1 [label=ARG1]
+	udef_q -> _junk_n_1 [label=BV]
+}

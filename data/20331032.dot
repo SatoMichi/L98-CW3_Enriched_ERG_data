@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_classify_v_as-fn.Amounting_to" -> _report_n_of [label="ARG1-fn.Value"]
+	poss -> pron [label=ARG2]
+	"_classify_v_as-fn.Amounting_to" -> _stock_n_1 [label="ARG2-fn.Attribute"]
+	poss -> _report_n_of [label=ARG1]
+	"_classify_v_as-fn.Amounting_to" -> _hold_n_of [label="ARG3-fn.Time_span"]
+	_recent_a_1 -> _report_n_of [label=ARG1]
+	_a_q -> _hold_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _report_n_of [label=BV]
+	_the_q -> _stock_n_1 [label=BV]
+}

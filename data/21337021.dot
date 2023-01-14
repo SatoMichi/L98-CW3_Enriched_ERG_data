@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(4,440)" [label=BV]
+	number_q -> "card(40)" [label=BV]
+	_to_p -> "card(4,440)" [label=ARG2]
+	proper_q -> "named(Mochida)" [label=BV]
+	loc_nonsp -> "card(40)" [label=ARG2]
+	loc_nonsp -> "_advance_v_1-fn.Cause_to_end" [label=ARG1]
+	"_advance_v_1-fn.Cause_to_end" -> "named(Mochida)" [label="ARG1-fn.Process"]
+	_to_p -> "_advance_v_1-fn.Cause_to_end" [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(God)" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	def_explicit_q -> "named(God)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_know_v_1-fn.State_continue" -> _and_c [label="ARG2-fn.State"]
+	_correct_a_1 -> pron [label=ARG1]
+	poss -> pron [label=ARG2]
+	_innocent_a_1 -> pron [label=ARG1]
+}

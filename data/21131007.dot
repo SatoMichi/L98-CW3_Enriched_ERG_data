@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_recent_a_1 -> _event_n_item [label=ARG1]
+	udef_q -> _credit_n_1 [label=BV]
+	udef_q -> _event_n_item [label=BV]
+	udef_q -> _control_n_of [label=BV]
+	"_indicate_v_1-fn.Evidence" -> "_out+of_p" [label="ARG2-fn.Topic"]
+	"_indicate_v_1-fn.Evidence" -> _event_n_item [label="ARG1-fn.Cause"]
+	"_out+of_p" -> _control_n_of [label=ARG2]
+	"_out+of_p" -> _credit_n_1 [label=ARG1]
+	_federal_a_1 -> _credit_n_1 [label=ARG1]
+}

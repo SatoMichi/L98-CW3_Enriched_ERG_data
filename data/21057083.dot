@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> _amount_n_of [label=BV]
+	_if_x_then -> _weak_a_1 [label=ARG2]
+	udef_q -> _hype_n_1 [label=BV]
+	_weak_a_1 -> _show_n_of [label=ARG1]
+	"_bring_v_back-fn.Bringing" -> _amount_n_of [label="ARG1-fn.Instrument"]
+	udef_q -> _viewer_n_of [label=BV]
+	_if_x_then -> "_bring_v_back-fn.Bringing" [label=ARG1]
+	"_bring_v_back-fn.Bringing" -> _viewer_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _show_n_of [label=BV]
+	_amount_n_of -> _hype_n_1 [label=ARG1]
+}

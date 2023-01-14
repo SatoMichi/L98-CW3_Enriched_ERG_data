@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"ord(1)" -> _sign_n_of [label=ARG1]
+	_economic_a_1 -> _sign_n_of [label=ARG1]
+	_the_q -> _sign_n_of [label=BV]
+}

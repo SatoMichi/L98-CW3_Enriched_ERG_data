@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _ad_n_1 [label=BV]
+	_some_q -> part_of [label=BV]
+	_achievement_n_of -> part_of [label=ARG1]
+	proper_q -> "named(Lake)" [label=BV]
+	poss -> "named(View)" [label=ARG2]
+	part_of -> _resident_n_of [label=ARG1]
+	"_celebrate_v_1-fn.NF" -> _achievement_n_of [label="ARG2-fn.Theme"]
+	"_celebrate_v_1-fn.NF" -> _ad_n_1 [label="ARG1-fn.Agent"]
+	compound -> "named(Lake)" [label=ARG2]
+	def_explicit_q -> _resident_n_of [label=BV]
+	_the_q -> _achievement_n_of [label=BV]
+	poss -> _resident_n_of [label=ARG1]
+	compound -> "named(View)" [label=ARG1]
+	proper_q -> "named(View)" [label=BV]
+}

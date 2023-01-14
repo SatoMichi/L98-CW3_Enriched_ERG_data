@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Geraldo)" [label=BV]
+	proper_q -> "named(Phil)" [label=BV]
+	"_pull_v_up-fn.Cause_motion" -> _camera_n_1 [label="ARG2-fn.Theme"]
+	_another_q -> _camera_n_1 [label=BV]
+	"_pull_v_up-fn.Cause_motion" -> _or_c [label="ARG1-fn.Agent"]
+	parg_d -> _chain_v_to [label=ARG1]
+	udef_q -> _or_c [label=BV]
+	"_interview_v_1-fn.NF" -> _or_c [label="ARG1-fn.Agent"]
+	_the_q -> "_protesters/nns_u_unknown" [label=BV]
+	_chain_v_to -> "_protesters/nns_u_unknown" [label=ARG2]
+	_probable_a_1 -> _and_c [label=ARG1]
+	parg_d -> "_protesters/nns_u_unknown" [label=ARG2]
+	"_interview_v_1-fn.NF" -> "_protesters/nns_u_unknown" [label="ARG2-fn.Recipient"]
+	_would_v_modal -> _probable_a_1 [label=ARG1]
+}

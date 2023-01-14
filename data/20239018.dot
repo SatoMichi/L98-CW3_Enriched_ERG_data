@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG2-fn.Topic"]
+	_can_v_modal -> "_balloon_v_1-fn.Operate_vehicle" [label=ARG1]
+	"_hate_v_1-fn.Experiencer_obj" -> _height_n_of [label="ARG2-fn.Attribute"]
+	_if_x_then -> _can_v_modal [label=ARG1]
+	"_balloon_v_1-fn.Operate_vehicle" -> pron [label="ARG1-fn.Agent"]
+	_also_a_1 -> "_tell_v_1-fn.Telling" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_still_a_1 -> "_balloon_v_1-fn.Operate_vehicle" [label=ARG1]
+	"_hate_v_1-fn.Experiencer_obj" -> pron [label="ARG1-fn.Experiencer"]
+	_if_x_then -> "_hate_v_1-fn.Experiencer_obj" [label=ARG2]
+	"_tell_v_1-fn.Telling" -> _if_x_then [label="ARG3-fn.Recipient"]
+	udef_q -> _height_n_of [label=BV]
+	_even_x_deg -> _if_x_then [label=ARG1]
+}

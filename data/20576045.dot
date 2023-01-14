@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> _century_n_1 [label=ARG2]
+	"card(10)" -> _inch_n_1 [label=ARG1]
+	proper_q -> "named(Venice)" [label=BV]
+	_in_p_temp -> "_sink_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	loc_nonsp -> _inch_n_1 [label=ARG2]
+	_this_q_dem -> _century_n_1 [label=BV]
+	loc_nonsp -> "_sink_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _inch_n_1 [label=BV]
+	"_sink_v_1-fn.Change_position_on_a_scale" -> "named(Venice)" [label="ARG1-fn.Attribute"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_schedule_v_1-fn.Social_event" -> _offering_n_of [label="ARG2-fn.Social_event"]
+	_on_p_temp -> "dofm(30)" [label=ARG2]
+	parg_d -> "_schedule_v_1-fn.Social_event" [label=ARG1]
+	_on_p_temp -> "_expire_v_1-fn.State_continue" [label=ARG1]
+	of_p -> "dofm(30)" [label=ARG1]
+	def_explicit_q -> "dofm(30)" [label=BV]
+	parg_d -> _offering_n_of [label=ARG2]
+	"_in+order+to_x" -> "_expire_v_1-fn.State_continue" [label=ARG2]
+	def_implicit_q -> "mofy(Nov)" [label=BV]
+	_the_q -> _offering_n_of [label=BV]
+	"_expire_v_1-fn.State_continue" -> _offering_n_of [label="ARG1-fn.Entity"]
+	of_p -> "mofy(Nov)" [label=ARG2]
+	"_in+order+to_x" -> "_schedule_v_1-fn.Social_event" [label=ARG1]
+}

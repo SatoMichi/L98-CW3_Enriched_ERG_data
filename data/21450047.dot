@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_there -> _police_n_1 [label=ARG1]
+	"card(1)" -> generic_entity [label=ARG1]
+	_be_v_nv -> neg [label=ARG2]
+	udef_q -> _police_n_1 [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	neg -> _be_v_there [label=ARG1]
+	_be_v_nv -> generic_entity [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	with_p -> _police_n_1 [label=ARG2]
+	_enough_a_1 -> _be_v_there [label=ARG1]
+	_small_a_1 -> _business_n_1 [label=ARG1]
+	with_p -> "_satisfy_v_1-fn.Experiencer_obj" [label=ARG1]
+	"_satisfy_v_1-fn.Experiencer_obj" -> _business_n_1 [label="ARG2-fn.Experiencer"]
+}

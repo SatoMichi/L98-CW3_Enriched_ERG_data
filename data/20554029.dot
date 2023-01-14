@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _cost_n_1 [label=ARG2]
+	_some_q -> _step_n_1 [label=BV]
+	parg_d -> "_help_v_1-fn.Assistance" [label=ARG1]
+	compound -> _save_v_1 [label=ARG1]
+	parg_d -> _margin_n_1 [label=ARG2]
+	"_help_v_1-fn.Assistance" -> _step_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _cost_n_1 [label=BV]
+	_save_v_1 -> _step_n_1 [label=ARG1]
+	_other_a_1 -> _step_n_1 [label=ARG1]
+	_too_a_also -> "_help_v_1-fn.Assistance" [label=ARG1]
+	"_help_v_1-fn.Assistance" -> _margin_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _margin_n_1 [label=BV]
+}

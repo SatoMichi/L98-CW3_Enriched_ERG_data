@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_real_a_1 -> _future_n_1 [label=ARG1]
+	"_own_v_1-fn.NF" -> _people_n_of [label="ARG1-fn.Pivot"]
+	"_a+few_a_1" -> _horse_n_1 [label=ARG1]
+	_this_q_dem -> _game_n_1 [label=BV]
+	_a_q -> _number_n_of [label=BV]
+	"_own_v_1-fn.NF" -> _horse_n_1 [label="ARG2-fn.Theme"]
+	_in_p -> _future_n_1 [label=ARG1]
+	udef_q -> _horse_n_1 [label=BV]
+	udef_q -> _people_n_of [label=BV]
+	_in_p -> _number_n_of [label=ARG2]
+	_of_p -> _game_n_1 [label=ARG2]
+	_of_p -> _future_n_1 [label=ARG1]
+	_the_q -> _future_n_1 [label=BV]
+	_number_n_of -> _people_n_of [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _point_n_of [label=ARG2]
+	"_unanswerable/jj_u_unknown" -> _question_n_about [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	focus_d -> "_unanswerable/jj_u_unknown" [label=ARG2]
+	"_say_v_to-fn.Cause_to_end" -> "_unanswerable/jj_u_unknown" [label="ARG2-fn.Means"]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_this_q_dem -> _point_n_of [label=BV]
+	_the_q -> _question_n_about [label=BV]
+	_at_p -> "_unanswerable/jj_u_unknown" [label=ARG1]
+}

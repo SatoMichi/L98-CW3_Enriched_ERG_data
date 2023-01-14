@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> "_live_v_1-fn.Residence" [label=ARG1]
+	"_live_v_1-fn.Residence" -> pron [label="ARG1-fn.Theme"]
+	_now_a_1 -> "_live_v_1-fn.Residence" [label=ARG1]
+	udef_q -> _relative_n_1 [label=BV]
+	proper_q -> "named(Alabama)" [label=BV]
+	_in_p -> _relative_n_1 [label=ARG1]
+	_with_p -> _relative_n_1 [label=ARG2]
+	_in_p -> "named(Alabama)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

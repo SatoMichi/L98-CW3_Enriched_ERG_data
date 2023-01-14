@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _way_n_of [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_could_v_modal -> _go_v_1 [label=ARG1]
+	_go_v_1 -> _hearing_n_1 [label=ARG1]
+	_seem_v_to -> "_believe_v_1-fn.Awareness" [label=ARG2]
+	"_believe_v_1-fn.Awareness" -> _could_v_modal [label="ARG2-fn.NotExist"]
+	"_believe_v_1-fn.Awareness" -> "named(Bronner)" [label="ARG1-fn.NotExist"]
+	compound -> _mister_n_1 [label=ARG2]
+	_the_q -> _hearing_n_1 [label=BV]
+	loc_nonsp -> _go_v_1 [label=ARG1]
+	proper_q -> "named(Bronner)" [label=BV]
+	compound -> "named(Bronner)" [label=ARG1]
+	_either_q -> _way_n_of [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"much-many_a" -> _sympathy_n_1 [label=ARG1]
+	focus_d -> "_ask_v_1-fn.Questioning" [label=ARG1]
+	_for_p -> pron [label=ARG2]
+	compound -> "named(Watson)" [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> "named(Watson)" [label="ARG1-fn.Agent"]
+	"_ask_v_1-fn.Questioning" -> "_have_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	proper_q -> "named(Watson)" [label=BV]
+	"_have_v_1-fn.IN" -> _sympathy_n_1 [label="ARG2-fn.Theme"]
+	focus_d -> "_have_v_1-fn.IN" [label=ARG2]
+	udef_q -> _sympathy_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_for_p -> _sympathy_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

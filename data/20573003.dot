@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_small_a_1 -> _increase_n_1 [label=ARG1]
+	udef_q -> _year_n_1 [label=BV]
+	_in_p -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _increase_n_1 [label="ARG2-fn.Means"]
+	_in_p -> _year_n_1 [label=ARG2]
+	superl -> _small_a_1 [label=ARG1]
+	_the_q -> _increase_n_1 [label=BV]
+	_monthly_a_1 -> _increase_n_1 [label=ARG1]
+	"card(1)" -> _year_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

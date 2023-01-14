@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Chrysler)" [label=ARG1]
+	_mid_a_1 -> "mofy(Oct)" [label=ARG1]
+	_also_a_1 -> "_hit_v_1-fn.Experience_bodily_harm" [label=ARG1]
+	_in_p_temp -> "_hit_v_1-fn.Experience_bodily_harm" [label=ARG1]
+	_in_p_temp -> "mofy(Oct)" [label=ARG2]
+	proper_q -> "mofy(Oct)" [label=BV]
+	"_hit_v_1-fn.Experience_bodily_harm" -> _rock_n_1 [label="ARG2-fn.Location"]
+	_the_q -> _rock_n_1 [label=BV]
+	proper_q -> "named(Chrysler)" [label=BV]
+	"_hit_v_1-fn.Experience_bodily_harm" -> "named(Chrysler)" [label="ARG1-fn.NotExist"]
+	udef_q -> _corporation_n_1 [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+}

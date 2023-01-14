@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _matter_n_of [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_in_p_state -> _appear_v_to [label=ARG1]
+	proper_q -> "named(Nixon)" [label=BV]
+	"_gain_v_1-fn.Getting" -> "named(Nixon)" [label="ARG1-fn.Agent"]
+	"_gain_v_1-fn.Getting" -> _concession_n_1 [label="ARG2-fn.Theme"]
+	focus_d -> _appear_v_to [label=ARG1]
+	_appear_v_to -> "_gain_v_1-fn.Getting" [label=ARG2]
+	_in_p_state -> _matter_n_of [label=ARG2]
+	"card(1)" -> _matter_n_of [label=ARG1]
+	compound -> "named(Nixon)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_a_q -> _concession_n_1 [label=BV]
+	focus_d -> _in_p_state [label=ARG2]
+	_minor_a_1 -> _matter_n_of [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> "_medication/nn_u_unknown" [label=BV]
+	compound -> _symptom_n_1 [label=ARG2]
+	"_take_v_1-fn.Competition" -> "_medication/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	"_take_v_1-fn.Competition" -> _son_n_of [label="ARG1-fn.Participant_1"]
+	poss -> _son_n_of [label=ARG1]
+	_free_a_1 -> _son_n_of [label=ARG1]
+	_healthy_a_1 -> _son_n_of [label=ARG1]
+	compound -> _free_a_1 [label=ARG1]
+	_current_a_1 -> "_take_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _symptom_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _son_n_of [label=BV]
+	poss -> pron [label=ARG2]
+}

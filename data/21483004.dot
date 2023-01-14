@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	eventuality -> "_determine_v_1-fn.Competition" [label=ARG1]
+	parg_d -> _date_n_of [label=ARG2]
+	"_determine_v_1-fn.Competition" -> _date_n_of [label="ARG2-fn.Participant_2"]
+	parg_d -> "_determine_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _date_n_of [label=BV]
+	_the_q -> _registration_n_of [label=BV]
+	_effective_a_1 -> _date_n_of [label=ARG1]
+	_of_p -> _registration_n_of [label=ARG2]
+	"_determine_v_1-fn.Competition" -> "named(SEC)" [label="ARG1-fn.Participant_1"]
+	_of_p -> _date_n_of [label=ARG1]
+	_the_q -> "named(SEC)" [label=BV]
+}

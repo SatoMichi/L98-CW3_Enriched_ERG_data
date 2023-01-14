@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_small_a_1 -> _deal_n_1 [label=ARG1]
+	parg_d -> _market_n_1 [label=ARG2]
+	"_as+far+as_x" -> "_be_v_id-fn.Residence" [label=ARG1]
+	_a_q -> _deal_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _deal_n_1 [label="ARG2-fn.Location"]
+	_overall_a_1 -> _market_n_1 [label=ARG1]
+	parg_d -> "_concern_v_1-fn.Piracy" [label=ARG1]
+	"_be_v_id-fn.Residence" -> "named(UAL)" [label="ARG1-fn.Resident"]
+	_the_q -> _market_n_1 [label=BV]
+	"_concern_v_1-fn.Piracy" -> _market_n_1 [label="ARG2-fn.Vehicle"]
+	proper_q -> "named(UAL)" [label=BV]
+	"_as+far+as_x" -> "_concern_v_1-fn.Piracy" [label=ARG2]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_can_v_modal-fn.Reliance" -> ellipsis_ref [label="ARG1-fn.Protagonist"]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	ellipsis_ref -> pron [label=ARG1]
+}

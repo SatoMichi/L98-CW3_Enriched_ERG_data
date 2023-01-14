@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_question_v_1-fn.Judgment" -> "_prevail_v_1-fn.Relative_time" [label="ARG2-fn.Evaluee"]
+	proper_q -> "named(Georgia)" [label=BV]
+	"_prevail_v_1-fn.Relative_time" -> "named(Pacific)" [label="ARG1-fn.Focal_occasion"]
+	_ultimate_a_1 -> "_prevail_v_1-fn.Relative_time" [label=ARG1]
+	compound -> _industry_n_1 [label=ARG2]
+	compound -> _observer_n_1 [label=ARG1]
+	"_question_v_1-fn.Judgment" -> _observer_n_1 [label="ARG1-fn.Cognizer"]
+	compound -> "named(Georgia)" [label=ARG2]
+	compound -> "named(Pacific)" [label=ARG1]
+	_still_a_1 -> "_question_v_1-fn.Judgment" [label=ARG1]
+	proper_q -> "named(Pacific)" [label=BV]
+	udef_q -> _observer_n_1 [label=BV]
+	udef_q -> _industry_n_1 [label=BV]
+}

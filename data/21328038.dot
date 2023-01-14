@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _management_n_1 [label=ARG1]
+	_on_p -> _high_a_1 [label=ARG1]
+	def_explicit_q -> _management_n_1 [label=BV]
+	proper_q -> "named(Manville)" [label=BV]
+	poss -> "named(Manville)" [label=ARG2]
+	_high_a_1 -> pron [label=ARG1]
+	_nonetheless_a_1 -> _high_a_1 [label=ARG1]
+	_on_p -> _management_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

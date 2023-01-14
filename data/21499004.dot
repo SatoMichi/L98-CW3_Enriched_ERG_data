@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(George)" [label=ARG2]
+	_new_a_1 -> _duck_n_1 [label=ARG1]
+	_colon_p_namely -> _clear_a_of [label=ARG1]
+	_no_q -> _duck_n_1 [label=BV]
+	_clear_a_of -> "named(Bush)" [label=ARG1]
+	_quite_a_1 -> _clear_a_of [label=ARG1]
+	proper_q -> "named(George)" [label=BV]
+	proper_q -> "named(Bush)" [label=BV]
+	compound -> "named(Bush)" [label=ARG1]
+	unknown -> _duck_n_1 [label=ARG]
+}

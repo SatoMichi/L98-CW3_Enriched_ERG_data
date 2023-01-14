@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> nominalization [label=ARG1]
+	_at_p -> _point_n_of [label=ARG2]
+	compound -> _fund_n_1 [label=ARG2]
+	udef_q -> _fund_n_1 [label=BV]
+	nominalization -> _sell_v_1 [label=ARG1]
+	"_pick_v_up-fn.Cause_to_continue" -> nominalization [label="ARG1-fn.Agent"]
+	_that_q_dem -> _point_n_of [label=BV]
+	_also_a_1 -> "_pick_v_up-fn.Cause_to_continue" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_at_p -> "_pick_v_up-fn.Cause_to_continue" [label=ARG1]
+}

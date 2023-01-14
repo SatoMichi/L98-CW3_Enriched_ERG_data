@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _situation_n_1 [label="ARG2-fn.Location"]
+	"_short-term_a_1" -> "_be_v_id-fn.Residence" [label=ARG1]
+	udef_q -> _earnings_n_1 [label=BV]
+	compound -> _disappointment_n_at [label=ARG1]
+	_a_q -> _disappointment_n_at [label=BV]
+	"_reflect_v_1-fn.Competition" -> _situation_n_1 [label="ARG2-fn.Participant_2"]
+	"_may_v_modal-fn.Communication_manner" -> "_reflect_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+	_that_q_dem -> generic_entity [label=BV]
+	compound -> _earnings_n_1 [label=ARG2]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	_a_q -> _situation_n_1 [label=BV]
+	"_reflect_v_1-fn.Competition" -> _disappointment_n_at [label="ARG1-fn.Participant_1"]
+}

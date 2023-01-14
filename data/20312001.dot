@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _and_c [label=ARG]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _trial_n_1 [label=BV]
+	udef_q -> _terror_n_1 [label=BV]
+}

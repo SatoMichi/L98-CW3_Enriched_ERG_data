@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_by_p -> nominalization [label=ARG1]
+	udef_q -> _farmer_n_1 [label=BV]
+	compound -> _rally_n_1 [label=ARG1]
+	nominalization -> _sell_v_1 [label=ARG1]
+	_damp_v_1 -> _rally_n_1 [label=ARG2]
+	_damp_v_1 -> nominalization [label=ARG1]
+	compound -> _price_n_of [label=ARG2]
+	udef_q -> _price_n_of [label=BV]
+	_the_q -> _rally_n_1 [label=BV]
+	"_help_v_to-fn.Assistance" -> nominalization [label="ARG1-fn.Agent"]
+	"_help_v_to-fn.Assistance" -> _damp_v_1 [label="ARG2-fn.Theme"]
+	_the_q -> nominalization [label=BV]
+	_by_p -> _farmer_n_1 [label=ARG2]
+	_heavy_a_1 -> nominalization [label=ARG1]
+}

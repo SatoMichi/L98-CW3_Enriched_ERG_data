@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_how+about_x" -> generic_verb [label=ARG1]
+	"_happen_v_to-fn.Event" -> pron [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	generic_verb -> "_happen_v_to-fn.Event" [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "dofw(Mon)" [label=BV]
+	parg_d -> "_announce_v_to-fn.Competition" [label=ARG1]
+	compound -> "_proration/nn_u_unknown" [label=ARG2]
+	loc_nonsp -> "_announce_v_to-fn.Competition" [label=ARG1]
+	compound -> _factor_n_1 [label=ARG1]
+	"_announce_v_to-fn.Competition" -> _factor_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> "_proration/nn_u_unknown" [label=BV]
+	_the_q -> _factor_n_1 [label=BV]
+	_final_a_1 -> _factor_n_1 [label=ARG1]
+	loc_nonsp -> "dofw(Mon)" [label=ARG2]
+	parg_d -> _factor_n_1 [label=ARG2]
+}

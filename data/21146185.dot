@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	superl -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> generic_entity [label=ARG1]
+	_all_q -> part_of [label=BV]
+	part_of -> generic_entity [label=ARG1]
+	_the_q -> generic_entity [label=BV]
+	"_wish_v_1-fn.Competition" -> pron [label="ARG3-fn.Participants"]
+	pronoun_q -> pron [label=BV]
+	"_wish_v_1-fn.Competition" -> part_of [label="ARG2-fn.Participant_2"]
+}

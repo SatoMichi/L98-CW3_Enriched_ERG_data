@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_sensational_a_for -> _image_n_of [label=ARG1]
+	focus_d -> implicit_conj [label=ARG1]
+	udef_q -> _image_n_of [label=BV]
+	_vivid_a_1 -> _image_n_of [label=ARG1]
+	comp -> _vivid_a_1 [label=ARG1]
+	_visual_a_1 -> _image_n_of [label=ARG1]
+	_sometimes_a_1 -> "_gruesome/jj_u_unknown" [label=ARG1]
+	"_gruesome/jj_u_unknown" -> _image_n_of [label=ARG1]
+	_similar_a_to -> implicit_conj [label=ARG1]
+}

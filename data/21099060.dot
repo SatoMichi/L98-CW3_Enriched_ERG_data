@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_short_a_of -> _term_n_of [label=ARG1]
+	_the_q -> _outlook_n_1 [label=BV]
+	_so_x -> ellipsis_ref [label=ARG1]
+	_so_x -> ellipsis [label=ARG2]
+	compound -> _term_n_of [label=ARG2]
+	udef_q -> _term_n_of [label=BV]
+	ellipsis_ref -> _outlook_n_1 [label=ARG1]
+	compound -> _outlook_n_1 [label=ARG1]
+}

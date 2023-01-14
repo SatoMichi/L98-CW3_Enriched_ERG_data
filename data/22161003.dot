@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_purr_v_1-fn.Communication_noise" -> "named(Foster)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Foster)" [label=BV]
+	udef_q -> _ms_n_1 [label=BV]
+	focus_d -> "_purr_v_1-fn.Communication_noise" [label=ARG1]
+	_in_p -> _room_n_1 [label=ARG2]
+	"_purr_v_1-fn.Communication_noise" -> _like_p [label="ARG2-fn.Topic"]
+	_like_p -> pron [label=ARG1]
+	_in_p -> _like_p [label=ARG1]
+	_like_p -> _oasis_n_1 [label=ARG2]
+	focus_d -> _like_p [label=ARG2]
+	compound -> _ms_n_1 [label=ARG2]
+	_this_q_dem -> _room_n_1 [label=BV]
+	compound -> "named(Foster)" [label=ARG1]
+	_a_q -> _oasis_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

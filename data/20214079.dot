@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_move_v_cause -> pron [label=ARG2]
+	_the_q -> _ball_n_of [label=BV]
+	_move_v_cause -> _around_p [label=ARG3]
+	"_keep_v_down-fn.Cause_to_continue" -> _ball_n_of [label="ARG2-fn.Theme"]
+	"_keep_v_down-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	_around_p -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _firm_a_1 [label=ARG1]
+	_the_q -> _dollar_n_1 [label=BV]
+	comp_equal -> _well_a_1 [label=ARG1]
+	"_prompt_v_1-fn.Required_event" -> nominalization [label="ARG2-fn.Negative_consequences"]
+	_also_a_1 -> _firm_a_1 [label=ARG1]
+	_some_q -> nominalization [label=BV]
+	"_prompt_v_1-fn.Required_event" -> _dollar_n_1 [label="ARG1-fn.Required_situation"]
+	"_according+to_p" -> _analyst_n_1 [label=ARG2]
+	_the_q -> _analyst_n_1 [label=BV]
+	_well_a_1 -> "_prompt_v_1-fn.Required_event" [label=ARG1]
+	_slight_a_1 -> _firm_a_1 [label=ARG1]
+	"_according+to_p" -> _and_c [label=ARG1]
+	_firm_a_1 -> _dollar_n_1 [label=ARG1]
+	nominalization -> _sell_v_1 [label=ARG1]
+}

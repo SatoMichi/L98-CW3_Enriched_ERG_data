@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG1-fn.Process"]
+	_that_q_dem -> _point_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _point_n_of [label="ARG2-fn.Means"]
+	which_q -> thing [label=BV]
+}

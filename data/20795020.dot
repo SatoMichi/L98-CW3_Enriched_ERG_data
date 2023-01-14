@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Darby)" [label=BV]
+	udef_q -> _export_n_of [label=BV]
+	"_predict_v_1-fn.Change_position_on_a_scale" -> "named(Darby)" [label="ARG1-fn.Attribute"]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_a_q -> _disappointment_n_at [label=BV]
+	"_predict_v_1-fn.Change_position_on_a_scale" -> "_pick_v_up-fn.Cause_to_continue" [label="ARG2-fn.Item"]
+	"_call_v_name-fn.Judgment_direct_address" -> "named(Darby)" [label="ARG1-fn.Communicator"]
+	pronoun_q -> pron [label=BV]
+	compound -> "named(Darby)" [label=ARG1]
+	"_call_v_name-fn.Judgment_direct_address" -> _disappointment_n_at [label="ARG2-fn.Addressee"]
+	_again_a_1 -> "_pick_v_up-fn.Cause_to_continue" [label=ARG1]
+	"_call_v_name-fn.Judgment_direct_address" -> pron [label="ARG3-fn.Topic"]
+	"_pick_v_up-fn.Cause_to_continue" -> _export_n_of [label="ARG1-fn.Agent"]
+}

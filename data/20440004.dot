@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _and_c [label=ARG2]
+	proper_q -> "named(Northeast)" [label=BV]
+	proper_q -> "named(West)" [label=BV]
+	_unchanged_a_1 -> _region_n_of [label=ARG1]
+	compound -> _region_n_of [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_the_q -> _region_n_of [label=BV]
+}

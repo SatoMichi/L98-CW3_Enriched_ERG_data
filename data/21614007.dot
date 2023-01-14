@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _fund_n_1 [label=ARG1]
+	def_explicit_q -> _shareholder_n_1 [label=BV]
+	"_wipe_v_out-fn.Undergo_change" -> _fund_n_1 [label="ARG2-fn.Final_category"]
+	compound -> "named(Bank)" [label=ARG2]
+	def_explicit_q -> _fund_n_1 [label=BV]
+	"card(2)" -> _episode_n_1 [label=ARG1]
+	poss -> _shareholder_n_1 [label=ARG2]
+	"_wipe_v_out-fn.Undergo_change" -> _episode_n_1 [label="ARG1-fn.Entity"]
+	proper_q -> "named(Bumiputra)" [label=BV]
+	compound -> "named(Bumiputra)" [label=ARG1]
+	poss -> "named(Bumiputra)" [label=ARG2]
+	proper_q -> "named(Bank)" [label=BV]
+	_both_q -> _episode_n_1 [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	superl -> _late_a_for [label=ARG1]
+	_before_p -> _move_n_1 [label=ARG2]
+	def_explicit_q -> _move_n_1 [label=BV]
+	poss -> "named(Ford)" [label=ARG2]
+	poss -> _move_n_1 [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_late_a_for -> _move_n_1 [label=ARG1]
+	"_of+course_a_1" -> _before_p [label=ARG1]
+	proper_q -> "named(Ford)" [label=BV]
+	_before_p -> generic_entity [label=ARG1]
+}

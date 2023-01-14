@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_creep_v_1-fn.Halt" [label=ARG1]
+	"_creep_v_1-fn.Halt" -> _price_n_of [label="ARG1-fn.Purpose"]
+	subord -> _high_a_1 [label=ARG2]
+	compound -> _bond_n_1 [label=ARG2]
+	comp -> _high_a_1 [label=ARG1]
+	udef_q -> _bond_n_1 [label=BV]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+}

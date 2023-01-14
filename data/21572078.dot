@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "named(Cortese)" [label="ARG1-fn.Agent"]
+	_vulnerable_a_to -> _time_n_of [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	loc_nonsp -> _time_n_of [label=ARG2]
+	proper_q -> "named(Cortese)" [label=BV]
+	"_say_v_to-fn.IN" -> _maybe_a_1 [label="ARG2-fn.Topic"]
+	_a_q -> _time_n_of [label=BV]
+	_maybe_a_1 -> ellipsis_expl [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	loc_nonsp -> ellipsis_expl [label=ARG1]
+	compound -> "named(Cortese)" [label=ARG1]
+	_just_a_1 -> ellipsis_expl [label=ARG1]
+	focus_d -> ellipsis_expl [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

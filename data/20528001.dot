@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _mail_n_1 [label=ARG2]
+	_the_q -> _mail_n_1 [label=BV]
+	"_arrive_v_1-fn.Rite" -> _envelope_n_1 [label="ARG1-fn.Leader"]
+	_in_p -> "_arrive_v_1-fn.Rite" [label=ARG1]
+	_the_q -> _envelope_n_1 [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Bobby)" [label=BV]
+	compound -> "named(Thomson)" [label=ARG1]
+	proper_q -> "named(Thomson)" [label=BV]
+	compound -> "named(Bobby)" [label=ARG2]
+	_a_q -> _legend_n_1 [label=BV]
+	parg_d -> "named(Thomson)" [label=ARG2]
+	"_make_v_1-fn.Causation" -> _legend_n_1 [label="ARG2-fn.Theme"]
+	"_make_v_1-fn.Causation" -> "named(Thomson)" [label="ARG3-fn.NotExist"]
+	parg_d -> "_make_v_1-fn.Causation" [label=ARG1]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	measure -> _deep_a_1 [label=ARG1]
+	"_read_v_1-fn.Required_event" -> pron [label="ARG2-fn.Negative_consequences"]
+	pronoun_q -> pron [label=BV]
+	which_q -> abstr_deg [label=BV]
+	measure -> abstr_deg [label=ARG2]
+	_deep_a_1 -> "_read_v_1-fn.Required_event" [label=ARG1]
+}

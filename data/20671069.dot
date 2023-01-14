@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_call_v_1-fn.IN" -> _ridiculous_a_1 [label="ARG3-fn.Result"]
+	_for_p -> _spokesman_n_1 [label=ARG1]
+	_for_p -> "named(Campeau)" [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+	proper_q -> "named(Campeau)" [label=BV]
+	_ridiculous_a_1 -> _rumor_n_1 [label=ARG1]
+	"_call_v_1-fn.IN" -> _rumor_n_1 [label="ARG2-fn.Theme"]
+	"_call_v_1-fn.IN" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _rumor_n_1 [label=BV]
+}

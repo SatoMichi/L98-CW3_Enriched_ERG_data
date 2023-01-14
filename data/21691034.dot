@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_confident_a_of-about" -> _company_n_of [label=ARG1]
+	_prepared_a_1 -> pron [label=ARG1]
+	_some_q -> _company_n_of [label=BV]
+	"_confident_a_of-about" -> _prepared_a_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

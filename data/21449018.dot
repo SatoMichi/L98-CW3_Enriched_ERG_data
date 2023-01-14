@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _chin_n_1 [label=BV]
+	_on_p -> pron [label=ARG1]
+	"_take_v_1-fn.Commerce_buy" -> pron [label="ARG2-fn.Goods"]
+	pronoun_q -> pron [label=BV]
+	_on_p -> _chin_n_1 [label=ARG2]
+	"_take_v_1-fn.Commerce_buy" -> _on_p [label="ARG3-fn.Means"]
+}

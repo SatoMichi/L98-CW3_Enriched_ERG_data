@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_good_a_at-for-of" -> _gain_n_1 [label=ARG1]
+	"_report_v_to-fn.Statement" -> _gain_n_1 [label="ARG2-fn.NotExist"]
+	poss -> _division_n_of [label=ARG1]
+	_all_q -> part_of [label=BV]
+	part_of -> _division_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	_in_p -> part_of [label=ARG2]
+	udef_q -> _gain_n_1 [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	"_report_v_to-fn.Statement" -> _company_n_of [label="ARG1-fn.NotExist"]
+	def_explicit_q -> _division_n_of [label=BV]
+	_in_p -> _gain_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_string_n_of -> _degree_n_of [label=ARG1]
+	_with_p -> _string_n_of [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _lawyer_n_1 [label="ARG2-fn.Means"]
+	_academic_a_1 -> _degree_n_of [label=ARG1]
+	_a_q -> _string_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_a_q -> _lawyer_n_1 [label=BV]
+	_with_p -> _lawyer_n_1 [label=ARG1]
+	udef_q -> _degree_n_of [label=BV]
+}

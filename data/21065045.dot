@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Home)" [label=ARG1]
+	"_propose_v_to-fn.Statement" -> "_acquire_v_1-fn.Getting" [label="ARG2-fn.Topic"]
+	compound -> _corporation_n_1 [label=ARG2]
+	"_acquire_v_1-fn.Getting" -> "named(Products)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(American)" [label=BV]
+	"_acquire_v_1-fn.Getting" -> _company_n_of [label="ARG2-fn.Theme"]
+	compound -> "named(American)" [label=ARG2]
+	"_propose_v_to-fn.Statement" -> "named(Products)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Products)" [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	proper_q -> "named(Home)" [label=BV]
+	compound -> "named(Products)" [label=ARG1]
+	udef_q -> _corporation_n_1 [label=BV]
+}

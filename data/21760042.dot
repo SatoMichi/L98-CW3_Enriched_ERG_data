@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _domain_n_of [label="ARG2-fn.Location"]
+	_domain_n_of -> "named(Afrikanerdom)" [label=ARG1]
+	proper_q -> "named(Afrikanerdom)" [label=BV]
+	proper_q -> "named(Morgenzon)" [label=BV]
+	_special_a_1 -> _domain_n_of [label=ARG1]
+	_a_q -> _domain_n_of [label=BV]
+	_long_a_1 -> "_be_v_id-fn.Residence" [label=ARG1]
+	"_be_v_id-fn.Residence" -> "named(Morgenzon)" [label="ARG1-fn.Resident"]
+}

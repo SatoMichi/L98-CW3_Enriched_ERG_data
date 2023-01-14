@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_operate_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	_in_p -> _and_c [label=ARG2]
+	proper_q -> "named(Nebraska)" [label=BV]
+	_in_p -> "_operate_v_1-fn.State_continue" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	"_operate_v_1-fn.State_continue" -> _store_n_1 [label="ARG2-fn.State"]
+	_mostly_x_deg -> _in_p [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Iowa)" [label=BV]
+	udef_q -> _store_n_1 [label=BV]
+}

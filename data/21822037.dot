@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_cause-fn.Cause_change" -> _engine_n_1 [label="ARG1-fn.Agent"]
+	compound -> _deduction_n_1 [label=ARG1]
+	"_make_v_cause-fn.Cause_change" -> _productive_a_of [label="ARG2-fn.Theme"]
+	_the_q -> _deduction_n_1 [label=BV]
+	udef_q -> _interest_n_in [label=BV]
+	_productive_a_of -> "_thing_n_of-about" [label=ARG1]
+	comp -> _productive_a_of [label=ARG1]
+	_be_v_id -> _deduction_n_1 [label=ARG1]
+	compound -> _interest_n_in [label=ARG2]
+	_these_q_dem -> "_thing_n_of-about" [label=BV]
+	_the_q -> _engine_n_1 [label=BV]
+	_be_v_id -> _engine_n_1 [label=ARG2]
+}

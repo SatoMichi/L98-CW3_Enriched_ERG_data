@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_know_v_1-fn.IN" -> "_push_v_1-fn.Manipulation" [label="ARG2-fn.Theme"]
+	"_push_v_1-fn.Manipulation" -> _button_n_1 [label="ARG2-fn.Theme"]
+	"_know_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_once_x_subord -> _then_a_1 [label=ARG1]
+	_which_q -> _button_n_1 [label=BV]
+	_size_v_up -> pron [label=ARG2]
+	_once_x_subord -> _size_v_up [label=ARG2]
+	_then_a_1 -> "_know_v_1-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

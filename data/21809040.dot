@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_need_v_1-fn.Needing" -> _computer_n_1 [label="ARG2-fn.Theme"]
+	parg_d -> "_need_v_1-fn.Needing" [label=ARG1]
+	_grow_v_1 -> _system_n_of [label=ARG1]
+	_that_q_dem -> _system_n_of [label=BV]
+	_as_x_subord -> _may_v_modal [label=ARG1]
+	_large_a_1 -> _computer_n_1 [label=ARG1]
+	_may_v_modal -> "_need_v_1-fn.Needing" [label=ARG1]
+	parg_d -> _computer_n_1 [label=ARG2]
+	udef_q -> _computer_n_1 [label=BV]
+	comp -> _large_a_1 [label=ARG1]
+	_as_x_subord -> _grow_v_1 [label=ARG2]
+}

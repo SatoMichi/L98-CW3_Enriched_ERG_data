@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _president_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _acquisition_n_of [label=BV]
+	def_explicit_q -> _president_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	_a_q -> _method_n_of [label=BV]
+	_be_v_id -> _method_n_of [label=ARG2]
+	_effective_a_1 -> _method_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	poss -> _president_n_of [label=ARG1]
+	_be_v_id -> _acquisition_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Sons)" [label=BV]
+	parg_d -> "named(Caere)" [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Brown)" [label=BV]
+	"_underwrite_v_1-fn.Relative_time" -> implicit_conj [label="ARG1-fn.Focal_occasion"]
+	"_underwrite_v_1-fn.Relative_time" -> "named(Caere)" [label="ARG2-fn.Landmark_occasion"]
+	proper_q -> "named(Alex)" [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	parg_d -> "_underwrite_v_1-fn.Relative_time" [label=ARG1]
+	proper_q -> "named(Caere)" [label=BV]
+}

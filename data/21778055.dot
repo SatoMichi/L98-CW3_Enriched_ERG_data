@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_decide_v_1 -> pron [label=ARG1]
+	_the_q -> _storm_n_1 [label=BV]
+	"_brave_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_decide_v_1 -> "_brave_v_1-fn.NF" [label=ARG2]
+	"_brave_v_1-fn.NF" -> _storm_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

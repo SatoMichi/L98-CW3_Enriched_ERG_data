@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _alternative_n_to [label=ARG1]
+	udef_q -> _alternative_n_to [label=BV]
+	"_pursue_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_say_v_to-fn.Surpassing" -> "named(Coniston)" [label="ARG1-fn.Standard_item"]
+	proper_q -> "named(Coniston)" [label=BV]
+	nominalization -> _finance_v_1 [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> "_pursue_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	compound -> nominalization [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_pursue_v_1-fn.Competition" -> _alternative_n_to [label="ARG2-fn.Participant_2"]
+	_various_a_1 -> _alternative_n_to [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_say_v_to-fn.Surpassing" -> "_would_v_modal-fn.Cause_to_end" [label="ARG2-fn.Profiled_item"]
+}

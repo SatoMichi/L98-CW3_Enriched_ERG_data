@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(DEFENSE)" [label=BV]
+	unknown -> nominalization [label=ARG]
+	"_switch_v_from-to-fn.IN" -> "named(DEFENSE)" [label="ARG4-fn.NotExist"]
+	nominalization -> "_switch_v_from-to-fn.IN" [label=ARG1]
+	_colon_p_namely -> "_switch_v_from-to-fn.IN" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

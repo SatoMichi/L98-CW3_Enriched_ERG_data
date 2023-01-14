@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _job_n_of [label=BV]
+	proper_q -> "named(First)" [label=BV]
+	_with_p -> "named(First)" [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> "_take_v_1-fn.Commerce_buy" [label="ARG2-fn.Requirement"]
+	proper_q -> "named(America)" [label=BV]
+	_the_q -> _manager_n_of [label=BV]
+	_other_a_1 -> _job_n_of [label=ARG1]
+	"_take_v_1-fn.Commerce_buy" -> _job_n_of [label="ARG2-fn.Goods"]
+	_of_p -> "named(First)" [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "named(First)" [label="ARG1-fn.Dependent"]
+	"_take_v_1-fn.Commerce_buy" -> part_of [label="ARG1-fn.Buyer"]
+	_of_p -> "named(America)" [label=ARG2]
+	_with_p -> _job_n_of [label=ARG1]
+	_some_q -> part_of [label=BV]
+	part_of -> _manager_n_of [label=ARG1]
+}

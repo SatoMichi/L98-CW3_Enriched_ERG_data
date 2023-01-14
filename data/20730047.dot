@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_stuck_a_with -> _traveler_n_1 [label=ARG1]
+	"_become_v_id-fn.Assemble" -> _diversion_n_of [label="ARG2-fn.Group"]
+	"_become_v_id-fn.Assemble" -> _golf_n_1 [label="ARG1-fn.Individuals"]
+	_at_p -> _stuck_a_with [label=ARG1]
+	udef_q -> _traveler_n_1 [label=BV]
+	_for_p -> _diversion_n_of [label=ARG1]
+	_at_p -> _airport_n_1 [label=ARG2]
+	udef_q -> _golf_n_1 [label=BV]
+	_for_p -> _traveler_n_1 [label=ARG2]
+	_the_q -> _diversion_n_of [label=BV]
+	_late_a_for -> _diversion_n_of [label=ARG1]
+	_some_q -> _airport_n_1 [label=BV]
+	superl -> _late_a_for [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_believe_v_1-fn.Awareness" -> eventuality [label="ARG2-fn.NotExist"]
+	_only_a_1 -> _answer_n_to [label=ARG1]
+	udef_q -> _stock_n_1 [label=BV]
+	"_buy_v_1-fn.Commerce_buy" -> _answer_n_to [label="ARG1-fn.Agent"]
+	_weather_v_1 -> _stock_n_1 [label=ARG1]
+	_any_q -> _storm_n_1 [label=BV]
+	_for_p -> _individual_n_1 [label=ARG2]
+	_for_p -> _answer_n_to [label=ARG1]
+	udef_q -> _individual_n_1 [label=BV]
+	"_believe_v_1-fn.Awareness" -> pron [label="ARG1-fn.NotExist"]
+	_the_q -> _answer_n_to [label=BV]
+	"_buy_v_1-fn.Commerce_buy" -> _stock_n_1 [label="ARG2-fn.Theme"]
+	eventuality -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	_weather_v_1 -> _storm_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

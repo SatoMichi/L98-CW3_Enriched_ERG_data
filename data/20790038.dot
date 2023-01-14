@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "_squalor/nn_u_unknown" [label=ARG1]
+	def_explicit_q -> "_squalor/nn_u_unknown" [label=BV]
+	poss -> "named(Cairo)" [label=ARG2]
+	_spirited_a_1 -> "_squalor/nn_u_unknown" [label=ARG1]
+	"_go_v_1-fn.Competition" -> "_squalor/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	subord -> _grey_a_1 [label=ARG2]
+	proper_q -> "named(Cairo)" [label=BV]
+	subord -> "_go_v_1-fn.Competition" [label=ARG1]
+	_also_a_1 -> subord [label=ARG1]
+}

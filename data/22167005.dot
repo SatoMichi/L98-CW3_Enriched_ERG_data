@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cuff_v_1-fn.Cause_harm" -> "named(Alexander)" [label="ARG2-fn.Patient"]
+	udef_q -> _mister_n_1 [label=BV]
+	_get_v_to -> "_cuff_v_1-fn.Cause_harm" [label=ARG1]
+	unknown -> "named(MS)" [label=ARG]
+	_also_a_1 -> _get_v_to [label=ARG1]
+	compound -> "named(Alexander)" [label=ARG1]
+	proper_q -> "named(Alexander)" [label=BV]
+	proper_q -> "named(Parks)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(MS)" [label=BV]
+	"_cuff_v_1-fn.Cause_harm" -> _mother_n_of [label="ARG1-fn.Agent"]
+	poss -> _mother_n_of [label=ARG1]
+	def_explicit_q -> _mother_n_of [label=BV]
+	poss -> "named(Parks)" [label=ARG2]
+}

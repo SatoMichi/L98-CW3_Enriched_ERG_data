@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _stable_a_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _inflation_n_of [label=BV]
+	_at_p -> _percent_n_of [label=ARG2]
+	"card(4.5)" -> _percent_n_of [label=ARG1]
+	"_may_v_modal-fn.Communication_manner" -> subord [label="ARG1-fn.Speaker"]
+	subord -> _run_v_1 [label=ARG2]
+	_about_x_deg -> udef_q [label=ARG1]
+	_stable_a_1 -> _inflation_n_of [label=ARG1]
+	_at_p_temp -> _stable_a_1 [label=ARG1]
+	_the_q -> _moment_n_1 [label=BV]
+	_at_p -> _run_v_1 [label=ARG1]
+	_at_p_temp -> _moment_n_1 [label=ARG2]
+}

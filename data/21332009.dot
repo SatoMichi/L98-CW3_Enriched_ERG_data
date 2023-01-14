@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Decker)" [label=BV]
+	udef_q -> _official_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> _industry_n_1 [label=ARG2]
+	compound -> _official_n_1 [label=ARG1]
+	poss -> "named(Decker)" [label=ARG2]
+	udef_q -> _industry_n_1 [label=BV]
+	"_surprise_v_1-fn.Impact" -> _resignation_n_1 [label="ARG1-fn.Place"]
+	def_explicit_q -> _resignation_n_1 [label=BV]
+	poss -> _resignation_n_1 [label=ARG1]
+	compound -> "named(Decker)" [label=ARG1]
+	"much-many_a" -> _official_n_1 [label=ARG1]
+	"_surprise_v_1-fn.Impact" -> _official_n_1 [label="ARG2-fn.Result"]
+}

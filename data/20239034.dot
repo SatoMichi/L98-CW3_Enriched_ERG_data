@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_into_p -> "_come_v_1-fn.Impact" [label=ARG1]
+	def_explicit_q -> _canal_n_1 [label=BV]
+	_into_p -> _canal_n_1 [label=ARG2]
+	poss -> _canal_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_come_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	_down_p -> "_come_v_1-fn.Impact" [label=ARG1]
+	poss -> pron [label=ARG2]
+	_straight_x_deg -> _into_p [label=ARG1]
+}

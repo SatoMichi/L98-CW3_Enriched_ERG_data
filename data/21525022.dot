@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_sure_a_of -> _program_n_of [label=ARG1]
+	"_stall_v_1-fn.Competition" -> _program_n_of [label="ARG1-fn.Participant_1"]
+	_the_q -> _program_n_of [label=BV]
+	"_in+order+to_x" -> neg [label=ARG1]
+	"_in+order+to_x" -> _sure_a_of [label=ARG2]
+	neg -> "_stall_v_1-fn.Competition" [label=ARG1]
+	_complete_a_1 -> "_stall_v_1-fn.Competition" [label=ARG1]
+}

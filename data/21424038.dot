@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	def_explicit_q -> _day_n_of [label=BV]
+	poss -> "named(Barre)" [label=ARG2]
+	_certainty_n_1 -> "_number_v_1-fn.NF" [label=ARG1]
+	poss -> _day_n_of [label=ARG1]
+	compound -> "named(Barre)" [label=ARG1]
+	parg_d -> _day_n_of [label=ARG2]
+	_a_q -> _certainty_n_1 [label=BV]
+	_be_v_id -> pron [label=ARG1]
+	proper_q -> "named(Barre)" [label=BV]
+	parg_d -> "_number_v_1-fn.NF" [label=ARG1]
+	_be_v_id -> _certainty_n_1 [label=ARG2]
+	"_number_v_1-fn.NF" -> _day_n_of [label="ARG2-fn.Agent"]
+	compound -> _mister_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

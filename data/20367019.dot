@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Mike)" [label=ARG2]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_as+well_a_1" -> "_be_v_id-fn.Residence" [label=ARG1]
+	poss -> _challenge_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _challenge_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _challenge_n_1 [label="ARG2-fn.Location"]
+	proper_q -> "named(Mike)" [label=BV]
+}

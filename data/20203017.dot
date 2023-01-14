@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_vehemently/rb_u_unknown" -> "_dispute_v_1-fn.NF" [label=ARG1]
+	def_explicit_q -> "named(Lane)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Lane)" [label=ARG1]
+	_those_q_dem -> _estimate_n_of [label=BV]
+	"_dispute_v_1-fn.NF" -> _estimate_n_of [label="ARG2-fn.NotExist"]
+	poss -> "named(Lane)" [label=ARG1]
+	poss -> "named(SEC)" [label=ARG2]
+	"_dispute_v_1-fn.NF" -> "named(Lane)" [label="ARG1-fn.Agent"]
+	_the_q -> "named(SEC)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+}

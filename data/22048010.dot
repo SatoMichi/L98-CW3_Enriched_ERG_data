@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _accountant_n_1 [label=BV]
+	udef_q -> _applicant_n_1 [label=BV]
+	udef_q -> _banker_n_1 [label=BV]
+	"_help_v_to-fn.Assistance" -> _and_c [label="ARG1-fn.Agent"]
+	udef_q -> _and_c [label=BV]
+	_fill_v_out -> _form_n_of [label=ARG2]
+	_fill_v_out -> _applicant_n_1 [label=ARG1]
+	_local_a_1 -> _and_c [label=ARG1]
+	"_help_v_to-fn.Assistance" -> _applicant_n_1 [label="ARG2-fn.Theme"]
+	"_help_v_to-fn.Assistance" -> _fill_v_out [label="ARG3-fn.NotExist"]
+	udef_q -> _form_n_of [label=BV]
+}

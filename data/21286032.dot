@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_conscientious_a_1 -> pron [label=ARG1]
+	_if_x_then -> "_serve_v_as-fn.Assistance" [label=ARG1]
+	_well_a_1 -> "_serve_v_as-fn.Assistance" [label=ARG1]
+	_competent_a_1 -> pron [label=ARG1]
+	"_serve_v_as-fn.Assistance" -> pron [label="ARG2-fn.NotExist"]
+	_if_x_then -> _and_c [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

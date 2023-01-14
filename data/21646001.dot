@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _slide_n_1 [label=ARG1]
+	_a_q -> _fall_n_1 [label=BV]
+	_like_p -> "_look_v_like-fn.Appearance" [label=ARG1]
+	_toward_p -> _slide_n_1 [label=ARG1]
+	"_look_v_like-fn.Appearance" -> _slide_n_1 [label="ARG1-fn.Stimulus"]
+	_free_a_1 -> _fall_n_1 [label=ARG1]
+	udef_q -> _recession_n_1 [label=BV]
+	def_explicit_q -> _slide_n_1 [label=BV]
+	poss -> "named(China)" [label=ARG2]
+	_toward_p -> _recession_n_1 [label=ARG2]
+	"_begin_v_1-fn.Process_start" -> "_look_v_like-fn.Appearance" [label="ARG1-fn.NotExist"]
+	proper_q -> "named(China)" [label=BV]
+	_like_p -> _fall_n_1 [label=ARG2]
+}

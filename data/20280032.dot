@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _maker_n_of [label=ARG1]
+	udef_q -> _cosmetics_n_1 [label=BV]
+	udef_q -> _jewelry_n_1 [label=BV]
+	compound -> _ploy_n_1 [label=ARG1]
+	"_copy_v_1-fn.Competition" -> _ploy_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _sale_n_of [label=BV]
+	udef_q -> _ploy_n_1 [label=BV]
+	udef_q -> _maker_n_of [label=BV]
+	compound -> _sale_n_of [label=ARG1]
+	compound -> _cosmetics_n_1 [label=ARG2]
+	"_copy_v_1-fn.Competition" -> _maker_n_of [label="ARG1-fn.Participant_1"]
+	compound -> _jewelry_n_1 [label=ARG2]
+}

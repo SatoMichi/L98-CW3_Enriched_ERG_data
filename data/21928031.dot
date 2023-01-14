@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_predict_v_1-fn.Predicting" -> "named(Sothebys)" [label="ARG1-fn.Cause"]
+	times -> "card(140)" [label=ARG2]
+	"_predict_v_1-fn.Predicting" -> "_fetch_v_1-fn.Bringing" [label="ARG2-fn.Topic"]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	focus_d -> "_predict_v_1-fn.Predicting" [label=ARG1]
+	_recent_a_1 -> "_predict_v_1-fn.Predicting" [label=ARG1]
+	proper_q -> "named(Sothebys)" [label=BV]
+	"_fetch_v_1-fn.Bringing" -> _collection_n_of [label="ARG1-fn.Agent"]
+	times -> "card(1000000)" [label=ARG3]
+	"_fetch_v_1-fn.Bringing" -> _dollar_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _dollar_n_1 [label=BV]
+	_the_q -> _collection_n_of [label=BV]
+	comp -> _recent_a_1 [label=ARG1]
+}

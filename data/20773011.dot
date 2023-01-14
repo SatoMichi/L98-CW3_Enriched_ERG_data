@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _source_n_of [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> _guarantee_n_of [label="ARG1-fn.Process"]
+	compound -> _state_n_of [label=ARG2]
+	udef_q -> _loan_n_1 [label=BV]
+	_source_n_of -> _controversy_n_1 [label=ARG1]
+	udef_q -> _guarantee_n_of [label=BV]
+	_a_q -> _source_n_of [label=BV]
+	_rare_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _state_n_of [label=BV]
+	udef_q -> _controversy_n_1 [label=BV]
+	compound -> _loan_n_1 [label=ARG2]
+	compound -> _guarantee_n_of [label=ARG1]
+}

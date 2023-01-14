@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_have_v_1-fn.IN" [label=ARG1]
+	proper_q -> "named(ShareData)" [label=BV]
+	times -> "card(4.1)" [label=ARG2]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _share_n_of [label=BV]
+	"_have_v_1-fn.IN" -> "named(ShareData)" [label="ARG1-fn.Pivot"]
+	"_have_v_1-fn.IN" -> _share_n_of [label="ARG2-fn.Theme"]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	_common_a_for -> _share_n_of [label=ARG1]
+	_current_a_1 -> "_have_v_1-fn.IN" [label=ARG1]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	_about_x_deg -> "card(1000000)" [label=ARG1]
+}

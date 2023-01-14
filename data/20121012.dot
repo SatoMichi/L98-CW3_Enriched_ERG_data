@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> "_thing_n_of-about" [label=BV]
+	_inherent_a_1 -> _virtue_n_of [label=ARG1]
+	_sound_a_1 -> "_thing_n_of-about" [label=ARG1]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	_no_q -> _virtue_n_of [label=BV]
+	_in_p -> pron [label=ARG2]
+	neg -> "_be_v_id-fn.Residence" [label=ARG1]
+	_in_p -> _virtue_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Residence" -> "_thing_n_of-about" [label="ARG2-fn.Location"]
+	"_be_v_there-fn.Needing" -> _virtue_n_of [label="ARG1-fn.Cognizer"]
+}

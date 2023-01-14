@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_anchor_v_1-fn.Competition" -> generic_entity [label="ARG2-fn.Participant_2"]
+	udef_q -> "_mart/nn_u_unknown" [label=BV]
+	_a_q -> _store_n_1 [label=BV]
+	compound -> "named(K)" [label=ARG2]
+	parg_d -> "_anchor_v_1-fn.Competition" [label=ARG1]
+	_most_q -> generic_entity [label=BV]
+	compound -> _store_n_1 [label=ARG1]
+	proper_q -> "named(K)" [label=BV]
+	compound -> "_mart/nn_u_unknown" [label=ARG1]
+	parg_d -> generic_entity [label=ARG2]
+	"_anchor_v_1-fn.Competition" -> _store_n_1 [label="ARG1-fn.Participant_1"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	"_diverge_v_1-fn.NF" -> _script_n_1 [label="ARG1-fn.Theme"]
+	_be_v_id -> generic_entity [label=ARG1]
+	nominalization -> _would_v_modal [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_the_q -> _script_n_1 [label=BV]
+	_be_v_id -> nominalization [label=ARG2]
+	loc_nonsp -> "_diverge_v_1-fn.NF" [label=ARG1]
+	"card(2)" -> _script_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_would_v_modal -> "_diverge_v_1-fn.NF" [label=ARG1]
+	which_q -> place_n [label=BV]
+}

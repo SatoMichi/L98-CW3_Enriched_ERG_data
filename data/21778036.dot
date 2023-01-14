@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_of-fn.Manufacturing" -> _area_n_of [label="ARG2-fn.Product"]
+	"_make_v_of-fn.Manufacturing" -> _fill_n_1 [label="ARG3-fn.Material"]
+	parg_d -> _area_n_of [label=ARG2]
+	udef_q -> _area_n_of [label=BV]
+	udef_q -> _fill_n_1 [label=BV]
+	_liquefy_v_1 -> _area_n_of [label=ARG1]
+	parg_d -> "_make_v_of-fn.Manufacturing" [label=ARG1]
+}

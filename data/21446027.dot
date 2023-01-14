@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "named(Garcia)" [label=ARG2]
+	_appeal_v_1 -> pron [label=ARG1]
+	_for_p -> _lawyer_n_1 [label=ARG1]
+	_the_q -> "named(Garcia)" [label=BV]
+	udef_q -> _lawyer_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_plan_v_1-fn.Purpose" [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> _lawyer_n_1 [label="ARG1-fn.Agent"]
+	"_plan_v_1-fn.Purpose" -> _appeal_v_1 [label="ARG2-fn.NotExist"]
+	"_plan_v_1-fn.Purpose" -> pron [label="ARG1-fn.Experiencer"]
+	pronoun_q -> pron [label=BV]
+}

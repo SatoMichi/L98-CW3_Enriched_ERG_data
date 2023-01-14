@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_love_v_1-fn.NF" -> pron [label="ARG1-fn.Experiencer"]
+	def_explicit_q -> _history_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	appos -> _school_n_1 [label=ARG1]
+	poss -> _history_n_of [label=ARG1]
+	appos -> _history_n_of [label=ARG2]
+	"_love_v_1-fn.NF" -> _school_n_1 [label="ARG2-fn.Attribute"]
+	_the_q -> _school_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

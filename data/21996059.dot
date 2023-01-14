@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> "_salesperson/nn_u_unknown" [label=BV]
+	_hard_a_for -> "_fight_v_off-fn.Departing" [label=ARG1]
+	udef_q -> "_discouragement/nn_u_unknown" [label=BV]
+	udef_q -> _feeling_n_of [label=BV]
+	_hard_a_for -> "_salesperson/nn_u_unknown" [label=ARG2]
+	_feeling_n_of -> "_discouragement/nn_u_unknown" [label=ARG1]
+	"_fight_v_off-fn.Departing" -> _feeling_n_of [label="ARG2-fn.Source"]
+	"_fight_v_off-fn.Departing" -> "_salesperson/nn_u_unknown" [label="ARG1-fn.Theme"]
+	"_can_v_modal-fn.Communication_manner" -> _hard_a_for [label="ARG1-fn.Speaker"]
+}

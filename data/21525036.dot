@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_potential_a_1 -> _buyer_n_of [label=ARG1]
+	_ability_n_1 -> "_match_v_cause-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _buyer_n_of [label=BV]
+	"_scare_v_off-fn.Taking_time" -> _ability_n_1 [label="ARG1-fn.Activity"]
+	"_match_v_cause-fn.Cause_to_end" -> _bid_n_1 [label="ARG2-fn.Means"]
+	"_scare_v_off-fn.Taking_time" -> _buyer_n_of [label="ARG2-fn.Attribute"]
+	"much-many_a" -> _buyer_n_of [label=ARG1]
+	poss -> _ability_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _ability_n_1 [label=BV]
+	_any_q -> _bid_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _fish_v_1 [label=ARG1]
+	"_ruin_v_1-fn.Bungling" -> nominalization [label="ARG2-fn.Patient"]
+	_the_q -> nominalization [label=BV]
+	_damn_a_1 -> nominalization [label=ARG1]
+}

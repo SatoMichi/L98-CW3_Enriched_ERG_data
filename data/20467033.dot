@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _percent_n_of [label=BV]
+	_of_p -> _percent_n_of [label=ARG1]
+	"card(57.5)" -> _percent_n_of [label=ARG1]
+	"_own_v_1-fn.Rite" -> _percent_n_of [label="ARG2-fn.Member"]
+	_new_a_1 -> _subsidiary_n_1 [label=ARG1]
+	proper_q -> "named(Quebecor)" [label=BV]
+	_the_q -> _subsidiary_n_1 [label=BV]
+	_of_p -> _subsidiary_n_1 [label=ARG2]
+	"_own_v_1-fn.Rite" -> "named(Quebecor)" [label="ARG1-fn.Leader"]
+}

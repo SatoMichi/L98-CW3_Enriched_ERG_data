@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _earthquake_n_1 [label=BV]
+	_be_v_nv -> "_make_v_cause-fn.Causation" [label=ARG2]
+	"_make_v_cause-fn.Causation" -> _earthquake_n_1 [label="ARG1-fn.Agent"]
+	_be_v_nv -> _consensus_n_1 [label=ARG1]
+	_unimportant_a_1 -> _series_n_of [label=ARG1]
+	udef_q -> _world_n_of [label=BV]
+	_seem_v_to -> _unimportant_a_1 [label=ARG2]
+	compound -> _series_n_of [label=ARG1]
+	_the_q -> _consensus_n_1 [label=BV]
+	"_journalistic/jj_u_unknown" -> _consensus_n_1 [label=ARG1]
+	compound -> _world_n_of [label=ARG2]
+	_the_q -> _series_n_of [label=BV]
+	"_make_v_cause-fn.Causation" -> _seem_v_to [label="ARG2-fn.Theme"]
+	_seem_v_to -> _series_n_of [label=ARG1]
+}

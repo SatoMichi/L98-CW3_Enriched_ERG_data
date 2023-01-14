@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_turn_v_off-fn.Undergo_change" -> "named(Engelken)" [label="ARG1-fn.Entity"]
+	compound -> "named(Engelken)" [label=ARG1]
+	_the_q -> _motor_n_1 [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_roll_v_down-fn.Change_position_on_a_scale" -> "named(Engelken)" [label="ARG1-fn.Attribute"]
+	proper_q -> "named(Engelken)" [label=BV]
+	"_turn_v_off-fn.Undergo_change" -> _motor_n_1 [label="ARG2-fn.Final_category"]
+	_the_q -> _window_n_1 [label=BV]
+	"_roll_v_down-fn.Change_position_on_a_scale" -> _window_n_1 [label="ARG2-fn.Item"]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_without_p -> _grow_v_1 [label=ARG1]
+	with_p -> _room_n_1 [label=ARG2]
+	"_indicate_v_1-fn.Attack" -> "_have_v_1-fn.State_continue" [label="ARG2-fn.Weapon"]
+	"_have_v_1-fn.State_continue" -> _room_n_1 [label="ARG2-fn.State"]
+	proper_q -> "named(Kellogg)" [label=BV]
+	"_indicate_v_1-fn.Attack" -> "named(Kellogg)" [label="ARG1-fn.Victim"]
+	udef_q -> _room_n_1 [label=BV]
+	with_p -> _grow_v_1 [label=ARG1]
+	_without_p -> nominalization [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> _facility_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _facility_n_1 [label=BV]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	udef_q -> nominalization [label=BV]
+	nominalization -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+}

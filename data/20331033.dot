@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _hold_n_of [label=ARG2]
+	udef_q -> _hold_n_of [label=BV]
+	_while_x -> "_head_v_for-fn.Cause_to_end" [label=ARG2]
+	_while_x -> "_make_v_1-fn.Rite" [label=ARG1]
+	"_appear_v_to-fn.State_continue" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.State"]
+	"_be_v_id-fn.Cause_to_end" -> _sort_n_of [label="ARG2-fn.Means"]
+	pronoun_q -> _one_n_1 [label=BV]
+	"_make_v_1-fn.Rite" -> _hold_n_of [label="ARG2-fn.Member"]
+	"_head_v_for-fn.Cause_to_end" -> _door_n_1 [label="ARG2-fn.Means"]
+	_of_p -> _sort_n_of [label=ARG1]
+	_the_q -> _sort_n_of [label=BV]
+	_the_q -> _door_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_make_v_1-fn.Rite" -> _one_n_1 [label="ARG1-fn.Leader"]
+}

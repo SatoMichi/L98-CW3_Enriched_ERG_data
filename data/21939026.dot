@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_talk_v_about-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _money_n_1 [label=BV]
+	"_talk_v_about-fn.IN" -> _money_n_1 [label="ARG2-fn.Topic"]
+	_real_a_1 -> _money_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

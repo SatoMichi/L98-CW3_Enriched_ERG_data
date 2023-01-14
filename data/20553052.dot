@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _voice_n_1 [label=BV]
+	_strong_a_1 -> _voice_n_1 [label=ARG1]
+	"_all+the+more_x" -> _so_a_1 [label=ARG1]
+	_when_x_subord -> unknown [label=ARG1]
+	parg_d -> _voice_n_1 [label=ARG2]
+	"_oppose_v_1-fn.NF" -> "_policy_n_of-on" [label="ARG2-fn.Co-Patient"]
+	_the_q -> "_policy_n_of-on" [label=BV]
+	"_oppose_v_1-fn.NF" -> _voice_n_1 [label="ARG1-fn.Patient"]
+	_when_x_subord -> "_hear_v_1-fn.IN" [label=ARG2]
+	"_hear_v_1-fn.IN" -> "_oppose_v_1-fn.NF" [label="ARG3-fn.NotExist"]
+	parg_d -> "_hear_v_1-fn.IN" [label=ARG1]
+	"_hear_v_1-fn.IN" -> _voice_n_1 [label="ARG2-fn.NotExist"]
+}

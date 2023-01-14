@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _portion_n_of [label=ARG1]
+	compound -> _plan_n_1 [label=ARG1]
+	proper_q -> "named(Packwood-)" [label=BV]
+	"_irresponsible/jj_u_unknown" -> _portion_n_of [label=ARG1]
+	proper_q -> "named(Roth)" [label=BV]
+	compound -> "named(Roth)" [label=ARG1]
+	udef_q -> _ira_n_1 [label=BV]
+	_the_q -> _portion_n_of [label=BV]
+	_of_p -> _plan_n_1 [label=ARG2]
+	compound -> _ira_n_1 [label=ARG2]
+	compound -> "named(Packwood-)" [label=ARG2]
+	_the_q -> _plan_n_1 [label=BV]
+	compound -> _portion_n_of [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	_from_p -> "_strengthen_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	_to_p -> "_strengthen_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _pound_n_1 [label=BV]
+	"card(1.5795)" -> _dollar_n_1 [label=ARG1]
+	"_strengthen_v_1-fn.Competition" -> _pound_n_1 [label="ARG1-fn.Participant_1"]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	"card(1.5765)" -> _dollar_n_1 [label=ARG1]
+}

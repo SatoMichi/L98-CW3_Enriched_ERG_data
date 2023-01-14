@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_exceed_v_1-fn.NF" -> _work_n_1 [label="ARG1-fn.Theme"]
+	compound -> _price_n_of [label=ARG2]
+	compound -> _estimate_n_of [label=ARG1]
+	udef_q -> _estimate_n_of [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	udef_q -> _work_n_1 [label=BV]
+	_other_a_1 -> _work_n_1 [label=ARG1]
+	"_exceed_v_1-fn.NF" -> _estimate_n_of [label="ARG2-fn.Co-Theme"]
+	_also_a_1 -> "_exceed_v_1-fn.NF" [label=ARG1]
+}

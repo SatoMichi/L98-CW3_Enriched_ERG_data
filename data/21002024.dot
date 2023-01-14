@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_very_x_deg -> _difficult_a_for [label=ARG1]
+	_the_q -> _situation_n_1 [label=BV]
+	proper_q -> "named(Campeau)" [label=BV]
+	_difficult_a_for -> "_analyze_v_1-fn.Competition" [label=ARG1]
+	"_a+little_x_deg" -> _uncertain_a_of [label=ARG1]
+	"_analyze_v_1-fn.Competition" -> _situation_n_1 [label="ARG2-fn.Participant_2"]
+	compound -> "named(Campeau)" [label=ARG2]
+	_uncertain_a_of -> _situation_n_1 [label=ARG1]
+	compound -> _situation_n_1 [label=ARG1]
+}

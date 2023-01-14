@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_number_n_of -> implicit_conj [label=ARG1]
+	udef_q -> _chimney_n_1 [label=BV]
+	udef_q -> _dishwasher_n_1 [label=BV]
+	_the_q -> _number_n_of [label=BV]
+	"_count_v_1-fn.Being_in_category" -> "_adjusters/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	_must_v_modal -> "_count_v_1-fn.Being_in_category" [label=ARG1]
+	udef_q -> _bathroom_n_1 [label=BV]
+	udef_q -> _balcony_n_1 [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _fireplace_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> "_adjusters/nns_u_unknown" [label=BV]
+	udef_q -> _microwave_n_1 [label=BV]
+	"_count_v_1-fn.Being_in_category" -> _number_n_of [label="ARG2-fn.NotExist"]
+}

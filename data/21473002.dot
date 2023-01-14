@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _and_c [label=BV]
+	_of_p -> _and_c [label=ARG2]
+	udef_q -> "year_range(1980s)" [label=BV]
+	_the_q -> "_opportunism/nn_u_unknown" [label=BV]
+	_sincere_a_1 -> "_opportunism/nn_u_unknown" [label=ARG1]
+	_then_a_1 -> unknown [label=ARG1]
+	_of_p -> "_opportunism/nn_u_unknown" [label=ARG1]
+	"_all-too_x_deg" -> _sincere_a_1 [label=ARG1]
+	udef_q -> "year_range(1970s)" [label=BV]
+	unknown -> "_opportunism/nn_u_unknown" [label=ARG]
+}

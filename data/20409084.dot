@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_first+place_n_1" [label=BV]
+	compound -> "dofw(Tue)" [label=ARG2]
+	compound -> _team_n_of [label=ARG1]
+	udef_q -> _night_n_of [label=BV]
+	proper_q -> "dofw(Tue)" [label=BV]
+	poss -> _team_n_of [label=ARG1]
+	def_explicit_q -> _team_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	appos -> "named(Leftovers)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_the_q -> "named(Leftovers)" [label=BV]
+	_in_p -> _team_n_of [label=ARG1]
+	_in_p -> "_first+place_n_1" [label=ARG2]
+	compound -> _night_n_of [label=ARG1]
+	appos -> _team_n_of [label=ARG1]
+}

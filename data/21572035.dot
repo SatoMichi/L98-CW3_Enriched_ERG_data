@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _mystery_n_1 [label=ARG1]
+	_of_p -> _venture_n_1 [label=ARG2]
+	_the_q -> _mystery_n_1 [label=BV]
+	"_add_v_to-fn.Statement" -> pron [label="ARG1-fn.NotExist"]
+	_the_q -> _venture_n_1 [label=BV]
+	"_add_v_to-fn.Statement" -> _mystery_n_1 [label="ARG3-fn.Co-Patient"]
+	_also_a_1 -> "_add_v_to-fn.Statement" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

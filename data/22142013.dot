@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_prepared_a_1 -> _fund_n_1 [label=ARG1]
+	loc_nonsp -> _time_n_of [label=ARG2]
+	loc_nonsp -> _prepared_a_1 [label=ARG1]
+	_this_q_dem -> _time_n_of [label=BV]
+	_around_p -> _time_n_of [label=ARG1]
+	udef_q -> _fund_n_1 [label=BV]
+	_better_x_deg -> _prepared_a_1 [label=ARG1]
+	_general_a_1 -> _prepared_a_1 [label=ARG1]
+}

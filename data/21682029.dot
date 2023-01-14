@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_hot_a_1 -> "named(TOPIC)" [label=ARG1]
+	proper_q -> "named(TOPIC)" [label=BV]
+	unknown -> "named(TOPIC)" [label=ARG]
+}

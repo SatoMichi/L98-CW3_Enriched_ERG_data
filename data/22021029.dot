@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ask_v_1-fn.Request" -> _speaker_n_1 [label="ARG2-fn.NotExist"]
+	_address_v_to -> _topic_n_of [label=ARG2]
+	"_deliver_v_to-fn.Delivery" -> _speaker_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _topic_n_of [label=BV]
+	"_ask_v_1-fn.Request" -> _not_c [label="ARG3-fn.NotExist"]
+	_point_n_of -> _view_n_of [label=ARG1]
+	_a_q -> _point_n_of [label=BV]
+	_specific_a_to -> _topic_n_of [label=ARG1]
+	_address_v_to -> _speaker_n_1 [label=ARG1]
+	idiom_q_i -> _view_n_of [label=BV]
+	parg_d -> "_ask_v_1-fn.Request" [label=ARG1]
+	parg_d -> _speaker_n_1 [label=ARG2]
+	"_deliver_v_to-fn.Delivery" -> _point_n_of [label="ARG2-fn.Theme"]
+	_each_q -> _speaker_n_1 [label=BV]
+}

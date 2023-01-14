@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named_n(House)" [label=BV]
+	compound -> "named(Foley)" [label=ARG1]
+	compound -> _speaker_n_1 [label=ARG1]
+	compound -> "named_n(House)" [label=ARG2]
+	"_deliver_v_to-fn.Delivery" -> _promise_n_of [label="ARG2-fn.Theme"]
+	proper_q -> "named(Foley)" [label=BV]
+	_ought_v_qmodal -> "_deliver_v_to-fn.Delivery" [label=ARG1]
+	_that_q_dem -> _promise_n_of [label=BV]
+	udef_q -> _speaker_n_1 [label=BV]
+	"_deliver_v_to-fn.Delivery" -> "named(Foley)" [label="ARG1-fn.Agent"]
+}

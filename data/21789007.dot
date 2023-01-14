@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_new_a_1 -> _order_n_of [label=ARG1]
+	proper_q -> "named(Cabrera)" [label=BV]
+	neg -> "_arrive_v_1-fn.Competition" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	poss -> _order_n_of [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(Guzman)" [label=BV]
+	compound -> "named(Guzman)" [label=ARG2]
+	udef_q -> _resistance_n_to [label=BV]
+	poss -> "named(Cabrera)" [label=ARG2]
+	_without_p -> "_arrive_v_1-fn.Competition" [label=ARG1]
+	"_arrive_v_1-fn.Competition" -> _order_n_of [label="ARG1-fn.Participant_1"]
+	def_explicit_q -> _order_n_of [label=BV]
+	_without_p -> _resistance_n_to [label=ARG2]
+	compound -> "named(Cabrera)" [label=ARG1]
+}

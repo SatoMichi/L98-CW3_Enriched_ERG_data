@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_confine_v_to-fn.NF" -> nominalization [label="ARG2-fn.Patient"]
+	"_confine_v_to-fn.NF" -> _sale_n_of [label="ARG3-fn.NotExist"]
+	parg_d -> "_confine_v_to-fn.NF" [label=ARG1]
+	_any_q -> nominalization [label=BV]
+	udef_q -> _retail_n_1 [label=BV]
+	parg_d -> nominalization [label=ARG2]
+	compound -> _sale_n_of [label=ARG1]
+	nominalization -> _hire_v_1 [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	compound -> _retail_n_1 [label=ARG2]
+}

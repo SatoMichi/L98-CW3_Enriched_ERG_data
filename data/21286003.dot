@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_be_v_nv -> pron [label=ARG1]
+	ellipsis_ref -> pron [label=ARG1]
+	_be_v_nv -> neg [label=ARG2]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	"_want_v_1-fn.Desiring" -> ellipsis_ref [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _quarter_n_temp [label=BV]
+	"_earn_v_1-fn.NF" -> _company_n_of [label="ARG1-fn.Agent"]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_year-earlier_a_1" -> _quarter_n_temp [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(6.6)" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	_in_p_temp -> _quarter_n_temp [label=ARG2]
+	"_earn_v_1-fn.NF" -> _dollar_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _dollar_n_1 [label=BV]
+	_in_p_temp -> "_earn_v_1-fn.NF" [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_should_v_modal-fn.Amounting_to" [label=ARG1]
+	ellipsis_ref -> pron [label=ARG1]
+	"_at+least_a_1" -> "_should_v_modal-fn.Amounting_to" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> ellipsis_ref [label="ARG1-fn.Value"]
+}

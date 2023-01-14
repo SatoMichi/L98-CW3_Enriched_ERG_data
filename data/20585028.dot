@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_1-fn.Commerce_buy" -> person [label="ARG1-fn.Buyer"]
+	"_have_v_1-fn.State_continue" -> person [label="ARG1-fn.Entity"]
+	_no_q -> person [label=BV]
+	udef_q -> _risk_n_of [label=BV]
+	"_want_v_1-fn.State_continue" -> person [label="ARG1-fn.Entity"]
+	_big_a_1 -> _risk_n_of [label=ARG1]
+	_big_a_1 -> _position_n_of [label=ARG1]
+	"_have_v_1-fn.State_continue" -> _position_n_of [label="ARG2-fn.State"]
+	"_take_v_1-fn.Commerce_buy" -> _risk_n_of [label="ARG2-fn.Goods"]
+	"_want_v_1-fn.State_continue" -> "_take_v_1-fn.Commerce_buy" [label="ARG2-fn.State"]
+	udef_q -> _position_n_of [label=BV]
+}

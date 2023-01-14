@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _ltd_n_1 [label=ARG2]
+	"_take_v_1-fn.Bringing" -> "named(Fujitsu)" [label="ARG1-fn.NotExist"]
+	_that_q_dem -> _practice_n_of [label=BV]
+	_to_p -> _practice_n_of [label=ARG1]
+	_new_a_1 -> _extreme_n_1 [label=ARG1]
+	_to_p -> _extreme_n_1 [label=ARG2]
+	"_take_v_1-fn.Bringing" -> _to_p [label="ARG3-fn.NotExist"]
+	"_take_v_1-fn.Bringing" -> _practice_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> _ltd_n_1 [label=BV]
+	compound -> "named(Fujitsu)" [label=ARG1]
+	_a_q -> _extreme_n_1 [label=BV]
+	proper_q -> "named(Fujitsu)" [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _leader_n_of [label=ARG1]
+	"_praise_v_1-fn.Judgment_communication" -> _leader_n_of [label="ARG1-fn.Agent"]
+	compound -> "named(Conasupo)" [label=ARG2]
+	udef_q -> _sector_n_1 [label=BV]
+	compound -> _sector_n_1 [label=ARG2]
+	_the_q -> nominalization [label=BV]
+	compound -> nominalization [label=ARG1]
+	proper_q -> "named(Conasupo)" [label=BV]
+	udef_q -> _leader_n_of [label=BV]
+	nominalization -> _restructure_v_1 [label=ARG1]
+	_private_a_1 -> _sector_n_1 [label=ARG1]
+	"_praise_v_1-fn.Judgment_communication" -> nominalization [label="ARG2-fn.Theme"]
+}

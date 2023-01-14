@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cotheme" -> pron [label="ARG1-fn.Theme"]
+	_a_q -> _problem_n_of [label=BV]
+	_real_a_1 -> _problem_n_of [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> _problem_n_of [label="ARG2-fn.Cotheme"]
+	"_mediocre/jj_u_unknown" -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	neg -> "_mediocre/jj_u_unknown" [label=ARG1]
+}

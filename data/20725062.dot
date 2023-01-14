@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> generic_entity [label=BV]
+	"card(5)" -> generic_entity [label=ARG1]
+	_interested_a_in -> generic_entity [label=ARG1]
+}

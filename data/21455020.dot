@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _glow_n_1 [label=BV]
+	"_make_v_1-fn.Causation" -> _battery_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _battery_n_of [label=BV]
+	"_make_v_1-fn.Causation" -> _glow_n_1 [label="ARG2-fn.Theme"]
+	compound -> _glow_n_1 [label=ARG1]
+	compound -> _spire_n_1 [label=ARG2]
+	udef_q -> _solar_n_1 [label=BV]
+	compound -> _solar_n_1 [label=ARG2]
+	compound -> _battery_n_of [label=ARG1]
+	udef_q -> _power_n_1 [label=BV]
+	compound -> _power_n_1 [label=ARG1]
+	udef_q -> _spire_n_1 [label=BV]
+}

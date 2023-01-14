@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_exist_v_1-fn.Existence" -> pron [label="ARG1-fn.NotExist"]
+	_enough_q -> _difficulty_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> "named(Congress)" [label="ARG1-fn.Pivot"]
+	_as_x_subord -> "_deal_v_with-fn.Resolve_problem" [label=ARG1]
+	_the_q -> _reality_n_1 [label=BV]
+	"_deal_v_with-fn.Resolve_problem" -> _reality_n_1 [label="ARG2-fn.Theme"]
+	_of_p -> _reality_n_1 [label=ARG1]
+	_as_x_subord -> "_exist_v_1-fn.Existence" [label=ARG2]
+	proper_q -> "named(Congress)" [label=BV]
+	_of_p -> _world_n_of [label=ARG2]
+	_the_q -> _world_n_of [label=BV]
+	_current_a_1 -> "_exist_v_1-fn.Existence" [label=ARG1]
+	"_have_v_1-fn.IN" -> _difficulty_n_1 [label="ARG2-fn.Theme"]
+	"_deal_v_with-fn.Resolve_problem" -> _difficulty_n_1 [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

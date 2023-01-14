@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_blame_v_on-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_most_q -> part_of [label=BV]
+	proper_q -> "named(Fatah)" [label=BV]
+	_these_q_dem -> generic_entity [label=BV]
+	"_blame_v_on-fn.IN" -> "named(Fatah)" [label="ARG3-fn.Attribute"]
+	part_of -> generic_entity [label=ARG1]
+	"_blame_v_on-fn.IN" -> part_of [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

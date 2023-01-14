@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _customer_n_of [label="ARG2-fn.Means"]
+	proper_q -> "named(Phil)" [label=BV]
+	udef_q -> _software_n_1 [label=BV]
+	appos -> _engineer_n_1 [label=ARG2]
+	appos -> "named(Harms)" [label=ARG1]
+	compound -> "named(Harms)" [label=ARG1]
+	compound -> _engineer_n_1 [label=ARG1]
+	_a_q -> _customer_n_of [label=BV]
+	compound -> _software_n_1 [label=ARG2]
+	_a_q -> _engineer_n_1 [label=BV]
+	_eager_a_1 -> _customer_n_of [label=ARG1]
+	proper_q -> "named(Harms)" [label=BV]
+	compound -> "named(Phil)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> "named(Harms)" [label="ARG1-fn.Process"]
+}

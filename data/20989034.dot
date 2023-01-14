@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _legal_a_1 [label=ARG1]
+	_most_q -> _case_n_of [label=BV]
+	_the_q -> _practice_n_of [label=BV]
+	_legal_a_1 -> _practice_n_of [label=ARG1]
+	_in_p -> _case_n_of [label=ARG2]
+}

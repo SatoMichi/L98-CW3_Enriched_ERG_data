@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pick_v_1-fn.Choosing" -> pron [label="ARG1-fn.Agent"]
+	"_pick_v_1-fn.Choosing" -> _country_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _country_n_of [label=BV]
+	unknown -> _country_n_of [label=ARG]
+	_any_q -> _country_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

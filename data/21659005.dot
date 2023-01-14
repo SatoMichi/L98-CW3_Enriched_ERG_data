@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	"_comment_v_on-fn.Statement" -> _speculation_n_about [label="ARG2-fn.Topic"]
+	_for_p -> "_spokeswoman/nn_u_unknown" [label=ARG1]
+	"_comment_v_on-fn.Statement" -> _company_n_of [label="ARG1-fn.Agent"]
+	proper_q -> "named(Paramount)" [label=BV]
+	"_say_v_to-fn.IN" -> "_spokeswoman/nn_u_unknown" [label="ARG1-fn.Agent"]
+	_the_q -> _company_n_of [label=BV]
+	_for_p -> "named(Paramount)" [label=ARG2]
+	_a_q -> "_spokeswoman/nn_u_unknown" [label=BV]
+	neg -> "_comment_v_on-fn.Statement" [label=ARG1]
+	udef_q -> _speculation_n_about [label=BV]
+}

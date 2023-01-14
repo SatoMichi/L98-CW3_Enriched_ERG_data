@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Santa)" [label=ARG2]
+	proper_q -> "named(Fe)" [label=BV]
+	_so_a_thus -> _worth_a_1 [label=ARG1]
+	_worth_a_1 -> thing [label=ARG2]
+	_worth_a_1 -> "named(Fe)" [label=ARG1]
+	proper_q -> "named(Santa)" [label=BV]
+	compound -> "named(Fe)" [label=ARG1]
+	which_q -> thing [label=BV]
+}

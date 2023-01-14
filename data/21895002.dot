@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_do_v_1-fn.State_continue" -> _job_n_of [label="ARG2-fn.State"]
+	"_do_v_1-fn.State_continue" -> _press_n_1 [label="ARG1-fn.Entity"]
+	_a_q -> _job_n_of [label=BV]
+	_excellent_a_1 -> _job_n_of [label=ARG1]
+	_the_q -> _press_n_1 [label=BV]
+}

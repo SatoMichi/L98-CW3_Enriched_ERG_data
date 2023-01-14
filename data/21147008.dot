@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hide_v_away-fn.Eclipse" -> pron [label="ARG1-fn.Agent"]
+	_american_a_1 -> _people_n_of [label=ARG1]
+	_from_p -> _people_n_of [label=ARG2]
+	"_hide_v_away-fn.Eclipse" -> _cost_n_1 [label="ARG2-fn.Patient"]
+	neg -> "_intend_v_for-fn.Purpose" [label=ARG1]
+	_the_q -> _people_n_of [label=BV]
+	"_intend_v_for-fn.Purpose" -> pron [label="ARG1-fn.NotExist"]
+	_from_p -> "_hide_v_away-fn.Eclipse" [label=ARG1]
+	"_intend_v_for-fn.Purpose" -> "_hide_v_away-fn.Eclipse" [label="ARG2-fn.NotExist"]
+	_these_q_dem -> _cost_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

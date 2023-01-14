@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_live_v_1-fn.Activity_stop" -> pron [label="ARG1-fn.Purpose"]
+	pronoun_q -> pron [label=BV]
+	_with_p -> "_live_v_1-fn.Activity_stop" [label=ARG1]
+	_with_p -> pron [label=ARG2]
+}

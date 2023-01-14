@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _term_n_of [label=ARG2]
+	neg -> "_disclose_v_to-fn.Reveal_secret" [label=ARG1]
+	_the_q -> _accord_n_1 [label=BV]
+	udef_q -> _term_n_of [label=BV]
+	"_disclose_v_to-fn.Reveal_secret" -> _term_n_of [label="ARG2-fn.Topic"]
+	_term_n_of -> _accord_n_1 [label=ARG1]
+	parg_d -> "_disclose_v_to-fn.Reveal_secret" [label=ARG1]
+}

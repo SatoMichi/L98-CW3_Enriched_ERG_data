@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _goal_n_1 [label=BV]
+	"_meet_v_1-fn.Competition" -> _goal_n_1 [label="ARG2-fn.Participant_2"]
+	"_meet_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_certain_a_of -> nominalization [label=ARG1]
+	"_far+from_x_deg" -> _certain_a_of [label=ARG1]
+	"_can_v_modal-fn.Existence" -> "_meet_v_1-fn.Competition" [label="ARG1-fn.Entity"]
+	_still_a_1 -> _certain_a_of [label=ARG1]
+	_ambitious_a_1 -> _goal_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> nominalization [label=BV]
+	nominalization -> "_can_v_modal-fn.Existence" [label=ARG1]
+}

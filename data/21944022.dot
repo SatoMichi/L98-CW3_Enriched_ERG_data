@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _rate_n_of [label=ARG1]
+	udef_q -> _rate_n_of [label=BV]
+	udef_q -> _interest_n_in [label=BV]
+	unknown -> _player_n_of [label=ARG]
+	_colon_p_namely -> _player_n_of [label=ARG1]
+	compound -> _interest_n_in [label=ARG2]
+	compound -> _player_n_of [label=ARG1]
+	udef_q -> _player_n_of [label=BV]
+}

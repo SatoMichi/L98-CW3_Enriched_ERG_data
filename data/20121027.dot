@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_can_v_modal-fn.Reliance" -> "_hold_v_back-fn.Change_posture" [label="ARG1-fn.Protagonist"]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_hold_v_back-fn.Change_posture" -> pron [label="ARG1-fn.Manner"]
+	udef_q -> _technology_n_1 [label=BV]
+	"_hold_v_back-fn.Change_posture" -> _technology_n_1 [label="ARG2-fn.Protagonist"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_any_q -> _bond_n_1 [label=BV]
+	"_not+just_x_deg" -> _any_q [label=ARG1]
+	"_do_v_suffice-fn.Have_as_requirement" -> _bond_n_1 [label="ARG1-fn.Dependent"]
+}

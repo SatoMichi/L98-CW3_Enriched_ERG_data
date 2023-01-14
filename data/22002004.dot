@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> "named(Meador)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Meador)" [label=BV]
+	proper_q -> "named(Balcor)" [label=BV]
+	compound -> _president_n_of [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _vice_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _president_n_of [label="ARG2-fn.Name"]
+	_of_p -> "named(Balcor)" [label=ARG2]
+	udef_q -> _president_n_of [label=BV]
+	compound -> "named(Meador)" [label=ARG1]
+	_of_p -> _president_n_of [label=ARG1]
+	udef_q -> _executive_n_1 [label=BV]
+	compound -> _executive_n_1 [label=ARG2]
+	compound -> _vice_n_1 [label=ARG2]
+}

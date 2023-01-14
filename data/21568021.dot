@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _wave_n_of [label=BV]
+	_lap_v_1 -> _wave_n_of [label=ARG1]
+	compound -> _tree_n_of [label=ARG1]
+	udef_q -> _palm_n_1 [label=BV]
+	_gentle_a_1 -> _lap_v_1 [label=ARG1]
+	"_sway_v_1-fn.NF" -> _tree_n_of [label="ARG1-fn.NotExist"]
+	_the_q -> _breeze_n_1 [label=BV]
+	_soft_a_1 -> _breeze_n_1 [label=ARG1]
+	compound -> _palm_n_1 [label=ARG2]
+	_lazy_a_1 -> "_sway_v_1-fn.NF" [label=ARG1]
+	_the_q -> _tree_n_of [label=BV]
+}

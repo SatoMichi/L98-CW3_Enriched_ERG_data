@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_turn_v_1-fn.Competition" -> "named_n(US)" [label="ARG1-fn.Participant_1"]
+	_quite_x -> comp_so [label=ARG1]
+	"_resourceful/jj_u_unknown" -> generic_entity [label=ARG1]
+	_no_q -> generic_entity [label=BV]
+	"_befriended/vbn_u_unknown" -> _but_c [label=ARG2]
+	comp_so -> "_resourceful/jj_u_unknown" [label=ARG1]
+	_against_p_dir -> "_turn_v_1-fn.Competition" [label=ARG1]
+	_against_p_dir -> _but_c [label=ARG2]
+	_the_q -> "named_n(US)" [label=BV]
+	_later_a_1 -> "_turn_v_1-fn.Competition" [label=ARG1]
+	"much-many_a" -> "_dictators/nns_u_unknown" [label=ARG1]
+	udef_q -> "_dictators/nns_u_unknown" [label=BV]
+	udef_q -> _but_c [label=BV]
+	"_befriended/vbn_u_unknown" -> "named_n(US)" [label=ARG1]
+}

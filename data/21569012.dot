@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_x_deg -> comp [label=ARG1]
+	_other_a_1 -> _utmost_n_1 [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	"_cost_v_1-fn.Expensiveness" -> generic_entity [label="ARG2-fn.Theme"]
+	udef_q -> _and_c [label=BV]
+	comp -> "little-few_a" [label=ARG1]
+	udef_q -> _utmost_n_1 [label=BV]
+	"_cost_v_1-fn.Expensiveness" -> implicit_conj [label="ARG1-fn.NotExist"]
+	"little-few_a" -> generic_entity [label=ARG1]
+	proper_q -> "named(MIT)" [label=BV]
+	proper_q -> "named(Stanford)" [label=BV]
+}

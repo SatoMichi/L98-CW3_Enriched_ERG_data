@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Security)" [label=BV]
+	compound -> "named(Security)" [label=ARG2]
+	udef_q -> "named_n(US)" [label=BV]
+	"_sort+of_a_1" -> _can_v_modal [label=ARG1]
+	_can_v_modal -> "_continue_v_1-fn.Process_continue" [label=ARG1]
+	compound -> _treaty_n_1 [label=ARG1]
+	_the_q -> _treaty_n_1 [label=BV]
+	proper_q -> "named(Japan)" [label=BV]
+	compound -> "named_n(US)" [label=ARG2]
+	"_continue_v_1-fn.Process_continue" -> _treaty_n_1 [label="ARG1-fn.NotExist"]
+	compound -> "named(Japan)" [label=ARG1]
+}

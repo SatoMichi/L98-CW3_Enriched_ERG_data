@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_those_q_dem -> _market_n_1 [label=BV]
+	proper_q -> "dofw(Mon)" [label=BV]
+	_most_q -> part_of [label=BV]
+	_the_q -> _day_n_of [label=BV]
+	part_of -> _market_n_1 [label=ARG1]
+	poss -> "dofw(Mon)" [label=ARG2]
+	poss -> _slide_n_1 [label=ARG1]
+	def_explicit_q -> _slide_n_1 [label=BV]
+	loc_nonsp -> "_rebound_v_1-fn.Attack" [label=ARG1]
+	loc_nonsp -> _day_n_of [label=ARG2]
+	_from_p -> _slide_n_1 [label=ARG2]
+	_from_p -> "_rebound_v_1-fn.Attack" [label=ARG1]
+	"_rebound_v_1-fn.Attack" -> part_of [label="ARG1-fn.Victim"]
+	_before_p -> _day_n_of [label=ARG1]
+}

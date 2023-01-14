@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_feel_v_seem-about-fn.Perception_experience" -> _israeli_n_1 [label="ARG1-fn.Experiencer"]
+	def_explicit_q -> _treatment_n_of [label=BV]
+	"_feel_v_seem-about-fn.Perception_experience" -> "_put+upon_a_1" [label="ARG2-fn.Stimulus"]
+	"_of+course_a_1" -> "_feel_v_seem-about-fn.Perception_experience" [label=ARG1]
+	"_of+course_a_1" -> "_complain_v_to-about-fn.Statement" [label=ARG1]
+	poss -> _treatment_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	_the_q -> _israeli_n_1 [label=BV]
+	"_complain_v_to-about-fn.Statement" -> "named(Palestinians)" [label="ARG1-fn.Agent"]
+	_about_p -> _treatment_n_of [label=ARG2]
+	_about_p -> "_complain_v_to-about-fn.Statement" [label=ARG1]
+	"_put+upon_a_1" -> _israeli_n_1 [label=ARG1]
+	_the_q -> "named(Palestinians)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

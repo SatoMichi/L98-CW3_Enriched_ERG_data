@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Harold)" [label=BV]
+	compound -> "named(Dallas)" [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> neg [label="ARG2-fn.Requirement"]
+	compound -> "named(Harold)" [label=ARG2]
+	compound -> _investor_n_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	proper_q -> "named(Dallas)" [label=BV]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	focus_d -> _interested_a_in [label=ARG2]
+	proper_q -> "named(Simmons)" [label=BV]
+	neg -> _interested_a_in [label=ARG1]
+	compound -> "named(Simmons)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> "named(Simmons)" [label="ARG1-fn.Dependent"]
+	_interested_a_in -> pron [label=ARG1]
+}

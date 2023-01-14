@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _place_n_of [label=BV]
+	udef_q -> _museum_n_of [label=BV]
+	poss -> _board_n_of [label=ARG1]
+	def_explicit_q -> _board_n_of [label=BV]
+	poss -> pron [label=ARG2]
+	_on_p -> _place_n_of [label=ARG1]
+	"_demand_v_of-fn.Request" -> _place_n_of [label="ARG2-fn.NotExist"]
+	subord -> "_demand_v_of-fn.Request" [label=ARG1]
+	subord -> "_donate_v_to-fn.Giving" [label=ARG2]
+	_heavy_a_1 -> "_donate_v_to-fn.Giving" [label=ARG1]
+	"_demand_v_of-fn.Request" -> pron [label="ARG1-fn.NotExist"]
+	_on_p -> _board_n_of [label=ARG2]
+	"_donate_v_to-fn.Giving" -> _museum_n_of [label="ARG3-fn.Recipient"]
+	pronoun_q -> pron [label=BV]
+}

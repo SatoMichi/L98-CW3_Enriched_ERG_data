@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_particular_a_1 -> _group_n_of [label=ARG1]
+	udef_q -> _change_n_of [label=BV]
+	"_give_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	_any_q -> _group_n_of [label=BV]
+	_the_q -> _ability_n_1 [label=BV]
+	"_veto_v_1-fn.State_continue" -> _change_n_of [label="ARG2-fn.State"]
+	_ability_n_1 -> "_veto_v_1-fn.State_continue" [label=ARG1]
+	neg -> "_give_v_1-fn.State_continue" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_give_v_1-fn.State_continue" -> _group_n_of [label="ARG3-fn.Time"]
+	"_give_v_1-fn.State_continue" -> _ability_n_1 [label="ARG2-fn.State"]
+}

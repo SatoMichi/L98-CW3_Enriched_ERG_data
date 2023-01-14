@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_at_p -> _dollar_n_1 [label=ARG2]
+	"_value_v_1-fn.Assessing" -> pron [label="ARG1-fn.Agent"]
+	times -> "card(1000000)" [label=ARG3]
+	"_value_v_1-fn.Assessing" -> _transaction_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _transaction_n_1 [label=BV]
+	_at_p -> "_value_v_1-fn.Assessing" [label=ARG1]
+	times -> "card(800)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

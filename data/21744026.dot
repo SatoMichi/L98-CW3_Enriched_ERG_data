@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Toyota)" [label=BV]
+	proper_q -> "named(Corolla)" [label=BV]
+	compound -> "named(Corolla)" [label=ARG1]
+	proper_q -> "named(Prizm)" [label=BV]
+	"_include_v_1-fn.NF" -> "named(F)" [label="ARG1-fn.NotExist"]
+	udef_q -> _and_c [label=BV]
+	compound -> "named(Prizm)" [label=ARG1]
+	proper_q -> "named(F)" [label=BV]
+	proper_q -> "named(Chevrolet)" [label=BV]
+	compound -> "named(Chevrolet)" [label=ARG2]
+	compound -> "named(Toyota)" [label=ARG2]
+	"_include_v_1-fn.NF" -> _and_c [label="ARG2-fn.Theme"]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_thing_n_of-about" [label=BV]
+	"_manage_v_1-fn.Competition" -> "named(Noriega)" [label="ARG1-fn.Participant_1"]
+	_whole_a_1 -> "_thing_n_of-about" [label=ARG1]
+	"_manage_v_1-fn.Competition" -> "_thing_n_of-about" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Noriega)" [label=BV]
+}

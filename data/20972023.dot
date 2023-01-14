@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_love_n_of-for" [label=BV]
+	every_q -> person [label=BV]
+	"_fall_v_1-fn.Competition" -> person [label="ARG1-fn.Participant_1"]
+	_in_p -> "_love_n_of-for" [label=ARG2]
+	_with_p -> "_fall_v_1-fn.Competition" [label=ARG1]
+	_with_p -> person [label=ARG2]
+	_in_p -> "_fall_v_1-fn.Competition" [label=ARG1]
+	_else_a_1 -> person [label=ARG1]
+}

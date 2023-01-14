@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _title_n_of [label=ARG2]
+	udef_q -> _publisher_n_1 [label=BV]
+	_new_a_1 -> _title_n_of [label=ARG1]
+	"_face_v_1-fn.Confronting_problem" -> _publisher_n_1 [label="ARG1-fn.NotExist"]
+	"_face_v_1-fn.Confronting_problem" -> _and_c [label="ARG2-fn.NotExist"]
+	udef_q -> _cost_n_1 [label=BV]
+	udef_q -> _title_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	_a_q -> "_glut/nn_u_unknown" [label=BV]
+	_spiral_v_1 -> _cost_n_1 [label=ARG1]
+	_of_p -> "_glut/nn_u_unknown" [label=ARG1]
+	compound -> _publisher_n_1 [label=ARG1]
+	compound -> _magazine_n_1 [label=ARG2]
+	udef_q -> _magazine_n_1 [label=BV]
+}

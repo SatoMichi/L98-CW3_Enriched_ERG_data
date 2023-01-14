@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_repond/vb_u_unknown" -> "named(Mesa)" [label=ARG1]
+	of_p -> "dofm(31)" [label=ARG1]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	proper_q -> "named(Mesa)" [label=BV]
+	_by_p_temp -> "dofm(31)" [label=ARG2]
+	"_ask_v_1-fn.Competition" -> "named(Mesa)" [label="ARG2-fn.Participant_2"]
+	_by_p_temp -> "_repond/vb_u_unknown" [label=ARG1]
+	proper_q -> "named(StatesWest)" [label=BV]
+	"_ask_v_1-fn.Competition" -> "_repond/vb_u_unknown" [label="ARG3-fn.Participants"]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	def_explicit_q -> "dofm(31)" [label=BV]
+	"_ask_v_1-fn.Competition" -> "named(StatesWest)" [label="ARG1-fn.Participant_1"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	"_go_v_1-fn.Change_position_on_a_scale" -> _patent_n_of [label="ARG1-fn.Attribute"]
+	def_explicit_q -> _patent_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> nominalization [label="ARG2-fn.Means"]
+	poss -> "named(Bell)" [label=ARG2]
+	proper_q -> "named(Bell)" [label=BV]
+	poss -> _patent_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	loc_nonsp -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	which_q -> place_n [label=BV]
+	nominalization -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	udef_q -> nominalization [label=BV]
+}

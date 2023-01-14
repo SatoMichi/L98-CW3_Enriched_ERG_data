@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _product_n_1 [label=BV]
+	_bad_a_at -> _publicity_n_1 [label=ARG1]
+	"_keep_v_on-fn.Activity_ongoing" -> _evolve_v_1 [label="ARG1-fn.NotExist"]
+	_evolve_v_1 -> _product_n_1 [label=ARG1]
+	"_overcome_v_1-fn.NF" -> _product_n_1 [label="ARG1-fn.Theme"]
+	"_overcome_v_1-fn.NF" -> _publicity_n_1 [label="ARG2-fn.Co-Theme"]
+	_the_q -> _publicity_n_1 [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _time_n_of [label=ARG1]
+	"_expect_v_1-fn.IN" -> _decision_n_1 [label="ARG2-fn.Theme"]
+	_until_p -> "_expect_v_1-fn.IN" [label=ARG1]
+	_next_a_1 -> _year_n_1 [label=ARG1]
+	_a_q -> _decision_n_1 [label=BV]
+	def_implicit_q -> _year_n_1 [label=BV]
+	parg_d -> "_expect_v_1-fn.IN" [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	_some_q -> _time_n_of [label=BV]
+	neg -> "_expect_v_1-fn.IN" [label=ARG1]
+	parg_d -> _decision_n_1 [label=ARG2]
+	_until_p -> _time_n_of [label=ARG2]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_have_v_1-fn.IN" [label=ARG1]
+	_on_p_temp -> "dofm(6)" [label=ARG2]
+	_on_p_temp -> "_have_v_1-fn.IN" [label=ARG1]
+	"_have_v_1-fn.IN" -> _reason_n_for [label="ARG2-fn.Theme"]
+	def_explicit_q -> "dofm(6)" [label=BV]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	focus_d -> _on_p_temp [label=ARG2]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	udef_q -> _reason_n_for [label=BV]
+	_reason_n_for -> _celebrate_v_1 [label=ARG1]
+	of_p -> "dofm(6)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

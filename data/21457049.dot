@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Carson)" [label=BV]
+	nominalization -> "_anti-semitic_a_1" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_charge_v_with-fn.Exclude_member" -> nominalization [label="ARG3-fn.Authority"]
+	compound -> "named(Carson)" [label=ARG1]
+	"_charge_v_with-fn.Exclude_member" -> "named(Carson)" [label="ARG2-fn.Group"]
+	parg_d -> "named(Carson)" [label=ARG2]
+	parg_d -> "_charge_v_with-fn.Exclude_member" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_even_x_deg -> proper_q [label=ARG1]
+	proper_q -> "named(Drexel)" [label=BV]
+	"_pull_v_back-fn.Undergo_change" -> "named(Drexel)" [label="ARG1-fn.Entity"]
+}

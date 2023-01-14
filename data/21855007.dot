@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decline_v_1-fn.Competition" -> _comment_n_1 [label="ARG2-fn.Participant_2"]
+	_on_p -> "named(Petco)" [label=ARG2]
+	compound -> "_spokeswoman/nn_u_unknown" [label=ARG1]
+	proper_q -> "named(CBOE)" [label=BV]
+	_on_p -> _comment_n_1 [label=ARG1]
+	udef_q -> _comment_n_1 [label=BV]
+	"_decline_v_1-fn.Competition" -> "_spokeswoman/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	_a_q -> "_spokeswoman/nn_u_unknown" [label=BV]
+	compound -> "named(CBOE)" [label=ARG2]
+	proper_q -> "named(Petco)" [label=BV]
+}

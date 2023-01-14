@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> "named(City)" [label="ARG2-fn.Means"]
+	compound -> "named(City)" [label=ARG1]
+	compound -> "named(York)" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	proper_q -> "named(York)" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	proper_q -> "named(City)" [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

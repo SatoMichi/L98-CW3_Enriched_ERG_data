@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_account_v_for-fn.Name_conferral" -> _fund_n_1 [label="ARG1-fn.Entity"]
+	_in_p -> _dollar_n_1 [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	_now_a_1 -> "_account_v_for-fn.Name_conferral" [label=ARG1]
+	"_account_v_for-fn.Name_conferral" -> generic_entity [label="ARG2-fn.Name"]
+	_in_p -> _asset_n_1 [label=ARG2]
+	generic_entity -> _dollar_n_1 [label=ARG1]
+	udef_q -> _asset_n_1 [label=BV]
+	"card(1000000000)" -> generic_entity [label=ARG1]
+	_several_a_1 -> generic_entity [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	_these_q_dem -> _fund_n_1 [label=BV]
+}

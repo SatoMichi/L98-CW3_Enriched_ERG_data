@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _chairman_n_of [label=ARG2]
+	compound -> "named(Lortie)" [label=ARG1]
+	proper_q -> "named(Pierre)" [label=BV]
+	_also_a_1 -> "_resign_v_1-fn.State_continue" [label=ARG1]
+	compound -> "named(Pierre)" [label=ARG2]
+	"_resign_v_1-fn.State_continue" -> "named(Lortie)" [label="ARG1-fn.Entity"]
+	udef_q -> _chairman_n_of [label=BV]
+	proper_q -> "named(Lortie)" [label=BV]
+}

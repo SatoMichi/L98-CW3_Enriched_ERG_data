@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _odds_n_1 [label=BV]
+	compound -> _franchise_n_1 [label=ARG1]
+	superl -> "_good_a_at-for-of" [label=ARG1]
+	poss -> pron [label=ARG2]
+	compound -> _core_n_1 [label=ARG2]
+	"_good_a_at-for-of" -> _odds_n_1 [label=ARG1]
+	def_explicit_q -> _franchise_n_1 [label=BV]
+	_with_p -> _franchise_n_1 [label=ARG2]
+	udef_q -> _core_n_1 [label=BV]
+	_with_p -> _odds_n_1 [label=ARG1]
+	poss -> _franchise_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

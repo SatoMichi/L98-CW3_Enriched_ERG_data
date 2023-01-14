@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _restriction_n_of [label=BV]
+	proper_q -> "named(Politics)" [label=BV]
+	_also_a_1 -> "_influence_v_1-fn.Social_event" [label=ARG1]
+	_on_p -> _thinking_n_1 [label=ARG1]
+	compound -> _takeover_n_of [label=ARG2]
+	compound -> _restriction_n_of [label=ARG1]
+	udef_q -> _takeover_n_of [label=BV]
+	poss -> _thinking_n_1 [label=ARG1]
+	def_explicit_q -> _thinking_n_1 [label=BV]
+	"_anti-_a_1" -> _takeover_n_of [label=ARG1]
+	"_influence_v_1-fn.Social_event" -> _thinking_n_1 [label="ARG2-fn.Social_event"]
+	poss -> _government_n_of [label=ARG2]
+	_on_p -> _restriction_n_of [label=ARG2]
+	_the_q -> _government_n_of [label=BV]
+	"_influence_v_1-fn.Social_event" -> "named(Politics)" [label="ARG1-fn.Duration"]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _quarter_n_temp [label=ARG2]
+	"_include_v_1-fn.Assemble" -> _charge_n_of [label="ARG2-fn.Group"]
+	comp -> _early_a_1 [label=ARG1]
+	compound -> _dollar_n_1 [label=ARG2]
+	_early_a_1 -> _quarter_n_temp [label=ARG1]
+	"_restructure_v_1-fn.Relative_time" -> _charge_n_of [label="ARG1-fn.Focal_occasion"]
+	_a_q -> _charge_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	_for_p -> _result_n_of [label=ARG1]
+	udef_q -> _result_n_of [label=BV]
+	"_include_v_1-fn.Assemble" -> _result_n_of [label="ARG1-fn.Individuals"]
+	"card(100,000)" -> _dollar_n_1 [label=ARG1]
+	compound -> _charge_n_of [label=ARG1]
+	_the_q -> _quarter_n_temp [label=BV]
+}

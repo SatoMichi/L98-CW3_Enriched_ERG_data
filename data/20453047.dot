@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_previously_p -> "_handle_v_1-fn.NF" [label=ARG1]
+	compound -> "named(Wegener)" [label=ARG1]
+	compound -> _and_c [label=ARG2]
+	compound -> "named(York)" [label=ARG1]
+	"_handle_v_1-fn.NF" -> "named(York)" [label="ARG1-fn.Agent"]
+	compound -> "named(New)" [label=ARG2]
+	parg_d -> _account_n_of [label=ARG2]
+	"_handle_v_1-fn.NF" -> _account_n_of [label="ARG2-fn.Theme"]
+	parg_d -> "_handle_v_1-fn.NF" [label=ARG1]
+	_the_q -> _account_n_of [label=BV]
+	proper_q -> "named(York)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	proper_q -> "named(Wegener)" [label=BV]
+	proper_q -> "named(Saatchi)" [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_1-fn.Competition" -> _sense_n_of [label="ARG2-fn.Participant_2"]
+	focus_d -> "_make_v_1-fn.Competition" [label=ARG1]
+	_some_q -> _industry_n_1 [label=BV]
+	focus_d -> _in_p_state [label=ARG2]
+	_like_p -> _pharmaceuticals_n_1 [label=ARG2]
+	_in_p_state -> _industry_n_1 [label=ARG2]
+	_in_p_state -> "_make_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _pharmaceuticals_n_1 [label=BV]
+	udef_q -> _sense_n_of [label=BV]
+	"_make_v_1-fn.Competition" -> _acquisition_n_of [label="ARG1-fn.Participant_1"]
+	_like_p -> _industry_n_1 [label=ARG1]
+	udef_q -> _acquisition_n_of [label=BV]
+}

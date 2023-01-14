@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_ease_v_1 -> _inflation_n_of [label=ARG2]
+	_ease_v_1 -> "_slowdown/nn_u_unknown" [label=ARG1]
+	_be_v_id -> "_slowdown/nn_u_unknown" [label=ARG2]
+	udef_q -> _inflation_n_of [label=BV]
+	_a_q -> _landing_n_1 [label=BV]
+	_be_v_id -> _landing_n_1 [label=ARG1]
+	_without_p -> _ease_v_1 [label=ARG1]
+	nominalization -> "_lead_v_to-fn.Causation" [label=ARG1]
+	"_lead_v_to-fn.Causation" -> _recession_n_1 [label="ARG3-fn.Result"]
+	_soft_a_1 -> _landing_n_1 [label=ARG1]
+	_economic_a_1 -> "_slowdown/nn_u_unknown" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_a_q -> "_slowdown/nn_u_unknown" [label=BV]
+	_without_p -> nominalization [label=ARG2]
+	_a_q -> _recession_n_1 [label=BV]
+}

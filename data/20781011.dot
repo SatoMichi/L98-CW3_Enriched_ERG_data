@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_switch_v_from-to-fn.Cause_to_end" [label=ARG1]
+	_definite_a_1 -> neg [label=ARG1]
+	"_switch_v_from-to-fn.Cause_to_end" -> _chip_n_1 [label="ARG4-fn.Explanation"]
+	"_say_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_be_v_id-fn.Residence" -> _option_n_1 [label="ARG2-fn.Location"]
+	poss -> _vendor_n_of [label=ARG2]
+	_another_q -> _vendor_n_of [label=BV]
+	neg -> "_be_v_id-fn.Residence" [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> _definite_a_1 [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Residence" -> nominalization [label="ARG1-fn.Resident"]
+	def_explicit_q -> _chip_n_1 [label=BV]
+	poss -> _chip_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> nominalization [label=BV]
+	_a_q -> _option_n_1 [label=BV]
+}

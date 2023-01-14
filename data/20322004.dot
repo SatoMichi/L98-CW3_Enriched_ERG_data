@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _strength_n_1 [label=ARG1]
+	"_draw_v_1-fn.Attack" -> _strength_n_1 [label="ARG2-fn.Weapon"]
+	_the_q -> _dollar_n_1 [label=BV]
+	"_draw_v_1-fn.Attack" -> _from_p [label="ARG3-fn.Assailant"]
+	compound -> _stock_n_1 [label=ARG2]
+	"_draw_v_1-fn.Attack" -> _dollar_n_1 [label="ARG1-fn.Victim"]
+	compound -> _market_n_1 [label=ARG1]
+	_from_p -> _climb_n_1 [label=ARG2]
+	poss -> _market_n_1 [label=ARG2]
+	_the_q -> _market_n_1 [label=BV]
+	poss -> _climb_n_1 [label=ARG1]
+	udef_q -> _strength_n_1 [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	def_explicit_q -> _climb_n_1 [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_add_v_to-fn.NF" -> _colon_p_namely [label="ARG2-fn.Topic"]
+	compound -> "_m&a/nn_u_unknown" [label=ARG2]
+	every_q -> person [label=BV]
+	udef_q -> _shop_n_of [label=BV]
+	poss -> _sister_n_of [label=ARG1]
+	_open_v_up -> _and_c [label=ARG1]
+	poss -> pron [label=ARG2]
+	_open_v_up -> _shop_n_of [label=ARG2]
+	udef_q -> "_m&a/nn_u_unknown" [label=BV]
+	udef_q -> _and_c [label=BV]
+	def_explicit_q -> _sister_n_of [label=BV]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	compound -> _shop_n_of [label=ARG1]
+	_colon_p_namely -> _open_v_up [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

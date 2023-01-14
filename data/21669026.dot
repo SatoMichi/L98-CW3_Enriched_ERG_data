@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_make_v_1 -> _inquiry_n_1 [label=ARG2]
+	compound -> "named(West)" [label=ARG2]
+	_german_a_1 -> _bank_n_of [label=ARG1]
+	_indeed_a_1 -> "_believe_v_1-fn.Awareness" [label=ARG1]
+	_other_a_1 -> _bank_n_of [label=ARG1]
+	parg_d -> "_believe_v_1-fn.Awareness" [label=ARG1]
+	udef_q -> "named(West)" [label=BV]
+	"_at+least_x_deg" -> "card(4)" [label=ARG1]
+	"card(4)" -> _bank_n_of [label=ARG1]
+	"_believe_v_1-fn.Awareness" -> _make_v_1 [label="ARG2-fn.NotExist"]
+	parg_d -> _bank_n_of [label=ARG2]
+	_make_v_1 -> _bank_n_of [label=ARG1]
+	udef_q -> _bank_n_of [label=BV]
+	udef_q -> _inquiry_n_1 [label=BV]
+	compound -> _german_a_1 [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _universe_n_of [label=ARG1]
+	"_change_v_1-fn.Relative_time" -> _universe_n_of [label="ARG1-fn.Focal_occasion"]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _universe_n_of [label=BV]
+	poss -> pron [label=ARG2]
+}

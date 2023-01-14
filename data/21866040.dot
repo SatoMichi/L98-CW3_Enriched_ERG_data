@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_there-fn.Cause_to_end" -> _swing_n_1 [label="ARG1-fn.Process"]
+	_then_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_another_q -> _swing_n_1 [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _bank_n_of [label=BV]
+	_of_p -> "_slew/nn_u_unknown" [label=ARG1]
+	_of_p -> "_copycats/nns_u_unknown" [label=ARG2]
+	_the_q -> _concept_n_1 [label=BV]
+	"_promote_v_1-fn.NF" -> _bank_n_of [label="ARG1-fn.Agent"]
+	_the_q -> _package_n_of [label=BV]
+	udef_q -> "_copycats/nns_u_unknown" [label=BV]
+	"_promote_v_1-fn.NF" -> _package_n_of [label="ARG2-fn.Theme"]
+	"_begot/vbd_u_unknown" -> "_slew/nn_u_unknown" [label=ARG2]
+	"_stop_v_prd-fn.Activity_stop" -> "_promote_v_1-fn.NF" [label="ARG1-fn.Agent"]
+	"_begot/vbd_u_unknown" -> _concept_n_1 [label=ARG1]
+	_a_q -> "_slew/nn_u_unknown" [label=BV]
+}

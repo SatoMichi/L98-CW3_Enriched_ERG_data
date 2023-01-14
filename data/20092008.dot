@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_radical_a_1 -> "_different_a_than-from" [label=ARG1]
+	_structural_a_1 -> "_different_a_than-from" [label=ARG1]
+	"_do_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_do_v_1-fn.Piracy" [label="ARG1-fn.Process"]
+	_some_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+	comp -> "_different_a_than-from" [label=ARG1]
+	"_different_a_than-from" -> thing [label=ARG1]
+	"_do_v_1-fn.Piracy" -> thing [label="ARG2-fn.Vehicle"]
+}

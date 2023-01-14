@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	part_of -> _force_n_1 [label=ARG1]
+	"_dedicate_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_dedicate_v_to-fn.NF" -> part_of [label="ARG2-fn.Theme"]
+	_persian_a_1 -> "named(Gulf)" [label=ARG1]
+	_all_q -> part_of [label=BV]
+	_the_q -> "named(Gulf)" [label=BV]
+	"_dedicate_v_to-fn.NF" -> "named(Gulf)" [label="ARG3-fn.Goal"]
+	_new_a_1 -> _force_n_1 [label=ARG1]
+	_these_q_dem -> _force_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

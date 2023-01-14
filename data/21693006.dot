@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> _analyst_n_1 [label="ARG1-fn.Dependent"]
+	part_of -> _industry_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "_mirror_v_1-fn.Experiencer_obj" [label="ARG2-fn.Requirement"]
+	"_mirror_v_1-fn.Experiencer_obj" -> part_of [label="ARG2-fn.Stimulus"]
+	"_mirror_v_1-fn.Experiencer_obj" -> _trouble_n_1 [label="ARG1-fn.Experiencer"]
+	udef_q -> _analyst_n_1 [label=BV]
+	_those_q_dem -> part_of [label=BV]
+	def_explicit_q -> _trouble_n_1 [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_the_q -> _industry_n_1 [label=BV]
+	poss -> _trouble_n_1 [label=ARG1]
+	poss -> _company_n_of [label=ARG2]
+}

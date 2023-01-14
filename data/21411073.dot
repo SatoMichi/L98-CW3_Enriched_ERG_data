@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bleed_v_cause-fn.Cause_harm" -> _inflation_n_of [label="ARG1-fn.Agent"]
+	"_bleed_v_cause-fn.Cause_harm" -> "named_n(NFL)" [label="ARG2-fn.Victim"]
+	subord -> "_bleed_v_cause-fn.Cause_harm" [label=ARG1]
+	"_contend_v_1-fn.Quitting" -> _owner_n_of [label="ARG1-fn.Employee"]
+	"_contend_v_1-fn.Quitting" -> subord [label="ARG2-fn.Employer"]
+	_the_q -> "named_n(NFL)" [label=BV]
+	_this_q_dem -> _inflation_n_of [label=BV]
+	_the_q -> _owner_n_of [label=BV]
+	udef_q -> _wage_n_1 [label=BV]
+	focus_d -> "_bleed_v_cause-fn.Cause_harm" [label=ARG2]
+	focus_d -> "_contend_v_1-fn.Quitting" [label=ARG1]
+	compound -> _wage_n_1 [label=ARG2]
+	subord -> _dry_a_1 [label=ARG2]
+	compound -> _inflation_n_of [label=ARG1]
+}

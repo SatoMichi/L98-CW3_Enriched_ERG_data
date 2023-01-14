@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _site_n_1 [label=BV]
+	_by_p_temp -> "_announce_v_to-fn.Statement" [label=ARG1]
+	"_announce_v_to-fn.Statement" -> _site_n_1 [label="ARG2-fn.Topic"]
+	_late_a_for -> "mofy(Nov)" [label=ARG1]
+	"_plan_v_1-fn.Purpose" -> "_announce_v_to-fn.Statement" [label="ARG2-fn.NotExist"]
+	proper_q -> "mofy(Nov)" [label=BV]
+	"_announce_v_to-fn.Statement" -> _venture_n_1 [label="ARG1-fn.Agent"]
+	_the_q -> _venture_n_1 [label=BV]
+	_by_p_temp -> "mofy(Nov)" [label=ARG2]
+	_final_a_1 -> _site_n_1 [label=ARG1]
+	"_plan_v_1-fn.Purpose" -> _venture_n_1 [label="ARG1-fn.Experiencer"]
+}

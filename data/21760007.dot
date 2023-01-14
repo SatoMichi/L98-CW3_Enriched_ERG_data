@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _cup_n_of [label=BV]
+	_then_a_1 -> _wash_v_1 [label=ARG1]
+	_the_q -> _and_c [label=BV]
+	"_serve_v_as-fn.NF" -> _and_c [label="ARG2-fn.Theme"]
+	udef_q -> _woman_n_1 [label=BV]
+	_white_a_1 -> _woman_n_1 [label=ARG1]
+	udef_q -> _coffee_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _tea_n_1 [label=BV]
+	_wash_v_1 -> _woman_n_1 [label=ARG1]
+	_wash_v_1 -> _and_c [label=ARG2]
+	_afterwards_p -> _wash_v_1 [label=ARG1]
+	"_serve_v_as-fn.NF" -> _woman_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _saucer_n_1 [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _support_n_of [label=BV]
+	proper_q -> "named(Espectador)" [label=BV]
+	compound -> "named(Espectador)" [label=ARG1]
+	_with_p -> _support_n_of [label=ARG2]
+	proper_q -> "named(EL)" [label=BV]
+	_real_a_1 -> _support_n_of [label=ARG1]
+	"_reward_v_1-fn.Rewards_and_punishments" -> _courage_n_1 [label="ARG2-fn.Theme"]
+	_with_p -> "_reward_v_1-fn.Rewards_and_punishments" [label=ARG1]
+	poss -> _courage_n_1 [label=ARG1]
+	def_explicit_q -> _courage_n_1 [label=BV]
+	poss -> "named(Espectador)" [label=ARG2]
+	"_reward_v_1-fn.Rewards_and_punishments" -> pron [label="ARG1-fn.Agent"]
+	compound -> "named(EL)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

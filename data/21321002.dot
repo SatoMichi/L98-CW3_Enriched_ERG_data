@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"card(1000000000)" -> _yen_n_2 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _price_n_of [label="ARG1-fn.Entity"]
+	times -> "card(1000000000)" [label=ARG3]
+	parenthetical -> _yen_n_2 [label=ARG1]
+	parenthetical -> _dollar_n_1 [label=ARG2]
+	_the_q -> _price_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(3.6)" [label=ARG2]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _yen_n_2 [label="ARG2-fn.Name"]
+	times -> "card(25)" [label=ARG2]
+	udef_q -> _yen_n_2 [label=BV]
+}

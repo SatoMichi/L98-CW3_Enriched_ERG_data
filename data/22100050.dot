@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.IN" -> generic_entity [label="ARG1-fn.Agent"]
+	"_save_v_1-fn.NF" -> pron [label="ARG3-fn.NotExist"]
+	"_save_v_1-fn.NF" -> generic_entity [label="ARG1-fn.NotExist"]
+	"_get_v_state-fn.IN" -> "_involve_v_1-fn.NF" [label="ARG3-fn.NotExist"]
+	udef_q -> _time_n_of [label=BV]
+	parg_d -> "_involve_v_1-fn.NF" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _people_n_of [label=BV]
+	parg_d -> _people_n_of [label=ARG2]
+	"_involve_v_1-fn.NF" -> _people_n_of [label="ARG2-fn.NotExist"]
+	"_get_v_state-fn.IN" -> _people_n_of [label="ARG2-fn.Patient"]
+	"_save_v_1-fn.NF" -> _time_n_of [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

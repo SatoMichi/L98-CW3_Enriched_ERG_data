@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _college_n_of [label=ARG2]
+	udef_q -> _service_n_1 [label=BV]
+	udef_q -> _college_n_of [label=BV]
+	compound -> "yofc(900)" [label=ARG2]
+	"_eye_v_1-fn.NF" -> _registration_n_of [label="ARG2-fn.Stimulus"]
+	udef_q -> _registration_n_of [label=BV]
+	_through_p -> _registration_n_of [label=ARG1]
+	_through_p -> _service_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "_eye_v_1-fn.NF" [label="ARG2-fn.NotExist"]
+	compound -> _service_n_1 [label=ARG1]
+	proper_q -> "yofc(900)" [label=BV]
+	"_eye_v_1-fn.NF" -> _college_n_of [label="ARG1-fn.Experiencer"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

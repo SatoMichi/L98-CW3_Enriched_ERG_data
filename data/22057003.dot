@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_down_p -> _point_n_of [label=ARG2]
+	"card(18.65)" -> _point_n_of [label=ARG1]
+	_down_p -> "_finish_v_1-fn.Competition" [label=ARG1]
+	_only_x_deg -> udef_q [label=ARG1]
+	_then_a_1 -> "_in+order+to_x" [label=ARG1]
+	udef_q -> _point_n_of [label=BV]
+	"_rebound_v_1-fn.Attack" -> pron [label="ARG1-fn.Victim"]
+	"_in+order+to_x" -> "_rebound_v_1-fn.Attack" [label=ARG1]
+	"_finish_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	"_in+order+to_x" -> "_finish_v_1-fn.Competition" [label=ARG2]
+}

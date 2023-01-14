@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	compound -> _sale_n_of [label=ARG1]
+	"_combine_v_cause-fn.Cause_to_end" -> _sale_n_of [label="ARG2-fn.Means"]
+	udef_q -> _sale_n_of [label=BV]
+	"card(3)" -> _unit_n_of [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	_the_q -> _unit_n_of [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(904)" [label=ARG2]
+	_about_x_deg -> udef_q [label=ARG1]
+	_sale_n_of -> _dollar_n_1 [label=ARG1]
+	proper_q -> "yofc(1988)" [label=BV]
+	compound -> "yofc(1988)" [label=ARG2]
+	"_combine_v_cause-fn.Cause_to_end" -> _unit_n_of [label="ARG1-fn.Process"]
+}

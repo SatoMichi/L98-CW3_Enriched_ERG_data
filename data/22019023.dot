@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_to_p -> "_subside_v_1-fn.Relative_time" [label=ARG1]
+	compound -> _turnover_n_1 [label=ARG1]
+	_to_p -> generic_entity [label=ARG2]
+	udef_q -> _share_n_of [label=BV]
+	times -> "card(161.5)" [label=ARG2]
+	"_subside_v_1-fn.Relative_time" -> _turnover_n_1 [label="ARG1-fn.Focal_occasion"]
+	udef_q -> generic_entity [label=BV]
+	compound -> _share_n_of [label=ARG2]
+	udef_q -> _turnover_n_1 [label=BV]
+	"card(1000000)" -> generic_entity [label=ARG1]
+}

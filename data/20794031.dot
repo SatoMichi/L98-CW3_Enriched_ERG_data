@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_1-fn.State_continue" -> thing [label="ARG2-fn.State"]
+	"_say_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	_no_q -> _politician_n_1 [label=BV]
+	"_want_v_1-fn.State_continue" -> _politician_n_1 [label="ARG1-fn.Entity"]
+	_just_a_1 -> "_say_v_1-fn.State_continue" [label=ARG1]
+	"_want_v_1-fn.State_continue" -> "_say_v_to-fn.Have_as_requirement" [label="ARG2-fn.State"]
+	neg -> _for_p [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> _politician_n_1 [label="ARG1-fn.Dependent"]
+	_for_p -> _minute_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _minute_n_1 [label=BV]
+	_for_p -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	which_q -> thing [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> "_say_v_1-fn.State_continue" [label="ARG2-fn.Requirement"]
+}

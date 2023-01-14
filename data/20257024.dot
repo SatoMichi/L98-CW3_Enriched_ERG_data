@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _boss_n_1 [label=ARG1]
+	_other_a_1 -> _chore_n_1 [label=ARG1]
+	"_complain_v_to-about-fn.Statement" -> _boss_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _neglect_n_of [label=BV]
+	_neglect_n_of -> _chore_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_about_p -> _neglect_n_of [label=ARG2]
+	_about_p -> "_complain_v_to-about-fn.Statement" [label=ARG1]
+	def_explicit_q -> _boss_n_1 [label=BV]
+	udef_q -> _chore_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

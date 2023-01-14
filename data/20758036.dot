@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	comp_equal -> "much-many_a" [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	_pleased_a_with -> "named(Martha)" [label=ARG1]
+	_as_p -> place_n [label=ARG1]
+	compound -> "named(Engelken)" [label=ARG1]
+	_near_x_deg -> comp_equal [label=ARG1]
+	"much-many_a" -> place_n [label=ARG1]
+	proper_q -> "named(Engelken)" [label=BV]
+	_as_p -> "named(Engelken)" [label=ARG2]
+	proper_q -> "named(Martha)" [label=BV]
+	_but_x -> loc_nonsp [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	_no_q -> place_n [label=BV]
+	_but_x -> _pleased_a_with [label=ARG1]
+}

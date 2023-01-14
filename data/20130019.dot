@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_twist_v_1-fn.Body_movement" [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	_beyond_p_dir -> "_go_v_1-fn.Motion" [label=ARG1]
+	loc_nonsp -> _problem_n_of [label=ARG1]
+	_here_a_1 -> place_n [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	"_go_v_1-fn.Motion" -> _problem_n_of [label="ARG1-fn.NotExist"]
+	"_twist_v_1-fn.Body_movement" -> _doctrine_n_1 [label="ARG2-fn.Material"]
+	udef_q -> _doctrine_n_1 [label=BV]
+	_legal_a_1 -> _doctrine_n_1 [label=ARG1]
+	_well_x_deg -> _beyond_p_dir [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _problem_n_of [label=BV]
+	_beyond_p_dir -> nominalization [label=ARG2]
+}

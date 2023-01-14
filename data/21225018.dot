@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_throw_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_throw_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_throw_v_1-fn.Competition" -> _hat_n_1 [label="ARG2-fn.Participant_2"]
+	_in_p -> _hat_n_1 [label=ARG1]
+	_the_q -> _ring_n_1 [label=BV]
+	def_explicit_q -> _hat_n_1 [label=BV]
+	_in_p -> _ring_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_throw_v_1-fn.Competition" -> _in_p [label="ARG3-fn.Participants"]
+	poss -> pron [label=ARG2]
+	poss -> _hat_n_1 [label=ARG1]
+}

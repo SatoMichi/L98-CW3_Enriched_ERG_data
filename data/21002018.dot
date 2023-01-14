@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> "_collapse_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	_then_p_temp -> time_n [label=ARG1]
+	_between_p -> "_collapse_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_happen_v_to-fn.Surpassing" -> pron [label="ARG2-fn.Profiled_item"]
+	_if_x_then -> "_happen_v_to-fn.Surpassing" [label=ARG1]
+	proper_q -> "named(Campeau)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_happen_v_to-fn.Surpassing" -> thing [label="ARG1-fn.Standard_item"]
+	which_q -> thing [label=BV]
+	_now_a_1 -> time_n [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	_between_p -> _and_c [label=ARG2]
+	"_collapse_v_1-fn.Change_position_on_a_scale" -> "named(Campeau)" [label="ARG1-fn.Attribute"]
+}

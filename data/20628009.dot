@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _business_n_1 [label=BV]
+	_still_a_1 -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> _business_n_1 [label=ARG1]
+	compound -> _business_n_1 [label=ARG1]
+	udef_q -> _export_n_of [label=BV]
+	compound -> _export_n_of [label=ARG2]
+}

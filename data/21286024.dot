@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_from_p -> _establishment_n_of [label=ARG2]
+	"_in+order+to_x" -> _unfair_a_to [label=ARG1]
+	_educational_a_1 -> _establishment_n_of [label=ARG1]
+	udef_q -> _teacher_n_of [label=BV]
+	_from_p -> _distinct_a_1 [label=ARG1]
+	_the_q -> _establishment_n_of [label=BV]
+	comp_equal -> _distinct_a_1 [label=ARG1]
+	"_dump_v_on-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_distinct_a_1 -> _teacher_n_of [label=ARG1]
+	"_in+order+to_x" -> "_dump_v_on-fn.NF" [label=ARG2]
+	"_dump_v_on-fn.NF" -> _teacher_n_of [label="ARG2-fn.NotExist"]
+	_unfair_a_to -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

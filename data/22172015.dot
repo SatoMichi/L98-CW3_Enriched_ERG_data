@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Art)" [label=BV]
+	appos -> "named(Art)" [label=ARG2]
+	"_write_v_to-fn.Cause_to_end" -> _book_n_of [label="ARG2-fn.Means"]
+	compound -> "named(Art)" [label=ARG1]
+	_this_q_dem -> _book_n_of [label=BV]
+	appos -> _book_n_of [label=ARG1]
+	_the_q -> "named(Deal)" [label=BV]
+	_of_p -> "named(Deal)" [label=ARG2]
+	_of_p -> "named(Art)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_write_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	proper_q -> "named(The)" [label=BV]
+	compound -> "named(The)" [label=ARG2]
+}

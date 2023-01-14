@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_relate_v_to-fn.Cause_to_end" [label=ARG1]
+	"_relate_v_to-fn.Cause_to_end" -> _reason_n_for [label="ARG1-fn.Process"]
+	poss -> pron [label=ARG2]
+	compound -> _skill_n_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	"_relate_v_to-fn.Cause_to_end" -> _skill_n_1 [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	_the_q -> _reason_n_for [label=BV]
+	def_explicit_q -> _skill_n_1 [label=BV]
+	poss -> _skill_n_1 [label=ARG1]
+	nominalization -> _sell_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

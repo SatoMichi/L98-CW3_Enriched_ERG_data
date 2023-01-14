@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _maker_n_of [label=ARG1]
+	compound -> _automobile_n_1 [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _maker_n_of [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> "named(Simpson)" [label="ARG1-fn.Process"]
+	udef_q -> _part_n_1 [label=BV]
+	proper_q -> "named(Simpson)" [label=BV]
+	udef_q -> _automobile_n_1 [label=BV]
+	_a_q -> _maker_n_of [label=BV]
+	compound -> _part_n_1 [label=ARG1]
+}

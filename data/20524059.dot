@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_concern_v_1-fn.Topic" -> _investor_n_1 [label="ARG2-fn.Co-Theme"]
+	_japanese_a_1 -> _investor_n_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	pronoun_q -> _one_n_1 [label=BV]
+	"_concern_v_1-fn.Topic" -> _one_n_1 [label="ARG1-fn.Theme"]
+}

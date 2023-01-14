@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_employ_v_1-fn.Employing" -> "named(Africa)" [label="ARG1-fn.Agent"]
+	compound -> "named(Africa)" [label=ARG1]
+	compound -> "named(South)" [label=ARG2]
+	proper_q -> "named(Gillette)" [label=BV]
+	proper_q -> "named(Africa)" [label=BV]
+	"_employ_v_1-fn.Employing" -> _people_n_of [label="ARG2-fn.Theme"]
+	"card(250)" -> _people_n_of [label=ARG1]
+	_about_x_deg -> "card(250)" [label=ARG1]
+	proper_q -> "named(South)" [label=BV]
+	compound -> "named(Gillette)" [label=ARG2]
+	udef_q -> _people_n_of [label=BV]
+}

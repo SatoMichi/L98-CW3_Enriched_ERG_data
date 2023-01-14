@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_budgetary_a_1 -> _concern_n_1 [label=ARG1]
+	_the_q -> _project_n_1 [label=BV]
+	_snag_v_cause -> _project_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _employee_n_of [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> _may_v_modal [label="ARG2-fn.Topic"]
+	_also_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	udef_q -> _concern_n_1 [label=BV]
+	parg_d -> _project_n_1 [label=ARG2]
+	_snag_v_cause -> _concern_n_1 [label=ARG1]
+	parg_d -> _snag_v_cause [label=ARG1]
+	_the_q -> _employee_n_of [label=BV]
+	_may_v_modal -> _snag_v_cause [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named_n(House)" [label=BV]
+	udef_q -> _rent_n_1 [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	"_soar_v_1-fn.Change_position_on_a_scale" -> _rent_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _price_n_of [label=ARG1]
+	"_along+with_p" -> "_soar_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_along+with_p" -> _price_n_of [label=ARG2]
+	compound -> "named_n(House)" [label=ARG2]
+}

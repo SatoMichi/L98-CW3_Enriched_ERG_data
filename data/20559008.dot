@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(African)" [label=ARG1]
+	_in_p -> _politics_n_1 [label=ARG2]
+	proper_q -> "named(African)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	udef_q -> _time_n_of [label=BV]
+	udef_q -> _politics_n_1 [label=BV]
+	compound -> "named(South)" [label=ARG2]
+	proper_q -> "named(South)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _time_n_of [label="ARG2-fn.Means"]
+	_in_p -> _time_n_of [label=ARG1]
+	_these_q_dem -> generic_entity [label=BV]
+	_curious_a_about -> _time_n_of [label=ARG1]
+	compound -> _politics_n_1 [label=ARG1]
+}

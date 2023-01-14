@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_united_a_1 -> _industry_n_1 [label=ARG1]
+	"_set_v_off-fn.Relative_time" -> _debate_n_1 [label="ARG2-fn.Landmark_occasion"]
+	_the_q -> _proposal_n_1 [label=BV]
+	"_to+begin+with_a_1" -> _united_a_1 [label=ARG1]
+	"_set_v_off-fn.Relative_time" -> _proposal_n_1 [label="ARG1-fn.Focal_occasion"]
+	_a_q -> _debate_n_1 [label=BV]
+	_within_p -> _debate_n_1 [label=ARG1]
+	_a_q -> _industry_n_1 [label=BV]
+	"_far+from_x_deg" -> _united_a_1 [label=ARG1]
+	_lively_a_1 -> _debate_n_1 [label=ARG1]
+	_within_p -> _industry_n_1 [label=ARG2]
+}

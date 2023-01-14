@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_id [label=ARG2]
+	_be_v_id -> _ghost_n_1 [label=ARG2]
+	compound -> "named(Warren)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "named(Warren)" [label="ARG1-fn.Agent"]
+	_tenacious_a_1 -> _ghost_n_1 [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	_be_v_id -> generic_entity [label=ARG1]
+	_very_x_deg -> _tenacious_a_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_dark_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	proper_q -> "named(Warren)" [label=BV]
+	_a_q -> _ghost_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

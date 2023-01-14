@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _sale_n_of [label=ARG1]
+	poss -> "yofc(1989)" [label=ARG2]
+	"ord(1)" -> _half_n_of [label=ARG1]
+	_during_p -> _half_n_of [label=ARG2]
+	_during_p -> "_flatten_v_1-fn.Undergo_change" [label=ARG1]
+	def_explicit_q -> _half_n_of [label=BV]
+	proper_q -> "yofc(1989)" [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	poss -> _half_n_of [label=ARG1]
+	"_flatten_v_1-fn.Undergo_change" -> _sale_n_of [label="ARG1-fn.Entity"]
+	def_explicit_q -> _sale_n_of [label=BV]
+	poss -> _company_n_of [label=ARG2]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _plc_n_1 [label=ARG2]
+	udef_q -> _plc_n_1 [label=BV]
+	compound -> "named(Redland)" [label=ARG1]
+	"_guarantee_v_1-fn.State_continue" -> "named(Redland)" [label="ARG1-fn.Entity"]
+	parg_d -> "_guarantee_v_1-fn.State_continue" [label=ARG1]
+	proper_q -> "named(Redland)" [label=BV]
+}

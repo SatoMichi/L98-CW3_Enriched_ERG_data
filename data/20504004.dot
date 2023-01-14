@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _tender_n_1 [label=BV]
+	"_appear_v_to-fn.Cause_to_end" -> _offer_n_1 [label="ARG1-fn.Process"]
+	compound -> _tender_n_1 [label=ARG2]
+	udef_q -> _analyst_n_1 [label=BV]
+	compound -> _offer_n_1 [label=ARG1]
+	_because_x -> _surprised_a_at [label=ARG1]
+	_unsolicited_a_1 -> _offer_n_1 [label=ARG1]
+	"_appear_v_to-fn.Cause_to_end" -> _unsolicited_a_1 [label="ARG2-fn.Means"]
+	_the_q -> _offer_n_1 [label=BV]
+	_because_x -> "_appear_v_to-fn.Cause_to_end" [label=ARG2]
+	_surprised_a_at -> _analyst_n_1 [label=ARG1]
+}

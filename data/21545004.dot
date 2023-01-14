@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _union_n_of [label=BV]
+	def_explicit_q -> _leadership_n_1 [label=BV]
+	_recommend_v_to -> _leadership_n_1 [label=ARG1]
+	"card(4)" -> _union_n_of [label=ARG1]
+	"_vote_v_1-fn.NF" -> _union_n_of [label="ARG1-fn.Agent"]
+	poss -> pron [label=ARG2]
+	_recommend_v_to -> _approval_n_of [label=ARG2]
+	poss -> _leadership_n_1 [label=ARG1]
+	_other_a_1 -> _union_n_of [label=ARG1]
+	udef_q -> _approval_n_of [label=BV]
+	_have_v_yet -> "_vote_v_1-fn.NF" [label=ARG1]
+	_also_a_1 -> _recommend_v_to [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

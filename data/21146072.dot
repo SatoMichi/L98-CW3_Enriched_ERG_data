@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_good_a_at-for-of" -> _soil_n_1 [label=ARG1]
+	focus_d -> "_be_v_id-fn.Assemble" [label=ARG1]
+	udef_q -> _soil_n_1 [label=BV]
+	"_be_v_id-fn.Assemble" -> _soil_n_1 [label="ARG2-fn.Group"]
+	proper_q -> "yofc(1963)" [label=BV]
+	focus_d -> _until_p [label=ARG2]
+	_until_p -> "_be_v_id-fn.Assemble" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	pronoun_q -> pron [label=BV]
+	_until_p -> "yofc(1963)" [label=ARG2]
+}

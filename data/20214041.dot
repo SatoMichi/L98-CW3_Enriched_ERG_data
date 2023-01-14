@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_walk_v_1 -> generic_entity [label=ARG2]
+	"card(5)" -> generic_entity [label=ARG1]
+	"card(7)" -> _hit_n_1 [label=ARG1]
+	udef_q -> _hit_n_1 [label=BV]
+	"_get_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> generic_entity [label=BV]
+	"_get_v_1-fn.IN" -> _decision_n_1 [label="ARG2-fn.Theme"]
+	_a_q -> _decision_n_1 [label=BV]
+	_give_v_up -> _hit_n_1 [label=ARG2]
+	_give_v_up -> pron [label=ARG1]
+	_walk_v_1 -> pron [label=ARG1]
+	neg -> "_get_v_1-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

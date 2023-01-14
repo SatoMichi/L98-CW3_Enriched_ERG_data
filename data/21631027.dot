@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _bond_n_1 [label=BV]
+	_could_v_modal -> "_imply_v_1-fn.Evidence" [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+	"much-many_a" -> _safety_n_1 [label=ARG1]
+	comp -> nominalization [label=ARG2]
+	compound -> _bond_n_1 [label=ARG1]
+	nominalization -> "_invest_v_in-fn.NF" [label=ARG1]
+	"_imply_v_1-fn.Evidence" -> thing [label="ARG1-fn.Cause"]
+	compound -> _government_n_of [label=ARG2]
+	"_imply_v_1-fn.Evidence" -> _safety_n_1 [label="ARG2-fn.Topic"]
+	udef_q -> _government_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _safety_n_1 [label=BV]
+	which_q -> thing [label=BV]
+	"_invest_v_in-fn.NF" -> _bond_n_1 [label="ARG2-fn.NotExist"]
+}

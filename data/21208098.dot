@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(American_Express)" [label=BV]
+	"_fall_v_1-fn.Halt" -> "named(Index)" [label="ARG1-fn.Purpose"]
+	proper_q -> "named(Market)" [label=BV]
+	compound -> "named(Value)" [label=ARG1]
+	_the_q -> "named(Index)" [label=BV]
+	proper_q -> "named(Value)" [label=BV]
+	compound -> "named(Market)" [label=ARG1]
+	compound -> "named(American_Express)" [label=ARG2]
+	compound -> "named(Index)" [label=ARG1]
+	number_q -> "card(3.10)" [label=BV]
+	number_q -> "card(376.36)" [label=BV]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	loc_nonsp -> "card(3.10)" [label=ARG2]
+	_to_p -> "card(376.36)" [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_receive_v_1-fn.Receiving" -> _assistance_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _assistance_n_1 [label=BV]
+	_organize_v_1 -> _crime_n_1 [label=ARG2]
+	_when_x_subord -> _and_c [label=ARG1]
+	parg_d -> _crime_n_1 [label=ARG2]
+	_seek_v_1 -> pron [label=ARG1]
+	_when_x_subord -> _necessary_a_for [label=ARG2]
+	parg_d -> _organize_v_1 [label=ARG1]
+	udef_q -> _crime_n_1 [label=BV]
+	_from_p -> _crime_n_1 [label=ARG2]
+	_from_p -> _assistance_n_1 [label=ARG1]
+	"_receive_v_1-fn.Receiving" -> pron [label="ARG1-fn.Agent"]
+	_seek_v_1 -> _assistance_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

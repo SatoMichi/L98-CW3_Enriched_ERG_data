@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_strong_a_1 -> _position_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _position_n_of [label=BV]
+	"_recognize_v_1-fn.Experiencer_obj" -> _move_n_1 [label="ARG1-fn.Experiencer"]
+	_the_q -> _company_n_of [label=BV]
+	_the_q -> _move_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _company_n_of [label="ARG1-fn.Dependent"]
+	_financial_a_1 -> _position_n_of [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "_recognize_v_1-fn.Experiencer_obj" [label="ARG2-fn.Requirement"]
+	poss -> _position_n_of [label=ARG1]
+	"_recognize_v_1-fn.Experiencer_obj" -> _position_n_of [label="ARG2-fn.Stimulus"]
+}

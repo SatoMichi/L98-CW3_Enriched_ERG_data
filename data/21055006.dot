@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_change_v_cause-fn.Exchange" -> _issue_n_1 [label="ARG1-fn.NotExist"]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> generic_entity [label="ARG1-fn.NotExist"]
+	"card(4,348)" -> _issue_n_1 [label=ARG1]
+	_advance_v_1 -> generic_entity [label=ARG1]
+	udef_q -> _hand_n_1 [label=BV]
+	udef_q -> generic_entity [label=BV]
+	_of_x_subord -> _and_c [label=ARG1]
+	_the_q -> _issue_n_1 [label=BV]
+	"_change_v_cause-fn.Exchange" -> _hand_n_1 [label="ARG2-fn.Theme"]
+	_of_x_subord -> unknown [label=ARG2]
+	"card(866)" -> generic_entity [label=ARG1]
+	unknown -> _issue_n_1 [label=ARG]
+	"card(1,074)" -> generic_entity [label=ARG1]
+}

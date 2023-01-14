@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_functional_a_1 -> _company_n_of [label=ARG1]
+	_in_p -> _area_n_of [label=ARG2]
+	_full_a_of -> _functional_a_1 [label=ARG1]
+	udef_q -> _company_n_of [label=BV]
+	_in_p -> _worker_n_1 [label=ARG1]
+	udef_q -> _area_n_of [label=BV]
+	"card(1,750)" -> _worker_n_1 [label=ARG1]
+	_with_p -> _company_n_of [label=ARG1]
+	udef_q -> _worker_n_1 [label=BV]
+	_with_p -> _worker_n_1 [label=ARG2]
+}

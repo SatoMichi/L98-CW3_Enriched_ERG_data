@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_upgrade_v_1-fn.NF" -> _money_n_1 [label="ARG1-fn.Agent"]
+	poss -> _facility_n_1 [label=ARG1]
+	udef_q -> _money_n_1 [label=BV]
+	"_return_v_1-fn.NF" -> _money_n_1 [label="ARG2-fn.Theme"]
+	"little-few_a" -> _money_n_1 [label=ARG1]
+	"_upgrade_v_1-fn.NF" -> _facility_n_1 [label="ARG2-fn.Theme"]
+	proper_q -> "named(Pemex)" [label=BV]
+	def_explicit_q -> _facility_n_1 [label=BV]
+	"_in+order+to_x" -> "_return_v_1-fn.NF" [label=ARG1]
+	poss -> "named(Pemex)" [label=ARG2]
+	_age_v_1 -> _facility_n_1 [label=ARG1]
+	"_in+order+to_x" -> "_upgrade_v_1-fn.NF" [label=ARG2]
+	parg_d -> "_return_v_1-fn.NF" [label=ARG1]
+	parg_d -> _money_n_1 [label=ARG2]
+}

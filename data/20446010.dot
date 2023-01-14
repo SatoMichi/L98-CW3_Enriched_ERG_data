@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _study_n_of [label=BV]
+	"_conclude_v_1-fn.Coming_to_believe" -> _safe_a_for [label="ARG2-fn.Theme"]
+	focus_d -> "_conclude_v_1-fn.Coming_to_believe" [label=ARG1]
+	"_conclude_v_1-fn.Coming_to_believe" -> part_of [label="ARG1-fn.Agent"]
+	_all_q -> part_of [label=BV]
+	proper_q -> "named(RU-486)" [label=BV]
+	part_of -> _study_n_of [label=ARG1]
+	_safe_a_for -> "named(RU-486)" [label=ARG1]
+	comp_so -> _far_a_1 [label=ARG1]
+	_far_a_1 -> "_conclude_v_1-fn.Coming_to_believe" [label=ARG1]
+}

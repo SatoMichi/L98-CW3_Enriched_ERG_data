@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Commandment)" [label=ARG1]
+	"_colon_v_id-fn.Perception_body" -> "named(Tithing)" [label="ARG1-fn.Experiencer"]
+	_to_p -> "named(Commandment)" [label=ARG2]
+	compound -> _tenth_n_of [label=ARG2]
+	"_colon_v_id-fn.Perception_body" -> _obedience_n_1 [label="ARG2-fn.Body_part"]
+	udef_q -> _tenth_n_of [label=BV]
+	proper_q -> "named(Tithing)" [label=BV]
+	"card(1)" -> _tenth_n_of [label=ARG1]
+	udef_q -> _obedience_n_1 [label=BV]
+	_to_p -> _obedience_n_1 [label=ARG1]
+	proper_q -> "named(Commandment)" [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named_n(House)" [label=BV]
+	_the_q -> _bill_n_of [label=BV]
+	_the_q -> _cut_n_1 [label=BV]
+	compound -> _cut_n_1 [label=ARG1]
+	compound -> _tax_n_1 [label=ARG2]
+	"_include_v_1-fn.NF" -> _version_n_of [label="ARG1-fn.NotExist"]
+	"_include_v_1-fn.NF" -> _cut_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _version_n_of [label=BV]
+	compound -> _version_n_of [label=ARG1]
+	compound -> "named_n(House)" [label=ARG2]
+	_version_n_of -> _bill_n_of [label=ARG1]
+	udef_q -> _tax_n_1 [label=BV]
+}

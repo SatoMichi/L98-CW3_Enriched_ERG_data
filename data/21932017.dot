@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(San)" [label=ARG2]
+	_the_q -> _panic_n_1 [label=BV]
+	"card(1)" -> generic_entity [label=ARG1]
+	appos -> _panic_n_1 [label=ARG1]
+	proper_q -> "named(San)" [label=BV]
+	relative_mod -> _positive_a_1 [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	proper_q -> "named(Francisco)" [label=BV]
+	compound -> "named(Francisco)" [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	_in_p -> _earthquake_n_1 [label=ARG1]
+	appos -> _earthquake_n_1 [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _panic_n_1 [label="ARG2-fn.Means"]
+	_the_q -> _earthquake_n_1 [label=BV]
+	_in_p -> "named(Francisco)" [label=ARG2]
+}

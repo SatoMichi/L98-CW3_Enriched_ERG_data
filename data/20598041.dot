@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _chairman_n_of [label=ARG2]
+	"_become_v_id-fn.Residence" -> _target_n_of [label="ARG2-fn.Location"]
+	_well_a_1 -> "_become_v_id-fn.Residence" [label=ARG1]
+	"_become_v_id-fn.Residence" -> "named(Greenspan)" [label="ARG1-fn.Resident"]
+	_that_q_dem -> generic_entity [label=BV]
+	proper_q -> "named(Greenspan)" [label=BV]
+	"_happen_v_1-fn.Impact" -> generic_entity [label="ARG1-fn.Place"]
+	_if_x_then -> "_could_v_modal-fn.Cause_to_end" [label=ARG1]
+	"_could_v_modal-fn.Cause_to_end" -> "_become_v_id-fn.Residence" [label="ARG1-fn.Process"]
+	udef_q -> _chairman_n_of [label=BV]
+	_open_a_1 -> _target_n_of [label=ARG1]
+	compound -> "named(Greenspan)" [label=ARG1]
+	_if_x_then -> "_happen_v_1-fn.Impact" [label=ARG2]
+	_a_q -> _target_n_of [label=BV]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> ellipsis_ref [label=ARG1]
+	_far_a_1 -> ellipsis_ref [label=ARG1]
+	ellipsis_ref -> person [label=ARG1]
+	_no_q -> person [label=BV]
+	comp_so -> _far_a_1 [label=ARG1]
+}

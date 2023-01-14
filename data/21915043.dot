@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_plan_v_1-fn.Purpose" -> _company_n_of [label="ARG1-fn.Experiencer"]
+	_operational_a_1 -> _company_n_of [label=ARG1]
+	loc_nonsp -> _operational_a_1 [label=ARG1]
+	_today_a_1 -> time_n [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	loc_nonsp -> time_n [label=ARG2]
+	"_plan_v_1-fn.Purpose" -> _operational_a_1 [label="ARG2-fn.NotExist"]
+	_fully_x_deg -> _operational_a_1 [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+}

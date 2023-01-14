@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_there -> _bit_n_of [label=ARG1]
+	udef_q -> "_euphoria/nn_u_unknown" [label=BV]
+	"_feel_v_1-fn.Opinion" -> _maybe_a_1 [label="ARG2-fn.Theme"]
+	_a_q -> _bit_n_of [label=BV]
+	_maybe_a_1 -> _be_v_there [label=ARG1]
+	"little-few_a" -> _bit_n_of [label=ARG1]
+	"_feel_v_1-fn.Opinion" -> pron [label="ARG1-fn.Agent"]
+	_now_a_1 -> "_feel_v_1-fn.Opinion" [label=ARG1]
+	_bit_n_of -> "_euphoria/nn_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

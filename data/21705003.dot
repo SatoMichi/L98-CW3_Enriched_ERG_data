@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_continue_v_2-fn.State_continue" -> "_forget_v_1-fn.Undergo_change" [label="ARG2-fn.State"]
+	udef_q -> "named(Texans)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(Texans)" [label="ARG2-fn.Means"]
+	"_continue_v_2-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	pronoun_q -> pron [label=BV]
+	"_forget_v_1-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_all_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_forget_v_1-fn.Undergo_change" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.Final_category"]
+}

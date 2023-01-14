@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_fierce_a_1 -> "_compete_v_1-fn.Competition" [label=ARG1]
+	_for_p -> "_market+share_n_1" [label=ARG2]
+	_the_q -> _carrier_n_of [label=BV]
+	_for_p -> "_compete_v_1-fn.Competition" [label=ARG1]
+	udef_q -> "_market+share_n_1" [label=BV]
+	"_compete_v_1-fn.Competition" -> _carrier_n_of [label="ARG1-fn.Agent"]
+}

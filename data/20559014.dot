@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _unthinkable_n_1 [label=BV]
+	_the_q -> _and_c [label=BV]
+	_be_v_nv -> "_happen_v_1-fn.Event" [label=ARG2]
+	_be_v_nv -> _result_n_of [label=ARG1]
+	"_happen_v_1-fn.Event" -> _and_c [label="ARG1-fn.NotExist"]
+	_the_q -> _result_n_of [label=BV]
+	udef_q -> _illogical_n_1 [label=BV]
+}

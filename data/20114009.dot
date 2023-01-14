@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Sun)" [label=BV]
+	proper_q -> "named(Marvin)" [label=BV]
+	_the_q -> _buyer_n_of [label=BV]
+	compound -> "named(Toronto)" [label=ARG2]
+	compound -> _investor_n_1 [label=ARG2]
+	compound -> "named(Sun)" [label=ARG1]
+	_prospective_a_1 -> _buyer_n_of [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	"_include_v_1-fn.NF" -> _buyer_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _and_c [label=BV]
+	compound -> "named(Davis)" [label=ARG1]
+	proper_q -> "named(Toronto)" [label=BV]
+	proper_q -> "named(Davis)" [label=BV]
+	"_include_v_1-fn.NF" -> _and_c [label="ARG2-fn.Theme"]
+	compound -> "named(Marvin)" [label=ARG2]
+}

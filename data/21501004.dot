@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_comment_v_on-fn.Judgment_direct_address" -> _official_n_1 [label="ARG1-fn.Communicator"]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> "_comment_v_on-fn.Judgment_direct_address" [label="ARG2-fn.Item"]
+	proper_q -> "named(A.P.)" [label=BV]
+	compound -> "named(A.P.)" [label=ARG2]
+	compound -> _official_n_1 [label=ARG1]
+	_the_q -> _filing_n_1 [label=BV]
+	_a_q -> _official_n_1 [label=BV]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _official_n_1 [label="ARG1-fn.Attribute"]
+	proper_q -> "named(Green)" [label=BV]
+	compound -> "named(Green)" [label=ARG1]
+	"_comment_v_on-fn.Judgment_direct_address" -> _filing_n_1 [label="ARG2-fn.Addressee"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_control_n_of -> part_of [label=ARG1]
+	udef_q -> _control_n_of [label=BV]
+	"much-many_a" -> part_of [label=ARG1]
+	"_transfer_v_from-to-fn.Cause_to_end" -> _control_n_of [label="ARG2-fn.Means"]
+	"_transfer_v_from-to-fn.Cause_to_end" -> "named(Hill)" [label="ARG4-fn.Explanation"]
+	udef_q -> part_of [label=BV]
+	compound -> "named(Capitol)" [label=ARG2]
+	proper_q -> "named(Hill)" [label=BV]
+	compound -> "named(Hill)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Capitol)" [label=BV]
+	part_of -> pron [label=ARG1]
+}

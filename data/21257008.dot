@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> nominalization [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> "_stem_v_from-fn.Posture" [label="ARG1-fn.Speaker"]
+	"_stem_v_from-fn.Posture" -> _liability_n_1 [label="ARG1-fn.Agent"]
+	"_stem_v_from-fn.Posture" -> nominalization [label="ARG2-fn.Location"]
+	"_help_v_to-fn.Amounting_to" -> _provision_n_1 [label="ARG1-fn.Value"]
+	compound -> _tax_n_1 [label=ARG2]
+	"_provide_v_for-fn.Process_resume" -> _provision_n_1 [label="ARG1-fn.Duration"]
+	"_provide_v_for-fn.Process_resume" -> _liability_n_1 [label="ARG2-fn.Process"]
+	compound -> _liability_n_1 [label=ARG1]
+	"_help_v_to-fn.Amounting_to" -> "_provide_v_for-fn.Process_resume" [label="ARG2-fn.Attribute"]
+	_the_q -> _provision_n_1 [label=BV]
+	udef_q -> _tax_n_1 [label=BV]
+	nominalization -> _restructure_v_1 [label=ARG1]
+	udef_q -> _liability_n_1 [label=BV]
+}

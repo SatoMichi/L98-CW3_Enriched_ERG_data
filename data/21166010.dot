@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _cd_n_1 [label=ARG1]
+	udef_q -> _cd_n_1 [label=BV]
+	udef_q -> _term_n_of [label=BV]
+	compound -> _term_n_of [label=ARG2]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _cd_n_1 [label="ARG1-fn.NotExist"]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _fraction_n_of [label="ARG2-fn.Patient"]
+	_a_q -> _fraction_n_of [label=BV]
+	_just_x_deg -> _a_q [label=ARG1]
+	_long_a_1 -> _term_n_of [label=ARG1]
+}

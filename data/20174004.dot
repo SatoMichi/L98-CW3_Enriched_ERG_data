@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _assistance_n_1 [label=BV]
+	"_demobilize/vb_u_unknown" -> _rebel_n_1 [label=ARG2]
+	compound -> _assistance_n_1 [label=ARG1]
+	udef_q -> "named_n(US)" [label=BV]
+	"_use_v_1-fn.IN" -> _assistance_n_1 [label="ARG2-fn.NotExist"]
+	parg_d -> "_use_v_1-fn.IN" [label=ARG1]
+	"_use_v_1-fn.IN" -> "_demobilize/vb_u_unknown" [label="ARG3-fn.NotExist"]
+	compound -> "named_n(US)" [label=ARG2]
+	_should_v_modal -> "_use_v_1-fn.IN" [label=ARG1]
+	_the_q -> _rebel_n_1 [label=BV]
+	parg_d -> _assistance_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _should_v_modal [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

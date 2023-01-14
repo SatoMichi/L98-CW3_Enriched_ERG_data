@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_too -> "_take_v_1-fn.Competition" [label=ARG2]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	_until_x_h -> _ill_a_1 [label=ARG2]
+	def_explicit_q -> _daughter_n_1 [label=BV]
+	"_take_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	poss -> _daughter_n_1 [label=ARG1]
+	ellipsis_ref -> _daughter_n_1 [label=ARG1]
+	_ill_a_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_can_v_modal-fn.Reliance" -> ellipsis_ref [label="ARG1-fn.Protagonist"]
+	poss -> pron [label=ARG2]
+	comp_too -> _ill_a_1 [label=ARG1]
+	_until_x_h -> neg [label=ARG1]
+}

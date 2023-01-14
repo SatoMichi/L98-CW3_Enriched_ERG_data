@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_show_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_must_v_modal-fn.Cause_to_end" -> "_show_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	udef_q -> _time_n_of [label=BV]
+	"_show_v_1-fn.Competition" -> _emotion_n_1 [label="ARG2-fn.Participant_2"]
+	"_a+little_q" -> _emotion_n_1 [label=BV]
+	temp_loc_x -> _time_n_of [label=ARG2]
+	temp_loc_x -> "_show_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_be_v_there-fn.Needing" -> _time_n_of [label="ARG1-fn.Cognizer"]
+}

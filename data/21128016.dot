@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	ellipsis_ref -> pron [label=ARG1]
+	compound -> _establishment_n_of [label=ARG1]
+	compound -> _apple_n_1 [label=ARG2]
+	poss -> _root_n_1 [label=ARG1]
+	subord -> ellipsis_ref [label=ARG1]
+	def_explicit_q -> _root_n_1 [label=BV]
+	_the_q -> _establishment_n_of [label=BV]
+	"_shake_v_1-fn.Cause_to_move_in_place" -> _establishment_n_of [label="ARG2-fn.Experiencer"]
+	poss -> pron [label=ARG2]
+	_to_p -> _root_n_1 [label=ARG2]
+	udef_q -> _apple_n_1 [label=BV]
+	subord -> "_shake_v_1-fn.Cause_to_move_in_place" [label=ARG2]
+	_to_p -> "_shake_v_1-fn.Cause_to_move_in_place" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

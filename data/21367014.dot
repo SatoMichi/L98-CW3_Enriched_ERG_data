@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_own_v_1-fn.NF" [label=ARG1]
+	focus_d -> loc_nonsp [label=ARG2]
+	"_own_v_1-fn.NF" -> pron [label="ARG1-fn.Pivot"]
+	"card(48)" -> _hat_n_1 [label=ARG1]
+	"_own_v_1-fn.NF" -> _hat_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _hat_n_1 [label=BV]
+	_now_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	focus_d -> "_own_v_1-fn.NF" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	pronoun_q -> pron [label=BV]
+}

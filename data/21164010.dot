@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Goldman)" [label=ARG2]
+	parg_d -> "named(Gray)" [label=ARG2]
+	parg_d -> "_advise_v_1-fn.State_continue" [label=ARG1]
+	proper_q -> "named(Goldman)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Sachs)" [label=BV]
+	"_advise_v_1-fn.State_continue" -> _and_c [label="ARG1-fn.Entity"]
+	compound -> "named(Sachs)" [label=ARG1]
+	proper_q -> "named(Merrill)" [label=BV]
+	proper_q -> "named(Lynch)" [label=BV]
+	"_advise_v_1-fn.State_continue" -> "named(Gray)" [label="ARG2-fn.State"]
+	proper_q -> "named(Gray)" [label=BV]
+	compound -> "named(Merrill)" [label=ARG2]
+	compound -> "named(Lynch)" [label=ARG1]
+}

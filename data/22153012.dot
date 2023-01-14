@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _beginning_n_1 [label=BV]
+	compound -> _technology_n_1 [label=ARG1]
+	_only_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_thin_a_1 -> _slab_n_1 [label=ARG1]
+	compound -> _slab_n_1 [label=ARG2]
+	udef_q -> _slab_n_1 [label=BV]
+	_such_q -> _technology_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _technology_n_1 [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _beginning_n_1 [label="ARG2-fn.Means"]
+}

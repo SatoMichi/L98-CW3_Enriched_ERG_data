@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_guarantee_v_1-fn.NF" -> _security_n_1 [label="ARG2-fn.NotExist"]
+	_note_v_to -> neg [label=ARG2]
+	_the_q -> "_prospectus/nn_u_unknown" [label=BV]
+	parg_d -> _security_n_1 [label=ARG2]
+	compound -> _agency_n_1 [label=ARG1]
+	"_guarantee_v_1-fn.NF" -> _agency_n_1 [label="ARG1-fn.NotExist"]
+	_note_v_to -> "_prospectus/nn_u_unknown" [label=ARG1]
+	parg_d -> "_guarantee_v_1-fn.NF" [label=ARG1]
+	_any_q -> _agency_n_1 [label=BV]
+	compound -> _government_n_of [label=ARG2]
+	udef_q -> _government_n_of [label=BV]
+	_also_a_1 -> _note_v_to [label=ARG1]
+	_the_q -> _security_n_1 [label=BV]
+	neg -> "_guarantee_v_1-fn.NF" [label=ARG1]
+}

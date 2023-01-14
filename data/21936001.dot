@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> "season(season)" [label="ARG2-fn.Means"]
+	_in_p -> "named(Chicago)" [label=ARG2]
+	proper_q -> "named(Chicago)" [label=BV]
+	udef_q -> _revival_n_of [label=BV]
+	"_seem_v_to-fn.Desiring" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.Event"]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	_for_p -> "season(season)" [label=ARG1]
+	_for_p -> _revival_n_of [label=ARG2]
+	_the_q -> "season(season)" [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	_in_p -> "season(season)" [label=ARG1]
+}

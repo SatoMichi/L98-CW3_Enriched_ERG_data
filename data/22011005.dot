@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_ago_p -> _year_n_1 [label=ARG2]
+	udef_q -> _year_n_1 [label=BV]
+	focus_d -> _ago_p [label=ARG2]
+	compound -> _ice_n_1 [label=ARG2]
+	_ago_p -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	_last_a_1 -> _age_n_1 [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	focus_d -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _ice_n_1 [label=BV]
+	"_end_v_1-fn.Cause_to_end" -> _age_n_1 [label="ARG1-fn.NotExist"]
+	"card(20,000)" -> _year_n_1 [label=ARG1]
+	compound -> _age_n_1 [label=ARG1]
+	_the_q -> _age_n_1 [label=BV]
+}

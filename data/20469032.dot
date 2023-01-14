@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _personnel_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _force_n_1 [label=BV]
+	"_begin_v_1-fn.Process_start" -> _break_v_up [label="ARG1-fn.NotExist"]
+	_some_q -> _personnel_n_1 [label=BV]
+	_already_a_1 -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	udef_q -> _strike_n_1 [label=BV]
+	_former_a_1 -> _personnel_n_1 [label=ARG1]
+	_the_q -> _unit_n_of [label=BV]
+	compound -> _force_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> "_begin_v_1-fn.Process_start" [label="ARG2-fn.Topic"]
+	compound -> _strike_n_1 [label=ARG2]
+	compound -> _personnel_n_1 [label=ARG1]
+	_break_v_up -> _unit_n_of [label=ARG1]
+}

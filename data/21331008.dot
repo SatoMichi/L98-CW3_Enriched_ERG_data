@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _role_n_of [label=BV]
+	compound -> "_bellwether/nn_u_unknown" [label=ARG2]
+	udef_q -> "_bellwether/nn_u_unknown" [label=BV]
+	compound -> _role_n_of [label=ARG1]
+	poss -> _role_n_of [label=ARG1]
+	"_short-lived_a_1" -> _role_n_of [label=ARG1]
+	proper_q -> "named(GAF)" [label=BV]
+	poss -> "named(GAF)" [label=ARG2]
+}

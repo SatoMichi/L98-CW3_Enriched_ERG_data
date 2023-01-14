@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_against_p_dir -> _grain_n_1 [label=ARG2]
+	_again_a_1 -> "_go_v_1-fn.Halt" [label=ARG1]
+	compound -> _missus_n_1 [label=ARG2]
+	compound -> "named(Thatcher)" [label=ARG1]
+	_once_a_1 -> "_go_v_1-fn.Halt" [label=ARG1]
+	_the_q -> _grain_n_1 [label=BV]
+	proper_q -> "named(Thatcher)" [label=BV]
+	"_go_v_1-fn.Halt" -> "named(Thatcher)" [label="ARG1-fn.Purpose"]
+	_still_a_disc -> "_go_v_1-fn.Halt" [label=ARG1]
+	_against_p_dir -> "_go_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _missus_n_1 [label=BV]
+}

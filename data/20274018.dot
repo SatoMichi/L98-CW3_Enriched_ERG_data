@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_these_q_dem -> _security_n_1 [label=BV]
+	_to_p -> _investor_n_1 [label=ARG2]
+	_for_p -> _reason_n_for [label=ARG2]
+	_japanese_a_1 -> _investor_n_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	udef_q -> _reason_n_for [label=BV]
+	_for_p -> _attractive_a_1 [label=ARG1]
+	_attractive_a_1 -> _security_n_1 [label=ARG1]
+	"card(3)" -> _reason_n_for [label=ARG1]
+	_to_p -> _attractive_a_1 [label=ARG1]
+}

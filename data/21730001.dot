@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _cleanup_n_1 [label=ARG1]
+	"_rattle_v_cause-fn.Cause_to_fragment" -> _aftershock_n_1 [label="ARG1-fn.Agent"]
+	"_rattle_v_cause-fn.Cause_to_fragment" -> "named(California)" [label="ARG2-fn.Instrument"]
+	_a_q -> _cleanup_n_1 [label=BV]
+	proper_q -> "named(California)" [label=BV]
+	udef_q -> _aftershock_n_1 [label=BV]
+	udef_q -> _earthquake_n_1 [label=BV]
+	_amid_p -> "_rattle_v_cause-fn.Cause_to_fragment" [label=ARG1]
+	_amid_p -> _cleanup_n_1 [label=ARG2]
+	_northern_a_1 -> "named(California)" [label=ARG1]
+	compound -> _earthquake_n_1 [label=ARG2]
+}

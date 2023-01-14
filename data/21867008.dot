@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _review_n_of [label=BV]
+	_under_p -> _review_n_of [label=ARG2]
+	poss -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	def_explicit_q -> _corporation_n_1 [label=BV]
+	proper_q -> "named(Poor)" [label=BV]
+	"_have_v_prd-fn.Cause_to_end" -> _under_p [label="ARG3-fn.Place"]
+	proper_q -> "named(Standard)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_have_v_prd-fn.Cause_to_end" -> _corporation_n_1 [label="ARG1-fn.Process"]
+	_under_p -> pron [label=ARG1]
+	"_have_v_prd-fn.Cause_to_end" -> pron [label="ARG2-fn.Means"]
+	poss -> _corporation_n_1 [label=ARG1]
+}

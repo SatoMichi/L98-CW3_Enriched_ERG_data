@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Cause_to_end" -> _dealer_n_1 [label="ARG1-fn.Process"]
+	_a_q -> _concern_n_1 [label=BV]
+	compound -> "_brokerage/nn_u_unknown" [label=ARG2]
+	"_say_v_to-fn.Cause_to_end" -> _appalling_a_1 [label="ARG2-fn.Means"]
+	udef_q -> _volume_n_of [label=BV]
+	_british_a_1 -> _concern_n_1 [label=ARG1]
+	compound -> _concern_n_1 [label=ARG1]
+	_a_q -> _dealer_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	udef_q -> "_brokerage/nn_u_unknown" [label=BV]
+	_appalling_a_1 -> _volume_n_of [label=ARG1]
+	_at_p -> _concern_n_1 [label=ARG2]
+	_at_p -> _dealer_n_1 [label=ARG1]
+	focus_d -> _appalling_a_1 [label=ARG2]
+}

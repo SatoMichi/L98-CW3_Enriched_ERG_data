@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_slip_v_2-fn.Undergo_change" [label=ARG1]
+	_on_p -> _share_n_of [label=ARG2]
+	"card(501,200)" -> _share_n_of [label=ARG1]
+	loc_nonsp -> "_slip_v_2-fn.Undergo_change" [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	number_q -> "card(12)" [label=BV]
+	plus -> "fraction(3/8)" [label=ARG3]
+	_to_p -> "card(12)" [label=ARG2]
+	_on_p -> "_slip_v_2-fn.Undergo_change" [label=ARG1]
+	proper_q -> "named(Fruit)" [label=BV]
+	_the_q -> "named(Loom)" [label=BV]
+	_of_p -> "named(Loom)" [label=ARG2]
+	_of_p -> "named(Fruit)" [label=ARG1]
+	plus -> "card(12)" [label=ARG2]
+	"_slip_v_2-fn.Undergo_change" -> "named(Fruit)" [label="ARG1-fn.Entity"]
+}

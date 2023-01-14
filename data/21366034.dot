@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _constituent_n_1 [label=ARG2]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> "_try_v_1-fn.Attempt" [label="ARG2-fn.Topic"]
+	"_ensure_v_1-fn.NF" -> pron [label="ARG1-fn.Cause"]
+	udef_q -> _fairness_n_1 [label=BV]
+	_the_q -> _senator_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> part_of [label="ARG1-fn.Agent"]
+	_mere_a_1 -> "_try_v_1-fn.Attempt" [label=ARG1]
+	"_try_v_1-fn.Attempt" -> "_ensure_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	_a_q -> _constituent_n_1 [label=BV]
+	_all_q -> part_of [label=BV]
+	"_ensure_v_1-fn.NF" -> _fairness_n_1 [label="ARG2-fn.Theme"]
+	_for_p -> "_ensure_v_1-fn.NF" [label=ARG1]
+	part_of -> _senator_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

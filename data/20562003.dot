@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_however_a_1 -> neg [label=ARG1]
+	_for_p -> generic_entity [label=ARG2]
+	udef_q -> _speed_n_1 [label=BV]
+	_natural_a_for -> _come_v_1 [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	_for_p -> _come_v_1 [label=ARG1]
+	neg -> _come_v_1 [label=ARG1]
+	focus_d -> _for_p [label=ARG2]
+	"much-many_a" -> generic_entity [label=ARG1]
+	focus_d -> _come_v_1 [label=ARG1]
+	_come_v_1 -> _speed_n_1 [label=ARG1]
+	"_manage_v_cope-fn.IN" -> _speed_n_1 [label="ARG1-fn.NotExist"]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_measure_v_1-fn.Dimension" [label=ARG1]
+	_in_p -> "_measure_v_1-fn.Dimension" [label=ARG1]
+	_still_a_1 -> "_measure_v_1-fn.Dimension" [label=ARG1]
+	udef_q -> _sailor_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_measure_v_1-fn.Dimension" -> _and_c [label="ARG2-fn.Theme"]
+	udef_q -> _inch_n_1 [label=BV]
+	udef_q -> _soldier_n_1 [label=BV]
+	parg_d -> _and_c [label=ARG2]
+	_in_p -> _and_c [label=ARG2]
+	udef_q -> _pound_n_1 [label=BV]
+}

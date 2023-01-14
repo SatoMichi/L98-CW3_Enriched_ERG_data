@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _charge_v_1 [label=ARG1]
+	"_hold_v_1-fn.Detaining" -> pron [label="ARG2-fn.Theme"]
+	_for_p -> _month_n_1 [label=ARG2]
+	parg_d -> "_hold_v_1-fn.Detaining" [label=ARG1]
+	_once_a_1 -> "_hold_v_1-fn.Detaining" [label=ARG1]
+	udef_q -> _month_n_1 [label=BV]
+	_without_p -> _for_p [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_without_p -> nominalization [label=ARG2]
+	parg_d -> pron [label=ARG2]
+	"card(3)" -> _month_n_1 [label=ARG1]
+	parg_d -> _charge_v_1 [label=ARG1]
+	_for_p -> "_hold_v_1-fn.Detaining" [label=ARG1]
+	focus_d -> "_hold_v_1-fn.Detaining" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

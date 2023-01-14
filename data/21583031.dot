@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Hugo)" [label=BV]
+	proper_q -> "named(Aid)" [label=BV]
+	"_codename_v_1-fn.Process_stop" -> implicit_conj [label="ARG2-fn.Place"]
+	udef_q -> _and_c [label=BV]
+	compound -> "named(Virgin)" [label=ARG2]
+	proper_q -> "named(Compassion)" [label=BV]
+	proper_q -> "named(Islands)" [label=BV]
+	parg_d -> "_codename_v_1-fn.Process_stop" [label=ARG1]
+	compound -> "named(Islands)" [label=ARG1]
+	compound -> "named(Aid)" [label=ARG1]
+	proper_q -> "named(Virgin)" [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	parg_d -> _fare_n_1 [label=ARG2]
+	_the_q -> _fare_n_1 [label=BV]
+	"_codename_v_1-fn.Process_stop" -> _fare_n_1 [label="ARG3-fn.Explanation"]
+}

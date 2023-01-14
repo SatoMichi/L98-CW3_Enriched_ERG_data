@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_help_v_to-fn.Assistance" -> pron [label="ARG1-fn.NotExist"]
+	_male_a_1 -> pron [label=ARG1]
+	"_help_v_to-fn.Assistance" -> _male_a_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _disorder_n_1 [label=ARG2]
+	_a_q -> _disorder_n_1 [label=BV]
+	"_duplicate_v_1-fn.NF" -> _disorder_n_1 [label="ARG2-fn.Theme"]
+	_in_p -> _mouse_n_1 [label=ARG2]
+	"_inherit_v_1-fn.NF" -> _disorder_n_1 [label="ARG2-fn.Theme"]
+	_human_a_1 -> _disorder_n_1 [label=ARG1]
+	udef_q -> _mouse_n_1 [label=BV]
+	_be_v_id -> pron [label=ARG1]
+	_in_p -> "_duplicate_v_1-fn.NF" [label=ARG1]
+	parg_d -> "_inherit_v_1-fn.NF" [label=ARG1]
+	_be_v_id -> _disorder_n_1 [label=ARG2]
+	parg_d -> "_duplicate_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_base_v_1-fn.Competition" -> "_thrifts/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+	"_hard+hit_a_1" -> _stock_n_1 [label=ARG1]
+	parg_d -> "_thrifts/nns_u_unknown" [label=ARG2]
+	_of_p -> _stock_n_1 [label=ARG1]
+	_also_a_1 -> "_hard+hit_a_1" [label=ARG1]
+	compound -> "_base_v_1-fn.Competition" [label=ARG1]
+	_of_p -> "_thrifts/nns_u_unknown" [label=ARG2]
+	udef_q -> "named(California)" [label=BV]
+	udef_q -> "_thrifts/nns_u_unknown" [label=BV]
+	compound -> "named(California)" [label=ARG2]
+	udef_q -> _stock_n_1 [label=BV]
+	parg_d -> "_base_v_1-fn.Competition" [label=ARG1]
+}

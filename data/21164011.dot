@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _director_n_of [label=BV]
+	_a_q -> _match_n_1 [label=BV]
+	compound -> _director_n_of [label=ARG1]
+	proper_q -> "named(ESB)" [label=BV]
+	udef_q -> "_whirlwind/nn_u_unknown" [label=BV]
+	nominalization -> _bid_v_1 [label=ARG1]
+	compound -> "named(ESB)" [label=ARG2]
+	"_accept_v_1-fn.Competition" -> _director_n_of [label="ARG1-fn.Participant_1"]
+	"_ensue_v_1-fn.Competition" -> _match_n_1 [label="ARG1-fn.Participant_1"]
+	compound -> nominalization [label=ARG2]
+	_warm_a_1 -> "_accept_v_1-fn.Competition" [label=ARG1]
+	compound -> _match_n_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	compound -> "_whirlwind/nn_u_unknown" [label=ARG2]
+}

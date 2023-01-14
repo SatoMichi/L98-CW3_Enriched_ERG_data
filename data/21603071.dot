@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_become_v_id-fn.Cause_to_end" -> _story_n_of [label="ARG1-fn.Process"]
+	udef_q -> _folklore_n_1 [label=BV]
+	_local_a_1 -> _folklore_n_1 [label=ARG1]
+	def_explicit_q -> _story_n_of [label=BV]
+	part_of -> _folklore_n_1 [label=ARG1]
+	poss -> _story_n_of [label=ARG1]
+	"_become_v_id-fn.Cause_to_end" -> part_of [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	_part_q -> part_of [label=BV]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Young)" [label=BV]
+	poss -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	unknown -> _pact_n_1 [label=ARG]
+	poss -> _pact_n_1 [label=ARG1]
+	proper_q -> "named(Rubicam)" [label=BV]
+	def_explicit_q -> _pact_n_1 [label=BV]
+}

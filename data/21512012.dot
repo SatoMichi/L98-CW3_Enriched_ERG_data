@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_note_v_to -> pron [label=ARG1]
+	_the_q -> _economy_n_1 [label=BV]
+	compound -> _vice_n_1 [label=ARG2]
+	_note_v_to -> "_move_v_cause-fn.Cause_change_position_on_a_scale" [label=ARG2]
+	"_move_v_cause-fn.Cause_change_position_on_a_scale" -> _economy_n_1 [label="ARG1-fn.NotExist"]
+	focus_d -> _economy_n_1 [label=ARG2]
+	"_move_v_cause-fn.Cause_change_position_on_a_scale" -> _not_c [label="ARG2-fn.NotExist"]
+	udef_q -> _not_c [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	udef_q -> _vice_n_1 [label=BV]
+	udef_q -> "_versa/fw_u_unknown" [label=BV]
+	compound -> "_versa/fw_u_unknown" [label=ARG1]
+	focus_d -> _note_v_to [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_unreadable/jj_u_unknown" -> _script_n_1 [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> "_unreadable/jj_u_unknown" [label="ARG2-fn.Means"]
+	compound -> _mister_n_1 [label=ARG2]
+	_colon_p_namely -> "named(Simpson)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Simpson)" [label=ARG1]
+	proper_q -> "named(Simpson)" [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> "named(Simpson)" [label="ARG1-fn.Process"]
+	_the_q -> _script_n_1 [label=BV]
+}

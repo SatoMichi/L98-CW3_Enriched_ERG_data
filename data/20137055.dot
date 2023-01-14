@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _market_n_1 [label=BV]
+	compound -> _market_n_1 [label=ARG1]
+	_a_q -> _holiday_n_1 [label=BV]
+	compound -> "named(Manila)" [label=ARG2]
+	_for_p -> _holiday_n_1 [label=ARG2]
+	_for_p -> _closed_a_1 [label=ARG1]
+	_closed_a_1 -> _market_n_1 [label=ARG1]
+	proper_q -> "named(Manila)" [label=BV]
+}

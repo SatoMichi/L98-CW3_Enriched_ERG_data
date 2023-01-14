@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	"_expect_v_1-fn.IN" -> _strike_n_1 [label="ARG2-fn.Theme"]
+	proper_q -> "named(Copperweld)" [label=BV]
+	"_say_v_to-fn.IN" -> "named(Copperweld)" [label="ARG1-fn.Agent"]
+	_a_q -> _strike_n_1 [label=BV]
+	neg -> "_expect_v_1-fn.IN" [label=ARG1]
+	_protracted_a_1 -> _strike_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _test_n_of [label=BV]
+	_register_v_1 -> _sale_n_of [label=ARG2]
+	_series_n_of -> _test_n_of [label=ARG1]
+	parg_d -> _register_v_1 [label=ARG1]
+	_some_q -> _sale_n_of [label=BV]
+	parg_d -> _sale_n_of [label=ARG2]
+	_a_q -> _series_n_of [label=BV]
+	_have_v_qmodal -> _register_v_1 [label=ARG1]
+	_meet_v_1 -> _series_n_of [label=ARG2]
+	"_pre-_a_ante" -> _register_v_1 [label=ARG1]
+	_meet_v_1 -> _sale_n_of [label=ARG1]
+	"_negotiate_v_1-fn.NF" -> _sale_n_of [label="ARG2-fn.NotExist"]
+	_now_a_1 -> neg [label=ARG1]
+	parg_d -> "_negotiate_v_1-fn.NF" [label=ARG1]
+	neg -> _have_v_qmodal [label=ARG1]
+}

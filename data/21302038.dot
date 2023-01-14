@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_endure_v_1-fn.Competition" -> _decade_n_1 [label="ARG2-fn.Participant_2"]
+	_of_p -> _decade_n_1 [label=ARG1]
+	"_genteel/jj_u_unknown" -> _decline_n_1 [label=ARG1]
+	"_endure_v_1-fn.Competition" -> "named(Lloyds)" [label="ARG1-fn.Participant_1"]
+	_of_p -> _decline_n_1 [label=ARG2]
+	udef_q -> _decade_n_1 [label=BV]
+	udef_q -> _decline_n_1 [label=BV]
+	proper_q -> "named(Lloyds)" [label=BV]
+}

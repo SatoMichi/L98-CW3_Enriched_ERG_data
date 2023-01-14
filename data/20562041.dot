@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _crisis_n_1 [label=BV]
+	udef_q -> _deadline_n_of [label=BV]
+	_the_q -> _team_n_of [label=BV]
+	compound -> _mentality_n_1 [label=ARG1]
+	_the_q -> _mentality_n_1 [label=BV]
+	compound -> _deadline_n_of [label=ARG1]
+	compound -> _crisis_n_1 [label=ARG2]
+	_can_v_modal -> "_generate_v_1-fn.IN" [label=ARG1]
+	"_generate_v_1-fn.IN" -> _deadline_n_of [label="ARG1-fn.NotExist"]
+	"_generate_v_1-fn.IN" -> _mentality_n_1 [label="ARG2-fn.Theme"]
+	compound -> _proposal_n_1 [label=ARG2]
+	"_eliminate_v_from-fn.Removing" -> _mentality_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _proposal_n_1 [label=BV]
+	"_eliminate_v_from-fn.Removing" -> _team_n_of [label="ARG1-fn.Agent"]
+}

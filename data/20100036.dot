@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _record_n_of [label=BV]
+	_impressive_a_1 -> _record_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_all+that_x_deg" -> _impressive_a_1 [label=ARG1]
+	neg -> _impressive_a_1 [label=ARG1]
+	udef_q -> _company_n_of [label=BV]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.NotExist"]
+	_diversify_v_1 -> _company_n_of [label=ARG1]
+	focus_d -> _impressive_a_1 [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_record_n_of -> _company_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

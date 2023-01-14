@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(GM)" [label=BV]
+	_the_q -> "_talk_n_of-on" [label=BV]
+	poss -> _move_n_1 [label=ARG1]
+	_with_p -> _alliance_n_1 [label=ARG1]
+	proper_q -> "named(Ford)" [label=BV]
+	proper_q -> "named(Jaguar)" [label=BV]
+	"_derail_v_cause-fn.Cause_to_fragment" -> _move_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _alliance_n_1 [label=BV]
+	"_discuss_v_1-fn.Competition" -> _alliance_n_1 [label="ARG2-fn.Participant_2"]
+	"_discuss_v_1-fn.Competition" -> "named(Jaguar)" [label="ARG1-fn.Participant_1"]
+	"_derail_v_cause-fn.Cause_to_fragment" -> "_talk_n_of-on" [label="ARG2-fn.Instrument"]
+	poss -> "named(Ford)" [label=ARG2]
+	def_explicit_q -> _move_n_1 [label=BV]
+	_with_p -> "named(GM)" [label=ARG2]
+	"_may_v_modal-fn.Communication_manner" -> "_derail_v_cause-fn.Cause_to_fragment" [label="ARG1-fn.Speaker"]
+}

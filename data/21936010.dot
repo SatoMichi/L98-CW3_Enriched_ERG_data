@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_remain_v_1-fn.State_continue" -> _house_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _scene_n_of [label=BV]
+	poss -> _house_n_of [label=ARG1]
+	proper_q -> "named(Celimene)" [label=BV]
+	"_remain_v_1-fn.State_continue" -> _scene_n_of [label="ARG1-fn.NotExist"]
+	_otherwise_a_1 -> "_remain_v_1-fn.State_continue" [label=ARG1]
+	poss -> "named(Celimene)" [label=ARG2]
+	_in_p_temp -> _house_n_of [label=ARG1]
+	def_explicit_q -> _house_n_of [label=BV]
+	proper_q -> "yofc(1666)" [label=BV]
+	_in_p_temp -> "yofc(1666)" [label=ARG2]
+}

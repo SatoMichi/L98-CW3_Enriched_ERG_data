@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rate_v_1-fn.Change_of_quantity_of_possession" -> "named(MIG-1)" [label="ARG2-fn.Possession"]
+	proper_q -> "named(MIG-1)" [label=BV]
+	"_rate_v_1-fn.Change_of_quantity_of_possession" -> _note_n_1 [label="ARG3-fn.Time"]
+	compound -> "named(Investors)" [label=ARG1]
+	proper_q -> "named(Investors)" [label=BV]
+	"_rate_v_1-fn.Change_of_quantity_of_possession" -> "named(Service)" [label="ARG1-fn.Owner"]
+	proper_q -> "named(Service)" [label=BV]
+	compound -> _inc_n_1 [label=ARG2]
+	parg_d -> "_rate_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	_the_q -> _note_n_1 [label=BV]
+	parg_d -> _note_n_1 [label=ARG2]
+	compound -> "named(Moodys)" [label=ARG2]
+	udef_q -> _inc_n_1 [label=BV]
+	proper_q -> "named(Moodys)" [label=BV]
+	compound -> "named(Service)" [label=ARG1]
+}

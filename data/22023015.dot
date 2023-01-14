@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_put_v_up-fn.Attempt_suasion" -> _chain_n_of [label="ARG2-fn.Addressee"]
+	_in_p_temp -> "_put_v_up-fn.Attempt_suasion" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	proper_q -> "mofy(Jun)" [label=BV]
+	parg_d -> _chain_n_of [label=ARG2]
+	_in_p_temp -> "mofy(Jun)" [label=ARG2]
+	compound -> _chain_n_of [label=ARG1]
+	compound -> "_jewelery/nn_u_unknown" [label=ARG2]
+	_the_q -> _chain_n_of [label=BV]
+	_for_p -> _sale_n_of [label=ARG2]
+	parg_d -> "_put_v_up-fn.Attempt_suasion" [label=ARG1]
+	udef_q -> "_jewelery/nn_u_unknown" [label=BV]
+	_for_p -> "_put_v_up-fn.Attempt_suasion" [label=ARG1]
+}

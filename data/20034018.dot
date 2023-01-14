@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> "much-many_a" [label=ARG1]
+	proper_q -> "named(Japan)" [label=BV]
+	"much-many_a" -> _market_n_1 [label=ARG1]
+	_the_q -> "named_n(US)" [label=BV]
+	_mature_a_1 -> _market_n_1 [label=ARG1]
+	"_emerge_v_1-fn.Competition" -> _market_n_1 [label="ARG1-fn.Participant_1"]
+	"_such+as_p" -> _and_c [label=ARG2]
+	"_outpaced/vbn_u_unknown" -> _market_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _market_n_1 [label=BV]
+	"_such+as_p" -> _market_n_1 [label=ARG1]
+}

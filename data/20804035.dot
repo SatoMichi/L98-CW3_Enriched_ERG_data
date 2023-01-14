@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_periodical_a_1 -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _threat_n_1 [label=BV]
+	_the_q -> _program_n_of [label=BV]
+	"_fold_v_1-fn.Experiencer_obj" -> _program_n_of [label="ARG1-fn.Experiencer"]
+	"_be_v_there-fn.Cause_to_end" -> _threat_n_1 [label="ARG1-fn.Process"]
+	_threat_n_1 -> "_fold_v_1-fn.Experiencer_obj" [label=ARG1]
+}

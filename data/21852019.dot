@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_take_v_over-fn.Motion_directional" -> _other_n_1 [label="ARG1-fn.Area"]
+	_if_x_then -> _down_p [label=ARG2]
+	"_can_v_modal-fn.Reliance" -> "_take_v_over-fn.Motion_directional" [label="ARG1-fn.Protagonist"]
+	"card(1)" -> _city_n_1 [label=ARG1]
+	_the_q -> _other_n_1 [label=BV]
+	udef_q -> _city_n_1 [label=BV]
+	_down_p -> _city_n_1 [label=ARG1]
+}

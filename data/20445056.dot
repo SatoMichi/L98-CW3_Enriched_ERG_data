@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _reason_n_for [label="ARG2-fn.Means"]
+	_the_q -> _language_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _language_n_1 [label="ARG1-fn.Process"]
+	_only_a_1 -> _reason_n_for [label=ARG1]
+	_complex_a_1 -> _language_n_1 [label=ARG1]
+	_the_q -> _reason_n_for [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

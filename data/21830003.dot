@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_good_a_at-for-of" -> _job_n_of [label=ARG1]
+	compound -> _egg_n_1 [label=ARG2]
+	_the_q -> _producer_n_of [label=BV]
+	_pretty_x -> "_good_a_at-for-of" [label=ARG1]
+	compound -> _producer_n_of [label=ARG1]
+	_a_q -> _job_n_of [label=BV]
+	"_do_v_1-fn.Competition" -> _producer_n_of [label="ARG1-fn.Participant_1"]
+	udef_q -> _egg_n_1 [label=BV]
+	"_do_v_1-fn.Competition" -> _job_n_of [label="ARG2-fn.Participant_2"]
+}

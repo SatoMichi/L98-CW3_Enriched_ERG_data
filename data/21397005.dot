@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q -> _orphan_n_1 [label=BV]
+	"_raise_v_cause-fn.Cause_harm" -> _orphan_n_1 [label="ARG2-fn.Victim"]
+	unknown -> _nun_n_1 [label=ARG]
+	"_lovable/jj_u_unknown" -> _orphan_n_1 [label=ARG1]
+	"_raise_v_cause-fn.Cause_harm" -> _nun_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _nun_n_1 [label=BV]
+}

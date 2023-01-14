@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_after_p -> _roll_v_1 [label=ARG1]
+	"_begin_v_1-fn.Process_start" -> _roll_v_1 [label="ARG1-fn.NotExist"]
+	_roll_v_1 -> _profit_n_1 [label=ARG1]
+	_the_q -> _profit_n_1 [label=BV]
+	_under_p -> _restructure_v_1 [label=ARG1]
+	focus_d -> _after_p [label=ARG2]
+	udef_q -> _management_n_1 [label=BV]
+	_in_p_dir -> _roll_v_1 [label=ARG1]
+	_after_p -> nominalization [label=ARG2]
+	focus_d -> "_begin_v_1-fn.Process_start" [label=ARG1]
+	_under_p -> _management_n_1 [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	nominalization -> _restructure_v_1 [label=ARG1]
+	_new_a_1 -> _management_n_1 [label=ARG1]
+}

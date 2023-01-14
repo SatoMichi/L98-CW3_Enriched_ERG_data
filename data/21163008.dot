@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_test_v_1-fn.IN" -> _hand_n_1 [label="ARG1-fn.Agent"]
+	poss -> _audience_n_1 [label=ARG1]
+	poss -> generic_entity [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG1]
+	poss -> pron [label=ARG2]
+	def_implicit_q -> generic_entity [label=BV]
+	_of_p -> _mettle_n_1 [label=ARG1]
+	def_explicit_q -> _audience_n_1 [label=BV]
+	_be_v_id -> _hand_n_1 [label=ARG2]
+	_of_p -> _audience_n_1 [label=ARG2]
+	_a_q -> _hand_n_1 [label=BV]
+	_the_q -> _mettle_n_1 [label=BV]
+	"_test_v_1-fn.IN" -> _mettle_n_1 [label="ARG2-fn.Location"]
+	pronoun_q -> pron [label=BV]
+}

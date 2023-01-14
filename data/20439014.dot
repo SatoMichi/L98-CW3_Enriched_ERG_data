@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _cooperative_n_1 [label=BV]
+	"_appear_v_to-fn.Receiving" -> _liberal_a_1 [label="ARG2-fn.Donor"]
+	_relatively_x_deg -> _liberal_a_1 [label=ARG1]
+	_on_p -> _control_n_of [label=ARG1]
+	_liberal_a_1 -> _control_n_of [label=ARG1]
+	_first_a_1 -> _introduce_v_to [label=ARG1]
+	_when_x_subord -> "_appear_v_to-fn.Receiving" [label=ARG1]
+	_when_x_subord -> _introduce_v_to [label=ARG2]
+	"_appear_v_to-fn.Receiving" -> _control_n_of [label="ARG1-fn.Recipient"]
+	parg_d -> _introduce_v_to [label=ARG1]
+	_the_q -> _control_n_of [label=BV]
+	_on_p -> _cooperative_n_1 [label=ARG2]
+}

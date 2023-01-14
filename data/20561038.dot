@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Stewart)" [label=ARG2]
+	udef_q -> _ground_n_1 [label=BV]
+	poss -> _honor_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> _honor_n_1 [label="ARG1-fn.Resident"]
+	"_a+couple_a_1" -> part_of [label=ARG1]
+	_a_q -> _note_n_1 [label=BV]
+	"_nice_a_of-for" -> _note_n_1 [label=ARG1]
+	_on_p -> part_of [label=ARG2]
+	def_explicit_q -> _honor_n_1 [label=BV]
+	udef_q -> part_of [label=BV]
+	"_be_v_id-fn.Residence" -> _note_n_1 [label="ARG2-fn.Location"]
+	_on_p -> "_be_v_id-fn.Residence" [label=ARG1]
+	part_of -> _ground_n_1 [label=ARG1]
+	proper_q -> "named(Stewart)" [label=BV]
+}

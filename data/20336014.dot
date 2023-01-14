@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _other_n_1 [label=BV]
+	_with_p -> _and_c [label=ARG2]
+	nominalization -> "_negotiate_v_1-fn.Commerce_collect" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	"card(2)" -> _company_n_of [label=ARG1]
+	_in_p -> _process_n_of [label=ARG2]
+	proper_q -> "named(LTV)" [label=BV]
+	_both_q -> _company_n_of [label=BV]
+	udef_q -> _contract_n_1 [label=BV]
+	_the_q -> _process_n_of [label=BV]
+	_with_p -> _contract_n_1 [label=ARG1]
+	_process_n_of -> nominalization [label=ARG1]
+	_in_p -> _company_n_of [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_negotiate_v_1-fn.Commerce_collect" -> _contract_n_1 [label="ARG2-fn.Goods"]
+}

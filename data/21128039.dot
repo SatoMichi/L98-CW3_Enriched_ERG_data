@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	udef_q -> _apple_n_1 [label=BV]
+	"_get_v_1-fn.Competition" -> "_kind_n_of-n" [label="ARG2-fn.Participant_2"]
+	"_kind_n_of-n" -> _apple_n_1 [label=ARG1]
+	udef_q -> "_kind_n_of-n" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"card(70)" -> "_kind_n_of-n" [label=ARG1]
+}

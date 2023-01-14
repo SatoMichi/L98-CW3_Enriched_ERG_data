@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_far_x_deg -> comp [label=ARG1]
+	_international_a_1 -> _effort_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	comp -> _great_a_for [label=ARG1]
+	_great_a_for -> _effort_n_1 [label=ARG1]
+	comp -> "_ever+before_p" [label=ARG2]
+	def_explicit_q -> _effort_n_1 [label=BV]
+	poss -> _effort_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _similar_a_to [label=ARG1]
+	"_unleash_v_1-fn.NF" -> _harangue_n_1 [label="ARG2-fn.Patient"]
+	proper_q -> "named(Mancuso)" [label=BV]
+	"_unleash_v_1-fn.NF" -> "named(Mancuso)" [label="ARG1-fn.Agent"]
+	_in_p_state -> "_get_v_to-fn.IN" [label=ARG1]
+	_colon_p_namely -> "_get_v_to-fn.IN" [label=ARG1]
+	"_get_v_to-fn.IN" -> "_unleash_v_1-fn.NF" [label="ARG1-fn.NotExist"]
+	_in_p_state -> _show_n_of [label=ARG2]
+	_similar_a_to -> _harangue_n_1 [label=ARG1]
+	_each_q -> _show_n_of [label=BV]
+	focus_d -> "_get_v_to-fn.IN" [label=ARG1]
+	udef_q -> _harangue_n_1 [label=BV]
+	focus_d -> _in_p_state [label=ARG2]
+}

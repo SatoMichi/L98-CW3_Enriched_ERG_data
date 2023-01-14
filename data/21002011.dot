@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_massive_a_1 -> _load_n_of [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	proper_q -> "named(Campeau)" [label=BV]
+	poss -> _load_n_of [label=ARG1]
+	poss -> "named(Campeau)" [label=ARG2]
+	def_explicit_q -> _load_n_of [label=BV]
+	udef_q -> _debt_n_1 [label=BV]
+	"_because+of_p" -> _load_n_of [label=ARG2]
+	_true_a_of -> generic_entity [label=ARG1]
+	compound -> _load_n_of [label=ARG1]
+	compound -> _debt_n_1 [label=ARG2]
+	"_because+of_p" -> _true_a_of [label=ARG1]
+	"_no+longer_a_1" -> _true_a_of [label=ARG1]
+}

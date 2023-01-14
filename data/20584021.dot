@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _economical_a_1 [label=ARG1]
+	_at_p -> "_become_v_id-fn.Residence" [label=ARG1]
+	_at_p -> _point_n_of [label=ARG2]
+	"_become_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_become_v_id-fn.Residence" -> neg [label="ARG2-fn.Location"]
+	udef_q -> _company_n_of [label=BV]
+	_economical_a_1 -> pron [label=ARG1]
+	focus_d -> _at_p [label=ARG2]
+	focus_d -> "_become_v_id-fn.Residence" [label=ARG1]
+	_for_p -> "_become_v_id-fn.Residence" [label=ARG1]
+	"card(1)" -> _company_n_of [label=ARG1]
+	_some_q_indiv -> _point_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_for_p -> _company_n_of [label=ARG2]
+}

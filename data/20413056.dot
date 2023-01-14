@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Canadian)" [label=BV]
+	_wind_v_1 -> "named(Canadian)" [label=ARG1]
+	subord -> "_write_v_to-fn.Text_creation" [label=ARG2]
+	_up_p -> _wind_v_1 [label=ARG1]
+	"_write_v_to-fn.Text_creation" -> _check_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _check_n_of [label=BV]
+	subord -> _wind_v_1 [label=ARG1]
+}

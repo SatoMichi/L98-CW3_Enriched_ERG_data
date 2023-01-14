@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_hope_v_1-fn.Desiring" -> _and_c [label="ARG1-fn.Pivot"]
+	udef_q -> _head_n_of [label=BV]
+	comp -> _cool_a_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_prevail_v_1 -> _head_n_of [label=ARG1]
+	proper_q -> "named(Bush)" [label=BV]
+	"_hope_v_1-fn.Desiring" -> _prevail_v_1 [label="ARG2-fn.Theme"]
+	_cool_a_1 -> _head_n_of [label=ARG1]
+	proper_q -> "named(Deng)" [label=BV]
+}

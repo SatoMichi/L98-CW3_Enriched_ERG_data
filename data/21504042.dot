@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _process_n_of [label=ARG2]
+	poss -> _system_n_of [label=ARG1]
+	def_explicit_q -> _system_n_of [label=BV]
+	"_make_v_cause-fn.Cause_change" -> _visible_a_to [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	_visible_a_to -> _system_n_of [label=ARG1]
+	compound -> _system_n_of [label=ARG1]
+	number_q -> "card(4.)" [label=BV]
+	_due_a_1 -> _process_n_of [label=ARG1]
+	udef_q -> _process_n_of [label=BV]
+	"_make_v_cause-fn.Cause_change" -> pron [label="ARG1-fn.Agent"]
+}

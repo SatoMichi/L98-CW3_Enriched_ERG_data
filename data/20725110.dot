@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _rig_n_1 [label=BV]
+	_active_a_1 -> _rig_n_1 [label=ARG1]
+	_in_p -> _active_a_1 [label=ARG1]
+	_up_p_dir -> "_inch_v_1-fn.Cause_to_end" [label=ARG1]
+	_number_n_of -> _rig_n_1 [label=ARG1]
+	_the_q -> _number_n_of [label=BV]
+	_in_p -> "named_n(US)" [label=ARG2]
+	"_inch_v_1-fn.Cause_to_end" -> _number_n_of [label="ARG1-fn.Process"]
+	_the_q -> "named_n(US)" [label=BV]
+}

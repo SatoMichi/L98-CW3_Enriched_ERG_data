@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> "dofm(21)" [label=BV]
+	loc_nonsp -> "_mature_v_1-fn.Experiencer_obj" [label=ARG1]
+	loc_nonsp -> "dofm(21)" [label=ARG2]
+	of_p -> "mofy(Dec)" [label=ARG2]
+	of_p -> "dofm(21)" [label=ARG1]
+	"_mature_v_1-fn.Experiencer_obj" -> pron [label="ARG1-fn.Experiencer"]
+	def_implicit_q -> "mofy(Dec)" [label=BV]
+}

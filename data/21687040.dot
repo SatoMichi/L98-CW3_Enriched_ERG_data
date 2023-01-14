@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _mix_v_1 [label=ARG2]
+	udef_q -> _price_n_of [label=BV]
+	compound -> _oil_n_1 [label=ARG1]
+	udef_q -> _crude_n_1 [label=BV]
+	compound -> _price_n_of [label=ARG1]
+	"_end_v_1-fn.Cause_to_end" -> _price_n_of [label="ARG1-fn.NotExist"]
+	compound -> _crude_n_1 [label=ARG2]
+	udef_q -> _oil_n_1 [label=BV]
+	parg_d -> _mix_v_1 [label=ARG1]
+	subord -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+}

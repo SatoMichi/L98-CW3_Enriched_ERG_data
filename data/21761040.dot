@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	focus_d -> "_in+general_a_1" [label=ARG2]
+	"_in+general_a_1" -> "_say_v_1-fn.IN" [label=ARG1]
+	"_avoid_v_1-fn.Avoiding" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _stock_n_1 [label=BV]
+	compound -> _stock_n_1 [label=ARG1]
+	"_avoid_v_1-fn.Avoiding" -> _stock_n_1 [label="ARG2-fn.Theme"]
+	focus_d -> "_say_v_1-fn.IN" [label=ARG1]
+	compound -> _takeover_n_of [label=ARG2]
+	udef_q -> _takeover_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

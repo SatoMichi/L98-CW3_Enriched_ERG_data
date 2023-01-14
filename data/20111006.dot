@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _gut_n_1 [label=BV]
+	focus_d -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_sometimes_a_1 -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_with_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_go_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	poss -> _gut_n_1 [label=ARG1]
+	_just_a_1 -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	_with_p -> _gut_n_1 [label=ARG2]
+}

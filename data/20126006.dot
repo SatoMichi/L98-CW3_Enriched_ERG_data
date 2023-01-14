@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_increase_v_1-fn.Competition" -> _profitability_n_1 [label="ARG1-fn.Participant_1"]
+	_of_p -> _profitability_n_1 [label=ARG1]
+	_major_a_1 -> _league_n_of [label=ARG1]
+	compound -> _team_n_of [label=ARG1]
+	parg_d -> "_fueled/vbn_u_unknown" [label=ARG1]
+	udef_q -> _team_n_of [label=BV]
+	udef_q -> _league_n_of [label=BV]
+	_the_q -> _profitability_n_1 [label=BV]
+	compound -> _league_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_of_p -> _team_n_of [label=ARG2]
+	"_fueled/vbn_u_unknown" -> _profitability_n_1 [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	"_fueled/vbn_u_unknown" -> pron [label=ARG2]
+}

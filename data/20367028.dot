@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _innovation_n_1 [label=BV]
+	"_hope_v_1-fn.Desiring" -> "_stay_v_prd-fn.IN" [label="ARG2-fn.Theme"]
+	"_ahead+of_p" -> _pack_n_of [label=ARG2]
+	"_stay_v_prd-fn.IN" -> "_ahead+of_p" [label="ARG2-fn.Theme"]
+	_emphasize_v_to -> _company_n_of [label=ARG1]
+	subord -> "_hope_v_1-fn.Desiring" [label=ARG2]
+	_the_q -> _pack_n_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_emphasize_v_to -> _innovation_n_1 [label=ARG2]
+	subord -> _emphasize_v_to [label=ARG1]
+}

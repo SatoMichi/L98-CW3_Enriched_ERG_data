@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "mofy(Jun)" [label=BV]
+	_in_p_temp -> "mofy(Jun)" [label=ARG2]
+	_a_q -> "dofw(Fri)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Name_conferral" -> pron [label="ARG1-fn.Entity"]
+	_in_p_temp -> "dofw(Fri)" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> "dofw(Fri)" [label="ARG2-fn.Name"]
+}

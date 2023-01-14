@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> time_n [label=ARG2]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	proper_q -> "named(Cineplex)" [label=BV]
+	compound -> "named(Cineplex)" [label=ARG2]
+	"_respond_v_to-fn.Request" -> _announcement_n_of [label="ARG2-fn.Addressee"]
+	"_respond_v_to-fn.Request" -> _shareholder_n_1 [label="ARG1-fn.Speaker"]
+	udef_q -> _shareholder_n_1 [label=BV]
+	def_explicit_q -> _announcement_n_of [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	_cool_a_1 -> "_respond_v_to-fn.Request" [label=ARG1]
+	compound -> _shareholder_n_1 [label=ARG1]
+	poss -> _announcement_n_of [label=ARG1]
+}

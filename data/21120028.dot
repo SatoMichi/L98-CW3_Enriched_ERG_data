@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_when_x_subord -> "_accept_v_1-fn.IN" [label=ARG1]
+	"_accept_v_1-fn.IN" -> _rest_n_of [label="ARG1-fn.NotExist"]
+	"_develop_v_1-fn.IN" -> "named(Japan)" [label="ARG1-fn.NotExist"]
+	_rest_n_of -> _world_n_of [label=ARG1]
+	_such_q -> _method_n_of [label=BV]
+	"_accept_v_1-fn.IN" -> _method_n_of [label="ARG2-fn.NotExist"]
+	proper_q -> "named(Japan)" [label=BV]
+	_the_q -> _world_n_of [label=BV]
+	_the_q -> _rest_n_of [label=BV]
+	_when_x_subord -> "_develop_v_1-fn.IN" [label=ARG2]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_slate_v_1-fn.Piracy" [label=ARG1]
+	_the_q -> _park_n_1 [label=BV]
+	"_slate_v_1-fn.Piracy" -> _park_n_1 [label="ARG2-fn.Vehicle"]
+	_in_p_temp -> "_open_v_1-fn.Halt" [label=ARG1]
+	"_open_v_1-fn.Halt" -> _park_n_1 [label="ARG1-fn.Purpose"]
+	_in_p_temp -> "yofc(1992)" [label=ARG2]
+	proper_q -> "yofc(1992)" [label=BV]
+	"_slate_v_1-fn.Piracy" -> "_open_v_1-fn.Halt" [label="ARG3-fn.Victim"]
+	parg_d -> _park_n_1 [label=ARG2]
+}

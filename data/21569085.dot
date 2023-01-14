@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _plan_n_1 [label=ARG1]
+	parg_d -> _plan_n_1 [label=ARG2]
+	"_set_v_up-fn.Perception_active" -> _plan_n_1 [label="ARG2-fn.Phenomenon"]
+	_as_p -> _agency_n_1 [label=ARG2]
+	_independent_a_of -> _agency_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _plan_n_1 [label=BV]
+	_as_p -> "_set_v_up-fn.Perception_active" [label=ARG1]
+	_a_q -> _agency_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	parg_d -> "_set_v_up-fn.Perception_active" [label=ARG1]
+}

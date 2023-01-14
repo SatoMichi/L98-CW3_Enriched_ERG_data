@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _appeal_n_1 [label=ARG2]
+	udef_q -> _appeal_n_1 [label=BV]
+	_to_p -> "named(Circuit)" [label=ARG2]
+	"_go_v_1-fn.Change_position_on_a_scale" -> _case_n_of [label="ARG1-fn.Attribute"]
+	_to_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> "named(Circuit)" [label=BV]
+	_on_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> _case_n_of [label=BV]
+	proper_q -> "named(Second)" [label=BV]
+	compound -> "named(Circuit)" [label=ARG1]
+	compound -> "named(Second)" [label=ARG2]
+}

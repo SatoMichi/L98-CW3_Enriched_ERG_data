@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_much_a_1 -> "_care_v_for-fn.Have_as_requirement" [label=ARG1]
+	_this_q_dem -> _post_n_of [label=BV]
+	"_say_v_to-fn.Taking" -> "_care_v_for-fn.Have_as_requirement" [label="ARG2-fn.Theme"]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	focus_d -> "_care_v_for-fn.Have_as_requirement" [label=ARG2]
+	"_say_v_to-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	"_care_v_for-fn.Have_as_requirement" -> _post_n_of [label="ARG2-fn.Requirement"]
+	"_care_v_for-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	_very_x_deg -> _much_a_1 [label=ARG1]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "_coddling/nn_u_unknown" [label=ARG2]
+	udef_q -> _year_n_1 [label=BV]
+	"card(2)" -> _year_n_1 [label=ARG1]
+	unknown -> _year_n_1 [label=ARG]
+	_of_p -> _year_n_1 [label=ARG1]
+	udef_q -> "_coddling/nn_u_unknown" [label=BV]
+	_the_q -> _drain_n_1 [label=BV]
+	_down_p -> _drain_n_1 [label=ARG2]
+}

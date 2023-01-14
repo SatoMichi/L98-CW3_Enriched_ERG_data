@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_come_v_1-fn.Halt" -> _sale_n_of [label="ARG1-fn.Purpose"]
+	udef_q -> _bank_n_of [label=BV]
+	"_show_v_1-fn.State_continue" -> _official_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _official_n_1 [label=BV]
+	compound -> _official_n_1 [label=ARG1]
+	"_show_v_1-fn.State_continue" -> _door_n_1 [label="ARG2-fn.State"]
+	_the_q -> _sale_n_of [label=BV]
+	_off_p -> "_come_v_1-fn.Halt" [label=ARG1]
+	_the_q -> _door_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> _bank_n_of [label=ARG2]
+	_never_a_1 -> "_come_v_1-fn.Halt" [label=ARG1]
+	"_show_v_1-fn.State_continue" -> pron [label="ARG3-fn.Time"]
+}

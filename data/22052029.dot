@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_these_q_dem -> _force_n_1 [label=BV]
+	_now_a_1 -> _dependent_a_on [label=ARG1]
+	"_commit_v_to-fn.Receiving" -> _regime_n_1 [label="ARG3-fn.Theme"]
+	not_x_deg -> _all_q [label=ARG1]
+	_even_x_deg -> _if_x_then [label=ARG1]
+	_the_q -> _regime_n_1 [label=BV]
+	"_commit_v_to-fn.Receiving" -> part_of [label="ARG2-fn.Donor"]
+	_all_q -> part_of [label=BV]
+	parg_d -> "_commit_v_to-fn.Receiving" [label=ARG1]
+	parg_d -> part_of [label=ARG2]
+	_if_x_then -> _dependent_a_on [label=ARG1]
+	part_of -> _force_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_if_x_then -> "_commit_v_to-fn.Receiving" [label=ARG2]
+	_dependent_a_on -> pron [label=ARG2]
+}

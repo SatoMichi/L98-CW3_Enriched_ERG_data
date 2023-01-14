@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _switch_n_1 [label=ARG1]
+	def_explicit_q -> _switch_n_1 [label=BV]
+	neg -> _seem_v_to [label=ARG1]
+	comp -> _small_a_1 [label=ARG1]
+	"_notice_v_1-fn.Becoming_aware" -> _switch_n_1 [label="ARG2-fn.Stimulus"]
+	poss -> pron [label=ARG2]
+	_small_a_1 -> _client_n_1 [label=ARG1]
+	_some_q -> _client_n_1 [label=BV]
+	_seem_v_to -> "_notice_v_1-fn.Becoming_aware" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_decline_v_1 -> "named(Campeau)" [label=ARG1]
+	"_comment_v_on-fn.Statement" -> "named(Campeau)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Campeau)" [label=BV]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+}

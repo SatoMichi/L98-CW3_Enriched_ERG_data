@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_take_v_of-i-fn.Taking" [label="ARG1-fn.Process"]
+	"_add_v_to-fn.Fining" -> "_have_v_qmodal-fn.Cause_to_end" [label="ARG2-fn.Instrument"]
+	"_take_v_of-i-fn.Taking" -> _advantage_n_i [label="ARG2-fn.Theme"]
+	_never_a_1 -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_take_v_of-i-fn.Taking" -> pron [label="ARG1-fn.Agent"]
+	idiom_q_i -> _advantage_n_i [label=BV]
+	udef_q -> _opportunity_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_tell_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_can_v_modal-fn.Reliance" -> "_tell_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	"_take_v_of-i-fn.Taking" -> _opportunity_n_1 [label="ARG3-fn.Source"]
+	"_add_v_to-fn.Fining" -> pron [label="ARG1-fn.Speaker"]
+}

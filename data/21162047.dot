@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _sale_n_of [label=ARG2]
+	_colon_p_namely -> _record_n_of [label=ARG1]
+	compound -> _record_n_of [label=ARG1]
+	compound -> _tax_n_1 [label=ARG1]
+	unknown -> _record_n_of [label=ARG]
+	udef_q -> _record_n_of [label=BV]
+	udef_q -> _sale_n_of [label=BV]
+	udef_q -> _tax_n_1 [label=BV]
+}

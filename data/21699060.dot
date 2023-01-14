@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _can_v_modal [label=ARG1]
+	"_handle_v_1-fn.NF" -> _overflow_n_1 [label="ARG2-fn.Theme"]
+	_can_v_modal -> "_handle_v_1-fn.NF" [label=ARG1]
+	"_handle_v_1-fn.NF" -> _route_n_1 [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> _clear_a_of [label="ARG2-fn.Topic"]
+	udef_q -> _route_n_1 [label=BV]
+	udef_q -> _official_n_1 [label=BV]
+	_alternate_a_1 -> _route_n_1 [label=ARG1]
+	_clear_a_of -> neg [label=ARG1]
+	_the_q -> _overflow_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+}

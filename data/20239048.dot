@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_look_v_at-fn.Change_posture" -> _watch_n_1 [label="ARG2-fn.Protagonist"]
+	"_look_v_at-fn.Change_posture" -> pron [label="ARG1-fn.Manner"]
+	poss -> _watch_n_1 [label=ARG1]
+	def_explicit_q -> _watch_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

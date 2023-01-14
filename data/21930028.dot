@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_unable_a_1 -> "_find_v_1-fn.Attempt_suasion" [label=ARG2]
+	_the_q -> _building_n_1 [label=BV]
+	_the_q -> _retailer_n_1 [label=BV]
+	"_find_v_1-fn.Attempt_suasion" -> _retailer_n_1 [label="ARG1-fn.Content"]
+	_unable_a_1 -> _retailer_n_1 [label=ARG1]
+	"_find_v_1-fn.Attempt_suasion" -> _buyer_n_of [label="ARG2-fn.Addressee"]
+	_for_p -> _buyer_n_of [label=ARG1]
+	_a_q -> _buyer_n_of [label=BV]
+	_for_p -> _building_n_1 [label=ARG2]
+}

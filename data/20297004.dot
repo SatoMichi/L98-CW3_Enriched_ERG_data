@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> _wake_v_up [label=ARG1]
+	_wake_v_up -> pron [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Levy)" [label="ARG1-fn.Agent"]
+	compound -> _doctor_n_1 [label=ARG2]
+	udef_q -> _doctor_n_1 [label=BV]
+	subord -> _paralyze_v_1 [label=ARG2]
+	_then_a_1 -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> subord [label="ARG2-fn.Topic"]
+	parg_d -> _paralyze_v_1 [label=ARG1]
+	proper_q -> "named(Levy)" [label=BV]
+	compound -> "named(Levy)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

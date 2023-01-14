@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_turn_v_around-fn.Coming_to_be" -> _situation_n_1 [label="ARG2-fn.Place"]
+	which_q -> manner [label=BV]
+	unspec_manner -> "_turn_v_around-fn.Coming_to_be" [label=ARG1]
+	unspec_manner -> manner [label=ARG2]
+	_this_q_dem -> _situation_n_1 [label=BV]
+	"_can_v_modal-fn.Reliance" -> "_turn_v_around-fn.Coming_to_be" [label="ARG1-fn.Protagonist"]
+	pronoun_q -> pron [label=BV]
+	"_turn_v_around-fn.Coming_to_be" -> pron [label="ARG1-fn.Entity"]
+}

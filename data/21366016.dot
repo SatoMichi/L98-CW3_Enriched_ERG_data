@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _chairman_n_of [label=ARG2]
+	_genuine_a_1 -> "_maverick/nn_u_unknown" [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> "_maverick/nn_u_unknown" [label="ARG2-fn.Cotheme"]
+	"_be_v_id-fn.Cotheme" -> "named(Gonzalez)" [label="ARG1-fn.Theme"]
+	udef_q -> _chairman_n_of [label=BV]
+	proper_q -> "named(Gonzalez)" [label=BV]
+	compound -> "named(Gonzalez)" [label=ARG1]
+	_a_q -> "_maverick/nn_u_unknown" [label=BV]
+}

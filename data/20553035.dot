@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_spark_v_1-fn.NF" -> _inflation_n_of [label="ARG2-fn.Theme"]
+	_easier_a_for -> "_spark_v_1-fn.NF" [label=ARG1]
+	udef_q -> _inflation_n_of [label=BV]
+	_control_v_1 -> _inflation_n_of [label=ARG2]
+	_harder_a_for -> _control_v_1 [label=ARG1]
+}

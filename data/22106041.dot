@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	def_explicit_q -> "named(Metamorphosis)" [label=BV]
+	"_end_v_1-fn.Cause_to_end" -> _evening_n_of [label="ARG1-fn.NotExist"]
+	appos -> "named(Metamorphosis)" [label=ARG1]
+	_another_q -> _work_n_1 [label=BV]
+	proper_q -> "named(Glass)" [label=BV]
+	appos -> _work_n_1 [label=ARG2]
+	_multiple_a_1 -> _work_n_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_with_p -> "named(Metamorphosis)" [label=ARG2]
+	poss -> "named(Metamorphosis)" [label=ARG1]
+	poss -> "named(Glass)" [label=ARG2]
+	_with_p -> "_end_v_1-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _evening_n_of [label=BV]
+	compound -> "named(Glass)" [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _development_n_of [label=BV]
+	proper_q -> "named(Urban)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	def_explicit_q -> _budget_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	poss -> _budget_n_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _dollar_n_1 [label="ARG2-fn.Name"]
+	"_be_v_id-fn.Name_conferral" -> _budget_n_1 [label="ARG1-fn.Entity"]
+	compound -> _development_n_of [label=ARG1]
+	proper_q -> "named(Housing)" [label=BV]
+	compound -> "named(Urban)" [label=ARG2]
+	poss -> _and_c [label=ARG2]
+	times -> "card(17)" [label=ARG2]
+}

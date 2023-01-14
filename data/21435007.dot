@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _head_n_of [label=BV]
+	udef_q -> _amazement_n_at [label=BV]
+	_as_x_subord -> "_steer_v_1-fn.NF" [label=ARG2]
+	_away_p -> "_steer_v_1-fn.NF" [label=ARG1]
+	_a_q -> _policeman_n_1 [label=BV]
+	poss -> _head_n_of [label=ARG1]
+	"_steer_v_1-fn.NF" -> pron [label="ARG2-fn.Theme"]
+	poss -> pron [label=ARG2]
+	_in_p -> _amazement_n_at [label=ARG2]
+	_in_p -> "_shake_v_1-fn.Body_movement" [label=ARG1]
+	"_shake_v_1-fn.Body_movement" -> _policeman_n_1 [label="ARG1-fn.Agent"]
+	_as_x_subord -> "_shake_v_1-fn.Body_movement" [label=ARG1]
+	"_shake_v_1-fn.Body_movement" -> _head_n_of [label="ARG2-fn.Patient"]
+	pronoun_q -> pron [label=BV]
+}

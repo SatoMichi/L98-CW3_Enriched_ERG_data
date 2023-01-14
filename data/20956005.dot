@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _welcome_n_1 [label=BV]
+	compound -> "named(Tokyo)" [label=ARG2]
+	"ord(28th)" -> "named(Show)" [label=ARG1]
+	proper_q -> "named(Motor)" [label=BV]
+	unknown -> _welcome_n_1 [label=ARG]
+	_the_q -> "named(Show)" [label=BV]
+	proper_q -> "named(Tokyo)" [label=BV]
+	_to_p -> "named(Show)" [label=ARG2]
+	compound -> "named(Show)" [label=ARG1]
+	compound -> "named(Motor)" [label=ARG2]
+	_to_p -> _welcome_n_1 [label=ARG1]
+}

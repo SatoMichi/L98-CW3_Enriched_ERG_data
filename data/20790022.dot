@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cotheme" -> _sketch_n_1 [label="ARG1-fn.Theme"]
+	"_be_v_id-fn.Cotheme" -> "named(Mahfouz)" [label="ARG2-fn.Cotheme"]
+	poss -> _sketch_n_1 [label=ARG1]
+	_of_p -> _life_n_of [label=ARG2]
+	compound -> "named(Cairo)" [label=ARG2]
+	udef_q -> _life_n_of [label=BV]
+	"_unsentimental/jj_u_unknown" -> _sketch_n_1 [label=ARG1]
+	_of_p -> _sketch_n_1 [label=ARG1]
+	proper_q -> "named(Cairo)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_vintage_a_1 -> "named(Mahfouz)" [label=ARG1]
+	compound -> _life_n_of [label=ARG1]
+	def_explicit_q -> _sketch_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	proper_q -> "named(Mahfouz)" [label=BV]
+}

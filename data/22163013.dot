@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_begin_v_1-fn.Process_start" -> "_take_v_off-fn.Cause_to_continue" [label="ARG1-fn.Event"]
+	"_take_v_off-fn.Cause_to_continue" -> _productivity_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _warehouse_n_of [label=BV]
+	udef_q -> _productivity_n_1 [label=BV]
+	compound -> _warehouse_n_of [label=ARG2]
+	compound -> _productivity_n_1 [label=ARG1]
+	_really_a_1 -> "_begin_v_1-fn.Process_start" [label=ARG1]
+}

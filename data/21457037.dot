@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _vote_n_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> "named(Republican)" [label=ARG2]
+	"_go_v_1-fn.Change_position_on_a_scale" -> _percent_n_of [label="ARG1-fn.Attribute"]
+	udef_q -> "named(Dinkins)" [label=BV]
+	_of_p -> _vote_n_1 [label=ARG2]
+	_to_p -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_of_p -> _percent_n_of [label=ARG1]
+	"card(20)" -> _percent_n_of [label=ARG1]
+	proper_q -> "named(Republican)" [label=BV]
+	_even_a_1 -> _percent_n_of [label=ARG1]
+	_to_p -> "named(Dinkins)" [label=ARG2]
+	_why_a_1 -> "_go_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> _vote_n_1 [label=BV]
+}

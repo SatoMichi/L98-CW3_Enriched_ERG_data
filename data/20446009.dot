@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _window_n_1 [label=ARG1]
+	_a_q -> _window_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _window_n_1 [label="ARG2-fn.Name"]
+	_about_x_deg -> _a_q [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_typical_a_of -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	"card(3)" -> _week_n_1 [label=ARG1]
+	compound -> _week_n_1 [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> generic_entity [label="ARG1-fn.Entity"]
+	udef_q -> _week_n_1 [label=BV]
+}

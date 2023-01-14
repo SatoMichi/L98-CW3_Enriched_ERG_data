@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_disappoint_v_1-fn.Experiencer_obj" [label=ARG1]
+	"_disappoint_v_1-fn.Experiencer_obj" -> _analyst_n_1 [label="ARG2-fn.Experiencer"]
+	"_disappoint_v_1-fn.Experiencer_obj" -> _number_n_of [label="ARG1-fn.Stimulus"]
+	_slight_a_1 -> "_disappoint_v_1-fn.Experiencer_obj" [label=ARG1]
+	poss -> "named(Citicorp)" [label=ARG2]
+	def_explicit_q -> _number_n_of [label=BV]
+	udef_q -> _analyst_n_1 [label=BV]
+	proper_q -> "named(Citicorp)" [label=BV]
+	parg_d -> _analyst_n_1 [label=ARG2]
+	poss -> _number_n_of [label=ARG1]
+	_only_x_deg -> _slight_a_1 [label=ARG1]
+}

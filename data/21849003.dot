@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _and_c [label=ARG2]
+	udef_q -> _year_n_1 [label=BV]
+	udef_q -> _indifference_n_1 [label=BV]
+	_the_q -> _disaster_n_1 [label=BV]
+	_the_q -> _extent_n_of [label=BV]
+	"_stem_v_from-fn.NF" -> _year_n_1 [label="ARG2-fn.Theme"]
+	_of_p -> _year_n_1 [label=ARG1]
+	_bureaucratic_a_1 -> _indifference_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_extent_n_of -> _disaster_n_1 [label=ARG1]
+	"_stem_v_from-fn.NF" -> _extent_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> "_chicanery/nn_u_unknown" [label=BV]
+}

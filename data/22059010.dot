@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_consider_v_1-fn.Cogitation" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(Chestman)" [label=BV]
+	proper_q -> "named(Robert)" [label=BV]
+	"_underlie_v_1-fn.NF" -> _fact_n_1 [label="ARG1-fn.Theme"]
+	_conviction_n_of -> "named(Chestman)" [label=ARG1]
+	compound -> "named(Chestman)" [label=ARG1]
+	compound -> _conviction_n_of [label=ARG1]
+	compound -> "yofc(1989)" [label=ARG2]
+	"_consider_v_1-fn.Cogitation" -> _fact_n_1 [label="ARG2-fn.Theme"]
+	"_underlie_v_1-fn.NF" -> _conviction_n_of [label="ARG2-fn.Co-Theme"]
+	compound -> "named(Robert)" [label=ARG2]
+	proper_q -> "yofc(1989)" [label=BV]
+	_the_q -> _fact_n_1 [label=BV]
+	_the_q -> _conviction_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_grow_v_to-fn.NF" -> _pragmatic_a_1 [label="ARG2-fn.Theme"]
+	def_explicit_q -> _role_n_of [label=BV]
+	"_grow_v_to-fn.NF" -> pron [label="ARG1-fn.NotExist"]
+	poss -> pron [label=ARG2]
+	_pragmatic_a_1 -> pron [label=ARG1]
+	poss -> _role_n_of [label=ARG1]
+	_about_p -> _role_n_of [label=ARG2]
+	comp -> _pragmatic_a_1 [label=ARG1]
+	_about_p -> _pragmatic_a_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

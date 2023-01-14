@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _month_n_1 [label=BV]
+	_the_q -> _agreement_n_1 [label=BV]
+	udef_q -> _twist_n_1 [label=BV]
+	"_follow_v_1-fn.State_continue" -> _completion_n_of [label="ARG1-fn.Entity"]
+	compound -> _merger_n_1 [label=ARG2]
+	_of_p -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	_completion_n_of -> _agreement_n_1 [label=ARG1]
+	_of_p -> _month_n_1 [label=ARG1]
+	compound -> _agreement_n_1 [label=ARG1]
+	udef_q -> _merger_n_1 [label=BV]
+	"_follow_v_1-fn.State_continue" -> _month_n_1 [label="ARG2-fn.State"]
+	_the_q -> _completion_n_of [label=BV]
+	udef_q -> _turn_n_of [label=BV]
+}

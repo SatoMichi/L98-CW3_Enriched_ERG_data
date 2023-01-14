@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Taking" -> _but_c [label="ARG2-fn.Theme"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.Taking" -> "named(Guber)" [label="ARG1-fn.Agent"]
+	udef_q -> _mister_n_1 [label=BV]
+	"_listen_v_to-fn.Needing" -> pron [label="ARG1-fn.Cognizer"]
+	focus_d -> _but_c [label=ARG2]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	"_act_v_1-fn.Preference" -> pron [label="ARG1-fn.Experiencer"]
+	_always_a_1 -> "_listen_v_to-fn.Needing" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_never_a_1 -> "_act_v_1-fn.Preference" [label=ARG1]
+	proper_q -> "named(Guber)" [label=BV]
+	compound -> "named(Guber)" [label=ARG1]
+}

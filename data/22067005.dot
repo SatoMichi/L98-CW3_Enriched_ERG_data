@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _contract_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	of_p -> "mofy(Dec)" [label=ARG2]
+	"_expire_v_1-fn.Death" -> _contract_n_1 [label="ARG1-fn.NotExist"]
+	def_explicit_q -> _contract_n_1 [label=BV]
+	def_explicit_q -> "dofm(1)" [label=BV]
+	def_implicit_q -> "mofy(Dec)" [label=BV]
+	loc_nonsp -> "dofm(1)" [label=ARG2]
+	loc_nonsp -> "_expire_v_1-fn.Death" [label=ARG1]
+	of_p -> "dofm(1)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

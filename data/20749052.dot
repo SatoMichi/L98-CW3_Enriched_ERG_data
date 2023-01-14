@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _in_p [label=ARG1]
+	udef_q -> _change_n_of [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> _in_p [label="ARG1-fn.Speaker"]
+	_long_a_1 -> _last_n_1 [label=ARG1]
+	_in_p -> _work_n_1 [label=ARG2]
+	_the_q -> _work_n_1 [label=BV]
+	_at_p -> _last_n_1 [label=ARG2]
+	focus_d -> _at_p [label=ARG2]
+	_rumbling_n_1 -> "_may_v_modal-fn.Communication_manner" [label=ARG1]
+	idiom_q_i -> _last_n_1 [label=BV]
+	focus_d -> "_may_v_modal-fn.Communication_manner" [label=ARG1]
+	"_be_v_there-fn.Needing" -> _rumbling_n_1 [label="ARG1-fn.Cognizer"]
+	_in_p -> _change_n_of [label=ARG1]
+	udef_q -> _rumbling_n_1 [label=BV]
+}

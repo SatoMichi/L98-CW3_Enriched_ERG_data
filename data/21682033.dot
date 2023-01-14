@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _edge_n_of [label=ARG1]
+	interval_p_end -> interval [label=ARG1]
+	number_q -> "card(4)" [label=BV]
+	interval_p_start -> interval [label=ARG1]
+	interval_p_end -> "card(4)" [label=ARG2]
+	compound -> interval [label=ARG2]
+	"_hold_v_1-fn.Defend" -> _conservative_n_1 [label="ARG1-fn.Agent"]
+	_now_a_1 -> "_hold_v_1-fn.Defend" [label=ARG1]
+	interval_p_start -> "card(5)" [label=ARG2]
+	udef_q -> _conservative_n_1 [label=BV]
+	_only_x_deg -> _a_q [label=ARG1]
+	udef_q -> interval [label=BV]
+	_a_q -> _edge_n_of [label=BV]
+	number_q -> "card(5)" [label=BV]
+	"_hold_v_1-fn.Defend" -> _edge_n_of [label="ARG2-fn.Theme"]
+}

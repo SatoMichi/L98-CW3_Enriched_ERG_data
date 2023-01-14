@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _savings_n_1 [label=BV]
+	_in_p -> _edition_n_1 [label=ARG2]
+	proper_q -> "dofw(Fri)" [label=BV]
+	def_explicit_q -> _edition_n_1 [label=BV]
+	"_give_v_1-fn.Giving" -> _savings_n_1 [label="ARG2-fn.Theme"]
+	_in_p -> "_give_v_1-fn.Giving" [label=ARG1]
+	parg_d -> "_give_v_1-fn.Giving" [label=ARG1]
+	poss -> _edition_n_1 [label=ARG1]
+	parg_d -> _savings_n_1 [label=ARG2]
+	_incorrect_a_1 -> "_give_v_1-fn.Giving" [label=ARG1]
+	poss -> "dofw(Fri)" [label=ARG2]
+}

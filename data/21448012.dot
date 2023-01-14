@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> _tariff_n_1 [label=BV]
+	compound -> _district_n_of [label=ARG2]
+	compound -> "_earners/nns_u_unknown" [label=ARG1]
+	udef_q -> _district_n_of [label=BV]
+	_too_a_also -> _stiff_a_1 [label=ARG1]
+	udef_q -> _wage_n_1 [label=BV]
+	_financial_a_1 -> "_earners/nns_u_unknown" [label=ARG1]
+	_stiff_a_1 -> _tariff_n_1 [label=ARG1]
+	_for_p -> "_earners/nns_u_unknown" [label=ARG2]
+	_for_p -> _stiff_a_1 [label=ARG1]
+	compound -> _wage_n_1 [label=ARG2]
+	_some_q -> "_earners/nns_u_unknown" [label=BV]
+}

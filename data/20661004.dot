@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _condition_n_1 [label=ARG2]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _offer_n_1 [label="ARG2-fn.Item"]
+	parg_d -> _offer_n_1 [label=ARG2]
+	_on_p -> _offer_n_1 [label=ARG1]
+	udef_q -> _condition_n_1 [label=BV]
+	nominalization -> _finance_v_1 [label=ARG1]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_obtain_v_1-fn.Cause_to_end" -> nominalization [label="ARG2-fn.Means"]
+	_several_a_1 -> _condition_n_1 [label=ARG1]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _on_p [label="ARG3-fn.Difference"]
+	_the_q -> _offer_n_1 [label=BV]
+	"_include_v_1-fn.Cause_to_end" -> nominalization [label="ARG2-fn.Means"]
+	udef_q -> nominalization [label=BV]
+	nominalization -> "_obtain_v_1-fn.Cause_to_end" [label=ARG1]
+	"_include_v_1-fn.Cause_to_end" -> _condition_n_1 [label="ARG1-fn.Process"]
+}

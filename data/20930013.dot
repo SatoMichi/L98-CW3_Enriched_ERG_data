@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> "named(Quantum)" [label="ARG1-fn.Entity"]
+	superl -> _large_a_1 [label=ARG1]
+	def_explicit_q -> _creditor_n_1 [label=BV]
+	proper_q -> "named(Sharon)" [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _creditor_n_1 [label="ARG2-fn.Name"]
+	parg_d -> "_secure_v_1-fn.Activity_ongoing" [label=ARG1]
+	_large_a_1 -> _creditor_n_1 [label=ARG1]
+	poss -> "named(Sharon)" [label=ARG2]
+	neg -> "_secure_v_1-fn.Activity_ongoing" [label=ARG1]
+	"_secure_v_1-fn.Activity_ongoing" -> _creditor_n_1 [label="ARG2-fn.Activity"]
+	poss -> _creditor_n_1 [label=ARG1]
+	proper_q -> "named(Quantum)" [label=BV]
+	parg_d -> _creditor_n_1 [label=ARG2]
+}

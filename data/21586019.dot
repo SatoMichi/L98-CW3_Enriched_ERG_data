@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _squeeze_v_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	compound -> "_furriers/nns_u_unknown" [label=ARG1]
+	_squeeze_v_1 -> _import_n_of [label=ARG1]
+	_squeeze_v_1 -> pron [label=ARG2]
+	udef_q -> "named_n(US)" [label=BV]
+	udef_q -> "_furriers/nns_u_unknown" [label=BV]
+	"_say_v_to-fn.IN" -> "_furriers/nns_u_unknown" [label="ARG1-fn.Agent"]
+	_these_q_dem -> _import_n_of [label=BV]
+	compound -> _end_n_of [label=ARG2]
+	compound -> "named_n(US)" [label=ARG2]
+	_high_a_1 -> _end_n_of [label=ARG1]
+	udef_q -> _end_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

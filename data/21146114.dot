@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _cow_n_1 [label=BV]
+	_by_p_means -> _hand_n_1 [label=ARG2]
+	udef_q -> _hand_n_1 [label=BV]
+	_the_q -> _young_n_1 [label=BV]
+	neg -> "_milk_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	"_milk_v_1-fn.Cause_to_make_noise" -> _girl_n_1 [label="ARG1-fn.Agent"]
+	unknown -> _girl_n_1 [label=ARG]
+	"_leave_v_1-fn.State_continue" -> _young_n_1 [label="ARG1-fn.Entity"]
+	_by_p_means -> "_milk_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	udef_q -> _girl_n_1 [label=BV]
+	_especially_x_deg -> udef_q [label=ARG1]
+	"_milk_v_1-fn.Cause_to_make_noise" -> _cow_n_1 [label="ARG2-fn.Sound_maker"]
+}

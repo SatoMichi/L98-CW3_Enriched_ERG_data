@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Marshall)" [label=BV]
+	comp -> _difficult_a_for [label=ARG1]
+	compound -> "named(George)" [label=ARG2]
+	_difficult_a_for -> "_keep_v_prd-fn.Activity_ongoing" [label=ARG1]
+	compound -> "named(Marshall)" [label=ARG1]
+	_much_x_deg -> comp [label=ARG1]
+	"_keep_v_prd-fn.Activity_ongoing" -> _happy_a_with [label="ARG3-fn.NotExist"]
+	poss -> _ghost_n_1 [label=ARG1]
+	poss -> "named(Marshall)" [label=ARG2]
+	proper_q -> "named(George)" [label=BV]
+	def_explicit_q -> _ghost_n_1 [label=BV]
+	"_keep_v_prd-fn.Activity_ongoing" -> _ghost_n_1 [label="ARG2-fn.Theme"]
+	_happy_a_with -> _ghost_n_1 [label=ARG1]
+}

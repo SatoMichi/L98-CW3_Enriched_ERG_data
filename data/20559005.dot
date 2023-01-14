@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _negotiation_n_of [label=BV]
+	_the_q -> _word_n_of [label=BV]
+	_over_p -> "_boom_v_1-fn.Make_noise" [label=ARG1]
+	udef_q -> _unity_n_1 [label=BV]
+	_over_p -> _loudspeaker_n_1 [label=ARG2]
+	"_boom_v_1-fn.Make_noise" -> _word_n_of [label="ARG1-fn.NotExist"]
+	"_bear_v_1-fn.NF" -> _word_n_of [label="ARG1-fn.Experiencer"]
+	"_bear_v_1-fn.NF" -> _message_n_of [label="ARG2-fn.Stimulus"]
+	_the_q -> _loudspeaker_n_1 [label=BV]
+	udef_q -> _message_n_of [label=BV]
+	_message_n_of -> implicit_conj [label=ARG1]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _peace_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _discipline_n_1 [label=BV]
+}

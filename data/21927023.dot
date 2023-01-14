@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _upshot_n_of [label=BV]
+	unknown -> _upshot_n_of [label=ARG]
+}

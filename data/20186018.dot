@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_become_v_id-fn.Residence" -> _partner_n_1 [label="ARG2-fn.Location"]
+	_in_p -> _company_n_of [label=ARG2]
+	_sometimes_a_1 -> "_become_v_id-fn.Residence" [label=ARG1]
+	focus_d -> "_become_v_id-fn.Residence" [label=ARG1]
+	_in_p -> _partner_n_1 [label=ARG1]
+	"_become_v_id-fn.Residence" -> _bribed_n_1 [label="ARG1-fn.Resident"]
+	_the_q -> _company_n_of [label=BV]
+	_the_q -> _bribed_n_1 [label=BV]
+	udef_q -> _partner_n_1 [label=BV]
+}

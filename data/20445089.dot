@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _pc_n_1 [label=BV]
+	"_win_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _retail_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	"card(15)" -> _percent_n_of [label=ARG1]
+	compound -> _market_n_1 [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	"_win_v_1-fn.NF" -> _percent_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _market_n_1 [label=BV]
+	_of_p -> _market_n_1 [label=ARG2]
+	compound -> _pc_n_1 [label=ARG2]
+	_of_p -> _percent_n_of [label=ARG1]
+	compound -> _retail_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

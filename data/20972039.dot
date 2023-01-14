@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Quest)" [label=BV]
+	proper_q -> "named(Fire)" [label=BV]
+	_the_q -> _time_n_of [label=BV]
+	"ord(1)" -> _time_n_of [label=ARG1]
+	_for_p -> "named(Fire)" [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _time_n_of [label="ARG2-fn.Means"]
+	_for_p -> "named(Quest)" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> "named(Quest)" [label="ARG1-fn.Process"]
+}

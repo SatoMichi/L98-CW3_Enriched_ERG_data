@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _rate_n_of [label=ARG1]
+	udef_q -> _tax_n_1 [label=BV]
+	"_confuse_v_with-fn.Experiencer_obj" -> _payment_n_of [label="ARG3-fn.Co-Patient"]
+	"_confuse_v_with-fn.Experiencer_obj" -> _rate_n_of [label="ARG2-fn.Patient"]
+	udef_q -> _rate_n_of [label=BV]
+	_be_v_nv -> "_confuse_v_with-fn.Experiencer_obj" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_be_v_nv -> _reason_n_for [label=ARG1]
+	compound -> _tax_n_1 [label=ARG2]
+	compound -> _payment_n_of [label=ARG1]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_the_q -> _reason_n_for [label=BV]
+	udef_q -> _payment_n_of [label=BV]
+	"_confuse_v_with-fn.Experiencer_obj" -> pron [label="ARG1-fn.NotExist"]
+	"_think_v_1-fn.IN" -> _be_v_nv [label="ARG2-fn.NotExist"]
+}

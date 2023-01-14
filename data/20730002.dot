@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_glamorous/jj_u_unknown" -> nominalization [label=ARG1]
+	nominalization -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	_a_q -> _agent_n_of [label=BV]
+	"_used+to_v_qmodal" -> "_glamorous/jj_u_unknown" [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cotheme" -> _agent_n_of [label="ARG2-fn.Cotheme"]
+	compound -> _travel_n_1 [label=ARG2]
+	compound -> _agent_n_of [label=ARG1]
+	udef_q -> _travel_n_1 [label=BV]
+	_pretty_x -> "_glamorous/jj_u_unknown" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

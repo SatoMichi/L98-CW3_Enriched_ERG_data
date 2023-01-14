@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_active_a_1 -> "_entrepreneurs/nns_u_unknown" [label=ARG1]
+	_some_q -> "_entrepreneurs/nns_u_unknown" [label=BV]
+	_still_a_1 -> _active_a_1 [label=ARG1]
+}

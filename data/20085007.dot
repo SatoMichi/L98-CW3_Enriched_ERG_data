@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(First)" [label=BV]
+	compound -> "named(First)" [label=ARG2]
+	_to_p -> "named(Atlanta)" [label=ARG2]
+	poss -> pron [label=ARG2]
+	"_take_v_1-fn.Bringing" -> _business_n_1 [label="ARG2-fn.Theme"]
+	compound -> "named(Atlanta)" [label=ARG1]
+	"_take_v_1-fn.Bringing" -> _to_p [label="ARG3-fn.NotExist"]
+	_to_p -> _business_n_1 [label=ARG1]
+	"_take_v_1-fn.Bringing" -> pron [label="ARG1-fn.Instrument"]
+	proper_q -> "named(Atlanta)" [label=BV]
+	poss -> _business_n_1 [label=ARG1]
+	def_explicit_q -> _business_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

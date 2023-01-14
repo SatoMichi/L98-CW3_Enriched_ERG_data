@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_this_q_dem -> _morning_n_of [label=BV]
+	"much-many_a" -> _call_n_1 [label=ARG1]
+	comp_equal -> "_have_v_1-fn.State_continue" [label=ARG2]
+	udef_q -> generic_entity [label=BV]
+	loc_nonsp -> _morning_n_of [label=ARG2]
+	udef_q -> _call_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_have_v_1-fn.State_continue" -> _call_n_1 [label="ARG2-fn.State"]
+	comp_equal -> "much-many_a" [label=ARG1]
+	loc_nonsp -> "_have_v_1-fn.State_continue" [label=ARG1]
+	_never_a_1 -> "_have_v_1-fn.State_continue" [label=ARG1]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	"_have_v_1-fn.State_continue" -> generic_entity [label="ARG2-fn.State"]
+}

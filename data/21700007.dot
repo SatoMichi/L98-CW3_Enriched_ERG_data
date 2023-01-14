@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _department_n_1 [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> _would_v_modal [label="ARG2-fn.Topic"]
+	compound -> _participation_n_in [label=ARG1]
+	compound -> _state_n_of [label=ARG2]
+	compound -> _department_n_1 [label=ARG1]
+	_have_v_qmodal -> _minimal_a_1 [label=ARG1]
+	_minimal_a_1 -> _participation_n_in [label=ARG1]
+	proper_q -> "named(Khmer)" [label=BV]
+	_the_q -> _department_n_1 [label=BV]
+	compound -> "named(Rouge)" [label=ARG1]
+	proper_q -> "named(Rouge)" [label=BV]
+	compound -> "named(Khmer)" [label=ARG2]
+	udef_q -> _state_n_of [label=BV]
+	_any_q -> _participation_n_in [label=BV]
+	_would_v_modal -> _have_v_qmodal [label=ARG1]
+}

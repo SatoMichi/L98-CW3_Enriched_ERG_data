@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_explain_v_to-fn.Statement" [label=ARG1]
+	"_explain_v_to-fn.Statement" -> pron [label="ARG1-fn.NotExist"]
+	_some_q -> _satisfaction_n_of [label=BV]
+	_work_v_1 -> _student_n_of [label=ARG1]
+	focus_d -> _student_n_of [label=ARG2]
+	"_explain_v_to-fn.Statement" -> "_want_v_1-fn.Desiring" [label="ARG2-fn.NotExist"]
+	"_want_v_1-fn.Desiring" -> _student_n_of [label="ARG1-fn.NotExist"]
+	"_want_v_1-fn.Desiring" -> _satisfaction_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> _student_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

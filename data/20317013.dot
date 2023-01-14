@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Consolidation)" [label=BV]
+	_long_a_1 -> _overdue_a_1 [label=ARG1]
+	_overdue_a_1 -> "named(Consolidation)" [label=ARG1]
+}

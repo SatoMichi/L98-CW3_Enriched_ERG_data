@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_go_v_after -> "named(SPAN)" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _go_v_after [label="ARG2-fn.NotExist"]
+	_go_v_after -> _hacker_n_1 [label=ARG1]
+	compound -> "named(Alexander)" [label=ARG1]
+	proper_q -> "named(SPAN)" [label=BV]
+	proper_q -> "named(Alexander)" [label=BV]
+	_of_p -> "named(Computerworld)" [label=ARG2]
+	udef_q -> _hacker_n_1 [label=BV]
+	_before_p -> _go_v_after [label=ARG1]
+	proper_q -> "named(Computerworld)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Alexander)" [label="ARG1-fn.NotExist"]
+	_of_p -> "named(Alexander)" [label=ARG1]
+}

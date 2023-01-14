@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _revenue_n_1 [label=BV]
+	compound -> _official_n_1 [label=ARG1]
+	_lag_v_1 -> _revenue_n_1 [label=ARG1]
+	compound -> _city_n_1 [label=ARG2]
+	udef_q -> _official_n_1 [label=BV]
+	compound -> _tax_n_1 [label=ARG2]
+	compound -> _revenue_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _lag_v_1 [label="ARG2-fn.Topic"]
+	udef_q -> _city_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _tax_n_1 [label=BV]
+}

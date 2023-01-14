@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(7.8)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	"_hold_v_1-fn.Competition" -> _percent_n_of [label="ARG2-fn.Participant_2"]
+	poss -> _share_n_of [label=ARG1]
+	poss -> "named(Dataproducts)" [label=ARG2]
+	_of_p -> _percent_n_of [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	proper_q -> "named(Dataproducts)" [label=BV]
+	_of_p -> _share_n_of [label=ARG2]
+	"_hold_v_1-fn.Competition" -> "named(DPC)" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(DPC)" [label=BV]
+	def_explicit_q -> _share_n_of [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_learn_v_1 -> "_count_v_1-fn.IN" [label=ARG2]
+	_until_x_h -> neg [label=ARG1]
+	"_get_v_state-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_get_v_state-fn.IN" -> _to_p [label="ARG2-fn.Patient"]
+	neg -> _learn_v_1 [label=ARG1]
+	"_count_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_to_p -> pron [label=ARG1]
+	proper_q -> "named(Juilliard)" [label=BV]
+	_learn_v_1 -> pron [label=ARG1]
+	_until_x_h -> "_get_v_state-fn.IN" [label=ARG2]
+	_to_p -> "named(Juilliard)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

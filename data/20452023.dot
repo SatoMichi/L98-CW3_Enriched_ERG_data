@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _versus_c [label=ARG]
+	proper_q -> "named(Guaranty)" [label=BV]
+	udef_q -> _versus_c [label=BV]
+	compound -> "named(LTV)" [label=ARG1]
+	compound -> "named(Guaranty)" [label=ARG1]
+	proper_q -> "named(Pension)" [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+	compound -> "named(Pension)" [label=ARG2]
+	compound -> "named(Benefit)" [label=ARG1]
+	proper_q -> "named(LTV)" [label=BV]
+	proper_q -> "named(Benefit)" [label=BV]
+	udef_q -> _corporation_n_1 [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_express_v_to-fn.Cause_to_end" [label=ARG1]
+	neg -> "_express_v_to-fn.Cause_to_end" [label=ARG1]
+	_in_p -> _public_n_1 [label=ARG2]
+	_those_q_dem -> _concern_n_1 [label=BV]
+	_in_p -> "_express_v_to-fn.Cause_to_end" [label=ARG1]
+	"_express_v_to-fn.Cause_to_end" -> _concern_n_1 [label="ARG2-fn.Means"]
+	idiom_q_i -> _public_n_1 [label=BV]
+	parg_d -> _concern_n_1 [label=ARG2]
+}

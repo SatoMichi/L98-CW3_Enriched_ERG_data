@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_check_v_out-fn.Required_event" -> pron [label="ARG1-fn.Required_situation"]
+	"_check_v_in-fn.Judgment_direct_address" -> pron [label="ARG1-fn.Communicator"]
+	pronoun_q -> pron [label=BV]
+	"_can_v_modal-fn.Reliance" -> "_check_v_out-fn.Required_event" [label="ARG1-fn.Protagonist"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_without_p -> _merit_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+	_without_p -> _suit_n_of [label=ARG1]
+	"_believe_v_1-fn.Awareness" -> pron [label="ARG1-fn.NotExist"]
+	"_believe_v_1-fn.Awareness" -> _without_p [label="ARG2-fn.NotExist"]
+	_the_q -> _company_n_of [label=BV]
+	"_say_v_to-fn.IN" -> "_believe_v_1-fn.Awareness" [label="ARG2-fn.Topic"]
+	udef_q -> _merit_n_1 [label=BV]
+	_the_q -> _suit_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

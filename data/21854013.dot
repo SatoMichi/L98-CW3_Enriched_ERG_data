@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_mix_v_1-fn.Competition" [label=ARG1]
+	_a_q -> _bag_n_of [label=BV]
+	"_build_v_1-fn.Competition" -> _stock_n_1 [label="ARG1-fn.Participant_1"]
+	parg_d -> _bag_n_of [label=ARG2]
+	"_be_v_id-fn.Residence" -> _stock_n_1 [label="ARG1-fn.Resident"]
+	udef_q -> "_home_n_of-n" [label=BV]
+	"_mix_v_1-fn.Competition" -> _bag_n_of [label="ARG2-fn.Participant_2"]
+	udef_q -> _stock_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _bag_n_of [label="ARG2-fn.Location"]
+	compound -> "_build_v_1-fn.Competition" [label=ARG1]
+	compound -> "_home_n_of-n" [label=ARG2]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_would_v_modal-fn.Cause_to_end" -> "_tend_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_trust_v_1-fn.Expectation" -> pron [label="ARG1-fn.Cognizer"]
+	"_trust_v_1-fn.Expectation" -> _judgment_n_1 [label="ARG2-fn.Phenomenon"]
+	def_explicit_q -> _judgment_n_1 [label=BV]
+	poss -> _judgment_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	"_tend_v_1-fn.Competition" -> "_trust_v_1-fn.Expectation" [label="ARG1-fn.Participant_1"]
+}

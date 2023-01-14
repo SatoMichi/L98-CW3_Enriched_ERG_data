@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_information_n_on-about" [label=BV]
+	_final_a_1 -> _material_a_1 [label=ARG1]
+	_material_a_1 -> "_information_n_on-about" [label=ARG1]
+}

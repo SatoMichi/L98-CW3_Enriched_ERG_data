@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _case_n_of [label="ARG2-fn.Location"]
+	_really_a_1 -> neg [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	neg -> "_be_v_id-fn.Residence" [label=ARG1]
+	_the_q -> _case_n_of [label=BV]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	"_of+course_a_1" -> _really_a_1 [label=ARG1]
+}

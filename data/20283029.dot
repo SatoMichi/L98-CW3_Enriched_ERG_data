@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> generic_entity [label=BV]
+	udef_q -> _trade_n_of [label=BV]
+	_also_a_1 -> "_sign_v_1-fn.NF" [label=ARG1]
+	_a_q -> _agreement_n_1 [label=BV]
+	"_sign_v_1-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	compound -> _trade_n_of [label=ARG2]
+	compound -> _agreement_n_1 [label=ARG1]
+	"_sign_v_1-fn.NF" -> _agreement_n_1 [label="ARG2-fn.Theme"]
+	"card(2)" -> generic_entity [label=ARG1]
+}

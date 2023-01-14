@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> "_happen_v_1-fn.Event" [label=ARG1]
+	_in_p -> _crash_n_1 [label=ARG2]
+	compound -> _crash_n_1 [label=ARG1]
+	compound -> "mofy(Oct)" [label=ARG2]
+	_in_p -> "_happen_v_1-fn.Event" [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG1]
+	udef_q -> "mofy(Oct)" [label=BV]
+	"_happen_v_1-fn.Event" -> thing [label="ARG1-fn.NotExist"]
+	_that_q_dem -> generic_entity [label=BV]
+	_be_v_id -> nominalization [label=ARG2]
+	_the_q -> _crash_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	proper_q -> "yofc(1987)" [label=BV]
+	which_q -> thing [label=BV]
+	compound -> "yofc(1987)" [label=ARG1]
+}

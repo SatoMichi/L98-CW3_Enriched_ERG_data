@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _ratio_n_of [label=ARG1]
+	_the_q -> _ratio_n_of [label=BV]
+	udef_q -> _debt_n_1 [label=BV]
+	"_improve_v_1-fn.Achieving_first" -> _ratio_n_of [label="ARG1-fn.Cognizer"]
+	_in_p_temp -> _quarter_n_temp [label=ARG2]
+	_further_a_1 -> "_improve_v_1-fn.Achieving_first" [label=ARG1]
+	_in_p_temp -> "_improve_v_1-fn.Achieving_first" [label=ARG1]
+	"_predict_v_1-fn.Change_position_on_a_scale" -> "_improve_v_1-fn.Achieving_first" [label="ARG2-fn.Item"]
+	"_predict_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	compound -> _debt_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_come_v_1-fn.Impact" -> _quarter_n_temp [label="ARG1-fn.Place"]
+	udef_q -> _quarter_n_temp [label=BV]
+}

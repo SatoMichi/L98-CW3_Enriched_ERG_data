@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _lot_n_of [label=BV]
+	_lot_n_of -> "_thing_n_of-about" [label=ARG1]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	_in_p -> "_happen_v_1-fn.Event" [label=ARG1]
+	_in_p -> _year_n_1 [label=ARG2]
+	_bad_a_at -> "_thing_n_of-about" [label=ARG1]
+	"_happen_v_1-fn.Event" -> _lot_n_of [label="ARG1-fn.NotExist"]
+	_can_v_modal -> "_happen_v_1-fn.Event" [label=ARG1]
+	"card(12)" -> _year_n_1 [label=ARG1]
+}

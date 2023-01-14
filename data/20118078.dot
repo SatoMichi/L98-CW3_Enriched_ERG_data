@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> "_stockbrokers/nns_u_unknown" [label=ARG2]
+	compound -> nominalization [label=ARG1]
+	def_explicit_q -> "_stockbrokers/nns_u_unknown" [label=BV]
+	nominalization -> _trade_v_1 [label=ARG1]
+	_unhappy_a_1 -> person [label=ARG1]
+	_with_p -> _unhappy_a_1 [label=ARG1]
+	_no_q -> person [label=BV]
+	poss -> _nation_n_of [label=ARG2]
+	udef_q -> _program_n_of [label=BV]
+	poss -> "_stockbrokers/nns_u_unknown" [label=ARG1]
+	comp -> _unhappy_a_1 [label=ARG1]
+	compound -> _program_n_of [label=ARG2]
+	_the_q -> _nation_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+	_with_p -> nominalization [label=ARG2]
+}

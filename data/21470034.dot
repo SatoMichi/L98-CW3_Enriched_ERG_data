@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _hall_n_1 [label=ARG1]
+	compound -> _reference_n_1 [label=ARG2]
+	_available_a_1 -> _hall_n_1 [label=ARG1]
+	udef_q -> _hall_n_1 [label=BV]
+	udef_q -> _reference_n_1 [label=BV]
+	udef_q -> _study_n_of [label=BV]
+	compound -> _study_n_of [label=ARG2]
+	_with_p -> _complete_a_with [label=ARG1]
+	udef_q -> _material_n_1 [label=BV]
+	_complete_a_with -> _hall_n_1 [label=ARG1]
+	_with_p -> _material_n_1 [label=ARG2]
+	compound -> _material_n_1 [label=ARG1]
+}

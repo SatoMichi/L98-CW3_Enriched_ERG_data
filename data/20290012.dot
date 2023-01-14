@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _public_n_1 [label=BV]
+	_equate_v_with -> "_disobedience/nn_u_unknown" [label=ARG3]
+	_equate_v_with -> _demonstration_n_of [label=ARG2]
+	"_have_v_1-fn.IN" -> _public_n_1 [label="ARG1-fn.Pivot"]
+	_a_q -> _tendency_n_to [label=BV]
+	udef_q -> "_disobedience/nn_u_unknown" [label=BV]
+	_violent_a_1 -> "_disobedience/nn_u_unknown" [label=ARG1]
+	_civil_a_1 -> "_disobedience/nn_u_unknown" [label=ARG1]
+	_tendency_n_to -> _equate_v_with [label=ARG1]
+	"_have_v_1-fn.IN" -> _tendency_n_to [label="ARG2-fn.Theme"]
+	_lawful_a_1 -> _demonstration_n_of [label=ARG1]
+	neg -> _violent_a_1 [label=ARG1]
+	udef_q -> _demonstration_n_of [label=BV]
+}

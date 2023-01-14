@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_federal_a_1 -> _land_n_of [label=ARG1]
+	udef_q -> _espionage_n_1 [label=BV]
+	_among_p -> _crime_n_1 [label=ARG2]
+	udef_q -> _murder_n_of [label=BV]
+	udef_q -> _land_n_of [label=BV]
+	_presidential_a_1 -> _assassination_n_of [label=ARG1]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _assassination_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	_these_q_dem -> _crime_n_1 [label=BV]
+	_on_p -> _murder_n_of [label=ARG1]
+	_on_p -> _land_n_of [label=ARG2]
+	_among_p -> implicit_conj [label=ARG1]
+}

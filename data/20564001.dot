@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "_raider/nn_u_unknown" [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	neg -> _be_v_id [label=ARG1]
+	"card(1)" -> generic_entity [label=ARG1]
+	proper_q -> "named(Switzerland)" [label=BV]
+	udef_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+	_famous_a_for -> "_raider/nn_u_unknown" [label=ARG1]
+	_be_v_id -> pron [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG2]
+	superl -> _famous_a_for [label=ARG1]
+	poss -> "named(Switzerland)" [label=ARG2]
+	poss -> "_raider/nn_u_unknown" [label=ARG1]
+	def_explicit_q -> "_raider/nn_u_unknown" [label=BV]
+}

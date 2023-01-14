@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_follow_v_1-fn.Competition" -> _industry_n_1 [label="ARG1-fn.Participant_1"]
+	_once_x_subord -> "_step_v_1-fn.Competition" [label=ARG2]
+	_up_p_dir -> "_step_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _company_n_of [label=BV]
+	def_explicit_q -> _investment_n_1 [label=BV]
+	_once_x_subord -> "_follow_v_1-fn.Competition" [label=ARG1]
+	_whole_a_1 -> _industry_n_1 [label=ARG1]
+	_up_p_dir -> _investment_n_1 [label=ARG2]
+	_japanese_a_1 -> _company_n_of [label=ARG1]
+	"card(1)" -> _company_n_of [label=ARG1]
+	"_step_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	_the_q -> _industry_n_1 [label=BV]
+	poss -> _investment_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

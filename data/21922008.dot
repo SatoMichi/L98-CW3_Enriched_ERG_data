@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "_liquefy_v_1-fn.Assemble" [label=ARG1]
+	_in_p -> _pattern_n_1 [label=ARG2]
+	compound -> _pattern_n_1 [label=ARG1]
+	udef_q -> "_patchwork/nn_u_unknown" [label=BV]
+	compound -> _quilt_n_1 [label=ARG1]
+	"_liquefy_v_1-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	udef_q -> _quilt_n_1 [label=BV]
+	_a_q -> _pattern_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> "_patchwork/nn_u_unknown" [label=ARG2]
+}

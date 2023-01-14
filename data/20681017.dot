@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	"_be_v_there-fn.Needing" -> _deal_n_1 [label="ARG1-fn.Cognizer"]
+	udef_q -> _mister_n_1 [label=BV]
+	_still_a_1 -> "_be_v_there-fn.Needing" [label=ARG1]
+	compound -> "named(Connolly)" [label=ARG1]
+	proper_q -> "named(Connolly)" [label=BV]
+	udef_q -> _deal_n_1 [label=BV]
+	"_argue_v_with-fn.Avoiding" -> "named(Connolly)" [label="ARG1-fn.Agent"]
+	focus_d -> "_be_v_there-fn.Needing" [label=ARG2]
+	"_argue_v_with-fn.Avoiding" -> "_be_v_there-fn.Needing" [label="ARG2-fn.Place"]
+	focus_d -> "_argue_v_with-fn.Avoiding" [label=ARG1]
+}

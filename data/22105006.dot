@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _dividend_n_1 [label=BV]
+	proper_q -> "named(Berlitz)" [label=BV]
+	"_pay_v_for-fn.Receiving" -> _dividend_n_1 [label="ARG2-fn.Donor"]
+	_on_p -> _stock_n_1 [label=ARG2]
+	"_pay_v_for-fn.Receiving" -> "named(Berlitz)" [label="ARG1-fn.Recipient"]
+	_quarterly_a_1 -> _dividend_n_1 [label=ARG1]
+	"_say_v_to-fn.Taking" -> "named(Macmillan)" [label="ARG1-fn.Agent"]
+	"_intend_v_for-fn.Have_as_requirement" -> "named(Berlitz)" [label="ARG1-fn.Dependent"]
+	"_intend_v_for-fn.Have_as_requirement" -> "_pay_v_for-fn.Receiving" [label="ARG2-fn.Requirement"]
+	_on_p -> _dividend_n_1 [label=ARG1]
+	proper_q -> "named(Macmillan)" [label=BV]
+	_the_q -> _stock_n_1 [label=BV]
+	"_say_v_to-fn.Taking" -> "_intend_v_for-fn.Have_as_requirement" [label="ARG2-fn.Theme"]
+}

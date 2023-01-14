@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_into_p -> thing [label=ARG2]
+	neg -> "_rush_v_1-fn.Halt" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_rush_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	_any_q -> thing [label=BV]
+	_into_p -> "_rush_v_1-fn.Halt" [label=ARG1]
+}

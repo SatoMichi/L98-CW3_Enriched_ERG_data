@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_other_a_1 -> _state_n_of [label=ARG1]
+	_most_q -> _state_n_of [label=BV]
+	_similar_a_to -> _ban_n_1 [label=ARG1]
+	comp -> _similar_a_to [label=ARG1]
+	"_enact_v_1-fn.Activity_ongoing" -> _state_n_of [label="ARG1-fn.Duration"]
+	udef_q -> _ban_n_1 [label=BV]
+	"_enact_v_1-fn.Activity_ongoing" -> _ban_n_1 [label="ARG2-fn.Activity"]
+}

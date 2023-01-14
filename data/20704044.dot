@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.State_continue" -> _life_n_of [label="ARG2-fn.State"]
+	udef_q -> _year_n_1 [label=BV]
+	"card(3.16)" -> _year_n_1 [label=ARG1]
+	_life_n_of -> _year_n_1 [label=ARG1]
+	"_expect_v_1-fn.Commerce_buy" -> "_have_v_1-fn.State_continue" [label="ARG2-fn.Goods"]
+	_a_q -> _life_n_of [label=BV]
+	_average_a_1 -> _life_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	parg_d -> "_expect_v_1-fn.Commerce_buy" [label=ARG1]
+	"_have_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	parg_d -> pron [label=ARG2]
+}

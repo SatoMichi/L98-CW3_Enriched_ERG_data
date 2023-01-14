@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pay_v_for-fn.Receiving" -> pron [label="ARG2-fn.Donor"]
+	"_get_v_state-fn.Residence" -> "_pay_v_for-fn.Receiving" [label="ARG2-fn.Location"]
+	"_hope_v_1-fn.Competition" -> "_get_v_state-fn.Residence" [label="ARG2-fn.Participant_2"]
+	"_ship_v_cause-fn.Cause_harm" -> pron [label="ARG1-fn.Agent"]
+	"_going+to_v_qmodal" -> "_ship_v_cause-fn.Cause_harm" [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	"_get_v_state-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	parg_d -> "_pay_v_for-fn.Receiving" [label=ARG1]
+	"_hope_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	parg_d -> pron [label=ARG2]
+}

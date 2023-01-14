@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_share_v_1-fn.Competition" -> _incompetence_n_1 [label="ARG2-fn.Participant_2"]
+	parg_d -> "_share_v_1-fn.Competition" [label=ARG1]
+	_case_n_of -> _incompetence_n_1 [label=ARG1]
+	udef_q -> _participant_n_1 [label=BV]
+	comp_so -> "much-many_a" [label=ARG1]
+	"_see_v_1-fn.Motion" -> _case_n_of [label="ARG2-fn.Source"]
+	_never_a_1 -> "_see_v_1-fn.Motion" [label=ARG1]
+	_a_q -> _case_n_of [label=BV]
+	"much-many_a" -> _participant_n_1 [label=ARG1]
+	"_share_v_1-fn.Competition" -> _participant_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _incompetence_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	parg_d -> _incompetence_n_1 [label=ARG2]
+	"_see_v_1-fn.Motion" -> pron [label="ARG1-fn.Theme"]
+}

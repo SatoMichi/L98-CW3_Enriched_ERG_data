@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _grain_n_1 [label=BV]
+	_against_p_dir -> _grain_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_bother_v_1-fn.NF" -> "named(Andersson)" [label="ARG2-fn.Experiencer"]
+	proper_q -> "named(Andersson)" [label=BV]
+	_never_a_1 -> "_bother_v_1-fn.NF" [label=ARG1]
+	compound -> "named(Andersson)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_against_p_dir -> _go_v_1 [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_bother_v_1-fn.NF" -> nominalization [label="ARG1-fn.Stimulus"]
+	nominalization -> _go_v_1 [label=ARG1]
+}

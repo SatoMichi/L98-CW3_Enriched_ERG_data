@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> _idea_n_of [label=ARG1]
+	_live_a_1 -> _animal_n_1 [label=ARG1]
+	udef_q -> _animal_n_1 [label=BV]
+	def_explicit_q -> _idea_n_of [label=BV]
+	compound -> _zoo_n_1 [label=ARG2]
+	poss -> _idea_n_of [label=ARG1]
+	compound -> _animal_n_1 [label=ARG1]
+	"_bring_v_in-fn.Bringing" -> _animal_n_1 [label="ARG2-fn.Theme"]
+	unknown -> _idea_n_of [label=ARG]
+	poss -> pron [label=ARG2]
+	udef_q -> _zoo_n_1 [label=BV]
+	"_bring_v_in-fn.Bringing" -> pron [label="ARG1-fn.Instrument"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _transit_n_1 [label=BV]
+	_be_v_id -> _system_n_of [label=ARG1]
+	nominalization -> "_going+to_v_qmodal" [label=ARG1]
+	_the_q -> _system_n_of [label=BV]
+	unspec_manner -> "_get_v_around-fn.IN" [label=ARG1]
+	which_q -> manner [label=BV]
+	udef_q -> _people_n_of [label=BV]
+	compound -> _system_n_of [label=ARG1]
+	_be_v_id -> nominalization [label=ARG2]
+	unspec_manner -> manner [label=ARG2]
+	"_going+to_v_qmodal" -> "_get_v_around-fn.IN" [label=ARG1]
+	"_get_v_around-fn.IN" -> _people_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> nominalization [label=BV]
+	compound -> _transit_n_1 [label=ARG2]
+}

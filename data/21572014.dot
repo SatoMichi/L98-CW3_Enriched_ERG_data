@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(John)" [label=ARG2]
+	"_agree_v_on-fn.IN" -> "named(Blodgett)" [label="ARG1-fn.Agent"]
+	_ought_v_qmodal -> "_know_v_1-fn.IN" [label=ARG1]
+	"_know_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	compound -> "named(Blodgett)" [label=ARG1]
+	proper_q -> "named(John)" [label=BV]
+	proper_q -> "named(Blodgett)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

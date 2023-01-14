@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_slogan/nn_u_unknown" [label=BV]
+	_so_a_thus -> _might_v_modal [label=ARG1]
+	"_go_v_1-fn.Motion" -> "_slogan/nn_u_unknown" [label="ARG1-fn.NotExist"]
+	_might_v_modal -> "_go_v_1-fn.Motion" [label=ARG1]
+}

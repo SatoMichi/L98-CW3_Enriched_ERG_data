@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	_now_a_1 -> "_claim_v_1-fn.Statement" [label=ARG1]
+	appos -> "named(Broberg)" [label=ARG1]
+	appos -> _lawyer_n_1 [label=ARG2]
+	"_claim_v_1-fn.Statement" -> _would_v_modal [label="ARG2-fn.Topic"]
+	compound -> "named(Broberg)" [label=ARG1]
+	_a_q -> _lawyer_n_1 [label=BV]
+	_would_v_modal -> "_play_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Broberg)" [label=BV]
+	"_play_v_1-fn.Competition" -> pron [label="ARG1-fn.NotExist"]
+	"_claim_v_1-fn.Statement" -> "named(Broberg)" [label="ARG1-fn.Agent"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_for+free_a_1" -> "_play_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

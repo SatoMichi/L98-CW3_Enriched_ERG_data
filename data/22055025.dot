@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Soviet)" [label=BV]
+	_of_p -> _confidence_n_1 [label=ARG1]
+	compound -> "named(Soviet)" [label=ARG1]
+	"_reflect_v_1-fn.Competition" -> _confidence_n_1 [label="ARG2-fn.Participant_2"]
+	"_grow_v_1-fn.Competition" -> _confidence_n_1 [label="ARG1-fn.Participant_1"]
+	_of_p -> "named(Soviet)" [label=ARG2]
+	"_reflect_v_1-fn.Competition" -> _move_n_1 [label="ARG1-fn.Participant_1"]
+	parg_d -> "_revamped/vbn_u_unknown" [label=ARG1]
+	proper_q -> "named(Supreme)" [label=BV]
+	_the_q -> _confidence_n_1 [label=BV]
+	_the_q -> _move_n_1 [label=BV]
+	compound -> "named(Supreme)" [label=ARG2]
+	parg_d -> "named(Soviet)" [label=ARG2]
+	"_revamped/vbn_u_unknown" -> "named(Soviet)" [label=ARG2]
+}

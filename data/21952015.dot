@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _fashion_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	nominalization -> _spend_v_1 [label=ARG1]
+	_a_q -> _fashion_n_1 [label=BV]
+	_in_p -> "_reduce_v_1-fn.Cause_change_of_position_on_a_scale" [label=ARG1]
+	_effective_a_1 -> _fashion_n_1 [label=ARG1]
+	_very_x_deg -> _effective_a_1 [label=ARG1]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> nominalization [label="ARG2-fn.Patient"]
+	udef_q -> nominalization [label=BV]
+	"_reduce_v_1-fn.Cause_change_of_position_on_a_scale" -> pron [label="ARG1-fn.Cause"]
+}

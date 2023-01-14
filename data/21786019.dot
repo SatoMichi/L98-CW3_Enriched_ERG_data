@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "season(spring)" [label=BV]
+	unknown -> "season(spring)" [label=ARG]
+	compound -> "season(spring)" [label=ARG1]
+	proper_q -> "named(Silver)" [label=BV]
+	appos -> "season(spring)" [label=ARG1]
+	compound -> "named(Silver)" [label=ARG2]
+	proper_q -> "named(Maryland)" [label=BV]
+	appos -> "named(Maryland)" [label=ARG2]
+}

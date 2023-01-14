@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _sale_n_of [label=BV]
+	_of_p -> _sale_n_of [label=ARG1]
+	"_ring_v_up-fn.Halt" -> _sale_n_of [label="ARG2-fn.Place"]
+	_of_p -> _dollar_n_1 [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_ring_v_up-fn.Halt" -> "named(Younkers)" [label="ARG1-fn.Purpose"]
+	proper_q -> "named(Younkers)" [label=BV]
+	times -> "card(313)" [label=ARG2]
+	proper_q -> "yofc(1988)" [label=BV]
+	_in_p_temp -> _sale_n_of [label=ARG1]
+	_in_p_temp -> "yofc(1988)" [label=ARG2]
+}

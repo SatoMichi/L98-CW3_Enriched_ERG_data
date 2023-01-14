@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(4)" -> _month_n_1 [label=ARG1]
+	compound -> _string_n_of [label=ARG1]
+	compound -> _month_n_1 [label=ARG2]
+	"_follow_v_1-fn.Cotheme" -> _report_n_of [label="ARG1-fn.NotExist"]
+	"_follow_v_1-fn.Cotheme" -> _string_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _report_n_of [label=BV]
+	_a_q -> _string_n_of [label=BV]
+	udef_q -> _month_n_1 [label=BV]
+	_string_n_of -> _decline_n_1 [label=ARG1]
+	udef_q -> _decline_n_1 [label=BV]
+	_flat_a_1 -> _report_n_of [label=ARG1]
+}

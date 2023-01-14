@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> "_rancor/nn_u_unknown" [label=BV]
+	"_fret_v_about-fn.Touring" -> _japanese_n_1 [label="ARG1-fn.Tourist"]
+	compound -> "named_n(US)" [label=ARG2]
+	_the_q -> _japanese_n_1 [label=BV]
+	_open_a_1 -> "_fret_v_about-fn.Touring" [label=ARG1]
+	compound -> _public_n_1 [label=ARG1]
+	"_fret_v_about-fn.Touring" -> "_rancor/nn_u_unknown" [label="ARG2-fn.Attraction"]
+	poss -> _public_n_1 [label=ARG2]
+	poss -> "_rancor/nn_u_unknown" [label=ARG1]
+	udef_q -> "named_n(US)" [label=BV]
+	_the_q -> _public_n_1 [label=BV]
+}

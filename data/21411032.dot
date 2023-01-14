@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> "named(Sportdom)" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	_the_q -> _ranch_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Jones)" [label=ARG1]
+	"_call_v_name-fn.Judgment_direct_address" -> _ranch_n_1 [label="ARG3-fn.Topic"]
+	proper_q -> "named(Jones)" [label=BV]
+	proper_q -> "named(Sportdom)" [label=BV]
+	"_call_v_name-fn.Judgment_direct_address" -> "named(Pentagon)" [label="ARG2-fn.Addressee"]
+	"_call_v_name-fn.Judgment_direct_address" -> "named(Jones)" [label="ARG1-fn.Communicator"]
+	_of_p -> "named(Pentagon)" [label=ARG1]
+	_the_q -> "named(Pentagon)" [label=BV]
+}

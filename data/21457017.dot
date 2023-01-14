@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_get_v_down-to-fn.Cause_to_end" [label=ARG1]
+	"_add_v_to-fn.Fining" -> _colon_p_namely [label="ARG2-fn.Instrument"]
+	_just_a_1 -> "_get_v_down-to-fn.Cause_to_end" [label=ARG1]
+	_the_q -> _room_n_1 [label=BV]
+	compound -> _room_n_1 [label=ARG1]
+	"_add_v_to-fn.Fining" -> pron [label="ARG1-fn.Speaker"]
+	udef_q -> _engine_n_1 [label=BV]
+	_colon_p_namely -> neg [label=ARG1]
+	_yet_a_1 -> "_get_v_down-to-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_get_v_down-to-fn.Cause_to_end" -> _room_n_1 [label="ARG2-fn.Means"]
+	"_get_v_down-to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	compound -> _engine_n_1 [label=ARG2]
+}

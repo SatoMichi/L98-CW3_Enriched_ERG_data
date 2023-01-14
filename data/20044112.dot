@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_nv-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	_in_p -> pron [label=ARG2]
+	_some_q -> person [label=BV]
+	_in_p -> "_turn_v_1-fn.Halt" [label=ARG1]
+	_a_q -> _knife_n_1 [label=BV]
+	"_turn_v_1-fn.Halt" -> person [label="ARG1-fn.Purpose"]
+	_like_x_preph -> "_turn_v_1-fn.Halt" [label=ARG2]
+	"_be_v_nv-fn.Cause_to_end" -> _like_x_preph [label="ARG2-fn.Means"]
+	"_turn_v_1-fn.Halt" -> _knife_n_1 [label="ARG2-fn.Place"]
+}

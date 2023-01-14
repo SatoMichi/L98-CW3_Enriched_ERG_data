@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_now_a_1 -> "_monitor_v_1-fn.Relative_time" [label=ARG1]
+	_every_q -> _account_n_of [label=BV]
+	_major_a_1 -> _account_n_of [label=ARG1]
+	"_monitor_v_1-fn.Relative_time" -> _account_n_of [label="ARG2-fn.Landmark_occasion"]
+	"_monitor_v_1-fn.Relative_time" -> pron [label="ARG1-fn.Focal_occasion"]
+	pronoun_q -> pron [label=BV]
+}

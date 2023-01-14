@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_dance_v_1-fn.Self_motion" -> _shoelace_n_1 [label="ARG1-fn.Theme"]
+	_with_p -> "_dance_v_1-fn.Self_motion" [label=ARG1]
+	"_make_v_cause-fn.Causation" -> pron [label="ARG1-fn.Agent"]
+	poss -> _shoelace_n_1 [label=ARG1]
+	"_make_v_cause-fn.Causation" -> "_dance_v_1-fn.Self_motion" [label="ARG2-fn.Theme"]
+	poss -> pron [label=ARG2]
+	udef_q -> _terror_n_1 [label=BV]
+	def_explicit_q -> _shoelace_n_1 [label=BV]
+	_with_p -> _terror_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

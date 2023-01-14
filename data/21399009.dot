@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_not_x_deg -> _all_q [label=ARG1]
+	_all_q -> part_of [label=BV]
+	parg_d -> "_sell_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	part_of -> _parcel_n_of [label=ARG1]
+	parg_d -> part_of [label=ARG2]
+	_yet_a_1 -> "_sell_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	"_sell_v_1-fn.Change_of_quantity_of_possession" -> part_of [label="ARG2-fn.Possession"]
+	_those_q_dem -> _parcel_n_of [label=BV]
+}

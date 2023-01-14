@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Lurie)" [label=ARG1]
+	"_co-chief/jj_u_unknown" -> _executive_n_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_be_v_id-fn.Cotheme" -> "named(Lurie)" [label="ARG1-fn.Theme"]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(Lurie)" [label=BV]
+	"_be_v_id-fn.Cotheme" -> _executive_n_1 [label="ARG2-fn.Cotheme"]
+	udef_q -> _executive_n_1 [label=BV]
+	_current_a_1 -> "_be_v_id-fn.Cotheme" [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(First)" [label=BV]
+	_from_p -> _pressure_n_1 [label=ARG1]
+	proper_q -> "named(Interstate)" [label=BV]
+	"_make_v_1-fn.Rite" -> _move_n_1 [label="ARG2-fn.Member"]
+	compound -> "named(Interstate)" [label=ARG1]
+	udef_q -> _regulator_n_1 [label=BV]
+	_from_p -> _regulator_n_1 [label=ARG2]
+	"_make_v_1-fn.Rite" -> "named(Interstate)" [label="ARG1-fn.Leader"]
+	udef_q -> _pressure_n_1 [label=BV]
+	_the_q -> _move_n_1 [label=BV]
+	_under_p -> "_make_v_1-fn.Rite" [label=ARG1]
+	compound -> "named(First)" [label=ARG2]
+	_under_p -> _pressure_n_1 [label=ARG2]
+}

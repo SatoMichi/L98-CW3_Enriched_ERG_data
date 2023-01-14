@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_perceive_v_as-fn.Categorization" -> generic_entity [label="ARG2-fn.Stimulus"]
+	_a_q -> _stance_n_1 [label=BV]
+	_suspicious_a_of -> generic_entity [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	parg_d -> "_perceive_v_as-fn.Categorization" [label=ARG1]
+	_bold_a_1 -> _stance_n_1 [label=ARG1]
+	"_perceive_v_as-fn.Categorization" -> _stance_n_1 [label="ARG3-fn.NotExist"]
+	parg_d -> generic_entity [label=ARG2]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _day_n_of [label=ARG2]
+	_for_p -> _day_n_of [label=ARG1]
+	_may_v_modal -> _be_v_id [label=ARG1]
+	_be_v_id -> time_n [label=ARG1]
+	_today_a_1 -> time_n [label=ARG1]
+	_a_q -> _day_n_of [label=BV]
+	_anxious_a_1 -> _day_n_of [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	udef_q -> _trader_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _may_v_modal [label="ARG2-fn.NotExist"]
+	def_implicit_q -> time_n [label=BV]
+	"_say_v_to-fn.IN" -> _trader_n_1 [label="ARG1-fn.NotExist"]
+	_for_p -> _market_n_1 [label=ARG2]
+}

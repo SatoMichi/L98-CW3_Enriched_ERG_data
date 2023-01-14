@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	times -> "card(3.3)" [label=ARG2]
+	"card(25)" -> _percent_n_of [label=ARG1]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	_to_p -> "_climb_v_1-fn.Halt" [label=ARG1]
+	loc_nonsp -> "_climb_v_1-fn.Halt" [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	_from_p -> "_climb_v_1-fn.Halt" [label=ARG1]
+	"_climb_v_1-fn.Halt" -> _revenue_n_1 [label="ARG1-fn.Purpose"]
+	udef_q -> _dollar_n_1 [label=BV]
+	udef_q -> _revenue_n_1 [label=BV]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+	times -> "card(2.6)" [label=ARG2]
+}

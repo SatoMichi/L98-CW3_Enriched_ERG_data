@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _company_n_of [label=ARG2]
+	parg_d -> "_list_v_1-fn.Relative_time" [label=ARG1]
+	"_fight_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	neg -> "_fight_v_1-fn.Halt" [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	"_fight_v_1-fn.Halt" -> _company_n_of [label="ARG2-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	"_list_v_1-fn.Relative_time" -> _company_n_of [label="ARG2-fn.Landmark_occasion"]
+}

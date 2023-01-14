@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _lobby_n_1 [label=BV]
+	compound -> _choice_n_of [label=ARG1]
+	udef_q -> _choice_n_of [label=BV]
+	ellipsis_ref -> _lobby_n_1 [label=ARG1]
+	compound -> _lobby_n_1 [label=ARG1]
+	udef_q -> _pro_n_1 [label=BV]
+	neg -> ellipsis_ref [label=ARG1]
+	compound -> _pro_n_1 [label=ARG2]
+}

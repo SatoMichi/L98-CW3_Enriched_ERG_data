@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_suppress_v_1-fn.NF" -> _demand_n_1 [label="ARG2-fn.Patient"]
+	udef_q -> _force_n_1 [label=BV]
+	_cultural_a_1 -> _force_n_1 [label=ARG1]
+	_various_a_1 -> _force_n_1 [label=ARG1]
+	"_suppress_v_1-fn.NF" -> _force_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _demand_n_1 [label=BV]
+	_economic_a_1 -> _force_n_1 [label=ARG1]
+}

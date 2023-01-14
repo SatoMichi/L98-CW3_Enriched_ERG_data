@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _and_c [label=ARG2]
+	_like_p -> _village_n_of [label=ARG1]
+	"little-few_a" -> _doctor_n_1 [label=ARG1]
+	udef_q -> _village_n_of [label=BV]
+	_like_p -> "named(Zalubice)" [label=ARG2]
+	_of_p -> _desert_n_1 [label=ARG1]
+	proper_q -> "named(Zalubice)" [label=BV]
+	udef_q -> _doctor_n_1 [label=BV]
+	udef_q -> _school_n_1 [label=BV]
+	_a_q -> _desert_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_in_p -> "_exist_v_1-fn.Existence" [label=ARG1]
+	_poor_a_1 -> _school_n_1 [label=ARG1]
+	"_exist_v_1-fn.Existence" -> _village_n_of [label="ARG1-fn.NotExist"]
+	_in_p -> _desert_n_1 [label=ARG2]
+}

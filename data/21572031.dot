@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_allege_v_1-fn.NF" [label=ARG1]
+	_the_q -> _agreement_n_1 [label=BV]
+	compound -> "named(Amoco)" [label=ARG2]
+	proper_q -> "named(Amoco)" [label=BV]
+	_the_q -> _well_n_1 [label=BV]
+	"_allege_v_1-fn.NF" -> "_exist_v_1-fn.Existence" [label="ARG2-fn.Topic"]
+	focus_d -> "_exist_v_1-fn.Existence" [label=ARG2]
+	udef_q -> _nor_c [label=BV]
+	compound -> _agreement_n_1 [label=ARG1]
+	"_exist_v_1-fn.Existence" -> _nor_c [label="ARG1-fn.NotExist"]
+	_the_q -> _suit_n_of [label=BV]
+	"_allege_v_1-fn.NF" -> _suit_n_of [label="ARG1-fn.Agent"]
+}

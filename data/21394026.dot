@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_know_v_as-fn.Have_as_requirement" [label=ARG1]
+	udef_q -> _competitor_n_1 [label=BV]
+	_the_q -> _enemy_n_1 [label=BV]
+	"_know_v_as-fn.Have_as_requirement" -> _competitor_n_1 [label="ARG2-fn.Requirement"]
+	"_know_v_as-fn.Have_as_requirement" -> _enemy_n_1 [label="ARG3-fn.Degree"]
+	parg_d -> _competitor_n_1 [label=ARG2]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_never_a_1 -> "_obtain_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Trump)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_for_p -> _bid_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	poss -> _bid_n_1 [label=ARG1]
+	"_obtain_v_1-fn.Competition" -> nominalization [label="ARG2-fn.Participant_2"]
+	nominalization -> _finance_v_1 [label=ARG1]
+	compound -> "named(Trump)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _bid_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	"_obtain_v_1-fn.Competition" -> "named(Trump)" [label="ARG1-fn.Participant_1"]
+	_for_p -> nominalization [label=ARG1]
+}

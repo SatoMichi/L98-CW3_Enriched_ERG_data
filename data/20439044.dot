@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_provide_v_1-fn.Supply" -> _force_n_1 [label="ARG1-fn.Agent"]
+	compound -> _work_n_1 [label=ARG2]
+	_the_q -> _alliance_n_1 [label=BV]
+	_the_q -> _force_n_1 [label=BV]
+	"_provide_v_1-fn.Supply" -> _arm_n_1 [label="ARG2-fn.Theme"]
+	_of_p -> _alliance_n_1 [label=ARG2]
+	compound -> _force_n_1 [label=ARG1]
+	"ord(3)" -> _arm_n_1 [label=ARG1]
+	_the_q -> _arm_n_1 [label=BV]
+	_of_p -> _arm_n_1 [label=ARG1]
+	udef_q -> _work_n_1 [label=BV]
+}

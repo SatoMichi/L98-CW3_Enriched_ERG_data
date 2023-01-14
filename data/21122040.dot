@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_work_v_1-fn.IN" -> _plan_n_1 [label="ARG1-fn.Agent"]
+	_so_a_thus -> "_ask_v_1-fn.Questioning" [label=ARG1]
+	_the_q -> "named_n(IRS)" [label=BV]
+	_would_v_modal -> "_work_v_1-fn.IN" [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> pron [label="ARG1-fn.Agent"]
+	"_ask_v_1-fn.Questioning" -> _would_v_modal [label="ARG3-fn.Recipient"]
+	"_ask_v_1-fn.Questioning" -> "named_n(IRS)" [label="ARG2-fn.Topic"]
+	_the_q -> _plan_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

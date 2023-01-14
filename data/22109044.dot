@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _product_n_1 [label=ARG1]
+	udef_q -> _product_n_1 [label=BV]
+	parg_d -> _product_n_1 [label=ARG2]
+	compound -> _industry_n_1 [label=ARG1]
+	_for_p -> "_make_v_1-fn.Manufacturing" [label=ARG1]
+	parg_d -> "_make_v_1-fn.Manufacturing" [label=ARG1]
+	"_make_v_1-fn.Manufacturing" -> _product_n_1 [label="ARG2-fn.Product"]
+	_the_q -> _industry_n_1 [label=BV]
+	compound -> "_foodservice/nn_u_unknown" [label=ARG2]
+	_professional_a_1 -> _product_n_1 [label=ARG1]
+	compound -> "named(Crisco)" [label=ARG2]
+	proper_q -> "named(Crisco)" [label=BV]
+	udef_q -> "_foodservice/nn_u_unknown" [label=BV]
+	_special_a_1 -> "_make_v_1-fn.Manufacturing" [label=ARG1]
+	_for_p -> _industry_n_1 [label=ARG2]
+}

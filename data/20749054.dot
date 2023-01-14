@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> fw_seq [label="ARG2-fn.Means"]
+	compound -> _word_n_of [label=ARG1]
+	udef_q -> _key_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _word_n_of [label="ARG1-fn.Process"]
+	_that_q_dem -> _paragraph_n_1 [label=BV]
+	_the_q -> _word_n_of [label=BV]
+	_in_p -> _word_n_of [label=ARG1]
+	_in_p -> _paragraph_n_1 [label=ARG2]
+	compound -> _key_n_1 [label=ARG2]
+}

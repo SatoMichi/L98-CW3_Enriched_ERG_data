@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _investor_n_1 [label=BV]
+	_the_q -> _move_n_1 [label=BV]
+	"_welcome_v_1-fn.Rite" -> _move_n_1 [label="ARG2-fn.Member"]
+	"_welcome_v_1-fn.Rite" -> _investor_n_1 [label="ARG1-fn.Leader"]
+}

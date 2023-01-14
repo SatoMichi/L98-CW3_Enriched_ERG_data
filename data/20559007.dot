@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_viva/fw_u_unknown" [label=BV]
+	"_shout_v_1-fn.Communication_manner" -> _member_n_of [label="ARG1-fn.Agent"]
+	compound -> _peace_n_1 [label=ARG1]
+	appos -> _peace_n_1 [label=ARG1]
+	"_shout_v_1-fn.Communication_manner" -> _peace_n_1 [label="ARG2-fn.Topic"]
+	_some_q -> _member_n_of [label=BV]
+	_the_q -> _crowd_n_of [label=BV]
+	_huge_a_1 -> _crowd_n_of [label=ARG1]
+	appos -> "_viva/fw_u_unknown" [label=ARG2]
+	udef_q -> _peace_n_1 [label=BV]
+	compound -> "_viva/fw_u_unknown" [label=ARG2]
+	_member_n_of -> _crowd_n_of [label=ARG1]
+}

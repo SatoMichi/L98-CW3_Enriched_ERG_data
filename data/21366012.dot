@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_tenacious_a_1 -> "_attach_v_1-fn.Inchoative_attaching" [label=ARG1]
+	compound -> _story_n_of [label=ARG1]
+	compound -> "named(Lincoln)" [label=ARG2]
+	_the_q -> _story_n_of [label=BV]
+	_to_p -> pron [label=ARG1]
+	"_attach_v_1-fn.Inchoative_attaching" -> _to_p [label="ARG3-fn.NotExist"]
+	"_attach_v_1-fn.Inchoative_attaching" -> pron [label="ARG2-fn.Patient"]
+	_to_p -> _story_n_of [label=ARG2]
+	proper_q -> "named(Lincoln)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

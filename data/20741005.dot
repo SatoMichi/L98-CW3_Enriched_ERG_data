@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _element_n_1 [label=BV]
+	"_deny_v_to-fn.Statement" -> "named(Rothschilds)" [label="ARG1-fn.Agent"]
+	_the_q -> _decision_n_1 [label=BV]
+	_the_q -> "named(Rothschilds)" [label=BV]
+	_to_p -> _decision_n_1 [label=ARG2]
+	"_deny_v_to-fn.Statement" -> _element_n_1 [label="ARG2-fn.Predicate"]
+	_to_p -> _element_n_1 [label=ARG1]
+	_emotional_a_1 -> _element_n_1 [label=ARG1]
+	neg -> "_deny_v_to-fn.Statement" [label=ARG1]
+}

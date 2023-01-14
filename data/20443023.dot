@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_instead_a_1 -> "_decrease_v_1-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _interest_n_in [label=BV]
+	"_decrease_v_1-fn.Cause_to_end" -> _interest_n_in [label="ARG1-fn.Process"]
+}

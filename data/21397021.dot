@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Marchers)" [label=BV]
+	"_tail_v_1-fn.Cotheme" -> pron [label="ARG2-fn.Theme"]
+	compound -> "named(Marchers)" [label=ARG1]
+	proper_q -> "named(Freedom)" [label=BV]
+	_as_p -> _subversive_n_1 [label=ARG2]
+	_protect_v_1 -> "named(Marchers)" [label=ARG2]
+	neg -> _protect_v_1 [label=ARG1]
+	_as_p -> "_tail_v_1-fn.Cotheme" [label=ARG1]
+	udef_q -> _subversive_n_1 [label=BV]
+	compound -> "named(Freedom)" [label=ARG2]
+	_protect_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

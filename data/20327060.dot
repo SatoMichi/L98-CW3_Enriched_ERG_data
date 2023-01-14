@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _telephone_n_1 [label=ARG2]
+	"_provide_v_1-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+	udef_q -> _service_n_1 [label=BV]
+	parg_d -> _company_n_of [label=ARG2]
+	udef_q -> _telephone_n_1 [label=BV]
+	"_acquire_v_1-fn.Commerce_collect" -> _company_n_of [label="ARG2-fn.Goods"]
+	"_provide_v_1-fn.Cause_to_end" -> _service_n_1 [label="ARG2-fn.Means"]
+	compound -> _service_n_1 [label=ARG1]
+	compound -> _industry_n_1 [label=ARG1]
+	_the_q -> _industry_n_1 [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	parg_d -> "_acquire_v_1-fn.Commerce_collect" [label=ARG1]
+	udef_q -> _telecommunications_n_1 [label=BV]
+	"_provide_v_1-fn.Cause_to_end" -> _industry_n_1 [label="ARG3-fn.Place"]
+	compound -> _telecommunications_n_1 [label=ARG2]
+}

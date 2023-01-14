@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_change_v_1 -> _structure_n_1 [label=ARG1]
+	_the_q -> "_spokeswoman/nn_u_unknown" [label=BV]
+	_the_q -> _structure_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_spokeswoman/nn_u_unknown" [label="ARG1-fn.Agent"]
+	_whole_a_1 -> _structure_n_1 [label=ARG1]
+	_colon_p_namely -> _change_v_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _colon_p_namely [label="ARG2-fn.Topic"]
+}

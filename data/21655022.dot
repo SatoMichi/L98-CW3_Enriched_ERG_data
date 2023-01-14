@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_think_v_1-fn.IN" -> ellipsis [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

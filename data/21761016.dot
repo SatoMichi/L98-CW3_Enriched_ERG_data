@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	parg_d -> "_rid_v_of-fn.Emptying" [label=ARG1]
+	_the_q -> _dog_n_1 [label=BV]
+	"_get_v_state-fn.IN" -> "_rid_v_of-fn.Emptying" [label="ARG2-fn.Patient"]
+	parg_d -> pron [label=ARG2]
+	"_rid_v_of-fn.Emptying" -> _dog_n_1 [label="ARG3-fn.NotExist"]
+	"_rid_v_of-fn.Emptying" -> pron [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

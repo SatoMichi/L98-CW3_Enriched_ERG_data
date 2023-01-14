@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _individual_n_1 [label=ARG1]
+	parg_d -> "_work_v_out-fn.Cause_to_continue" [label=ARG1]
+	_well_a_1 -> "_work_v_out-fn.Cause_to_continue" [label=ARG1]
+	"_work_v_out-fn.Cause_to_continue" -> _accord_n_1 [label="ARG2-fn.Process"]
+	poss -> _shareholder_n_1 [label=ARG2]
+	_the_q -> _shareholder_n_1 [label=BV]
+	parg_d -> _accord_n_1 [label=ARG2]
+	udef_q -> _individual_n_1 [label=BV]
+	poss -> _accord_n_1 [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> "_work_v_out-fn.Cause_to_continue" [label="ARG2-fn.Requirement"]
+	def_explicit_q -> _accord_n_1 [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _individual_n_1 [label="ARG1-fn.Dependent"]
+}

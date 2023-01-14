@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_assume_v_1-fn.Adopt_selection" -> pron [label="ARG1-fn.NotExist"]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	focus_d -> "_assume_v_1-fn.Adopt_selection" [label=ARG2]
+	"_say_v_to-fn.IN" -> "_assume_v_1-fn.Adopt_selection" [label="ARG2-fn.NotExist"]
+	_a_q -> _cd_n_1 [label=BV]
+	_as_p -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	"_assume_v_1-fn.Adopt_selection" -> "_buy_v_1-fn.Commerce_buy" [label="ARG2-fn.NotExist"]
+	"_buy_v_1-fn.Commerce_buy" -> _cd_n_1 [label="ARG2-fn.Theme"]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_as_p -> _cd_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

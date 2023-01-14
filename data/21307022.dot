@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _duty_n_1 [label=BV]
+	_light_a_1 -> _duty_n_1 [label=ARG1]
+	comp -> _light_a_1 [label=ARG1]
+	_the_q -> _pay_n_1 [label=BV]
+	"_the+same_a_1" -> _pay_n_1 [label=ARG1]
+}

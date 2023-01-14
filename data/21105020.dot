@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _television_n_1 [label=ARG2]
+	def_explicit_q -> _ad_n_1 [label=BV]
+	poss -> _message_n_of [label=ARG1]
+	"_step_v_up-fn.Undergo_change" -> "named(Sears)" [label="ARG1-fn.Entity"]
+	"_step_v_up-fn.Undergo_change" -> _ad_n_1 [label="ARG2-fn.Final_category"]
+	udef_q -> _television_n_1 [label=BV]
+	compound -> _ad_n_1 [label=ARG1]
+	"_change_v_cause-fn.Cause_to_end" -> _message_n_of [label="ARG2-fn.Means"]
+	pronoun_q -> pron [label=BV]
+	"_change_v_cause-fn.Cause_to_end" -> "named(Sears)" [label="ARG1-fn.Process"]
+	_also_a_1 -> _and_c [label=ARG1]
+	proper_q -> "named(Sears)" [label=BV]
+	poss -> _ad_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _message_n_of [label=BV]
+}

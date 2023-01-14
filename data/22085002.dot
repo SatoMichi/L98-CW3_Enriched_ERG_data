@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(John)" [label=ARG2]
+	compound -> "named(A)" [label=ARG1]
+	_personal_a_1 -> _reason_n_for [label=ARG1]
+	proper_q -> "named(A)" [label=BV]
+	compound -> "named(Boudreau)" [label=ARG1]
+	proper_q -> "named(Boudreau)" [label=BV]
+	_for_p -> _reason_n_for [label=ARG2]
+	udef_q -> _reason_n_for [label=BV]
+	_for_p -> "_resign_v_1-fn.Competition" [label=ARG1]
+	"_resign_v_1-fn.Competition" -> "named(Boudreau)" [label="ARG1-fn.Participant_1"]
+	"_succeed_v_1-fn.Competition" -> "named(Boudreau)" [label="ARG2-fn.Participant_2"]
+	pronoun_q -> pron [label=BV]
+	"_succeed_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(John)" [label=BV]
+}

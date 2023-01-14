@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_could_v_modal -> "_stop_v_1-fn.Thwarting" [label=ARG1]
+	parg_d -> "_stop_v_1-fn.Thwarting" [label=ARG1]
+	"_think_v_1-fn.IN" -> "_hurt_v_1-fn.Cause_harm" [label="ARG2-fn.NotExist"]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_doubt_v_1-fn.Certainty" -> pron [label="ARG1-fn.Agent"]
+	"_doubt_v_1-fn.Certainty" -> _could_v_modal [label="ARG2-fn.Theme"]
+	"_stop_v_1-fn.Thwarting" -> pron [label="ARG2-fn.Theme"]
+	parg_d -> pron [label=ARG2]
+	"_hurt_v_1-fn.Cause_harm" -> pron [label="ARG2-fn.Experiencer"]
+	_although_x -> "_doubt_v_1-fn.Certainty" [label=ARG1]
+	_although_x -> "_think_v_1-fn.IN" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

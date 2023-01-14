@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _other_n_1 [label="ARG1-fn.Agent"]
+	_should_v_modal -> "_proceed_v_1-fn.NF" [label=ARG1]
+	udef_q -> _other_n_1 [label=BV]
+	"_proceed_v_1-fn.NF" -> "_pico/nn_u_unknown" [label="ARG1-fn.Agent"]
+	udef_q -> "_pico/nn_u_unknown" [label=BV]
+	"_say_v_to-fn.IN" -> _should_v_modal [label="ARG2-fn.Topic"]
+}

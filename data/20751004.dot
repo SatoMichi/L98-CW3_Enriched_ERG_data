@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_set_v_1-fn.Relative_time" [label=ARG1]
+	parg_d -> _date_n_of [label=ARG2]
+	nominalization -> _close_v_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	compound -> _date_n_of [label=ARG1]
+	"_set_v_1-fn.Relative_time" -> _date_n_of [label="ARG2-fn.Landmark_occasion"]
+	neg -> "_set_v_1-fn.Relative_time" [label=ARG1]
+	_a_q -> _date_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+}

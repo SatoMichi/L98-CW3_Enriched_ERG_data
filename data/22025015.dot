@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_no+longer_a_1" -> _dependent_a_on [label=ARG1]
+	_dependent_a_on -> _network_n_of [label=ARG2]
+	nominalization -> _program_v_1 [label=ARG1]
+	proper_q -> "dofw(Sat)" [label=BV]
+	_for_p -> nominalization [label=ARG2]
+	_the_q -> _audience_n_1 [label=BV]
+	_dependent_a_on -> _audience_n_1 [label=ARG1]
+	compound -> "dofw(Sat)" [label=ARG2]
+	"_youthful/jj_u_unknown" -> _audience_n_1 [label=ARG1]
+	compound -> nominalization [label=ARG1]
+	_for_p -> _audience_n_1 [label=ARG1]
+	_the_q -> _network_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+}

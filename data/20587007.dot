@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_back_v_1-fn.Change_position_on_a_scale" -> _leader_n_of [label="ARG1-fn.Attribute"]
+	"_back_v_1-fn.Change_position_on_a_scale" -> _criticism_n_1 [label="ARG2-fn.Item"]
+	def_explicit_q -> "named(Ortega)" [label=BV]
+	poss -> _criticism_n_1 [label=ARG1]
+	poss -> "named(Bush)" [label=ARG2]
+	def_explicit_q -> _criticism_n_1 [label=BV]
+	proper_q -> "named(Nicaragua)" [label=BV]
+	_of_p -> "named(Ortega)" [label=ARG2]
+	_of_p -> _criticism_n_1 [label=ARG1]
+	udef_q -> _leader_n_of [label=BV]
+	_congressional_a_1 -> _leader_n_of [label=ARG1]
+	proper_q -> "named(Bush)" [label=BV]
+	poss -> "named(Nicaragua)" [label=ARG2]
+	poss -> "named(Ortega)" [label=ARG1]
+}

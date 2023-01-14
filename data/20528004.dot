@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _victim_n_of [label=BV]
+	proper_q -> "named(Gramm-)" [label=BV]
+	udef_q -> _cut_n_1 [label=BV]
+	compound -> _cut_n_1 [label=ARG1]
+	compound -> "named(Rudman)" [label=ARG1]
+	_victim_n_of -> _cut_n_1 [label=ARG1]
+	proper_q -> "named(Rudman)" [label=BV]
+	compound -> "named(Gramm-)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _victim_n_of [label="ARG2-fn.Means"]
+}

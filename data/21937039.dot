@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_slip_v_2-fn.Change_position_on_a_scale" -> "named(Microsystems)" [label="ARG1-fn.Attribute"]
+	number_q -> "card(17)" [label=BV]
+	compound -> "named(Microsystems)" [label=ARG1]
+	plus -> "fraction(1/4)" [label=ARG3]
+	compound -> "named(Sun)" [label=ARG2]
+	proper_q -> "named(Microsystems)" [label=BV]
+	_to_p -> "card(17)" [label=ARG2]
+	loc_nonsp -> "_slip_v_2-fn.Change_position_on_a_scale" [label=ARG1]
+	_to_p -> "_slip_v_2-fn.Change_position_on_a_scale" [label=ARG1]
+	plus -> "card(17)" [label=ARG2]
+	proper_q -> "named(Sun)" [label=BV]
+}

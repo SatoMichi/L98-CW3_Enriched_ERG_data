@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_via_p -> _unit_n_2 [label=ARG1]
+	proper_q -> "named(Chemex)" [label=BV]
+	udef_q -> _inc_n_1 [label=BV]
+	unknown -> _unit_n_2 [label=ARG]
+	_via_p -> "named(PaineWebber)" [label=ARG2]
+	proper_q -> "named(Pharmaceuticals)" [label=BV]
+	udef_q -> _unit_n_2 [label=BV]
+	proper_q -> "named(PaineWebber)" [label=BV]
+	"card(1,200,000)" -> _unit_n_2 [label=ARG1]
+	compound -> _inc_n_1 [label=ARG2]
+	compound -> "named(Chemex)" [label=ARG2]
+	unknown -> "named(Pharmaceuticals)" [label=ARG]
+	compound -> "named(Pharmaceuticals)" [label=ARG1]
+}

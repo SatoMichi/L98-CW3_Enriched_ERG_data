@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_yeast/nn_u_unknown" [label=BV]
+	_microscopic_a_1 -> _world_n_of [label=ARG1]
+	_world_n_of -> "_yeast/nn_u_unknown" [label=ARG1]
+	"_find_v_1-fn.IN" -> "_sideline/nn_u_unknown" [label="ARG2-fn.Theme"]
+	_in_p -> _world_n_of [label=ARG2]
+	_the_q -> _world_n_of [label=BV]
+	"_find_v_1-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+	_in_p -> "_sideline/nn_u_unknown" [label=ARG1]
+	_a_q -> "_sideline/nn_u_unknown" [label=BV]
+	_a_q -> _company_n_of [label=BV]
+	udef_q -> _oil_n_1 [label=BV]
+	compound -> _company_n_of [label=ARG1]
+	compound -> _oil_n_1 [label=ARG2]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _question_n_about [label=ARG2]
+	"_assert_v_to-fn.Statement" -> neg [label="ARG2-fn.Theme"]
+	udef_q -> _question_n_about [label=BV]
+	_also_a_1 -> "_assert_v_to-fn.Statement" [label=ARG1]
+	comp_equal -> "_exact_a_same-as" [label=ARG1]
+	"_exact_a_same-as" -> _question_n_about [label=ARG1]
+	neg -> _replicate_v_1 [label=ARG1]
+	parg_d -> _replicate_v_1 [label=ARG1]
+	"_assert_v_to-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	_replicate_v_1 -> _question_n_about [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

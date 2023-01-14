@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_to+blame_a_for" -> _american_n_1 [label=ARG1]
+	_the_q -> _american_n_1 [label=BV]
+	_also_a_1 -> "_to+blame_a_for" [label=ARG1]
+}

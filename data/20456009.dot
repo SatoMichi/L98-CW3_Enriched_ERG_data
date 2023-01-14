@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_large_a_1 -> _pocket_n_1 [label=ARG1]
+	udef_q -> _poverty_n_1 [label=BV]
+	_still_a_1 -> "_exist_v_1-fn.Existence" [label=ARG1]
+	_of_p -> _poverty_n_1 [label=ARG2]
+	"_exist_v_1-fn.Existence" -> _pocket_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _pocket_n_1 [label=BV]
+	_of_p -> _pocket_n_1 [label=ARG1]
+}

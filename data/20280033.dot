@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_fight_v_1-fn.Hostile_encounter" -> _battle_n_1 [label="ARG2-fn.Co-Agent"]
+	udef_q -> _year_n_1 [label=BV]
+	focus_d -> "_fight_v_1-fn.Hostile_encounter" [label=ARG1]
+	compound -> _maker_n_of [label=ARG1]
+	_a_q -> _battle_n_1 [label=BV]
+	_lose_v_1 -> _battle_n_1 [label=ARG1]
+	_for_p -> "_fight_v_1-fn.Hostile_encounter" [label=ARG1]
+	udef_q -> _jewelry_n_1 [label=BV]
+	_for_p -> _year_n_1 [label=ARG2]
+	udef_q -> _costume_n_1 [label=BV]
+	compound -> _costume_n_1 [label=ARG2]
+	udef_q -> _maker_n_of [label=BV]
+	compound -> _jewelry_n_1 [label=ARG1]
+	focus_d -> _for_p [label=ARG2]
+	"_fight_v_1-fn.Hostile_encounter" -> _maker_n_of [label="ARG1-fn.Agent"]
+}

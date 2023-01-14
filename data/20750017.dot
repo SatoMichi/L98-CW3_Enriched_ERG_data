@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _math_n_1 [label=ARG2]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	"_know_v_about-fn.IN" -> "_psychobiology/nn_u_unknown" [label="ARG3-fn.Predicate"]
+	_a_q -> _major_n_1 [label=BV]
+	_be_v_id -> _major_n_1 [label=ARG2]
+	udef_q -> _math_n_1 [label=BV]
+	_be_v_id -> pron [label=ARG1]
+	compound -> _major_n_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> "_know_v_about-fn.IN" [label="ARG2-fn.Theme"]
+	"_know_v_about-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> "_psychobiology/nn_u_unknown" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

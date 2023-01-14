@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_think_v_1-fn.Attempt" -> "_be_v_nv-fn.Cause_to_end" [label="ARG2-fn.Goal"]
+	def_explicit_q -> _business_n_1 [label=BV]
+	_so_x -> ellipsis [label=ARG2]
+	"_be_v_nv-fn.Cause_to_end" -> _lot_n_of [label="ARG1-fn.Process"]
+	"_be_v_nv-fn.Cause_to_end" -> _so_x [label="ARG2-fn.Means"]
+	poss -> _business_n_1 [label=ARG1]
+	"_think_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_just_x_deg -> _so_x [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_lot_n_of -> _business_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_a_q -> _lot_n_of [label=BV]
+}

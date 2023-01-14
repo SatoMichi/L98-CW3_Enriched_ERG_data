@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decline_v_1-fn.Experiencer_obj" -> "named(Braniff)" [label="ARG1-fn.Experiencer"]
+	proper_q -> "named(Braniff)" [label=BV]
+}

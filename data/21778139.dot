@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_very_x_deg -> _quiet_a_1 [label=ARG1]
+	_right_x_deg -> _now_a_1 [label=ARG1]
+	_quiet_a_1 -> "named(Berkeley)" [label=ARG1]
+	unknown -> "named(Berkeley)" [label=ARG]
+	_now_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	proper_q -> "named(Berkeley)" [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	loc_nonsp -> _quiet_a_1 [label=ARG1]
+}

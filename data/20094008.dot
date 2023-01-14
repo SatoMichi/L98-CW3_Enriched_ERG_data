@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_unethical/jj_u_unknown" [label=ARG1]
+	compound -> _salary_n_1 [label=ARG2]
+	"_choose_v_from-fn.Choosing" -> _job_n_of [label="ARG2-fn.Theme"]
+	"_unethical/jj_u_unknown" -> pron [label=ARG1]
+	comp -> _high_a_1 [label=ARG1]
+	"_in+order+to_x" -> neg [label=ARG1]
+	"_in+order+to_x" -> "_choose_v_from-fn.Choosing" [label=ARG2]
+	udef_q -> _salary_n_1 [label=BV]
+	"_choose_v_from-fn.Choosing" -> pron [label="ARG1-fn.Agent"]
+	_high_a_1 -> _salary_n_1 [label=ARG1]
+	compound -> _job_n_of [label=ARG1]
+	_a_q -> _job_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

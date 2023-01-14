@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_now_a_1 -> "_realize_v_1-fn.Coming_to_believe" [label=ARG1]
+	comp_equal -> _much_x_deg [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_realize_v_1-fn.Coming_to_believe" -> pron [label="ARG1-fn.Agent"]
+	_a_q -> _franchise_n_1 [label=BV]
+	"_realize_v_1-fn.Coming_to_believe" -> _as_x_subord [label="ARG2-fn.Theme"]
+	proper_q -> "named(Nabisco)" [label=BV]
+	_be_v_id -> _franchise_n_1 [label=ARG2]
+	_be_v_id -> "named(Nabisco)" [label=ARG1]
+	_much_x_deg -> comp_equal [label=ARG1]
+	_be_v_id -> _magazine_n_1 [label=ARG1]
+	_as_x_subord -> _be_v_id [label=ARG2]
+	udef_q -> _magazine_n_1 [label=BV]
+}

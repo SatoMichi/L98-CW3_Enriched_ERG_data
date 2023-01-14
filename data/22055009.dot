@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_plan_v_1-fn.Purpose" -> _succession_n_of [label="ARG2-fn.NotExist"]
+	_at_p -> _company_n_of [label=ARG2]
+	part_of -> _succession_n_of [label=ARG1]
+	_at_p -> _succession_n_of [label=ARG1]
+	_be_v_id -> _appointment_n_1 [label=ARG1]
+	_be_v_id -> part_of [label=ARG2]
+	parg_d -> _succession_n_of [label=ARG2]
+	_part_q -> part_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	parg_d -> "_plan_v_1-fn.Purpose" [label=ARG1]
+	_a_q -> _succession_n_of [label=BV]
+	_the_q -> _appointment_n_1 [label=BV]
+}

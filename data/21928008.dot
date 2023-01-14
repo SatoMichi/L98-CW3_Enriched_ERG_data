@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_above_p -> _estimate_n_of [label=ARG2]
+	poss -> "named(Sotheby)" [label=ARG2]
+	_above_p -> generic_entity [label=ARG1]
+	"_presale/jj_u_unknown" -> _estimate_n_of [label=ARG1]
+	def_explicit_q -> _estimate_n_of [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	poss -> _estimate_n_of [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	proper_q -> "named(Sotheby)" [label=BV]
+	_estimate_n_of -> _dollar_n_1 [label=ARG1]
+	times -> "card(111)" [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	_slight_a_1 -> _above_p [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+}

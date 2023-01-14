@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(California)" [label=ARG1]
+	appos -> _concern_n_1 [label=ARG2]
+	proper_q -> "named(Emeryville)" [label=BV]
+	_another_q -> _concern_n_1 [label=BV]
+	proper_q -> "named(California)" [label=BV]
+	compound -> "named(Emeryville)" [label=ARG2]
+	appos -> "named(Chiron)" [label=ARG1]
+	proper_q -> "named(Chiron)" [label=BV]
+	parg_d -> "_base_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_in_p -> "named(California)" [label=ARG2]
+	parg_d -> "named(Chiron)" [label=ARG2]
+	"_base_v_1-fn.Change_position_on_a_scale" -> _in_p [label="ARG3-fn.Difference"]
+	"_base_v_1-fn.Change_position_on_a_scale" -> "named(Chiron)" [label="ARG2-fn.Item"]
+	_pharmaceutical_a_1 -> _concern_n_1 [label=ARG1]
+	_in_p -> "named(Chiron)" [label=ARG1]
+}

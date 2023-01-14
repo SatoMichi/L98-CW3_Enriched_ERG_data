@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	_like_x_preph -> "_say_v_1-fn.IN" [label=ARG1]
+	"_say_v_1-fn.IN" -> thing [label="ARG2-fn.Topic"]
+	"_want_v_1-fn.Desiring" -> _make_v_cause [label="ARG2-fn.NotExist"]
+	_for_p -> _school_n_1 [label=ARG2]
+	_for_p -> _easy_a_for [label=ARG1]
+	_some_q -> thing [label=BV]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.NotExist"]
+	_make_v_cause -> pron [label=ARG1]
+	_make_v_cause -> _easy_a_for [label=ARG2]
+	_the_q -> _school_n_1 [label=BV]
+	_just_a_1 -> "_want_v_1-fn.Desiring" [label=ARG1]
+	_like_x_preph -> "_want_v_1-fn.Desiring" [label=ARG2]
+	_easy_a_for -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

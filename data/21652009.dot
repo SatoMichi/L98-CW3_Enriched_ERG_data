@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_show_v_1-fn.State_continue" -> _other_n_1 [label="ARG1-fn.Entity"]
+	_similar_a_to -> _pattern_n_1 [label=ARG1]
+	udef_q -> _other_n_1 [label=BV]
+	"_expect_v_1-fn.Commerce_buy" -> _analyst_n_1 [label="ARG1-fn.Buyer"]
+	"_expect_v_1-fn.Commerce_buy" -> _other_n_1 [label="ARG2-fn.Goods"]
+	udef_q -> _analyst_n_1 [label=BV]
+	eventuality -> "_show_v_1-fn.State_continue" [label=ARG1]
+	_a_q -> _pattern_n_1 [label=BV]
+	comp -> _similar_a_to [label=ARG1]
+	"_show_v_1-fn.State_continue" -> _pattern_n_1 [label="ARG2-fn.State"]
+}

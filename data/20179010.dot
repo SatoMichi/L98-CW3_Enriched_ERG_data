@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _hand_n_1 [label=BV]
+	_common_a_for -> _share_n_of [label=ARG1]
+	"_have_v_1-fn.Commerce_collect" -> "named(Columbia)" [label="ARG1-fn.Buyer"]
+	_in_p -> _hand_n_1 [label=ARG2]
+	_public_a_1 -> _hand_n_1 [label=ARG1]
+	udef_q -> _share_n_of [label=BV]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	_in_p -> _share_n_of [label=ARG1]
+	times -> "card(10)" [label=ARG2]
+	_only_x_deg -> _about_x_deg [label=ARG1]
+	proper_q -> "named(Columbia)" [label=BV]
+	"_have_v_1-fn.Commerce_collect" -> _share_n_of [label="ARG2-fn.Goods"]
+	_about_x_deg -> "card(1000000)" [label=ARG1]
+}

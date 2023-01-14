@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_see_v_1-fn.Perception_experience" -> nominalization [label="ARG2-fn.Stimulus"]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.Experiencer"]
+	_these_q_dem -> _note_n_1 [label=BV]
+	_uncanny_a_1 -> _note_n_1 [label=ARG1]
+	nominalization -> _cheat_v_1 [label=ARG1]
+	_before_p -> "_see_v_1-fn.Perception_experience" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	pronoun_q -> pron [label=BV]
+}

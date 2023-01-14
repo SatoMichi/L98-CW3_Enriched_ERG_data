@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_only_a_1 -> _profitable_a_for [label=ARG1]
+	_profitable_a_for -> _company_n_of [label=ARG1]
+	focus_d -> _profitable_a_for [label=ARG1]
+	"_by+and+large_a_1" -> _profitable_a_for [label=ARG1]
+	_this_q_dem -> _company_n_of [label=BV]
+}

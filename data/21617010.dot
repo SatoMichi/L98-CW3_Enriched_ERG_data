@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Assemble" -> nominalization [label="ARG2-fn.Group"]
+	udef_q -> _baby_n_1 [label=BV]
+	_the_q -> nominalization [label=BV]
+	"_be_v_id-fn.Assemble" -> _problem_n_of [label="ARG1-fn.Individuals"]
+	_big_a_1 -> _problem_n_of [label=ARG1]
+	_of_p -> "_boomers/nns_u_unknown" [label=ARG2]
+	compound -> "_boomers/nns_u_unknown" [label=ARG1]
+	_another_q -> _problem_n_of [label=BV]
+	_of_p -> nominalization [label=ARG1]
+	compound -> _baby_n_1 [label=ARG2]
+	udef_q -> "_boomers/nns_u_unknown" [label=BV]
+	nominalization -> _age_v_1 [label=ARG1]
+}

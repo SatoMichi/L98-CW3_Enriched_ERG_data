@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Art)" [label=BV]
+	_at_p -> _official_n_1 [label=ARG1]
+	_certain_a_1 -> _would_v_modal [label=ARG1]
+	compound -> _university_n_of [label=ARG2]
+	udef_q -> _official_n_1 [label=BV]
+	_at_p -> "named(Museum)" [label=ARG2]
+	compound -> "named(Art)" [label=ARG2]
+	_university_n_of -> "named(Virginia)" [label=ARG1]
+	udef_q -> _university_n_of [label=BV]
+	proper_q -> "named(Virginia)" [label=BV]
+	_would_v_modal -> "_agree_v_on-fn.IN" [label=ARG1]
+	_the_q -> "named(Museum)" [label=BV]
+	"_agree_v_on-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+	compound -> "named(Museum)" [label=ARG1]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _earnings_n_1 [label=BV]
+	compound -> _gain_n_1 [label=ARG1]
+	_the_q -> _gain_n_1 [label=BV]
+	"_specify_v_1-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+	_strong_a_1 -> _gain_n_1 [label=ARG1]
+	"_specify_v_1-fn.Cause_to_end" -> _reason_n_for [label="ARG2-fn.Means"]
+	udef_q -> _reason_n_for [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	compound -> _earnings_n_1 [label=ARG2]
+	_for_p -> _gain_n_1 [label=ARG2]
+	neg -> "_specify_v_1-fn.Cause_to_end" [label=ARG1]
+	_for_p -> _reason_n_for [label=ARG1]
+}

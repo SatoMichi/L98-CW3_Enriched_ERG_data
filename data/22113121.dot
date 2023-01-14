@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _people_n_of [label=BV]
+	"_hold_v_out-fn.Cause_to_continue" -> _people_n_of [label="ARG1-fn.Agent"]
+	"_get_v_1-fn.Change_position_on_a_scale" -> _bargain_n_1 [label="ARG2-fn.Item"]
+	"_get_v_1-fn.Change_position_on_a_scale" -> _people_n_of [label="ARG1-fn.Attribute"]
+	_a_q -> _bargain_n_1 [label=BV]
+	"_try_v_1-fn.Attempt" -> _people_n_of [label="ARG1-fn.Agent"]
+	"_try_v_1-fn.Attempt" -> "_get_v_1-fn.Change_position_on_a_scale" [label="ARG2-fn.Goal"]
+}

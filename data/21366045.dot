@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named_n(House)" [label=BV]
+	compound -> "named(Banking)" [label=ARG2]
+	compound -> "named_n(House)" [label=ARG2]
+	_the_q -> "_fallout/nn_u_unknown" [label=BV]
+	_some_q -> _member_n_of [label=BV]
+	_even_x_deg -> _some_q [label=ARG1]
+	proper_q -> "named(Banking)" [label=BV]
+	_could_v_modal -> "_suffer_v_from-fn.Catastrophe" [label=ARG1]
+	"_suffer_v_from-fn.Catastrophe" -> _member_n_of [label="ARG1-fn.Experiencer"]
+	"_suffer_v_from-fn.Catastrophe" -> "_fallout/nn_u_unknown" [label="ARG2-fn.Stimulus"]
+	proper_q -> "named(Committee)" [label=BV]
+	compound -> "named(Committee)" [label=ARG1]
+	compound -> _member_n_of [label=ARG1]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_democratized/vbn_u_unknown" [label=ARG1]
+	"_want_v_in-fn.Desiring" -> _people_n_of [label="ARG1-fn.Pivot"]
+	parg_d -> _capital_n_1 [label=ARG2]
+	"_democratized/vbn_u_unknown" -> _capital_n_1 [label=ARG2]
+	udef_q -> _capital_n_1 [label=BV]
+	udef_q -> _people_n_of [label=BV]
+}

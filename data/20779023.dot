@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _requirement_n_1 [label=ARG1]
+	_the_q -> _power_n_1 [label=BV]
+	_the_q -> "named_n(Fed)" [label=BV]
+	udef_q -> _requirement_n_1 [label=BV]
+	_power_n_1 -> "_set_v_1-fn.IN" [label=ARG1]
+	_also_a_1 -> "_have_v_1-fn.IN" [label=ARG1]
+	"_set_v_1-fn.IN" -> _requirement_n_1 [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> _power_n_1 [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> "named_n(Fed)" [label="ARG1-fn.Pivot"]
+	compound -> _margin_n_1 [label=ARG2]
+	udef_q -> _margin_n_1 [label=BV]
+}

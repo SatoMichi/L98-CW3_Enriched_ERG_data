@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_pessimistic_a_1 -> person [label=ARG1]
+	every_q -> person [label=BV]
+	comp_so -> _pessimistic_a_1 [label=ARG1]
+	_not_x_deg -> person [label=ARG1]
+}

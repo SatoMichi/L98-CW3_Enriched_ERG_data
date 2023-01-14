@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _people_n_of [label=BV]
+	"_get_v_off-fn.Change_posture" -> pron [label="ARG1-fn.Manner"]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	"_think_v_1-fn.Impact" -> neg [label="ARG2-fn.Result"]
+	poss -> pron [label=ARG2]
+	_to_p -> _scary_a_for [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> "_get_v_off-fn.Change_posture" [label="ARG1-fn.Protagonist"]
+	poss -> _trade_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_to_p -> _people_n_of [label=ARG2]
+	_scary_a_for -> pron [label=ARG1]
+	"_get_v_off-fn.Change_posture" -> _trade_n_of [label="ARG2-fn.Protagonist"]
+	"_think_v_1-fn.Impact" -> _people_n_of [label="ARG1-fn.Place"]
+	def_explicit_q -> _trade_n_of [label=BV]
+}

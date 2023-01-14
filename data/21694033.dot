@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mark_n_cur [label=BV]
+	number_q -> "card(1.8485)" [label=BV]
+	_from_p -> "card(1.8485)" [label=ARG2]
+	_from_p -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_to_p -> _mark_n_cur [label=ARG2]
+	_to_p -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.NotExist"]
+	"card(1.8470)" -> _mark_n_cur [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

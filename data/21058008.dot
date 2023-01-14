@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_erode_v_cause-fn.Cause_to_end" -> _expectation_n_of [label="ARG2-fn.Means"]
+	parg_d -> _expectation_n_of [label=ARG2]
+	_expectation_n_of -> _confidentiality_n_1 [label=ARG1]
+	poss -> _expectation_n_of [label=ARG1]
+	parg_d -> "_erode_v_cause-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _confidentiality_n_1 [label=BV]
+	def_explicit_q -> _expectation_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

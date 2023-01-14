@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_that_q_dem -> generic_entity [label=BV]
+	neg -> _easy_a_for [label=ARG1]
+	_easy_a_for -> generic_entity [label=ARG1]
+	_also_a_1 -> neg [label=ARG1]
+}

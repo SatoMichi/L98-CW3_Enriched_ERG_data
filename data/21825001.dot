@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _farmer_n_1 [label=BV]
+	"_reap_v_1-fn.NF" -> _farmer_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _crop_n_1 [label=BV]
+	_abundant_a_1 -> _crop_n_1 [label=ARG1]
+	"_reap_v_1-fn.NF" -> _crop_n_1 [label="ARG2-fn.Theme"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Noriega)" [label=ARG1]
+	parg_d -> "_turn_v_down-fn.Bringing" [label=ARG1]
+	poss -> _proposal_n_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	poss -> "named(Noriega)" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_turn_v_down-fn.Bringing" -> _proposal_n_1 [label="ARG2-fn.Goal"]
+	def_explicit_q -> _proposal_n_1 [label=BV]
+	parg_d -> _proposal_n_1 [label=ARG2]
+	proper_q -> "named(Noriega)" [label=BV]
+}

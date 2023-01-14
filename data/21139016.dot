@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _hurricane_n_1 [label=BV]
+	ellipsis_ref -> _business_n_1 [label=ARG1]
+	udef_q -> _business_n_1 [label=BV]
+	_down_p -> ellipsis_ref [label=ARG1]
+	compound -> _hurricane_n_1 [label=ARG2]
+	"_hit_v_1-fn.Cause_harm" -> "named(Hugo)" [label="ARG1-fn.NotExist"]
+	compound -> "named(Hugo)" [label=ARG1]
+	_until_x_h -> _strong_a_1 [label=ARG1]
+	"_hit_v_1-fn.Cause_harm" -> _area_n_of [label="ARG2-fn.Location"]
+	_fair_a_1 -> _strong_a_1 [label=ARG1]
+	_until_x_h -> "_hit_v_1-fn.Cause_harm" [label=ARG2]
+	_since_p -> ellipsis_ref [label=ARG1]
+	_strong_a_1 -> _business_n_1 [label=ARG1]
+	_the_q -> _area_n_of [label=BV]
+	proper_q -> "named(Hugo)" [label=BV]
+}

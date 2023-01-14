@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	"_out+of_p" -> pron [label=ARG1]
+	"_say_v_to-fn.Surpassing" -> "_out+of_p" [label="ARG2-fn.Profiled_item"]
+	"_would_v_modal-fn.Cause_to_end" -> "_say_v_to-fn.Surpassing" [label="ARG1-fn.Process"]
+	"_out+of_p" -> _business_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+	_the_q -> _business_n_1 [label=BV]
+}

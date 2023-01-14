@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _phd_n_1 [label=BV]
+	part_of -> _worker_n_1 [label=ARG1]
+	"card(20)" -> part_of [label=ARG1]
+	plus -> "card(1)" [label=ARG3]
+	"card(1)" -> part_of [label=ARG1]
+	plus -> "card(20)" [label=ARG2]
+	def_explicit_q -> _worker_n_1 [label=BV]
+	udef_q -> part_of [label=BV]
+	poss -> _worker_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	plus -> part_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_be_v_id-fn.Residence" -> part_of [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> _phd_n_1 [label="ARG2-fn.Location"]
+}

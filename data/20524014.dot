@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_inexpensive_a_1 -> _alternative_n_to [label=ARG1]
+	_local_a_1 -> _industry_n_1 [label=ARG1]
+	"_offer_v_1-fn.NF" -> _and_c [label="ARG1-fn.Agent"]
+	udef_q -> _land_n_of [label=BV]
+	poss -> _and_c [label=ARG1]
+	udef_q -> _alternative_n_to [label=BV]
+	"_offer_v_1-fn.NF" -> _alternative_n_to [label="ARG2-fn.Theme"]
+	def_explicit_q -> _and_c [label=BV]
+	poss -> "named(China)" [label=ARG2]
+	udef_q -> _labor_n_1 [label=BV]
+	udef_q -> _industry_n_1 [label=BV]
+	"_offer_v_1-fn.NF" -> _industry_n_1 [label="ARG3-fn.NotExist"]
+	proper_q -> "named(China)" [label=BV]
+}

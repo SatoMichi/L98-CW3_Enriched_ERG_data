@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _and_c [label=ARG2]
+	"_supply_v_1-fn.NF" -> _report_n_of [label="ARG2-fn.Theme"]
+	compound -> _plan_n_1 [label=ARG1]
+	udef_q -> _report_n_of [label=BV]
+	udef_q -> _plan_n_1 [label=BV]
+	udef_q -> _school_n_1 [label=BV]
+	udef_q -> _construction_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	_the_q -> _service_n_1 [label=BV]
+	compound -> _construction_n_of [label=ARG1]
+	_on_p -> _report_n_of [label=ARG1]
+	_weekly_a_1 -> _report_n_of [label=ARG1]
+	_on_p -> _plan_n_1 [label=ARG2]
+	udef_q -> _college_n_of [label=BV]
+	"_supply_v_1-fn.NF" -> _service_n_1 [label="ARG1-fn.Agent"]
+}

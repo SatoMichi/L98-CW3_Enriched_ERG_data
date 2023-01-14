@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _debt_n_1 [label=BV]
+	_of_p -> _dollar_n_1 [label=ARG1]
+	parg_d -> _dollar_n_1 [label=ARG2]
+	_of_p -> _debt_n_1 [label=ARG2]
+	"_affect_v_1-fn.Activity_prepare" -> _dollar_n_1 [label="ARG2-fn.Activity"]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	parg_d -> "_affect_v_1-fn.Activity_prepare" [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	times -> "card(518)" [label=ARG2]
+}

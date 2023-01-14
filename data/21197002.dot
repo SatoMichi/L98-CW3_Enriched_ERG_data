@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(105.4)" [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	"_rise_v_1-fn.Experiencer_obj" -> _revenue_n_1 [label="ARG1-fn.Experiencer"]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(110.4)" [label=ARG2]
+	_to_p -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	loc_nonsp -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	"card(5)" -> _percent_n_of [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	_from_p -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+}

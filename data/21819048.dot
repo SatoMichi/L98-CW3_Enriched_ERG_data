@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "_join_v_1-fn.Halt" [label=ARG1]
+	"_join_v_1-fn.Halt" -> "named(Dunn)" [label="ARG2-fn.Place"]
+	unknown -> _prosecutor_n_1 [label=ARG]
+	compound -> "named(Gibson)" [label=ARG2]
+	proper_q -> "named(Dunn)" [label=BV]
+	compound -> "named(Dunn)" [label=ARG1]
+	proper_q -> "named(Gibson)" [label=BV]
+	udef_q -> _prosecutor_n_1 [label=BV]
+	"_join_v_1-fn.Halt" -> _prosecutor_n_1 [label="ARG1-fn.Purpose"]
+	eventuality -> "_join_v_1-fn.Halt" [label=ARG1]
+}

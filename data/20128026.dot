@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _firm_n_1 [label=BV]
+	compound -> _merchant_n_of [label=ARG2]
+	"_bank_v_1-fn.Competition" -> "_exposure_n_of-to" [label="ARG1-fn.Participant_1"]
+	poss -> _equity_n_1 [label=ARG1]
+	_of_p -> _equity_n_1 [label=ARG2]
+	_in_p -> "_exposure_n_of-to" [label=ARG1]
+	poss -> _firm_n_1 [label=ARG2]
+	_total_a_1 -> "_exposure_n_of-to" [label=ARG1]
+	udef_q -> _merchant_n_of [label=BV]
+	compound -> "_bank_v_1-fn.Competition" [label=ARG1]
+	udef_q -> "_exposure_n_of-to" [label=BV]
+	_of_p -> _excess_n_1 [label=ARG1]
+	_in_p -> _excess_n_1 [label=ARG2]
+	udef_q -> _excess_n_1 [label=BV]
+	def_explicit_q -> _equity_n_1 [label=BV]
+}

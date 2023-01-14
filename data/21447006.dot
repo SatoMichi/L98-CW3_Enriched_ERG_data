@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_as_p -> "_mention_v_to-fn.Statement" [label=ARG1]
+	_a_q -> "_contender/nn_u_unknown" [label=BV]
+	"_deny_v_to-fn.Statement" -> _company_n_of [label="ARG1-fn.Agent"]
+	parg_d -> "_mention_v_to-fn.Statement" [label=ARG1]
+	subord -> _also_a_1 [label=ARG1]
+	subord -> _advertise_v_1 [label=ARG2]
+	_also_a_1 -> "_mention_v_to-fn.Statement" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_mention_v_to-fn.Statement" -> "named(TBWA)" [label="ARG2-fn.Topic"]
+	"_deny_v_to-fn.Statement" -> "_participate_v_in-fn.Participation" [label="ARG2-fn.Predicate"]
+	_as_p -> "_contender/nn_u_unknown" [label=ARG2]
+	proper_q -> "named(TBWA)" [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	"_participate_v_in-fn.Participation" -> pron [label="ARG1-fn.Agent"]
+	parg_d -> "named(TBWA)" [label=ARG2]
+}

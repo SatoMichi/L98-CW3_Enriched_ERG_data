@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _tribe_n_1 [label=BV]
+	_poor_a_1 -> generic_entity [label=ARG1]
+	superl -> _poor_a_1 [label=ARG1]
+	part_of -> generic_entity [label=ARG1]
+	"card(1)" -> part_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _tribe_n_1 [label="ARG1-fn.Process"]
+	_the_q -> generic_entity [label=BV]
+	_in_p -> generic_entity [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> part_of [label="ARG2-fn.Means"]
+	udef_q -> part_of [label=BV]
+	_in_p -> _northwest_n_1 [label=ARG2]
+	compound -> _northwest_n_1 [label=ARG1]
+	compound -> "named(Pacific)" [label=ARG2]
+	_the_q -> _northwest_n_1 [label=BV]
+	proper_q -> "named(Pacific)" [label=BV]
+}

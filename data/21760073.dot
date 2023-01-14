@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_leave_v_1-fn.Departing" -> _alone_p [label="ARG3-fn.NotExist"]
+	"_leave_v_1-fn.Departing" -> pron [label="ARG2-fn.Initial_Location"]
+	_alone_p -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

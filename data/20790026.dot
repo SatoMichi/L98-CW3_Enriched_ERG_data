@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _end_n_of [label=BV]
+	_in_p -> _book_n_of [label=ARG2]
+	_to_p -> _end_n_of [label=ARG2]
+	"_come_v_1-fn.Impact" -> "named(Hassan)" [label="ARG1-fn.Place"]
+	every_q -> person [label=BV]
+	_almost_x_deg -> person [label=ARG1]
+	proper_q -> "named(Hassan)" [label=BV]
+	_bad_a_at -> _end_n_of [label=ARG1]
+	ellipsis_ref -> person [label=ARG1]
+	_in_p -> person [label=ARG1]
+	_to_p -> "_come_v_1-fn.Impact" [label=ARG1]
+	_the_q -> _book_n_of [label=BV]
+	_else_a_1 -> person [label=ARG1]
+	_so_a_1 -> ellipsis_ref [label=ARG1]
+}

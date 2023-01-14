@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Double+A)" [label=ARG2]
+	proper_q -> "named(Double+A)" [label=BV]
+	_the_q -> _underwriter_n_1 [label=BV]
+	"_expect_v_1-fn.Attempt" -> _rating_n_1 [label="ARG2-fn.Goal"]
+	_a_q -> _rating_n_1 [label=BV]
+	_from_p -> _rating_n_1 [label=ARG1]
+	_from_p -> "named(Moodys)" [label=ARG2]
+	"_expect_v_1-fn.Attempt" -> _underwriter_n_1 [label="ARG1-fn.Agent"]
+	proper_q -> "named(Moodys)" [label=BV]
+	compound -> _rating_n_1 [label=ARG1]
+}

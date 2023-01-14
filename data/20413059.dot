@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	"_happen_v_1-fn.Event" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

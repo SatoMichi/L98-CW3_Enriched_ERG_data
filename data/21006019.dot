@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(4.2)" [label=ARG2]
+	"card(1000000000)" -> "_canadian+dollar_n_1" [label=ARG1]
+	parg_d -> "_compare_v_with-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	"_be_v_id-fn.Assemble" -> "_canadian+dollar_n_1" [label="ARG2-fn.Group"]
+	"_be_v_id-fn.Assemble" -> _sale_n_of [label="ARG1-fn.Individuals"]
+	udef_q -> "_canadian+dollar_n_1" [label=BV]
+	parg_d -> "_canadian+dollar_n_1" [label=ARG2]
+	times -> "card(3.7)" [label=ARG2]
+	"_compare_v_with-fn.Cause_to_end" -> "_canadian+dollar_n_1" [label="ARG3-fn.Place"]
+}

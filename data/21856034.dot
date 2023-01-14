@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _trash_n_1 [label=BV]
+	udef_q -> _battery_n_of [label=BV]
+	udef_q -> _product_n_1 [label=BV]
+	udef_q -> _loyalty_n_to [label=BV]
+	_most_a_1 -> "_lag_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	compound -> _trash_n_1 [label=ARG2]
+	_for_p -> "_lag_v_1-fn.Competition" [label=ARG1]
+	compound -> _bag_n_of [label=ARG1]
+	"_lag_v_1-fn.Competition" -> _loyalty_n_to [label="ARG1-fn.Participant_1"]
+	_like_p -> _product_n_1 [label=ARG1]
+	"_utilitarian/jj_u_unknown" -> _product_n_1 [label=ARG1]
+	_like_p -> _and_c [label=ARG2]
+	_for_p -> _product_n_1 [label=ARG2]
+	udef_q -> _bag_n_of [label=BV]
+}

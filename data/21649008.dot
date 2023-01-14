@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _pitch_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _champ_n_1 [label=BV]
+	_a_q -> _screwball_n_1 [label=BV]
+	proper_q -> "named(Chandler)" [label=BV]
+	def_explicit_q -> _pitch_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _screwball_n_1 [label="ARG2-fn.Name"]
+	_apparent_a_1 -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	_last_a_1 -> _pitch_n_1 [label=ARG1]
+	poss -> _pitch_n_1 [label=ARG1]
+	compound -> "named(Chandler)" [label=ARG1]
+	poss -> "named(Chandler)" [label=ARG2]
+	compound -> _champ_n_1 [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_teach_v_1-fn.Education_teaching" -> pron [label="ARG1-fn.Agent"]
+	proper_q -> "named(THYSELF)" [label=BV]
+	_first_a_1 -> "_teach_v_1-fn.Education_teaching" [label=ARG1]
+	"_teach_v_1-fn.Education_teaching" -> "named(THYSELF)" [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

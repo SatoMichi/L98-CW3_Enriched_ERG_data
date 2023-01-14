@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_similar_a_to -> _comparison_n_1 [label=ARG1]
+	"_face_v_1-fn.Attempt_suasion" -> _newspaper_n_of [label="ARG1-fn.Content"]
+	udef_q -> _newspaper_n_of [label=BV]
+	"_face_v_1-fn.Attempt_suasion" -> _comparison_n_1 [label="ARG2-fn.Addressee"]
+	udef_q -> _comparison_n_1 [label=BV]
+	comp -> _similar_a_to [label=ARG1]
+	"much-many_a" -> _newspaper_n_of [label=ARG1]
+}

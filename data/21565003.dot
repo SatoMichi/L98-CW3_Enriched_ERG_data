@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _editorial_n_1 [label=BV]
+	compound -> _editorial_n_1 [label=ARG1]
+	"_should_v_modal-fn.Amounting_to" -> _precise_a_1 [label="ARG1-fn.Value"]
+	def_explicit_q -> "dofm(12)" [label=BV]
+	compound -> "dofm(12)" [label=ARG2]
+	_precise_a_1 -> _editorial_n_1 [label=ARG1]
+	poss -> _editorial_n_1 [label=ARG1]
+	comp -> _precise_a_1 [label=ARG1]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	poss -> pron [label=ARG2]
+	of_p -> "dofm(12)" [label=ARG1]
+}

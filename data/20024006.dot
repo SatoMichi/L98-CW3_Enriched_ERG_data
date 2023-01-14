@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000)" -> _barrel_n_1 [label=ARG1]
+	times -> "card(50)" [label=ARG2]
+	"card(5)" -> "named(Field)" [label=ARG1]
+	_new_a_1 -> "named(Field)" [label=ARG1]
+	"_total_v_1-fn.Amounting_to" -> _barrel_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _reserve_n_1 [label=BV]
+	udef_q -> _barrel_n_1 [label=BV]
+	times -> "card(1000000)" [label=ARG3]
+	_for_p -> "named(Field)" [label=ARG2]
+	_for_p -> _reserve_n_1 [label=ARG1]
+	_the_q -> "named(Field)" [label=BV]
+	"_total_v_1-fn.Amounting_to" -> _reserve_n_1 [label="ARG1-fn.NotExist"]
+}

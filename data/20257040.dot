@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_become_v_id-fn.Cause_to_end" -> _angry_a_at [label="ARG2-fn.Means"]
+	udef_q -> _return_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_in_p -> _return_n_of [label=ARG2]
+	"_become_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_angry_a_at -> pron [label=ARG1]
+	_in_p -> "_become_v_id-fn.Cause_to_end" [label=ARG1]
+}

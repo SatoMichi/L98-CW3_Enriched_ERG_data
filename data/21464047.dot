@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_move_v_1-fn.Change_position_on_a_scale" -> _price_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _bond_n_1 [label=BV]
+	subord -> _high_a_1 [label=ARG2]
+	compound -> _junk_n_1 [label=ARG2]
+	udef_q -> _price_n_of [label=BV]
+	comp -> _high_a_1 [label=ARG1]
+	compound -> _price_n_of [label=ARG1]
+	subord -> "_move_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _junk_n_1 [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+}

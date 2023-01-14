@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _glass_n_of [label=BV]
+	"_shower_v_with-fn.Mass_motion" -> _window_n_1 [label="ARG1-fn.Agent"]
+	_would_v_modal -> _and_c [label=ARG1]
+	_those_q_dem -> _window_n_1 [label=BV]
+	unknown -> _second_n_1 [label=ARG]
+	udef_q -> _second_n_1 [label=BV]
+	_wonder_v_1 -> _would_v_modal [label=ARG2]
+	"_shower_v_with-fn.Mass_motion" -> pron [label="ARG2-fn.Theme"]
+	_huge_a_1 -> _window_n_1 [label=ARG1]
+	_endless_a_1 -> _second_n_1 [label=ARG1]
+	_wonder_v_1 -> _second_n_1 [label=ARG1]
+	_buckle_v_1 -> _window_n_1 [label=ARG1]
+	"_shower_v_with-fn.Mass_motion" -> _glass_n_of [label="ARG3-fn.Destination"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	focus_d -> "_add_v_to-fn.NF" [label=ARG1]
+	"_expect_v_1-fn.IN" -> _appeal_v_1 [label="ARG2-fn.Theme"]
+	part_of -> _company_n_of [label=ARG1]
+	_all_q -> part_of [label=BV]
+	"_add_v_to-fn.NF" -> "_expect_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	focus_d -> "_expect_v_1-fn.IN" [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	_appeal_v_1 -> part_of [label=ARG1]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

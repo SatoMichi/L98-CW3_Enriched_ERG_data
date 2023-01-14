@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Trelleborg)" [label=ARG2]
+	"_strengthen_v_cause-fn.Cause_motion" -> _sheet_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _balance_n_of [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_anxious_a_1 -> "_strengthen_v_cause-fn.Cause_motion" [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	"_strengthen_v_cause-fn.Cause_motion" -> "named(Andersson)" [label="ARG1-fn.Agent"]
+	_anxious_a_1 -> "named(Andersson)" [label=ARG1]
+	compound -> _balance_n_of [label=ARG2]
+	compound -> "named(Andersson)" [label=ARG1]
+	proper_q -> "named(Trelleborg)" [label=BV]
+	proper_q -> "named(Andersson)" [label=BV]
+	def_explicit_q -> _sheet_n_of [label=BV]
+	poss -> _sheet_n_of [label=ARG1]
+	compound -> _sheet_n_of [label=ARG1]
+}

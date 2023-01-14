@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> pron [label="ARG1-fn.Experiencer"]
+	subord -> _come_v_1 [label=ARG1]
+	_come_v_1 -> pron [label=ARG1]
+	subord -> _late_a_for [label=ARG2]
+	measure -> comp [label=ARG1]
+	_always_a_1 -> _seem_v_to [label=ARG1]
+	comp -> _late_a_for [label=ARG1]
+	"card(1)" -> _bit_n_1 [label=ARG1]
+	comp -> "_expect_v_1-fn.IN" [label=ARG2]
+	_seem_v_to -> subord [label=ARG2]
+	udef_q -> _bit_n_1 [label=BV]
+	measure -> _bit_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

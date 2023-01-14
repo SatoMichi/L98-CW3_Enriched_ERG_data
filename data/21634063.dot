@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _upset_a_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.Cause_to_end" -> _and_c [label="ARG2-fn.Means"]
+	compound -> "named(Peters)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> "named(Peters)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Roger)" [label=BV]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	_upset_a_1 -> pron [label=ARG1]
+	proper_q -> "named(Peters)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_with_p -> "named(Roger)" [label=ARG2]
+	"_fumpered/vbd_u_unknown" -> pron [label=ARG1]
+	focus_d -> _and_c [label=ARG2]
+	"_schmumpered/vbd_u_unknown" -> pron [label=ARG1]
+}

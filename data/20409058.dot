@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_only_x_deg -> _about_x_deg [label=ARG1]
+	_quarter_n_of -> _respondent_n_1 [label=ARG1]
+	"_in+order+to_x" -> "_lose_v_1-fn.NF" [label=ARG2]
+	"_lose_v_1-fn.NF" -> _weight_n_of [label="ARG2-fn.Theme"]
+	_the_q -> _respondent_n_1 [label=BV]
+	_about_x_deg -> _only_x_deg [label=ARG1]
+	"_in+order+to_x" -> "_exercise_v_1-fn.NF" [label=ARG1]
+	"_say_v_to-fn.IN" -> _quarter_n_of [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> "_in+order+to_x" [label="ARG2-fn.Topic"]
+	"_lose_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_exercise_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_a_q -> _quarter_n_of [label=BV]
+	udef_q -> _weight_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

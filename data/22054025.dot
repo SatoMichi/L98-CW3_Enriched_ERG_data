@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_no_q -> _substitute_n_1 [label=BV]
+	_for_p -> _substitute_n_1 [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> _substitute_n_1 [label="ARG2-fn.Cotheme"]
+	_of_p -> "_ridicule/nn_u_unknown" [label=ARG1]
+	udef_q -> _argument_n_1 [label=BV]
+	_for_p -> _argument_n_1 [label=ARG2]
+	_of_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	poss -> "_ridicule/nn_u_unknown" [label=ARG1]
+	def_explicit_q -> "_ridicule/nn_u_unknown" [label=BV]
+	poss -> pron [label=ARG2]
+	"_be_v_id-fn.Cotheme" -> "_ridicule/nn_u_unknown" [label="ARG1-fn.Theme"]
+}

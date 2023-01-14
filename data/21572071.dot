@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_stupid_a_1 -> _people_n_of [label=ARG1]
+	neg -> _necessary_a_1 [label=ARG1]
+	_naive_a_1 -> _people_n_of [label=ARG1]
+	_necessary_a_1 -> _or_c [label=ARG1]
+	_these_q_dem -> _people_n_of [label=BV]
+}

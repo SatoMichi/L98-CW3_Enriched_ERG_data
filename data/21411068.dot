@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_jack_v_up-fn.Halt" -> _price_n_of [label="ARG2-fn.Place"]
+	"_try_v_1-fn.Attempt" -> "named(Jones)" [label="ARG1-fn.Agent"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_jack_v_up-fn.Halt" -> "named(Jones)" [label="ARG1-fn.Purpose"]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Jones)" [label=ARG1]
+	_for_p -> _right_n_1 [label=ARG2]
+	_the_q -> _price_n_of [label=BV]
+	_current_a_1 -> "_try_v_1-fn.Attempt" [label=ARG1]
+	proper_q -> "named(Jones)" [label=BV]
+	_those_q_dem -> _right_n_1 [label=BV]
+	"_try_v_1-fn.Attempt" -> "_jack_v_up-fn.Halt" [label="ARG2-fn.Goal"]
+	_for_p -> _price_n_of [label=ARG1]
+	_local_a_1 -> _right_n_1 [label=ARG1]
+}

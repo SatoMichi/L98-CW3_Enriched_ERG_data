@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_seem_v_1-fn.Competition" [label=ARG1]
+	_strange_a_to -> "_bedfellows/nns_u_unknown" [label=ARG1]
+	"ord(1)" -> _glance_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> "_bedfellows/nns_u_unknown" [label=BV]
+	udef_q -> _gold_n_1 [label=BV]
+	focus_d -> _at_p [label=ARG2]
+	udef_q -> _utility_n_1 [label=BV]
+	"_seem_v_1-fn.Competition" -> _and_c [label="ARG1-fn.Participant_1"]
+	_at_p -> "_seem_v_1-fn.Competition" [label=ARG1]
+	idiom_q_i -> _glance_n_1 [label=BV]
+	_at_p -> _glance_n_1 [label=ARG2]
+	"_seem_v_1-fn.Competition" -> "_bedfellows/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+}

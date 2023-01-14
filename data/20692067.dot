@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Pentagon)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Spinney)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> "named(Spinney)" [label="ARG1-fn.Entity"]
+	compound -> _official_n_1 [label=ARG1]
+	compound -> "named(Spinney)" [label=ARG1]
+	_a_q -> _official_n_1 [label=BV]
+	_permanent_a_1 -> _official_n_1 [label=ARG1]
+	compound -> "named(Pentagon)" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _official_n_1 [label="ARG2-fn.Name"]
+}

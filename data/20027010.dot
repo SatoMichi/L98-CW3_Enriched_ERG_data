@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_cut_v_1-fn.Change_position_on_a_scale" -> _cost_n_1 [label="ARG2-fn.Item"]
+	_the_q -> _organization_n_1 [label=BV]
+	"_cut_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	udef_q -> _cost_n_1 [label=BV]
+	_throughout_p -> "_cut_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_expect_v_1-fn.Commerce_buy" -> "_cut_v_1-fn.Change_position_on_a_scale" [label="ARG2-fn.Goods"]
+	"_expect_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	_throughout_p -> _organization_n_1 [label=ARG2]
+}

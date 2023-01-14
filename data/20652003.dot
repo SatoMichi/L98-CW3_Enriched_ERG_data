@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _indictment_n_1 [label=ARG2]
+	_in_p -> "_charge_v_1-fn.Cause_to_end" [label=ARG1]
+	parg_d -> _individual_n_1 [label=ARG2]
+	_no_q -> _individual_n_1 [label=BV]
+	_the_q -> _indictment_n_1 [label=BV]
+	"_charge_v_1-fn.Cause_to_end" -> _individual_n_1 [label="ARG2-fn.Means"]
+	parg_d -> "_charge_v_1-fn.Cause_to_end" [label=ARG1]
+}

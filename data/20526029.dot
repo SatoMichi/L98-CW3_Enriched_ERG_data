@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _chapter_n_1 [label=ARG1]
+	_local_a_1 -> _chapter_n_1 [label=ARG1]
+	_director_n_of -> _chapter_n_1 [label=ARG1]
+	compound -> "named(Parenthood)" [label=ARG1]
+	compound -> "named(Planned)" [label=ARG2]
+	proper_q -> "named(Parenthood)" [label=BV]
+	proper_q -> "named(Planned)" [label=BV]
+	_the_q -> _chapter_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _director_n_of [label="ARG2-fn.Means"]
+	_the_q -> _director_n_of [label=BV]
+}

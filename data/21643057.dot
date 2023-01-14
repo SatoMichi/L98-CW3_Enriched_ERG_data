@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _victim_n_of [label=BV]
+	part_of -> _victim_n_of [label=ARG1]
+	_be_v_id -> _reporter_n_of [label=ARG1]
+	_be_v_id -> _victim_n_of [label=ARG2]
+	"_turn_v_1-fn.Undergo_change" -> part_of [label="ARG1-fn.NotExist"]
+	_unofficial_a_1 -> _reporter_n_of [label=ARG1]
+	_into_p -> _reporter_n_of [label=ARG2]
+	_into_p -> "_turn_v_1-fn.Undergo_change" [label=ARG1]
+	udef_q -> _reporter_n_of [label=BV]
+	_the_q -> _reporter_n_of [label=BV]
+	_some_q -> part_of [label=BV]
+	udef_q -> _victim_n_of [label=BV]
+}

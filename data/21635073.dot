@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_extremely_x_deg -> _tough_a_for [label=ARG1]
+	_construct_v_1 -> _issue_n_1 [label=ARG2]
+	_withstand_v_1 -> _issue_n_1 [label=ARG1]
+	parg_d -> _issue_n_1 [label=ARG2]
+	_economic_a_1 -> _condition_n_1 [label=ARG1]
+	_these_q_dem -> _issue_n_1 [label=BV]
+	parg_d -> _construct_v_1 [label=ARG1]
+	udef_q -> _underwriter_n_1 [label=BV]
+	"_insist_v_1-fn.Statement" -> _underwriter_n_1 [label="ARG1-fn.Agent"]
+	_tough_a_for -> _condition_n_1 [label=ARG1]
+	_construct_v_1 -> _withstand_v_1 [label=ARG3]
+	_withstand_v_1 -> _condition_n_1 [label=ARG2]
+	"_insist_v_1-fn.Statement" -> _construct_v_1 [label="ARG2-fn.Topic"]
+	udef_q -> _condition_n_1 [label=BV]
+}

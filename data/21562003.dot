@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_dream_v_1-fn.Sleep" -> pron [label="ARG1-fn.Sleeper"]
+	_on_p_dir -> "_dream_v_1-fn.Sleep" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

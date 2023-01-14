@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _addition_n_1 [label=ARG1]
+	_sort_n_of -> _approach_n_to [label=ARG1]
+	_the_q -> _addition_n_1 [label=BV]
+	"_work_v_1-fn.Assemble" -> _sort_n_of [label="ARG1-fn.Individuals"]
+	neg -> "_work_v_1-fn.Assemble" [label=ARG1]
+	proper_q -> "named(Tiger)" [label=BV]
+	_since_p -> _addition_n_1 [label=ARG2]
+	_since_p -> "_work_v_1-fn.Assemble" [label=ARG1]
+	_of_p -> "named(Tiger)" [label=ARG2]
+	_that_q_dem -> _sort_n_of [label=BV]
+	udef_q -> _approach_n_to [label=BV]
+}

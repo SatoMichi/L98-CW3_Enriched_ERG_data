@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pursue_v_1-fn.Cotheme" -> _completion_n_of [label="ARG2-fn.Theme"]
+	"_prepare_v_1-fn.Activity_prepare" -> pron [label="ARG2-fn.Theme"]
+	udef_q -> _completion_n_of [label=BV]
+	_completion_n_of -> _transaction_n_1 [label=ARG1]
+	parg_d -> "_prepare_v_1-fn.Activity_prepare" [label=ARG1]
+	_aggressive_a_1 -> "_pursue_v_1-fn.Cotheme" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> "_prepare_v_1-fn.Activity_prepare" [label="ARG2-fn.Topic"]
+	_this_q_dem -> _transaction_n_1 [label=BV]
+	parg_d -> pron [label=ARG2]
+	focus_d -> "_prepare_v_1-fn.Activity_prepare" [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_prepare_v_1-fn.Activity_prepare" -> "_pursue_v_1-fn.Cotheme" [label="ARG3-fn.NotExist"]
+	"_pursue_v_1-fn.Cotheme" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

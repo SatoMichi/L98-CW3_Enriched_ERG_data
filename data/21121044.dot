@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_several_a_1 -> _diamond_n_1 [label=ARG1]
+	_the_q -> _knot_n_1 [label=BV]
+	udef_q -> _man_n_1 [label=BV]
+	_of_p -> _tie_n_1 [label=ARG2]
+	_in_p -> _knot_n_1 [label=ARG2]
+	"_wrap_v_1-fn.Placing" -> _diamond_n_1 [label="ARG2-fn.Destination"]
+	udef_q -> _diamond_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_of_p -> _knot_n_1 [label=ARG1]
+	poss -> _tie_n_1 [label=ARG1]
+	"_wrap_v_1-fn.Placing" -> _man_n_1 [label="ARG1-fn.Agent"]
+	def_explicit_q -> _tie_n_1 [label=BV]
+	"card(1)" -> _man_n_1 [label=ARG1]
+	_in_p -> "_wrap_v_1-fn.Placing" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

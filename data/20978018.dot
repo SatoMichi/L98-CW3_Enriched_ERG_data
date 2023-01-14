@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _computer_n_1 [label=BV]
+	poss -> _computer_n_1 [label=ARG2]
+	def_explicit_q -> "_miscalculation/nn_u_unknown" [label=BV]
+	proper_q -> "named(Renaissance)" [label=BV]
+	poss -> "_miscalculation/nn_u_unknown" [label=ARG1]
+	_for_p -> "named(Renaissance)" [label=ARG2]
+	_for_p -> _painful_a_to [label=ARG1]
+	_painful_a_to -> "_miscalculation/nn_u_unknown" [label=ARG1]
+}

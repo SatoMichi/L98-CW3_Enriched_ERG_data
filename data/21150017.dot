@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_find_v_1-fn.Attempt_suasion" -> _show_n_of [label="ARG2-fn.Addressee"]
+	_the_q -> _show_n_of [label=BV]
+	_those_q_dem -> _viewer_n_of [label=BV]
+	"_find_v_1-fn.Attempt_suasion" -> _confusing_a_1 [label="ARG3-fn.Speaker"]
+	"_find_v_1-fn.Attempt_suasion" -> _viewer_n_of [label="ARG1-fn.Content"]
+	_confusing_a_1 -> _show_n_of [label=ARG1]
+}

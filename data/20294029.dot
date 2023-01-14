@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _picket_n_1 [label=ARG2]
+	udef_q -> _work_n_1 [label=BV]
+	udef_q -> _picket_n_1 [label=BV]
+	"_cross_v_1-fn.Piracy" -> _line_n_of [label="ARG2-fn.Vehicle"]
+	"card(800)" -> generic_entity [label=ARG1]
+	"_cross_v_1-fn.Piracy" -> generic_entity [label="ARG1-fn.Perpetrator"]
+	udef_q -> generic_entity [label=BV]
+	_the_q -> _line_n_of [label=BV]
+	"_return_v_1-fn.State_continue" -> generic_entity [label="ARG1-fn.Entity"]
+	_about_x_deg -> udef_q [label=ARG1]
+	_to_p -> _work_n_1 [label=ARG2]
+	compound -> _line_n_of [label=ARG1]
+	_to_p -> "_return_v_1-fn.State_continue" [label=ARG1]
+}

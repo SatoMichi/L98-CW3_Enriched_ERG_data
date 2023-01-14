@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> generic_entity [label=ARG2]
+	"_buy_v_1-fn.Commerce_buy" -> generic_entity [label="ARG1-fn.Agent"]
+	_that_q_dem -> _illusion_n_1 [label=BV]
+	_now_a_1 -> _bewilder_v_1 [label=ARG1]
+	_bewilder_v_1 -> generic_entity [label=ARG2]
+	_those_q_dem -> generic_entity [label=BV]
+	parg_d -> _bewilder_v_1 [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> _illusion_n_1 [label="ARG2-fn.Theme"]
+}

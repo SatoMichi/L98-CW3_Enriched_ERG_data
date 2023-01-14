@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _insulin_n_1 [label=BV]
+	"_out+of_p" -> _discovery_n_of [label=ARG2]
+	_can_v_modal -> "_make_v_1-fn.Intentionally_create" [label=ARG1]
+	_a_q -> _story_n_of [label=BV]
+	proper_q -> "named(Theatre)" [label=BV]
+	compound -> "named(Theatre)" [label=ARG1]
+	"_out+of_p" -> "_make_v_1-fn.Intentionally_create" [label=ARG1]
+	compound -> "named(Masterpiece)" [label=ARG2]
+	"_make_v_1-fn.Intentionally_create" -> _story_n_of [label="ARG2-fn.Product"]
+	_human_a_1 -> _story_n_of [label=ARG1]
+	_the_q -> _discovery_n_of [label=BV]
+	_compelling_a_1 -> _story_n_of [label=ARG1]
+	_discovery_n_of -> _insulin_n_1 [label=ARG1]
+	"_make_v_1-fn.Intentionally_create" -> "named(Theatre)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Masterpiece)" [label=BV]
+}

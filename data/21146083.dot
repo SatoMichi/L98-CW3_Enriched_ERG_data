@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"_abandon_v_1-fn.Departing" -> pron [label="ARG2-fn.Initial_Location"]
+	"_start_v_1-fn.Activity_start" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

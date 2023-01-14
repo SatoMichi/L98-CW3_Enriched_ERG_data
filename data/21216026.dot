@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _presume_v_1 [label=ARG1]
+	compound -> _official_n_1 [label=ARG1]
+	subord -> _presume_v_1 [label=ARG1]
+	compound -> _company_n_of [label=ARG2]
+	udef_q -> _official_n_1 [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	"_miss_v_1-fn.NF" -> _worker_n_1 [label="ARG1-fn.NotExist"]
+	subord -> _dead_a_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _and_c [label="ARG2-fn.Topic"]
+	_presume_v_1 -> _worker_n_1 [label=ARG2]
+	parg_d -> _worker_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _official_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _worker_n_1 [label=BV]
+	"card(22)" -> _worker_n_1 [label=ARG1]
+}

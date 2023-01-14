@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> _gallon_n_1 [label=ARG2]
+	compound -> _proof_n_of [label=ARG2]
+	compound -> _gallon_n_1 [label=ARG1]
+	udef_q -> _rum_n_1 [label=BV]
+	_export_n_of -> _rum_n_1 [label=ARG1]
+	"card(814,000)" -> _gallon_n_1 [label=ARG1]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _gallon_n_1 [label=BV]
+	udef_q -> _proof_n_of [label=BV]
+	"_surge_v_1-fn.NF" -> _export_n_of [label="ARG1-fn.NotExist"]
+	"card(54)" -> _percent_n_of [label=ARG1]
+	udef_q -> _export_n_of [label=BV]
+	_to_p -> "_surge_v_1-fn.NF" [label=ARG1]
+	loc_nonsp -> "_surge_v_1-fn.NF" [label=ARG1]
+}

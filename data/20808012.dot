@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_respond_v_to-fn.State_continue" -> "named(Bush)" [label="ARG1-fn.Entity"]
+	"_respond_v_to-fn.State_continue" -> "_read_v_1-fn.Attempt" [label="ARG2-fn.State"]
+	"_read_v_1-fn.Attempt" -> _opportunity_n_1 [label="ARG1-fn.Agent"]
+	def_explicit_q -> _lip_n_1 [label=BV]
+	_yet_x_deg -> _another_q [label=ARG1]
+	compound -> _president_n_of [label=ARG2]
+	poss -> _lip_n_1 [label=ARG1]
+	udef_q -> _president_n_of [label=BV]
+	_another_q -> _opportunity_n_1 [label=BV]
+	unknown -> _opportunity_n_1 [label=ARG]
+	proper_q -> "named(Bush)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> "named(Bush)" [label=ARG1]
+	"_read_v_1-fn.Attempt" -> _lip_n_1 [label="ARG2-fn.Goal"]
+	poss -> pron [label=ARG2]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _book_n_of [label=BV]
+	_no_q -> person [label=BV]
+	"_want_v_1-fn.State_continue" -> person [label="ARG1-fn.Entity"]
+	_on_p -> _book_n_of [label=ARG2]
+	poss -> pron [label=ARG2]
+	_on_p -> _stock_n_1 [label=ARG1]
+	"_want_v_1-fn.State_continue" -> _stock_n_1 [label="ARG2-fn.State"]
+	poss -> _book_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+}

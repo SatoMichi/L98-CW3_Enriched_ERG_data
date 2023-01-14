@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _situation_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _situation_n_1 [label="ARG2-fn.Means"]
+	_full_a_of -> _accurate_a_1 [label=ARG1]
+	_classic_a_1 -> _situation_n_1 [label=ARG1]
+	udef_q -> _ad_n_1 [label=BV]
+	_accurate_a_1 -> _ad_n_1 [label=ARG1]
+	_of_p -> _ad_n_1 [label=ARG2]
+	_always_a_1 -> _accurate_a_1 [label=ARG1]
+	_true_a_of -> _ad_n_1 [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_of_p -> _situation_n_1 [label=ARG1]
+}

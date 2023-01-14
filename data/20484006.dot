@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _early_a_1 [label=ARG1]
+	_public_a_1 -> _company_n_of [label=ARG1]
+	loc_nonsp -> _early_a_1 [label=ARG1]
+	subord -> "_go_v_state-fn.Cause_to_end" [label=ARG1]
+	subord -> _early_a_1 [label=ARG2]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	"_go_v_state-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+	_just_a_1 -> "_go_v_state-fn.Cause_to_end" [label=ARG1]
+	_this_q_dem -> _month_n_1 [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	"_go_v_state-fn.Cause_to_end" -> _public_a_1 [label="ARG2-fn.Means"]
+}

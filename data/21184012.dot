@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_schedule_v_1-fn.Relative_time" [label=ARG1]
+	_today_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	parg_d -> "_schedule_v_1-fn.Relative_time" [label=ARG1]
+	_a_q -> _hearing_n_1 [label=BV]
+	_on_p -> "_schedule_v_1-fn.Relative_time" [label=ARG1]
+	_on_p -> _issue_n_1 [label=ARG2]
+	parg_d -> _hearing_n_1 [label=ARG2]
+	def_implicit_q -> time_n [label=BV]
+	"_schedule_v_1-fn.Relative_time" -> _hearing_n_1 [label="ARG2-fn.Landmark_occasion"]
+	_the_q -> _issue_n_1 [label=BV]
+}

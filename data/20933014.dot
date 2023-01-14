@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_confirm_v_as-fn.State_continue" -> _account_n_of [label="ARG2-fn.State"]
+	_this_q_dem -> _account_n_of [label=BV]
+	proper_q -> "named(Ira)" [label=BV]
+	appos -> pron [label=ARG2]
+	"_confirm_v_as-fn.State_continue" -> "named(Ira)" [label="ARG1-fn.Entity"]
+	pronoun_q -> pron [label=BV]
+	appos -> "named(Ira)" [label=ARG1]
+}

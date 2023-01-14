@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _government_n_of [label=BV]
+	"_build_v_1-fn.Building" -> _government_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _highway_n_1 [label=BV]
+	udef_q -> _hospital_n_1 [label=BV]
+	udef_q -> _port_n_of [label=BV]
+	udef_q -> _railway_n_1 [label=BV]
+	"_build_v_1-fn.Building" -> implicit_conj [label="ARG2-fn.Product"]
+	udef_q -> implicit_conj [label=BV]
+	udef_q -> _school_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _bridge_n_1 [label=BV]
+}

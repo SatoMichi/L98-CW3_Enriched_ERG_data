@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_prevent_v_from-fn.Preventing" [label=ARG1]
+	_of_p -> _collapse_n_1 [label=ARG1]
+	_the_q -> _collapse_n_1 [label=BV]
+	_could_v_modal -> "_prevent_v_from-fn.Preventing" [label=ARG1]
+	"_prevent_v_from-fn.Preventing" -> _collapse_n_1 [label="ARG2-fn.Theme"]
+	proper_q -> "named(I-880)" [label=BV]
+	parg_d -> _collapse_n_1 [label=ARG2]
+	_of_p -> "named(I-880)" [label=ARG2]
+}

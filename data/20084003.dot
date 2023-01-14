@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_elaborate_v_on-fn.NF" -> _departure_n_1 [label="ARG2-fn.Topic"]
+	compound -> _spokesman_n_1 [label=ARG1]
+	compound -> _company_n_of [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+	_the_q -> _departure_n_1 [label=BV]
+	"_elaborate_v_on-fn.NF" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _company_n_of [label=BV]
+	_decline_v_1 -> "_elaborate_v_on-fn.NF" [label=ARG2]
+	_decline_v_1 -> _spokesman_n_1 [label=ARG1]
+}

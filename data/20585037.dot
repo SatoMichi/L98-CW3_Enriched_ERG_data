@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_close_v_1-fn.Halt" -> _gap_n_1 [label="ARG1-fn.Purpose"]
+	_but_x -> _slow_a_1 [label=ARG2]
+	_this_q_dem -> _gap_n_1 [label=BV]
+	_eventual_a_1 -> "_close_v_1-fn.Halt" [label=ARG1]
+	_but_x -> "_close_v_1-fn.Halt" [label=ARG1]
+}

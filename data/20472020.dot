@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_go_v_through-fn.Cause_to_end" -> "named(Boeing)" [label="ARG1-fn.Process"]
+	"_play_v_up-fn.Halt" -> "_downside/nn_u_unknown" [label="ARG2-fn.Place"]
+	_verbal_a_1 -> _gymnastics_n_1 [label=ARG1]
+	_the_q -> "_downside/nn_u_unknown" [label=BV]
+	_still_a_disc -> _and_c [label=ARG1]
+	"_play_v_up-fn.Halt" -> "named(Boeing)" [label="ARG1-fn.Purpose"]
+	_normal_a_1 -> _gymnastics_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Boeing)" [label=BV]
+	def_explicit_q -> _gymnastics_n_1 [label=BV]
+	poss -> _gymnastics_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_go_v_through-fn.Cause_to_end" -> _gymnastics_n_1 [label="ARG2-fn.Means"]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_believe_v_1-fn.Opinion" -> "_want_v_1-fn.Desiring" [label="ARG2-fn.NotExist"]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	neg -> "_believe_v_1-fn.Opinion" [label=ARG1]
+	"_give_v_away-fn.Giving" -> _money_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	"_give_v_away-fn.Giving" -> pron [label="ARG1-fn.Agent"]
+	_this_q_dem -> _money_n_1 [label=BV]
+	"_want_v_1-fn.Desiring" -> "_give_v_away-fn.Giving" [label="ARG2-fn.Theme"]
+	"_believe_v_1-fn.Opinion" -> _people_n_of [label="ARG1-fn.NotExist"]
+	_maybe_a_1 -> neg [label=ARG1]
+	udef_q -> _people_n_of [label=BV]
+}

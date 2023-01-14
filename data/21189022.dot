@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _agency_n_1 [label=BV]
+	_the_q -> _complaint_n_1 [label=BV]
+	"_investigate_v_1-fn.Scrutiny" -> _complaint_n_1 [label="ARG2-fn.Location"]
+	parg_d -> _cite_v_for [label=ARG1]
+	_no_q -> _violation_n_of [label=BV]
+	parg_d -> _violation_n_of [label=ARG2]
+	"_investigate_v_1-fn.Scrutiny" -> _agency_n_1 [label="ARG1-fn.Agent"]
+	_cite_v_for -> _violation_n_of [label=ARG2]
+}

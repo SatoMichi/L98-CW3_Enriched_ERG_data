@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rate_v_1-fn.Change_of_quantity_of_possession" -> _bond_n_1 [label="ARG2-fn.Possession"]
+	udef_q -> "named(Triple_A)" [label=BV]
+	compound -> "named(Triple_A)" [label=ARG2]
+	parg_d -> _bond_n_1 [label=ARG2]
+	"_insure_v_for-fn.Have_as_requirement" -> _bond_n_1 [label="ARG2-fn.Requirement"]
+	parg_d -> "_insure_v_for-fn.Have_as_requirement" [label=ARG1]
+	_the_q -> _bond_n_1 [label=BV]
+	compound -> "_rate_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	parg_d -> "_rate_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+}

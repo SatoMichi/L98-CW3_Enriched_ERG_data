@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_program_v_1 -> _program_n_of [label=ARG2]
+	"_see_v_1-fn.Perception_experience" -> pron [label="ARG1-fn.NotExist"]
+	_program_v_1 -> _viewer_n_of [label=ARG1]
+	udef_q -> _viewer_n_of [label=BV]
+	"_start_v_1-fn.Activity_start" -> "_see_v_1-fn.Perception_experience" [label="ARG1-fn.NotExist"]
+	_the_q -> _program_n_of [label=BV]
+	loc_nonsp -> _program_v_1 [label=ARG1]
+	udef_q -> _show_n_of [label=BV]
+	loc_nonsp -> _show_n_of [label=ARG2]
+	"_see_v_1-fn.Perception_experience" -> _show_n_of [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _price_n_of [label=ARG2]
+	"_disclose_v_to-fn.Amounting_to" -> _price_n_of [label="ARG2-fn.Attribute"]
+	_the_q -> _price_n_of [label=BV]
+	parg_d -> "_disclose_v_to-fn.Amounting_to" [label=ARG1]
+	neg -> "_disclose_v_to-fn.Amounting_to" [label=ARG1]
+}

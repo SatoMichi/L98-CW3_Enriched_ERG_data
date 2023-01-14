@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _increase_n_1 [label=ARG1]
+	_necessary_a_for -> _increase_n_1 [label=ARG1]
+	compound -> _tax_n_1 [label=ARG2]
+	"_would_v_modal-fn.Cause_to_end" -> _necessary_a_for [label="ARG1-fn.Process"]
+	udef_q -> _tax_n_1 [label=BV]
+	_no_q -> _increase_n_1 [label=BV]
+}

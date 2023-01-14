@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	every_q -> person [label=BV]
+	_not_x_deg -> person [label=ARG1]
+	_trim_v_1 -> generic_entity [label=ARG2]
+	"_agree_v_with-fn.IN" -> "_time_a_expl-for" [label="ARG2-fn.Theme"]
+	_that_q_dem -> generic_entity [label=BV]
+	"_agree_v_with-fn.IN" -> person [label="ARG1-fn.Agent"]
+	focus_d -> "_time_a_expl-for" [label=ARG1]
+	focus_d -> generic_entity [label=ARG2]
+	"_time_a_expl-for" -> _trim_v_1 [label=ARG1]
+}

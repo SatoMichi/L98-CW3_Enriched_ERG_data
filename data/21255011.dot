@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_predict_v_1-fn.Predicting" -> "_solve_v_1-fn.NF" [label="ARG2-fn.Topic"]
+	_very_x_deg -> _soon_p [label=ARG1]
+	_soon_p -> time_n [label=ARG1]
+	loc_nonsp -> "_solve_v_1-fn.NF" [label=ARG1]
+	"_solve_v_1-fn.NF" -> _problem_n_of [label="ARG2-fn.Theme"]
+	parg_d -> "_solve_v_1-fn.NF" [label=ARG1]
+	parg_d -> _problem_n_of [label=ARG2]
+	loc_nonsp -> time_n [label=ARG2]
+	"_predict_v_1-fn.Predicting" -> pron [label="ARG1-fn.Cause"]
+	def_implicit_q -> time_n [label=BV]
+	_the_q -> _problem_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_one-upsmanship_n_1" [label=BV]
+	"_count_v_1-fn.Importance" -> "_one-upsmanship_n_1" [label="ARG1-fn.NotExist"]
+	_of_p -> nominalization [label=ARG2]
+	_be_v_itcleft -> "_one-upsmanship_n_1" [label=ARG1]
+	_of_p -> "_one-upsmanship_n_1" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	nominalization -> "_name-drop_v_1" [label=ARG1]
+	_be_v_itcleft -> "_count_v_1-fn.Importance" [label=ARG2]
+}

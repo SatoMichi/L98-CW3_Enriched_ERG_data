@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _professor_n_of [label=ARG2]
+	udef_q -> _stock_n_1 [label=BV]
+	_small_a_1 -> _company_n_of [label=ARG1]
+	_in_p -> _stock_n_1 [label=ARG1]
+	_discard_v_1 -> _investor_n_1 [label=ARG1]
+	udef_q -> _professor_n_of [label=BV]
+	_discard_v_1 -> _stock_n_1 [label=ARG2]
+	udef_q -> _investor_n_1 [label=BV]
+	"_urge_v_to-fn.IN" -> "named(Arbel)" [label="ARG1-fn.Agent"]
+	udef_q -> _company_n_of [label=BV]
+	proper_q -> "named(Arbel)" [label=BV]
+	"_urge_v_to-fn.IN" -> _investor_n_1 [label="ARG2-fn.Recipient"]
+	compound -> "named(Arbel)" [label=ARG1]
+	"_urge_v_to-fn.IN" -> _discard_v_1 [label="ARG3-fn.Topic"]
+	_in_p -> _company_n_of [label=ARG2]
+}

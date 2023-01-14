@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_bad_a_1 -> pron [label=ARG1]
+	"_make_v_cause-fn.Cause_change" -> pron [label="ARG1-fn.Agent"]
+	neg -> "_solve_v_1-fn.NF" [label=ARG1]
+	_would_v_modal -> "_make_v_cause-fn.Cause_change" [label=ARG1]
+	"_make_v_cause-fn.Cause_change" -> _bad_a_1 [label="ARG2-fn.Theme"]
+	comp -> _bad_a_1 [label=ARG1]
+	"_solve_v_1-fn.NF" -> _problem_n_of [label="ARG2-fn.Theme"]
+	_would_v_modal -> neg [label=ARG1]
+	"_solve_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _problem_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

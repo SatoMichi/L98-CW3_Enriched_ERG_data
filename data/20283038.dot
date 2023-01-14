@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_venezuelan_a_1 -> _bank_n_of [label=ARG1]
+	_central_a_1 -> _bank_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_a_q -> _floor_n_1 [label=BV]
+	_the_q -> nominalization [label=BV]
+	_the_q -> _bank_n_of [label=BV]
+	_on_p -> _floor_n_1 [label=ARG1]
+	nominalization -> _bid_v_1 [label=ARG1]
+	"card(30)" -> _percent_n_of [label=ARG1]
+	compound -> _percent_n_of [label=ARG2]
+	"_set_v_1-fn.Competition" -> _bank_n_of [label="ARG1-fn.Participant_1"]
+	"_set_v_1-fn.Competition" -> _floor_n_1 [label="ARG2-fn.Participant_2"]
+	_on_p -> nominalization [label=ARG2]
+	compound -> _floor_n_1 [label=ARG1]
+}

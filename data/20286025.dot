@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _recall_v_1 [label=ARG1]
+	_recall_v_1 -> _get_v_to [label=ARG2]
+	superl -> _old_a_1 [label=ARG1]
+	_the_q -> "_dashboard/nn_u_unknown" [label=BV]
+	"_work_v_on-fn.IN" -> _designer_n_of [label="ARG1-fn.Agent"]
+	_get_v_to -> "_work_v_on-fn.IN" [label=ARG1]
+	focus_d -> _get_v_to [label=ARG2]
+	_old_a_1 -> _designer_n_of [label=ARG1]
+	_recall_v_1 -> pron [label=ARG1]
+	"_work_v_on-fn.IN" -> "_dashboard/nn_u_unknown" [label="ARG2-fn.Theme"]
+	_the_q -> _designer_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

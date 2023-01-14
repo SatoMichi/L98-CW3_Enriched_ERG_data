@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(South)" [label=ARG2]
+	proper_q -> "named(Korea)" [label=BV]
+	"_continue_v_2-fn.Process_continue" -> _profitable_a_for [label="ARG1-fn.NotExist"]
+	_profitable_a_for -> _and_c [label=ARG1]
+	proper_q -> "named(Japan)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(South)" [label=BV]
+	compound -> "named(Korea)" [label=ARG1]
+}

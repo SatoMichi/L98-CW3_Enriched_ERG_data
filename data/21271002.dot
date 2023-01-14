@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_better-than-average_a_1" -> _commute_n_1 [label=ARG1]
+	compound -> "named(Manhattan)" [label=ARG2]
+	udef_q -> _word_n_of [label=BV]
+	focus_d -> "_be_v_id-fn.Assemble" [label=ARG1]
+	proper_q -> "named(Manhattan)" [label=BV]
+	_a_q -> _commute_n_1 [label=BV]
+	_other_a_1 -> _word_n_of [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	_in_p_state -> "_be_v_id-fn.Assemble" [label=ARG1]
+	"_be_v_id-fn.Assemble" -> pron [label="ARG1-fn.Individuals"]
+	"_be_v_id-fn.Assemble" -> _commute_n_1 [label="ARG2-fn.Group"]
+	compound -> _commute_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_in_p_state -> _word_n_of [label=ARG2]
+}

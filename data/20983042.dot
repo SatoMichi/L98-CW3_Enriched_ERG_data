@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_raise_v_cause -> _cash_n_1 [label=ARG2]
+	udef_q -> _bond_n_1 [label=BV]
+	"_sell_v_1-fn.Commerce_sell" -> _bond_n_1 [label="ARG2-fn.Theme"]
+	"_in+order+to_x" -> _raise_v_cause [label=ARG2]
+	"_in+order+to_x" -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> _fund_n_1 [label="ARG1-fn.Agent"]
+	_weak_a_1 -> _bond_n_1 [label=ARG1]
+	_recent_a_1 -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	compound -> _junk_n_1 [label=ARG2]
+	_other_a_1 -> _fund_n_1 [label=ARG1]
+	_raise_v_cause -> _fund_n_1 [label=ARG1]
+	udef_q -> _cash_n_1 [label=BV]
+	udef_q -> _fund_n_1 [label=BV]
+	udef_q -> _junk_n_1 [label=BV]
+	compound -> _bond_n_1 [label=ARG1]
+}

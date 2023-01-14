@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_those_q_dem -> _stock_n_1 [label=BV]
+	_most_q -> part_of [label=BV]
+	part_of -> _stock_n_1 [label=ARG1]
+	"_fare_v_1-fn.Renting" -> part_of [label="ARG1-fn.Lessee"]
+	_well_a_1 -> "_fare_v_1-fn.Renting" [label=ARG1]
+}

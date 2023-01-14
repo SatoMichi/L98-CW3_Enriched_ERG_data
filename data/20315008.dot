@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _land_n_of [label=ARG1]
+	parg_d -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> _and_c [label="ARG2-fn.Theme"]
+	poss -> pron [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	_the_q -> _plant_n_1 [label=BV]
+	parg_d -> _and_c [label=ARG2]
+	def_explicit_q -> _land_n_of [label=BV]
+	"card(3)" -> _plant_n_1 [label=ARG1]
+	"_exist_v_1-fn.Existence" -> _plant_n_1 [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

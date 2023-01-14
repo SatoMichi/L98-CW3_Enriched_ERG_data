@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _see_v_1 [label=ARG2]
+	udef_q -> _sewage_n_1 [label=BV]
+	_a_q -> _plant_n_1 [label=BV]
+	_see_v_1 -> pron [label=ARG2]
+	compound -> _plant_n_1 [label=ARG1]
+	_as_p -> _plant_n_1 [label=ARG2]
+	compound -> _sewage_n_1 [label=ARG2]
+	_as_p -> _see_v_1 [label=ARG1]
+	compound -> _treatment_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> _see_v_1 [label="ARG2-fn.Topic"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	udef_q -> _treatment_n_of [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

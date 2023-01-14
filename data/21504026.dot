@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _department_n_1 [label=BV]
+	"_make_v_i-fn.Causation" -> _sure_a_of [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> _department_n_1 [label="ARG2-fn.Theme"]
+	compound -> _department_n_1 [label=ARG1]
+	_sure_a_of -> pron [label=ARG1]
+	compound -> _personnel_n_1 [label=ARG2]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	_strong_a_1 -> _department_n_1 [label=ARG1]
+	"_make_v_i-fn.Causation" -> pron [label="ARG1-fn.Agent"]
+	_sure_a_of -> "_have_v_1-fn.IN" [label=ARG2]
+	udef_q -> _personnel_n_1 [label=BV]
+	number_q -> "card(1)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> place_n [label=ARG2]
+	_here_a_1 -> place_n [label=ARG1]
+	"_may_v_modal-fn.Communication_manner" -> "_be_v_id-fn.Assemble" [label="ARG1-fn.Speaker"]
+	_of_p -> _guarantee_n_of [label=ARG2]
+	def_implicit_q -> place_n [label=BV]
+	"_be_v_id-fn.Assemble" -> _issue_n_1 [label="ARG1-fn.Individuals"]
+	_of_p -> "_soundness/nn_u_unknown" [label=ARG1]
+	_the_q -> _guarantee_n_of [label=BV]
+	"_be_v_id-fn.Assemble" -> "_soundness/nn_u_unknown" [label="ARG2-fn.Group"]
+	_the_q -> "_soundness/nn_u_unknown" [label=BV]
+	loc_nonsp -> _issue_n_1 [label=ARG1]
+	_the_q -> _issue_n_1 [label=BV]
+}

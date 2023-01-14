@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_probable_a_1 -> neg [label=ARG1]
+	_for_p -> _cash_n_1 [label=ARG2]
+	_the_q -> _cash_n_1 [label=BV]
+	neg -> "_do_v_1-fn.State_continue" [label=ARG1]
+	_for_p -> "_do_v_1-fn.State_continue" [label=ARG1]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+}

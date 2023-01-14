@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_most_q -> part_of [label=BV]
+	_welcome_a_1 -> _wit_n_1 [label=ARG1]
+	part_of -> _evening_n_of [label=ARG1]
+	parg_d -> part_of [label=ARG2]
+	parg_d -> "_fill_v_cause-fn.Filling" [label=ARG1]
+	_with_p -> _wit_n_1 [label=ARG2]
+	_rare_a_1 -> _wit_n_1 [label=ARG1]
+	_with_p -> "_fill_v_cause-fn.Filling" [label=ARG1]
+	"_fill_v_cause-fn.Filling" -> part_of [label="ARG2-fn.Destination"]
+	_the_q -> _evening_n_of [label=BV]
+	udef_q -> _wit_n_1 [label=BV]
+}

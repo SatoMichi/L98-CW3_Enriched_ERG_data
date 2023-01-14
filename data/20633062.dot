@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_re-enactments/nns_u_unknown" [label=BV]
+	"_stink_v_1-fn.Chemical-sense_description" -> "_re-enactments/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_think_v_1-fn.IN" -> "_stink_v_1-fn.Chemical-sense_description" [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

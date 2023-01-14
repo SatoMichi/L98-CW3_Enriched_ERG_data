@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _transportation_n_1 [label=ARG2]
+	_for_p -> "_provide_v_1-fn.Supply" [label=ARG1]
+	udef_q -> _service_n_1 [label=BV]
+	udef_q -> _distributor_n_of [label=BV]
+	udef_q -> _retailer_n_1 [label=BV]
+	"_provide_v_1-fn.Supply" -> _service_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _transportation_n_1 [label=BV]
+	proper_q -> "named(Leaseway)" [label=BV]
+	"_provide_v_1-fn.Supply" -> "named(Leaseway)" [label="ARG1-fn.Agent"]
+	_for_p -> implicit_conj [label=ARG2]
+	udef_q -> implicit_conj [label=BV]
+	compound -> _service_n_1 [label=ARG1]
+	udef_q -> _manufacturer_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _profit_n_1 [label=ARG1]
+	"ord(3)" -> _quarter_n_temp [label=ARG1]
+	compound -> _quarter_n_temp [label=ARG2]
+	udef_q -> _profit_n_1 [label=BV]
+	udef_q -> _quarter_n_temp [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	_several_a_1 -> _company_n_of [label=ARG1]
+	_at_p -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_at_p -> _company_n_of [label=ARG2]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _profit_n_1 [label="ARG1-fn.NotExist"]
+}

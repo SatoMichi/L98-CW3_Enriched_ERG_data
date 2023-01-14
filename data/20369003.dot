@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_manufacture_v_1-fn.Competition" -> _system_n_of [label="ARG2-fn.Participant_2"]
+	udef_q -> _storage_n_of [label=BV]
+	compound -> _system_n_of [label=ARG1]
+	compound -> _storage_n_of [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> "_mainframes/nns_u_unknown" [label=BV]
+	proper_q -> "named(EMC)" [label=BV]
+	udef_q -> "_minicomputers/nns_u_unknown" [label=BV]
+	compound -> _data_n_1 [label=ARG2]
+	udef_q -> _data_n_1 [label=BV]
+	_for_p -> _system_n_of [label=ARG1]
+	udef_q -> _system_n_of [label=BV]
+	"_manufacture_v_1-fn.Competition" -> "named(EMC)" [label="ARG1-fn.Participant_1"]
+	_for_p -> _and_c [label=ARG2]
+}

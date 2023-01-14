@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_add_v_to-fn.Cause_to_fragment" -> pron [label="ARG1-fn.Agent"]
+	"_generate_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_generate_v_1-fn.Competition" -> _momentum_n_1 [label="ARG2-fn.Participant_2"]
+	_the_q -> _momentum_n_1 [label=BV]
+	"_add_v_to-fn.Cause_to_fragment" -> "_unstoppable/jj_u_unknown" [label="ARG2-fn.Instrument"]
+	pronoun_q -> pron [label=BV]
+	"_unstoppable/jj_u_unknown" -> _momentum_n_1 [label=ARG1]
+	_however_a_1 -> "_add_v_to-fn.Cause_to_fragment" [label=ARG1]
+}

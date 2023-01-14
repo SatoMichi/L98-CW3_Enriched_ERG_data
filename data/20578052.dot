@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _problem_n_of [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _problem_n_of [label="ARG2-fn.Means"]
+	proper_q -> "named(Sony)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(Sony)" [label="ARG1-fn.Process"]
+}

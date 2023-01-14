@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_work_v_for-fn.IN" -> _paper_n_1 [label="ARG2-fn.NotExist"]
+	_as_x_subord -> ellipsis_ref [label=ARG2]
+	_the_q -> _paper_n_1 [label=BV]
+	poss -> _wife_n_of [label=ARG1]
+	_also_a_1 -> _as_x_subord [label=ARG1]
+	poss -> "named(Father)" [label=ARG1]
+	"_work_v_for-fn.IN" -> _wife_n_of [label="ARG1-fn.Agent"]
+	poss -> pron [label=ARG2]
+	_as_x_subord -> "_work_v_for-fn.IN" [label=ARG1]
+	def_explicit_q -> "named(Father)" [label=BV]
+	def_explicit_q -> _wife_n_of [label=BV]
+	ellipsis_ref -> "named(Father)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.IN" -> "named(Sassy)" [label="ARG1-fn.Pivot"]
+	"_different_a_than-from" -> _spirit_n_1 [label=ARG1]
+	_a_q -> _spirit_n_1 [label=BV]
+	comp -> "_different_a_than-from" [label=ARG1]
+	proper_q -> "named(Sassy)" [label=BV]
+	"_have_v_1-fn.IN" -> _spirit_n_1 [label="ARG2-fn.Theme"]
+}

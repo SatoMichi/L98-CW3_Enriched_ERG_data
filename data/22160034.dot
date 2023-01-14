@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Fossett)" [label=BV]
+	"_reach_v_1-fn.Competition" -> "named(Fossett)" [label="ARG2-fn.Participant_2"]
+	neg -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	compound -> "named(Fossett)" [label=ARG1]
+	_to_p -> _comment_n_1 [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _comment_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_can_v_modal-fn.Reliance" -> "_reach_v_1-fn.Competition" [label="ARG1-fn.Protagonist"]
+	_to_p -> "_reach_v_1-fn.Competition" [label=ARG1]
+	parg_d -> "named(Fossett)" [label=ARG2]
+	parg_d -> "_reach_v_1-fn.Competition" [label=ARG1]
+}

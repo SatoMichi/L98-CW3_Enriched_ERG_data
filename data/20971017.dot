@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_wrap_v_1-fn.Halt" [label=ARG1]
+	"_re-_a_again" -> "_wrap_v_1-fn.Halt" [label=ARG1]
+	parg_d -> _coin_n_1 [label=ARG2]
+	parg_d -> "_wrap_v_1-fn.Halt" [label=ARG1]
+	_after_p -> "_wrap_v_1-fn.Halt" [label=ARG1]
+	_then_a_1 -> "_wrap_v_1-fn.Halt" [label=ARG1]
+	"_wrap_v_1-fn.Halt" -> _coin_n_1 [label="ARG2-fn.Place"]
+	focus_d -> _after_p [label=ARG2]
+	nominalization -> _cool_v_1 [label=ARG1]
+	_after_p -> nominalization [label=ARG2]
+	udef_q -> nominalization [label=BV]
+	_the_q -> _coin_n_1 [label=BV]
+}

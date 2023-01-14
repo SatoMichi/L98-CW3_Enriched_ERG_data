@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _problem_n_of [label=BV]
+	def_explicit_q -> _quake_n_1 [label=BV]
+	neg -> "_solve_v_1-fn.NF" [label=ARG1]
+	poss -> _quake_n_1 [label=ARG1]
+	appos -> pron [label=ARG1]
+	proper_q -> "dofw(Tue)" [label=BV]
+	poss -> "dofw(Tue)" [label=ARG2]
+	poss -> pron [label=ARG2]
+	"_solve_v_1-fn.NF" -> _problem_n_of [label="ARG2-fn.Theme"]
+	"_solve_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	poss -> _problem_n_of [label=ARG1]
+	appos -> _quake_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

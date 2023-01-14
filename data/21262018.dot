@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _way_n_of [label=ARG2]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_hard_a_for -> _way_n_of [label=ARG1]
+	_the_q -> _way_n_of [label=BV]
+	comp_so -> "much-many_a" [label=ARG1]
+	loc_nonsp -> "_learn_v_1-fn.Competition" [label=ARG1]
+	"_must_v_modal-fn.Cause_to_end" -> "_learn_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_learn_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Participant_1"]
+	udef_q -> generic_entity [label=BV]
+	_unfortunate_a_1 -> "_must_v_modal-fn.Cause_to_end" [label=ARG1]
+}

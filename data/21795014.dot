@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_nv-fn.Undergo_change" -> "_unresponsive/jj_u_unknown" [label="ARG2-fn.Final_category"]
+	neg -> "_be_v_nv-fn.Undergo_change" [label=ARG1]
+	_to_p -> "_unresponsive/jj_u_unknown" [label=ARG1]
+	_the_q -> "named_n(Fed)" [label=BV]
+	_the_q -> _interest_n_in [label=BV]
+	_to_p -> _interest_n_in [label=ARG2]
+	comp_too -> "_unresponsive/jj_u_unknown" [label=ARG1]
+	_public_a_1 -> _interest_n_in [label=ARG1]
+	_the_q -> _problem_n_of [label=BV]
+	"_unresponsive/jj_u_unknown" -> "named_n(Fed)" [label=ARG1]
+	"_be_v_nv-fn.Undergo_change" -> _problem_n_of [label="ARG1-fn.Entity"]
+}

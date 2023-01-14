@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_see_v_as-fn.Touring" [label=ARG2]
+	_the_q -> _fit_n_of [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> "_see_v_as-fn.Touring" [label="ARG2-fn.Means"]
+	udef_q -> _opportunity_n_1 [label=BV]
+	comp_so -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> _fit_n_of [label=ARG1]
+	"_see_v_as-fn.Touring" -> generic_entity [label="ARG2-fn.Attraction"]
+	"_say_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_see_v_as-fn.Touring" -> _time_n_of [label="ARG3-fn.Depictive"]
+	pronoun_q -> pron [label=BV]
+	"_see_v_as-fn.Touring" -> pron [label="ARG1-fn.Tourist"]
+	_a_q -> _time_n_of [label=BV]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	_time_n_of -> _opportunity_n_1 [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+}

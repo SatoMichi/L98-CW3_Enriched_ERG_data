@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_most_q -> part_of [label=BV]
+	part_of -> pron [label=ARG1]
+	_a_q -> _sucker_n_for [label=BV]
+	"_know_v_1-fn.IN" -> _sucker_n_for [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	"_know_v_1-fn.IN" -> part_of [label="ARG1-fn.Agent"]
+}

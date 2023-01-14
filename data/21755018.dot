@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_over_p -> _time_n_of [label=ARG2]
+	_over_p -> "_distribute_v_to-fn.Dispersal" [label=ARG1]
+	parg_d -> _asset_n_1 [label=ARG2]
+	_the_q -> _chart_n_of [label=BV]
+	"_show_v_1-fn.IN" -> _chart_n_of [label="ARG1-fn.NotExist"]
+	parg_d -> "_distribute_v_to-fn.Dispersal" [label=ARG1]
+	which_q -> manner [label=BV]
+	unspec_manner -> "_distribute_v_to-fn.Dispersal" [label=ARG1]
+	udef_q -> _time_n_of [label=BV]
+	udef_q -> _asset_n_1 [label=BV]
+	"_househld/jj_u_unknown" -> _asset_n_1 [label=ARG1]
+	unspec_manner -> manner [label=ARG2]
+	"_show_v_1-fn.IN" -> "_distribute_v_to-fn.Dispersal" [label="ARG2-fn.NotExist"]
+	"_distribute_v_to-fn.Dispersal" -> _asset_n_1 [label="ARG2-fn.Theme"]
+}

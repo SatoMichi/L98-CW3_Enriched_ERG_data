@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_wait_v_for-fn.Cause_to_continue" [label=ARG1]
+	_from_p -> _expansion_n_1 [label=ARG1]
+	udef_q -> _expansion_n_1 [label=BV]
+	focus_d -> loc_nonsp [label=ARG2]
+	"_wait_v_for-fn.Cause_to_continue" -> _expansion_n_1 [label="ARG2-fn.Process"]
+	parg_d -> _expansion_n_1 [label=ARG2]
+	parg_d -> "_step_v_up-fn.Undergo_change" [label=ARG1]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	"_step_v_up-fn.Undergo_change" -> _expansion_n_1 [label="ARG2-fn.Final_category"]
+	loc_nonsp -> "_wait_v_for-fn.Cause_to_continue" [label=ARG1]
+	"_wait_v_for-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	_from_p -> _company_n_of [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	_every_q -> _year_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

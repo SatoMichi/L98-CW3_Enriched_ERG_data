@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	which_q -> person [label=BV]
+	"_tell_v_1-fn.Prevarication" -> person [label="ARG1-fn.Agent"]
+	_the_q -> _truth_n_1 [label=BV]
+	"_tell_v_1-fn.Prevarication" -> _truth_n_1 [label="ARG2-fn.Topic"]
+}

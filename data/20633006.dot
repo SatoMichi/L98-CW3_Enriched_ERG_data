@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	idiom_q_i -> _bed_n_1 [label=BV]
+	"_out+of_p" -> pron [label=ARG1]
+	"_out+of_p" -> _bed_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

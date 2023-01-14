@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_could_v_modal-fn.Cause_to_end" -> "_step_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	compound -> "named(Paper)" [label=ARG1]
+	"_step_v_1-fn.Competition" -> _or_c [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(International)" [label=BV]
+	_in_p_dir -> "_step_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _or_c [label=BV]
+	proper_q -> "named(Paper)" [label=BV]
+	proper_q -> "named(Weyerhaeuser)" [label=BV]
+	compound -> "named(International)" [label=ARG2]
+}

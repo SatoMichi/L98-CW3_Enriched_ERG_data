@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_want_v_1-fn.Desiring" [label=ARG2]
+	udef_q -> _opinion_n_of [label=BV]
+	comp -> "much-many_a" [label=ARG1]
+	poss -> _wife_n_of [label=ARG1]
+	focus_d -> "_ask_v_1-fn.Questioning" [label=ARG1]
+	"_ask_v_1-fn.Questioning" -> pron [label="ARG1-fn.Agent"]
+	poss -> pron [label=ARG2]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.NotExist"]
+	"_ask_v_1-fn.Questioning" -> "_want_v_1-fn.Desiring" [label="ARG3-fn.Recipient"]
+	"_ask_v_1-fn.Questioning" -> _wife_n_of [label="ARG2-fn.NotExist"]
+	"_want_v_1-fn.Desiring" -> _opinion_n_of [label="ARG2-fn.NotExist"]
+	def_explicit_q -> _wife_n_of [label=BV]
+	"much-many_a" -> _opinion_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

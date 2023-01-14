@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG3-fn.Time"]
+	_even_a_1 -> "much-many_a" [label=ARG1]
+	udef_q -> _good_n_1 [label=BV]
+	"_do_v_1-fn.State_continue" -> _good_n_1 [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	"much-many_a" -> _good_n_1 [label=ARG1]
+	comp -> "much-many_a" [label=ARG1]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	ellipsis_ref -> person [label=ARG1]
+	_else_a_1 -> person [label=ARG1]
+	_no_q -> person [label=BV]
+}

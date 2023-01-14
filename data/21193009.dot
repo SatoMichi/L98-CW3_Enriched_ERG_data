@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _plan_n_1 [label=ARG1]
+	eventuality -> "_honor_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(Schulz)" [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_honor_v_1-fn.Competition" -> _and_c [label="ARG2-fn.Participant_2"]
+	_the_q -> _strip_n_of [label=BV]
+	"_honor_v_1-fn.Competition" -> _plan_n_1 [label="ARG1-fn.Participant_1"]
+	"_all+year+long_a_1" -> "_honor_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Schulz)" [label=ARG1]
+	def_explicit_q -> _plan_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	proper_q -> "named(Charles)" [label=BV]
+	compound -> "named(Charles)" [label=ARG2]
+}

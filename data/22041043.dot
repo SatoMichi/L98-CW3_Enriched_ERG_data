@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _indian_n_1 [label=BV]
+	"_disappoint_v_1-fn.Experiencer_obj" -> _failure_n_1 [label="ARG1-fn.Stimulus"]
+	_in_p -> _area_n_of [label=ARG2]
+	def_explicit_q -> _failure_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_those_q_dem -> _area_n_of [label=BV]
+	poss -> _failure_n_1 [label=ARG1]
+	"card(2)" -> _area_n_of [label=ARG1]
+	"_disappoint_v_1-fn.Experiencer_obj" -> _indian_n_1 [label="ARG2-fn.Experiencer"]
+	_deep_a_1 -> "_disappoint_v_1-fn.Experiencer_obj" [label=ARG1]
+	"much-many_a" -> _indian_n_1 [label=ARG1]
+	_bitter_a_1 -> "_disappoint_v_1-fn.Experiencer_obj" [label=ARG1]
+	_sometimes_a_1 -> "_disappoint_v_1-fn.Experiencer_obj" [label=ARG1]
+	_in_p -> _failure_n_1 [label=ARG1]
+}

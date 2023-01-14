@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	plus -> "card(59)" [label=ARG2]
+	plus -> "card(3)" [label=ARG2]
+	_to_p -> "card(59)" [label=ARG2]
+	proper_q -> "named(Xerox)" [label=BV]
+	number_q -> "card(3)" [label=BV]
+	number_q -> "card(59)" [label=BV]
+	"_fall_v_1-fn.Halt" -> "named(Xerox)" [label="ARG1-fn.Purpose"]
+	plus -> "fraction(5/8)" [label=ARG3]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	loc_nonsp -> "card(3)" [label=ARG2]
+	plus -> "fraction(1/8)" [label=ARG3]
+}

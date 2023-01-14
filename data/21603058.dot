@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(van)" [label=BV]
+	compound -> "named(van)" [label=ARG2]
+	udef_q -> _enemy_n_1 [label=BV]
+	compound -> "named(Nghe)" [label=ARG1]
+	proper_q -> "named(Nghe)" [label=BV]
+	_influential_a_1 -> _enemy_n_1 [label=ARG1]
+	"_make_v_1-fn.IN" -> "named(Nghe)" [label="ARG1-fn.Agent"]
+	_quick_a_1 -> "_make_v_1-fn.IN" [label=ARG1]
+	"_make_v_1-fn.IN" -> _enemy_n_1 [label="ARG2-fn.Product"]
+}

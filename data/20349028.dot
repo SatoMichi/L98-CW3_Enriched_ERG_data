@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bring_v_1-fn.Bringing" -> _message_n_of [label="ARG2-fn.Theme"]
+	_guilty_a_of -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _crime_n_1 [label=BV]
+	_the_q -> _message_n_of [label=BV]
+	"_bring_v_1-fn.Bringing" -> _crime_n_1 [label="ARG1-fn.Instrument"]
+	_if_x_then -> _guilty_a_of [label=ARG1]
+	_if_x_then -> "_bring_v_1-fn.Bringing" [label=ARG2]
+}

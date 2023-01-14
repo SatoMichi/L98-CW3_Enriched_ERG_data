@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _official_n_1 [label=BV]
+	"_can_v_modal-fn.Communication_manner" -> _educational_a_1 [label="ARG1-fn.Speaker"]
+	poss -> "_nuances/nns_u_unknown" [label=ARG1]
+	"_express_v_to-fn.Cause_to_end" -> "_nuances/nns_u_unknown" [label="ARG2-fn.Means"]
+	_educational_a_1 -> nominalization [label=ARG1]
+	def_explicit_q -> "_nuances/nns_u_unknown" [label=BV]
+	nominalization -> "_let_v_1-fn.Competition" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_express_v_to-fn.Cause_to_end" -> _official_n_1 [label="ARG1-fn.Process"]
+	poss -> pron [label=ARG2]
+	_own_a_1 -> "_nuances/nns_u_unknown" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	"_let_v_1-fn.Competition" -> "_express_v_to-fn.Cause_to_end" [label="ARG2-fn.Participant_2"]
+}

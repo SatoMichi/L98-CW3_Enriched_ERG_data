@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _and_c [label=ARG1]
+	"_midsized/jj_u_unknown" -> _car_n_1 [label=ARG1]
+	focus_d -> loc_nonsp [label=ARG2]
+	proper_q -> "named(Honda)" [label=BV]
+	"_revamped/vbn_u_unknown" -> "named(Accord)" [label=ARG2]
+	_a_q -> _car_n_1 [label=BV]
+	"_make_v_1-fn.Cause_change" -> pron [label="ARG3-fn.NotExist"]
+	"_make_v_1-fn.Cause_change" -> "named(Honda)" [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	focus_d -> _and_c [label=ARG1]
+	"_make_v_1-fn.Cause_change" -> _car_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> "named(Accord)" [label=BV]
+	"_revamped/vbn_u_unknown" -> "named(Honda)" [label=ARG1]
+	_this_q_dem -> _year_n_1 [label=BV]
+}

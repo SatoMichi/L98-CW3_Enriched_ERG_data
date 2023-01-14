@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_think_v_1-fn.IN" -> _range_n_of [label="ARG2-fn.NotExist"]
+	_long_a_1 -> _range_n_of [label=ARG1]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_can_v_modal -> "_think_v_1-fn.IN" [label=ARG1]
+	udef_q -> _range_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

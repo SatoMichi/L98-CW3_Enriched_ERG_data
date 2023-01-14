@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_all_q -> _business_n_1 [label=BV]
+	appos -> _earthquake_n_1 [label=ARG1]
+	comp_equal -> _abrupt_a_1 [label=ARG1]
+	_as_x_subord -> "_shut_v_down-fn.Perception_active" [label=ARG2]
+	"_shut_v_down-fn.Perception_active" -> _business_n_1 [label="ARG1-fn.Perceiver_agentive"]
+	_the_q -> "_dislocation/nn_u_unknown" [label=BV]
+	comp_equal -> _earthquake_n_1 [label=ARG2]
+	appos -> pron [label=ARG2]
+	_virtually_x_deg -> _all_q [label=ARG1]
+	_the_q -> _earthquake_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_economic_a_1 -> "_dislocation/nn_u_unknown" [label=ARG1]
+	_as_x_subord -> _abrupt_a_1 [label=ARG1]
+	_abrupt_a_1 -> "_dislocation/nn_u_unknown" [label=ARG1]
+}

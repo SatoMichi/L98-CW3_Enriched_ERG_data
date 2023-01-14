@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _office_n_of [label=BV]
+	def_explicit_q -> "named(Board)" [label=BV]
+	compound -> "named(Board)" [label=ARG1]
+	parg_d -> _office_n_of [label=ARG2]
+	compound -> "named(Rent)" [label=ARG2]
+	poss -> _city_n_1 [label=ARG2]
+	parg_d -> "_destroy_v_1-fn.Destroying" [label=ARG1]
+	proper_q -> "named(Rent)" [label=BV]
+	_the_q -> _city_n_1 [label=BV]
+	"_destroy_v_1-fn.Destroying" -> _office_n_of [label="ARG2-fn.Patient"]
+	_office_n_of -> "named(Board)" [label=ARG1]
+	poss -> "named(Board)" [label=ARG1]
+}

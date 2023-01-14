@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(COKE)" [label=BV]
+	compound -> "named(COKE)" [label=ARG1]
+	unknown -> "named(COKE)" [label=ARG]
+	_colon_p_namely -> "named(COKE)" [label=ARG1]
+	compound -> "named(DIET)" [label=ARG2]
+	proper_q -> "named(DIET)" [label=BV]
+}

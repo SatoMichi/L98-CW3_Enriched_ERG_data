@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_note_v_to -> pron [label=ARG1]
+	_the_q -> _word_n_of [label=BV]
+	"_use_v_1-fn.IN" -> "_deny_v_to-fn.Statement" [label="ARG3-fn.NotExist"]
+	parg_d -> _word_n_of [label=ARG2]
+	"_deny_v_to-fn.Statement" -> _and_c [label="ARG2-fn.Predicate"]
+	_imperial_a_1 -> _word_n_of [label=ARG1]
+	parg_d -> "_use_v_1-fn.IN" [label=ARG1]
+	"_use_v_1-fn.IN" -> _word_n_of [label="ARG2-fn.NotExist"]
+	udef_q -> _rage_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> "_sorrow/nn_u_unknown" [label=BV]
+	_public_a_1 -> _word_n_of [label=ARG1]
+	_note_v_to -> _word_n_of [label=ARG2]
+	_private_a_1 -> _and_c [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

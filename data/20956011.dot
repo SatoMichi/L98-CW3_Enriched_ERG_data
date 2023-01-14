@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> "named(York)" [label=ARG2]
+	_virtually_x_deg -> _every_q [label=ARG1]
+	compound -> "named(York)" [label=ARG1]
+	proper_q -> "named(York)" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	"_show_v_up-fn.Assemble" -> _analyst_n_1 [label="ARG1-fn.Individuals"]
+	_every_q -> _analyst_n_1 [label=BV]
+	"_automotive/jj_u_unknown" -> _analyst_n_1 [label=ARG1]
+	proper_q -> "named(New)" [label=BV]
+	_in_p -> _analyst_n_1 [label=ARG1]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_this_q_dem -> generic_entity [label=BV]
+	unspec_manner -> "_happen_v_1-fn.Event" [label=ARG1]
+	which_q -> manner [label=BV]
+	"_happen_v_1-fn.Event" -> generic_entity [label="ARG1-fn.NotExist"]
+	unspec_manner -> manner [label=ARG2]
+}

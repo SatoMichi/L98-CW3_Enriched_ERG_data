@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> "_estimate_v_at-fn.Estimating" [label=ARG1]
+	_at_p -> _subscriber_n_to [label=ARG2]
+	_during_p -> _market_n_1 [label=ARG1]
+	"card(25,000)" -> _subscriber_n_to [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	"_estimate_v_at-fn.Estimating" -> _market_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _startup_n_1 [label=BV]
+	parg_d -> _market_n_1 [label=ARG2]
+	udef_q -> _subscriber_n_to [label=BV]
+	parg_d -> "_estimate_v_at-fn.Estimating" [label=ARG1]
+	_during_p -> _startup_n_1 [label=ARG2]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _hand_n_1 [label=BV]
+	"card(4,345)" -> _stock_n_1 [label=ARG1]
+	_the_q -> _stock_n_1 [label=BV]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> generic_entity [label="ARG1-fn.Attribute"]
+	"card(1,040)" -> generic_entity [label=ARG1]
+	_of_x_subord -> _and_c [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	"card(1,174)" -> generic_entity [label=ARG1]
+	"_advance_v_1-fn.Competition" -> generic_entity [label="ARG1-fn.Participant_1"]
+	"_change_v_cause-fn.Cause_motion" -> _hand_n_1 [label="ARG2-fn.Theme"]
+	unknown -> _stock_n_1 [label=ARG]
+	_of_x_subord -> unknown [label=ARG2]
+	"_change_v_cause-fn.Cause_motion" -> _stock_n_1 [label="ARG1-fn.Agent"]
+}

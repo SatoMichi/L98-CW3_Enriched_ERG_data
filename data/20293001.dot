@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Guinea)" [label=BV]
+	compound -> _pig_n_1 [label=ARG1]
+	"_come_v_1-fn.Competition" -> _audit_n_of [label="ARG1-fn.Participant_1"]
+	udef_q -> _research_n_1 [label=BV]
+	"card(55,500)" -> "_taxpayers/nns_u_unknown" [label=ARG1]
+	_to_p -> "_taxpayers/nns_u_unknown" [label=ARG2]
+	_intensive_a_1 -> _audit_n_of [label=ARG1]
+	_to_p -> "_come_v_1-fn.Competition" [label=ARG1]
+	compound -> _research_n_1 [label=ARG2]
+	udef_q -> "_taxpayers/nns_u_unknown" [label=BV]
+	_as_p -> "_taxpayers/nns_u_unknown" [label=ARG1]
+	compound -> "named(Guinea)" [label=ARG2]
+	udef_q -> _audit_n_of [label=BV]
+	udef_q -> _pig_n_1 [label=BV]
+	_as_p -> _pig_n_1 [label=ARG2]
+}

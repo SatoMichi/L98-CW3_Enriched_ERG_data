@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "_handlers/nns_u_unknown" [label=ARG1]
+	"_press_v_on-fn.Halt" -> "_handlers/nns_u_unknown" [label="ARG1-fn.Purpose"]
+	"_vow_v_to-fn.Cause_to_end" -> "_press_v_on-fn.Halt" [label="ARG2-fn.Means"]
+	"_un-_a_rvrs" -> _deter_v_1 [label=ARG1]
+	def_explicit_q -> "_handlers/nns_u_unknown" [label=BV]
+	"_vow_v_to-fn.Cause_to_end" -> "_handlers/nns_u_unknown" [label="ARG1-fn.Process"]
+	parg_d -> _deter_v_1 [label=ARG1]
+	subord -> "_vow_v_to-fn.Cause_to_end" [label=ARG1]
+	poss -> "named(D.T.)" [label=ARG2]
+	subord -> _deter_v_1 [label=ARG2]
+	proper_q -> "named(D.T.)" [label=BV]
+}

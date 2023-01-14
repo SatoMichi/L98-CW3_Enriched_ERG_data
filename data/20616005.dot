@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> "_list_v_1-fn.Social_event" [label=ARG1]
+	"_list_v_1-fn.Social_event" -> _rest_n_of [label="ARG2-fn.Social_event"]
+	_spanish_a_1 -> _exchange_n_1 [label=ARG1]
+	compound -> _stock_n_1 [label=ARG2]
+	_on_p -> _exchange_n_1 [label=ARG2]
+	compound -> _exchange_n_1 [label=ARG1]
+	_the_q -> _rest_n_of [label=BV]
+	parg_d -> "_list_v_1-fn.Social_event" [label=ARG1]
+	udef_q -> _exchange_n_1 [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	parg_d -> _rest_n_of [label=ARG2]
+}

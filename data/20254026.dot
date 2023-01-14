@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _month_n_1 [label=BV]
+	_the_q -> _change_n_of [label=BV]
+	_from_p -> generic_entity [label=ARG2]
+	_from_p -> _change_n_of [label=ARG1]
+	proper_q -> "mofy(Sep)" [label=BV]
+	udef_q -> generic_entity [label=BV]
+	_in_p_temp -> generic_entity [label=ARG1]
+	_from_p -> _colon_p_namely [label=ARG1]
+	proper_q -> "mofy(Aug)" [label=BV]
+	_previous_a_1 -> _month_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	"card(1.11)" -> generic_entity [label=ARG1]
+	_from_p -> "mofy(Aug)" [label=ARG2]
+	_in_p_temp -> _month_n_1 [label=ARG2]
+	_colon_p_namely -> _and_c [label=ARG1]
+}

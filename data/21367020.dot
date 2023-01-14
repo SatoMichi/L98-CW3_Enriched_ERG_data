@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bear_v_2-fn.Piracy" -> pron [label="ARG2-fn.Vehicle"]
+	_with_p -> pron [label=ARG2]
+	_with_p -> "_bear_v_2-fn.Piracy" [label=ARG1]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_bear_v_2-fn.Piracy" [label="ARG1-fn.Process"]
+	parg_d -> "_bear_v_2-fn.Piracy" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	parg_d -> pron [label=ARG2]
+}

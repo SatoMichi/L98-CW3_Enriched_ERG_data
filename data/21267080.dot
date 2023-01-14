@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _role_n_of [label=BV]
+	loc_nonsp -> place_n [label=ARG2]
+	"_play_v_1-fn.Halt" -> _role_n_of [label="ARG2-fn.Place"]
+	_here_a_1 -> place_n [label=ARG1]
+	_minimal_a_1 -> _role_n_of [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	"_play_v_1-fn.Halt" -> _logic_n_1 [label="ARG1-fn.Purpose"]
+	loc_nonsp -> "_play_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _logic_n_1 [label=BV]
+}

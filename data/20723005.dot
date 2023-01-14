@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _charter_n_1 [label=BV]
+	_the_q -> _government_n_of [label=BV]
+	"_oppose_v_1-fn.NF" -> _government_n_of [label="ARG1-fn.Patient"]
+	_in_p -> _charter_n_1 [label=ARG1]
+	def_explicit_q -> _form_n_of [label=BV]
+	_current_a_1 -> _form_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	_in_p -> _form_n_of [label=ARG2]
+	poss -> _form_n_of [label=ARG1]
+	_strong_a_1 -> "_oppose_v_1-fn.NF" [label=ARG1]
+	_british_a_1 -> _government_n_of [label=ARG1]
+	_also_a_1 -> "_oppose_v_1-fn.NF" [label=ARG1]
+	"_oppose_v_1-fn.NF" -> _charter_n_1 [label="ARG2-fn.Co-Patient"]
+	pronoun_q -> pron [label=BV]
+}

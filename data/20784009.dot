@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_welcome_v_1-fn.NF" -> "named(Dallas)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Dallas)" [label=BV]
+	focus_d -> _meanwhile_p [label=ARG2]
+	_meanwhile_p -> "_welcome_v_1-fn.NF" [label=ARG1]
+	_the_q -> _move_n_1 [label=BV]
+	"_welcome_v_1-fn.NF" -> _move_n_1 [label="ARG2-fn.Theme"]
+	focus_d -> "_welcome_v_1-fn.NF" [label=ARG1]
+}

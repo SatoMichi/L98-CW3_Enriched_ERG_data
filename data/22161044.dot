@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_out+of_p_dir" -> _closet_n_1 [label=ARG2]
+	ellipsis_ref -> _attitude_n_1 [label=ARG1]
+	_colon_p_namely -> ellipsis_ref [label=ARG1]
+	def_explicit_q -> _attitude_n_1 [label=BV]
+	"_out+of_p_dir" -> "_come_v_1-fn.Impact" [label=ARG1]
+	_the_q -> _closet_n_1 [label=BV]
+	poss -> _attitude_n_1 [label=ARG1]
+	"_come_v_1-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

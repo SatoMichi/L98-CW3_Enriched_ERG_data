@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(IBM)" [label=BV]
+	_unusual_a_about -> _push_n_1 [label=ARG1]
+	_approach_n_to -> nominalization [label=ARG1]
+	_also_a_1 -> _unusual_a_about [label=ARG1]
+	poss -> _push_n_1 [label=ARG1]
+	_in_p -> _approach_n_to [label=ARG2]
+	def_explicit_q -> _approach_n_to [label=BV]
+	nominalization -> _market_v_1 [label=ARG1]
+	poss -> _approach_n_to [label=ARG1]
+	_in_p -> _unusual_a_about [label=ARG1]
+	poss -> "named(IBM)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _push_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	udef_q -> nominalization [label=BV]
+}

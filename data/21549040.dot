@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Krenz)" [label=BV]
+	_the_q -> _diplomat_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	udef_q -> "_thing_n_of-about" [label=BV]
+	_go_v_1 -> "_thing_n_of-about" [label=ARG1]
+	_for_p -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_have_v_1-fn.IN" -> "named(Krenz)" [label="ARG1-fn.Pivot"]
+	_several_a_1 -> "_thing_n_of-about" [label=ARG1]
+	"_have_v_1-fn.IN" -> "_thing_n_of-about" [label="ARG2-fn.Theme"]
+	"_add_v_to-fn.NF" -> "_have_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	"_add_v_to-fn.NF" -> _diplomat_n_1 [label="ARG1-fn.Agent"]
+	_for_p -> _go_v_1 [label=ARG1]
+	compound -> "named(Krenz)" [label=ARG1]
+}

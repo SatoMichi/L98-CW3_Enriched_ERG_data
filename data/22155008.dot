@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(IBM)" [label=BV]
+	proper_q -> "named(New+York)" [label=BV]
+	"_upbeat/jj_u_unknown" -> "named(New+York)" [label=ARG1]
+	compound -> "named(Armonk)" [label=ARG2]
+	"_remain_v_1-fn.Competition" -> "named(New+York)" [label="ARG1-fn.Participant_1"]
+	compound -> "named(IBM)" [label=ARG2]
+	compound -> "named(New+York)" [label=ARG1]
+	"_remain_v_1-fn.Competition" -> "_upbeat/jj_u_unknown" [label="ARG2-fn.Participant_2"]
+	proper_q -> "named(Armonk)" [label=BV]
+}

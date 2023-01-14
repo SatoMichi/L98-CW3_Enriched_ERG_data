@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> pron [label=ARG2]
+	neg -> "_break_v_out-fn.break.06" [label=ARG1]
+	proper_q -> "named(Shearson)" [label=BV]
+	def_explicit_q -> _subsidiary_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> _subsidiary_n_1 [label=ARG1]
+	"_break_v_out-fn.break.06" -> "named(Shearson)" [label="ARG1-fn.NotExist"]
+	_of_p -> _earnings_n_1 [label=ARG1]
+	_of_p -> _subsidiary_n_1 [label=ARG2]
+	_the_q -> _earnings_n_1 [label=BV]
+	"_break_v_out-fn.break.06" -> _earnings_n_1 [label="ARG2-fn.Theme"]
+}

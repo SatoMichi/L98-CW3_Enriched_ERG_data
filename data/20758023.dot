@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_let_v_1-fn.Competition" -> "_fastball/nn_u_unknown" [label="ARG2-fn.Participant_2"]
+	"_wind_v_up-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	"_let_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	_a_q -> "_fastball/nn_u_unknown" [label=BV]
+	"_wind_v_up-fn.Halt" -> "_fastball/nn_u_unknown" [label="ARG2-fn.Place"]
+	subord -> _loose_a_with [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	subord -> "_let_v_1-fn.Competition" [label=ARG1]
+}

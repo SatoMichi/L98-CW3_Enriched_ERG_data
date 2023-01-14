@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	compound -> _executive_n_1 [label=ARG1]
+	"card(20)" -> _year_n_1 [label=ARG1]
+	"_market_v_1-fn.Commerce_buy" -> _executive_n_1 [label="ARG1-fn.Buyer"]
+	compound -> _sale_n_of [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _executive_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _year_n_1 [label=BV]
+	proper_q -> "named(Chrysler)" [label=BV]
+	_a_q -> _executive_n_1 [label=BV]
+	udef_q -> _sale_n_of [label=BV]
+	_with_p -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_with_p -> "named(Chrysler)" [label=ARG2]
+	_for_p -> _year_n_1 [label=ARG2]
+	_for_p -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Movieline)" [label=BV]
+	_the_q -> _building_n_1 [label=BV]
+	_now_a_1 -> "_locate_v_1-fn.Cause_to_end" [label=ARG1]
+	"_locate_v_1-fn.Cause_to_end" -> "named(Movieline)" [label="ARG2-fn.Means"]
+	_in_p -> "named(Movieline)" [label=ARG1]
+	comp_equal -> "named(Vesoft)" [label=ARG2]
+	parg_d -> "_locate_v_1-fn.Cause_to_end" [label=ARG1]
+	comp_equal -> _same_a_as [label=ARG1]
+	_in_p -> _building_n_1 [label=ARG2]
+	proper_q -> "named(Vesoft)" [label=BV]
+	parg_d -> "named(Movieline)" [label=ARG2]
+	"_locate_v_1-fn.Cause_to_end" -> _in_p [label="ARG3-fn.Place"]
+	_same_a_as -> _building_n_1 [label=ARG1]
+}

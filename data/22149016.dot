@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _landscape_n_1 [label=BV]
+	unknown -> _landscape_n_1 [label=ARG]
+	_effusive_a_1 -> _landscape_n_1 [label=ARG1]
+}

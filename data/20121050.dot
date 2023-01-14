@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _upset_v_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	_about_p -> "_thing_n_of-about" [label=ARG2]
+	_about_p -> _upset_v_1 [label=ARG1]
+	_upset_v_1 -> pron [label=ARG2]
+	"_get_v_state-fn.IN" -> _too_a_also [label="ARG3-fn.NotExist"]
+	"_get_v_state-fn.IN" -> pron [label="ARG2-fn.Patient"]
+	_too_a_also -> _upset_v_1 [label=ARG1]
+	"_want_v_1-fn.Desiring" -> "_get_v_state-fn.IN" [label="ARG2-fn.Theme"]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	_these_q_dem -> "_thing_n_of-about" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

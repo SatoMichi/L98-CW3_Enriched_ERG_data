@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _market_n_1 [label=BV]
+	"_change_v_1-fn.Relative_time" -> _market_n_1 [label="ARG1-fn.Focal_occasion"]
+}

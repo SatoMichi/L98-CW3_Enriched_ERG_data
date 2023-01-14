@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _week_n_1 [label=ARG2]
+	"_kill_v_1-fn.Killing" -> _brand_n_of [label="ARG2-fn.Patient"]
+	loc_nonsp -> "_kill_v_1-fn.Killing" [label=ARG1]
+	def_implicit_q -> _week_n_1 [label=BV]
+	"_force_v_1-fn.NF" -> "named(Ford)" [label="ARG2-fn.Patient"]
+	"_force_v_1-fn.NF" -> "_kill_v_1-fn.Killing" [label="ARG3-fn.Result"]
+	_last_a_1 -> _week_n_1 [label=ARG1]
+	"_kill_v_1-fn.Killing" -> "named(Ford)" [label="ARG1-fn.Agent"]
+	_the_q -> _brand_n_of [label=BV]
+	proper_q -> "named(Ford)" [label=BV]
+	_just_x_deg -> def_implicit_q [label=ARG1]
+	udef_q -> _sale_n_of [label=BV]
+	_slow_a_1 -> _sale_n_of [label=ARG1]
+	"_force_v_1-fn.NF" -> _sale_n_of [label="ARG1-fn.Agent"]
+}

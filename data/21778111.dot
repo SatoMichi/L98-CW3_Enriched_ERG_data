@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> _structure_n_1 [label="ARG2-fn.Location"]
+	_flimsy_a_1 -> _structure_n_1 [label=ARG1]
+	udef_q -> _support_n_of [label=BV]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	parg_d -> _structure_n_1 [label=ARG2]
+	"_rock_v_1-fn.Piracy" -> pron [label="ARG1-fn.Perpetrator"]
+	_on_p -> "_build_v_up-fn.Social_event" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_build_v_up-fn.Social_event" -> _structure_n_1 [label="ARG2-fn.Social_event"]
+	parg_d -> "_build_v_up-fn.Social_event" [label=ARG1]
+	_really_a_1 -> "_rock_v_1-fn.Piracy" [label=ARG1]
+	_on_p -> _support_n_of [label=ARG2]
+	_a_q -> _structure_n_1 [label=BV]
+	_around_p -> "_rock_v_1-fn.Piracy" [label=ARG1]
+}

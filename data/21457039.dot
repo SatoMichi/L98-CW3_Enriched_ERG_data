@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Giuliani)" [label=ARG2]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> _conundrum_n_1 [label="ARG2-fn.Location"]
+	focus_d -> _for_p [label=ARG2]
+	compound -> _force_n_1 [label=ARG1]
+	_the_q -> _force_n_1 [label=BV]
+	_a_q -> _conundrum_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_for_p -> "_be_v_id-fn.Residence" [label=ARG1]
+	proper_q -> "named(Giuliani)" [label=BV]
+	_for_p -> _force_n_1 [label=ARG2]
+	focus_d -> "_be_v_id-fn.Residence" [label=ARG1]
+}

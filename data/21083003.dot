@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _pipeline_n_1 [label=ARG2]
+	_the_q -> _rest_n_1 [label=BV]
+	"_own_v_1-fn.NF" -> _rest_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _percent_n_of [label=BV]
+	"_own_v_1-fn.NF" -> "named(Coda)" [label="ARG1-fn.Pivot"]
+	proper_q -> "named(Coda)" [label=BV]
+	udef_q -> _entity_n_1 [label=BV]
+	"card(60)" -> _percent_n_of [label=ARG1]
+	"_own_v_1-fn.NF" -> _percent_n_of [label="ARG2-fn.Theme"]
+	_private_a_1 -> _entity_n_1 [label=ARG1]
+	"_own_v_1-fn.NF" -> _entity_n_1 [label="ARG1-fn.Pivot"]
+	_of_p -> _percent_n_of [label=ARG1]
+	_the_q -> _pipeline_n_1 [label=BV]
+}

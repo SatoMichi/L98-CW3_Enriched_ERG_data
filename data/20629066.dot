@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> generic_entity [label=ARG2]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_this_q_dem -> generic_entity [label=BV]
+	_the_q -> _loophole_n_1 [label=BV]
+	_total_a_1 -> _unprepared_a_1 [label=ARG1]
+	"_try_v_1-fn.Attempt" -> "_plug_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	_unprepared_a_1 -> pron [label=ARG1]
+	"_plug_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_various_a_1 -> _loophole_n_1 [label=ARG1]
+	_for_p -> _unprepared_a_1 [label=ARG1]
+	"_plug_v_1-fn.NF" -> _loophole_n_1 [label="ARG2-fn.Destination"]
+	pronoun_q -> pron [label=BV]
+}

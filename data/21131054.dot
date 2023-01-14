@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_standard_a_1 -> _practice_n_of [label=ARG1]
+	compound -> _practice_n_of [label=ARG1]
+	"_impose_v_on-fn.NF" -> _practice_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _practice_n_of [label=BV]
+	udef_q -> _accounting_n_1 [label=BV]
+	number_q -> "card(4.)" [label=BV]
+	"_impose_v_on-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	compound -> _accounting_n_1 [label=ARG2]
+	_administrative_a_1 -> _practice_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

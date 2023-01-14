@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	_those_q_dem -> generic_entity [label=BV]
+	neg -> "_clarify_v_to-fn.State_continue" [label=ARG1]
+	"_clarify_v_to-fn.State_continue" -> thing [label="ARG2-fn.State"]
+	"_be_v_id-fn.Residence" -> thing [label="ARG2-fn.Location"]
+	free_relative_q -> thing [label=BV]
+	"_be_v_id-fn.Residence" -> generic_entity [label="ARG1-fn.Resident"]
+	"_clarify_v_to-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	"_might_v_modal-fn.Cause_to_end" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Process"]
+}

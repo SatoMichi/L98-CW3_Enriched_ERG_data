@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_seem_v_to-fn.Cause_to_end" [label=ARG1]
+	"_resentful/jj_u_unknown" -> pron [label=ARG1]
+	"_seem_v_to-fn.Cause_to_end" -> "_resentful/jj_u_unknown" [label="ARG2-fn.Means"]
+	"_a+mite_x_deg" -> "_resentful/jj_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_seem_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	"_in+fact_a_1" -> "_seem_v_to-fn.Cause_to_end" [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "named_n(House)" [label=BV]
+	"_raise_v_cause-fn.NF" -> _version_n_of [label="ARG1-fn.Agent"]
+	_would_v_modal -> "_raise_v_cause-fn.NF" [label=ARG1]
+	"_raise_v_cause-fn.NF" -> generic_entity [label="ARG2-fn.Theme"]
+	comp -> "much-many_a" [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	_slight_a_1 -> "much-many_a" [label=ARG1]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_the_q -> _version_n_of [label=BV]
+	compound -> _version_n_of [label=ARG1]
+	compound -> "named_n(House)" [label=ARG2]
+}

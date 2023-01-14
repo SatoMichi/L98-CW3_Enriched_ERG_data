@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lead_v_1-fn.Cotheme" -> "named_n(US)" [label="ARG1-fn.Agent"]
+	_should_v_modal -> "_lead_v_1-fn.Cotheme" [label=ARG1]
+	compound -> _consumer_n_of [label=ARG1]
+	_this_q_dem -> _effort_n_1 [label=BV]
+	"_lead_v_1-fn.Cotheme" -> _effort_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _consumer_n_of [label=BV]
+	_as_p -> "named_n(US)" [label=ARG1]
+	_joint_a_1 -> _effort_n_1 [label=ARG1]
+	compound -> _drug_n_1 [label=ARG2]
+	udef_q -> _drug_n_1 [label=BV]
+	_major_a_1 -> _consumer_n_of [label=ARG1]
+	_the_q -> "named_n(US)" [label=BV]
+	_as_p -> _consumer_n_of [label=ARG2]
+}

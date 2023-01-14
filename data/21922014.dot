@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _public_n_1 [label=ARG2]
+	_the_q -> _public_n_1 [label=BV]
+	_the_q -> _span_n_1 [label=BV]
+	focus_d -> _short_a_of [label=ARG2]
+	_short_a_of -> _span_n_1 [label=ARG1]
+	compound -> _attention_n_to [label=ARG2]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	compound -> _span_n_1 [label=ARG1]
+	udef_q -> _attention_n_to [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> _short_a_of [label="ARG2-fn.Topic"]
+	_of_p -> _span_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

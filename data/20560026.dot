@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Westinghouse)" [label=BV]
+	_figure_v_1 -> "named(Westinghouse)" [label=ARG1]
+	_figure_v_1 -> _prepared_a_1 [label=ARG2]
+	_prepared_a_1 -> pron [label=ARG1]
+	_that_q_dem -> _scenario_n_1 [label=BV]
+	"_occur_v_to-fn.Event" -> _scenario_n_1 [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+	_if_x_then -> _figure_v_1 [label=ARG1]
+	_if_x_then -> "_occur_v_to-fn.Event" [label=ARG2]
+	_even_x_deg -> _if_x_then [label=ARG1]
+}

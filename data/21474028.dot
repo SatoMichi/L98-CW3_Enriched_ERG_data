@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"_leave_v_1-fn.Quitting" -> "named(Brody)" [label="ARG1-fn.Theme"]
+	"_in+order+to_x" -> "_find_v_1-fn.IN" [label=ARG2]
+	udef_q -> _backer_n_1 [label=BV]
+	"_in+order+to_x" -> "_leave_v_1-fn.Quitting" [label=ARG1]
+	proper_q -> "named(Brody)" [label=BV]
+	compound -> "named(Brody)" [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	"_find_v_1-fn.IN" -> _backer_n_1 [label="ARG2-fn.Theme"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_find_v_1-fn.IN" -> "named(Brody)" [label="ARG1-fn.Agent"]
+	_other_a_1 -> _backer_n_1 [label=ARG1]
+	"_leave_v_1-fn.Quitting" -> _company_n_of [label="ARG2-fn.Initial_Location"]
+}

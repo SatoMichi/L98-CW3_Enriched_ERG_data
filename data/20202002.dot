@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> "dofm(15)" [label=BV]
+	_payable_a_to -> _rate_n_of [label=ARG1]
+	of_p -> "mofy(Feb)" [label=ARG2]
+	_new_a_1 -> _rate_n_of [label=ARG1]
+	of_p -> "dofm(15)" [label=ARG1]
+	_the_q -> _rate_n_of [label=BV]
+	loc_nonsp -> "dofm(15)" [label=ARG2]
+	loc_nonsp -> _payable_a_to [label=ARG1]
+	def_implicit_q -> "mofy(Feb)" [label=BV]
+}

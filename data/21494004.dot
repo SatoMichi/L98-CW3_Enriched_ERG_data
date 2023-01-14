@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_assign_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	_also_a_1 -> "_assign_v_1-fn.Competition" [label=ARG1]
+	"_re-_a_again" -> "_assign_v_1-fn.Competition" [label=ARG1]
+	"_assign_v_1-fn.Competition" -> _responsibility_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _responsibility_n_1 [label=BV]
+	_several_a_1 -> _responsibility_n_1 [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	compound -> _responsibility_n_1 [label=ARG1]
+	compound -> _executive_n_1 [label=ARG2]
+	udef_q -> _executive_n_1 [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	nominalization -> _refine_v_1 [label=ARG1]
+	poss -> _and_c [label=ARG1]
+	_in_p -> _and_c [label=ARG2]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _business_n_1 [label="ARG2-fn.Item"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	poss -> "named(Sun)" [label=ARG2]
+	udef_q -> _coal_n_1 [label=BV]
+	udef_q -> _result_n_of [label=BV]
+	nominalization -> _market_v_1 [label=ARG1]
+	_in_p -> "_decline_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	def_explicit_q -> _and_c [label=BV]
+	"_decline_v_1-fn.Change_position_on_a_scale" -> _result_n_of [label="ARG1-fn.Attribute"]
+	udef_q -> nominalization [label=BV]
+	proper_q -> "named(Sun)" [label=BV]
+}

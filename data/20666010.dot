@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_concede_v_to-fn.Quitting" -> _off_p [label="ARG2-fn.Employer"]
+	compound -> _company_n_of [label=ARG1]
+	"_concede_v_to-fn.Quitting" -> _company_n_of [label="ARG1-fn.Employee"]
+	udef_q -> _business_n_1 [label=BV]
+	udef_q -> _company_n_of [label=BV]
+	_off_p -> _business_n_1 [label=ARG1]
+	udef_q -> _paper_n_1 [label=BV]
+	compound -> _paper_n_1 [label=ARG2]
+	_recent_a_1 -> _off_p [label=ARG1]
+}

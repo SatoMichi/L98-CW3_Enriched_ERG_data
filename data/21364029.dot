@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Daiwa)" [label=BV]
+	"_name_v_1-fn.Judgment_direct_address" -> "named(Securities)" [label="ARG1-fn.Communicator"]
+	compound -> "named(Daiwa)" [label=ARG2]
+	"_name_v_1-fn.Judgment_direct_address" -> _president_n_of [label="ARG2-fn.Addressee"]
+	proper_q -> "named(Japan)" [label=BV]
+	poss -> "named(Securities)" [label=ARG1]
+	compound -> "named(Masahiro)" [label=ARG2]
+	proper_q -> "named(Dozen)" [label=BV]
+	udef_q -> _president_n_of [label=BV]
+	compound -> "named(Dozen)" [label=ARG1]
+	poss -> "named(Japan)" [label=ARG2]
+	proper_q -> "named(Masahiro)" [label=BV]
+	def_explicit_q -> "named(Securities)" [label=BV]
+	"_name_v_1-fn.Judgment_direct_address" -> "named(Dozen)" [label="ARG3-fn.Topic"]
+	compound -> "named(Securities)" [label=ARG1]
+}

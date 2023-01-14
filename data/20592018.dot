@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_weak_a_1 -> _economy_n_1 [label=ARG1]
+	udef_q -> _recession_n_1 [label=BV]
+	"_shove_v_1-fn.Impact" -> _into_p [label="ARG3-fn.Time"]
+	"_could_v_modal-fn.Cause_to_end" -> "_shove_v_1-fn.Impact" [label="ARG1-fn.Process"]
+	_that_q_dem -> generic_entity [label=BV]
+	"_shove_v_1-fn.Impact" -> generic_entity [label="ARG1-fn.Place"]
+	_into_p -> _economy_n_1 [label=ARG1]
+	_a_q -> _economy_n_1 [label=BV]
+	"_shove_v_1-fn.Impact" -> _economy_n_1 [label="ARG2-fn.Result"]
+	_into_p -> _recession_n_1 [label=ARG2]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	_for_p -> "mofy(Nov)" [label=ARG2]
+	udef_q -> _volume_n_of [label=BV]
+	_a_q -> _beginning_n_1 [label=BV]
+	_in_p_state -> _term_n_of [label=ARG2]
+	_in_p_state -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	proper_q -> "mofy(Nov)" [label=BV]
+	focus_d -> "_be_v_id-fn.Cotheme" [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> _beginning_n_1 [label="ARG2-fn.Cotheme"]
+	udef_q -> _term_n_of [label=BV]
+	_for_p -> _beginning_n_1 [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> pron [label="ARG1-fn.Theme"]
+	focus_d -> _in_p_state [label=ARG2]
+	_term_n_of -> _volume_n_of [label=ARG1]
+	"_inauspicious/jj_u_unknown" -> _beginning_n_1 [label=ARG1]
+}

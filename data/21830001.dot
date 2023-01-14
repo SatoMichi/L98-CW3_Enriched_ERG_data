@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Maynard)" [label=ARG1]
+	"_offer_v_1-fn.NF" -> _world_n_of [label="ARG3-fn.NotExist"]
+	"_offer_v_1-fn.NF" -> _way_n_of [label="ARG2-fn.Theme"]
+	"_offer_v_1-fn.NF" -> "named(Maynard)" [label="ARG1-fn.Agent"]
+	with_p -> _break_v_cause [label=ARG1]
+	_a_q -> _way_n_of [label=BV]
+	udef_q -> _egg_n_1 [label=BV]
+	_fast_a_1 -> _way_n_of [label=ARG1]
+	proper_q -> "named(Michael)" [label=BV]
+	_the_q -> _world_n_of [label=BV]
+	_break_v_cause -> _egg_n_1 [label=ARG2]
+	compound -> "named(Michael)" [label=ARG2]
+	with_p -> _way_n_of [label=ARG2]
+	comp -> _fast_a_1 [label=ARG1]
+	proper_q -> "named(Maynard)" [label=BV]
+}

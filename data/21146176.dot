@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_snort_v_1-fn.Attempt_suasion" -> "named(Pawlowski)" [label="ARG1-fn.Content"]
+	"_snort_v_1-fn.Attempt_suasion" -> _business_n_1 [label="ARG2-fn.Addressee"]
+	compound -> _mister_n_1 [label=ARG2]
+	_in_p -> "named(English)" [label=ARG2]
+	udef_q -> _business_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_big_a_1 -> _business_n_1 [label=ARG1]
+	focus_d -> "_snort_v_1-fn.Attempt_suasion" [label=ARG1]
+	compound -> "named(Pawlowski)" [label=ARG1]
+	proper_q -> "named(Pawlowski)" [label=BV]
+	proper_q -> "named(English)" [label=BV]
+	focus_d -> _business_n_1 [label=ARG2]
+	_in_p -> "_snort_v_1-fn.Attempt_suasion" [label=ARG1]
+}

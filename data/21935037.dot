@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stop_v_prd-fn.Activity_stop" -> _mess_v_with [label="ARG1-fn.Agent"]
+	def_explicit_q -> _market_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	_should_v_modal -> "_stop_v_prd-fn.Activity_stop" [label=ARG1]
+	_mess_v_with -> pron [label=ARG1]
+	_mess_v_with -> _market_n_1 [label=ARG2]
+	poss -> _market_n_1 [label=ARG1]
+	_too_a_also -> pron [label=ARG1]
+	_free_a_1 -> _market_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _opponent_n_1 [label=BV]
+	"_buy_v_1-fn.Commerce_buy" -> _opponent_n_1 [label="ARG1-fn.Agent"]
+	neg -> "_buy_v_1-fn.Commerce_buy" [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> _argument_n_1 [label="ARG2-fn.Theme"]
+	_such_q -> _argument_n_1 [label=BV]
+}

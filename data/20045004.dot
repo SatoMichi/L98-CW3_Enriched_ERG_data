@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_ask_v_1-fn.Request" -> pron [label="ARG2-fn.NotExist"]
+	"_add_v_to-fn.Statement" -> _and_c [label="ARG2-fn.Patient"]
+	pronoun_q -> pron [label=BV]
+	"_add_v_to-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _and_c [label=BV]
+	"_ask_v_1-fn.Request" -> "_add_v_to-fn.Statement" [label="ARG3-fn.NotExist"]
+	"card(3)" -> _seventh_n_of [label=ARG1]
+	"card(2)" -> _seventh_n_of [label=ARG1]
+	udef_q -> _seventh_n_of [label=BV]
+	_also_a_1 -> "_ask_v_1-fn.Request" [label=ARG1]
+}

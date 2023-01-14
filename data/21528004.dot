@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _agreement_n_1 [label=BV]
+	_the_q -> _merger_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_subject_a_to -> _merger_n_1 [label=ARG1]
+	_regulatory_a_1 -> _clearance_n_1 [label=ARG1]
+	_subject_a_to -> _and_c [label=ARG2]
+	udef_q -> _clearance_n_1 [label=BV]
+	_definitive_a_1 -> _agreement_n_1 [label=ARG1]
+}

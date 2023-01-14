@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_elaborate_v_on-fn.Fining" -> _statement_n_of [label="ARG2-fn.Instrument"]
+	_statement_n_of -> "_notify_v_of-fn.State_continue" [label=ARG1]
+	"_notify_v_of-fn.State_continue" -> pron [label="ARG2-fn.State"]
+	parg_d -> "_notify_v_of-fn.State_continue" [label=ARG1]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> "_elaborate_v_on-fn.Fining" [label="ARG1-fn.Process"]
+	"_notify_v_of-fn.State_continue" -> "named(Reliance)" [label="ARG1-fn.Entity"]
+	_the_q -> _filing_n_1 [label=BV]
+	proper_q -> "named(UAL)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_elaborate_v_on-fn.Fining" -> "named(UAL)" [label="ARG1-fn.Speaker"]
+	"_notify_v_of-fn.State_continue" -> _filing_n_1 [label="ARG3-fn.Time"]
+	_a_q -> _statement_n_of [label=BV]
+	proper_q -> "named(Reliance)" [label=BV]
+	parg_d -> pron [label=ARG2]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _rise_n_1 [label=ARG2]
+	compound -> _surveillance_n_of [label=ARG2]
+	compound -> _technology_n_1 [label=ARG1]
+	udef_q -> _surveillance_n_of [label=BV]
+	_on_p -> nominalization [label=ARG1]
+	_corporate_a_1 -> nominalization [label=ARG1]
+	"_thanks+to_p" -> _on_p [label=ARG1]
+	nominalization -> _eavesdrop_v_1 [label=ARG1]
+	_the_q -> _rise_n_1 [label=BV]
+	_private_a_1 -> nominalization [label=ARG1]
+	"_thanks+to_p" -> _proliferation_n_of [label=ARG2]
+	_the_q -> _proliferation_n_of [label=BV]
+	_proliferation_n_of -> _technology_n_1 [label=ARG1]
+	udef_q -> _technology_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Daewoo)" [label=BV]
+	_too_a_also -> "_expand_v_1-fn.Experiencer_obj" [label=ARG1]
+	"_expand_v_1-fn.Experiencer_obj" -> "named(Daewoo)" [label="ARG1-fn.Experiencer"]
+}

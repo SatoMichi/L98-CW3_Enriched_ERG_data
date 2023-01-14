@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"_think_v_1-fn.IN" -> ellipsis [label="ARG2-fn.NotExist"]
+	compound -> "named(Juliano)" [label=ARG1]
+	proper_q -> "named(Juliano)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_think_v_1-fn.IN" -> "named(Juliano)" [label="ARG1-fn.NotExist"]
+}

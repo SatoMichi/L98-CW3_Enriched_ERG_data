@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_when_x_subord -> "_stabilize_v_1-fn.Relative_time" [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _disappointment_n_at [label="ARG2-fn.Name"]
+	_a_q -> _disappointment_n_at [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	"_stabilize_v_1-fn.Relative_time" -> _stock_n_1 [label="ARG1-fn.Focal_occasion"]
+	"_be_v_id-fn.Name_conferral" -> generic_entity [label="ARG1-fn.Entity"]
+	_when_x_subord -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	udef_q -> _stock_n_1 [label=BV]
+}

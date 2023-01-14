@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_diplomacy/nn_u_unknown" [label=BV]
+	_likely_a_1 -> "_do_v_1-fn.Competition" [label=ARG1]
+	compound -> "_diplomacy/nn_u_unknown" [label=ARG1]
+	"_do_v_1-fn.Competition" -> "_diplomacy/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	_before_p -> "_do_v_1-fn.Competition" [label=ARG1]
+	"_do_v_1-fn.Competition" -> pron [label="ARG2-fn.Participant_2"]
+	compound -> "named_n(US)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	udef_q -> "named_n(US)" [label=BV]
+	_again_a_1 -> "_do_v_1-fn.Competition" [label=ARG1]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_even_x_deg -> _the_q [label=ARG1]
+	"_accede_v_1-fn.Competition" -> "_apologists/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	_now_a_1 -> "_accede_v_1-fn.Competition" [label=ARG1]
+	_the_q -> "_apologists/nns_u_unknown" [label=BV]
+	_american_a_1 -> "_apologists/nns_u_unknown" [label=ARG1]
+	_perhaps_a_1 -> "_accede_v_1-fn.Competition" [label=ARG1]
+}

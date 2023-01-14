@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_balloon_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	"_as+in_x" -> unknown [label=ARG1]
+	"_as+in_x" -> _colon_p_namely [label=ARG2]
+	"_go_v_ing-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+	_colon_p_namely -> "_go_v_ing-fn.Undergo_change" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_go_v_ing-fn.Undergo_change" -> "_balloon_v_1-fn.Halt" [label="ARG2-fn.Final_category"]
+}

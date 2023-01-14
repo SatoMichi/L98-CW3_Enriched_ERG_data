@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _wall_n_of [label=BV]
+	_small_a_1 -> "named(Renoir)" [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> "named(Renoir)" [label="ARG1-fn.Process"]
+	_on_p -> "named(Renoir)" [label=ARG1]
+	_a_q -> "named(Renoir)" [label=BV]
+	_on_p -> _wall_n_of [label=ARG2]
+}

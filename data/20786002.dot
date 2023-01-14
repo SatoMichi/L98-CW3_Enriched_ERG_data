@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _debt_n_1 [label=BV]
+	"_include_v_1-fn.Amounting_to" -> _assumption_n_1 [label="ARG2-fn.Attribute"]
+	times -> "card(1000000000)" [label=ARG3]
+	_also_a_1 -> "_include_v_1-fn.Amounting_to" [label=ARG1]
+	_of_p -> _dollar_n_1 [label=ARG2]
+	"_include_v_1-fn.Amounting_to" -> _price_n_of [label="ARG1-fn.Value"]
+	_the_q -> _price_n_of [label=BV]
+	udef_q -> _assumption_n_1 [label=BV]
+	times -> "card(1.4)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	_of_p -> _assumption_n_1 [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	_in_p -> _debt_n_1 [label=ARG2]
+	_in_p -> _dollar_n_1 [label=ARG1]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1)" -> _ton_n_1 [label=ARG1]
+	_equal_a_to -> _pound_n_1 [label=ARG2]
+	"card(2,204.62)" -> _pound_n_1 [label=ARG1]
+	_metric_a_1 -> _ton_n_1 [label=ARG1]
+	_equal_a_to -> _ton_n_1 [label=ARG1]
+	udef_q -> _ton_n_1 [label=BV]
+	udef_q -> _pound_n_1 [label=BV]
+}

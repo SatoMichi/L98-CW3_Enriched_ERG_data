@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_soft_a_1 -> _landing_n_1 [label=ARG1]
+	_a_q -> _landing_n_1 [label=BV]
+	"_call_v_for-fn.State_continue" -> _forecast_n_1 [label="ARG1-fn.Entity"]
+	pronoun_q -> pron [label=BV]
+	def_explicit_q -> _forecast_n_1 [label=BV]
+	poss -> _forecast_n_1 [label=ARG1]
+	"_call_v_for-fn.State_continue" -> _landing_n_1 [label="ARG2-fn.State"]
+	poss -> pron [label=ARG2]
+	_new_a_1 -> _forecast_n_1 [label=ARG1]
+}

@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_call_v_name-fn.IN" -> _farm_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _farm_n_1 [label=BV]
+	udef_q -> _fraud_n_1 [label=BV]
+	"_call_v_name-fn.IN" -> pron [label="ARG3-fn.Result"]
+	compound -> _farm_n_1 [label=ARG1]
+	compound -> _fraud_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	"_pay_v_for-fn.Receiving" -> _diversification_n_1 [label="ARG1-fn.Recipient"]
+	udef_q -> _diversification_n_1 [label=BV]
+}

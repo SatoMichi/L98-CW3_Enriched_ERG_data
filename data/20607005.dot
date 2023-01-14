@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _petroleum_n_1 [label=ARG2]
+	_a_q -> _refinery_n_1 [label=BV]
+	_operate_v_1 -> _refinery_n_1 [label=ARG2]
+	udef_q -> _petroleum_n_1 [label=BV]
+	compound -> "named(Paso)" [label=ARG1]
+	proper_q -> "named(Paso)" [label=BV]
+	proper_q -> "named(EL)" [label=BV]
+	"_own_v_1-fn.NF" -> _refinery_n_1 [label="ARG2-fn.Theme"]
+	"_own_v_1-fn.NF" -> "named(Paso)" [label="ARG1-fn.Pivot"]
+	_operate_v_1 -> "named(Paso)" [label=ARG1]
+	compound -> _refinery_n_1 [label=ARG1]
+	compound -> "named(EL)" [label=ARG2]
+}

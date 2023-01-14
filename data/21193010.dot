@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_familiar_a_with -> "_pitchmen/nns_u_unknown" [label=ARG1]
+	compound -> _gang_n_of [label=ARG1]
+	_in_p_temp -> "yofc(1990)" [label=ARG2]
+	compound -> "named(Peanuts)" [label=ARG2]
+	proper_q -> "named(Peanuts)" [label=BV]
+	_in_p_temp -> "_make_v_1-fn.Competition" [label=ARG1]
+	"_make_v_1-fn.Competition" -> "_pitchmen/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+	udef_q -> "_pitchmen/nns_u_unknown" [label=BV]
+	_the_q -> _gang_n_of [label=BV]
+	"_make_v_1-fn.Competition" -> _effort_n_1 [label="ARG1-fn.Participant_1"]
+	_the_q -> _effort_n_1 [label=BV]
+	proper_q -> "yofc(1990)" [label=BV]
+	_very_x_deg -> _familiar_a_with [label=ARG1]
+	"_make_v_1-fn.Competition" -> _gang_n_of [label="ARG3-fn.Participants"]
+}

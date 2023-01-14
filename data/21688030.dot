@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_believe_v_1-fn.Awareness" -> _might_v_modal [label="ARG2-fn.NotExist"]
+	proper_q -> "named(Bridge)" [label=BV]
+	compound -> _collapse_n_1 [label=ARG1]
+	_well_a_1 -> _might_v_modal [label=ARG1]
+	_might_v_modal -> "_apply_v_1-fn.Using" [label=ARG1]
+	_the_q -> _collapse_n_1 [label=BV]
+	compound -> "named(Bay)" [label=ARG2]
+	proper_q -> "named(Bay)" [label=BV]
+	"_believe_v_1-fn.Awareness" -> pron [label="ARG1-fn.NotExist"]
+	"_apply_v_1-fn.Using" -> _defense_n_1 [label="ARG1-fn.NotExist"]
+	compound -> "named(Bridge)" [label=ARG1]
+	_those_q_dem -> _defense_n_1 [label=BV]
+	_to_p -> "_apply_v_1-fn.Using" [label=ARG1]
+	_to_p -> _collapse_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

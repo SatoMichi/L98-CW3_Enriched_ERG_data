@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _freight_n_1 [label=ARG1]
+	_important_a_for -> "_sideline/nn_u_unknown" [label=ARG1]
+	"_cut_v_1-fn.Competition" -> _competition_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _freight_n_1 [label=BV]
+	_tough_a_for -> _competition_n_1 [label=ARG1]
+	_a_q -> "_sideline/nn_u_unknown" [label=BV]
+	compound -> _market_n_1 [label=ARG1]
+	_into_p -> "_sideline/nn_u_unknown" [label=ARG2]
+	udef_q -> _competition_n_1 [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	compound -> _air_n_1 [label=ARG2]
+	udef_q -> _air_n_1 [label=BV]
+	_into_p -> "_cut_v_1-fn.Competition" [label=ARG1]
+	_in_p -> _market_n_1 [label=ARG2]
+	_in_p -> _competition_n_1 [label=ARG1]
+}

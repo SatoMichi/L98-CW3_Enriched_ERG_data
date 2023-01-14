@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _equity_n_1 [label=ARG2]
+	udef_q -> _fund_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _equity_n_1 [label=BV]
+	_convertible_a_1 -> _fund_n_1 [label=ARG1]
+	unknown -> _and_c [label=ARG]
+	parg_d -> "_specialize_v_1-fn.Cause_to_end" [label=ARG1]
+	"_specialize_v_1-fn.Cause_to_end" -> _equity_n_1 [label="ARG2-fn.Means"]
+}

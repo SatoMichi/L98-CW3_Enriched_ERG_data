@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _fund_n_1 [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _companion_n_1 [label=BV]
+	_exempt_a_from -> _fund_n_1 [label=ARG1]
+	compound -> _exempt_a_from [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	udef_q -> _dollar_n_1 [label=BV]
+	compound -> _tax_n_1 [label=ARG2]
+	_the_q -> _fund_n_1 [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> _dollar_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _tax_n_1 [label=BV]
+	compound -> _companion_n_1 [label=ARG2]
+	times -> "card(71)" [label=ARG2]
+	"_add_v_to-fn.Cause_to_end" -> _fund_n_1 [label="ARG1-fn.Process"]
+}

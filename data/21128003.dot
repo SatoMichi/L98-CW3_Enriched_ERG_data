@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"ord(2)" -> _thought_n_of [label=ARG1]
+	udef_q -> _thought_n_of [label=BV]
+	"_make_v_1-fn.Cause_change" -> "named(Mom)" [label="ARG2-fn.Theme"]
+	_just_x_deg -> proper_q [label=ARG1]
+	_on_p_state -> "_make_v_1-fn.Cause_change" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	"_make_v_1-fn.Cause_change" -> pron [label="ARG1-fn.Agent"]
+	"_make_v_1-fn.Cause_change" -> generic_entity [label="ARG3-fn.NotExist"]
+	proper_q -> "named(Mom)" [label=BV]
+	focus_d -> _on_p_state [label=ARG2]
+	_on_p_state -> _thought_n_of [label=ARG2]
+	focus_d -> "_make_v_1-fn.Cause_change" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

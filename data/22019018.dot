@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_just_x_deg -> comp_equal [label=ARG1]
+	comp_equal -> _confused_a_about [label=ARG1]
+	_confused_a_about -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

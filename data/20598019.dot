@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _system_n_of [label=ARG1]
+	_a_q -> _amount_n_of [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> _amount_n_of [label="ARG2-fn.Means"]
+	"_add_v_to-fn.Cause_to_end" -> _system_n_of [label="ARG3-fn.Place"]
+	udef_q -> _reserve_n_1 [label=BV]
+	parg_d -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _banking_n_1 [label=BV]
+	_the_q -> _system_n_of [label=BV]
+	_surprising_a_1 -> _small_a_1 [label=ARG1]
+	parg_d -> _amount_n_of [label=ARG2]
+	compound -> _banking_n_1 [label=ARG2]
+	_small_a_1 -> _amount_n_of [label=ARG1]
+	_amount_n_of -> _reserve_n_1 [label=ARG1]
+}

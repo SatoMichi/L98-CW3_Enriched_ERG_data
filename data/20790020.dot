@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_wish_v_1-fn.Desiring" -> _son_n_of [label="ARG1-fn.Pivot"]
+	_successful_a_1 -> _son_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	_the_q -> _son_n_of [label=BV]
+	"_wish_v_1-fn.Desiring" -> _sibling_n_1 [label="ARG2-fn.Theme"]
+	subord -> _dead_a_1 [label=ARG2]
+	subord -> "_wish_v_1-fn.Desiring" [label=ARG1]
+	poss -> _sibling_n_1 [label=ARG1]
+	_embarrassing_a_1 -> _sibling_n_1 [label=ARG1]
+	def_explicit_q -> _sibling_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

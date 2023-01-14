@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _participant_n_1 [label=BV]
+	_new_a_1 -> _company_n_of [label=ARG1]
+	"_limit_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	"_say_v_to-fn.Cause_to_end" -> "_attempt_v_1-fn.Competition" [label="ARG2-fn.Means"]
+	"_limit_v_1-fn.Competition" -> _loss_n_of [label="ARG2-fn.Participant_2"]
+	poss -> _loss_n_of [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_the_q -> "_shipyard/nn_u_unknown" [label=BV]
+	focus_d -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	"_attempt_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	def_explicit_q -> _loss_n_of [label=BV]
+	"_say_v_to-fn.Cause_to_end" -> _participant_n_1 [label="ARG1-fn.Process"]
+	"_attempt_v_1-fn.Competition" -> "_limit_v_1-fn.Competition" [label="ARG2-fn.Participant_2"]
+	poss -> "_shipyard/nn_u_unknown" [label=ARG2]
+	focus_d -> "_attempt_v_1-fn.Competition" [label=ARG2]
+}

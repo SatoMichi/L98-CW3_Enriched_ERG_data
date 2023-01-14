@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_celebrities/nns_u_unknown" [label=BV]
+	"_make_v_of-fn.Cotheme" -> _man_n_1 [label="ARG3-fn.Source"]
+	"_make_v_of-fn.Cotheme" -> "_glasnost/fw_u_unknown" [label="ARG1-fn.Theme"]
+	compound -> _mister_n_1 [label=ARG2]
+	_like_p -> _man_n_1 [label=ARG1]
+	udef_q -> "_glasnost/fw_u_unknown" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_like_p -> "named(Korotich)" [label=ARG2]
+	udef_q -> _man_n_1 [label=BV]
+	"_make_v_of-fn.Cotheme" -> "_celebrities/nns_u_unknown" [label="ARG2-fn.Cotheme"]
+	proper_q -> "named(Korotich)" [label=BV]
+	compound -> "named(Korotich)" [label=ARG1]
+}

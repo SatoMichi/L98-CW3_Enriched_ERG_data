@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> _people_n_of [label="ARG1-fn.Pivot"]
+	poss -> _bridge_n_1 [label=ARG2]
+	_historic_a_1 -> _feature_n_1 [label=ARG1]
+	_beautiful_a_1 -> _feature_n_1 [label=ARG1]
+	udef_q -> _people_n_of [label=BV]
+	"_lose_v_1-fn.NF" -> _feature_n_1 [label="ARG2-fn.Theme"]
+	def_explicit_q -> _feature_n_1 [label=BV]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	"_lose_v_1-fn.NF" -> _people_n_of [label="ARG1-fn.Agent"]
+	_sometimes_a_1 -> _historic_a_1 [label=ARG1]
+	poss -> _feature_n_1 [label=ARG1]
+	_the_q -> _bridge_n_1 [label=BV]
+	"_want_v_1-fn.Desiring" -> "_lose_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	_other_a_1 -> _people_n_of [label=ARG1]
+}

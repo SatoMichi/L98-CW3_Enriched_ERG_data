@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_stay_v_prd-fn.IN" -> _tune_v_1 [label="ARG2-fn.NotExist"]
+	_tune_v_1 -> pron [label=ARG2]
+	"_stay_v_prd-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	parg_d -> pron [label=ARG2]
+	parg_d -> _tune_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

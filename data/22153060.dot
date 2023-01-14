@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_taiwanese_a_1 -> "_steelmaker/nn_u_unknown" [label=ARG1]
+	"_announce_v_to-fn.Statement" -> _plan_n_1 [label="ARG2-fn.Topic"]
+	"_build_v_1-fn.Building" -> _plant_n_1 [label="ARG2-fn.Product"]
+	udef_q -> "named(Nucor-)" [label=BV]
+	_like_a_1 -> "named(Nucor-)" [label=ARG2]
+	_a_q -> _plant_n_1 [label=BV]
+	udef_q -> _plan_n_1 [label=BV]
+	_recent_a_1 -> "_announce_v_to-fn.Statement" [label=ARG1]
+	"_announce_v_to-fn.Statement" -> "_steelmaker/nn_u_unknown" [label="ARG1-fn.Agent"]
+	_like_a_1 -> _plant_n_1 [label=ARG1]
+	_a_q -> "_steelmaker/nn_u_unknown" [label=BV]
+	_plan_n_1 -> "_build_v_1-fn.Building" [label=ARG1]
+}

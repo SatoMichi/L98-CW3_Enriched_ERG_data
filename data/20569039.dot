@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	"_want_v_1-fn.Desiring" -> _look_v_at [label="ARG2-fn.Theme"]
+	_this_q_dem -> "_handout/nn_u_unknown" [label=BV]
+	_in_p -> pron [label=ARG1]
+	_look_v_at -> "_handout/nn_u_unknown" [label=ARG2]
+	_all_a_1 -> _in_p [label=ARG1]
+	neg -> "_want_v_1-fn.Desiring" [label=ARG1]
+	_look_v_at -> pron [label=ARG1]
+	_in_p -> "_handout/nn_u_unknown" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

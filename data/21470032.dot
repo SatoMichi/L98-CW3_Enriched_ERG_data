@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_there-fn.Cause_to_end" -> _room_n_1 [label="ARG1-fn.Process"]
+	udef_q -> _and_c [label=BV]
+	compound -> _and_c [label=ARG2]
+	compound -> _room_n_1 [label=ARG1]
+	udef_q -> _movie_n_of [label=BV]
+	udef_q -> _room_n_1 [label=BV]
+	udef_q -> _recreation_n_1 [label=BV]
+}

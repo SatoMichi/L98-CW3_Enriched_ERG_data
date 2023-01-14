@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _legislation_n_1 [label=ARG1]
+	"_add_v_to-fn.NF" -> _would_v_modal [label="ARG2-fn.Topic"]
+	_would_v_modal -> _be_v_id [label=ARG1]
+	udef_q -> _legislation_n_1 [label=BV]
+	"_curb_v_1-fn.NF" -> pron [label="ARG2-fn.Patient"]
+	_darned_x_deg -> "_good_a_at-for-of" [label=ARG1]
+	_be_v_id -> _idea_n_of [label=ARG2]
+	"_curb_v_1-fn.NF" -> _legislation_n_1 [label="ARG1-fn.Agent"]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_good_a_at-for-of" -> _idea_n_of [label=ARG1]
+	_a_q -> _idea_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

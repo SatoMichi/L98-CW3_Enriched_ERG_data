@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_strap_v_1 -> _company_n_of [label=ARG2]
+	parg_d -> _strap_v_1 [label=ARG1]
+	_for_p -> _strap_v_1 [label=ARG1]
+	parg_d -> _company_n_of [label=ARG2]
+	udef_q -> _trader_n_1 [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	udef_q -> _cash_n_1 [label=BV]
+	_foreign_a_1 -> _trader_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _strap_v_1 [label="ARG2-fn.Topic"]
+	_for_p -> _cash_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _trader_n_1 [label="ARG1-fn.Agent"]
+}

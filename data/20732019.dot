@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_forgo/vb_u_unknown" -> pron [label=ARG1]
+	_under_p_state -> _rational_a_1 [label=ARG1]
+	focus_d -> _rational_a_1 [label=ARG1]
+	neg -> _rational_a_1 [label=ARG1]
+	"_in+order+to_x" -> "_forgo/vb_u_unknown" [label=ARG2]
+	_rational_a_1 -> pron [label=ARG1]
+	udef_q -> _law_n_1 [label=BV]
+	"_in+order+to_x" -> neg [label=ARG1]
+	_financial_a_1 -> _rational_a_1 [label=ARG1]
+	"_forgo/vb_u_unknown" -> _consumption_n_1 [label=ARG2]
+	_under_p_state -> _law_n_1 [label=ARG2]
+	udef_q -> _consumption_n_1 [label=BV]
+	focus_d -> _under_p_state [label=ARG2]
+	_current_a_1 -> _law_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

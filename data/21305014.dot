@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_pressure_n_1 -> "_act_v_on-fn.Fining" [label=ARG1]
+	_no_q -> _pressure_n_1 [label=BV]
+	"_act_v_on-fn.Fining" -> pron [label="ARG2-fn.Instrument"]
+	_on_p -> _offer_n_1 [label=ARG1]
+	"_feel_v_1-fn.Expectation" -> _pressure_n_1 [label="ARG2-fn.Phenomenon"]
+	_the_q -> _table_n_1 [label=BV]
+	_the_q -> _board_n_of [label=BV]
+	_with_x_subord -> _apparent_a_1 [label=ARG1]
+	_with_x_subord -> _on_p [label=ARG2]
+	_other_a_1 -> _offer_n_1 [label=ARG1]
+	_on_p -> _table_n_1 [label=ARG2]
+	"_feel_v_1-fn.Expectation" -> _board_n_of [label="ARG1-fn.Cognizer"]
+	_no_q -> _offer_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_apparent_a_1 -> "_feel_v_1-fn.Expectation" [label=ARG1]
+}

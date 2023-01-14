@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_come_v_1-fn.Halt" [label=ARG1]
+	"_come_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	_to_p -> _publisher_n_1 [label=ARG2]
+	"_look_v_for-fn.Needing" -> _idea_n_of [label="ARG2-fn.Requirement"]
+	udef_q -> _publisher_n_1 [label=BV]
+	udef_q -> _idea_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_to_p -> "_come_v_1-fn.Halt" [label=ARG1]
+	subord -> "_look_v_for-fn.Needing" [label=ARG2]
+}

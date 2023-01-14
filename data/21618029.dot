@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_qualify_v_for-fn.NF" [label=ARG1]
+	subord -> _innocent_a_1 [label=ARG2]
+	udef_q -> _fool_n_1 [label=BV]
+	_as_p -> "_qualify_v_for-fn.NF" [label=ARG1]
+	"_no+longer_a_1" -> _innocent_a_1 [label=ARG1]
+	_as_p -> _fool_n_1 [label=ARG2]
+	"_qualify_v_for-fn.NF" -> pron [label="ARG1-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

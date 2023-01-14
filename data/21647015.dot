@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(2)" -> "_party_n_of-to" [label=ARG1]
+	_of_p -> "_lawmakers/nns_u_unknown" [label=ARG1]
+	_temporary_a_1 -> nominalization [label=ARG1]
+	"_agree_v_with-fn.IN" -> "_lawmakers/nns_u_unknown" [label="ARG1-fn.Agent"]
+	"_agree_v_with-fn.IN" -> _temporary_a_1 [label="ARG2-fn.Theme"]
+	_both_q -> "_party_n_of-to" [label=BV]
+	nominalization -> _streamline_v_1 [label=ARG1]
+	udef_q -> "_lawmakers/nns_u_unknown" [label=BV]
+	_the_q -> nominalization [label=BV]
+	_of_p -> "_party_n_of-to" [label=ARG2]
+}

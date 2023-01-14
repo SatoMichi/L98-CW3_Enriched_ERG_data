@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_then_a_1 -> "_unleash_v_1-fn.NF" [label=ARG1]
+	poss -> _attack_n_1 [label=ARG1]
+	_own_a_1 -> _attack_n_1 [label=ARG1]
+	"_unleash_v_1-fn.NF" -> _attack_n_1 [label="ARG2-fn.Patient"]
+	poss -> pron [label=ARG2]
+	"_unleash_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	def_explicit_q -> _attack_n_1 [label=BV]
+	"_unstoppable/jj_u_unknown" -> _attack_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

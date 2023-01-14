@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"much-many_a" -> _american_n_1 [label=ARG1]
+	udef_q -> _abortion_n_of [label=BV]
+	"_agonize_v_1-fn.NF" -> _american_n_1 [label="ARG1-fn.NotExist"]
+	poss -> _feeling_n_of [label=ARG1]
+	_personal_a_1 -> _feeling_n_of [label=ARG1]
+	_about_p -> _feeling_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_own_a_1 -> _feeling_n_of [label=ARG1]
+	_about_p -> _abortion_n_of [label=ARG2]
+	_over_p -> "_agonize_v_1-fn.NF" [label=ARG1]
+	def_explicit_q -> _feeling_n_of [label=BV]
+	_still_a_1 -> "_agonize_v_1-fn.NF" [label=ARG1]
+	udef_q -> _american_n_1 [label=BV]
+	_over_p -> _feeling_n_of [label=ARG2]
+}

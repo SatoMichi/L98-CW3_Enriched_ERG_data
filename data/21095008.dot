@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_simple_a_1 -> "_extend_v_1-fn.NF" [label=ARG1]
+	_the_q -> _sector_n_1 [label=BV]
+	compound -> "yofc(1989)" [label=ARG2]
+	_these_q_dem -> _guarantee_n_of [label=BV]
+	proper_q -> "yofc(1989)" [label=BV]
+	"_extend_v_1-fn.NF" -> _guarantee_n_of [label="ARG2-fn.Theme"]
+	compound -> _act_n_of [label=ARG1]
+	_private_a_1 -> _sector_n_1 [label=ARG1]
+	"_extend_v_1-fn.NF" -> _sector_n_1 [label="ARG3-fn.NotExist"]
+	_the_q -> _act_n_of [label=BV]
+	"_extend_v_1-fn.NF" -> _act_n_of [label="ARG1-fn.NotExist"]
+}

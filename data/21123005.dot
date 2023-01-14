@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _magazine_n_1 [label=BV]
+	unspec_adj -> _reader_n_of [label=ARG1]
+	prpstn_to_prop -> unspec_adj [label=ARG1]
+	udef_q -> _reader_n_of [label=BV]
+	which_q -> property [label=BV]
+	"_feel_v_seem-about-fn.Opinion" -> prpstn_to_prop [label="ARG2-fn.Stimulus"]
+	"_feel_v_seem-about-fn.Opinion" -> _reader_n_of [label="ARG1-fn.Experiencer"]
+	"_feel_v_seem-about-fn.Opinion" -> _magazine_n_1 [label="ARG3-fn.NotExist"]
+	prpstn_to_prop -> property [label=ARG2]
+}

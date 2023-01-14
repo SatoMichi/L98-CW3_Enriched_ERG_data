@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(1.04)" [label=ARG2]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(1000000000)" [label=ARG3]
+	udef_q -> _dollar_n_1 [label=BV]
+	_from_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	times -> "card(1.07)" [label=ARG2]
+	udef_q -> _revenue_n_1 [label=BV]
+	"_fall_v_1-fn.Halt" -> _revenue_n_1 [label="ARG1-fn.Purpose"]
+}

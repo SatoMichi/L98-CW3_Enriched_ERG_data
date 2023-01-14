@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_now_a_1 -> _create_v_1 [label=ARG1]
+	_create_v_1 -> pron [label=ARG1]
+	"_appeal_v_to-fn.NF" -> _wine_n_1 [label="ARG1-fn.Stimulus"]
+	"_see_v_1-fn.Perception_experience" -> _market_n_1 [label="ARG2-fn.Stimulus"]
+	udef_q -> _wine_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_open_v_up -> _market_n_1 [label=ARG1]
+	"_appeal_v_to-fn.NF" -> _people_n_of [label="ARG2-fn.Experiencer"]
+	"_see_v_1-fn.Perception_experience" -> _open_v_up [label="ARG3-fn.NotExist"]
+	_these_q_dem -> _people_n_of [label=BV]
+	_create_v_1 -> _wine_n_1 [label=ARG2]
+	udef_q -> _producer_n_of [label=BV]
+	_this_q_dem -> _market_n_1 [label=BV]
+	"_see_v_1-fn.Perception_experience" -> _producer_n_of [label="ARG1-fn.Experiencer"]
+}

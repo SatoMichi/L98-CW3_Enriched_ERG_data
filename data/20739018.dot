@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _piece_n_of [label=ARG2]
+	"_accompany_v_1-fn.Cotheme" -> _gene_n_1 [label="ARG2-fn.Theme"]
+	"_call_v_name-fn.IN" -> _piece_n_of [label="ARG3-fn.Result"]
+	udef_q -> _dna_n_1 [label=BV]
+	parg_d -> _gene_n_1 [label=ARG2]
+	_a_q -> _promoter_n_of [label=BV]
+	_a_q -> _piece_n_of [label=BV]
+	_the_q -> _gene_n_1 [label=BV]
+	parg_d -> "_accompany_v_1-fn.Cotheme" [label=ARG1]
+	_turn_v_on -> _gene_n_1 [label=ARG2]
+	_turn_v_on -> _piece_n_of [label=ARG1]
+	_piece_n_of -> _dna_n_1 [label=ARG1]
+	"_call_v_name-fn.IN" -> _promoter_n_of [label="ARG2-fn.Theme"]
+	"_accompany_v_1-fn.Cotheme" -> _piece_n_of [label="ARG1-fn.Agent"]
+	parg_d -> "_call_v_name-fn.IN" [label=ARG1]
+}

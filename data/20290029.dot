@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _case_n_of [label=BV]
+	loc_nonsp -> place_n [label=ARG2]
+	_here_a_1 -> place_n [label=ARG1]
+	def_implicit_q -> place_n [label=BV]
+	"card(2)" -> _case_n_of [label=ARG1]
+	with_p -> _illustrate_v_1 [label=ARG1]
+	with_p -> _case_n_of [label=ARG2]
+	loc_nonsp -> _case_n_of [label=ARG1]
+}

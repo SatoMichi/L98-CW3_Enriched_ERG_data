@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> _matter_n_of [label=ARG2]
+	_for_p -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	_so_a_1 -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	compound -> "named(Little)" [label=ARG2]
+	ellipsis_ref -> "named(Tramp)" [label=ARG1]
+	proper_q -> "named(Little)" [label=BV]
+	_that_q_dem -> _matter_n_of [label=BV]
+	compound -> "named(Tramp)" [label=ARG1]
+	_the_q -> "named(Tramp)" [label=BV]
+	"_would_v_modal-fn.Cause_to_end" -> ellipsis_ref [label="ARG1-fn.Process"]
+}

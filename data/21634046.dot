@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_cause-fn.Cause_to_end" -> _famous_a_for [label="ARG2-fn.Means"]
+	_famous_a_for -> pron [label=ARG1]
+	compound -> "named(Barbra)" [label=ARG2]
+	"_make_v_cause-fn.Cause_to_end" -> "named(Streisand)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Streisand)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	compound -> "named(Streisand)" [label=ARG1]
+	proper_q -> "named(Barbra)" [label=BV]
+}

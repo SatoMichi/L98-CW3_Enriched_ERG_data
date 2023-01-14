@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_profitable_a_for -> pron [label=ARG1]
+	proper_q -> "named(Maidenform)" [label=BV]
+	_very_x_deg -> _profitable_a_for [label=ARG1]
+	_decline_v_1 -> "named(Maidenform)" [label=ARG1]
+	"_say_v_to-fn.IN" -> _profitable_a_for [label="ARG2-fn.Topic"]
+	udef_q -> _specifics_n_of [label=BV]
+	"_provide_v_1-fn.Supply" -> "named(Maidenform)" [label="ARG1-fn.Agent"]
+	"_provide_v_1-fn.Supply" -> _specifics_n_of [label="ARG2-fn.Theme"]
+	_decline_v_1 -> "_provide_v_1-fn.Supply" [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Maidenform)" [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

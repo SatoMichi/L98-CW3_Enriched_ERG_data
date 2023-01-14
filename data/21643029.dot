@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_possibly_x_deg -> _collapse_v_1 [label=ARG1]
+	_the_q -> _building_n_1 [label=BV]
+	compound -> _lot_n_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	_the_q -> _lot_n_1 [label=BV]
+	_to_p -> _lot_n_1 [label=ARG2]
+	"_out+of_p" -> _building_n_1 [label=ARG2]
+	_collapse_v_1 -> _building_n_1 [label=ARG1]
+	_to_p -> "_out+of_p" [label=ARG1]
+	"_get_v_state-fn.IN" -> "_out+of_p" [label="ARG2-fn.Patient"]
+	udef_q -> nominalization [label=BV]
+	nominalization -> _park_v_1 [label=ARG1]
+}

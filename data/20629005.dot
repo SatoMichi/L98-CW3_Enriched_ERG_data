@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_indian_a_1 -> _market_n_1 [label=ARG1]
+	_about_p -> _market_n_1 [label=ARG2]
+	"_raise_v_cause-fn.NF" -> _issue_n_1 [label="ARG1-fn.Agent"]
+	_evolve_v_1 -> _market_n_1 [label=ARG1]
+	_the_q -> _issue_n_1 [label=BV]
+	"_raise_v_cause-fn.NF" -> "_megaquestions/nns_u_unknown" [label="ARG2-fn.Theme"]
+	_the_q -> _market_n_1 [label=BV]
+	_capital_a_1 -> _market_n_1 [label=ARG1]
+	_about_p -> "_megaquestions/nns_u_unknown" [label=ARG1]
+	compound -> _issue_n_1 [label=ARG1]
+	_rapid_a_1 -> _evolve_v_1 [label=ARG1]
+	compound -> "_mega-/nn_u_unknown" [label=ARG2]
+	udef_q -> "_megaquestions/nns_u_unknown" [label=BV]
+	udef_q -> "_mega-/nn_u_unknown" [label=BV]
+}

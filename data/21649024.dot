@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> "_bothersome/jj_u_unknown" [label=ARG1]
+	udef_q -> _anachronism_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _anachronism_n_1 [label="ARG1-fn.Process"]
+	subord -> "_bothersome/jj_u_unknown" [label=ARG2]
+	subord -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_apparent_a_to -> _anachronism_n_1 [label=ARG1]
+	_several_a_1 -> _anachronism_n_1 [label=ARG1]
+}

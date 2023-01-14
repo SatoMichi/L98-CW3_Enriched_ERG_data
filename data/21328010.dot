@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _tail_n_1 [label=BV]
+	_would_v_modal -> "_chase_v_1-fn.Cotheme" [label=ARG1]
+	"_chase_v_1-fn.Cotheme" -> _tail_n_1 [label="ARG2-fn.Theme"]
+	"_try_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	"_try_v_1-fn.Attempt" -> "_sell_v_1-fn.Commerce_sell" [label="ARG2-fn.Theme"]
+	_if_x_then -> _would_v_modal [label=ARG1]
+	_own_a_1 -> _tail_n_1 [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> pron [label="ARG1-fn.Agent"]
+	poss -> pron [label=ARG2]
+	"_chase_v_1-fn.Cotheme" -> pron [label="ARG1-fn.Agent"]
+	_if_x_then -> "_try_v_1-fn.Attempt" [label=ARG2]
+	poss -> _tail_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

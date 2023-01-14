@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _sucker_n_for [label="ARG2-fn.Name"]
+	"much-many_a" -> part_of [label=ARG1]
+	udef_q -> part_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _sucker_n_for [label=BV]
+	"_be_v_id-fn.Name_conferral" -> part_of [label="ARG1-fn.Entity"]
+	part_of -> pron [label=ARG1]
+}

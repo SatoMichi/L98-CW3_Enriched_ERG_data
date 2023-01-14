@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> "named(Germany)" [label=ARG1]
+	udef_q -> _socialism_n_1 [label=BV]
+	proper_q -> "named(Germany)" [label=BV]
+	compound -> "named(Germany)" [label=ARG1]
+	proper_q -> "named(East)" [label=BV]
+	_true_a_of -> "_exist_v_1-fn.Existence" [label=ARG1]
+	_land_n_of -> _socialism_n_1 [label=ARG1]
+	"_exist_v_1-fn.Existence" -> _socialism_n_1 [label="ARG1-fn.NotExist"]
+	compound -> "named(East)" [label=ARG2]
+	_be_v_id -> _land_n_of [label=ARG2]
+	_the_q -> _land_n_of [label=BV]
+	_mere_a_1 -> _be_v_id [label=ARG1]
+}

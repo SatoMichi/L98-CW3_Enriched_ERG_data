@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _taste_n_of [label=BV]
+	"_hispanic/jj_u_unknown" -> _taste_n_of [label=ARG1]
+	proper_q -> "named(Goya)" [label=BV]
+	"_concocts/vbz_u_unknown" -> "named(Goya)" [label=ARG1]
+	_a_q -> _milk_n_1 [label=BV]
+	_for_p -> _milk_n_1 [label=ARG1]
+	"_concocts/vbz_u_unknown" -> _milk_n_1 [label=ARG2]
+	_for_p -> _taste_n_of [label=ARG2]
+}

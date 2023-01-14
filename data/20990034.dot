@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _deal_n_1 [label=ARG1]
+	"_apply_v_to-fn.Using" -> _deal_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> "named_n(Senate)" [label=BV]
+	_on_p -> _vote_n_1 [label=ARG2]
+	"_such+a_q" -> _deal_n_1 [label=BV]
+	_the_q -> _official_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_the_q -> "named_n(House)" [label=BV]
+	"_apply_v_to-fn.Using" -> _and_c [label="ARG2-fn.Theme"]
+	"_insist_v_1-fn.Statement" -> _would_v_modal [label="ARG2-fn.Topic"]
+	"_insist_v_1-fn.Statement" -> _official_n_1 [label="ARG1-fn.Agent"]
+	_have_v_qmodal -> "_apply_v_to-fn.Using" [label=ARG1]
+	_a_q -> _vote_n_1 [label=BV]
+	_would_v_modal -> _have_v_qmodal [label=ARG1]
+	_future_a_1 -> _vote_n_1 [label=ARG1]
+}

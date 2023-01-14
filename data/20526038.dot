@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.IN" -> "_truce/nn_u_unknown" [label="ARG1-fn.NotExist"]
+	"_get_v_state-fn.IN" -> _uneasy_a_about [label="ARG2-fn.Patient"]
+	_between_p -> "_truce/nn_u_unknown" [label=ARG1]
+	_uneasy_a_about -> "_truce/nn_u_unknown" [label=ARG1]
+	focus_d -> _at_p [label=ARG2]
+	_between_p -> _and_c [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	_at_p -> _point_n_of [label=ARG2]
+	_mighty_x_deg -> _uneasy_a_about [label=ARG1]
+	udef_q -> "_sensationalism/nn_u_unknown" [label=BV]
+	_at_p -> "_get_v_state-fn.IN" [label=ARG1]
+	focus_d -> "_get_v_state-fn.IN" [label=ARG1]
+	_this_q_dem -> _point_n_of [label=BV]
+	_the_q -> "_truce/nn_u_unknown" [label=BV]
+	udef_q -> _feminism_n_1 [label=BV]
+}

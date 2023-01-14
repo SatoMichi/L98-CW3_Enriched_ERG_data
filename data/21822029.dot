@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_deductible_a_1 -> _debt_n_1 [label=ARG1]
+	_the_q -> _bill_n_of [label=BV]
+	_then_a_1 -> "_declare_v_to-fn.Statement" [label=ARG1]
+	_would_v_modal -> "_declare_v_to-fn.Statement" [label=ARG1]
+	"_declare_v_to-fn.Statement" -> _and_c [label="ARG2-fn.Topic"]
+	_be_v_id -> _debt_n_1 [label=ARG1]
+	_be_v_id -> _equity_n_1 [label=ARG2]
+	"_declare_v_to-fn.Statement" -> _bill_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _equity_n_1 [label=BV]
+	_the_q -> _debt_n_1 [label=BV]
+	neg -> _deductible_a_1 [label=ARG1]
+	_therefore_a_1 -> neg [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_could_v_modal-fn.Cause_to_end" -> "_command_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	"_command_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	_the_q -> _market_n_1 [label=BV]
+	_in_p -> _price_n_of [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	"_command_v_1-fn.Competition" -> _price_n_of [label="ARG2-fn.Participant_2"]
+	_a_q -> _price_n_of [label=BV]
+	"_good_a_at-for-of" -> _price_n_of [label=ARG1]
+	_in_p -> _market_n_1 [label=ARG2]
+}

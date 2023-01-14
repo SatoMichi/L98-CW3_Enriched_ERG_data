@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_demons/nns_u_unknown" [label=BV]
+	"_leave_v_1-fn.Departing" -> "_demons/nns_u_unknown" [label="ARG1-fn.Theme"]
+	"_sprinkle_v_with-fn.Dispersal" -> generic_entity [label="ARG2-fn.Theme"]
+	"_a+little_q" -> generic_entity [label=BV]
+	"_tell_v_1-fn.Telling" -> pron [label="ARG1-fn.Agent"]
+	_around_p -> "_sprinkle_v_with-fn.Dispersal" [label=ARG1]
+	"_tell_v_1-fn.Telling" -> "_demons/nns_u_unknown" [label="ARG2-fn.Topic"]
+	"_tell_v_1-fn.Telling" -> "_leave_v_1-fn.Departing" [label="ARG3-fn.Recipient"]
+	"_sprinkle_v_with-fn.Dispersal" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

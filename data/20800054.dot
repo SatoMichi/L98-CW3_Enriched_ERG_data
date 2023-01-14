@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.Have_as_requirement" -> _whether_x [label="ARG2-fn.Requirement"]
+	"card(1)" -> _try_n_1 [label=ARG1]
+	udef_q -> _try_n_1 [label=BV]
+	_after_p -> "_quit_v_1-fn.State_continue" [label=ARG1]
+	_whether_x -> "_quit_v_1-fn.State_continue" [label=ARG1]
+	"_lose_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+	_whether_x -> _or_c [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	pronoun_q -> pron [label=BV]
+	"_quit_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	_after_p -> _try_n_1 [label=ARG2]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	focus_d -> "_quit_v_1-fn.State_continue" [label=ARG2]
+	"_win_v_1-fn.Change_position_on_a_scale" -> pron [label="ARG1-fn.Attribute"]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_regional_a_1 -> _carrier_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _carrier_n_of [label="ARG2-fn.Means"]
+	"card(2)" -> _company_n_of [label=ARG1]
+	_in_p -> _carrier_n_of [label=ARG1]
+	_both_q -> _company_n_of [label=BV]
+	_the_q -> "named(Southwest)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _company_n_of [label="ARG1-fn.Process"]
+	_in_p -> "named(Southwest)" [label=ARG2]
+	udef_q -> _carrier_n_of [label=BV]
+}

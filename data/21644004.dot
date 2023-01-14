@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _market_n_1 [label=ARG2]
+	poss -> "named(Shearson)" [label=ARG2]
+	compound -> _commentary_n_1 [label=ARG1]
+	poss -> _commentary_n_1 [label=ARG1]
+	"_make_v_cause-fn.Cause_change" -> _plunge_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _market_n_1 [label=BV]
+	proper_q -> "named(Shearson)" [label=BV]
+	"_out+of+date_a_1" -> _commentary_n_1 [label=ARG1]
+	_the_q -> _plunge_n_of [label=BV]
+	_instant_a_1 -> "_make_v_cause-fn.Cause_change" [label=ARG1]
+	def_explicit_q -> _commentary_n_1 [label=BV]
+	"_make_v_cause-fn.Cause_change" -> "_out+of+date_a_1" [label="ARG2-fn.Theme"]
+}

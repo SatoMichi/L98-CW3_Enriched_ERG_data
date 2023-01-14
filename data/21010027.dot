@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_japanese_a_1 -> _bank_n_of [label=ARG1]
+	"_help_v_to-fn.Amounting_to" -> "_scare_v_off-fn.Change_posture" [label="ARG2-fn.Attribute"]
+	"_scare_v_off-fn.Change_posture" -> _opposition_n_1 [label="ARG1-fn.Manner"]
+	poss -> _opposition_n_1 [label=ARG1]
+	"_help_v_to-fn.Amounting_to" -> _opposition_n_1 [label="ARG1-fn.Value"]
+	def_explicit_q -> _opposition_n_1 [label=BV]
+	"_scare_v_off-fn.Change_posture" -> _bank_n_of [label="ARG2-fn.Protagonist"]
+	pronoun_q -> pron [label=BV]
+	_some_q -> _bank_n_of [label=BV]
+	poss -> pron [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _percent_n_of [label=BV]
+	_now_a_1 -> "_own_v_1-fn.Expectation" [label=ARG1]
+	poss -> _share_n_of [label=ARG1]
+	_of_p -> _share_n_of [label=ARG2]
+	"_own_v_1-fn.Expectation" -> "named(Montedison)" [label="ARG1-fn.Cognizer"]
+	poss -> "named(Erbamont)" [label=ARG2]
+	_of_p -> _percent_n_of [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	proper_q -> "named(Montedison)" [label=BV]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	"card(72)" -> _percent_n_of [label=ARG1]
+	"_own_v_1-fn.Expectation" -> _percent_n_of [label="ARG2-fn.Phenomenon"]
+	proper_q -> "named(Erbamont)" [label=BV]
+	def_explicit_q -> _share_n_of [label=BV]
+}

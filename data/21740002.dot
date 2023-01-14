@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _dollar_n_1 [label=BV]
+	_identical_a_to -> _sale_n_of [label=ARG1]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	"_year-earlier_a_1" -> _dollar_n_1 [label=ARG1]
+	_near_a_to -> _identical_a_to [label=ARG1]
+	times -> "card(1.36)" [label=ARG2]
+	_to_p -> _identical_a_to [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(1000000000)" [label=ARG3]
+	udef_q -> _sale_n_of [label=BV]
+}

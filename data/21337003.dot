@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(35585.52)" [label=BV]
+	number_q -> "card(99.14)" [label=BV]
+	proper_q -> "named(Nikkei)" [label=BV]
+	"_add_v_to-fn.NF" -> _index_n_1 [label="ARG1-fn.Agent"]
+	_to_p -> "_add_v_to-fn.NF" [label=ARG1]
+	_in_p_state -> "_add_v_to-fn.NF" [label=ARG1]
+	focus_d -> "_add_v_to-fn.NF" [label=ARG1]
+	compound -> "named(Nikkei)" [label=ARG2]
+	proper_q -> "named(Tokyo)" [label=BV]
+	"_add_v_to-fn.NF" -> "card(99.14)" [label="ARG2-fn.Topic"]
+	_to_p -> "card(35585.52)" [label=ARG2]
+	_in_p_state -> "named(Tokyo)" [label=ARG2]
+	compound -> _index_n_1 [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	_the_q -> _index_n_1 [label=BV]
+}

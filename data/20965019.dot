@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(7.88)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_at_p -> _percent_n_of [label=ARG2]
+	"_stand_v_1-fn.Change_position_on_a_scale" -> _yield_n_1 [label="ARG1-fn.Attribute"]
+	_on_p -> _issue_n_1 [label=ARG2]
+	_at_p -> "_stand_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_on_p -> _yield_n_1 [label=ARG1]
+	_the_q -> _yield_n_1 [label=BV]
+	_the_q -> _issue_n_1 [label=BV]
+}

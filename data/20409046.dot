@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _target_n_of [label=ARG2]
+	"_revise_v_1-fn.Relative_time" -> _target_n_of [label="ARG2-fn.Landmark_occasion"]
+	udef_q -> _percent_n_of [label=BV]
+	proper_q -> "yofc(2000)" [label=BV]
+	_the_q -> _year_n_1 [label=BV]
+	_to_p -> _percent_n_of [label=ARG2]
+	"card(30)" -> _percent_n_of [label=ARG1]
+	_by_p_temp -> "_revise_v_1-fn.Relative_time" [label=ARG1]
+	_by_p_temp -> _year_n_1 [label=ARG2]
+	parg_d -> "_revise_v_1-fn.Relative_time" [label=ARG1]
+	_to_p -> "_revise_v_1-fn.Relative_time" [label=ARG1]
+	appos -> _year_n_1 [label=ARG1]
+	_that_q_dem -> _target_n_of [label=BV]
+	appos -> "yofc(2000)" [label=ARG2]
+}

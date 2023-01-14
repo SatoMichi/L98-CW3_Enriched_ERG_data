@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _outlook_n_1 [label=BV]
+	_for_p -> _earnings_n_1 [label=ARG2]
+	_bleak_a_1 -> _outlook_n_1 [label=ARG1]
+	_fairly_x -> _bleak_a_1 [label=ARG1]
+	_for_p -> _outlook_n_1 [label=ARG1]
+	_corporate_a_1 -> _earnings_n_1 [label=ARG1]
+	udef_q -> _earnings_n_1 [label=BV]
+}

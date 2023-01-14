@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_cheap_a_1 -> thing [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_buy_v_1-fn.Commerce_buy" -> thing [label="ARG2-fn.Theme"]
+	comp -> _cheap_a_1 [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	free_relative_ever_q -> thing [label=BV]
+}

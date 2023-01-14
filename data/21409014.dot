@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _news_n_of [label=ARG2]
+	compound -> _release_n_of [label=ARG1]
+	udef_q -> _news_n_of [label=BV]
+	"card(1)" -> generic_entity [label=ARG1]
+	poss -> _release_n_of [label=ARG1]
+	"_include_v_1-fn.Cause_to_end" -> generic_entity [label="ARG2-fn.Means"]
+	def_explicit_q -> _release_n_of [label=BV]
+	"_ignore_v_1-fn.Process_resume" -> _release_n_of [label="ARG2-fn.Process"]
+	_general_a_1 -> "_ignore_v_1-fn.Process_resume" [label=ARG1]
+	udef_q -> _newspaper_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_ignore_v_1-fn.Process_resume" -> _newspaper_n_of [label="ARG1-fn.Duration"]
+	poss -> pron [label=ARG2]
+	_this_q_dem -> generic_entity [label=BV]
+	"_include_v_1-fn.Cause_to_end" -> _newspaper_n_of [label="ARG1-fn.Process"]
+}

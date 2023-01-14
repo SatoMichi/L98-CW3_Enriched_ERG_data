@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_may_v_modal-fn.Communication_manner" -> _on_p [label="ARG1-fn.Speaker"]
+	_on_p -> "named(Cadillac)" [label=ARG1]
+	_some_q -> thing [label=BV]
+	_to_p -> thing [label=ARG2]
+	_to_p -> _on_p [label=ARG1]
+	proper_q -> "named(Cadillac)" [label=BV]
+}

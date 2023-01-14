@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_novel_a_1 -> _design_n_of [label=ARG1]
+	_even_a_1 -> "_come_v_up-fn.Coming_to_be" [label=ARG1]
+	_with_p -> _design_n_of [label=ARG2]
+	"_come_v_up-fn.Coming_to_be" -> generic_entity [label="ARG1-fn.Entity"]
+	_own_a_1 -> _design_n_of [label=ARG1]
+	_some_q -> generic_entity [label=BV]
+	def_explicit_q -> _design_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	poss -> _design_n_of [label=ARG1]
+}

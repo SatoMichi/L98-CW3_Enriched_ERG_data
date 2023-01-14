@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _demand_n_1 [label=BV]
+	_due_a_1 -> generic_entity [label=ARG1]
+	_the_q -> _crop_n_1 [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	_to_p -> _due_a_1 [label=ARG1]
+	_partly_a_1 -> _due_a_1 [label=ARG1]
+	_particular_a_1 -> _demand_n_1 [label=ARG1]
+	_of_p -> _crop_n_1 [label=ARG2]
+	_of_p -> _demand_n_1 [label=ARG1]
+	_to_p -> _demand_n_1 [label=ARG2]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _house_n_of [label=BV]
+	proper_q -> "named(Block)" [label=BV]
+	_on_p -> _sweet_a_to [label=ARG1]
+	compound -> _house_n_of [label=ARG1]
+	_too_a_also -> _sweet_a_to [label=ARG1]
+	proper_q -> "named(Brokerage)" [label=BV]
+	compound -> "named(H&R)" [label=ARG2]
+	_sweet_a_to -> _house_n_of [label=ARG1]
+	_on_p -> "named(Block)" [label=ARG2]
+	compound -> "named(Block)" [label=ARG1]
+	proper_q -> "named(H&R)" [label=BV]
+	compound -> "named(Brokerage)" [label=ARG2]
+}

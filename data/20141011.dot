@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	"_say_v_to-fn.IN" -> generic_entity [label="ARG1-fn.Agent"]
+	udef_q -> generic_entity [label=BV]
+	neg -> _change_v_1 [label=ARG1]
+	_few_a_1 -> generic_entity [label=ARG1]
+	udef_q -> _condition_n_1 [label=BV]
+	_change_v_1 -> _condition_n_1 [label=ARG1]
+	comp -> _few_a_1 [label=ARG1]
+}

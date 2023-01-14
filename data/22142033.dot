@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_avoid_v_1-fn.Achieving_first" -> "_knock_v_down-fn.Taking_time" [label="ARG2-fn.New_idea"]
+	"_avoid_v_1-fn.Achieving_first" -> generic_entity [label="ARG1-fn.Cognizer"]
+	"_knock_v_down-fn.Taking_time" -> generic_entity [label="ARG1-fn.Activity"]
+	"_knock_v_down-fn.Taking_time" -> _price_n_of [label="ARG2-fn.Attribute"]
+	udef_q -> _price_n_of [label=BV]
+	_further_a_1 -> "_knock_v_down-fn.Taking_time" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+}

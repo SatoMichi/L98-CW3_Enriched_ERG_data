@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_for_p -> "named(OPEC)" [label=ARG2]
+	focus_d -> _ideal_a_1 [label=ARG1]
+	proper_q -> "named(OPEC)" [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	focus_d -> _for_p [label=ARG2]
+	_for_p -> _ideal_a_1 [label=ARG1]
+	_ideal_a_1 -> generic_entity [label=ARG1]
+}

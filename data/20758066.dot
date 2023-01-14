@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _mail_n_1 [label=ARG1]
+	poss -> _event_n_item [label=ARG1]
+	def_explicit_q -> _mail_n_1 [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	"_recall_v_1-fn.Bail_decision" -> _mail_n_1 [label="ARG1-fn.Accused"]
+	def_explicit_q -> _event_n_item [label=BV]
+	_in_p_temp -> "_grow_v_1-fn.Getting" [label=ARG1]
+	_in_p_temp -> _year_n_1 [label=ARG2]
+	_regular_a_1 -> "_recall_v_1-fn.Bail_decision" [label=ARG1]
+	"card(1)" -> _event_n_item [label=ARG1]
+	"_recall_v_1-fn.Bail_decision" -> _event_n_item [label="ARG2-fn.Judge"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	_recent_a_1 -> _year_n_1 [label=ARG1]
+	"_grow_v_1-fn.Getting" -> _mail_n_1 [label="ARG1-fn.Recipient"]
+}

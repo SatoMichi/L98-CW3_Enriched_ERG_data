@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_apiece_p -> _dollar_n_1 [label=ARG1]
+	loc_nonsp -> "season(summer)" [label=ARG2]
+	_at_p -> "_trade_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_this_q_dem -> "season(summer)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_trade_v_1-fn.Change_position_on_a_scale" -> _stock_n_1 [label="ARG1-fn.Attribute"]
+	loc_nonsp -> "_trade_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_begin_v_1-fn.Process_start" -> "_trade_v_1-fn.Change_position_on_a_scale" [label="ARG1-fn.Event"]
+	"card(14)" -> _dollar_n_1 [label=ARG1]
+	_the_q -> _stock_n_1 [label=BV]
+	_at_p -> _dollar_n_1 [label=ARG2]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_in+order+to_x" -> "_launch_v_cause-fn.IN" [label=ARG2]
+	_spend_v_1 -> "named(Whittle)" [label=ARG1]
+	_initial_a_1 -> _spend_v_1 [label=ARG1]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_launch_v_cause-fn.IN" -> _network_n_of [label="ARG2-fn.NotExist"]
+	"_in+order+to_x" -> _spend_v_1 [label=ARG1]
+	_the_q -> _network_n_of [label=BV]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(150)" [label=ARG2]
+	_spend_v_1 -> _dollar_n_1 [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	proper_q -> "named(Whittle)" [label=BV]
+	"_launch_v_cause-fn.IN" -> "named(Whittle)" [label="ARG1-fn.NotExist"]
+}

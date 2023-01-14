@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_get_v_state-fn.IN" [label=ARG1]
+	focus_d -> loc_nonsp [label=ARG2]
+	"_get_v_state-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	"_get_v_state-fn.IN" -> _dangerous_a_for [label="ARG2-fn.Patient"]
+	_now_a_1 -> time_n [label=ARG1]
+	_dangerous_a_for -> pron [label=ARG1]
+	_downright_x_deg -> _dangerous_a_for [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	focus_d -> "_get_v_state-fn.IN" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	pronoun_q -> pron [label=BV]
+}

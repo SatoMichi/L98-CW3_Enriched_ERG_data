@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_introduce_v_to-fn.NF" -> "_pico/nn_u_unknown" [label="ARG2-fn.Patient"]
+	_go_v_ahead -> "named(Dictaphone)" [label=ARG1]
+	_in_p_temp -> "_introduce_v_to-fn.NF" [label=ARG1]
+	proper_q -> "yofc(1985)" [label=BV]
+	neg -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	_well_a_1 -> "_sell_v_1-fn.Commerce_sell" [label=ARG1]
+	"_sell_v_1-fn.Commerce_sell" -> pron [label="ARG1-fn.NotExist"]
+	"_introduce_v_to-fn.NF" -> "named(Dictaphone)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Dictaphone)" [label=BV]
+	_in_p_temp -> "yofc(1985)" [label=ARG2]
+	_the_q -> "_pico/nn_u_unknown" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

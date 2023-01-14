@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Westmoreland)" [label=BV]
+	udef_q -> _mine_n_of [label=BV]
+	_the_q -> _coal_n_1 [label=BV]
+	"_come_v_1-fn.Halt" -> part_of [label="ARG1-fn.Purpose"]
+	part_of -> _coal_n_1 [label=ARG1]
+	_from_p_dir -> _mine_n_of [label=ARG2]
+	_some_q -> part_of [label=BV]
+	_from_p_dir -> "_come_v_1-fn.Halt" [label=ARG1]
+	compound -> "named(Westmoreland)" [label=ARG2]
+	"_buy_v_1-fn.Commerce_buy" -> _plant_n_1 [label="ARG1-fn.Buyer"]
+	"_buy_v_1-fn.Commerce_buy" -> _coal_n_1 [label="ARG2-fn.Goods"]
+	_the_q -> _plant_n_1 [label=BV]
+	compound -> _mine_n_of [label=ARG1]
+}

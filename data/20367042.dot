@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_sale_n_of -> _bike_n_1 [label=ARG1]
+	"_heat_v_up-fn.Undergo_change" -> _competition_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _bike_n_1 [label=BV]
+	udef_q -> _competition_n_1 [label=BV]
+	_the_q -> _sale_n_of [label=BV]
+	_complete_a_with -> _bike_n_1 [label=ARG1]
+	_in_p -> _sale_n_of [label=ARG2]
+	_too_a_also -> "_heat_v_up-fn.Undergo_change" [label=ARG1]
+	_in_p -> _competition_n_1 [label=ARG1]
+}

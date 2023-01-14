@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Hyundai)" [label=BV]
+	_new_a_1 -> "named(Campaign)" [label=ARG1]
+	proper_q -> "named(Campaign)" [label=BV]
+	unknown -> "named(Campaign)" [label=ARG]
+	compound -> "named(Hyundai)" [label=ARG2]
+	compound -> "named(Campaign)" [label=ARG1]
+}

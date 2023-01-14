@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Kandahar)" [label=BV]
+	"_remain_v_1-fn.State_continue" -> "named(Kandahar)" [label="ARG1-fn.NotExist"]
+	_a_q -> _base_n_1 [label=BV]
+	_through_p_dir -> _fall_v_1 [label=ARG1]
+	compound -> _base_n_1 [label=ARG1]
+	"_remain_v_1-fn.State_continue" -> _base_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _regime_n_1 [label=BV]
+	_the_q -> _deal_n_1 [label=BV]
+	compound -> _regime_n_1 [label=ARG2]
+	_major_a_1 -> _base_n_1 [label=ARG1]
+	_fall_v_1 -> _deal_n_1 [label=ARG1]
+}

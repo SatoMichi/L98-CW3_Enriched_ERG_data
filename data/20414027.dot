@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _settle_v_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> "named_n(IRS)" [label="ARG1-fn.NotExist"]
+	parg_d -> _question_n_about [label=ARG2]
+	_until_x_h -> neg [label=ARG1]
+	parg_d -> "_issue_v_1-fn.NF" [label=ARG1]
+	parg_d -> _regulation_n_1 [label=ARG2]
+	_the_q -> "named_n(IRS)" [label=BV]
+	"_issue_v_1-fn.NF" -> _regulation_n_1 [label="ARG2-fn.NotExist"]
+	"_say_v_to-fn.IN" -> _until_x_h [label="ARG2-fn.NotExist"]
+	_settle_v_1 -> _question_n_about [label=ARG2]
+	_until_x_h -> "_issue_v_1-fn.NF" [label=ARG2]
+	_short_a_1 -> "_issue_v_1-fn.NF" [label=ARG1]
+	parg_d -> _settle_v_1 [label=ARG1]
+	_the_q -> _regulation_n_1 [label=BV]
+	_the_q -> _question_n_about [label=BV]
+}

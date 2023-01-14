@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lose_v_1-fn.Competition" -> _touch_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _touch_n_1 [label=BV]
+	"_lose_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	neg -> "_lose_v_1-fn.Competition" [label=ARG1]
+	compound -> "_issuers/nns_u_unknown" [label=ARG1]
+	_with_p -> "_issuers/nns_u_unknown" [label=ARG2]
+	compound -> "named_n(US)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	udef_q -> "named_n(US)" [label=BV]
+	_with_p -> "_lose_v_1-fn.Competition" [label=ARG1]
+	_the_q -> "_issuers/nns_u_unknown" [label=BV]
+}

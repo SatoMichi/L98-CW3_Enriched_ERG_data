@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	_would_v_modal -> "_involve_v_1-fn.NF" [label=ARG1]
+	_no_q -> _or_c [label=BV]
+	udef_q -> _vendor_n_of [label=BV]
+	udef_q -> _employee_n_of [label=BV]
+	parg_d -> "_involve_v_1-fn.NF" [label=ARG1]
+	"_involve_v_1-fn.NF" -> _or_c [label="ARG2-fn.NotExist"]
+	parg_d -> _or_c [label=ARG2]
+}

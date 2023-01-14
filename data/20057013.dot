@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decline_v_1-fn.Competition" -> _spokesman_n_1 [label="ARG1-fn.Participant_1"]
+	_about_p -> "_speculate_v_1-fn.Attempt_suasion" [label=ARG1]
+	_possible_a_for -> _reduction_n_of [label=ARG1]
+	_about_p -> _reduction_n_of [label=ARG2]
+	udef_q -> _reduction_n_of [label=BV]
+	"_decline_v_1-fn.Competition" -> "_speculate_v_1-fn.Attempt_suasion" [label="ARG2-fn.Participant_2"]
+	_in_p -> _reduction_n_of [label=ARG1]
+	_in_p -> _force_n_1 [label=ARG2]
+	udef_q -> _force_n_1 [label=BV]
+	_a_q -> _spokesman_n_1 [label=BV]
+	"_speculate_v_1-fn.Attempt_suasion" -> _spokesman_n_1 [label="ARG1-fn.Content"]
+}

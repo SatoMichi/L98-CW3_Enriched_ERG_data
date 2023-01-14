@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> "named(Chevrolet)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	_new_a_1 -> "named(Chevrolet)" [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Agent"]
+	number_q -> "card(1)" [label=BV]
+	"_buy_v_1-fn.Commerce_buy" -> "named(Chevrolet)" [label="ARG2-fn.Theme"]
+}

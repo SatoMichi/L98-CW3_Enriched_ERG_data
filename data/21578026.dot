@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> nominalization [label="ARG2-fn.Means"]
+	"_square_v_1-fn.Change_position_on_a_scale" -> _position_n_of [label="ARG2-fn.Item"]
+	"_square_v_1-fn.Change_position_on_a_scale" -> _trader_n_1 [label="ARG1-fn.Attribute"]
+	nominalization -> "_square_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	udef_q -> _trader_n_1 [label=BV]
+	udef_q -> _position_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+}

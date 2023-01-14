@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _output_n_of [label=ARG1]
+	_output_n_of -> _and_c [label=ARG1]
+	udef_q -> _service_n_1 [label=BV]
+	_a_q -> _nation_n_of [label=BV]
+	_of_p -> _output_n_of [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	poss -> _nation_n_of [label=ARG2]
+	_total_a_1 -> _value_n_1 [label=ARG1]
+	def_explicit_q -> _output_n_of [label=BV]
+	_the_q -> _value_n_1 [label=BV]
+	_of_p -> _value_n_1 [label=ARG1]
+	udef_q -> _goods_n_1 [label=BV]
+	proper_q -> "named(GDP)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(GDP)" [label="ARG1-fn.Process"]
+	"_be_v_id-fn.Cause_to_end" -> _value_n_1 [label="ARG2-fn.Means"]
+}

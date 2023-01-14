@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> "_buy_v_1-fn.Commerce_buy" [label=ARG2]
+	_if_x_then -> "_sell_v_1-fn.Commerce_buy" [label=ARG2]
+	"_wish_v_1-fn.State_continue" -> pron [label="ARG1-fn.Entity"]
+	"_sell_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	ellipsis_ref -> pron [label=ARG1]
+	_if_x_then -> "_wish_v_1-fn.State_continue" [label=ARG1]
+	"_buy_v_1-fn.Commerce_buy" -> pron [label="ARG1-fn.Buyer"]
+	neg -> ellipsis_ref [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_wish_v_1-fn.State_continue" -> neg [label="ARG2-fn.State"]
+}

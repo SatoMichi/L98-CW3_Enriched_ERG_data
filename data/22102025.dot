@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	def_implicit_q -> _month_n_1 [label=BV]
+	"_call_v_for-fn.IN" -> "named(Gandhi)" [label="ARG1-fn.Agent"]
+	poss -> "named(Gandhi)" [label=ARG1]
+	def_explicit_q -> "named(Gandhi)" [label=BV]
+	udef_q -> "_election_n_of-for" [label=BV]
+	loc_nonsp -> "_election_n_of-for" [label=ARG1]
+	"_call_v_for-fn.IN" -> "_election_n_of-for" [label="ARG2-fn.Topic"]
+	loc_nonsp -> _month_n_1 [label=ARG2]
+	poss -> "named(India)" [label=ARG2]
+	_next_a_1 -> _month_n_1 [label=ARG1]
+	_parliamentary_a_1 -> "_election_n_of-for" [label=ARG1]
+	proper_q -> "named(India)" [label=BV]
+}

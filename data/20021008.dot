@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _country_n_of [label=BV]
+	neg -> "_say_v_to-fn.IN" [label=ARG1]
+	_before_p -> "_say_v_to-fn.IN" [label=ARG1]
+	"_want_v_1-fn.Desiring" -> _country_n_of [label="ARG1-fn.Pivot"]
+	"_want_v_1-fn.Desiring" -> part_of [label="ARG2-fn.Theme"]
+	"_say_v_to-fn.IN" -> "_want_v_1-fn.Desiring" [label="ARG2-fn.Topic"]
+	parg_d -> "_forgive_v_for-fn.Forgiveness" [label=ARG1]
+	parg_d -> part_of [label=ARG2]
+	"_want_v_1-fn.Desiring" -> "_forgive_v_for-fn.Forgiveness" [label="ARG3-fn.NotExist"]
+	_half_q -> part_of [label=BV]
+	"_forgive_v_for-fn.Forgiveness" -> part_of [label="ARG2-fn.NotExist"]
+	part_of -> _debt_n_1 [label=ARG1]
+	_the_q -> _debt_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

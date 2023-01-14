@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1.4)" -> _percent_n_of [label=ARG1]
+	_for_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+	loc_nonsp -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	focus_d -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	focus_d -> _for_p [label=ARG2]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _cost_n_1 [label="ARG1-fn.NotExist"]
+	_for_p -> _worker_n_1 [label=ARG2]
+	_the_q -> _cost_n_1 [label=BV]
+	"_nonunion/jj_u_unknown" -> _worker_n_1 [label=ARG1]
+	udef_q -> _worker_n_1 [label=BV]
+}

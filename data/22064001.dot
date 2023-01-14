@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_important_a_for -> _decision_n_1 [label=ARG1]
+	"_make_v_1-fn.Rite" -> _decision_n_1 [label="ARG2-fn.Member"]
+	_this_q_dem -> "season(fall)" [label=BV]
+	"_have_v_1-fn.State_continue" -> _decision_n_1 [label="ARG2-fn.State"]
+	loc_nonsp -> "season(fall)" [label=ARG2]
+	_a_q -> _decision_n_1 [label=BV]
+	"_have_v_1-fn.State_continue" -> _conservative_n_1 [label="ARG1-fn.Entity"]
+	udef_q -> _conservative_n_1 [label=BV]
+	loc_nonsp -> "_make_v_1-fn.Rite" [label=ARG1]
+}

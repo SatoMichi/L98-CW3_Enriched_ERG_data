@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _scatter_v_1 [label=ARG1]
+	udef_q -> _scrap_n_of [label=BV]
+	"card(14)" -> _scrap_n_of [label=ARG1]
+	"_own_v_1-fn.NF" -> _acre_n_1 [label="ARG2-fn.Theme"]
+	_in_p -> _acre_n_1 [label=ARG1]
+	compound -> "named(Pyszkiewicz)" [label=ARG1]
+	proper_q -> "named(Pyszkiewicz)" [label=BV]
+	parg_d -> _scrap_n_of [label=ARG2]
+	"card(30)" -> _acre_n_1 [label=ARG1]
+	_in_p -> _scrap_n_of [label=ARG2]
+	proper_q -> "named(Czeslaw)" [label=BV]
+	compound -> "named(Czeslaw)" [label=ARG2]
+	_scatter_v_1 -> _scrap_n_of [label=ARG2]
+	udef_q -> _acre_n_1 [label=BV]
+	"_own_v_1-fn.NF" -> "named(Pyszkiewicz)" [label="ARG1-fn.Pivot"]
+}

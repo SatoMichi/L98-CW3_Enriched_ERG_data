@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Jack)" [label=BV]
+	udef_q -> "_cont’d./nn_u_unknown" [label=BV]
+	unknown -> "named(ABBIE)" [label=ARG]
+	parenthetical -> "named(ABBIE)" [label=ARG1]
+	_with_p -> pron [label=ARG2]
+	_always_a_1 -> _with_p [label=ARG1]
+	addressee -> _with_p [label=ARG2]
+	_colon_p_namely -> "named(ABBIE)" [label=ARG1]
+	proper_q -> "named(ABBIE)" [label=BV]
+	parenthetical -> "_cont’d./nn_u_unknown" [label=ARG2]
+	addressee -> "named(Jack)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

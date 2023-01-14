@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_end_v_cause-fn.Cause_to_end" -> "_truce/nn_u_unknown" [label="ARG2-fn.Theme"]
+	proper_q -> "named(ORTEGA)" [label=BV]
+	"_end_v_cause-fn.Cause_to_end" -> "named(ORTEGA)" [label="ARG1-fn.Agent"]
+	_a_q -> "_truce/nn_u_unknown" [label=BV]
+	"_threaten_v_1-fn.NF" -> "_election_n_of-for" [label="ARG2-fn.NotExist"]
+	parg_d -> "_election_n_of-for" [label=ARG2]
+	parg_d -> "_threaten_v_1-fn.NF" [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(ORTEGA)" [label="ARG1-fn.Agent"]
+	_with_p -> "named(Contras)" [label=ARG2]
+	udef_q -> "_election_n_of-for" [label=BV]
+	_the_q -> "named(Contras)" [label=BV]
+	"_say_v_to-fn.IN" -> "_threaten_v_1-fn.NF" [label="ARG2-fn.Topic"]
+	_with_p -> "_truce/nn_u_unknown" [label=ARG1]
+}

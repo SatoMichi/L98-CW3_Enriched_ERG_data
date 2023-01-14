@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p_temp -> _day_n_of [label=ARG2]
+	compound -> _procedure_n_1 [label=ARG1]
+	_the_q -> _agency_n_1 [label=BV]
+	_specific_a_to -> _procedure_n_1 [label=ARG1]
+	"_announce_v_to-fn.Statement" -> _agency_n_1 [label="ARG1-fn.Agent"]
+	_come_v_1 -> _day_n_of [label=ARG1]
+	_in_p_temp -> "_announce_v_to-fn.Statement" [label=ARG1]
+	"_plan_v_1-fn.Purpose" -> "_announce_v_to-fn.Statement" [label="ARG2-fn.NotExist"]
+	compound -> _relief_n_1 [label=ARG2]
+	"_plan_v_1-fn.Purpose" -> _agency_n_1 [label="ARG1-fn.Experiencer"]
+	"_announce_v_to-fn.Statement" -> _procedure_n_1 [label="ARG2-fn.Topic"]
+	udef_q -> _procedure_n_1 [label=BV]
+	udef_q -> _relief_n_1 [label=BV]
+	_the_q -> _day_n_of [label=BV]
+}

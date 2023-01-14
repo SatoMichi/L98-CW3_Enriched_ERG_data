@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_begin_v_1-fn.Competition" -> _series_n_of [label="ARG2-fn.Participant_2"]
+	"_analyze_v_1-fn.Competition" -> _report_n_of [label="ARG1-fn.Participant_1"]
+	_the_q -> _failure_n_1 [label=BV]
+	_of_p -> "_perestroika/fw_u_unknown" [label=ARG2]
+	_of_p -> _failure_n_1 [label=ARG1]
+	_of_p -> _series_n_of [label=ARG1]
+	"_begin_v_1-fn.Competition" -> "named(Ogonyok)" [label="ARG1-fn.Participant_1"]
+	_a_q -> _series_n_of [label=BV]
+	"_analyze_v_1-fn.Competition" -> _failure_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _report_n_of [label=BV]
+	udef_q -> "_perestroika/fw_u_unknown" [label=BV]
+	proper_q -> "named(Ogonyok)" [label=BV]
+	_of_p -> _report_n_of [label=ARG2]
+}

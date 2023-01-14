@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _gentleman_n_1 [label=ARG2]
+	_german_a_1 -> _extraction_n_1 [label=ARG1]
+	"_happen_v_1-fn.Event" -> _of_p [label="ARG1-fn.NotExist"]
+	_of_p -> _extraction_n_1 [label=ARG2]
+	udef_q -> _extraction_n_1 [label=BV]
+	"_old-fashioned_a_1" -> _gentleman_n_1 [label=ARG1]
+	_of_p -> _gentleman_n_1 [label=ARG1]
+	_be_v_id -> pron [label=ARG1]
+	_elegant_a_1 -> _gentleman_n_1 [label=ARG1]
+	_jewish_a_1 -> _extraction_n_1 [label=ARG1]
+	udef_q -> _gentleman_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

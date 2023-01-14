@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	superl -> "_good_a_at-for-of" [label=ARG1]
+	"_good_a_at-for-of" -> _way_n_of [label=ARG1]
+	udef_q -> _woman_n_1 [label=BV]
+	_be_v_id -> _way_n_of [label=ARG2]
+	_way_n_of -> "_lure_v_1-fn.Manipulate_into_doing" [label=ARG1]
+	udef_q -> _sports_n_1 [label=BV]
+	_hardly_a_1 -> _be_v_id [label=ARG1]
+	_moreover_a_1 -> _hardly_a_1 [label=ARG1]
+	_be_v_id -> _sports_n_1 [label=ARG1]
+	"_lure_v_1-fn.Manipulate_into_doing" -> _woman_n_1 [label="ARG2-fn.Patient"]
+	_adult_a_1 -> _woman_n_1 [label=ARG1]
+	_the_q -> _way_n_of [label=BV]
+}

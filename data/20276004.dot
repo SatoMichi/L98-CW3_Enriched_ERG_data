@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Hees)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_for_p -> _month_n_1 [label=ARG2]
+	"_feuding/vbg_u_unknown" -> _and_c [label=ARG1]
+	compound -> "named(Blair)" [label=ARG1]
+	udef_q -> _month_n_1 [label=BV]
+	_for_p -> "_feuding/vbg_u_unknown" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Blair)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_equal_v_1-fn.Renting" -> _percent_n_of [label="ARG2-fn.Goods"]
+	subord -> "_exclude_v_1-fn.Renting" [label=ARG2]
+	"_exclude_v_1-fn.Renting" -> "named(Mexico)" [label="ARG2-fn.Goods"]
+	compound -> "_exposure_n_of-to" [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	proper_q -> "named(Mexico)" [label=BV]
+	subord -> "_equal_v_1-fn.Renting" [label=ARG1]
+	udef_q -> _reserve_n_1 [label=BV]
+	_of_p -> _percent_n_of [label=ARG1]
+	"card(95)" -> _percent_n_of [label=ARG1]
+	compound -> "named(LDC)" [label=ARG2]
+	"_equal_v_1-fn.Renting" -> _reserve_n_1 [label="ARG1-fn.Lessee"]
+	proper_q -> "named(LDC)" [label=BV]
+	udef_q -> "_exposure_n_of-to" [label=BV]
+	_of_p -> "_exposure_n_of-to" [label=ARG2]
+}

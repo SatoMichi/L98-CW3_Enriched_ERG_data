@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _order_n_of [label=BV]
+	"_allow_v_1-fn.State_continue" -> "_void_v_1-fn.Process_stop" [label="ARG3-fn.Time"]
+	"_allow_v_1-fn.State_continue" -> _investor_n_1 [label="ARG2-fn.State"]
+	"_void_v_1-fn.Process_stop" -> _order_n_of [label="ARG2-fn.Place"]
+	"_allow_v_1-fn.State_continue" -> _fund_n_1 [label="ARG1-fn.Entity"]
+	"much-many_a" -> _fund_n_1 [label=ARG1]
+	_the_q -> _close_n_of [label=BV]
+	udef_q -> _investor_n_1 [label=BV]
+	"_void_v_1-fn.Process_stop" -> _investor_n_1 [label="ARG1-fn.Process"]
+	_close_n_of -> nominalization [label=ARG1]
+	udef_q -> _fund_n_1 [label=BV]
+	nominalization -> _trade_v_1 [label=ARG1]
+	_before_p -> _close_n_of [label=ARG2]
+	_before_p -> "_void_v_1-fn.Process_stop" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

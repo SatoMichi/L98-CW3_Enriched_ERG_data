@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	id -> pron [label=ARG1]
+	"card(42,455)" -> _dollar_n_1 [label=ARG1]
+	"_deny_v_to-fn.Statement" -> "named_n(IRS)" [label="ARG1-fn.Agent"]
+	_the_q -> "named_n(IRS)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_claim_v_1-fn.Statement" -> _loss_n_of [label="ARG2-fn.Topic"]
+	id -> generic_entity [label=ARG2]
+	"_total_v_1-fn.Amounting_to" -> _dollar_n_1 [label="ARG2-fn.Theme"]
+	"_claim_v_1-fn.Statement" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _loss_n_of [label=BV]
+	"_total_v_1-fn.Amounting_to" -> _loss_n_of [label="ARG1-fn.NotExist"]
+	"_deny_v_to-fn.Statement" -> pron [label="ARG2-fn.Predicate"]
+	_all_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+}

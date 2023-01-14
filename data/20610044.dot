@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_cite_v_for-fn.Name_conferral" [label=ARG2]
+	"_elaborate_v_1-fn.Competition" -> _company_n_of [label="ARG1-fn.Participant_1"]
+	neg -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+	subord -> neg [label=ARG1]
+	udef_q -> _reason_n_for [label=BV]
+	"_cite_v_for-fn.Name_conferral" -> _reason_n_for [label="ARG2-fn.Name"]
+	"_would_v_modal-fn.Cause_to_end" -> "_elaborate_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_the_q -> _company_n_of [label=BV]
+	_competitive_a_1 -> _reason_n_for [label=ARG1]
+}

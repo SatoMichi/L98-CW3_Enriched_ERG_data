@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_of+course_a_1" -> "_exist_v_1-fn.Existence" [label=ARG1]
+	"_exist_v_1-fn.Existence" -> _people_n_of [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Pa)" [label=BV]
+	_like_p -> _people_n_of [label=ARG1]
+	_like_p -> "named(Pa)" [label=ARG2]
+	udef_q -> _people_n_of [label=BV]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_give_v_1-fn.Giving" [label=ARG1]
+	_the_q -> _willie_n_1 [label=BV]
+	"_give_v_1-fn.Giving" -> _willie_n_1 [label="ARG2-fn.Theme"]
+	subord -> "_think_v_about-fn.IN" [label=ARG2]
+	"_think_v_about-fn.IN" -> pron [label="ARG3-fn.NotExist"]
+	_just_a_1 -> "_think_v_about-fn.IN" [label=ARG1]
+	"_give_v_1-fn.Giving" -> pron [label="ARG3-fn.Recipient"]
+	pronoun_q -> pron [label=BV]
+}

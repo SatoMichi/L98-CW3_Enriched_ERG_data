@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_attack_v_1-fn.Bail_decision" -> "named(Jones)" [label="ARG1-fn.Accused"]
+	"_attack_v_1-fn.Bail_decision" -> _problem_n_of [label="ARG2-fn.Judge"]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _front_n_1 [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	_on_p -> _front_n_1 [label=ARG2]
+	compound -> "named(Jones)" [label=ARG1]
+	_on_p -> "_attack_v_1-fn.Bail_decision" [label=ARG1]
+	proper_q -> "named(Jones)" [label=BV]
+	_several_a_1 -> _front_n_1 [label=ARG1]
+	_the_q -> _problem_n_of [label=BV]
+}

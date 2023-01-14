@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _mister_n_1 [label=ARG2]
+	"_longterm/jj_u_unknown" -> _buy_n_1 [label=ARG1]
+	_a_q -> _buy_n_1 [label=BV]
+	proper_q -> "named(Falco)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	"_continue_v_2-fn.Competition" -> "_rank_v_1-fn.Competition" [label="ARG1-fn.Participant_1"]
+	compound -> "named(Falco)" [label=ARG1]
+	"_rank_v_1-fn.Competition" -> _stock_n_1 [label="ARG3-fn.Participants"]
+	"_rank_v_1-fn.Competition" -> "named(Falco)" [label="ARG1-fn.Participant_1"]
+	_the_q -> _stock_n_1 [label=BV]
+	"_rank_v_1-fn.Competition" -> _buy_n_1 [label="ARG2-fn.Participant_2"]
+}

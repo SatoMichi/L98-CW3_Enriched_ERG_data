@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> generic_entity [label=BV]
+	_of_p -> generic_entity [label=ARG2]
+	_for_p -> generic_entity [label=ARG1]
+	_for_p -> _survival_n_1 [label=ARG2]
+	_fit_a_1 -> generic_entity [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	superl -> _fit_a_1 [label=ARG1]
+	comp_so -> "much-many_a" [label=ARG1]
+	udef_q -> _survival_n_1 [label=BV]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_of_p -> _survival_n_1 [label=ARG1]
+	unknown -> generic_entity [label=ARG]
+}

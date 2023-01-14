@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Lufkin)" [label=BV]
+	neg -> _would_v_modal [label=ARG1]
+	_would_v_modal -> "_comment_v_on-fn.Statement" [label=ARG1]
+	proper_q -> "named(Donaldson)" [label=BV]
+	"_comment_v_on-fn.Statement" -> "named(Lufkin)" [label="ARG1-fn.Agent"]
+	compound -> "named(Lufkin)" [label=ARG1]
+	compound -> "named(Donaldson)" [label=ARG2]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _cover_v_1 [label=ARG1]
+	_the_q -> _agreement_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "named(Deere)" [label="ARG1-fn.Agent"]
+	focus_d -> _cover_v_1 [label=ARG2]
+	udef_q -> _employee_n_of [label=BV]
+	"card(1,150)" -> _employee_n_of [label=ARG1]
+	parg_d -> _employee_n_of [label=ARG2]
+	_new_a_1 -> _agreement_n_1 [label=ARG1]
+	proper_q -> "named(Deere)" [label=BV]
+	"_say_v_to-fn.IN" -> _cover_v_1 [label="ARG2-fn.Topic"]
+	_cover_v_1 -> _agreement_n_1 [label=ARG1]
+	_about_x_deg -> "card(1,150)" [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_cover_v_1 -> _employee_n_of [label=ARG2]
+}

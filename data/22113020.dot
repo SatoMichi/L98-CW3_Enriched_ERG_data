@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _painting_n_of [label="ARG1-fn.Entity"]
+	part_of -> _picture_n_of [label=ARG1]
+	_just_x_deg -> _part_q [label=ARG1]
+	_the_q -> _picture_n_of [label=BV]
+	udef_q -> _painting_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> part_of [label="ARG2-fn.Name"]
+	_part_q -> part_of [label=BV]
+}

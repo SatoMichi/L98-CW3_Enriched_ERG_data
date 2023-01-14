@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_note_v_to-fn.Becoming_aware" -> pron [label="ARG1-fn.Experiencer"]
+	_the_q -> _tremor_n_1 [label=BV]
+	"_all+along_a_1" -> _and_c [label=ARG1]
+	_the_q -> _reality_n_1 [label=BV]
+	"_underlie_v_1-fn.NF" -> _reality_n_1 [label="ARG1-fn.Theme"]
+	"_note_v_to-fn.Becoming_aware" -> _tremor_n_1 [label="ARG2-fn.Stimulus"]
+	"_point_v_out-to" -> _reality_n_1 [label=ARG2]
+	focus_d -> _and_c [label=ARG1]
+	"_point_v_out-to" -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

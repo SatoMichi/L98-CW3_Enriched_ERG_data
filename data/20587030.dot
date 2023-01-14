@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_there-fn.Cause_to_end" -> _evidence_n_of [label="ARG1-fn.Process"]
+	neg -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	_evidence_n_of -> _survivor_n_1 [label=ARG1]
+	_any_q -> _evidence_n_of [label=BV]
+	udef_q -> _survivor_n_1 [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	which_q -> person [label=BV]
+	_clear_a_of -> _would_v_modal [label=ARG1]
+	compound -> _game_n_1 [label=ARG1]
+	compound -> nominalization [label=ARG2]
+	nominalization -> _wait_v_1 [label=ARG1]
+	"_win_v_1-fn.NF" -> person [label="ARG1-fn.Agent"]
+	"_win_v_1-fn.NF" -> _game_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> nominalization [label=BV]
+	_a_q -> _game_n_1 [label=BV]
+	neg -> _however_a_1 [label=ARG1]
+	_would_v_modal -> "_win_v_1-fn.NF" [label=ARG1]
+	_however_a_1 -> _clear_a_of [label=ARG1]
+}

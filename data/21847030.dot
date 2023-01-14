@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _rest_n_1 [label=ARG2]
+	_from_p -> "_neighbhorhoods/nns_u_unknown" [label=ARG2]
+	"_use_v_1-fn.IN" -> _rest_n_1 [label="ARG2-fn.NotExist"]
+	parg_d -> "_use_v_1-fn.IN" [label=ARG1]
+	"_clean_v_out-fn.NF" -> _drug_n_1 [label="ARG2-fn.Theme"]
+	_from_p -> "_clean_v_out-fn.NF" [label=ARG1]
+	"_clean_v_out-fn.NF" -> _rest_n_1 [label="ARG1-fn.Agent"]
+	udef_q -> _drug_n_1 [label=BV]
+	_the_q -> "_neighbhorhoods/nns_u_unknown" [label=BV]
+	_the_q -> _rest_n_1 [label=BV]
+	_ought_v_qmodal -> "_in+order+to_x" [label=ARG1]
+	"_in+order+to_x" -> "_use_v_1-fn.IN" [label=ARG1]
+	"_in+order+to_x" -> "_clean_v_out-fn.NF" [label=ARG2]
+}

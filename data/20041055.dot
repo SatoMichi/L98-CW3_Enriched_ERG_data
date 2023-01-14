@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _voice_n_1 [label="ARG1-fn.Agent"]
+	_remember_v_from -> pron [label=ARG1]
+	proper_q -> "named(Pinocchio)" [label=BV]
+	focus_d -> _remember_v_from [label=ARG2]
+	_remember_v_from -> "named(Pinocchio)" [label=ARG2]
+	_female_a_1 -> _voice_n_1 [label=ARG1]
+	"_say_v_to-fn.IN" -> _remember_v_from [label="ARG2-fn.Topic"]
+	_a_q -> _voice_n_1 [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

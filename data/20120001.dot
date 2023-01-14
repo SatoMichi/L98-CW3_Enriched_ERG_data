@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _issue_n_1 [label=BV]
+	udef_q -> "season(fall)" [label=BV]
+	udef_q -> _ballot_n_1 [label=BV]
+	"_off-year_a_1" -> "_election_n_of-for" [label=ARG1]
+	_a_q -> _record_n_of [label=BV]
+	compound -> _issue_n_1 [label=ARG1]
+	"_set_v_1-fn.Competition" -> _record_n_of [label="ARG2-fn.Participant_2"]
+	compound -> _ballot_n_1 [label=ARG2]
+	_for_p -> _record_n_of [label=ARG1]
+	compound -> "season(fall)" [label=ARG2]
+	_for_p -> "_election_n_of-for" [label=ARG2]
+	"_set_v_1-fn.Competition" -> _issue_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> "_election_n_of-for" [label=BV]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	times -> "card(1.7)" [label=ARG2]
+	_a_q -> _loss_n_of [label=BV]
+	udef_q -> _operation_n_of [label=BV]
+	_of_p -> _dollar_n_1 [label=ARG2]
+	"_have_v_1-fn.State_continue" -> _loss_n_of [label="ARG2-fn.State"]
+	_from_p -> _operation_n_of [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_from_p -> "_have_v_1-fn.State_continue" [label=ARG1]
+	_of_p -> _operation_n_of [label=ARG1]
+	"_have_v_1-fn.State_continue" -> _company_n_of [label="ARG1-fn.Entity"]
+}

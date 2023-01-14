@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_decline_v_1 -> pron [label=ARG1]
+	"_elaborate_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_decline_v_1 -> "_elaborate_v_1-fn.NF" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

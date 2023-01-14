@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_because_x -> _able_a_1 [label=ARG1]
+	"_attract_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_be_v_id-fn.Cotheme" -> thing [label="ARG2-fn.Cotheme"]
+	_able_a_1 -> pron [label=ARG1]
+	_some_q -> thing [label=BV]
+	"_attract_v_1-fn.Competition" -> "_advertisers/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+	_able_a_1 -> "_attract_v_1-fn.Competition" [label=ARG2]
+	_new_a_1 -> thing [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> generic_entity [label="ARG1-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	_new_a_1 -> "_advertisers/nns_u_unknown" [label=ARG1]
+	_because_x -> "_be_v_id-fn.Cotheme" [label=ARG2]
+	_some_q -> "_advertisers/nns_u_unknown" [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+}

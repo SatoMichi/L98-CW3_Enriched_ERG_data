@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_gnp/nn_u_unknown" [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	_between_p -> _dollar_n_1 [label=ARG2]
+	_the_q -> "named(Bahamas)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	_some_q -> place_n [label=BV]
+	_between_p -> place_n [label=ARG1]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	_of_p -> "_gnp/nn_u_unknown" [label=ARG1]
+	times -> _and_c [label=ARG2]
+	_the_q -> "_gnp/nn_u_unknown" [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	_of_p -> "named(Bahamas)" [label=ARG2]
+	_probably_x_deg -> _some_q [label=ARG1]
+}

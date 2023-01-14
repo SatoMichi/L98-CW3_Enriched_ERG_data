@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _government_n_of [label=BV]
+	_intelligent_a_1 -> pron [label=ARG1]
+	_the_q -> _time_n_of [label=BV]
+	_do_v_1 -> thing [label=ARG2]
+	_do_v_1 -> _government_n_of [label=ARG1]
+	_famous_a_for -> pron [label=ARG1]
+	"_have_v_1-fn.IN" -> _time_n_of [label="ARG2-fn.Theme"]
+	"_have_v_1-fn.IN" -> pron [label="ARG1-fn.Pivot"]
+	_some_q -> thing [label=BV]
+	_rich_a_in -> pron [label=ARG1]
+	"_not+even_x_deg" -> _the_q [label=ARG1]
+	_federal_a_1 -> _government_n_of [label=ARG1]
+	with_p -> _time_n_of [label=ARG2]
+	with_p -> _do_v_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

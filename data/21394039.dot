@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	subord -> "_understaffs/vbz_u_unknown" [label=ARG1]
+	poss -> _employee_n_of [label=ARG2]
+	"_understaffs/vbz_u_unknown" -> _company_n_of [label=ARG1]
+	subord -> "_stretch_v_1-fn.Competition" [label=ARG2]
+	_to_p -> "_stretch_v_1-fn.Competition" [label=ARG1]
+	_deliberate_a_1 -> "_understaffs/vbz_u_unknown" [label=ARG1]
+	_to_p -> _limit_n_of [label=ARG2]
+	poss -> _schedule_n_1 [label=ARG1]
+	"_stretch_v_1-fn.Competition" -> _schedule_n_1 [label="ARG2-fn.Participant_2"]
+	udef_q -> _employee_n_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	def_explicit_q -> _schedule_n_1 [label=BV]
+	_the_q -> _limit_n_of [label=BV]
+}

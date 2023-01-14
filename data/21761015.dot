@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "_offer_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_offer_v_1-fn.NF" -> _suggestion_n_of [label="ARG2-fn.Theme"]
+	_these_q_dem -> _suggestion_n_of [label=BV]
+	"_offer_v_1-fn.NF" -> pron [label="ARG1-fn.Agent"]
+}

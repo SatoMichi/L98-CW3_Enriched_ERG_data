@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_industrials/nns_u_unknown" [label=BV]
+	_to_p -> "_gain_v_1-fn.Competition" [label=ARG1]
+	_to_p -> "card(2643.65)" [label=ARG2]
+	compound -> "named(Jones)" [label=ARG1]
+	"_gain_v_1-fn.Competition" -> "_industrials/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Jones)" [label=BV]
+	number_q -> "card(4.92)" [label=BV]
+	proper_q -> "named(Dow)" [label=BV]
+	compound -> "_industrials/nns_u_unknown" [label=ARG1]
+	number_q -> "card(2643.65)" [label=BV]
+	compound -> "named(Dow)" [label=ARG2]
+	loc_nonsp -> "_gain_v_1-fn.Competition" [label=ARG1]
+	loc_nonsp -> "card(4.92)" [label=ARG2]
+}

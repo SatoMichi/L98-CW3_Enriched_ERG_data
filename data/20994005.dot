@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_at_p -> _core_n_1 [label=ARG2]
+	"_stand_v_1-fn.Being_located" -> _hotel_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _core_n_1 [label=BV]
+	_at_p -> "_stand_v_1-fn.Being_located" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+	_of_p -> _core_n_1 [label=ARG1]
+	_a_q -> _hotel_n_1 [label=BV]
+	_all_q -> part_of [label=BV]
+	part_of -> generic_entity [label=ARG1]
+	_of_p -> part_of [label=ARG2]
+}

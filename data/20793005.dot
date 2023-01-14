@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _scandal_n_1 [label=ARG1]
+	_simple_a_1 -> "_continue_v_1-fn.Competition" [label=ARG1]
+	_but_x -> "_continue_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(HUD)" [label=BV]
+	_the_q -> _scandal_n_1 [label=BV]
+	_but_x -> _under_p [label=ARG2]
+	udef_q -> "_mismanagement/nn_u_unknown" [label=BV]
+	compound -> "named(HUD)" [label=ARG2]
+	_under_p -> "_mismanagement/nn_u_unknown" [label=ARG2]
+	"_continue_v_1-fn.Competition" -> _scandal_n_1 [label="ARG1-fn.Participant_1"]
+	_new_a_1 -> "_mismanagement/nn_u_unknown" [label=ARG1]
+}

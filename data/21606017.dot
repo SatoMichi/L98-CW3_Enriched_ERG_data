@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _stock_n_1 [label=BV]
+	parg_d -> "_undervalued/vbn_u_unknown" [label=ARG1]
+	_still_a_disc -> "_say_v_to-fn.Cause_to_end" [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> "_undervalued/vbn_u_unknown" [label="ARG2-fn.Means"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_undervalued/vbn_u_unknown" -> _stock_n_1 [label=ARG2]
+	"_grossly/rb_u_unknown" -> "_undervalued/vbn_u_unknown" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	poss -> _stock_n_1 [label=ARG1]
+	"_say_v_to-fn.Cause_to_end" -> "named(Johnson)" [label="ARG1-fn.Process"]
+	proper_q -> "named(Johnson)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	parg_d -> _stock_n_1 [label=ARG2]
+	poss -> pron [label=ARG2]
+	compound -> "named(Johnson)" [label=ARG1]
+}

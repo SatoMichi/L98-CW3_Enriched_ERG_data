@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _form_n_of [label=BV]
+	_until_p -> _week_n_1 [label=ARG2]
+	_until_p -> "_act_v_on-fn.Fining" [label=ARG1]
+	_incomplete_a_1 -> _form_n_of [label=ARG1]
+	def_implicit_q -> _week_n_1 [label=BV]
+	focus_d -> _until_p [label=ARG2]
+	"_act_v_on-fn.Fining" -> _form_n_of [label="ARG2-fn.Instrument"]
+	"_act_v_on-fn.Fining" -> "named_n(IRS)" [label="ARG1-fn.Speaker"]
+	_last_a_1 -> _week_n_1 [label=ARG1]
+	focus_d -> "_act_v_on-fn.Fining" [label=ARG1]
+	_the_q -> "named_n(IRS)" [label=BV]
+	_rare_a_1 -> "_act_v_on-fn.Fining" [label=ARG1]
+}

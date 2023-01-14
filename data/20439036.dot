@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _stock_n_1 [label=BV]
+	_would_v_modal -> "_undertake_v_1-fn.NF" [label=ARG1]
+	udef_q -> _enterprise_n_1 [label=BV]
+	_joint_a_1 -> _stock_n_1 [label=ARG1]
+	parg_d -> _latter_n_1 [label=ARG2]
+	udef_q -> _cooperative_n_1 [label=BV]
+	"_undertake_v_1-fn.NF" -> implicit_conj [label="ARG1-fn.Agent"]
+	udef_q -> _company_n_of [label=BV]
+	udef_q -> implicit_conj [label=BV]
+	parg_d -> "_undertake_v_1-fn.NF" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	compound -> _stock_n_1 [label=ARG2]
+	"_undertake_v_1-fn.NF" -> _latter_n_1 [label="ARG2-fn.Theme"]
+	_the_q -> _latter_n_1 [label=BV]
+	compound -> _company_n_of [label=ARG1]
+}

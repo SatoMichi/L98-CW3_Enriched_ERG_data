@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_already_a_1 -> _costly_a_1 [label=ARG1]
+	_costly_a_1 -> _fight_n_1 [label=ARG1]
+	focus_d -> _costly_a_1 [label=ARG1]
+	_the_q -> _fight_n_1 [label=BV]
+}

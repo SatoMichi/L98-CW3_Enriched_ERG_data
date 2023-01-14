@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	number_q -> "card(100)" [label=BV]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> "named(Fanuc)" [label="ARG1-fn.NotExist"]
+	interval_p_end -> interval [label=ARG1]
+	interval_p_start -> interval [label=ARG1]
+	number_q -> "card(7,580)" [label=BV]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> interval [label="ARG2-fn.Patient"]
+	interval_p_start -> "card(100)" [label=ARG2]
+	interval_p_end -> "card(7,580)" [label=ARG2]
+	proper_q -> "named(Fanuc)" [label=BV]
+	udef_q -> interval [label=BV]
+}

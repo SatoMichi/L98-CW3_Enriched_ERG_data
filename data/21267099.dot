@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _guarantee_n_of [label=BV]
+	neg -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _guarantee_n_of [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> _litigation_n_1 [label="ARG1-fn.Process"]
+	_a_q -> _outcome_n_1 [label=BV]
+	_guarantee_n_of -> _outcome_n_1 [label=ARG1]
+	udef_q -> _litigation_n_1 [label=BV]
+	_favorable_a_1 -> _outcome_n_1 [label=ARG1]
+	"_consult_v_about-fn.Needing" -> _litigation_n_1 [label="ARG1-fn.Cognizer"]
+}

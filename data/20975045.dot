@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_of-i-fn.Taking" -> _institution_n_1 [label="ARG1-fn.Agent"]
+	_indeed_a_1 -> "_take_v_of-i-fn.Taking" [label=ARG1]
+	_already_a_1 -> "_take_v_of-i-fn.Taking" [label=ARG1]
+	idiom_q_i -> _note_n_i [label=BV]
+	udef_q -> _institution_n_1 [label=BV]
+	"_take_v_of-i-fn.Taking" -> _note_n_i [label="ARG2-fn.Theme"]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_pick_v_up-fn.Impact" [label=ARG1]
+	"_can_v_modal-fn.Reliance" -> "_pick_v_up-fn.Impact" [label="ARG1-fn.Protagonist"]
+	focus_d -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	"_pick_v_up-fn.Impact" -> pron [label="ARG1-fn.Place"]
+	focus_d -> loc_nonsp [label=ARG2]
+	_okay_a_1 -> "_can_v_modal-fn.Reliance" [label=ARG1]
+	_now_a_1 -> time_n [label=ARG1]
+	_that_q_dem -> _phone_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	"_pick_v_up-fn.Impact" -> _phone_n_1 [label="ARG2-fn.Result"]
+}

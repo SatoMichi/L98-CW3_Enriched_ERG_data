@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_outside_p -> "_meet_v_1-fn.State_continue" [label=ARG1]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	loc_nonsp -> time_n [label=ARG2]
+	_outside_p -> "named(Chicago)" [label=ARG2]
+	"_meet_v_1-fn.State_continue" -> _pilot_n_of [label="ARG1-fn.Entity"]
+	proper_q -> "named(Chicago)" [label=BV]
+	loc_nonsp -> "_meet_v_1-fn.State_continue" [label=ARG1]
+	def_implicit_q -> time_n [label=BV]
+	_the_q -> _pilot_n_of [label=BV]
+}

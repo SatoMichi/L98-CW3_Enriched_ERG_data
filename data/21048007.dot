@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_hopeful_a_1 -> "_conduct_v_1-fn.State_continue" [label=ARG1]
+	_a_q -> _auction_n_of [label=BV]
+	"_conduct_v_1-fn.State_continue" -> _auction_n_of [label="ARG2-fn.State"]
+	"_conduct_v_1-fn.State_continue" -> "named(Lin)" [label="ARG1-fn.Entity"]
+	pronoun_q -> pron [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	proper_q -> "named(Lin)" [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> _hopeful_a_1 [label="ARG2-fn.Means"]
+	_fair_a_1 -> _auction_n_of [label=ARG1]
+}

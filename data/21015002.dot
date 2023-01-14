@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rise_v_1-fn.Experiencer_obj" -> _stock_n_1 [label="ARG1-fn.Experiencer"]
+	_in_p -> "_rise_v_1-fn.Experiencer_obj" [label=ARG1]
+	proper_q -> "named(London)" [label=BV]
+	proper_q -> "named(Frankfurt)" [label=BV]
+	_in_p -> "named(London)" [label=ARG2]
+	"_fall_v_1-fn.Halt" -> _stock_n_1 [label="ARG1-fn.Purpose"]
+	_in_p -> "named(Frankfurt)" [label=ARG2]
+	_again_a_1 -> "_fall_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _stock_n_1 [label=BV]
+	_in_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+}

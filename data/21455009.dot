@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_equal -> _well_a_2 [label=ARG1]
+	udef_q -> "_home_n_of-n" [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _office_n_of [label=BV]
+	compound -> _office_n_of [label=ARG2]
+	"_design_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_design_v_1-fn.Competition" -> _and_c [label="ARG2-fn.Participant_2"]
+	udef_q -> _space_n_of [label=BV]
+	compound -> _space_n_of [label=ARG1]
+	comp_equal -> _space_n_of [label=ARG2]
+	udef_q -> _furniture_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_commercial_a_1 -> _space_n_of [label=ARG1]
+	_well_a_2 -> _and_c [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	superl -> _painful_a_to [label=ARG1]
+	_because_x -> _fair_a_1 [label=ARG1]
+	parg_d -> _shield_v_from [label=ARG1]
+	"_at+first_a_1" -> "_squint_v_1-fn.Perception_active" [label=ARG1]
+	_because_x -> _shield_v_from [label=ARG2]
+	"_squint_v_1-fn.Perception_active" -> _republican_n_1 [label="ARG1-fn.Experiencer"]
+	"_at+least_x_deg" -> "_at+first_a_1" [label=ARG1]
+	_most_a_1 -> _shield_v_from [label=ARG1]
+	udef_q -> _republican_n_1 [label=BV]
+	parg_d -> pron [label=ARG2]
+	_shield_v_from -> pron [label=ARG2]
+	_only_x_deg -> _fair_a_1 [label=ARG1]
+	relative_mod -> _because_x [label=ARG2]
+	_painful_a_to -> "_squint_v_1-fn.Perception_active" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

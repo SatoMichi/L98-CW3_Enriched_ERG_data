@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	"much-many_a" -> _company_n_of [label=ARG1]
+	"_hesitate_v_1-fn.Rite" -> _company_n_of [label="ARG1-fn.Leader"]
+	udef_q -> _company_n_of [label=BV]
+}

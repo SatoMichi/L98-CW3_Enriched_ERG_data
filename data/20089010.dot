@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> _other_n_1 [label=ARG1]
+	loc_nonsp -> place_n [label=ARG2]
+	_the_q -> _other_n_1 [label=BV]
+	def_implicit_q -> place_n [label=BV]
+	_here_a_1 -> place_n [label=ARG1]
+	_elsewhere_a_1 -> place_n [label=ARG1]
+	loc_nonsp -> "_live_v_1-fn.Residence" [label=ARG1]
+	"_live_v_1-fn.Residence" -> _other_n_1 [label="ARG1-fn.Theme"]
+	_today_a_1 -> "_live_v_1-fn.Residence" [label=ARG1]
+}

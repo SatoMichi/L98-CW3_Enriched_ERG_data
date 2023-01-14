@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _debt_n_1 [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> "_contribute_v_to-fn.Assemble" [label="ARG1-fn.Speaker"]
+	udef_q -> _bank_n_of [label=BV]
+	"much-many_a" -> _debt_n_1 [label=ARG1]
+	"_contribute_v_to-fn.Assemble" -> _bank_n_of [label="ARG1-fn.Individuals"]
+	_senior_a_1 -> _debt_n_1 [label=ARG1]
+	"_contribute_v_to-fn.Assemble" -> _debt_n_1 [label="ARG2-fn.Group"]
+	comp -> "much-many_a" [label=ARG1]
+}

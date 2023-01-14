@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_want_v_1-fn.Desiring" -> pron [label="ARG1-fn.Pivot"]
+	udef_q -> _mister_n_1 [label=BV]
+	"_want_v_1-fn.Desiring" -> _turn_v_on [label="ARG2-fn.Theme"]
+	_colon_p_namely -> "_want_v_1-fn.Desiring" [label=ARG1]
+	_turn_v_on -> pron [label=ARG1]
+	_the_q -> _customer_n_of [label=BV]
+	_turn_v_on -> _customer_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	compound -> "named(Roberti)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Roberti)" [label="ARG1-fn.Agent"]
+	"_say_v_to-fn.IN" -> _colon_p_namely [label="ARG2-fn.Topic"]
+	proper_q -> "named(Roberti)" [label=BV]
+}

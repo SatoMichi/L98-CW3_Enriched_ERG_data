@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_most_q -> part_of [label=BV]
+	_the_q -> _traffic_n_1 [label=BV]
+	part_of -> _traffic_n_1 [label=ARG1]
+	compound -> _traffic_n_1 [label=ARG1]
+	_off_p -> part_of [label=ARG1]
+	"_say_v_to-fn.Have_as_requirement" -> _off_p [label="ARG2-fn.Requirement"]
+	compound -> _commodity_n_1 [label=ARG2]
+	udef_q -> _commodity_n_1 [label=BV]
+	focus_d -> _off_p [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _company_n_of [label="ARG1-fn.Dependent"]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+}

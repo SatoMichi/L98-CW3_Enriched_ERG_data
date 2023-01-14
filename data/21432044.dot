@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "yofc(1997)" [label=ARG2]
+	"_post-_a_1" -> "yofc(1997)" [label=ARG1]
+	udef_q -> _official_n_1 [label=BV]
+	proper_q -> "yofc(1997)" [label=BV]
+	_responsible_a_for -> _official_n_1 [label=ARG1]
+	compound -> _official_n_1 [label=ARG1]
+	_ultimate_a_1 -> _responsible_a_for [label=ARG1]
+	proper_q -> "named(Beijing)" [label=BV]
+	udef_q -> _critic_n_of [label=BV]
+	"_fret_v_1-fn.Cause_to_make_noise" -> _responsible_a_for [label="ARG2-fn.Sound_maker"]
+	"_fret_v_1-fn.Cause_to_make_noise" -> _critic_n_of [label="ARG1-fn.Agent"]
+	_to_p -> _responsible_a_for [label=ARG1]
+	_to_p -> "named(Beijing)" [label=ARG2]
+}

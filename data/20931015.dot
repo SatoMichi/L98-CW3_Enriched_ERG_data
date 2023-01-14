@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_act_v_as-fn.NF" -> _messenger_n_1 [label="ARG2-fn.Attribute"]
+	neg -> "_act_v_as-fn.NF" [label=ARG1]
+	_a_q -> _messenger_n_1 [label=BV]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	"_add_v_to-fn.NF" -> neg [label="ARG2-fn.Topic"]
+	"_act_v_as-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

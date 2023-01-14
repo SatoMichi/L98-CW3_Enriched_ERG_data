@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_lie_v_2-fn.Being_located" -> part_of [label="ARG1-fn.NotExist"]
+	_the_q -> _nature_n_1 [label=BV]
+	_the_q -> _industry_n_1 [label=BV]
+	_the_q -> _answer_n_to [label=BV]
+	_of_p -> _industry_n_1 [label=ARG2]
+	_of_p -> _nature_n_1 [label=ARG1]
+	_part_q -> part_of [label=BV]
+	_in_p -> "_lie_v_2-fn.Being_located" [label=ARG1]
+	part_of -> _answer_n_to [label=ARG1]
+	_in_p -> _nature_n_1 [label=ARG2]
+}

@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_load_v_cause-fn.Filling" [label=ARG1]
+	parg_d -> "_load_v_cause-fn.Filling" [label=ARG1]
+	_the_q -> _rifle_n_1 [label=BV]
+	parg_d -> _rifle_n_1 [label=ARG2]
+	"_load_v_cause-fn.Filling" -> _rifle_n_1 [label="ARG2-fn.Destination"]
+}

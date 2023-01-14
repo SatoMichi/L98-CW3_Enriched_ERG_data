@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _pressure_n_1 [label=BV]
+	"_inflationary/jj_u_unknown" -> _pressure_n_1 [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> _economist_n_1 [label="ARG1-fn.Agent"]
+	"_consider_v_1-fn.Categorization" -> generic_entity [label="ARG3-fn.NotExist"]
+	_sign_n_of -> _abate_v_1 [label=ARG1]
+	udef_q -> _economist_n_1 [label=BV]
+	_abate_v_1 -> _pressure_n_1 [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	"_consider_v_1-fn.Categorization" -> _sign_n_of [label="ARG2-fn.Theme"]
+	_a_q -> _sign_n_of [label=BV]
+}

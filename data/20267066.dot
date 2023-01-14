@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _judge_n_of [label=ARG2]
+	_fierce_a_1 -> _proud_a_of [label=ARG1]
+	_proud_a_of -> _and_c [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_proud_a_of -> _judge_n_of [label=ARG1]
+	_the_q -> _judge_n_of [label=BV]
+	poss -> _and_c [label=ARG1]
+	poss -> pron [label=ARG2]
+	udef_q -> _accomplishment_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> _proud_a_of [label="ARG2-fn.NotExist"]
+	def_explicit_q -> _and_c [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	udef_q -> _ability_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+}

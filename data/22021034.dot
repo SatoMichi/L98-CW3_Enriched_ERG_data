@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_alter_v_1-fn.Undergo_change" -> _and_c [label="ARG2-fn.Final_category"]
+	udef_q -> _chemistry_n_1 [label=BV]
+	def_explicit_q -> _atmosphere_n_1 [label=BV]
+	udef_q -> _physics_n_1 [label=BV]
+	def_explicit_q -> _planet_n_1 [label=BV]
+	poss -> _planet_n_1 [label=ARG2]
+	_of_p -> _atmosphere_n_1 [label=ARG2]
+	_the_q -> _and_c [label=BV]
+	_of_p -> _and_c [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> _atmosphere_n_1 [label=ARG1]
+	"_alter_v_1-fn.Undergo_change" -> pron [label="ARG1-fn.Entity"]
+	poss -> pron [label=ARG2]
+	_literal_a_1 -> "_alter_v_1-fn.Undergo_change" [label=ARG1]
+}

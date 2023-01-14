@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_prolonged_a_1 -> "_stagflation/nn_u_unknown" [label=ARG1]
+	_colon_p_namely -> "_stagflation/nn_u_unknown" [label=ARG1]
+	udef_q -> _inflation_n_of [label=BV]
+	"_predict_v_1-fn.Predicting" -> "_stagflation/nn_u_unknown" [label="ARG2-fn.Topic"]
+	_foreign_a_1 -> _economist_n_1 [label=ARG1]
+	udef_q -> _economist_n_1 [label=BV]
+	"_predict_v_1-fn.Predicting" -> _economist_n_1 [label="ARG1-fn.Cause"]
+	_low_a_on -> _growth_n_of [label=ARG1]
+	_chinese_a_1 -> _economist_n_1 [label=ARG1]
+	_high_a_1 -> _inflation_n_of [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _growth_n_of [label=BV]
+	udef_q -> "_stagflation/nn_u_unknown" [label=BV]
+	_colon_p_namely -> _and_c [label=ARG2]
+	_now_a_1 -> "_predict_v_1-fn.Predicting" [label=ARG1]
+}

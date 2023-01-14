@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_on_p -> _gain_n_1 [label=ARG2]
+	_the_q -> _investor_n_1 [label=BV]
+	compound -> _gain_n_1 [label=ARG1]
+	focus_d -> _in_p_state [label=ARG2]
+	_any_q -> _gain_n_1 [label=BV]
+	udef_q -> _upside_n_1 [label=BV]
+	_in_p_state -> "_miss_v_out-fn.Commerce_buy" [label=ARG1]
+	focus_d -> "_miss_v_out-fn.Commerce_buy" [label=ARG1]
+	_in_p_state -> _case_n_of [label=ARG2]
+	_major_a_1 -> _gain_n_1 [label=ARG1]
+	compound -> _upside_n_1 [label=ARG2]
+	_that_q_dem -> _case_n_of [label=BV]
+	"_miss_v_out-fn.Commerce_buy" -> _investor_n_1 [label="ARG1-fn.Buyer"]
+}

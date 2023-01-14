@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> part_of [label=BV]
+	poss -> _rhetoric_n_1 [label=ARG1]
+	_hostile_a_1 -> part_of [label=ARG1]
+	_official_a_1 -> _rhetoric_n_1 [label=ARG1]
+	_to_p -> _hostile_a_1 [label=ARG1]
+	"_what+s+more_a_1" -> _hostile_a_1 [label=ARG1]
+	poss -> "named(China)" [label=ARG2]
+	_to_p -> "named_n(US)" [label=ARG2]
+	_the_q -> "named_n(US)" [label=BV]
+	"much-many_a" -> part_of [label=ARG1]
+	def_explicit_q -> _rhetoric_n_1 [label=BV]
+	part_of -> _rhetoric_n_1 [label=ARG1]
+	proper_q -> "named(China)" [label=BV]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Stanley)" [label=BV]
+	compound -> "named(Morgan)" [label=ARG2]
+	compound -> "named(Intl)" [label=ARG1]
+	proper_q -> "named(Morgan)" [label=BV]
+	compound -> "named(Stanley)" [label=ARG1]
+	"_colon_v_id-fn.Perception_body" -> "named(Intl)" [label="ARG2-fn.Body_part"]
+	proper_q -> "named(Intl)" [label=BV]
+	compound -> "named(Capital)" [label=ARG1]
+	"_colon_v_id-fn.Perception_body" -> _source_n_2 [label="ARG1-fn.Experiencer"]
+	proper_q -> "named(Capital)" [label=BV]
+	udef_q -> _source_n_2 [label=BV]
+}

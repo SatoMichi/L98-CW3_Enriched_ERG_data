@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> "named(Kong)" [label=ARG]
+	_to_x_subord -> neg [label=ARG1]
+	proper_q -> "named(China)" [label=BV]
+	"_be_v_id-fn.Name_conferral" -> "named(China)" [label="ARG1-fn.Entity"]
+	proper_q -> "named(Kong)" [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	compound -> "named(Hong)" [label=ARG2]
+	_pure_a_1 -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	proper_q -> "named(Hong)" [label=BV]
+	compound -> "named(Kong)" [label=ARG1]
+	neg -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _business_n_1 [label="ARG2-fn.Name"]
+	_to_x_subord -> unknown [label=ARG2]
+}

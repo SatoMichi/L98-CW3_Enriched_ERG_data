@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_great_a_for -> _implication_n_of [label=ARG1]
+	_the_q -> _implication_n_of [label=BV]
+	"_could_v_modal-fn.Cause_to_end" -> _great_a_for [label="ARG1-fn.Process"]
+}

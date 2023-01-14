@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_true_a_of -> _extent_n_of [label=ARG1]
+	_clear_a_of -> _extent_n_of [label=ARG1]
+	udef_q -> _minute_n_1 [label=BV]
+	_within_p_state -> "_become_v_id-fn.Residence" [label=ARG1]
+	"_become_v_id-fn.Residence" -> _extent_n_of [label="ARG1-fn.Resident"]
+	focus_d -> "_become_v_id-fn.Residence" [label=ARG1]
+	_extent_n_of -> _catastrophe_n_1 [label=ARG1]
+	_the_q -> _catastrophe_n_1 [label=BV]
+	"_a+few_a_1" -> _minute_n_1 [label=ARG1]
+	_within_p_state -> _minute_n_1 [label=ARG2]
+	_the_q -> _extent_n_of [label=BV]
+	focus_d -> _within_p_state [label=ARG2]
+	"_become_v_id-fn.Residence" -> _clear_a_of [label="ARG2-fn.Location"]
+}

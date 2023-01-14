@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_lucky_a_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

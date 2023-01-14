@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _supermarket_n_1 [label=ARG1]
+	loc_nonsp -> "_go_v_1-fn.Competition" [label=ARG1]
+	_the_q -> _supermarket_n_1 [label=BV]
+	proper_q -> "named(Bakersfield)" [label=BV]
+	loc_nonsp -> "mofy(May)" [label=ARG2]
+	"_go_v_1-fn.Competition" -> _supermarket_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _business_n_1 [label=BV]
+	"_out+of_p_dir" -> _business_n_1 [label=ARG2]
+	"_out+of_p_dir" -> "_go_v_1-fn.Competition" [label=ARG1]
+	def_implicit_q -> "mofy(May)" [label=BV]
+	_last_a_1 -> "mofy(May)" [label=ARG1]
+	compound -> "named(Bakersfield)" [label=ARG2]
+}

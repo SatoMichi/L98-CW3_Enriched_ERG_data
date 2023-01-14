@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _business_n_1 [label=BV]
+	"_go_v_about-fn.Needing" -> _company_n_of [label="ARG1-fn.Cognizer"]
+	poss -> _business_n_1 [label=ARG1]
+	"_go_v_about-fn.Needing" -> _business_n_1 [label="ARG2-fn.Requirement"]
+	_the_q -> _company_n_of [label=BV]
+	"_can_v_modal-fn.Reliance" -> "_go_v_about-fn.Needing" [label="ARG1-fn.Protagonist"]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+}

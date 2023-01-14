@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"much-many_a" -> generic_entity [label=ARG1]
+	_worried_a_about -> generic_entity [label=ARG1]
+	_worried_a_about -> _bread_n_1 [label=ARG2]
+	udef_q -> _bread_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG2-fn.Means"]
+	_the_q -> _table_n_1 [label=BV]
+	_on_p -> _bread_n_1 [label=ARG1]
+	udef_q -> generic_entity [label=BV]
+	_on_p -> _table_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	comp -> "much-many_a" [label=ARG1]
+}

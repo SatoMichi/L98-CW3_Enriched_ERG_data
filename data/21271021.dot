@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> "_look_v_like-fn.Appearance" [label=ARG1]
+	"_look_v_like-fn.Appearance" -> pron [label="ARG1-fn.Stimulus"]
+	_like_p -> _holiday_n_1 [label=ARG2]
+	_a_q -> _holiday_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

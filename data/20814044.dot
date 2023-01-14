@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_compile_v_1-fn.Cause_to_start" -> "named(Mathewson)" [label="ARG1-fn.Cause"]
+	compound -> "named(William)" [label=ARG2]
+	proper_q -> "named(William)" [label=BV]
+	proper_q -> "named(Mathewson)" [label=BV]
+	parg_d -> "_compile_v_1-fn.Cause_to_start" [label=ARG1]
+	compound -> "named(Mathewson)" [label=ARG1]
+}

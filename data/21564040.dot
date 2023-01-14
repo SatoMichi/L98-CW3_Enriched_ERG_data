@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(20)" -> _year_n_1 [label=ARG1]
+	udef_q -> _year_n_1 [label=BV]
+	_in_p -> _future_n_1 [label=ARG2]
+	"_pay_v_for-fn.Renting" -> pron [label="ARG1-fn.Lessee"]
+	"_may_v_modal-fn.Communication_manner" -> "_pay_v_for-fn.Renting" [label="ARG1-fn.Speaker"]
+	"_pay_v_for-fn.Renting" -> _price_n_of [label="ARG2-fn.Goods"]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	_in_p -> _year_n_1 [label=ARG1]
+	_the_q -> _future_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_a_q -> _price_n_of [label=BV]
+	loc_nonsp -> "_pay_v_for-fn.Renting" [label=ARG1]
+	"card(10)" -> _year_n_1 [label=ARG1]
+}

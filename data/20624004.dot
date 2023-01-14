@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _government_n_of [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_behind_p -> _dollar_n_1 [label=ARG1]
+	loc_nonsp -> _dollar_n_1 [label=ARG2]
+	_in_p -> _payment_n_of [label=ARG2]
+	loc_nonsp -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _interest_n_in [label=BV]
+	times -> "card(300)" [label=ARG2]
+	_in_p -> "_fall_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	compound -> _payment_n_of [label=ARG1]
+	compound -> _interest_n_in [label=ARG2]
+	"_fall_v_1-fn.Change_position_on_a_scale" -> _government_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _payment_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+}

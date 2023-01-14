@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_charge_v_with -> _man_n_1 [label=ARG2]
+	"card(2)" -> _man_n_1 [label=ARG1]
+	udef_q -> _man_n_1 [label=BV]
+	_also_a_1 -> _charge_v_with [label=ARG1]
+	parg_d -> _man_n_1 [label=ARG2]
+	"_participate_v_in-fn.Participation" -> _operation_n_of [label="ARG2-fn.Theme"]
+	nominalization -> "_participate_v_in-fn.Participation" [label=ARG1]
+	_the_q -> _operation_n_of [label=BV]
+	_other_a_1 -> _man_n_1 [label=ARG1]
+	parg_d -> _charge_v_with [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_charge_v_with -> nominalization [label=ARG3]
+}

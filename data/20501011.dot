@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	_a_q -> _investment_n_1 [label=BV]
+	"_kind_n_of-n" -> _investment_n_1 [label=ARG1]
+	_a_q -> "_kind_n_of-n" [label=BV]
+	"_be_v_id-fn.Residence" -> "_kind_n_of-n" [label="ARG2-fn.Location"]
+	pronoun_q -> pron [label=BV]
+}

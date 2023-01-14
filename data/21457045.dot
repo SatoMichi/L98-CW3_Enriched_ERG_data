@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_concede_v_to-fn.Quitting" -> "named(Dinkins)" [label="ARG1-fn.Employee"]
+	compound -> _mister_n_1 [label=ARG2]
+	_ability_n_1 -> _and_c [label=ARG1]
+	_in_p -> _ability_n_1 [label=ARG2]
+	udef_q -> _mister_n_1 [label=BV]
+	_no_q -> thing [label=BV]
+	"_concede_v_to-fn.Quitting" -> thing [label="ARG2-fn.Employer"]
+	proper_q -> "named(Dinkins)" [label=BV]
+	poss -> _ability_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_in_p -> thing [label=ARG1]
+	poss -> pron [label=ARG2]
+	compound -> "named(Dinkins)" [label=ARG1]
+	def_explicit_q -> _ability_n_1 [label=BV]
+}

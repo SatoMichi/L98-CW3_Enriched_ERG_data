@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _income_n_1 [label=BV]
+	neg -> _pay_v_for [label=ARG1]
+	_pay_v_for -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_this_q_dem -> _trust_n_1 [label=BV]
+	_a_q -> _dividend_n_1 [label=BV]
+	"_need_v_1-fn.Needing" -> _trust_n_1 [label="ARG1-fn.Pivot"]
+	"_need_v_1-fn.Needing" -> _income_n_1 [label="ARG2-fn.Theme"]
+	_pay_v_for -> _dividend_n_1 [label=ARG2]
+}

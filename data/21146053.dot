@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_polish_a_1 -> _agriculture_n_1 [label=ARG1]
+	_private_a_1 -> _farmer_n_1 [label=ARG1]
+	"card(1)" -> _asset_n_1 [label=ARG1]
+	"_possess_v_1-fn.Competition" -> _asset_n_1 [label="ARG2-fn.Participant_2"]
+	_great_a_for -> _asset_n_1 [label=ARG1]
+	udef_q -> _asset_n_1 [label=BV]
+	_the_q -> _farmer_n_1 [label=BV]
+	_colon_p_namely -> "_possess_v_1-fn.Competition" [label=ARG1]
+	"_possess_v_1-fn.Competition" -> _agriculture_n_1 [label="ARG1-fn.Participant_1"]
+	_already_a_1 -> "_possess_v_1-fn.Competition" [label=ARG1]
+	unknown -> _farmer_n_1 [label=ARG]
+	udef_q -> _agriculture_n_1 [label=BV]
+}

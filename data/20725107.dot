@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_confirm_v_as-fn.State_continue" -> _figure_n_1 [label="ARG1-fn.Entity"]
+	_any_q -> _boom_n_1 [label=BV]
+	"_be_v_there-fn.Cause_to_end" -> _boom_n_1 [label="ARG1-fn.Process"]
+	_the_q -> _figure_n_1 [label=BV]
+	compound -> _boom_n_1 [label=ARG1]
+	neg -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	"_confirm_v_as-fn.State_continue" -> _certain_a_1 [label="ARG2-fn.State"]
+	compound -> nominalization [label=ARG2]
+	nominalization -> _drill_v_1 [label=ARG1]
+	_certain_a_1 -> neg [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

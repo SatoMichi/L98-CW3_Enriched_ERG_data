@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_bribe_v_1-fn.NF" -> _shut_v_up [label="ARG3-fn.Result"]
+	_simple_a_1 -> "_bribe_v_1-fn.NF" [label=ARG1]
+	"_bribe_v_1-fn.NF" -> pron [label="ARG2-fn.Patient"]
+	pronoun_q -> pron [label=BV]
+	_shut_v_up -> pron [label=ARG1]
+	def_explicit_q -> _scammer_n_1 [label=BV]
+	"_bribe_v_1-fn.NF" -> _scammer_n_1 [label="ARG1-fn.Agent"]
+	poss -> "named(Wedtech)" [label=ARG2]
+	poss -> _scammer_n_1 [label=ARG1]
+	proper_q -> "named(Wedtech)" [label=BV]
+}

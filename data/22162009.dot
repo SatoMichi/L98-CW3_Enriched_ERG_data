@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _property_n_1 [label=ARG2]
+	"_view_v_as-fn.Amounting_to" -> _banker_n_1 [label="ARG1-fn.Value"]
+	compound -> _loan_n_1 [label=ARG1]
+	compound -> _sector_n_1 [label=ARG1]
+	udef_q -> _property_n_1 [label=BV]
+	udef_q -> _banker_n_1 [label=BV]
+	"_view_v_as-fn.Amounting_to" -> _risky_a_for [label="ARG3-fn.Time_span"]
+	udef_q -> _sector_n_1 [label=BV]
+	"_view_v_as-fn.Amounting_to" -> _loan_n_1 [label="ARG2-fn.Attribute"]
+	_particular_a_1 -> _risky_a_for [label=ARG1]
+	udef_q -> _loan_n_1 [label=BV]
+	_risky_a_for -> _loan_n_1 [label=ARG1]
+	"much-many_a" -> _banker_n_1 [label=ARG1]
+}

@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _turmoil_n_1 [label=BV]
+	_for_p -> _beneficial_a_1 [label=ARG1]
+	compound -> _turmoil_n_1 [label=ARG1]
+	udef_q -> _market_n_1 [label=BV]
+	_beneficial_a_1 -> _turmoil_n_1 [label=ARG1]
+	_small_a_1 -> _business_n_1 [label=ARG1]
+	_for_p -> _business_n_1 [label=ARG2]
+	compound -> _market_n_1 [label=ARG2]
+	_partial_a_1 -> _beneficial_a_1 [label=ARG1]
+	_some_q -> _business_n_1 [label=BV]
+	"_could_v_modal-fn.Cause_to_end" -> _beneficial_a_1 [label="ARG1-fn.Process"]
+}

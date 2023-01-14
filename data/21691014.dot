@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	appos -> pron [label=ARG1]
+	appos -> generic_entity [label=ARG2]
+	"_good_a_at-for-of" -> _reminder_n_1 [label=ARG1]
+	"_prior+to_p" -> "_prepare_v_1-fn.Activity_prepare" [label=ARG1]
+	_be_v_id -> _reminder_n_1 [label=ARG2]
+	_a_q -> _reminder_n_1 [label=BV]
+	_be_v_id -> pron [label=ARG1]
+	_a_q -> _event_n_item [label=BV]
+	"_prior+to_p" -> _event_n_item [label=ARG2]
+	"_need_v_1-fn.Required_event" -> pron [label="ARG1-fn.Pivot"]
+	"_need_v_1-fn.Required_event" -> "_prepare_v_1-fn.Activity_prepare" [label="ARG2-fn.Theme"]
+	"_prepare_v_1-fn.Activity_prepare" -> pron [label="ARG1-fn.Agent"]
+	_reminder_n_1 -> "_need_v_1-fn.Required_event" [label=ARG1]
+	_all_q -> generic_entity [label=BV]
+	pronoun_q -> pron [label=BV]
+}

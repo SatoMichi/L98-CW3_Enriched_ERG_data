@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named_n(House)" [label=ARG1]
+	"_question_v_1-fn.Attempt" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _dedication_n_of [label=BV]
+	compound -> "named(White)" [label=ARG2]
+	compound -> _dedication_n_of [label=ARG1]
+	"_question_v_1-fn.Attempt" -> _dedication_n_of [label="ARG2-fn.Goal"]
+	udef_q -> "named_n(House)" [label=BV]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(White)" [label=BV]
+}

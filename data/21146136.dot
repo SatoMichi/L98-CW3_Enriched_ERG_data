@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_around_p -> pron [label=ARG2]
+	"_live_v_1-fn.Activity_stop" -> "named(Everyone)" [label="ARG1-fn.Purpose"]
+	_around_p -> "named(Everyone)" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	proper_q -> "named(Everyone)" [label=BV]
+	_well_a_1 -> "_live_v_1-fn.Activity_stop" [label=ARG1]
+}

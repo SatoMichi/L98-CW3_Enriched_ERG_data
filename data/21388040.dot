@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _tip_n_1 [label=ARG2]
+	_the_q -> _bow_n_1 [label=BV]
+	"_play_v_1-fn.Cause_to_make_noise" -> pron [label="ARG1-fn.Agent"]
+	_very_x_deg -> "_transparently/rb_u_unknown" [label=ARG1]
+	"_transparently/rb_u_unknown" -> "_play_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	_with_p -> "_play_v_1-fn.Cause_to_make_noise" [label=ARG1]
+	_of_p -> _tip_n_1 [label=ARG1]
+	_of_p -> _bow_n_1 [label=ARG2]
+	_the_q -> _tip_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

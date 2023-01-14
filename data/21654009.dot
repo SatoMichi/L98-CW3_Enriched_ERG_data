@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _observer_n_1 [label=ARG1]
+	udef_q -> _observer_n_1 [label=BV]
+	compound -> _industry_n_1 [label=ARG2]
+	"_expect_v_1-fn.IN" -> _observer_n_1 [label="ARG1-fn.Experiencer"]
+	udef_q -> _performance_n_1 [label=BV]
+	"_expect_v_1-fn.IN" -> "_divergence/nn_u_unknown" [label="ARG2-fn.Theme"]
+	_wide_a_1 -> "_divergence/nn_u_unknown" [label=ARG1]
+	udef_q -> _industry_n_1 [label=BV]
+	_a_q -> "_divergence/nn_u_unknown" [label=BV]
+	_in_p -> "_divergence/nn_u_unknown" [label=ARG1]
+	_in_p -> _performance_n_1 [label=ARG2]
+}

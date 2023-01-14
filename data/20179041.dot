@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _savings_n_1 [label=BV]
+	"_colon_v_id-fn.Perception_body" -> _and_c [label="ARG2-fn.Body_part"]
+	"_colon_v_id-fn.Perception_body" -> _business_n_1 [label="ARG1-fn.Experiencer"]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	id -> _savings_n_1 [label=ARG1]
+	id -> _loan_n_1 [label=ARG2]
+	udef_q -> _loan_n_1 [label=BV]
+}

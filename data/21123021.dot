@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_think_v_of-fn.IN" -> "_advertisers/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	focus_d -> _would_v_modal [label=ARG2]
+	neg -> _would_v_modal [label=ARG1]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	udef_q -> "_advertisers/nns_u_unknown" [label=BV]
+	"_think_v_of-fn.IN" -> pron [label="ARG2-fn.NotExist"]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	_would_v_modal -> "_think_v_of-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

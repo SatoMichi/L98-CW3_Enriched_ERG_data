@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_approve_v_1-fn.NF" -> "_lawmakers/nns_u_unknown" [label="ARG1-fn.Experiencer"]
+	"_lebanese/jj_u_unknown" -> "_lawmakers/nns_u_unknown" [label=ARG1]
+	compound -> _peace_n_1 [label=ARG2]
+	_reject_v_as -> pron [label=ARG2]
+	proper_q -> "named(Aoun)" [label=BV]
+	compound -> _plan_n_1 [label=ARG1]
+	_reject_v_as -> "named(Aoun)" [label=ARG1]
+	udef_q -> _peace_n_1 [label=BV]
+	_a_q -> _plan_n_1 [label=BV]
+	udef_q -> "_lawmakers/nns_u_unknown" [label=BV]
+	"_approve_v_1-fn.NF" -> _plan_n_1 [label="ARG2-fn.Stimulus"]
+	pronoun_q -> pron [label=BV]
+}

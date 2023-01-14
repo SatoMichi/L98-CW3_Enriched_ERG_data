@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_even_x_deg -> _a_q [label=ARG1]
+	"_stop_v_from-fn.Activity_stop" -> pron [label="ARG2-fn.Theme"]
+	"_stop_v_from-fn.Activity_stop" -> _raft_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _raft_n_1 [label=BV]
+	"_launch_v_cause-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	udef_q -> _publication_n_1 [label=BV]
+	udef_q -> _failure_n_1 [label=BV]
+	_of_p -> _raft_n_1 [label=ARG1]
+	"_stop_v_from-fn.Activity_stop" -> "_launch_v_cause-fn.IN" [label="ARG3-fn.Instrument"]
+	_new_a_1 -> _publication_n_1 [label=ARG1]
+	_of_p -> _failure_n_1 [label=ARG2]
+	neg -> "_stop_v_from-fn.Activity_stop" [label=ARG1]
+	_recent_a_1 -> _failure_n_1 [label=ARG1]
+	"_launch_v_cause-fn.IN" -> _publication_n_1 [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

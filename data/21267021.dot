@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _consultant_n_1 [label=BV]
+	focus_d -> _despite_p [label=ARG2]
+	neg -> _welcome_a_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	focus_d -> _welcome_a_1 [label=ARG1]
+	def_explicit_q -> "_ubiquity/nn_u_unknown" [label=BV]
+	_despite_p -> _welcome_a_1 [label=ARG1]
+	_despite_p -> "_ubiquity/nn_u_unknown" [label=ARG2]
+	_welcome_a_1 -> _consultant_n_1 [label=ARG1]
+	_entire_a_1 -> _welcome_a_1 [label=ARG1]
+	poss -> "_ubiquity/nn_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

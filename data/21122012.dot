@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _time_n_of [label=BV]
+	"_think_v_1-fn.IN" -> _legislator_n_1 [label="ARG1-fn.NotExist"]
+	_ripe_a_1 -> _time_n_of [label=ARG1]
+	_the_q -> _constitution_n_1 [label=BV]
+	_may_v_modal -> "_in+order+to_x" [label=ARG1]
+	"_in+order+to_x" -> _revise_v_1 [label=ARG2]
+	_revise_v_1 -> _time_n_of [label=ARG1]
+	"_think_v_1-fn.IN" -> _may_v_modal [label="ARG2-fn.NotExist"]
+	"_in+order+to_x" -> _ripe_a_1 [label=ARG1]
+	_some_q -> _legislator_n_1 [label=BV]
+	_revise_v_1 -> _constitution_n_1 [label=ARG2]
+}

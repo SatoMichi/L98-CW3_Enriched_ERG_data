@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	_municipal_a_1 -> "named(Issues)" [label=ARG1]
+	unknown -> "named(Issues)" [label=ARG]
+	proper_q -> "named(Issues)" [label=BV]
+}

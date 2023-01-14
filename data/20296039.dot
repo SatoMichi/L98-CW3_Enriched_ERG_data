@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _british_n_1 [label=ARG2]
+	def_explicit_q -> _relationship_n_of [label=BV]
+	_the_q -> _british_n_1 [label=BV]
+	"_different_a_than-from" -> _relationship_n_of [label=ARG1]
+	poss -> pron [label=ARG2]
+	_with_p -> _relationship_n_of [label=ARG1]
+	comp -> "_different_a_than-from" [label=ARG1]
+	_total_a_1 -> "_different_a_than-from" [label=ARG1]
+	poss -> _relationship_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

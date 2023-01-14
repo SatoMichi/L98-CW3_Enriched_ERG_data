@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	"_grow_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_continue_v_2-fn.Competition" -> "_grow_v_1-fn.Competition" [label="ARG1-fn.Participant_1"]
+	"_sense_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	pronoun_q -> pron [label=BV]
+	"_sense_v_1-fn.Competition" -> "_going+to_v_qmodal" [label="ARG2-fn.Participant_2"]
+	"_going+to_v_qmodal" -> "_continue_v_2-fn.Competition" [label="ARG1-fn.Process"]
+}

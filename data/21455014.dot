@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _project_n_1 [label=BV]
+	"_acquire_v_1-fn.Getting" -> _project_n_1 [label="ARG1-fn.Agent"]
+	compound -> "named(York)" [label=ARG1]
+	_a_q -> "_cachet/nn_u_unknown" [label=BV]
+	compound -> "named(New)" [label=ARG2]
+	"_acquire_v_1-fn.Getting" -> "_cachet/nn_u_unknown" [label="ARG2-fn.Theme"]
+	proper_q -> "named(York)" [label=BV]
+	_already_a_1 -> "_acquire_v_1-fn.Getting" [label=ARG1]
+	_certain_a_of -> "_cachet/nn_u_unknown" [label=ARG1]
+	proper_q -> "named(New)" [label=BV]
+	compound -> "_cachet/nn_u_unknown" [label=ARG1]
+}

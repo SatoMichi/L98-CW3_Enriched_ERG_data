@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_attempt_v_1-fn.Attack" -> "_put_v_together-fn.Talking_into" [label="ARG2-fn.Weapon"]
+	_a_q -> _bid_n_1 [label=BV]
+	"_put_v_together-fn.Talking_into" -> _bid_n_1 [label="ARG2-fn.Content"]
+	"_put_v_together-fn.Talking_into" -> _and_c [label="ARG1-fn.Speaker"]
+	_low_a_1 -> _bid_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Citicorp)" [label=BV]
+	comp -> _low_a_1 [label=ARG1]
+	_new_a_1 -> _bid_n_1 [label=ARG1]
+	proper_q -> "named(Chase)" [label=BV]
+	"_attempt_v_1-fn.Attack" -> _and_c [label="ARG1-fn.Victim"]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> _healthy_a_1 [label="ARG2-fn.NotExist"]
+	udef_q -> _mister_n_1 [label=BV]
+	poss -> "named(Drexel)" [label=ARG2]
+	_sometimes_a_1 -> _healthy_a_1 [label=ARG1]
+	compound -> "named(Feinman)" [label=ARG1]
+	poss -> "named(Feinman)" [label=ARG1]
+	_healthy_a_1 -> "_shakeout/nn_u_unknown" [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Feinman)" [label="ARG1-fn.NotExist"]
+	focus_d -> _healthy_a_1 [label=ARG1]
+	_a_q -> "_shakeout/nn_u_unknown" [label=BV]
+	def_explicit_q -> "named(Feinman)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	proper_q -> "named(Drexel)" [label=BV]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+}

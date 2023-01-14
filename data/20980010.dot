@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named_n(USA)" [label=ARG1]
+	proper_q -> "named(VISA)" [label=BV]
+	unknown -> "named(Inc)" [label=ARG]
+	udef_q -> "named_n(USA)" [label=BV]
+	compound -> "named(Inc)" [label=ARG1]
+	compound -> "named(VISA)" [label=ARG2]
+	proper_q -> "named(Inc)" [label=BV]
+}

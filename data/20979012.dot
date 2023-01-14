@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(3)" -> _member_n_of [label=ARG1]
+	_a_q -> _majority_n_of [label=BV]
+	_override_v_1 -> _majority_n_of [label=ARG1]
+	_override_v_1 -> pron [label=ARG2]
+	_the_q -> _board_n_of [label=BV]
+	"_include_v_1-fn.NF" -> _board_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _member_n_of [label=BV]
+	_australian_a_1 -> _company_n_of [label=ARG1]
+	_majority_n_of -> _board_n_of [label=ARG1]
+	_the_q -> _company_n_of [label=BV]
+	_from_p -> _member_n_of [label=ARG1]
+	_from_p -> _company_n_of [label=ARG2]
+	"_include_v_1-fn.NF" -> _member_n_of [label="ARG2-fn.NotExist"]
+	pronoun_q -> pron [label=BV]
+}

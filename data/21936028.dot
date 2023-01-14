@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> person [label=ARG2]
+	_in_p -> person [label=ARG1]
+	"_encourage_v_1-fn.NF" -> person [label="ARG2-fn.Recipient"]
+	"_smile_v_1-fn.Making_faces" -> person [label="ARG1-fn.Agent"]
+	parg_d -> "_encourage_v_1-fn.NF" [label=ARG1]
+	"_laugh_v_at-fn.Make_noise" -> person [label="ARG1-fn.Agent"]
+	_the_q -> _audience_n_1 [label=BV]
+	_in_p -> _audience_n_1 [label=ARG2]
+	_no_q -> person [label=BV]
+	"_encourage_v_1-fn.NF" -> "_laugh_v_at-fn.Make_noise" [label="ARG3-fn.Topic"]
+	"_onstage/rb_u_unknown" -> "_smile_v_1-fn.Making_faces" [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	compound -> _specialty_n_1 [label=ARG2]
+	_the_q -> _maker_n_of [label=BV]
+	udef_q -> _share_n_of [label=BV]
+	udef_q -> _chemical_n_1 [label=BV]
+	"card(1000000)" -> _share_n_of [label=ARG1]
+	compound -> _chemical_n_1 [label=ARG1]
+	"_have_v_1-fn.Commerce_collect" -> _maker_n_of [label="ARG1-fn.Buyer"]
+	_about_x_deg -> udef_q [label=ARG1]
+	times -> "card(5.9)" [label=ARG2]
+	_outstanding_a_1 -> _share_n_of [label=ARG1]
+	"_have_v_1-fn.Commerce_collect" -> _share_n_of [label="ARG2-fn.Goods"]
+	udef_q -> _specialty_n_1 [label=BV]
+	_maker_n_of -> _chemical_n_1 [label=ARG1]
+}

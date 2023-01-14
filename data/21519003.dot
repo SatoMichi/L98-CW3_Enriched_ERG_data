@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"ord(2)" -> _portion_n_of [label=ARG1]
+	loc_nonsp -> "_complete_v_2-fn.Activity_finish" [label=ARG1]
+	_following_a_1 -> _year_n_1 [label=ARG1]
+	parg_d -> _portion_n_of [label=ARG2]
+	_the_q -> _portion_n_of [label=BV]
+	loc_nonsp -> _year_n_1 [label=ARG2]
+	"_complete_v_2-fn.Activity_finish" -> _portion_n_of [label="ARG2-fn.Theme"]
+	parg_d -> "_complete_v_2-fn.Activity_finish" [label=ARG1]
+	_the_q -> _year_n_1 [label=BV]
+}

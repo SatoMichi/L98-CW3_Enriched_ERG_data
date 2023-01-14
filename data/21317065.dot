@@ -1,0 +1,6 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(ACCOUNT)" [label=BV]
+	_new_a_1 -> "named(ACCOUNT)" [label=ARG1]
+	unknown -> "named(ACCOUNT)" [label=ARG]
+}

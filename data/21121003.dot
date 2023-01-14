@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_equal -> "_collect_v_1-fn.Gathering_up" [label=ARG2]
+	compound -> _sea_n_of [label=ARG2]
+	_at_p -> "named(Malibu)" [label=ARG2]
+	udef_q -> _sea_n_of [label=BV]
+	compound -> _shell_n_1 [label=ARG1]
+	proper_q -> "named(Malibu)" [label=BV]
+	_easy_a_for -> pron [label=ARG1]
+	udef_q -> _shell_n_1 [label=BV]
+	comp_equal -> _easy_a_for [label=ARG1]
+	_at_p -> "_collect_v_1-fn.Gathering_up" [label=ARG1]
+	"_collect_v_1-fn.Gathering_up" -> _shell_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

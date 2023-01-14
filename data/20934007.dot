@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_current_a_1 -> _rate_n_of [label=ARG1]
+	compound -> _rate_n_of [label=ARG1]
+	_with_p -> _market_n_1 [label=ARG2]
+	_with_p -> "_out+of_p" [label=ARG1]
+	udef_q -> _ruble_n_1 [label=BV]
+	_black_a_1 -> _market_n_1 [label=ARG1]
+	idiom_q_i -> _line_n_of [label=BV]
+	_long_a_1 -> "_out+of_p" [label=ARG1]
+	compound -> _ruble_n_1 [label=ARG2]
+	_the_q -> _rate_n_of [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	"_out+of_p" -> _line_n_of [label=ARG2]
+	"_out+of_p" -> _rate_n_of [label=ARG1]
+}

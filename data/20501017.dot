@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_contrary_a_to -> pron [label=ARG1]
+	focus_d -> "_add_v_to-fn.NF" [label=ARG1]
+	udef_q -> _sense_n_of [label=BV]
+	focus_d -> _contrary_a_to [label=ARG2]
+	_contrary_a_to -> _sense_n_of [label=ARG2]
+	"_add_v_to-fn.NF" -> _contrary_a_to [label="ARG2-fn.Topic"]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_common_a_for -> _sense_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

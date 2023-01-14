@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _stock_n_1 [label=BV]
+	compound -> _stock_n_1 [label=ARG1]
+	focus_d -> "_in+favor_a_of" [label=ARG1]
+	"_in+favor_a_of" -> _stock_n_1 [label=ARG1]
+	comp -> _small_a_1 [label=ARG1]
+	compound -> _growth_n_of [label=ARG2]
+	neg -> "_in+favor_a_of" [label=ARG1]
+	udef_q -> _growth_n_of [label=BV]
+	_recent_a_1 -> "_in+favor_a_of" [label=ARG1]
+	_small_a_1 -> _growth_n_of [label=ARG1]
+	"_understandably/rb_u_unknown" -> "_in+favor_a_of" [label=ARG1]
+}

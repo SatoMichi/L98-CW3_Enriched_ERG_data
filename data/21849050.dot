@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_extremely_x_deg -> _shaky_a_1 [label=ARG1]
+	_whole_a_1 -> _structure_n_1 [label=ARG1]
+	_the_q -> _structure_n_1 [label=BV]
+	_shaky_a_1 -> _structure_n_1 [label=ARG1]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_when_x_subord -> "_realize_v_1-fn.Coming_to_believe" [label=ARG2]
+	proper_q -> "named(Wang)" [label=BV]
+	"_realize_v_1-fn.Coming_to_believe" -> generic_entity [label="ARG2-fn.Theme"]
+	"_realize_v_1-fn.Coming_to_believe" -> _company_n_of [label="ARG1-fn.Agent"]
+	_with_p -> _go_v_1 [label=ARG1]
+	_hard_a_for -> _go_v_1 [label=ARG1]
+	_when_x_subord -> _hard_a_for [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	_a_q -> _company_n_of [label=BV]
+	_with_p -> "named(Wang)" [label=ARG2]
+}

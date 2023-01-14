@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cost_v_1-fn.Change_position_on_a_scale" -> _dollar_n_1 [label="ARG2-fn.Item"]
+	udef_q -> _dollar_n_1 [label=BV]
+	_about_x_deg -> udef_q [label=ARG1]
+	"_cost_v_1-fn.Change_position_on_a_scale" -> _book_n_of [label="ARG1-fn.Attribute"]
+	_the_q -> _book_n_of [label=BV]
+	"card(2)" -> _dollar_n_1 [label=ARG1]
+	_comic_a_1 -> _book_n_of [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_to_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> _revenue_n_1 [label="ARG1-fn.Attribute"]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	times -> "card(449)" [label=ARG2]
+	"card(9)" -> _month_n_1 [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	times -> "card(441.1)" [label=ARG2]
+	_for_p -> _revenue_n_1 [label=ARG1]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _revenue_n_1 [label=BV]
+	_from_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> _month_n_1 [label=BV]
+	_from_p -> _dollar_n_1 [label=ARG2]
+	_for_p -> _month_n_1 [label=ARG2]
+}

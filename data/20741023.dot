@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _return_n_of [label=BV]
+	_return_n_of -> "named(Rothschilds)" [label=ARG1]
+	_modest_a_1 -> _return_n_of [label=ARG1]
+	_the_q -> "named(Rothschilds)" [label=BV]
+}

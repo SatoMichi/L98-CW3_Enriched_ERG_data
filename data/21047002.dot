@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	appos -> _owner_n_of [label=ARG2]
+	"_comment_v_on-fn.Statement" -> "named(Campeau)" [label="ARG1-fn.Agent"]
+	poss -> _owner_n_of [label=ARG1]
+	compound -> "named(Campeau)" [label=ARG1]
+	appos -> "named(Campeau)" [label=ARG1]
+	proper_q -> "named(Campeau)" [label=BV]
+	compound -> _corporation_n_1 [label=ARG2]
+	_the_q -> _chain_n_of [label=BV]
+	_the_q -> _report_n_of [label=BV]
+	poss -> _chain_n_of [label=ARG2]
+	def_explicit_q -> _owner_n_of [label=BV]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	"_comment_v_on-fn.Statement" -> _report_n_of [label="ARG2-fn.Topic"]
+	_decline_v_1 -> "named(Campeau)" [label=ARG1]
+	udef_q -> _corporation_n_1 [label=BV]
+}

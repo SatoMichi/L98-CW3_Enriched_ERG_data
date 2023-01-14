@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _market_n_1 [label=ARG2]
+	"_gain_v_1-fn.Change_of_quantity_of_possession" -> _following_n_1 [label="ARG2-fn.Theme"]
+	compound -> _crash_n_1 [label=ARG1]
+	_a_q -> _following_n_1 [label=BV]
+	udef_q -> _market_n_1 [label=BV]
+	_since_p -> _crash_n_1 [label=ARG2]
+	_since_p -> "_gain_v_1-fn.Change_of_quantity_of_possession" [label=ARG1]
+	"_gain_v_1-fn.Change_of_quantity_of_possession" -> _contract_n_1 [label="ARG1-fn.Agent"]
+	_global_a_1 -> _crash_n_1 [label=ARG1]
+	_the_q -> _crash_n_1 [label=BV]
+	_both_q -> _contract_n_1 [label=BV]
+	compound -> "yofc(1987)" [label=ARG2]
+	proper_q -> "yofc(1987)" [label=BV]
+	"card(2)" -> _contract_n_1 [label=ARG1]
+}

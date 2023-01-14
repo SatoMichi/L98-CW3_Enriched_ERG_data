@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_up_p -> _percent_n_of [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	"_stay_v_prd-fn.Cotheme" -> _expense_n_1 [label="ARG1-fn.Theme"]
+	_in_p_temp -> _quarter_n_temp [label=ARG2]
+	_high_a_1 -> _expense_n_1 [label=ARG1]
+	"_stay_v_prd-fn.Cotheme" -> _high_a_1 [label="ARG2-fn.Cotheme"]
+	"card(7.9)" -> _percent_n_of [label=ARG1]
+	_up_p -> _expense_n_1 [label=ARG1]
+	"_stubbornly/rb_u_unknown" -> _high_a_1 [label=ARG1]
+	_in_p_temp -> _up_p [label=ARG1]
+	udef_q -> _expense_n_1 [label=BV]
+	_the_q -> _quarter_n_temp [label=BV]
+}

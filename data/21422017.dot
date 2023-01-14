@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_bid_v_1 -> pron [label=ARG1]
+	proper_q -> "named(Match)" [label=BV]
+	"_consider_v_1-fn.Cogitation" -> pron [label="ARG1-fn.Agent"]
+	compound -> _company_n_1 [label=ARG2]
+	_for_p -> _bid_v_1 [label=ARG1]
+	_for_p -> "named(Match)" [label=ARG2]
+	_current_a_1 -> "_consider_v_1-fn.Cogitation" [label=ARG1]
+	udef_q -> _company_n_1 [label=BV]
+	_swedish_a_1 -> "named(Match)" [label=ARG1]
+	compound -> "named(Match)" [label=ARG1]
+	"_consider_v_1-fn.Cogitation" -> _bid_v_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+}

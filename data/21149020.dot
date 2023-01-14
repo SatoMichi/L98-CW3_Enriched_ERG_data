@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	unknown -> _cheer_n_1 [label=ARG]
+	udef_q -> _cheer_n_1 [label=BV]
+	_for_p -> _cheer_n_1 [label=ARG1]
+	"card(2)" -> _cheer_n_1 [label=ARG1]
+	_for_p -> _rule_n_of [label=ARG2]
+	_so_a_thus -> unknown [label=ARG1]
+	_the_q -> _rule_n_of [label=BV]
+	_new_a_1 -> _rule_n_of [label=ARG1]
+}

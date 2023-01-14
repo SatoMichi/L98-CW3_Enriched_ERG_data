@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Assemble" -> _plan_n_1 [label="ARG1-fn.Individuals"]
+	_provided_x -> "_may_v_modal-fn.Communication_manner" [label=ARG1]
+	_secure_a_1 -> _guarantee_n_of [label=ARG1]
+	_the_q -> _plan_n_1 [label=BV]
+	"_may_v_modal-fn.Communication_manner" -> "_be_v_id-fn.Assemble" [label="ARG1-fn.Speaker"]
+	_a_q -> _bet_n_1 [label=BV]
+	udef_q -> _tuition_n_1 [label=BV]
+	"_good_a_at-for-of" -> _bet_n_1 [label=ARG1]
+	_the_q -> _guarantee_n_of [label=BV]
+	_prepaid_a_1 -> _plan_n_1 [label=ARG1]
+	_guarantee_n_of -> _tuition_n_1 [label=ARG1]
+	_provided_x -> _secure_a_1 [label=ARG2]
+	_future_a_1 -> _tuition_n_1 [label=ARG1]
+	"_be_v_id-fn.Assemble" -> _bet_n_1 [label="ARG2-fn.Group"]
+}

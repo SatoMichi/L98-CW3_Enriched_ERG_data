@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_attempt_v_1-fn.Attempt" -> "named(Texaco)" [label="ARG1-fn.Agent"]
+	_also_a_1 -> "_attempt_v_1-fn.Attempt" [label=ARG1]
+	udef_q -> _property_n_1 [label=BV]
+	proper_q -> "named(Texaco)" [label=BV]
+	compound -> _oil_n_1 [label=ARG2]
+	"_sell_v_1-fn.Commerce_buy" -> _property_n_1 [label="ARG2-fn.Goods"]
+	compound -> _property_n_1 [label=ARG1]
+	udef_q -> _oil_n_1 [label=BV]
+	"_attempt_v_1-fn.Attempt" -> "_sell_v_1-fn.Commerce_buy" [label="ARG2-fn.Goal"]
+	"_sell_v_1-fn.Commerce_buy" -> "named(Texaco)" [label="ARG1-fn.Buyer"]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _bond_n_1 [label=ARG2]
+	udef_q -> _bond_n_1 [label=BV]
+	_the_q -> _dollar_n_1 [label=BV]
+	_both_a_1 -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_modest_a_1 -> "_gain_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_gain_v_1-fn.Change_position_on_a_scale" -> _and_c [label="ARG1-fn.NotExist"]
+}

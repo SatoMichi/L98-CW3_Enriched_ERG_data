@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_cut_v_1-fn.Competition" -> _rate_n_of [label="ARG2-fn.Participant_2"]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> "_dropout/nn_u_unknown" [label=BV]
+	compound -> _rate_n_of [label=ARG1]
+	_by_p -> _percent_n_of [label=ARG2]
+	"card(5.5)" -> _percent_n_of [label=ARG1]
+	_the_q -> _rate_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	_by_p -> "_cut_v_1-fn.Competition" [label=ARG1]
+	"_cut_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	compound -> "_dropout/nn_u_unknown" [label=ARG2]
+}

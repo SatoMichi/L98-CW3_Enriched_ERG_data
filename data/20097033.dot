@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _instrument_n_of [label=BV]
+	"_have_v_1-fn.IN" -> _instrument_n_of [label="ARG2-fn.Theme"]
+	_main_a_1 -> _instrument_n_of [label=ARG1]
+	udef_q -> "_arbitrage/nn_u_unknown" [label=BV]
+	compound -> _index_n_1 [label=ARG2]
+	udef_q -> _index_n_1 [label=BV]
+	compound -> "_arbitrage/nn_u_unknown" [label=ARG1]
+	"card(2)" -> _instrument_n_of [label=ARG1]
+	compound -> _instrument_n_of [label=ARG1]
+	proper_q -> "named(Britain)" [label=BV]
+	"_have_v_1-fn.IN" -> "named(Britain)" [label="ARG1-fn.Pivot"]
+}

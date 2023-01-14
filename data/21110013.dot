@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _evidence_n_of [label=BV]
+	udef_q -> _order_n_of [label=BV]
+	_of_p -> _order_n_of [label=ARG2]
+	_at_p -> _order_n_of [label=ARG1]
+	_unsettled_a_1 -> _analyst_n_1 [label=ARG1]
+	_of_p -> "_backlog/nn_u_unknown" [label=ARG1]
+	"_slip_v_1-fn.Competition" -> "_backlog/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	_the_q -> "_backlog/nn_u_unknown" [label=BV]
+	udef_q -> _analyst_n_1 [label=BV]
+	_by_p -> _unsettled_a_1 [label=ARG1]
+	udef_q -> _factory_n_1 [label=BV]
+	_by_p -> _evidence_n_of [label=ARG2]
+	_at_p -> _factory_n_1 [label=ARG2]
+	"_slip_v_1-fn.Competition" -> _evidence_n_of [label="ARG2-fn.Participant_2"]
+	superl -> _unsettled_a_1 [label=ARG1]
+}

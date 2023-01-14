@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_enough_q -> _business_n_1 [label=BV]
+	"_see_v_1-fn.Grasp" -> "_going+to_v_qmodal" [label="ARG2-fn.Stimulus"]
+	_be_v_there -> _business_n_1 [label=ARG1]
+	_go_v_1 -> _business_n_1 [label=ARG1]
+	"_going+to_v_qmodal" -> _be_v_there [label=ARG1]
+	_around_p_dir -> _go_v_1 [label=ARG1]
+	eventuality -> _go_v_1 [label=ARG1]
+	_difficult_a_for -> "_see_v_1-fn.Grasp" [label=ARG1]
+}

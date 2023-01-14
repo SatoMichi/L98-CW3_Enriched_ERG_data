@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_renew_v_1-fn.Competition" -> _action_n_1 [label="ARG1-fn.Participant_1"]
+	udef_q -> _concern_n_1 [label=BV]
+	_about_p -> _concern_n_1 [label=ARG1]
+	_in_p -> "_buyouts/nns_u_unknown" [label=ARG1]
+	udef_q -> "_buyouts/nns_u_unknown" [label=BV]
+	_in_p -> _industry_n_1 [label=ARG2]
+	_about_p -> "_buyouts/nns_u_unknown" [label=ARG2]
+	_the_q -> _action_n_1 [label=BV]
+	"_high+tech_a_1" -> _industry_n_1 [label=ARG1]
+	udef_q -> _industry_n_1 [label=BV]
+	"_renew_v_1-fn.Competition" -> _concern_n_1 [label="ARG2-fn.Participant_2"]
+}

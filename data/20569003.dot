@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_expect_v_1-fn.IN" -> "named(Straszheim)" [label="ARG1-fn.Experiencer"]
+	udef_q -> _mister_n_1 [label=BV]
+	_some_q -> _heat_n_1 [label=BV]
+	_take_v_1 -> pron [label=ARG1]
+	compound -> "named(Straszheim)" [label=ARG1]
+	_right_a_1 -> pron [label=ARG1]
+	proper_q -> "named(Straszheim)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_expect_v_1-fn.IN" -> _take_v_1 [label="ARG2-fn.Theme"]
+	_take_v_1 -> _heat_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

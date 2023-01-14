@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> _earnings_n_1 [label=ARG1]
+	_loss_n_of -> _cent_n_1 [label=ARG1]
+	compound -> _earnings_n_1 [label=ARG1]
+	_per_a_1 -> _share_n_of [label=ARG1]
+	udef_q -> _versus_c [label=BV]
+	_colon_p_namely -> _versus_c [label=ARG2]
+	"card(9)" -> _cent_n_1 [label=ARG1]
+	compound -> _share_n_of [label=ARG2]
+	"card(8)" -> _cent_n_1 [label=ARG1]
+	udef_q -> _cent_n_1 [label=BV]
+	udef_q -> _loss_n_of [label=BV]
+	udef_q -> _share_n_of [label=BV]
+	unknown -> _earnings_n_1 [label=ARG]
+	udef_q -> _earnings_n_1 [label=BV]
+}

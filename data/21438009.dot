@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_trade_v_1-fn.Exchange" -> "named(Arizona)" [label="ARG1-fn.NotExist"]
+	compound -> "named(Arizona)" [label=ARG1]
+	proper_q -> "named(STSN)" [label=BV]
+	proper_q -> "named(Arizona)" [label=BV]
+	proper_q -> "named(Sierra)" [label=BV]
+	_under_p -> "_trade_v_1-fn.Exchange" [label=ARG1]
+	_under_p -> "named(STSN)" [label=ARG2]
+	proper_q -> "named(Cos.)" [label=BV]
+	compound -> "named(Sierra)" [label=ARG2]
+	"_start_v_1-fn.Activity_start" -> "_trade_v_1-fn.Exchange" [label="ARG1-fn.NotExist"]
+	compound -> "named(Tucson)" [label=ARG2]
+	proper_q -> "named(Tucson)" [label=BV]
+	compound -> "named(Cos.)" [label=ARG1]
+}

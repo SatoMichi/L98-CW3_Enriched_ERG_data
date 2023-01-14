@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_own_v_1-fn.Rite" -> _building_n_1 [label="ARG2-fn.Member"]
+	neg -> "_own_v_1-fn.Rite" [label=ARG1]
+	_the_q -> _building_n_1 [label=BV]
+	"_own_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	"_note_v_to-fn.State_continue" -> _company_n_of [label="ARG1-fn.Entity"]
+	"_deny_v_to-fn.State_continue" -> _rumor_n_1 [label="ARG2-fn.State"]
+	_the_q -> _rumor_n_1 [label=BV]
+	"_deny_v_to-fn.State_continue" -> _company_n_of [label="ARG1-fn.Entity"]
+	"_note_v_to-fn.State_continue" -> neg [label="ARG2-fn.State"]
+	_the_q -> _company_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

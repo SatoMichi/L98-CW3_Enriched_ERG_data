@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_there-fn.Cause_to_end" -> _disagreement_n_1 [label="ARG1-fn.Process"]
+	which_q -> manner [label=BV]
+	unspec_manner -> manner [label=ARG2]
+	unspec_manner -> "_do_v_1-fn.State_continue" [label=ARG1]
+	_over_p -> _disagreement_n_1 [label=ARG1]
+	_over_p -> nominalization [label=ARG2]
+	"_do_v_1-fn.State_continue" -> pron [label="ARG2-fn.State"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _disagreement_n_1 [label=BV]
+	nominalization -> "_do_v_1-fn.State_continue" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

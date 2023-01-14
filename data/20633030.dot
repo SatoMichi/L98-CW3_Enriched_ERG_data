@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(News)" [label=ARG1]
+	_into_p -> "_branch_v_out-fn.NF" [label=ARG1]
+	udef_q -> _entertainment_n_1 [label=BV]
+	udef_q -> "_gimmickry/nn_u_unknown" [label=BV]
+	compound -> "_gimmickry/nn_u_unknown" [label=ARG1]
+	compound -> _entertainment_n_1 [label=ARG2]
+	compound -> "named(ABC)" [label=ARG2]
+	proper_q -> "named(ABC)" [label=BV]
+	_similar_a_to -> "_branch_v_out-fn.NF" [label=ARG1]
+	_into_p -> "_gimmickry/nn_u_unknown" [label=ARG2]
+	"_branch_v_out-fn.NF" -> "named(News)" [label="ARG1-fn.Theme"]
+	proper_q -> "named(News)" [label=BV]
+}

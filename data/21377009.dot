@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Parkway)" [label=ARG1]
+	udef_q -> _car_n_1 [label=BV]
+	_as_x_subord -> _and_c [label=ARG1]
+	compound -> "named(Cobb)" [label=ARG2]
+	"_attest_v_1-fn.NF" -> _strip_n_of [label="ARG1-fn.NotExist"]
+	_the_q -> _strip_n_of [label=BV]
+	compound -> _strip_n_of [label=ARG1]
+	proper_q -> "named(Parkway)" [label=BV]
+	_in_p -> _car_n_1 [label=ARG2]
+	_as_x_subord -> "_attest_v_1-fn.NF" [label=ARG2]
+	_especially_x_deg -> _as_x_subord [label=ARG1]
+	proper_q -> "named(Cobb)" [label=BV]
+}

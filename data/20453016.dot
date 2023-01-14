@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_get_v_state-fn.IN" -> "_out+of_p" [label="ARG3-fn.Source"]
+	"_out+of_p" -> thing [label=ARG1]
+	"_out+of_p" -> pron [label=ARG2]
+	"_get_v_state-fn.IN" -> thing [label="ARG2-fn.Theme"]
+	"_get_v_state-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	which_q -> thing [label=BV]
+	pronoun_q -> pron [label=BV]
+}

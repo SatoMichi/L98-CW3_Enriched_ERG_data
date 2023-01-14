@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_have_v_1-fn.IN" -> _lot_n_1 [label="ARG2-fn.Theme"]
+	_of_p -> _lot_n_1 [label=ARG1]
+	_of_p -> pron [label=ARG2]
+	udef_q -> _lot_n_1 [label=BV]
+	"_have_v_1-fn.IN" -> "named(Baker)" [label="ARG1-fn.Pivot"]
+	proper_q -> "named(Baker)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

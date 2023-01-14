@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _average_n_of [label=ARG2]
+	_the_q -> _average_n_of [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	proper_q -> "yofc(1977)" [label=BV]
+	compound -> _average_n_of [label=ARG1]
+	compound -> "yofc(1977)" [label=ARG2]
+	"card(142.3)" -> _percent_n_of [label=ARG1]
+	_of_p -> _percent_n_of [label=ARG1]
+	unknown -> _percent_n_of [label=ARG]
+}

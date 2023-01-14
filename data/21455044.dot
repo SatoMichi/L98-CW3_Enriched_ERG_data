@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "named(Athens)" [label=ARG2]
+	_with_p -> "named(Athens)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_say_v_1-fn.IN" -> "named(McDonough)" [label="ARG1-fn.Agent"]
+	udef_q -> _mean_n_1 [label=BV]
+	focus_d -> "_say_v_1-fn.IN" [label=ARG1]
+	compound -> "named(McDonough)" [label=ARG1]
+	"_say_v_1-fn.IN" -> "named(Athens)" [label="ARG2-fn.Topic"]
+	proper_q -> "named(Athens)" [label=BV]
+	proper_q -> "named(McDonough)" [label=BV]
+	"_spartan/jj_u_unknown" -> _mean_n_1 [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_with_p -> _mean_n_1 [label=ARG2]
+}

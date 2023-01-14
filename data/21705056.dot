@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "_policy_n_of-on" [label=ARG1]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	compound -> "named(MEDIA)" [label=ARG2]
+	unknown -> "_policy_n_of-on" [label=ARG]
+	proper_q -> "named(MEDIA)" [label=BV]
+}

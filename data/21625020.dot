@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_prevent_v_from-fn.Cause_motion" [label=ARG1]
+	udef_q -> _money_n_1 [label=BV]
+	_in_p -> _lot_n_of [label=ARG2]
+	_the_q -> _charity_n_1 [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> "_add_v_to-fn.Fining" [label="ARG1-fn.Value"]
+	_lot_n_of -> _money_n_1 [label=ARG1]
+	"_prevent_v_from-fn.Cause_motion" -> "_rake_v_1-fn.Change_position_on_a_scale" [label="ARG3-fn.Source"]
+	"_prevent_v_from-fn.Cause_motion" -> _charity_n_1 [label="ARG2-fn.Theme"]
+	"_rake_v_1-fn.Change_position_on_a_scale" -> _charity_n_1 [label="ARG1-fn.Attribute"]
+	_anyway_a_1 -> "_rake_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_in_p -> "_rake_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_add_v_to-fn.Fining" -> neg [label="ARG2-fn.Instrument"]
+	parg_d -> "_add_v_to-fn.Fining" [label=ARG1]
+	_a_q -> _lot_n_of [label=BV]
+}

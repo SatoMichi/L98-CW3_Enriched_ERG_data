@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _stock_n_1 [label=BV]
+	loc_nonsp -> _share_n_of [label=ARG2]
+	_colon_p_namely -> _volume_n_of [label=ARG2]
+	_colon_p_namely -> _stock_n_1 [label=ARG1]
+	unknown -> _stock_n_1 [label=ARG]
+	udef_q -> _share_n_of [label=BV]
+	"card(170,330,000)" -> _share_n_of [label=ARG1]
+	udef_q -> _volume_n_of [label=BV]
+}

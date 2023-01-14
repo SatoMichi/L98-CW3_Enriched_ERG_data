@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _meat_n_1 [label=BV]
+	udef_q -> _year_n_1 [label=BV]
+	nominalization -> _process_v_1 [label=ARG1]
+	measure -> _old_a_1 [label=ARG1]
+	_old_a_1 -> _machine_n_1 [label=ARG1]
+	compound -> _machine_n_1 [label=ARG1]
+	"card(50)" -> _year_n_1 [label=ARG1]
+	_the_q -> _machine_n_1 [label=BV]
+	"_pick_v_up-fn.Cause_to_continue" -> _machine_n_1 [label="ARG2-fn.Process"]
+	compound -> _meat_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	compound -> nominalization [label=ARG1]
+	measure -> _year_n_1 [label=ARG2]
+	"_pick_v_up-fn.Cause_to_continue" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> nominalization [label=BV]
+}

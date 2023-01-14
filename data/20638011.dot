@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_with_p -> _and_c [label=ARG2]
+	_the_q -> _and_c [label=BV]
+	_advanced_a_1 -> _and_c [label=ARG1]
+	udef_q -> _disk_n_1 [label=BV]
+	_with_p -> _notebook_n_of [label=ARG1]
+	_hard_a_for -> _disk_n_1 [label=ARG1]
+	comp -> _innovative_a_1 [label=ARG1]
+	udef_q -> _microprocessor_n_1 [label=BV]
+	_innovative_a_1 -> _notebook_n_of [label=ARG1]
+	_the_q -> _notebook_n_of [label=BV]
+	comp -> _advanced_a_1 [label=ARG1]
+}

@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Nasdaq)" [label=ARG2]
+	_to_p -> "card(454.86)" [label=ARG2]
+	proper_q -> "named(Nasdaq)" [label=BV]
+	loc_nonsp -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	"_rise_v_1-fn.Change_position_on_a_scale" -> "named(Index)" [label="ARG1-fn.NotExist"]
+	_to_p -> "_rise_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_the_q -> "named(Index)" [label=BV]
+	number_q -> "card(454.86)" [label=BV]
+	compound -> "named(Index)" [label=ARG1]
+	number_q -> "card(2.09)" [label=BV]
+	loc_nonsp -> "card(2.09)" [label=ARG2]
+	compound -> "named(Financial)" [label=ARG1]
+	proper_q -> "named(Financial)" [label=BV]
+}

@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	_modest_a_1 -> _beginning_n_1 [label=ARG1]
+	_the_q -> _beginning_n_1 [label=BV]
+}

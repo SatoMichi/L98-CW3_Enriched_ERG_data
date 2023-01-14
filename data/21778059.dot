@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_still_a_1 -> _in_p [label=ARG1]
+	"_shake_v_1-fn.Body_movement" -> _hand_n_1 [label="ARG1-fn.NotExist"]
+	udef_q -> _knot_n_1 [label=BV]
+	_in_p -> _knot_n_1 [label=ARG2]
+	poss -> pron [label=ARG2]
+	def_explicit_q -> _hand_n_1 [label=BV]
+	def_explicit_q -> _back_n_1 [label=BV]
+	_still_a_1 -> "_shake_v_1-fn.Body_movement" [label=ARG1]
+	poss -> _back_n_1 [label=ARG1]
+	_in_p -> _back_n_1 [label=ARG1]
+	poss -> _hand_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

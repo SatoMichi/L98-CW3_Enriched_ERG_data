@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> nominalization [label=ARG1]
+	_too_a_also -> "_trouble_v_1-fn.Competition" [label=ARG1]
+	_inherent_a_1 -> _volatility_n_1 [label=ARG1]
+	udef_q -> _program_n_of [label=BV]
+	_in_p -> nominalization [label=ARG2]
+	_the_q -> _volatility_n_1 [label=BV]
+	_other_a_1 -> _trader_n_1 [label=ARG1]
+	_in_p -> _inherent_a_1 [label=ARG1]
+	"_trouble_v_1-fn.Competition" -> _trader_n_1 [label="ARG2-fn.Participant_2"]
+	compound -> _program_n_of [label=ARG2]
+	"_trouble_v_1-fn.Competition" -> _volatility_n_1 [label="ARG1-fn.Participant_1"]
+	nominalization -> _trade_v_1 [label=ARG1]
+	udef_q -> _trader_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_listen_v_to-fn.Perception_active" -> _music_n_1 [label="ARG2-fn.Stimulus"]
+	udef_q -> _teen_n_1 [label=BV]
+	"_listen_v_to-fn.Perception_active" -> _teen_n_1 [label="ARG1-fn.Experiencer"]
+	_with_p -> "_listen_v_to-fn.Perception_active" [label=ARG1]
+	_able_a_1 -> "_listen_v_to-fn.Perception_active" [label=ARG2]
+	_with_p -> _headset_n_1 [label=ARG2]
+	_able_a_1 -> _teen_n_1 [label=ARG1]
+	udef_q -> _music_n_1 [label=BV]
+	udef_q -> _headset_n_1 [label=BV]
+}

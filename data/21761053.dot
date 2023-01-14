@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Schlesinger)" [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Schlesinger)" [label=ARG1]
+	"_say_v_1-fn.IN" -> "named(Schlesinger)" [label="ARG2-fn.NotExist"]
+	"_say_v_1-fn.IN" -> _time_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _time_n_of [label=BV]
+	with_p -> _time_n_of [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	with_p -> _sell_v_1 [label=ARG1]
+}

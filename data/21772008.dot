@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_take_v_2-fn.IN" [label=ARG1]
+	_the_q -> "_type_n_of-n" [label=BV]
+	number_q -> "card(1)" [label=BV]
+	"_take_v_2-fn.IN" -> _step_n_meas [label="ARG3-fn.NotExist"]
+	udef_q -> _step_n_meas [label=BV]
+	udef_q -> _pencil_n_1 [label=BV]
+	_standard_a_1 -> _pencil_n_1 [label=ARG1]
+	_for_p -> "card(1)" [label=ARG1]
+	"_make_v_1-fn.Manufacturing" -> _pencil_n_1 [label="ARG2-fn.Product"]
+	_for_p -> "_type_n_of-n" [label=ARG2]
+	loc_nonsp -> "card(1)" [label=ARG2]
+	"card(5)" -> _step_n_meas [label=ARG1]
+	"_take_v_2-fn.IN" -> "_make_v_1-fn.Manufacturing" [label="ARG1-fn.NotExist"]
+	_plastic_a_1 -> "_type_n_of-n" [label=ARG1]
+	_just_x_deg -> "_take_v_2-fn.IN" [label=ARG1]
+}

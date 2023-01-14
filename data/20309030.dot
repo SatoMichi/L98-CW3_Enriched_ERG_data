@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(FHA)" [label=ARG2]
+	udef_q -> _loan_n_1 [label=BV]
+	"_hemorrhage_v_1-fn.Activity_stop" -> _loan_n_1 [label="ARG2-fn.Place"]
+	_bad_a_at -> _loan_n_1 [label=ARG1]
+	_the_q -> _program_n_of [label=BV]
+	proper_q -> "named(FHA)" [label=BV]
+	"_hemorrhage_v_1-fn.Activity_stop" -> _program_n_of [label="ARG1-fn.Purpose"]
+	compound -> _program_n_of [label=ARG1]
+}

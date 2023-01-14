@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	"_cast_v_1-fn.Halt" -> pron [label="ARG1-fn.Purpose"]
+	_then_a_1 -> "_cast_v_1-fn.Halt" [label=ARG1]
+	_out_p_dir -> "_cast_v_1-fn.Halt" [label=ARG1]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(America)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> "named(America)" [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	focus_d -> "_be_v_id-fn.Cause_to_end" [label=ARG2]
+	"_say_v_to-fn.Have_as_requirement" -> "_be_v_id-fn.Cause_to_end" [label="ARG2-fn.Requirement"]
+	pronoun_q -> pron [label=BV]
+	focus_d -> "_say_v_to-fn.Have_as_requirement" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+}

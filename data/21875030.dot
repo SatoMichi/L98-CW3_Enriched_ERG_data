@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _duty_n_1 [label=BV]
+	"card(2)" -> _man_n_1 [label=ARG1]
+	parg_d -> "_relieve_v_of-fn.NF" [label=ARG1]
+	parg_d -> _man_n_1 [label=ARG2]
+	_yesterday_a_1 -> time_n [label=ARG1]
+	"_relieve_v_of-fn.NF" -> _duty_n_1 [label="ARG3-fn.NotExist"]
+	poss -> pron [label=ARG2]
+	poss -> _duty_n_1 [label=ARG1]
+	"_relieve_v_of-fn.NF" -> _man_n_1 [label="ARG2-fn.Source"]
+	loc_nonsp -> time_n [label=ARG2]
+	_both_q -> _man_n_1 [label=BV]
+	def_implicit_q -> time_n [label=BV]
+	loc_nonsp -> "_relieve_v_of-fn.NF" [label=ARG1]
+	_also_a_1 -> "_relieve_v_of-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

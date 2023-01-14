@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_schedule_v_1-fn.Competition" -> "_arraignments/nns_u_unknown" [label="ARG2-fn.Participant_2"]
+	parg_d -> "_arraignments/nns_u_unknown" [label=ARG2]
+	_for_p -> "dofm(14)" [label=ARG2]
+	of_p -> "dofm(14)" [label=ARG1]
+	udef_q -> "_arraignments/nns_u_unknown" [label=BV]
+	def_implicit_q -> "mofy(Nov)" [label=BV]
+	of_p -> "mofy(Nov)" [label=ARG2]
+	def_explicit_q -> "dofm(14)" [label=BV]
+	parg_d -> "_schedule_v_1-fn.Competition" [label=ARG1]
+	_for_p -> "_schedule_v_1-fn.Competition" [label=ARG1]
+}

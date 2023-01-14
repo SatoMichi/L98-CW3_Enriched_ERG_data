@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _month_n_1 [label=BV]
+	compound -> _maker_n_of [label=ARG1]
+	"_disclose_v_to-fn.Amounting_to" -> "named(Fraud)" [label="ARG2-fn.Attribute"]
+	_major_a_1 -> "named(Fraud)" [label=ARG1]
+	udef_q -> _disk_n_1 [label=BV]
+	_the_q -> _maker_n_of [label=BV]
+	_a_q -> "named(Fraud)" [label=BV]
+	udef_q -> _drive_n_1 [label=BV]
+	"card(2)" -> _month_n_1 [label=ARG1]
+	compound -> _drive_n_1 [label=ARG1]
+	_ago_p -> "_disclose_v_to-fn.Amounting_to" [label=ARG1]
+	"_disclose_v_to-fn.Amounting_to" -> _maker_n_of [label="ARG1-fn.Value"]
+	_ago_p -> _month_n_1 [label=ARG2]
+	compound -> _disk_n_1 [label=ARG2]
+}

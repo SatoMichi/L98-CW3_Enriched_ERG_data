@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _year_n_1 [label=BV]
+	proper_q -> "named(Turkey)" [label=BV]
+	_successful_a_1 -> "named(Turkey)" [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_fight_v_1-fn.Quarreling" -> "named(Turkey)" [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	_for_p -> "_fight_v_1-fn.Quarreling" [label=ARG1]
+	def_explicit_q -> _past_n_1 [label=BV]
+	_for_p -> _year_n_1 [label=ARG2]
+	"_thus+far_a_1" -> _successful_a_1 [label=ARG1]
+	_partial_a_1 -> _successful_a_1 [label=ARG1]
+	"_fight_v_1-fn.Quarreling" -> _past_n_1 [label="ARG2-fn.Co-Agent"]
+	_only_x_deg -> _partial_a_1 [label=ARG1]
+	poss -> _past_n_1 [label=ARG1]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _issue_n_1 [label=ARG2]
+	_with_p -> "named(Commission)" [label=ARG2]
+	"_file_v_1-fn.Social_event" -> _issue_n_1 [label="ARG2-fn.Social_event"]
+	_recent_a_1 -> "_file_v_1-fn.Social_event" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	proper_q -> "named(Exchange)" [label=BV]
+	compound -> "named(Commission)" [label=ARG1]
+	parg_d -> "_file_v_1-fn.Social_event" [label=ARG1]
+	proper_q -> "named(Securities)" [label=BV]
+	compound -> _and_c [label=ARG2]
+	_the_q -> "named(Commission)" [label=BV]
+	_colon_p_namely -> "_file_v_1-fn.Social_event" [label=ARG1]
+	_with_p -> "_file_v_1-fn.Social_event" [label=ARG1]
+	_following_a_1 -> _issue_n_1 [label=ARG1]
+	_the_q -> _issue_n_1 [label=BV]
+}

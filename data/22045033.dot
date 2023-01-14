@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_slight_a_1 -> "_slip_v_2-fn.Undergo_change" [label=ARG1]
+	proper_q -> "mofy(Nov)" [label=BV]
+	"_slip_v_2-fn.Undergo_change" -> _gasoline_n_1 [label="ARG1-fn.Entity"]
+	compound -> _gasoline_n_1 [label=ARG1]
+	udef_q -> _gasoline_n_1 [label=BV]
+	compound -> "mofy(Nov)" [label=ARG2]
+}

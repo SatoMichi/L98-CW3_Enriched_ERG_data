@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_react_v_to-fn.NF" [label=ARG2]
+	_the_q -> _dollar_n_1 [label=BV]
+	"_react_v_to-fn.NF" -> _dollar_n_1 [label="ARG1-fn.Experiencer"]
+	_so_x -> neg [label=ARG2]
+	udef_q -> _gold_n_1 [label=BV]
+	neg -> "_react_v_to-fn.NF" [label=ARG1]
+	_much_a_1 -> "_react_v_to-fn.NF" [label=ARG1]
+	ellipsis_ref -> _gold_n_1 [label=ARG1]
+	_either_a_also -> ellipsis_ref [label=ARG1]
+	"_say_v_to-fn.IN" -> _so_x [label="ARG2-fn.Topic"]
+	neg -> ellipsis_ref [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_react_v_to-fn.NF" -> pron [label="ARG2-fn.Stimulus"]
+	"_say_v_to-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

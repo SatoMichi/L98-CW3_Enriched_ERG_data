@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_say_v_to-fn.IN" -> "_intend_v_for-fn.Purpose" [label="ARG2-fn.NotExist"]
+	_the_q -> _car_n_1 [label=BV]
+	udef_q -> _car_n_1 [label=BV]
+	compound -> _manufacturer_n_of [label=ARG1]
+	proper_q -> "named(Wacoal)" [label=BV]
+	_produce_v_1 -> _car_n_1 [label=ARG2]
+	_through_p -> _manufacturer_n_of [label=ARG2]
+	_a_q -> _manufacturer_n_of [label=BV]
+	compound -> _car_n_1 [label=ARG2]
+	"_intend_v_for-fn.Purpose" -> pron [label="ARG1-fn.NotExist"]
+	"_intend_v_for-fn.Purpose" -> _produce_v_1 [label="ARG2-fn.NotExist"]
+	"_say_v_to-fn.IN" -> "named(Wacoal)" [label="ARG1-fn.NotExist"]
+	_through_p -> _produce_v_1 [label=ARG1]
+	_produce_v_1 -> pron [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

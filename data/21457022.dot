@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	addressee -> "named(Historically)" [label=ARG1]
+	compound -> "named(York)" [label=ARG1]
+	_almost_x_deg -> _always_x_deg [label=ARG1]
+	_always_x_deg -> _in_p [label=ARG1]
+	compound -> "named(New)" [label=ARG2]
+	proper_q -> "named(York)" [label=BV]
+	proper_q -> "named(New)" [label=BV]
+	addressee -> _in_p [label=ARG2]
+	_in_p -> "named(York)" [label=ARG1]
+	udef_q -> _trouble_n_1 [label=BV]
+	_in_p -> _trouble_n_1 [label=ARG2]
+	proper_q -> "named(Historically)" [label=BV]
+}

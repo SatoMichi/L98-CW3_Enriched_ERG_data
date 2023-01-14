@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(van)" [label=BV]
+	compound -> "named(van)" [label=ARG2]
+	_old_a_1 -> _way_n_of [label=ARG1]
+	compound -> "named(Chan)" [label=ARG1]
+	_hard_a_for -> "_die_v_1-fn.Death" [label=ARG1]
+	_be_v_id -> "named(Chan)" [label=ARG1]
+	_proof_n_of -> "_die_v_1-fn.Death" [label=ARG1]
+	_be_v_id -> _proof_n_of [label=ARG2]
+	udef_q -> _way_n_of [label=BV]
+	"_live_v_1-fn.NF" -> _proof_n_of [label="ARG1-fn.Theme"]
+	proper_q -> "named(Chan)" [label=BV]
+	"_die_v_1-fn.Death" -> _way_n_of [label="ARG1-fn.NotExist"]
+	udef_q -> _proof_n_of [label=BV]
+	compound -> "named(Nguyen)" [label=ARG2]
+	proper_q -> "named(Nguyen)" [label=BV]
+}

@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_a_q -> _level_n_1 [label=BV]
+	_low_a_on -> _level_n_1 [label=ARG1]
+	"_be_v_id-fn.Cotheme" -> _level_n_1 [label="ARG2-fn.Cotheme"]
+	"_be_v_id-fn.Cotheme" -> generic_entity [label="ARG1-fn.Theme"]
+	"_enviably/rb_u_unknown" -> _low_a_on [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+}

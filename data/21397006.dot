@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _teen_n_1 [label=BV]
+	"_raise_v_cause-fn.Cause_harm" -> _mother_n_of [label="ARG1-fn.Agent"]
+	_some_q -> _model_n_of [label=BV]
+	compound -> _teen_n_1 [label=ARG2]
+	compound -> _mother_n_of [label=ARG1]
+	"_raise_v_cause-fn.Cause_harm" -> _model_n_of [label="ARG2-fn.Victim"]
+	"_lovable/jj_u_unknown" -> _model_n_of [label=ARG1]
+	udef_q -> _den_n_1 [label=BV]
+	compound -> _model_n_of [label=ARG1]
+	_a_q -> _mother_n_of [label=BV]
+	compound -> _den_n_1 [label=ARG2]
+	unknown -> _mother_n_of [label=ARG]
+}

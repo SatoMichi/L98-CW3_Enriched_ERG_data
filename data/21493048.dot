@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(WHO)" [label=ARG2]
+	def_explicit_q -> _news_n_of [label=BV]
+	poss -> _news_n_of [label=ARG1]
+	unknown -> _news_n_of [label=ARG]
+	proper_q -> "named(WHO)" [label=BV]
+}

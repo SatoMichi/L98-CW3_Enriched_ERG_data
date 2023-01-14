@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _admit_n_1 [label=BV]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _and_c [label=BV]
+	"_account_v_for-fn.State_continue" -> _and_c [label="ARG2-fn.State"]
+	_this_q_dem -> _category_n_of [label=BV]
+	_of_p -> _percent_n_of [label=ARG1]
+	_of_p -> _admit_n_1 [label=ARG2]
+	_now_a_1 -> "_account_v_for-fn.State_continue" [label=ARG1]
+	"card(19)" -> _percent_n_of [label=ARG1]
+	"_account_v_for-fn.State_continue" -> _category_n_of [label="ARG1-fn.Entity"]
+	_about_x_deg -> udef_q [label=ARG1]
+	"card(22)" -> _percent_n_of [label=ARG1]
+	udef_q -> "_registrants/nns_u_unknown" [label=BV]
+	_of_p -> "_registrants/nns_u_unknown" [label=ARG2]
+}

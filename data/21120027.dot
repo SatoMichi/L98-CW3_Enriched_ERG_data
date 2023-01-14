@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_serve_v_as-fn.Assistance" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _interest_n_in [label=BV]
+	_special_a_1 -> _interest_n_in [label=ARG1]
+	_the_q -> _group_n_of [label=BV]
+	"_serve_v_as-fn.Assistance" -> _and_c [label="ARG2-fn.NotExist"]
+	_the_q -> _industry_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	compound -> _interest_n_in [label=ARG2]
+	compound -> _group_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

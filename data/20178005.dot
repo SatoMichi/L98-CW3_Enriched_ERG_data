@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_central_a_1 -> _bank_n_of [label=ARG1]
+	"_make_v_1-fn.Rite" -> _move_n_1 [label="ARG2-fn.Member"]
+	_whether_x -> neg [label=ARG1]
+	_clear_a_of -> pron [label=ARG1]
+	"_make_v_1-fn.Rite" -> _bank_n_of [label="ARG1-fn.Leader"]
+	_the_q -> _bank_n_of [label=BV]
+	_yet_a_1 -> _clear_a_of [label=ARG1]
+	_whether_x -> "_make_v_1-fn.Rite" [label=ARG2]
+	"_such+a_q" -> _move_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	neg -> _clear_a_of [label=ARG1]
+}

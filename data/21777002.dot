@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(John)" [label=ARG2]
+	compound -> _sir_n_1 [label=ARG2]
+	_in_p_temp -> "mofy(Jul)" [label=ARG2]
+	"_succeed_v_1-fn.Competition" -> "named(Plastow)" [label="ARG2-fn.Participant_2"]
+	compound -> "named(Plastow)" [label=ARG1]
+	proper_q -> "mofy(Jul)" [label=BV]
+	proper_q -> "named(Plastow)" [label=BV]
+	_in_p_temp -> "_resign_v_1-fn.Competition" [label=ARG1]
+	compound -> "named(Richard)" [label=ARG1]
+	"_succeed_v_1-fn.Competition" -> "named(Richard)" [label="ARG1-fn.Participant_1"]
+	"_resign_v_1-fn.Competition" -> "named(Plastow)" [label="ARG1-fn.Participant_1"]
+	proper_q -> "named(Richard)" [label=BV]
+	udef_q -> _sir_n_1 [label=BV]
+	proper_q -> "named(John)" [label=BV]
+}

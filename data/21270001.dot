@@ -1,0 +1,5 @@
+digraph {
+	node [shape=circle style=filled]
+	"_worry_v_about-fn.Needing" -> "yofc(1990)" [label="ARG2-fn.Requirement"]
+	proper_q -> "yofc(1990)" [label=BV]
+}

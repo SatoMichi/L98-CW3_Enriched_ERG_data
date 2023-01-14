@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_produce_v_1-fn.Renting" -> _rally_n_1 [label="ARG2-fn.Goods"]
+	"_attract_v_1-fn.Competition" -> _rally_n_1 [label="ARG1-fn.Participant_1"]
+	"_produce_v_1-fn.Renting" -> _activity_n_1 [label="ARG1-fn.Lessee"]
+	"_attract_v_1-fn.Competition" -> nominalization [label="ARG2-fn.Participant_2"]
+	_new_a_1 -> nominalization [label=ARG1]
+	_this_q_dem -> _activity_n_1 [label=BV]
+	udef_q -> nominalization [label=BV]
+	udef_q -> _rally_n_1 [label=BV]
+	"_in+turn_a_1" -> "_attract_v_1-fn.Competition" [label=ARG1]
+	_short_a_of -> nominalization [label=ARG1]
+	nominalization -> _sell_v_1 [label=ARG1]
+	_small_a_1 -> _rally_n_1 [label=ARG1]
+}

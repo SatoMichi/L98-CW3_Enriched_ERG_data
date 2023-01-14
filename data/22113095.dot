@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_go_v_ing-fn.Undergo_change" -> "_beg_v_1-fn.Rite" [label="ARG2-fn.Final_category"]
+	"_go_v_ing-fn.Undergo_change" -> _painting_n_of [label="ARG1-fn.Entity"]
+	_the_q -> _painting_n_of [label=BV]
+	_from_p -> _consideration_n_of [label=ARG2]
+	"_omit_v_1-fn.Cause_motion" -> _percentage_n_of [label="ARG1-fn.Agent"]
+	_from_p -> "_omit_v_1-fn.Cause_motion" [label=ARG1]
+	udef_q -> _consideration_n_of [label=BV]
+	"_omit_v_1-fn.Cause_motion" -> _painting_n_of [label="ARG2-fn.Theme"]
+	udef_q -> _auction_n_of [label=BV]
+	_at_p -> "_go_v_ing-fn.Undergo_change" [label=ARG1]
+	"much-many_a" -> _painting_n_of [label=ARG1]
+	_at_p -> _auction_n_of [label=ARG2]
+	_the_q -> _percentage_n_of [label=BV]
+	"_beg_v_1-fn.Rite" -> _painting_n_of [label="ARG1-fn.Leader"]
+}

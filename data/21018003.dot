@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Cinematografica)" [label=BV]
+	compound -> "named(Spain)" [label=ARG1]
+	compound -> "named(Servifilm)" [label=ARG2]
+	compound -> "_s+a_n_1" [label=ARG2]
+	compound -> "named(Cinematografica)" [label=ARG1]
+	_also_a_1 -> "_participate_v_in-fn.Participation" [label=ARG1]
+	proper_q -> "named(Spain)" [label=BV]
+	"_participate_v_in-fn.Participation" -> "named(Cinematografica)" [label="ARG1-fn.Agent"]
+	udef_q -> "_s+a_n_1" [label=BV]
+	_the_q -> _issue_n_1 [label=BV]
+	"_participate_v_in-fn.Participation" -> _issue_n_1 [label="ARG2-fn.Theme"]
+	proper_q -> "named(Servifilm)" [label=BV]
+}

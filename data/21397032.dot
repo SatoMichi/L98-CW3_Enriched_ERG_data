@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	pronoun_q -> pron [label=BV]
+	parg_d -> "_overwrite_v_1-fn.Relative_time" [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	_wild_a_1 -> "_overwrite_v_1-fn.Relative_time" [label=ARG1]
+	"_overwrite_v_1-fn.Relative_time" -> pron [label="ARG2-fn.Landmark_occasion"]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_of_p -> _wire_n_1 [label=ARG2]
+	udef_q -> _wire_n_1 [label=BV]
+	"_fail_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_free_a_1 -> pron [label=ARG1]
+	compound -> _wire_n_1 [label=ARG1]
+	_for_p -> "_fail_v_1-fn.IN" [label=ARG1]
+	_free_a_1 -> _and_c [label=ARG2]
+	_for_p -> _lack_n_1 [label=ARG2]
+	_of_p -> _lack_n_1 [label=ARG1]
+	_invest_v_in -> pron [label=ARG1]
+	compound -> _chicken_n_1 [label=ARG2]
+	udef_q -> _chicken_n_1 [label=BV]
+	udef_q -> _lack_n_1 [label=BV]
+	_invest_v_in -> _chicken_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

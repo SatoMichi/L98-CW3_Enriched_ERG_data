@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_believe_v_1-fn.Attempt" -> _imminent_a_1 [label="ARG2-fn.Goal"]
+	_imminent_a_1 -> _war_n_1 [label=ARG1]
+	nominalization -> _bid_v_1 [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	"_believe_v_1-fn.Attempt" -> _investor_n_1 [label="ARG1-fn.Agent"]
+	_a_q -> _war_n_1 [label=BV]
+	compound -> nominalization [label=ARG2]
+	compound -> _war_n_1 [label=ARG1]
+	"much-many_a" -> _investor_n_1 [label=ARG1]
+	_certain_a_1 -> "_believe_v_1-fn.Attempt" [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

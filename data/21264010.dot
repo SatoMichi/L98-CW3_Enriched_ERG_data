@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> _rush_v_1 [label=ARG1]
+	"_get_v_state-fn.get.03" -> _into_p [label="ARG2-fn.Patient"]
+	_into_p -> _industry_n_1 [label=ARG2]
+	_declining_a_1 -> _industry_n_1 [label=ARG1]
+	_a_q -> _industry_n_1 [label=BV]
+	_rush_v_1 -> "_entrepreneurs/nns_u_unknown" [label=ARG1]
+	_rush_v_1 -> "_get_v_state-fn.get.03" [label=ARG2]
+	"_get_v_state-fn.get.03" -> "_entrepreneurs/nns_u_unknown" [label="ARG1-fn.NotExist"]
+	udef_q -> "_entrepreneurs/nns_u_unknown" [label=BV]
+	_into_p -> "_entrepreneurs/nns_u_unknown" [label=ARG1]
+	"_stagnant/jj_u_unknown" -> _industry_n_1 [label=ARG1]
+}

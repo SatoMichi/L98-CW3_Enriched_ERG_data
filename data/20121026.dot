@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _program_n_of [label=ARG2]
+	udef_q -> _liquidity_n_1 [label=BV]
+	udef_q -> _program_n_of [label=BV]
+	_in_p -> _market_n_1 [label=ARG2]
+	_increase_v_cause -> _liquidity_n_1 [label=ARG2]
+	"_add_v_to-fn.NF" -> _increase_v_cause [label="ARG2-fn.Topic"]
+	nominalization -> _trade_v_1 [label=ARG1]
+	_in_p -> _liquidity_n_1 [label=ARG1]
+	"_add_v_to-fn.NF" -> pron [label="ARG1-fn.Agent"]
+	_the_q -> _market_n_1 [label=BV]
+	compound -> nominalization [label=ARG1]
+	udef_q -> nominalization [label=BV]
+	_increase_v_cause -> nominalization [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

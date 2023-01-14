@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_like_v_1-fn.Eclipse" -> pron [label="ARG1-fn.Obstruction"]
+	loc_nonsp -> place_n [label=ARG2]
+	_back_p -> place_n [label=ARG1]
+	loc_nonsp -> "_go_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "yofc(1970)" [label=BV]
+	"_go_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	def_implicit_q -> place_n [label=BV]
+	"_would_v_modal-fn.Cause_to_end" -> "_like_v_1-fn.Eclipse" [label="ARG1-fn.Process"]
+	"_like_v_1-fn.Eclipse" -> "_go_v_1-fn.Competition" [label="ARG2-fn.Eclipsed"]
+	_to_p -> "yofc(1970)" [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	_to_p -> "_go_v_1-fn.Competition" [label=ARG1]
+}

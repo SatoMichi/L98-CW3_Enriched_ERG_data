@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Bloc)" [label=BV]
+	udef_q -> _secret_n_1 [label=BV]
+	compound -> _state_n_of [label=ARG2]
+	compound -> _data_n_1 [label=ARG1]
+	udef_q -> _pollution_n_of [label=BV]
+	compound -> _pollution_n_of [label=ARG2]
+	compound -> "named(East)" [label=ARG2]
+	compound -> _secret_n_1 [label=ARG1]
+	proper_q -> "named(East)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _secret_n_1 [label="ARG2-fn.Means"]
+	udef_q -> _state_n_of [label=BV]
+	compound -> "named(Bloc)" [label=ARG1]
+	_typical_a_of -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _data_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _data_n_1 [label="ARG1-fn.Process"]
+}

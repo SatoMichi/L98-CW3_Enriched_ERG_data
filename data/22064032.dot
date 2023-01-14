@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_take_v_1-fn.Competition" -> _conservative_n_1 [label="ARG1-fn.Participant_1"]
+	compound -> _deadline_n_of [label=ARG1]
+	"_prior+to_p" -> "_take_v_1-fn.Competition" [label=ARG1]
+	"_prior+to_p" -> _deadline_n_of [label=ARG2]
+	def_explicit_q -> _deadline_n_of [label=BV]
+	compound -> "_year+end_n_1" [label=ARG2]
+	poss -> _deadline_n_of [label=ARG1]
+	poss -> _administration_n_of [label=ARG2]
+	"_take_v_1-fn.Competition" -> _position_n_of [label="ARG2-fn.Participant_2"]
+	udef_q -> _conservative_n_1 [label=BV]
+	_the_q -> _administration_n_of [label=BV]
+	udef_q -> "_year+end_n_1" [label=BV]
+	"_should_v_modal-fn.Amounting_to" -> "_take_v_1-fn.Competition" [label="ARG1-fn.Value"]
+	_a_q -> _position_n_of [label=BV]
+}

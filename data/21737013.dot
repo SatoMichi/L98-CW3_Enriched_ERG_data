@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "yofc(1989)" [label=ARG2]
+	_the_q -> _price_n_of [label=BV]
+	"_colon_v_id-fn.Perception_body" -> _price_n_of [label="ARG1-fn.Experiencer"]
+	proper_q -> "yofc(1989)" [label=BV]
+	"card(250,000)" -> _dollar_n_1 [label=ARG1]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _dollar_n_1 [label=BV]
+	"_colon_v_id-fn.Perception_body" -> _dollar_n_1 [label="ARG2-fn.Body_part"]
+}

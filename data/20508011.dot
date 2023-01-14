@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	_with_p -> "_agree_v_on-fn.IN" [label=ARG1]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	"_agree_v_on-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	"card(100)" -> _percent_n_of [label=ARG1]
+	_with_p -> "named(Lehman)" [label=ARG2]
+	compound -> "named(Lehman)" [label=ARG1]
+	loc_nonsp -> "_agree_v_on-fn.IN" [label=ARG1]
+	proper_q -> "named(Lehman)" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

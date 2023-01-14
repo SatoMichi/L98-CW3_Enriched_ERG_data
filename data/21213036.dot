@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_individual_a_1 -> _participation_n_in [label=ARG1]
+	_japanese_a_1 -> _participation_n_in [label=ARG1]
+	_participation_n_in -> _auction_n_of [label=ARG1]
+	_disappointing_a_for -> _participation_n_in [label=ARG1]
+	"_according+to_p" -> _disappointing_a_for [label=ARG1]
+	udef_q -> _participation_n_in [label=BV]
+	"_according+to_p" -> _dealer_n_1 [label=ARG2]
+	udef_q -> _dealer_n_1 [label=BV]
+	_the_q -> _auction_n_of [label=BV]
+}

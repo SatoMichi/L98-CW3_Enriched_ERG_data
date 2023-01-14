@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_colon_v_id-fn.Perception_body" -> _and_c [label="ARG2-fn.Body_part"]
+	nominalization -> _roof_v_1 [label=ARG1]
+	udef_q -> _product_n_1 [label=BV]
+	"_colon_v_id-fn.Perception_body" -> _business_n_1 [label="ARG1-fn.Experiencer"]
+	compound -> _product_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _business_n_1 [label=BV]
+	compound -> _forest_n_of [label=ARG2]
+	udef_q -> _forest_n_of [label=BV]
+	udef_q -> nominalization [label=BV]
+}

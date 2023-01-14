@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_ready_a_1 -> "_study_v_1-fn.Scrutiny" [label=ARG2]
+	_absolutely_x_deg -> _ready_a_1 [label=ARG1]
+	_all_q -> _solution_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.IN" -> _ready_a_1 [label="ARG2-fn.Topic"]
+	"_study_v_1-fn.Scrutiny" -> pron [label="ARG1-fn.Agent"]
+	compound -> "named(France)" [label=ARG1]
+	"_say_v_to-fn.IN" -> "_spokeswoman/nn_u_unknown" [label="ARG1-fn.Agent"]
+	compound -> "_spokeswoman/nn_u_unknown" [label=ARG1]
+	_ready_a_1 -> pron [label=ARG1]
+	_a_q -> "_spokeswoman/nn_u_unknown" [label=BV]
+	proper_q -> "named(Air)" [label=BV]
+	"_study_v_1-fn.Scrutiny" -> _solution_n_of [label="ARG2-fn.Topic"]
+	proper_q -> "named(France)" [label=BV]
+	compound -> "named(Air)" [label=ARG2]
+}

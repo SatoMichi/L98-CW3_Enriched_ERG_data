@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_make_v_cause-fn.Causation" [label=ARG1]
+	"_make_v_cause-fn.Causation" -> _public_a_1 [label="ARG2-fn.Theme"]
+	parg_d -> _detail_n_1 [label=ARG2]
+	udef_q -> _detail_n_1 [label=BV]
+	udef_q -> _contract_n_1 [label=BV]
+	_public_a_1 -> _detail_n_1 [label=ARG1]
+	parg_d -> "_make_v_cause-fn.Causation" [label=ARG1]
+	compound -> _contract_n_1 [label=ARG2]
+	compound -> _detail_n_1 [label=ARG1]
+}

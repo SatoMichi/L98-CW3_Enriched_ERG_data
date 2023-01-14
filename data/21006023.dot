@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_profitable_a_for -> _operation_n_of [label=ARG1]
+	compound -> _operation_n_of [label=ARG1]
+	compound -> _food_n_1 [label=ARG2]
+	_all_q -> _operation_n_of [label=BV]
+	udef_q -> _food_n_1 [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> pron [label="ARG1-fn.Dependent"]
+	"card(3)" -> _operation_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_say_v_to-fn.Have_as_requirement" -> _profitable_a_for [label="ARG2-fn.Requirement"]
+	_non_a_1 -> _food_n_1 [label=ARG1]
+}

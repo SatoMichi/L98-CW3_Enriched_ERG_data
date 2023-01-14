@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	"_demand_v_of-fn.Request" -> _investor_n_1 [label="ARG1-fn.NotExist"]
+	"_say_v_to-fn.IN" -> _also_a_1 [label="ARG2-fn.NotExist"]
+	_strict_a_1 -> "_convenants/nns_u_unknown" [label=ARG1]
+	udef_q -> _investor_n_1 [label=BV]
+	proper_q -> "named(Carmichael)" [label=BV]
+	"_say_v_to-fn.IN" -> "named(Carmichael)" [label="ARG1-fn.NotExist"]
+	comp -> _strict_a_1 [label=ARG1]
+	udef_q -> "_convenants/nns_u_unknown" [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	"_demand_v_of-fn.Request" -> "_convenants/nns_u_unknown" [label="ARG2-fn.NotExist"]
+	_also_a_1 -> "_demand_v_of-fn.Request" [label=ARG1]
+	compound -> "named(Carmichael)" [label=ARG1]
+}

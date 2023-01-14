@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_this_q_dem -> generic_entity [label=BV]
+	_hard_a_for -> "_predict_v_1-fn.Predicting" [label=ARG1]
+	_like_p -> generic_entity [label=ARG2]
+	_like_p -> _development_n_of [label=ARG1]
+	"_predict_v_1-fn.Predicting" -> _development_n_of [label="ARG2-fn.Topic"]
+	udef_q -> _development_n_of [label=BV]
+}

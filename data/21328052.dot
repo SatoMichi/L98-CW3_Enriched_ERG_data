@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _figure_n_1 [label=ARG2]
+	udef_q -> _figure_n_1 [label=BV]
+	"_re-_a_again" -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	"_state_v_to-fn.Cause_to_end" -> _figure_n_1 [label="ARG2-fn.Means"]
+	parg_d -> "_state_v_to-fn.Cause_to_end" [label=ARG1]
+	"_year-ago_a_1" -> _figure_n_1 [label=ARG1]
+}

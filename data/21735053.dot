@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_end_v_cause-fn.Cause_to_end" [label=ARG1]
+	"_end_v_cause-fn.Cause_to_end" -> _year_n_1 [label="ARG2-fn.Means"]
+	loc_nonsp -> "dofm(30)" [label=ARG1]
+	_colon_p_namely -> "_end_v_cause-fn.Cause_to_end" [label=ARG1]
+	udef_q -> _year_n_1 [label=BV]
+	parg_d -> _year_n_1 [label=ARG2]
+	of_p -> "dofm(30)" [label=ARG1]
+	def_explicit_q -> "dofm(30)" [label=BV]
+	def_implicit_q -> "mofy(Apr)" [label=BV]
+	of_p -> "mofy(Apr)" [label=ARG2]
+	proper_q -> "yofc(1989)" [label=BV]
+	loc_nonsp -> "_end_v_cause-fn.Cause_to_end" [label=ARG1]
+	unknown -> _year_n_1 [label=ARG]
+	loc_nonsp -> "yofc(1989)" [label=ARG2]
+}

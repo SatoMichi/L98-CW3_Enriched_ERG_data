@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "_policy_n_of-on" [label=ARG2]
+	compound -> "card(5-)" [label=ARG1]
+	udef_q -> _term_n_of [label=BV]
+	compound -> _statement_n_of [label=ARG1]
+	plus -> "card(39)" [label=ARG3]
+	"_set_v_out-fn.Undergo_change" -> _term_n_of [label="ARG2-fn.Final_category"]
+	"_set_v_out-fn.Undergo_change" -> "card(5-)" [label="ARG1-fn.Entity"]
+	number_q -> "card(5-)" [label=BV]
+	udef_q -> _statement_n_of [label=BV]
+	compound -> "named(P)" [label=ARG2]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	udef_q -> "named(P)" [label=BV]
+	plus -> "card(5-)" [label=ARG2]
+}

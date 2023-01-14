@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> "named(Muzak)" [label=ARG2]
+	udef_q -> _spaceship_n_1 [label=BV]
+	_like_p -> _work_n_1 [label=ARG1]
+	_for_p -> "named(Muzak)" [label=ARG1]
+	"_sound_v_seem-to-fn.Appearance" -> _work_n_1 [label="ARG1-fn.NotExist"]
+	proper_q -> "named(Muzak)" [label=BV]
+	_the_q -> _work_n_1 [label=BV]
+	_for_p -> _spaceship_n_1 [label=ARG2]
+	"_sound_v_seem-to-fn.Appearance" -> _like_p [label="ARG2-fn.Stimulus"]
+}

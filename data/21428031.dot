@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _compromise_n_1 [label=BV]
+	parg_d -> "_work_v_1-fn.NF" [label=ARG1]
+	parg_d -> "_understand_v_by-fn.Awareness" [label=ARG1]
+	_into_p -> "_work_v_1-fn.NF" [label=ARG1]
+	_several_a_1 -> _compromise_n_1 [label=ARG1]
+	_into_p -> _plan_n_1 [label=ARG2]
+	parg_d -> _compromise_n_1 [label=ARG2]
+	_already_a_1 -> "_work_v_1-fn.NF" [label=ARG1]
+	"_understand_v_by-fn.Awareness" -> "_work_v_1-fn.NF" [label="ARG2-fn.Theme"]
+	_the_q -> _plan_n_1 [label=BV]
+	"_work_v_1-fn.NF" -> _compromise_n_1 [label="ARG2-fn.Material"]
+}

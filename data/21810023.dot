@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_sluggish_a_1 -> _activity_n_1 [label=ARG1]
+	parg_d -> _price_n_of [label=ARG2]
+	_little_a_1 -> "_change_v_cause-fn.Cause_change" [label=ARG1]
+	compound -> _bond_n_1 [label=ARG2]
+	"_change_v_cause-fn.Cause_change" -> _price_n_of [label="ARG2-fn.Initial_category"]
+	_in_p -> _activity_n_1 [label=ARG2]
+	parg_d -> "_change_v_cause-fn.Cause_change" [label=ARG1]
+	udef_q -> _bond_n_1 [label=BV]
+	_in_p -> "_change_v_cause-fn.Cause_change" [label=ARG1]
+	compound -> _price_n_of [label=ARG1]
+	udef_q -> _activity_n_1 [label=BV]
+	udef_q -> _price_n_of [label=BV]
+}

@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_move_v_1-fn.Change_position_on_a_scale" -> _price_n_of [label="ARG1-fn.NotExist"]
+	_when_x_subord -> "_move_v_1-fn.Change_position_on_a_scale" [label=ARG2]
+	_note_v_to -> _when_x_subord [label=ARG2]
+	_difficult_a_for -> _structure_v_1 [label=ARG1]
+	udef_q -> _dealer_n_1 [label=BV]
+	_new_a_1 -> "named(Remics)" [label=ARG1]
+	udef_q -> _price_n_of [label=BV]
+	_note_v_to -> _dealer_n_1 [label=ARG1]
+	udef_q -> "named(Remics)" [label=BV]
+	_structure_v_1 -> "named(Remics)" [label=ARG2]
+	_wide_a_1 -> "_move_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_when_x_subord -> _difficult_a_for [label=ARG1]
+}

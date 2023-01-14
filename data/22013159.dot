@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	appos -> _side_n_1 [label=ARG1]
+	compound -> "named(Noriega)" [label=ARG1]
+	_now_a_1 -> "_have_v_1-fn.Commerce_collect" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	"_have_v_1-fn.Commerce_collect" -> _side_n_1 [label="ARG1-fn.Buyer"]
+	udef_q -> _mister_n_1 [label=BV]
+	_easy_a_for -> _out_n_1 [label=ARG1]
+	_the_q -> "named_n(US)" [label=BV]
+	appos -> _nor_c [label=ARG2]
+	"_have_v_1-fn.Commerce_collect" -> _out_n_1 [label="ARG2-fn.Goods"]
+	_neither_q -> _side_n_1 [label=BV]
+	udef_q -> _nor_c [label=BV]
+	_a_q -> _out_n_1 [label=BV]
+	proper_q -> "named(Noriega)" [label=BV]
+}

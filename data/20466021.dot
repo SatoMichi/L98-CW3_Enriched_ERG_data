@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_question_v_1-fn.Attempt" -> _credibility_n_1 [label="ARG2-fn.Goal"]
+	"_question_v_1-fn.Attempt" -> _analyst_n_1 [label="ARG1-fn.Agent"]
+	poss -> _management_n_1 [label=ARG2]
+	"much-many_a" -> _analyst_n_1 [label=ARG1]
+	udef_q -> _analyst_n_1 [label=BV]
+	def_explicit_q -> _credibility_n_1 [label=BV]
+	udef_q -> _management_n_1 [label=BV]
+	poss -> _credibility_n_1 [label=ARG1]
+}

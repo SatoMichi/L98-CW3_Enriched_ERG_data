@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Krasnoyarsk)" [label=BV]
+	_the_q -> _violation_n_of [label=BV]
+	superl -> "_clear-cut_a_1" [label=ARG1]
+	"_clear-cut_a_1" -> _violation_n_of [label=ARG1]
+	compound -> _violation_n_of [label=ARG1]
+	compound -> _radar_n_1 [label=ARG1]
+	"_be_v_id-fn.Residence" -> _radar_n_1 [label="ARG2-fn.Location"]
+	"_for+example_p" -> _violation_n_of [label=ARG1]
+	compound -> "named(Soviet)" [label=ARG2]
+	proper_q -> "named(Soviet)" [label=BV]
+	_probably_x_deg -> _the_q [label=ARG1]
+	compound -> "named(Krasnoyarsk)" [label=ARG2]
+	"_be_v_id-fn.Residence" -> _violation_n_of [label="ARG1-fn.Resident"]
+	_the_q -> _radar_n_1 [label=BV]
+}

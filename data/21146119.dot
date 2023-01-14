@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Communists)" [label=BV]
+	compound -> _revolution_n_of [label=ARG1]
+	compound -> _food_n_1 [label=ARG2]
+	"_make_v_1-fn.Competition" -> "named(Solidarity)" [label="ARG2-fn.Participant_2"]
+	_if_x_then -> "_make_v_1-fn.Competition" [label=ARG1]
+	udef_q -> _food_n_1 [label=BV]
+	proper_q -> "named(Solidarity)" [label=BV]
+	"_make_v_1-fn.Competition" -> _revolution_n_of [label="ARG1-fn.Participant_1"]
+	"_undo_v_1-fn.Attempt_suasion" -> "named(Communists)" [label="ARG2-fn.Addressee"]
+	_a_q -> _revolution_n_of [label=BV]
+	_a_q -> _crisis_n_1 [label=BV]
+	_if_x_then -> "_undo_v_1-fn.Attempt_suasion" [label=ARG2]
+	compound -> _crisis_n_1 [label=ARG1]
+	"_undo_v_1-fn.Attempt_suasion" -> _crisis_n_1 [label="ARG1-fn.Content"]
+}

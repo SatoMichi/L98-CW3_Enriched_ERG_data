@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _junk_n_1 [label=BV]
+	_the_q -> _dollar_n_1 [label=BV]
+	compound -> _junk_n_1 [label=ARG2]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _bond_n_1 [label=BV]
+	_most_q -> _price_n_of [label=BV]
+	compound -> _price_n_of [label=ARG1]
+	"_fall_v_1-fn.Halt" -> _price_n_of [label="ARG1-fn.Purpose"]
+	"_rise_v_1-fn.Experiencer_obj" -> _and_c [label="ARG1-fn.Experiencer"]
+	compound -> _bond_n_1 [label=ARG1]
+}

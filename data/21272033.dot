@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(D.T)" [label=BV]
+	"_save_v_1-fn.Competition" -> _amount_n_of [label="ARG1-fn.Participant_1"]
+	_for_p -> "named(D.T)" [label=ARG2]
+	_this_q_dem -> _game_n_1 [label=BV]
+	"_can_v_modal-fn.Communication_manner" -> "_save_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+	_for_p -> "_save_v_1-fn.Competition" [label=ARG1]
+	_no_q -> _amount_n_of [label=BV]
+	"_save_v_1-fn.Competition" -> _game_n_1 [label="ARG2-fn.Participant_2"]
+	nominalization -> "_weasling/vbg_u_unknown" [label=ARG1]
+	_amount_n_of -> nominalization [label=ARG1]
+	udef_q -> nominalization [label=BV]
+}

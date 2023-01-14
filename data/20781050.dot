@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Zipser)" [label=BV]
+	"_contribute_v_to-fn.Cause_to_end" -> _article_n_of [label="ARG3-fn.Place"]
+	_in_p -> "named(Dallas)" [label=ARG2]
+	proper_q -> "named(Andy)" [label=BV]
+	_in_p -> "named(Zipser)" [label=ARG1]
+	proper_q -> "named(Dallas)" [label=BV]
+	"_contribute_v_to-fn.Cause_to_end" -> "named(Zipser)" [label="ARG1-fn.Process"]
+	compound -> "named(Andy)" [label=ARG2]
+	compound -> "named(Zipser)" [label=ARG1]
+	_this_q_dem -> _article_n_of [label=BV]
+}

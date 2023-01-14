@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _year_n_1 [label=BV]
+	_for_p -> "_simmer_v_1-fn.Attempt_suasion" [label=ARG1]
+	_for_p -> _year_n_1 [label=ARG2]
+	"_simmer_v_1-fn.Attempt_suasion" -> _issue_n_1 [label="ARG1-fn.Content"]
+	_the_q -> _issue_n_1 [label=BV]
+}

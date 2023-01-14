@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_high+tech_a_1" -> _industry_n_1 [label=ARG1]
+	_the_q -> _guideline_n_1 [label=BV]
+	"_kind_n_of-n" -> _arrangement_n_1 [label=ARG1]
+	"_affect_v_1-fn.NF" -> _guideline_n_1 [label="ARG1-fn.Stimulus"]
+	_new_a_1 -> _guideline_n_1 [label=ARG1]
+	_the_q -> _industry_n_1 [label=BV]
+	udef_q -> _arrangement_n_1 [label=BV]
+	_full_a_of -> _industry_n_1 [label=ARG1]
+	_full_a_of -> "_kind_n_of-n" [label=ARG2]
+	_would_v_modal -> "_affect_v_1-fn.NF" [label=ARG1]
+	_the_q -> "_kind_n_of-n" [label=BV]
+	"_affect_v_1-fn.NF" -> _arrangement_n_1 [label="ARG2-fn.Experiencer"]
+}

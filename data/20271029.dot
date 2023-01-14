@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_available_a_1 -> _detail_n_1 [label=ARG1]
+	_complete_a_with -> _detail_n_1 [label=ARG1]
+	_immediate_a_1 -> _available_a_1 [label=ARG1]
+	neg -> _available_a_1 [label=ARG1]
+	udef_q -> _detail_n_1 [label=BV]
+}

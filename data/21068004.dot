@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> "named(Kennametal)" [label=ARG2]
+	_the_q -> _acquisition_n_of [label=BV]
+	poss -> _board_n_of [label=ARG1]
+	def_explicit_q -> _board_n_of [label=BV]
+	_by_p -> _board_n_of [label=ARG2]
+	_by_p -> _approval_n_of [label=ARG1]
+	udef_q -> _approval_n_of [label=BV]
+	proper_q -> "named(Kennametal)" [label=BV]
+	_subject_a_to -> _acquisition_n_of [label=ARG1]
+	_subject_a_to -> _approval_n_of [label=ARG2]
+}

@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_remain_v_1-fn.State_continue" -> _closed_a_1 [label="ARG2-fn.Theme"]
+	"_remain_v_1-fn.State_continue" -> _cafeteria_n_1 [label="ARG1-fn.NotExist"]
+	_closed_a_1 -> _cafeteria_n_1 [label=ARG1]
+	_the_q -> _cafeteria_n_1 [label=BV]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_routine_a_1 -> _call_n_1 [label=ARG1]
+	compound -> _courtesy_n_1 [label=ARG2]
+	udef_q -> _courtesy_n_1 [label=BV]
+	_supposed_a_1 -> pron [label=ARG1]
+	_supposed_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG2]
+	_a_q -> _call_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _call_n_1 [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	compound -> _call_n_1 [label=ARG1]
+}

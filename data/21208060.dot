@@ -1,0 +1,7 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sound_v_seem-to-fn.Cause_to_end" -> _intangible_a_1 [label="ARG2-fn.Means"]
+	udef_q -> _credibility_n_1 [label=BV]
+	_intangible_a_1 -> _credibility_n_1 [label=ARG1]
+	"_sound_v_seem-to-fn.Cause_to_end" -> _credibility_n_1 [label="ARG1-fn.Process"]
+}

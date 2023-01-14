@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	_outright_a_1 -> _maker_n_of [label=ARG1]
+	_most_q -> part_of [label=BV]
+	compound -> _maker_n_of [label=ARG1]
+	_bare_a_1 -> _profitable_a_for [label=ARG1]
+	unknown -> "_if+not_c" [label=ARG]
+	part_of -> _addition_n_1 [label=ARG1]
+	udef_q -> _maker_n_of [label=BV]
+	_the_q -> _addition_n_1 [label=BV]
+	compound -> _loss_n_of [label=ARG2]
+	udef_q -> _loss_n_of [label=BV]
+	_new_a_1 -> _addition_n_1 [label=ARG1]
+	_profitable_a_for -> part_of [label=ARG1]
+}

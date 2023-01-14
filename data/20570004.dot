@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"_return_v_1-fn.Process_start" -> _call_n_1 [label="ARG2-fn.Place"]
+	udef_q -> _official_n_1 [label=BV]
+	udef_q -> _phone_n_1 [label=BV]
+	udef_q -> _comment_n_1 [label=BV]
+	compound -> _official_n_1 [label=ARG1]
+	compound -> "named(Crane)" [label=ARG2]
+	"_seek_v_1-fn.State_continue" -> _comment_n_1 [label="ARG2-fn.State"]
+	proper_q -> "named(Crane)" [label=BV]
+	udef_q -> _call_n_1 [label=BV]
+	neg -> "_return_v_1-fn.Process_start" [label=ARG1]
+	compound -> _phone_n_1 [label=ARG2]
+	"_return_v_1-fn.Process_start" -> _official_n_1 [label="ARG1-fn.Event"]
+	compound -> _call_n_1 [label=ARG1]
+	"_seek_v_1-fn.State_continue" -> _call_n_1 [label="ARG1-fn.Entity"]
+}

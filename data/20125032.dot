@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	parenthetical -> "named(Aktiebolaget)" [label=ARG1]
+	compound -> "named(Aktiebolaget)" [label=ARG1]
+	proper_q -> "named(Garanti)" [label=BV]
+	udef_q -> "named(Sweden)" [label=BV]
+	parenthetical -> "named(Sweden)" [label=ARG2]
+	compound -> "named(Svenska)" [label=ARG2]
+	proper_q -> "named(Intecknings)" [label=BV]
+	proper_q -> "named(Aktiebolaget)" [label=BV]
+	compound -> "named(Garanti)" [label=ARG1]
+	proper_q -> "named(Svenska)" [label=BV]
+	unknown -> "named(Aktiebolaget)" [label=ARG]
+	compound -> "named(Intecknings)" [label=ARG1]
+}

@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_very_x_deg -> _important_a_for [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	"_think_v_1-fn.IN" -> _important_a_for [label="ARG2-fn.NotExist"]
+	focus_d -> "_think_v_1-fn.IN" [label=ARG2]
+	"_say_v_to-fn.IN" -> "named(Eddington)" [label="ARG1-fn.Agent"]
+	udef_q -> _alliance_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "_think_v_1-fn.IN" [label="ARG2-fn.Topic"]
+	compound -> _mister_n_1 [label=ARG2]
+	"_think_v_1-fn.IN" -> pron [label="ARG1-fn.NotExist"]
+	_important_a_for -> _alliance_n_1 [label=ARG1]
+	compound -> "named(Eddington)" [label=ARG1]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	proper_q -> "named(Eddington)" [label=BV]
+	pronoun_q -> pron [label=BV]
+}

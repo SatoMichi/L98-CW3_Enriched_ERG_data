@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(3)" -> _fund_n_1 [label=ARG1]
+	part_of -> _fund_n_1 [label=ARG1]
+	_negative_a_1 -> _return_n_of [label=ARG1]
+	"_post_v_1-fn.Sending" -> _return_n_of [label="ARG2-fn.Theme"]
+	"_post_v_1-fn.Sending" -> part_of [label="ARG1-fn.Agent"]
+	_all_q -> part_of [label=BV]
+	_for_p -> _return_n_of [label=ARG1]
+	_for_p -> _year_n_1 [label=ARG2]
+	"_to+date_p" -> _return_n_of [label=ARG1]
+	udef_q -> _fund_n_1 [label=BV]
+	udef_q -> _return_n_of [label=BV]
+	_the_q -> _year_n_1 [label=BV]
+}

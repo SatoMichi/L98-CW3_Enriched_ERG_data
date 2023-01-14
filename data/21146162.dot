@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "_naczelnik/fw_u_unknown" [label=BV]
+	"_barges/vbz_u_unknown" -> _farmer_n_1 [label=ARG1]
+	_into_p -> _office_n_of [label=ARG2]
+	_into_p -> "_barges/vbz_u_unknown" [label=ARG1]
+	poss -> "_naczelnik/fw_u_unknown" [label=ARG2]
+	poss -> _office_n_of [label=ARG1]
+	def_explicit_q -> _office_n_of [label=BV]
+	_the_q -> _farmer_n_1 [label=BV]
+}

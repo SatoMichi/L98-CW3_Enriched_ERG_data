@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	comp_too -> _bear_v_1 [label=ARG2]
+	_the_q -> _leadership_n_1 [label=BV]
+	_painful_a_to -> generic_entity [label=ARG1]
+	focus_d -> _for_p [label=ARG2]
+	_for_p -> _painful_a_to [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	focus_d -> _painful_a_to [label=ARG1]
+	comp_too -> _painful_a_to [label=ARG1]
+	_for_p -> _leadership_n_1 [label=ARG2]
+}

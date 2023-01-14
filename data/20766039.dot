@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(San)" [label=ARG2]
+	proper_q -> "named(Jose)" [label=BV]
+	_in_p -> _and_c [label=ARG2]
+	proper_q -> "named(San)" [label=BV]
+	_in_p -> "_set_v_up-fn.Perception_active" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	parg_d -> _office_n_of [label=ARG2]
+	udef_q -> _office_n_of [label=BV]
+	proper_q -> "named(Francisco)" [label=BV]
+	compound -> "named(Jose)" [label=ARG1]
+	"_set_v_up-fn.Perception_active" -> _office_n_of [label="ARG2-fn.Phenomenon"]
+	compound -> "named(Francisco)" [label=ARG1]
+	parg_d -> "_set_v_up-fn.Perception_active" [label=ARG1]
+}

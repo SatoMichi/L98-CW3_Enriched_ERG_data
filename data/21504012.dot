@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	udef_q -> _week_n_1 [label=BV]
+	compound -> "named(Stone)" [label=ARG1]
+	_the_q -> _chairman_n_of [label=BV]
+	compound -> _mister_n_1 [label=ARG2]
+	_a_q -> _decision_n_1 [label=BV]
+	"_promise_v_1-fn.Commitment" -> "named(Stone)" [label="ARG3-fn.Theme"]
+	_within_p -> _decision_n_1 [label=ARG1]
+	"card(2)" -> _week_n_1 [label=ARG1]
+	"_promise_v_1-fn.Commitment" -> _chairman_n_of [label="ARG1-fn.Agent"]
+	proper_q -> "named(Stone)" [label=BV]
+	_within_p -> _week_n_1 [label=ARG2]
+	"_promise_v_1-fn.Commitment" -> _decision_n_1 [label="ARG2-fn.Goal"]
+}

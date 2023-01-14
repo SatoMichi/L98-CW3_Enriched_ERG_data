@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_if_x_then -> neg [label=ARG2]
+	neg -> "_increase_v_cause-fn.Cause_harm" [label=ARG1]
+	_in_p -> _red_a_1 [label=ARG2]
+	"_increase_v_cause-fn.Cause_harm" -> _price_n_of [label="ARG2-fn.Victim"]
+	"_increase_v_cause-fn.Cause_harm" -> pron [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	_in_p -> pron [label=ARG1]
+	"_would_v_modal-fn.Cause_to_end" -> _in_p [label="ARG1-fn.Process"]
+	_the_q -> _red_a_1 [label=BV]
+	_if_x_then -> "_would_v_modal-fn.Cause_to_end" [label=ARG1]
+}

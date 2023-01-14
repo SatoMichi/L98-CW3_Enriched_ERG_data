@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_sell_v_off-fn.Operate_vehicle" -> _asset_n_1 [label="ARG2-fn.Vehicle"]
+	"_in+order+to_x" -> "_service_v_1-fn.Residence" [label=ARG2]
+	parg_d -> _asset_n_1 [label=ARG2]
+	"_service_v_1-fn.Residence" -> _debt_n_1 [label="ARG2-fn.Location"]
+	"_indicate_v_1-fn.Competition" -> "_might_v_modal-fn.Cause_to_end" [label="ARG2-fn.Participant_2"]
+	_some_q -> _asset_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	parg_d -> "_sell_v_off-fn.Operate_vehicle" [label=ARG1]
+	_the_q -> _debt_n_1 [label=BV]
+	"_might_v_modal-fn.Cause_to_end" -> "_in+order+to_x" [label="ARG1-fn.Process"]
+	"_service_v_1-fn.Residence" -> _asset_n_1 [label="ARG1-fn.Resident"]
+	"_in+order+to_x" -> "_sell_v_off-fn.Operate_vehicle" [label=ARG1]
+	"_indicate_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

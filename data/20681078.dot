@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	plus -> "card(18)" [label=ARG2]
+	_to_p -> "card(18)" [label=ARG2]
+	"_jump_v_1-fn.Activity_start" -> "named(Roy)" [label="ARG1-fn.Place"]
+	compound -> "named(Milton)" [label=ARG2]
+	compound -> "named(Roy)" [label=ARG1]
+	number_q -> "card(2)" [label=BV]
+	proper_q -> "named(Roy)" [label=BV]
+	loc_nonsp -> "card(2)" [label=ARG2]
+	plus -> "fraction(3/8)" [label=ARG3]
+	_to_p -> "_jump_v_1-fn.Activity_start" [label=ARG1]
+	proper_q -> "named(Milton)" [label=BV]
+	loc_nonsp -> "_jump_v_1-fn.Activity_start" [label=ARG1]
+	number_q -> "card(18)" [label=BV]
+}

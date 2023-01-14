@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _mister_n_1 [label=BV]
+	compound -> "named(Conway)" [label=ARG1]
+	"_no+longer_a_1" -> _at_p [label=ARG1]
+	_at_p -> "named(Conway)" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	_at_p -> _exchange_n_1 [label=ARG2]
+	proper_q -> "named(Conway)" [label=BV]
+	_the_q -> _exchange_n_1 [label=BV]
+}

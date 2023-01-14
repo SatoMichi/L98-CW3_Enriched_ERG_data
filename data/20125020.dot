@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	plus -> "card(1999)" [label=ARG3]
+	number_q -> "card(2017)" [label=BV]
+	loc_nonsp -> "card(1992)" [label=ARG2]
+	"_mature_v_1-fn.Experiencer_obj" -> pron [label="ARG1-fn.Experiencer"]
+	number_q -> "card(1992)" [label=BV]
+	loc_nonsp -> "card(2017)" [label=ARG2]
+	loc_nonsp -> "_mature_v_1-fn.Experiencer_obj" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	plus -> "card(1992)" [label=ARG2]
+	number_q -> "card(2009)" [label=BV]
+	loc_nonsp -> "card(2009)" [label=ARG2]
+}

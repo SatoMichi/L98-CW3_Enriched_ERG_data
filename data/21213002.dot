@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _junk_n_1 [label=BV]
+	compound -> _junk_n_1 [label=ARG2]
+	udef_q -> _bond_n_1 [label=BV]
+	udef_q -> _hit_n_1 [label=BV]
+	"_take_v_1-fn.Commerce_buy" -> _bond_n_1 [label="ARG1-fn.Buyer"]
+	"much-many_a" -> _hit_n_1 [label=ARG1]
+	"_take_v_1-fn.Commerce_buy" -> _hit_n_1 [label="ARG2-fn.Goods"]
+	comp -> "much-many_a" [label=ARG1]
+	compound -> _bond_n_1 [label=ARG1]
+}

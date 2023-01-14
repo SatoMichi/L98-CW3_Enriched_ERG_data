@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	poss -> _year_n_1 [label=ARG2]
+	_of_p -> _respondent_n_1 [label=ARG2]
+	udef_q -> _percent_n_of [label=BV]
+	poss -> _respondent_n_1 [label=ARG1]
+	_only_a_1 -> _percent_n_of [label=ARG1]
+	"_anticipate_v_1-fn.Attempt_suasion" -> _percent_n_of [label="ARG1-fn.Content"]
+	_last_a_1 -> _year_n_1 [label=ARG1]
+	"_slow_v_1-fn.Impact" -> _growth_n_of [label="ARG1-fn.Place"]
+	_of_p -> _percent_n_of [label=ARG1]
+	"card(42)" -> _percent_n_of [label=ARG1]
+	def_explicit_q -> _respondent_n_1 [label=BV]
+	def_implicit_q -> _year_n_1 [label=BV]
+	"_anticipate_v_1-fn.Attempt_suasion" -> _growth_n_of [label="ARG2-fn.Addressee"]
+	udef_q -> _growth_n_of [label=BV]
+}

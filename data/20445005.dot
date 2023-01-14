@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_now_a_1 -> "_reach_v_1-fn.NF" [label=ARG1]
+	_the_q -> _revolution_n_of [label=BV]
+	compound -> _revolution_n_of [label=ARG1]
+	"_reach_v_1-fn.NF" -> "named(Japan)" [label="ARG2-fn.Theme"]
+	_personal_a_1 -> _computer_n_1 [label=ARG1]
+	"_reach_v_1-fn.NF" -> _revolution_n_of [label="ARG1-fn.Agent"]
+	proper_q -> "named(Japan)" [label=BV]
+	udef_q -> _computer_n_1 [label=BV]
+	compound -> _computer_n_1 [label=ARG2]
+	_final_a_1 -> "_reach_v_1-fn.NF" [label=ARG1]
+}

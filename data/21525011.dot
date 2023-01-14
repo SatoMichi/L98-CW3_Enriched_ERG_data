@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _privatization_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _month_n_1 [label="ARG2-fn.Name"]
+	proper_q -> "mofy(Oct)" [label=BV]
+	_for_p -> _program_n_of [label=ARG2]
+	_the_q -> _program_n_of [label=BV]
+	compound -> _privatization_n_of [label=ARG2]
+	_a_q -> _month_n_1 [label=BV]
+	_critical_a_of -> _month_n_1 [label=ARG1]
+	_for_p -> _month_n_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> "mofy(Oct)" [label="ARG1-fn.Entity"]
+	compound -> _program_n_of [label=ARG1]
+}

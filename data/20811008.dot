@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_at_p -> _maturity_n_1 [label=ARG2]
+	_amount_n_of -> _dollar_n_1 [label=ARG1]
+	_a_q -> _amount_n_of [label=BV]
+	_principal_a_1 -> _amount_n_of [label=ARG1]
+	_at_p -> "_have_v_1-fn.State_continue" [label=ARG1]
+	times -> "card(300)" [label=ARG2]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _maturity_n_1 [label=BV]
+	"_have_v_1-fn.State_continue" -> _amount_n_of [label="ARG2-fn.State"]
+	_the_q -> _note_n_1 [label=BV]
+	"_have_v_1-fn.State_continue" -> _note_n_1 [label="ARG1-fn.Entity"]
+}

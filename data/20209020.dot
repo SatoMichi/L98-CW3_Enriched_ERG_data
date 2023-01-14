@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _growth_n_of [label=BV]
+	udef_q -> _mister_n_1 [label=BV]
+	proper_q -> "named(Leemans)" [label=BV]
+	"_say_v_to-fn.IN" -> neg [label="ARG2-fn.Topic"]
+	_genetic_a_1 -> _manipulation_n_1 [label=ARG1]
+	compound -> "named(Leemans)" [label=ARG1]
+	"_hurt_v_1-fn.Cause_harm" -> _manipulation_n_1 [label="ARG1-fn.NotExist"]
+	neg -> "_hurt_v_1-fn.Cause_harm" [label=ARG1]
+	_this_q_dem -> _manipulation_n_1 [label=BV]
+	"_hurt_v_1-fn.Cause_harm" -> _growth_n_of [label="ARG2-fn.Experiencer"]
+	compound -> _mister_n_1 [label=ARG2]
+	_that_q_dem -> _plant_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "named(Leemans)" [label="ARG1-fn.Agent"]
+	_growth_n_of -> _plant_n_1 [label=ARG1]
+}

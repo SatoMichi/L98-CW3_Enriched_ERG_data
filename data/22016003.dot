@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> "named(NESB)" [label="ARG1-fn.Entity"]
+	_also_a_1 -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	_parent_n_of -> "named(Omnibank)" [label=ARG1]
+	proper_q -> "named(Omnibank)" [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _parent_n_of [label="ARG2-fn.Name"]
+	_the_q -> _parent_n_of [label=BV]
+	proper_q -> "named(NESB)" [label=BV]
+}

@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"_learn_v_1-fn.Competition" -> "_go_v_state-fn.Cause_to_end" [label="ARG2-fn.Participant_2"]
+	_to_p -> _blow_n_1 [label=ARG1]
+	_even_x_deg -> def_explicit_q [label=ARG1]
+	"_go_v_state-fn.Cause_to_end" -> _unnoticed_a_1 [label="ARG2-fn.Means"]
+	_ultimate_a_1 -> _blow_n_1 [label=ARG1]
+	poss -> _mistake_n_1 [label=ARG1]
+	_unnoticed_a_1 -> _mistake_n_1 [label=ARG1]
+	_the_q -> _ego_n_1 [label=BV]
+	_to_p -> _ego_n_1 [label=ARG2]
+	_the_q -> _blow_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_go_v_state-fn.Cause_to_end" -> _mistake_n_1 [label="ARG1-fn.Process"]
+	def_explicit_q -> _mistake_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	"_learn_v_1-fn.Competition" -> _blow_n_1 [label="ARG1-fn.Participant_1"]
+}

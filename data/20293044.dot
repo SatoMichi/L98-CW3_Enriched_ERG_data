@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_subject_a_to -> _treaty_n_1 [label=ARG1]
+	_a_q -> _treaty_n_1 [label=BV]
+	"_sign_v_1-fn.NF" -> _and_c [label="ARG1-fn.Agent"]
+	_subject_a_to -> _ratification_n_of [label=ARG2]
+	udef_q -> _ratification_n_of [label=BV]
+	compound -> _treaty_n_1 [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	compound -> _tax_n_1 [label=ARG1]
+	_the_q -> "named_n(US)" [label=BV]
+	proper_q -> "named(Finland)" [label=BV]
+	"_sign_v_1-fn.NF" -> _treaty_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _income_n_1 [label=BV]
+	compound -> _income_n_1 [label=ARG2]
+	udef_q -> _tax_n_1 [label=BV]
+}

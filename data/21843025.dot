@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> "_pass_v_along-fn.Giving" [label=ARG1]
+	_to_p -> _customer_n_of [label=ARG2]
+	"_pass_v_along-fn.Giving" -> _gain_n_1 [label="ARG2-fn.NotExist"]
+	parg_d -> _gain_n_1 [label=ARG2]
+	_that_q_dem -> generic_entity [label=BV]
+	_capital_a_1 -> _gain_n_1 [label=ARG1]
+	udef_q -> _gain_n_1 [label=BV]
+	udef_q -> _customer_n_of [label=BV]
+	"_include_v_1-fn.NF" -> generic_entity [label="ARG1-fn.NotExist"]
+	_to_p -> "_pass_v_along-fn.Giving" [label=ARG1]
+	"_include_v_1-fn.NF" -> _gain_n_1 [label="ARG2-fn.NotExist"]
+}

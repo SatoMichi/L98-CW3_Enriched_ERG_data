@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "named(Shevardnadze)" [label=ARG1]
+	proper_q -> "named(Eduard)" [label=BV]
+	compound -> "named(Shevardnadze)" [label=ARG1]
+	compound -> "named(Eduard)" [label=ARG2]
+	of_p -> "mofy(Oct)" [label=ARG2]
+	of_p -> "dofm(23)" [label=ARG1]
+	def_implicit_q -> "mofy(Oct)" [label=BV]
+	proper_q -> "named(Shevardnadze)" [label=BV]
+	proper_q -> "yofc(1989)" [label=BV]
+	unknown -> "named(Shevardnadze)" [label=ARG]
+	def_explicit_q -> "dofm(23)" [label=BV]
+	loc_nonsp -> "dofm(23)" [label=ARG1]
+	loc_nonsp -> "yofc(1989)" [label=ARG2]
+}

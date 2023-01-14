@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_make_v_cause-fn.Causation" -> pron [label="ARG1-fn.Agent"]
+	_when_x_subord -> "_make_v_cause-fn.Causation" [label=ARG1]
+	_rough_a_1 -> pron [label=ARG1]
+	_have_v_qmodal -> _worry_v_about [label=ARG1]
+	_worry_v_about -> _budget_n_1 [label=ARG2]
+	_the_q -> _budget_n_1 [label=BV]
+	_when_x_subord -> _have_v_qmodal [label=ARG2]
+	_worry_v_about -> pron [label=ARG1]
+	"_a+little_x_deg" -> _rough_a_1 [label=ARG1]
+	"_make_v_cause-fn.Causation" -> _rough_a_1 [label="ARG2-fn.Theme"]
+	_just_a_1 -> "_make_v_cause-fn.Causation" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

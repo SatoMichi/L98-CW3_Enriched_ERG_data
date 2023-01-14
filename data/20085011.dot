@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _price_n_of [label=ARG2]
+	compound -> _competition_n_1 [label=ARG1]
+	_strict_a_1 -> _competition_n_1 [label=ARG1]
+	udef_q -> _bank_n_of [label=BV]
+	"_turn_v_1-fn.Undergo_change" -> _bank_n_of [label="ARG1-fn.Entity"]
+	"much-many_a" -> _bank_n_of [label=ARG1]
+	_away_p_dir -> "_turn_v_1-fn.Undergo_change" [label=ARG1]
+	udef_q -> _competition_n_1 [label=BV]
+	udef_q -> _price_n_of [label=BV]
+	_from_p -> _competition_n_1 [label=ARG2]
+	_from_p -> _away_p_dir [label=ARG1]
+}

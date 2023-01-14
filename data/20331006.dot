@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Cause_to_end" -> _reason_n_for [label="ARG2-fn.Means"]
+	_the_q -> "named(Street)" [label=BV]
+	proper_q -> "named(Santa)" [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	proper_q -> "named(Fe)" [label=BV]
+	compound -> "named(Santa)" [label=ARG2]
+	_another_q -> _reason_n_for [label=BV]
+	"_love_v_1-fn.Activity_stop" -> "named(Street)" [label="ARG1-fn.Purpose"]
+	_that_q_dem -> generic_entity [label=BV]
+	compound -> "named(Fe)" [label=ARG1]
+	_reason_n_for -> "_love_v_1-fn.Activity_stop" [label=ARG1]
+	"_love_v_1-fn.Activity_stop" -> "named(Fe)" [label="ARG2-fn.Place"]
+}

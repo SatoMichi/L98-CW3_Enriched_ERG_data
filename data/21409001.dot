@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"_after+all_a_1" -> "_deserve_v_1-fn.Competition" [label=ARG1]
+	_bad_a_at -> _reputation_n_1 [label=ARG1]
+	"_deserve_v_1-fn.Competition" -> "_bureaucrats/nns_u_unknown" [label="ARG1-fn.Participant_1"]
+	"_deserve_v_1-fn.Competition" -> _reputation_n_1 [label="ARG2-fn.Participant_2"]
+	def_explicit_q -> _reputation_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	udef_q -> "_bureaucrats/nns_u_unknown" [label=BV]
+	poss -> _reputation_n_1 [label=ARG1]
+	"_may_v_modal-fn.Communication_manner" -> "_deserve_v_1-fn.Competition" [label="ARG1-fn.Speaker"]
+}

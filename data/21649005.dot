@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_own_a_1 -> _career_n_1 [label=ARG1]
+	poss -> _career_n_1 [label=ARG1]
+	"_predict_v_1-fn.Predicting" -> _course_n_of [label="ARG2-fn.Topic"]
+	_course_n_of -> _career_n_1 [label=ARG1]
+	def_explicit_q -> _career_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	proper_q -> "named(Chandler)" [label=BV]
+	"_predict_v_1-fn.Predicting" -> "named(Chandler)" [label="ARG1-fn.Cause"]
+	_might_v_modal -> "_predict_v_1-fn.Predicting" [label=ARG1]
+	_the_q -> _course_n_of [label=BV]
+	pronoun_q -> pron [label=BV]
+}

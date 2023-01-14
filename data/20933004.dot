@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _reform_n_1 [label=ARG1]
+	udef_q -> _reform_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _thrust_n_1 [label="ARG2-fn.Means"]
+	poss -> _thrust_n_1 [label=ARG1]
+	_main_a_1 -> _thrust_n_1 [label=ARG1]
+	def_explicit_q -> _thrust_n_1 [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _reform_n_1 [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	udef_q -> _pension_n_1 [label=BV]
+	compound -> _pension_n_1 [label=ARG2]
+	poss -> pron [label=ARG2]
+}

@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _official_n_1 [label=ARG1]
+	_the_q -> _matter_n_of [label=BV]
+	udef_q -> _official_n_1 [label=BV]
+	compound -> "named(Lloyds)" [label=ARG2]
+	"_comment_v_on-fn.Statement" -> _official_n_1 [label="ARG1-fn.Agent"]
+	_decline_v_1 -> _official_n_1 [label=ARG1]
+	proper_q -> "named(Lloyds)" [label=BV]
+	_decline_v_1 -> "_comment_v_on-fn.Statement" [label=ARG2]
+	"_comment_v_on-fn.Statement" -> _matter_n_of [label="ARG2-fn.Topic"]
+}

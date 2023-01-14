@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	parg_d -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_a_q -> "_shoo-in_n_1" [label=BV]
+	_until_p -> _week_n_1 [label=ARG2]
+	def_implicit_q -> _week_n_1 [label=BV]
+	parg_d -> "named(Dinkins)" [label=ARG2]
+	compound -> _mister_n_1 [label=ARG2]
+	_until_p -> "_consider_v_1-fn.Categorization" [label=ARG1]
+	_last_a_1 -> _week_n_1 [label=ARG1]
+	focus_d -> _until_p [label=ARG2]
+	proper_q -> "named(Dinkins)" [label=BV]
+	compound -> "named(Dinkins)" [label=ARG1]
+	"_consider_v_1-fn.Categorization" -> "named(Dinkins)" [label="ARG3-fn.NotExist"]
+	"_consider_v_1-fn.Categorization" -> "_shoo-in_n_1" [label="ARG2-fn.Theme"]
+}

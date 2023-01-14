@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_work_v_on-fn.IN" -> _exchange_n_1 [label="ARG1-fn.Agent"]
+	compound -> _exchange_n_1 [label=ARG1]
+	"_such+a_q" -> _device_n_1 [label=BV]
+	compound -> "named(Chicago)" [label=ARG2]
+	"_work_v_on-fn.IN" -> _device_n_1 [label="ARG2-fn.Theme"]
+	proper_q -> "named(Chicago)" [label=BV]
+	_the_q -> _exchange_n_1 [label=BV]
+	_also_a_1 -> "_work_v_on-fn.IN" [label=ARG1]
+}

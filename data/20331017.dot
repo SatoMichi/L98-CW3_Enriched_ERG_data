@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _dollar_n_1 [label=ARG1]
+	udef_q -> _debt_n_1 [label=BV]
+	proper_q -> "named(Santa)" [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	proper_q -> "named(Fe)" [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	compound -> "named(Santa)" [label=ARG2]
+	"_have_v_1-fn.Commerce_collect" -> _dollar_n_1 [label="ARG2-fn.Goods"]
+	times -> "card(3.7)" [label=ARG2]
+	compound -> "named(Fe)" [label=ARG1]
+	"_have_v_1-fn.Commerce_collect" -> "named(Fe)" [label="ARG1-fn.Buyer"]
+	_also_a_1 -> "_have_v_1-fn.Commerce_collect" [label=ARG1]
+	_in_p -> _debt_n_1 [label=ARG2]
+	_in_p -> _dollar_n_1 [label=ARG1]
+}

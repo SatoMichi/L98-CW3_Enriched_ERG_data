@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> "named(Poles)" [label=BV]
+	"_engage_v_in-fn.NF" -> _commerce_n_1 [label="ARG3-fn.NotExist"]
+	udef_q -> _commerce_n_1 [label=BV]
+	"_engage_v_in-fn.NF" -> "named(Poles)" [label="ARG2-fn.NotExist"]
+	parg_d -> "named(Poles)" [label=ARG2]
+	parg_d -> "_engage_v_in-fn.NF" [label=ARG1]
+}

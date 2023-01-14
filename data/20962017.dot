@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _product_n_1 [label=BV]
+	def_explicit_q -> _agreement_n_1 [label=BV]
+	_other_a_1 -> _agreement_n_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	"_expire_v_1-fn.Death" -> _agreement_n_1 [label="ARG1-fn.NotExist"]
+	"_promote_v_1-fn.NF" -> _product_n_1 [label="ARG2-fn.Theme"]
+	poss -> _agreement_n_1 [label=ARG1]
+	_agreement_n_1 -> "_promote_v_1-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

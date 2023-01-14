@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_plan_n_1 -> _export_v_1 [label=ARG1]
+	"_lay_v_1-fn.Placing" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _plan_n_1 [label=BV]
+	"_signal_v_1-fn.NF" -> "_lay_v_1-fn.Placing" [label="ARG2-fn.Topic"]
+	_sometimes_a_1 -> "_signal_v_1-fn.NF" [label=ARG1]
+	_that_q_dem -> generic_entity [label=BV]
+	"_lay_v_1-fn.Placing" -> _plan_n_1 [label="ARG2-fn.Theme"]
+	udef_q -> _corn_n_1 [label=BV]
+	"_signal_v_1-fn.NF" -> generic_entity [label="ARG1-fn.Agent"]
+	_export_v_1 -> _corn_n_1 [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

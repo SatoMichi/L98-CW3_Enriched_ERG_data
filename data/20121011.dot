@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _swing_n_1 [label=BV]
+	compound -> _program_n_of [label=ARG2]
+	udef_q -> _program_n_of [label=BV]
+	"_create_v_1-fn.Creating" -> _swing_n_1 [label="ARG2-fn.Theme"]
+	pronoun_q -> pron [label=BV]
+	nominalization -> _trade_v_1 [label=ARG1]
+	"_create_v_1-fn.Creating" -> nominalization [label="ARG1-fn.Cause"]
+	compound -> nominalization [label=ARG1]
+	"_deviant/jj_u_unknown" -> _swing_n_1 [label=ARG1]
+	"_believe_v_1-fn.Opinion" -> "_create_v_1-fn.Creating" [label="ARG2-fn.NotExist"]
+	udef_q -> nominalization [label=BV]
+	"_believe_v_1-fn.Opinion" -> pron [label="ARG1-fn.NotExist"]
+}

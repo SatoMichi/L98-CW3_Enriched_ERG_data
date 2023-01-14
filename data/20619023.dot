@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _contribution_n_of [label=ARG2]
+	_ago_p -> _year_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _company_n_of [label="ARG1-fn.Agent"]
+	udef_q -> _year_n_1 [label=BV]
+	parg_d -> _make_v_1 [label=ARG1]
+	_make_v_1 -> _contribution_n_of [label=ARG2]
+	_political_a_1 -> _contribution_n_of [label=ARG1]
+	"_say_v_to-fn.IN" -> _make_v_1 [label="ARG2-fn.Topic"]
+	"card(5)" -> _year_n_1 [label=ARG1]
+	_the_q -> _contribution_n_of [label=BV]
+	_the_q -> _company_n_of [label=BV]
+	_ago_p -> _make_v_1 [label=ARG1]
+	"_more+than_a_1" -> _ago_p [label=ARG1]
+}

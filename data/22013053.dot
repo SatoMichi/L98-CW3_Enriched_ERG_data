@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_help_v_to-fn.Assistance" -> "_gain_v_1-fn.Change_of_quantity_of_possession" [label="ARG3-fn.Beneficiary"]
+	"_start_v_1-fn.Activity_start" -> "_build_v_1-fn.Building" [label="ARG1-fn.NotExist"]
+	_the_q -> _file_n_of [label=BV]
+	"_build_v_1-fn.Building" -> _file_n_of [label="ARG2-fn.Product"]
+	"_gain_v_1-fn.Change_of_quantity_of_possession" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _power_n_1 [label=BV]
+	"_build_v_1-fn.Building" -> pron [label="ARG1-fn.Agent"]
+	"_gain_v_1-fn.Change_of_quantity_of_possession" -> _power_n_1 [label="ARG2-fn.Theme"]
+	"_help_v_to-fn.Assistance" -> pron [label="ARG2-fn.Theme"]
+	"_help_v_to-fn.Assistance" -> _file_n_of [label="ARG1-fn.Agent"]
+	pronoun_q -> pron [label=BV]
+}

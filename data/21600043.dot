@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	with_p -> "_bolster_v_1-fn.Undergo_change" [label=ARG1]
+	"_bolster_v_1-fn.Undergo_change" -> _return_n_of [label="ARG2-fn.Final_category"]
+	udef_q -> _index_n_1 [label=BV]
+	udef_q -> _strategy_n_of [label=BV]
+	_return_n_of -> _fund_n_1 [label=ARG1]
+	with_p -> _strategy_n_of [label=ARG2]
+	"_be_v_there-fn.Needing" -> _strategy_n_of [label="ARG1-fn.Cognizer"]
+	compound -> _index_n_1 [label=ARG2]
+	udef_q -> _fund_n_1 [label=BV]
+	compound -> _fund_n_1 [label=ARG1]
+	_other_a_1 -> _strategy_n_of [label=ARG1]
+	_the_q -> _return_n_of [label=BV]
+	"much-many_a" -> _strategy_n_of [label=ARG1]
+}

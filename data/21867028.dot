@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(PLC)" [label=ARG1]
+	compound -> "named(Bank)" [label=ARG1]
+	udef_q -> "named_n(UK)" [label=BV]
+	proper_q -> "named(National)" [label=BV]
+	parenthetical -> "named(PLC)" [label=ARG1]
+	proper_q -> "named(Westminster)" [label=BV]
+	proper_q -> "named(PLC)" [label=BV]
+	compound -> "named(National)" [label=ARG2]
+	unknown -> "named(PLC)" [label=ARG]
+	parenthetical -> "named_n(UK)" [label=ARG2]
+	compound -> "named(Westminster)" [label=ARG1]
+	proper_q -> "named(Bank)" [label=BV]
+}

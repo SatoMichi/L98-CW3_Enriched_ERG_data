@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_be_v_id -> _market_n_1 [label=ARG2]
+	_this_q_dem -> generic_entity [label=BV]
+	_be_v_id -> generic_entity [label=ARG1]
+	_difficult_a_for -> _market_n_1 [label=ARG1]
+	"_involve_v_in-fn.NF" -> pron [label="ARG2-fn.NotExist"]
+	"_involve_v_in-fn.NF" -> _market_n_1 [label="ARG3-fn.NotExist"]
+	_the_q -> _market_n_1 [label=BV]
+	superl -> _difficult_a_for [label=ARG1]
+	parg_d -> pron [label=ARG2]
+	_concede_v_to -> pron [label=ARG1]
+	_colon_p_namely -> _be_v_id [label=ARG1]
+	_concede_v_to -> _colon_p_namely [label=ARG2]
+	parg_d -> "_involve_v_in-fn.NF" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

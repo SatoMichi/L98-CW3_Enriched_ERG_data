@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_complex_a_1 -> _interaction_n_with [label=ARG1]
+	udef_q -> _health_n_1 [label=BV]
+	"_sweep_v_1-fn.Change_position_on_a_scale" -> _generalization_n_1 [label="ARG1-fn.Attribute"]
+	udef_q -> _generalization_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+	_between_p -> _interaction_n_with [label=ARG1]
+	"_as+to_p" -> _generalization_n_1 [label=ARG1]
+	_the_q -> _interaction_n_with [label=BV]
+	udef_q -> _or_c [label=BV]
+	"_defy_v_1-fn.Relative_time" -> _generalization_n_1 [label="ARG2-fn.Landmark_occasion"]
+	"_as+to_p" -> _or_c [label=ARG2]
+	subord -> "_defy_v_1-fn.Relative_time" [label=ARG2]
+	udef_q -> _homelessness_n_1 [label=BV]
+	_between_p -> _and_c [label=ARG2]
+	subord -> _complex_a_1 [label=ARG1]
+}

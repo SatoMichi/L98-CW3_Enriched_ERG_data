@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_sudden_a_1 -> "_begin_v_1-fn.Activity_start" [label=ARG1]
+	"_sway_v_1-fn.NF" -> _woman_n_1 [label="ARG1-fn.NotExist"]
+	"_writhe_v_1-fn.Body_movement" -> _woman_n_1 [label="ARG1-fn.NotExist"]
+	_the_q -> _woman_n_1 [label=BV]
+	"_begin_v_1-fn.Activity_start" -> "_and+then_c" [label="ARG1-fn.NotExist"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	comp -> _small_a_1 [label=ARG1]
+	_of_p -> _bank_n_of [label=ARG2]
+	udef_q -> _bank_n_of [label=BV]
+	loc_nonsp -> "card(1.97)" [label=ARG2]
+	_the_q -> _index_n_1 [label=BV]
+	"_improve_v_1-fn.Cause_to_end" -> _index_n_1 [label="ARG1-fn.Process"]
+	_small_a_1 -> _bank_n_of [label=ARG1]
+	_of_p -> _index_n_1 [label=ARG1]
+	loc_nonsp -> "_improve_v_1-fn.Cause_to_end" [label=ARG1]
+	number_q -> "card(1.97)" [label=BV]
+}

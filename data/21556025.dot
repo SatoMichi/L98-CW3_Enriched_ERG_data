@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	_simple_a_1 -> _put_v_1 [label=ARG1]
+	with_p -> "_grow_v_1-fn.Undergo_change" [label=ARG1]
+	"_be_v_there-fn.Cause_to_end" -> _business_n_1 [label="ARG1-fn.Process"]
+	with_p -> _business_n_1 [label=ARG2]
+	parg_d -> _put_v_1 [label=ARG1]
+	_for_p -> _store_n_1 [label=ARG2]
+	_every_q -> _store_n_1 [label=BV]
+	subord -> neg [label=ARG1]
+	neg -> "_be_v_there-fn.Cause_to_end" [label=ARG1]
+	"_grow_v_1-fn.Undergo_change" -> _business_n_1 [label="ARG1-fn.Entity"]
+	_for_p -> _business_n_1 [label=ARG1]
+	subord -> _put_v_1 [label=ARG2]
+	_enough_q -> _business_n_1 [label=BV]
+}

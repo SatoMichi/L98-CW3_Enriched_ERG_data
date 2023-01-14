@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	_formal_a_1 -> _proposal_n_1 [label=ARG1]
+	"_make_v_1-fn.Rite" -> pron [label="ARG1-fn.Leader"]
+	pronoun_q -> pron [label=BV]
+	neg -> "_make_v_1-fn.Rite" [label=ARG1]
+	"_make_v_1-fn.Rite" -> _proposal_n_1 [label="ARG2-fn.Member"]
+	_a_q -> _proposal_n_1 [label=BV]
+}

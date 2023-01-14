@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	_from_p -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	_previous_a_1 -> _year_n_1 [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	_up_p -> _percent_n_of [label=ARG2]
+	_the_q -> _year_n_1 [label=BV]
+	_up_p -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	times -> "card(597.8)" [label=ARG2]
+	udef_q -> _sale_n_of [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _sale_n_of [label="ARG1-fn.Entity"]
+	_from_p -> _year_n_1 [label=ARG2]
+	"_be_v_id-fn.Name_conferral" -> _dollar_n_1 [label="ARG2-fn.Name"]
+	"card(2.4)" -> _percent_n_of [label=ARG1]
+}

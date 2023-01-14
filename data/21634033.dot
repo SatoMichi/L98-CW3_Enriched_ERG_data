@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_some_q -> _movie_n_of [label=BV]
+	"_hurt_v_1-fn.Competition" -> _movie_n_of [label="ARG2-fn.Participant_2"]
+	parg_d -> _movie_n_of [label=ARG2]
+	"_hurt_v_1-fn.Competition" -> "_inattention/nn_u_unknown" [label="ARG1-fn.Participant_1"]
+	def_explicit_q -> "_inattention/nn_u_unknown" [label=BV]
+	"_seem_v_to-fn.Cause_to_end" -> "_hurt_v_1-fn.Competition" [label="ARG2-fn.Means"]
+	poss -> "_inattention/nn_u_unknown" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	parg_d -> "_hurt_v_1-fn.Competition" [label=ARG1]
+}

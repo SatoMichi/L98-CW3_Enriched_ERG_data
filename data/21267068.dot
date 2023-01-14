@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> person [label=ARG2]
+	"_divorce_v_1-fn.Forming_relationships" -> person [label="ARG2-fn.Co-Agent"]
+	_recent_a_1 -> _or_c [label=ARG1]
+	ellipsis_ref -> person [label=ARG1]
+	_some_q -> person [label=BV]
+	parg_d -> "_widow_v_1-fn.Personal_relationship" [label=ARG1]
+	parg_d -> "_divorce_v_1-fn.Forming_relationships" [label=ARG1]
+	_would_v_modal -> ellipsis_ref [label=ARG1]
+	_so_a_1 -> _would_v_modal [label=ARG1]
+	"_widow_v_1-fn.Personal_relationship" -> person [label="ARG2-fn.Theme"]
+}

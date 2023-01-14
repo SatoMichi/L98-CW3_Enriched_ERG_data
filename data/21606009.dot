@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_regain_v_1-fn.Commerce_collect" [label=ARG2]
+	parg_d -> _revenue_n_1 [label=ARG2]
+	"_regain_v_1-fn.Commerce_collect" -> _revenue_n_1 [label="ARG2-fn.Goods"]
+	parg_d -> "_regain_v_1-fn.Commerce_collect" [label=ARG1]
+	focus_d -> "_add_v_to-fn.Cause_to_end" [label=ARG1]
+	_current_a_1 -> _period_n_of [label=ARG1]
+	_the_q -> _period_n_of [label=BV]
+	_the_q -> _revenue_n_1 [label=BV]
+	"_add_v_to-fn.Cause_to_end" -> "_regain_v_1-fn.Commerce_collect" [label="ARG2-fn.Means"]
+	_in_p -> "_regain_v_1-fn.Commerce_collect" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_in_p -> _period_n_of [label=ARG2]
+	"_add_v_to-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

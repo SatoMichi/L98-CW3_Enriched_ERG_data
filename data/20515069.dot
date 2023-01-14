@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> "_castor-/nn_u_unknown" [label=BV]
+	compound -> "_castor-/nn_u_unknown" [label=ARG2]
+	compound -> _seed_n_1 [label=ARG1]
+	"_plant_v_1-fn.IN" -> _seed_n_1 [label="ARG2-fn.Theme"]
+	compound -> _oil_n_1 [label=ARG1]
+	"_plant_v_1-fn.IN" -> pron [label="ARG1-fn.Agent"]
+	udef_q -> _seed_n_1 [label=BV]
+	_maybe_a_1 -> "_plant_v_1-fn.IN" [label=ARG1]
+	udef_q -> _oil_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+}

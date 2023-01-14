@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _ink_n_1 [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _ink_n_1 [label="ARG1-fn.Entity"]
+	focus_d -> _in_p_state [label=ARG2]
+	_very_a_1 -> _black_a_1 [label=ARG1]
+	_case_n_of -> _and_c [label=ARG1]
+	_in_p_state -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	udef_q -> _and_c [label=BV]
+	_very_x_deg -> _very_a_1 [label=ARG1]
+	proper_q -> "named(Peter)" [label=BV]
+	_in_p_state -> _case_n_of [label=ARG2]
+	proper_q -> "named(Jon)" [label=BV]
+	_the_q -> _case_n_of [label=BV]
+	"_be_v_id-fn.Name_conferral" -> _black_a_1 [label="ARG2-fn.Name"]
+	focus_d -> "_be_v_id-fn.Name_conferral" [label=ARG1]
+	udef_q -> _black_a_1 [label=BV]
+}

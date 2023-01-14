@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	udef_q -> _firm_n_1 [label=BV]
+	"_follow_v_1-fn.Cotheme" -> _path_n_1 [label="ARG2-fn.Theme"]
+	compound -> _management_n_1 [label=ARG2]
+	_at_p -> _firm_n_1 [label=ARG2]
+	udef_q -> _law_n_1 [label=BV]
+	compound -> _career_n_1 [label=ARG2]
+	_a_q -> _path_n_1 [label=BV]
+	udef_q -> _management_n_1 [label=BV]
+	_even_a_1 -> _at_p [label=ARG1]
+	_pay_v_1 -> "_follow_v_1-fn.Cotheme" [label=ARG1]
+	compound -> _path_n_1 [label=ARG1]
+	udef_q -> _career_n_1 [label=BV]
+	compound -> _firm_n_1 [label=ARG1]
+	_at_p -> "_follow_v_1-fn.Cotheme" [label=ARG1]
+	compound -> _law_n_1 [label=ARG2]
+}

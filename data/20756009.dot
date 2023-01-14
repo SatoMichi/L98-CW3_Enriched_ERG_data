@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	_economic_a_1 -> _idea_n_of [label=ARG1]
+	_the_q -> _document_n_1 [label=BV]
+	_current_a_1 -> "_policy_n_of-on" [label=ARG1]
+	_in_p -> _idea_n_of [label=ARG1]
+	_the_q -> _idea_n_of [label=BV]
+	comp -> "_policy_n_of-on" [label=ARG2]
+	_much_x_deg -> comp [label=ARG1]
+	udef_q -> "_policy_n_of-on" [label=BV]
+	_in_p -> _document_n_1 [label=ARG2]
+	_bold_a_1 -> _idea_n_of [label=ARG1]
+	comp -> _bold_a_1 [label=ARG1]
+}

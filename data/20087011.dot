@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	_like_p -> _capital_n_1 [label=ARG2]
+	_regulatory_a_1 -> _capital_n_1 [label=ARG1]
+	_like_p -> unknown [label=ARG1]
+	udef_q -> _capital_n_1 [label=BV]
+	_healthy_a_1 -> _capital_n_1 [label=ARG1]
+}

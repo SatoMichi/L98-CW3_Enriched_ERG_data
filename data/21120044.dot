@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_in_p -> _denomination_n_1 [label=ARG2]
+	_no_x_deg -> comp [label=ARG1]
+	_long_a_1 -> _price_n_of [label=ARG1]
+	_of_p -> _or_c [label=ARG2]
+	udef_q -> _price_n_of [label=BV]
+	udef_q -> _or_c [label=BV]
+	proper_q -> "yofc(100)" [label=BV]
+	"_all+of+a+sudden_a_1" -> _long_a_1 [label=ARG1]
+	_of_p -> _denomination_n_1 [label=ARG1]
+	focus_d -> _long_a_1 [label=ARG1]
+	udef_q -> _denomination_n_1 [label=BV]
+	_in_p -> _long_a_1 [label=ARG1]
+	comp -> _long_a_1 [label=ARG1]
+	number_q -> "card(200)" [label=BV]
+}

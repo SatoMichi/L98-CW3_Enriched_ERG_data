@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(YALE)" [label=ARG2]
+	"_pay_v_for-fn.Receiving" -> "named(UNION)" [label="ARG1-fn.Recipient"]
+	"_pay_v_for-fn.Receiving" -> "_honorarium/nn_u_unknown" [label="ARG2-fn.Donor"]
+	"_pay_v_for-fn.Receiving" -> _speaker_n_1 [label="ARG3-fn.Theme"]
+	udef_q -> _speaker_n_1 [label=BV]
+	compound -> "named(POLITICAL)" [label=ARG1]
+	_the_q -> "named(UNION)" [label=BV]
+	neg -> "_pay_v_for-fn.Receiving" [label=ARG1]
+	compound -> "named(UNION)" [label=ARG1]
+	_a_q -> "_honorarium/nn_u_unknown" [label=BV]
+	proper_q -> "named(YALE)" [label=BV]
+	proper_q -> "named(POLITICAL)" [label=BV]
+}

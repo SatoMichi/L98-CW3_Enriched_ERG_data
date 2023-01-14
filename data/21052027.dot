@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_colon_p_namely -> "_listen_v_to-fn.Needing" [label=ARG1]
+	"_sum_v_up-fn.Relative_time" -> pron [label="ARG2-fn.Landmark_occasion"]
+	_as_x_subord -> _colon_p_namely [label=ARG1]
+	"_listen_v_to-fn.Needing" -> _market_n_1 [label="ARG2-fn.Requirement"]
+	"_listen_v_to-fn.Needing" -> pron [label="ARG1-fn.Cognizer"]
+	_the_q -> _market_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	_as_x_subord -> "_sum_v_up-fn.Relative_time" [label=ARG2]
+}

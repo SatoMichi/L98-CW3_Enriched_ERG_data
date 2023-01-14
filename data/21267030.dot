@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> "named(Zoeller)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_can_v_modal -> _effective_a_1 [label=ARG1]
+	"_acknowledge_v_to-fn.Statement" -> "named(Zoeller)" [label="ARG1-fn.Agent"]
+	proper_q -> "named(Zoeller)" [label=BV]
+	_very_x_deg -> _effective_a_1 [label=ARG1]
+	_effective_a_1 -> _consultant_n_1 [label=ARG1]
+	"_acknowledge_v_to-fn.Statement" -> _can_v_modal [label="ARG2-fn.Topic"]
+	_also_a_1 -> "_acknowledge_v_to-fn.Statement" [label=ARG1]
+	compound -> _mister_n_1 [label=ARG2]
+	udef_q -> _consultant_n_1 [label=BV]
+}

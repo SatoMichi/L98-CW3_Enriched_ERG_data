@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_about_p -> _technique_n_1 [label=ARG2]
+	subord -> "_squeamish/jj_u_unknown" [label=ARG2]
+	"_seem_v_to-fn.Cause_to_end" -> _tentative_a_1 [label="ARG2-fn.Means"]
+	_tentative_a_1 -> _producer_n_of [label=ARG1]
+	_the_q -> _technique_n_1 [label=BV]
+	"_seem_v_to-fn.Cause_to_end" -> _producer_n_of [label="ARG1-fn.Process"]
+	_about_p -> _tentative_a_1 [label=ARG1]
+	_some_q -> _producer_n_of [label=BV]
+	subord -> "_seem_v_to-fn.Cause_to_end" [label=ARG1]
+	_even_a_1 -> "_squeamish/jj_u_unknown" [label=ARG1]
+}

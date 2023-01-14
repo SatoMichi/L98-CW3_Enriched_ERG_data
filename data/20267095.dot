@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	"_confident_a_of-about" -> _return_v_1 [label=ARG2]
+	_to_p -> _return_v_1 [label=ARG1]
+	poss -> pron [label=ARG2]
+	_the_q -> _judge_n_of [label=BV]
+	def_explicit_q -> _bench_n_1 [label=BV]
+	"_confident_a_of-about" -> pron [label=ARG1]
+	"_say_v_to-fn.IN" -> "_confident_a_of-about" [label="ARG2-fn.NotExist"]
+	_to_p -> _bench_n_1 [label=ARG2]
+	"_say_v_to-fn.IN" -> _judge_n_of [label="ARG1-fn.NotExist"]
+	poss -> _bench_n_1 [label=ARG1]
+	_return_v_1 -> pron [label=ARG1]
+	_old_a_1 -> _bench_n_1 [label=ARG1]
+	pronoun_q -> pron [label=BV]
+}

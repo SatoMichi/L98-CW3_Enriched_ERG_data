@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> _be_v_id [label=ARG2]
+	proper_q -> "named(Carew)" [label=BV]
+	compound -> "named(Carew)" [label=ARG1]
+	udef_q -> _mister_n_1 [label=BV]
+	_this_q_dem -> generic_entity [label=BV]
+	_ethnic_a_1 -> _style_n_of [label=ARG1]
+	_be_v_id -> generic_entity [label=ARG1]
+	_personal_a_1 -> _style_n_of [label=ARG1]
+	_very_x_deg -> _personal_a_1 [label=ARG1]
+	_be_v_id -> _style_n_of [label=ARG2]
+	_a_q -> _style_n_of [label=BV]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	compound -> _mister_n_1 [label=ARG2]
+	focus_d -> "_say_v_to-fn.IN" [label=ARG1]
+	"_say_v_to-fn.IN" -> "named(Carew)" [label="ARG1-fn.Agent"]
+}

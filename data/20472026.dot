@@ -1,0 +1,10 @@
+digraph {
+	node [shape=circle style=filled]
+	"_of+course_a_1" -> "_be_v_there-fn.Needing" [label=ARG1]
+	_the_q -> _situation_n_1 [label=BV]
+	"_be_v_there-fn.Needing" -> _situation_n_1 [label="ARG1-fn.Cognizer"]
+	udef_q -> _labor_n_1 [label=BV]
+	_unsteady_a_1 -> _situation_n_1 [label=ARG1]
+	compound -> _labor_n_1 [label=ARG2]
+	compound -> _situation_n_1 [label=ARG1]
+}

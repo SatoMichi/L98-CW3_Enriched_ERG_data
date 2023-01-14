@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(Carnival)" [label=BV]
+	_a_q -> _shareholder_n_1 [label=BV]
+	"_say_v_to-fn.IN" -> "named(Carnival)" [label="ARG1-fn.Agent"]
+	"card(11)" -> _percent_n_of [label=ARG1]
+	_new_a_1 -> _company_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	compound -> _shareholder_n_1 [label=ARG1]
+	compound -> _percent_n_of [label=ARG2]
+	_be_v_id -> pron [label=ARG1]
+	_be_v_id -> _shareholder_n_1 [label=ARG2]
+	_the_q -> _company_n_of [label=BV]
+	"_say_v_to-fn.IN" -> _be_v_id [label="ARG2-fn.Topic"]
+	_in_p -> _shareholder_n_1 [label=ARG1]
+	_in_p -> _company_n_of [label=ARG2]
+	pronoun_q -> pron [label=BV]
+}

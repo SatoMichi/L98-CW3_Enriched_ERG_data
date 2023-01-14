@@ -1,0 +1,8 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_itcleft-fn.Quitting" -> _important_a_for [label="ARG2-fn.Employer"]
+	_the_q -> _relationship_n_of [label=BV]
+	_important_a_for -> _relationship_n_of [label=ARG1]
+	"_be_v_itcleft-fn.Quitting" -> _relationship_n_of [label="ARG1-fn.Employee"]
+	_total_a_1 -> _relationship_n_of [label=ARG1]
+}

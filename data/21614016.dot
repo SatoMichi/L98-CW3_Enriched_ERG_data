@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	parg_d -> _loan_n_1 [label=ARG2]
+	proper_q -> "mofy(Sep)" [label=BV]
+	_in_p_temp -> "_make_v_1-fn.Competition" [label=ARG1]
+	_to_p -> "named(UMNO)" [label=ARG2]
+	_to_p -> _loan_n_1 [label=ARG1]
+	parg_d -> "_make_v_1-fn.Competition" [label=ARG1]
+	proper_q -> "named(UMNO)" [label=BV]
+	"_make_v_1-fn.Competition" -> _loan_n_1 [label="ARG2-fn.Participant_2"]
+	proper_q -> "yofc(1983)" [label=BV]
+	_the_q -> _loan_n_1 [label=BV]
+	loc_nonsp -> "yofc(1983)" [label=ARG2]
+	loc_nonsp -> "mofy(Sep)" [label=ARG1]
+	_in_p_temp -> "mofy(Sep)" [label=ARG2]
+}

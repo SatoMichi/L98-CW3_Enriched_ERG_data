@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	_really_a_1 -> "_end_v_cause-fn.Cause_to_end" [label=ARG1]
+	_never_a_1 -> _really_a_1 [label=ARG1]
+	_a_q -> _process_n_of [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> _process_n_of [label="ARG2-fn.Means"]
+	"_end_v_cause-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	pronoun_q -> pron [label=BV]
+	"_end_v_cause-fn.Cause_to_end" -> _process_n_of [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+}

@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	_cool_v_off -> _market_n_1 [label=ARG1]
+	compound -> _and_c [label=ARG2]
+	udef_q -> _bond_n_1 [label=BV]
+	udef_q -> _stock_n_1 [label=BV]
+	_the_q -> _dollar_n_1 [label=BV]
+	"_slump_v_1-fn.NF" -> _dollar_n_1 [label="ARG1-fn.NotExist"]
+	compound -> _market_n_1 [label=ARG1]
+	"_frenetic/jj_u_unknown" -> _market_n_1 [label=ARG1]
+	_the_q -> _market_n_1 [label=BV]
+	udef_q -> _and_c [label=BV]
+}

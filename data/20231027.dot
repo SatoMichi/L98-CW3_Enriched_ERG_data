@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(1000000000)" -> _yen_n_2 [label=ARG1]
+	"_fall_v_1-fn.Halt" -> _balance_n_of [label="ARG1-fn.Purpose"]
+	times -> "card(779.8)" [label=ARG2]
+	_to_p -> _yen_n_2 [label=ARG2]
+	_balance_n_of -> _position_n_of [label=ARG1]
+	_the_q -> _balance_n_of [label=BV]
+	times -> "card(1000000000)" [label=ARG3]
+	_short_a_of -> _position_n_of [label=ARG1]
+	loc_nonsp -> _yen_n_2 [label=ARG2]
+	times -> "card(159.7)" [label=ARG2]
+	_outstanding_a_1 -> _position_n_of [label=ARG1]
+	_to_p -> "_fall_v_1-fn.Halt" [label=ARG1]
+	loc_nonsp -> "_fall_v_1-fn.Halt" [label=ARG1]
+	udef_q -> _position_n_of [label=BV]
+	udef_q -> _yen_n_2 [label=BV]
+}

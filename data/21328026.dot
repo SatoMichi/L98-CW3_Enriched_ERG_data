@@ -1,0 +1,12 @@
+digraph {
+	node [shape=circle style=filled]
+	"_rule_v_out-fn.Impact" -> "named(Manville)" [label="ARG1-fn.Place"]
+	appos -> "named(Manville)" [label=ARG1]
+	neg -> "_rule_v_out-fn.Impact" [label=ARG1]
+	proper_q -> "named(Manville)" [label=BV]
+	_a_q -> nominalization [label=BV]
+	appos -> pron [label=ARG2]
+	pronoun_q -> pron [label=BV]
+	"_rule_v_out-fn.Impact" -> nominalization [label="ARG2-fn.Result"]
+	nominalization -> _restructure_v_1 [label=ARG1]
+}

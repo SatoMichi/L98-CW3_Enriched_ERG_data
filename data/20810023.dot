@@ -1,0 +1,14 @@
+digraph {
+	node [shape=circle style=filled]
+	"_be_v_id-fn.Name_conferral" -> _bank_n_of [label="ARG2-fn.Name"]
+	poss -> "named(Allianz)" [label=ARG2]
+	proper_q -> "named(Allianz)" [label=BV]
+	_french_a_1 -> _bank_n_of [label=ARG1]
+	proper_q -> "named(Paribas)" [label=BV]
+	def_explicit_q -> _bank_n_of [label=BV]
+	udef_q -> _lead_n_1 [label=BV]
+	compound -> _lead_n_1 [label=ARG2]
+	compound -> _bank_n_of [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> "named(Paribas)" [label="ARG1-fn.Entity"]
+	poss -> _bank_n_of [label=ARG1]
+}

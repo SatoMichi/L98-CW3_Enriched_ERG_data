@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"card(7.88)" -> _percent_n_of [label=ARG1]
+	udef_q -> _percent_n_of [label=BV]
+	udef_q -> _yield_n_1 [label=BV]
+	_on_p -> _issue_n_1 [label=ARG2]
+	"_be_v_id-fn.Cause_to_end" -> _percent_n_of [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> _yield_n_1 [label="ARG1-fn.Process"]
+	_on_p -> _yield_n_1 [label=ARG1]
+	_the_q -> _issue_n_1 [label=BV]
+}

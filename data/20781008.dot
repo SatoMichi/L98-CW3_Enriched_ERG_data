@@ -1,0 +1,16 @@
+digraph {
+	node [shape=circle style=filled]
+	focus_d -> "_say_v_to-fn.Surpassing" [label=ARG1]
+	neg -> "_affect_v_1-fn.Competition" [label=ARG1]
+	"_at+all_a_1" -> "_affect_v_1-fn.Competition" [label=ARG1]
+	"_affect_v_1-fn.Competition" -> _schedule_n_1 [label="ARG2-fn.Participant_2"]
+	poss -> _schedule_n_1 [label=ARG1]
+	focus_d -> "_affect_v_1-fn.Competition" [label=ARG2]
+	_these_q_dem -> _bug_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_affect_v_1-fn.Competition" -> _bug_n_1 [label="ARG1-fn.Participant_1"]
+	def_explicit_q -> _schedule_n_1 [label=BV]
+	poss -> pron [label=ARG2]
+	"_say_v_to-fn.Surpassing" -> pron [label="ARG1-fn.Standard_item"]
+	"_say_v_to-fn.Surpassing" -> neg [label="ARG2-fn.Profiled_item"]
+}

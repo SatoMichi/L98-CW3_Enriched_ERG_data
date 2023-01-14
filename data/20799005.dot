@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	loc_nonsp -> "_plunge_v_into-fn.Attack" [label=ARG1]
+	times -> "card(1000000)" [label=ARG3]
+	udef_q -> _percent_n_of [label=BV]
+	"_plunge_v_into-fn.Attack" -> _earnings_n_1 [label="ARG1-fn.Victim"]
+	"card(70)" -> _percent_n_of [label=ARG1]
+	_to_p -> _dollar_n_1 [label=ARG2]
+	poss -> "named(Iverson)" [label=ARG2]
+	_to_p -> "_plunge_v_into-fn.Attack" [label=ARG1]
+	def_explicit_q -> _earnings_n_1 [label=BV]
+	udef_q -> _dollar_n_1 [label=BV]
+	proper_q -> "named(Iverson)" [label=BV]
+	poss -> _earnings_n_1 [label=ARG1]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	times -> "card(1.2)" [label=ARG2]
+	loc_nonsp -> _percent_n_of [label=ARG2]
+}

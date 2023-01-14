@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	proper_q -> "named(British)" [label=BV]
+	compound -> "named(British)" [label=ARG2]
+	proper_q -> "named(Air)" [label=BV]
+	"_say_v_to-fn.Taking" -> _spokesman_n_1 [label="ARG1-fn.Agent"]
+	"_be_v_id-fn.Name_conferral" -> _rubbish_n_1 [label="ARG2-fn.Name"]
+	compound -> _spokesman_n_1 [label=ARG1]
+	"_say_v_to-fn.Taking" -> "_be_v_id-fn.Name_conferral" [label="ARG2-fn.Theme"]
+	compound -> "named(Air)" [label=ARG1]
+	"_be_v_id-fn.Name_conferral" -> _story_n_of [label="ARG1-fn.Entity"]
+	focus_d -> "_say_v_to-fn.Taking" [label=ARG1]
+	udef_q -> _rubbish_n_1 [label=BV]
+	_the_q -> _story_n_of [label=BV]
+	focus_d -> "_be_v_id-fn.Name_conferral" [label=ARG2]
+	_a_q -> _spokesman_n_1 [label=BV]
+}

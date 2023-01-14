@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_the_q -> _change_n_of [label=BV]
+	ellipsis_ref -> _change_n_of [label=ARG1]
+	compound -> _change_n_of [label=ARG1]
+	udef_q -> _percentage_n_of [label=BV]
+	_since_p -> ellipsis_ref [label=ARG1]
+	udef_q -> "_year+end_n_1" [label=BV]
+	_since_p -> "_year+end_n_1" [label=ARG2]
+	compound -> _percentage_n_of [label=ARG2]
+}

@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	_golden_a_1 -> _share_n_of [label=ARG1]
+	"_be_v_id-fn.Cause_to_end" -> _share_n_of [label="ARG2-fn.Means"]
+	_a_q -> _share_n_of [label=BV]
+	_magic_a_1 -> _share_n_of [label=ARG1]
+	_single_a_1 -> _share_n_of [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	"_be_v_id-fn.Cause_to_end" -> pron [label="ARG1-fn.Process"]
+	_the_q -> _share_n_of [label=BV]
+}

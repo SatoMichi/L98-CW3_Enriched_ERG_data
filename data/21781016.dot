@@ -1,0 +1,17 @@
+digraph {
+	node [shape=circle style=filled]
+	_up_p -> "_finish_v_1-fn.Halt" [label=ARG1]
+	"_finish_v_1-fn.Halt" -> "named(NatWest)" [label="ARG1-fn.Purpose"]
+	"_trade_v_1-fn.Change_position_on_a_scale" -> "named(NatWest)" [label="ARG2-fn.Item"]
+	_at_p -> "card(300)" [label=ARG2]
+	parg_d -> "named(NatWest)" [label=ARG2]
+	_the_q -> _bank_n_of [label=BV]
+	number_q -> "card(1)" [label=BV]
+	parg_d -> "_trade_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	number_q -> "card(300)" [label=BV]
+	_up_p -> "card(1)" [label=ARG2]
+	proper_q -> "named(NatWest)" [label=BV]
+	_active_a_1 -> "_trade_v_1-fn.Change_position_on_a_scale" [label=ARG1]
+	_at_p -> "_finish_v_1-fn.Halt" [label=ARG1]
+	superl -> _active_a_1 [label=ARG1]
+}

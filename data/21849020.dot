@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_decide_v_1-fn.Rite" -> _market_n_1 [label="ARG1-fn.Leader"]
+	"_decide_v_1-fn.Rite" -> thing [label="ARG2-fn.Member"]
+	"_be_v_id-fn.Cause_to_end" -> thing [label="ARG2-fn.Means"]
+	"_be_v_id-fn.Cause_to_end" -> generic_entity [label="ARG1-fn.Process"]
+	free_relative_q -> thing [label=BV]
+	_the_q -> _market_n_1 [label=BV]
+	_indeed_a_1 -> "_be_v_id-fn.Cause_to_end" [label=ARG1]
+	_this_q_dem -> generic_entity [label=BV]
+}

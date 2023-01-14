@@ -1,0 +1,13 @@
+digraph {
+	node [shape=circle style=filled]
+	"much-many_a" -> generic_entity [label=ARG1]
+	"_illuminate_v_1-fn.Relative_time" -> generic_entity [label="ARG2-fn.Landmark_occasion"]
+	"_obscure_v_1-fn.Competition" -> _device_n_1 [label="ARG1-fn.Participant_1"]
+	"_illuminate_v_1-fn.Relative_time" -> pron [label="ARG1-fn.Focal_occasion"]
+	udef_q -> generic_entity [label=BV]
+	_the_q -> _device_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	"_obscure_v_1-fn.Competition" -> generic_entity [label="ARG2-fn.Participant_2"]
+	comp -> "much-many_a" [label=ARG1]
+	comp -> "_illuminate_v_1-fn.Relative_time" [label=ARG2]
+}

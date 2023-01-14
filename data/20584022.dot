@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_think_v_1-fn.Attempt_suasion" -> pron [label="ARG1-fn.Content"]
+	_at_p -> _point_n_of [label=ARG2]
+	_yet_a_1 -> _at_p [label=ARG1]
+	"_think_v_1-fn.Attempt_suasion" -> _at_p [label="ARG2-fn.Addressee"]
+	_at_p -> pron [label=ARG1]
+	neg -> "_think_v_1-fn.Attempt_suasion" [label=ARG1]
+	pronoun_q -> pron [label=BV]
+	_that_q_dem -> _point_n_of [label=BV]
+}

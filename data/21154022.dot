@@ -1,0 +1,15 @@
+digraph {
+	node [shape=circle style=filled]
+	def_explicit_q -> _voice_n_1 [label=BV]
+	"_wish_v_1-fn.Competition" -> "_could_v_modal-fn.Cause_to_end" [label="ARG2-fn.Participant_2"]
+	_in_p -> "_wear_v_1-fn.Competition" [label=ARG1]
+	"_wish_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+	"_could_v_modal-fn.Cause_to_end" -> "_wear_v_1-fn.Competition" [label="ARG1-fn.Process"]
+	_in_p -> _voice_n_1 [label=ARG2]
+	"_wear_v_1-fn.Competition" -> _lift_n_1 [label="ARG2-fn.Participant_2"]
+	poss -> _voice_n_1 [label=ARG1]
+	udef_q -> _lift_n_1 [label=BV]
+	pronoun_q -> pron [label=BV]
+	poss -> pron [label=ARG2]
+	"_wear_v_1-fn.Competition" -> pron [label="ARG1-fn.Participant_1"]
+}

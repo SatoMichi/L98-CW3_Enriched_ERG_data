@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle style=filled]
+	_other_a_1 -> _problem_n_of [label=ARG1]
+	udef_q -> _money_n_1 [label=BV]
+	"_see_v_1-fn.Grasp" -> _problem_n_of [label="ARG2-fn.Stimulus"]
+	compound -> _manager_n_of [label=ARG1]
+	compound -> _money_n_1 [label=ARG2]
+	"_see_v_1-fn.Grasp" -> _and_c [label="ARG1-fn.Experiencer"]
+	_beyond_p_state -> generic_entity [label=ARG2]
+	focus_d -> "_see_v_1-fn.Grasp" [label=ARG1]
+	udef_q -> _problem_n_of [label=BV]
+	_that_q_dem -> generic_entity [label=BV]
+	udef_q -> _and_c [label=BV]
+	udef_q -> _analyst_n_1 [label=BV]
+	focus_d -> _beyond_p_state [label=ARG2]
+	udef_q -> _manager_n_of [label=BV]
+	_beyond_p_state -> "_see_v_1-fn.Grasp" [label=ARG1]
+}

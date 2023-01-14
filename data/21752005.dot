@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	"_react_v_to-fn.Cause_to_end" -> _news_n_of [label="ARG2-fn.Means"]
+	compound -> _stock_n_1 [label=ARG2]
+	_strong_a_1 -> "_react_v_to-fn.Cause_to_end" [label=ARG1]
+	"_react_v_to-fn.Cause_to_end" -> _market_n_1 [label="ARG1-fn.Process"]
+	_the_q -> _market_n_1 [label=BV]
+	compound -> _market_n_1 [label=ARG1]
+	udef_q -> _stock_n_1 [label=BV]
+	_the_q -> _news_n_of [label=BV]
+}

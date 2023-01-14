@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	times -> "card(1000000)" [label=ARG3]
+	"_be_v_id-fn.Residence" -> _refund_n_of [label="ARG1-fn.Resident"]
+	"_be_v_id-fn.Residence" -> _dollar_n_1 [label="ARG2-fn.Location"]
+	udef_q -> _dollar_n_1 [label=BV]
+	"card(1000000)" -> _dollar_n_1 [label=ARG1]
+	_about_x_deg -> udef_q [label=ARG1]
+	times -> "card(9)" [label=ARG2]
+	_the_q -> _refund_n_of [label=BV]
+}

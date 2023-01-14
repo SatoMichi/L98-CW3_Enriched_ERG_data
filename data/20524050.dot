@@ -1,0 +1,9 @@
+digraph {
+	node [shape=circle style=filled]
+	neg -> "_have_v_qmodal-fn.Cause_to_end" [label=ARG1]
+	"_be_v_id-fn.Residence" -> pron [label="ARG1-fn.Resident"]
+	pronoun_q -> pron [label=BV]
+	"_have_v_qmodal-fn.Cause_to_end" -> "_be_v_id-fn.Residence" [label="ARG1-fn.Process"]
+	_a_q -> _disaster_n_1 [label=BV]
+	"_be_v_id-fn.Residence" -> _disaster_n_1 [label="ARG2-fn.Location"]
+}

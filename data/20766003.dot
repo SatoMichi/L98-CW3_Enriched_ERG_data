@@ -1,0 +1,11 @@
+digraph {
+	node [shape=circle style=filled]
+	compound -> _side_n_1 [label=ARG2]
+	"_rip_v_1-fn.Halt" -> _porch_n_1 [label="ARG2-fn.Place"]
+	_away_p -> "_rip_v_1-fn.Halt" [label=ARG1]
+	parg_d -> "_rip_v_1-fn.Halt" [label=ARG1]
+	compound -> _porch_n_1 [label=ARG1]
+	udef_q -> _side_n_1 [label=BV]
+	parg_d -> _porch_n_1 [label=ARG2]
+	_a_q -> _porch_n_1 [label=BV]
+}
